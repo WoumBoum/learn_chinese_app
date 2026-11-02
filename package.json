@@ -1,0 +1,97 @@
+{
+  "name": "operation-mandarin",
+  "productName": "Operation Mandarin",
+  "version": "0.1.0",
+  "description": "Centre de formation au mandarin : SRS, missions vidéo, grammaire, tons, écriture.",
+  "author": "Operation Mandarin",
+  "license": "MIT",
+  "repository": "github:WoumBoum/learn_chinese_app",
+  "main": "dist/main/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "build:main": "node scripts/build-main.mjs",
+    "build:renderer": "vite build",
+    "build": "npm run build:main && npm run build:renderer",
+    "start": "npm run build && electron .",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p .",
+    "dist": "npm run build && electron-builder --linux AppImage --publish never",
+    "fetch-binaries": "bash scripts/fetch-binaries.sh",
+    "programme": "node scripts/gen-programme.mjs",
+    "fetch:bin": "bash scripts/fetch-binaries.sh && bash scripts/fetch-piper.sh",
+    "fetch:data": "bash scripts/fetch-data.sh"
+  },
+  "build": {
+    "appId": "app.operation-mandarin",
+    "productName": "Operation Mandarin",
+    "artifactName": "Operation-Mandarin-${version}-x86_64.AppImage",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/data",
+        "to": "data"
+      },
+      {
+        "from": "resources/bin",
+        "to": "bin"
+      },
+      {
+        "from": "content",
+        "to": "content",
+        "filter": [
+          "**/*.json"
+        ]
+      },
+      {
+        "from": "resources/icon.png",
+        "to": "icon.png"
+      }
+    ],
+    "asarUnpack": [
+      "**/*.wasm"
+    ],
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Education",
+      "icon": "resources/icon.png",
+      "syncDesktopName": true,
+      "executableName": "operation-mandarin"
+    },
+    "publish": null
+  },
+  "dependencies": {
+    "jieba-wasm": "^2.4.0",
+    "sql.js": "^1.15.2"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@fontsource/noto-sans-sc": "^5.3.1",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/sql.js": "^1.4.11",
+    "@vitejs/plugin-react": "^6.1.2",
+    "electron": "^45.2.0",
+    "electron-builder": "^26.18.0",
+    "esbuild": "^0.28.2",
+    "hanzi-writer": "^3.7.3",
+    "opencc-js": "^1.4.2",
+    "pinyin-pro": "^3.29.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "ts-fsrs": "^5.2.3",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  },
+  "desktopName": "operation-mandarin.desktop"
+}

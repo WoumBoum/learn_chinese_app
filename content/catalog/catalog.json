@@ -1,0 +1,1658 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-30",
+  "verificationNotes": "Chaînes et playlists vérifiées le 2026-10-30 via `yt-dlp --flat-playlist -J` (id, titre, durée, nombre d'abonnés). La vérification des pistes de sous-titres vidéo par vidéo (`yt-dlp --list-subs`) a été bloquée par YouTube (HTTP 429 / « Sign in to confirm you're not a bot ») : hasChineseSubs provient des descriptions de chaînes et de sources tierces, et hasChineseCC des starterVideos vaut null (inconnu). L'app doit lancer `yt-dlp --list-subs` au moment du téléchargement et basculer sur Whisper si aucune piste zh/zh-Hans/zh-CN n'existe. 'embedded' = texte chinois affiché à l'image (non extractible sans OCR).",
+  "sources": [
+    {
+      "id": "yoyo-chinese",
+      "name": "Yoyo Chinese",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@yoyochinese/videos",
+      "phases": [
+        0,
+        1
+      ],
+      "levelMin": 0,
+      "levelMax": 2,
+      "type": "prononciation",
+      "themes": [
+        "pinyin",
+        "tons",
+        "dialogues"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Série « Pinyin Lesson Series » (#1 à #22) idéale semaines 1-2, explications en anglais. Pinyin/caractères affichés à l'écran ; piste CC non vérifiée.",
+      "verified": true
+    },
+    {
+      "id": "yoyo-tone-pairs",
+      "name": "Yoyo Chinese – Mandarin Chinese Tone Pairs",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLioS_-8erSI2C9Nm4MkLsg5EMWLJMIo07",
+      "phases": [
+        0,
+        1
+      ],
+      "levelMin": 0,
+      "levelMax": 1,
+      "type": "prononciation",
+      "themes": [
+        "tons",
+        "paires de tons"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "4 longues vidéos (25-33 min) sur les combinaisons de tons ; à faire en shadowing pendant la phase 0.",
+      "verified": true
+    },
+    {
+      "id": "czh-tone-minimal-pairs",
+      "name": "Chinese Zero to Hero – Tone Minimal Pairs",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLLjttboWd256BrB2WY2b4vzechzlVJLQd",
+      "phases": [
+        0,
+        1
+      ],
+      "levelMin": 0,
+      "levelMax": 1,
+      "type": "prononciation",
+      "themes": [
+        "tons",
+        "paires minimales"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Exercices courts d'écoute discriminante des tons (paires minimales) : parfait pour entraîner l'oreille avant tout input.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-blueprint-pronunciation",
+      "name": "Mandarin Blueprint – Pronunciation and Tones",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL_T_LpTzhQ1iwZQMMYcyQtpt20HrcdglL",
+      "phases": [
+        0
+      ],
+      "levelMin": 0,
+      "levelMax": 1,
+      "type": "prononciation",
+      "themes": [
+        "prononciation",
+        "méthode"
+      ],
+      "hasChineseSubs": "none",
+      "notes": "Explications en anglais (pas d'input chinois) ; regarder « Mandarin Pronunciation: Everything You Need to Know in Under 1 Hour » en semaine 1.",
+      "verified": true
+    },
+    {
+      "id": "littlefox-pinyin",
+      "name": "Little Fox Chinese – Learn Chinese for Beginners (Pinyin)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLZ27m2K2W5n6qRBSinC77Ff_qVWft3GRX",
+      "phases": [
+        0,
+        1
+      ],
+      "levelMin": 0,
+      "levelMax": 1,
+      "type": "prononciation",
+      "themes": [
+        "pinyin",
+        "chansons",
+        "tons"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Chansons et comptines du pinyin (initiales, finales, tons) pour enfants : très répétitif, bon pour mémoriser les sons.",
+      "verified": true
+    },
+    {
+      "id": "chinesepod-tone-change",
+      "name": "ChinesePod – Tone Change Series (Elementary)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL2pHdzrcvbMhmCH-LNRm_OXCBxrJg3XUt",
+      "phases": [
+        0,
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "prononciation",
+      "themes": [
+        "sandhi",
+        "dialogues"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Mini-dialogues illustrant les changements de ton (不, 一, 3e ton) ; en fin de phase 0 ou début de phase 1.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-click",
+      "name": "Mandarin Click",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@MandarinClick/videos",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 4,
+      "type": "histoire",
+      "themes": [
+        "vie quotidienne",
+        "histoires",
+        "podcast"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Histoires graduées 100 % en chinois, voix native claire, versions avec/sans pinyin. Source n°1 pour les phases 1-2 : utiliser les playlists par niveau ci-dessous.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-click-hsk1-ci",
+      "name": "Mandarin Click – HSK 1 Comprehensible Input Stories",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLyR35boSO5qfUwk3K0mLAQQ7RX243_5GW",
+      "phases": [
+        1
+      ],
+      "levelMin": 1,
+      "levelMax": 1,
+      "type": "histoire",
+      "themes": [
+        "famille",
+        "amis",
+        "courses"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "4 histoires de ~3-4 min au vocabulaire HSK1 strict : premières vidéos d'input à partir de la semaine 3.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-click-newcomer",
+      "name": "Mandarin Click – Slow Chinese Stories (Newcomer – HSK 1/2)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLyR35boSO5qenn02oG-R0AD5jddQJ7Z3C",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "histoire",
+      "themes": [
+        "vie quotidienne",
+        "routine"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "16 histoires lentes de 2-5 min ; idéal pour la fin de phase 1.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-click-course-hsk1",
+      "name": "Mandarin Click – Mandarin Chinese Course [New HSK 1]",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLyR35boSO5qflrqXYkem4glNkNaQ7Gah8",
+      "phases": [
+        1
+      ],
+      "levelMin": 1,
+      "levelMax": 1,
+      "type": "dialogue",
+      "themes": [
+        "grammaire",
+        "dialogues"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "21 leçons courtes (dialogues + histoire) par point de grammaire HSK1 ; à aligner avec le module de grammaire de l'app.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-click-hsk2-ci",
+      "name": "Mandarin Click – HSK 2 Comprehensible Input Stories",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLyR35boSO5qfMnhO4dkzsQb3pw4WZyq2M",
+      "phases": [
+        2
+      ],
+      "levelMin": 2,
+      "levelMax": 2,
+      "type": "histoire",
+      "themes": [
+        "santé",
+        "travail",
+        "famille"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "5 histoires HSK2 de ~3-4 min pour l'entrée en phase 2.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-click-beginner-hsk23",
+      "name": "Mandarin Click – Slow Chinese Stories (Beginner – HSK 2/3)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLyR35boSO5qfag8q2zc9qzGGTkuYIOty3",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 3,
+      "type": "histoire",
+      "themes": [
+        "vie quotidienne"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Suite logique des histoires Newcomer pour la phase 2.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-click-podcast-hsk12",
+      "name": "Mandarin Click – HSK 1/2 Mandarin Chinese Podcast",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLyR35boSO5qfnhTocODoJfhIcwxOeBvSH",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "podcast",
+      "themes": [
+        "voyage"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Podcast lent très court (2 épisodes publics) ; les autres épisodes sont réservés aux membres.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-click-podcast-hsk23",
+      "name": "Mandarin Click – HSK 2/3 Mandarin Chinese Podcast",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLyR35boSO5qc_9pmseHXY3PO86Nc_V896",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 3,
+      "type": "podcast",
+      "themes": [
+        "vie quotidienne",
+        "logement"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Monologues lents de 5-10 min ; bon pont entre histoires et vrais podcasts.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-click-listening-tests",
+      "name": "Mandarin Click – Listening Tests (HSK 1-3)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLyR35boSO5qfAIlud1OM0OsDpvharVsjf",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 3,
+      "type": "dialogue",
+      "themes": [
+        "évaluation",
+        "tons"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Tests d'écoute (dont tons du pinyin) utilisables comme évaluations de fin de phase.",
+      "verified": true
+    },
+    {
+      "id": "storytime-in-chinese",
+      "name": "Storytime in Chinese (慢速中文故事)",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/channel/UCdX6-XWaxCWVDOzg5f7HQNA/videos",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 4,
+      "type": "histoire",
+      "themes": [
+        "vie quotidienne",
+        "histoires"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Histoires lentes HSK 1-2 → 4-5 avec explication du vocabulaire clé après l'histoire ; personnage récurrent Xiaoyu. Bonne alternative « Slow Chinese ».",
+      "verified": true
+    },
+    {
+      "id": "storytime-hsk12",
+      "name": "Storytime in Chinese – Slow Chinese Stories for HSK 1-2",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLHNdH-awBh4FzJ1ijIlYB48GTYtEduDAF",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "histoire",
+      "themes": [
+        "famille",
+        "courses",
+        "météo"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "31 histoires de 2-5 min ; à enchaîner après Mandarin Click HSK1.",
+      "verified": true
+    },
+    {
+      "id": "storytime-hsk23",
+      "name": "Storytime in Chinese – Slow Chinese Stories for HSK 2-3",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLHNdH-awBh4Gl9DqR6xfbJk59pegcU_5h",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 3,
+      "type": "histoire",
+      "themes": [
+        "vie quotidienne"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Niveau suivant pour la phase 2-3.",
+      "verified": true
+    },
+    {
+      "id": "lazy-chinese",
+      "name": "Lazy Chinese – Comprehensible Input (ex-Bumpy Chinese / Comprehensible Chinese, Suqing)",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/channel/UCjSFDgRCzh_1ZPhxChVgK7Q/videos",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 5,
+      "type": "histoire",
+      "themes": [
+        "conversation",
+        "culture",
+        "histoires"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Méthode CI/TPRS : la prof répète, reformule, dessine. Chaîne anciennement nommée Bumpy Chinese puis Comprehensible Chinese. Transcriptions sur lazychinese.com.",
+      "verified": true
+    },
+    {
+      "id": "lazy-chinese-complete-beginner",
+      "name": "Lazy Chinese – Complete beginner Chinese",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLjgH7-dte9OJ5TdYbxVeWSk-cU-l8szaw",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "dialogue",
+      "themes": [
+        "conversation",
+        "culture"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Conversations « super beginner » de 10-30 min ; plus longues mais très redondantes.",
+      "verified": true
+    },
+    {
+      "id": "lazy-chinese-beginner-stories",
+      "name": "Lazy Chinese – Beginner Chinese stories with comprehensible input + TPRS",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLjgH7-dte9OI70iliLciPVVYaNc3tJZKu",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 3,
+      "type": "histoire",
+      "themes": [
+        "histoires",
+        "société",
+        "voyage"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "43 épisodes débutant ; adapté à la phase 2 une fois ~800 mots acquis.",
+      "verified": true
+    },
+    {
+      "id": "lazy-chinese-podcast",
+      "name": "Lazy Chinese (podcast audio)",
+      "kind": "podcast_rss",
+      "url": "https://anchor.fm/s/843fa4ec/podcast/rss",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 5,
+      "type": "podcast",
+      "themes": [
+        "conversation",
+        "culture",
+        "société"
+      ],
+      "hasChineseSubs": "none",
+      "notes": "Flux RSS audio (235 épisodes) de la même chaîne ; pas de sous-titres → transcription Whisper. Titres préfixés par le niveau (Beginner/Intermediate).",
+      "verified": true
+    },
+    {
+      "id": "tingting-comprehensible-chinese",
+      "name": "Tingting Comprehensible Chinese",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@ComprehensibleChinese/videos",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 3,
+      "type": "histoire",
+      "themes": [
+        "histoires",
+        "cuisine",
+        "vie quotidienne"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Petite chaîne CI/TPRS (handle @ComprehensibleChinese, différente de Lazy Chinese) : histoires lentes avec gestes et images, conseil : 1er visionnage sans sous-titres.",
+      "verified": true
+    },
+    {
+      "id": "tingting-misadventures-mark",
+      "name": "Tingting – The Misadventures of Mark (Season 1)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL4lMAYU-3HlN_vfDobt28sNXR5QFDTuhM",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "histoire",
+      "themes": [
+        "travail",
+        "santé",
+        "café"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Série d'histoires super-débutant (HSK 1-2) avec un personnage récurrent.",
+      "verified": true
+    },
+    {
+      "id": "tingting-real-life-slow",
+      "name": "Tingting – Comprehensible Input: Real Life Slow Chinese (HSK 1-3)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL4lMAYU-3HlPoKkwUSParxrSOnbta6_t_",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 3,
+      "type": "vlog",
+      "themes": [
+        "cuisine",
+        "maison",
+        "vie quotidienne"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Vlogs lents (cuisine, ménage, sac) : l'image porte le sens, excellent input visuel.",
+      "verified": true
+    },
+    {
+      "id": "blabla-chinese",
+      "name": "BlaBla Chinese – Comprehensible Input",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@blablachinese7526/videos",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 4,
+      "type": "histoire",
+      "themes": [
+        "histoires",
+        "culture",
+        "conversation"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Playlists par niveau (Super Beginner / Beginner / Intermediate). Audios téléchargeables sur leur site pour les vidéos récentes.",
+      "verified": true
+    },
+    {
+      "id": "blabla-super-beginner",
+      "name": "BlaBla Chinese – SUPER BEGINNER | Comprehensible Input",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL-8uKDbZv3P2-mEiDnGNuHBhF3H1TOvPP",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "histoire",
+      "themes": [
+        "loisirs",
+        "bande dessinée"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "10 vidéos super-débutant (BD « père et fils », loisirs) avec dessins.",
+      "verified": true
+    },
+    {
+      "id": "blabla-100-stories",
+      "name": "BlaBla Chinese – 100 Chinese Stories Series [SUPER BEGINNER]",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL-8uKDbZv3P1-NZC6d8mFkzi7HPHGpBdr",
+      "phases": [
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "histoire",
+      "themes": [
+        "histoires",
+        "rencontres"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Épisodes de 15-28 min qui racontent une histoire en boucle (TPRS) ; pour la phase 2.",
+      "verified": true
+    },
+    {
+      "id": "blabla-hsk-stories",
+      "name": "BlaBla Chinese – Stories Follow HSK System",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL-8uKDbZv3P3IWhEXITr-5Jk_h-1SbREY",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 3,
+      "type": "histoire",
+      "themes": [
+        "histoires"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Histoires alignées sur le programme HSK.",
+      "verified": true
+    },
+    {
+      "id": "little-fox-chinese",
+      "name": "Little Fox Chinese – Stories & Songs for Learners",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@LittleFoxChinese/videos",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 4,
+      "type": "dessin_anime",
+      "themes": [
+        "histoires",
+        "chansons",
+        "contes"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Dessins animés éducatifs gradués (niveaux 1-5), texte chinois affiché. Commencer par « Who Am I? » et « Single Stories (Level 1) ».",
+      "verified": true
+    },
+    {
+      "id": "littlefox-level1-single",
+      "name": "Little Fox Chinese – Single Stories (Level 1)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLZ27m2K2W5n482DR1D3S6vVevzIZlym4m",
+      "phases": [
+        1
+      ],
+      "levelMin": 1,
+      "levelMax": 1,
+      "type": "dessin_anime",
+      "themes": [
+        "notions de base",
+        "couleurs",
+        "actions"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "69 histoires de 1-3 min, phrases très simples et répétées.",
+      "verified": true
+    },
+    {
+      "id": "littlefox-who-am-i",
+      "name": "Little Fox Chinese – Who Am I? (Level 1)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLZ27m2K2W5n7P_RL6RIdtN_hzNiUlLsq5",
+      "phases": [
+        1
+      ],
+      "levelMin": 1,
+      "levelMax": 1,
+      "type": "dessin_anime",
+      "themes": [
+        "métiers",
+        "objets"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "20 épisodes de ~100 s sur le modèle « 我有… / 这是我的… » : idéal semaines 3-4.",
+      "verified": true
+    },
+    {
+      "id": "littlefox-greetings-numbers",
+      "name": "Little Fox Chinese – Chinese Greeting & Numbers",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLZ27m2K2W5n743sDDU9qXmYXeTDUBt30I",
+      "phases": [
+        0,
+        1
+      ],
+      "levelMin": 1,
+      "levelMax": 1,
+      "type": "dessin_anime",
+      "themes": [
+        "salutations",
+        "nombres",
+        "chansons"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Chansons « 你好 », « 再见 », nombres : transition phase 0 → phase 1.",
+      "verified": true
+    },
+    {
+      "id": "littlefox-level2-sam-lucky",
+      "name": "Little Fox Chinese – Sam and Lucky (Level 2)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLZ27m2K2W5n4kdg9X8Nw8YquZdYaWQKMa",
+      "phases": [
+        2
+      ],
+      "levelMin": 2,
+      "levelMax": 2,
+      "type": "dessin_anime",
+      "themes": [
+        "animaux",
+        "famille"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Série niveau 2 pour la phase 2.",
+      "verified": true
+    },
+    {
+      "id": "du-chinese",
+      "name": "Du Chinese",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@DuChinese/videos",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 4,
+      "type": "histoire",
+      "themes": [
+        "lecture",
+        "histoires",
+        "dialogues"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Chaîne officielle de l'app Du Chinese (pas de « Teacher Du » distinct trouvé). Vidéos lecture+écoute avec texte à l'écran, versions [PINYIN] / [NO PINYIN].",
+      "verified": true
+    },
+    {
+      "id": "du-chinese-newbie-1",
+      "name": "Du Chinese – Newbie Course 1: Anne Arrives in China [NO PINYIN]",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLhqbC22JmZe8kEGqH_CwnwKXLTn4Oylau",
+      "phases": [
+        1
+      ],
+      "levelMin": 1,
+      "levelMax": 1,
+      "type": "dialogue",
+      "themes": [
+        "présentations",
+        "nationalités"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "10 micro-dialogues (25-40 s) : à concaténer ou utiliser comme exercices flash.",
+      "verified": true
+    },
+    {
+      "id": "easy-mandarin",
+      "name": "Easy Mandarin",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@EasyMandarin/videos",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 4,
+      "type": "vlog",
+      "themes": [
+        "micro-trottoir",
+        "Taïwan",
+        "vie quotidienne"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Réseau Easy Languages : interviews de rue avec sous-titres mandarin + anglais incrustés. Attention : beaucoup de contenu tourné à Taïwan (accent taïwanais, caractères traditionnels).",
+      "verified": true
+    },
+    {
+      "id": "easy-mandarin-beginners",
+      "name": "Easy Mandarin – Beginners (A1&A2)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLGqFN9AZmHYY",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "vlog",
+      "themes": [
+        "se présenter",
+        "nombres",
+        "météo"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Série « Super Easy Mandarin » (se présenter, nombres, Taipei en mandarin lent).",
+      "verified": true
+    },
+    {
+      "id": "chinesepod",
+      "name": "ChinesePod (YouTube)",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/channel/UCRY8eBLd9tPFw5-JY7S7O8Q/videos",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 4,
+      "type": "dialogue",
+      "themes": [
+        "dialogues",
+        "vie quotidienne",
+        "travail"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Extraits gratuits de leçons ChinesePod (dialogue + explications en anglais). Le contenu complet est payant.",
+      "verified": true
+    },
+    {
+      "id": "chinesepod-beginner",
+      "name": "ChinesePod – Beginner Lessons (Newbie)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL2pHdzrcvbMh_sF_fLMtElX562iDYlh52",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "dialogue",
+      "themes": [
+        "situations du quotidien"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "41 leçons Newbie de 4-5 min ; extraire le dialogue chinois pour l'input, ignorer l'anglais.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-corner",
+      "name": "Mandarin Corner",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@MandarinCorner2/videos",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 5,
+      "type": "dialogue",
+      "themes": [
+        "interviews",
+        "société",
+        "vocabulaire HSK"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Vidéos avec caractères + pinyin + anglais à l'écran. Pour débutant : « HSK 1 Course - Complete Vocabulary » et « HSK 3.0 Standard - Level 1/2 » ; interviews et street interviews plutôt phase 3+.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-corner-random-topics",
+      "name": "Mandarin Corner – Talk on Random Topics (Lower Intermediate)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL7VdqFXO0Lzc7OZE8fiNPt3R17AQYtVBy",
+      "phases": [
+        3
+      ],
+      "levelMin": 3,
+      "levelMax": 4,
+      "type": "dialogue",
+      "themes": [
+        "conversation"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Conversations lentes niveau intermédiaire bas : à garder pour les semaines 17-24.",
+      "verified": true
+    },
+    {
+      "id": "mandarin-corner-french",
+      "name": "Mandarin Corner – Learn Chinese with French Subtitles",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PL7VdqFXO0LzfoZwRq6r7J01I34sN6ntMl",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 4,
+      "type": "dialogue",
+      "themes": [
+        "conversation",
+        "vocabulaire"
+      ],
+      "hasChineseSubs": "embedded",
+      "notes": "Playlist avec sous-titres français : utile pour un apprenant francophone (traduction de contrôle).",
+      "verified": true
+    },
+    {
+      "id": "chinese-with-ben",
+      "name": "Chinese with Ben",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@ChinesewithBen/videos",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 5,
+      "type": "dialogue",
+      "themes": [
+        "cours CI",
+        "culture",
+        "Chine"
+      ],
+      "hasChineseSubs": "cc",
+      "notes": "La description de la chaîne affirme que chaque leçon a des sous-titres CC (à confirmer par yt-dlp --list-subs). Cours enregistrés en classe CI ; niveau HSK 2-4 surtout.",
+      "verified": true
+    },
+    {
+      "id": "chinese-with-ben-hsk13",
+      "name": "Chinese with Ben – HSK 1-3 (A1-A2 Level Videos)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLW4RM43CAPvzZyFnKbVSqZrIlsAy512BT",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 1,
+      "levelMax": 3,
+      "type": "dialogue",
+      "themes": [
+        "cours CI"
+      ],
+      "hasChineseSubs": "cc",
+      "notes": "Sélection des vidéos accessibles aux débutants.",
+      "verified": true
+    },
+    {
+      "id": "chinese-zero-to-hero",
+      "name": "Chinese Zero to Hero",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@ChineseZeroToHero/videos",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "levelMin": 0,
+      "levelMax": 4,
+      "type": "dialogue",
+      "themes": [
+        "cours HSK",
+        "tons",
+        "séries TV"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Cours structurés HSK (explications en anglais) ; le plus utile ici : paires minimales de tons (phase 0) et « Get Started with Chinese with a TV Drama ».",
+      "verified": true
+    },
+    {
+      "id": "grace-mandarin-chinese",
+      "name": "Grace Mandarin Chinese",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@GraceMandarinChinese/videos",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 5,
+      "type": "vlog",
+      "themes": [
+        "Taïwan",
+        "culture",
+        "expressions"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Surtout des explications en anglais ; la playlist « All-in-Chinese Videos » (accent taïwanais) sert d'input en phase 3.",
+      "verified": true
+    },
+    {
+      "id": "teatime-chinese",
+      "name": "TeaTime Chinese 茶歇中文",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@TeaTimeChinese/videos",
+      "phases": [
+        3
+      ],
+      "levelMin": 3,
+      "levelMax": 5,
+      "type": "podcast",
+      "themes": [
+        "culture",
+        "histoire",
+        "société",
+        "actualité"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Podcast CI pour intermédiaires (culture, histoire, actu) : uniquement fin de phase 3.",
+      "verified": true
+    },
+    {
+      "id": "teatime-chinese-rss",
+      "name": "TeaTime Chinese 茶歇中文 (podcast audio)",
+      "kind": "podcast_rss",
+      "url": "https://feeds.libsyn.com/330782",
+      "phases": [
+        3
+      ],
+      "levelMin": 3,
+      "levelMax": 5,
+      "type": "podcast",
+      "themes": [
+        "culture",
+        "histoire",
+        "société"
+      ],
+      "hasChineseSubs": "none",
+      "notes": "Flux RSS (100 épisodes) ; audio seul → Whisper. Niveau intermédiaire.",
+      "verified": true
+    },
+    {
+      "id": "slow-chinese-podcast-mei",
+      "name": "Slow Chinese Podcast – 慢速汉语 (Learn Chinese with Mei)",
+      "kind": "podcast_rss",
+      "url": "https://anchor.fm/s/5669fedc/podcast/rss",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 4,
+      "type": "podcast",
+      "themes": [
+        "histoires",
+        "chengyu",
+        "culture"
+      ],
+      "hasChineseSubs": "none",
+      "notes": "26 épisodes lents (HSK2+ à HSK3+), terminé en 2023. Le « Slow Chinese » historique n'a pas été retrouvé ; utiliser aussi Storytime in Chinese.",
+      "verified": true
+    },
+    {
+      "id": "peppa-pig-chinese",
+      "name": "小猪佩奇 中文官方 – Peppa Pig (chaîne officielle chinoise)",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/channel/UCRi0sw4PDw-C2C7fS9hrx5Q/videos",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 3,
+      "type": "dessin_anime",
+      "themes": [
+        "famille",
+        "école",
+        "jeux"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Chaîne officielle (808 k abonnés) en mandarin simplifié. Épisodes de 5 min, langage enfantin naturel : à partir de la phase 2, avec pré-enseignement du vocabulaire.",
+      "verified": true
+    },
+    {
+      "id": "peppa-pig-s1",
+      "name": "小猪佩奇 – 第一季 (Season 1)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLeXGOj6gnNR0m0VtzHpLu7FOLC4LWw7zm",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 3,
+      "type": "dessin_anime",
+      "themes": [
+        "famille",
+        "repas",
+        "jeux"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "180 vidéos (épisodes de 4 min 45) : commencer par 午餐, 煎饼, 照顾宝宝.",
+      "verified": true
+    },
+    {
+      "id": "pleasant-goat-official",
+      "name": "喜羊羊與灰太狼動畫 – 官方中文頻道 (Pleasant Goat and Big Big Wolf)",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/channel/UCbELDDHGqMbjsA_4Kyd7vMw/videos",
+      "phases": [
+        3
+      ],
+      "levelMin": 3,
+      "levelMax": 5,
+      "type": "dessin_anime",
+      "themes": [
+        "aventure",
+        "humour"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Chaîne officielle (Creative Power Entertaining). Débit rapide et vocabulaire riche : réservé à la phase 3, en épisodes courts.",
+      "verified": true
+    },
+    {
+      "id": "pleasant-goat-classic",
+      "name": "喜羊羊与灰太狼 – 经典版中文全集",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLCxAtDkpA3f9CiPqB_NSD08PAdonJHnO2",
+      "phases": [
+        3
+      ],
+      "levelMin": 3,
+      "levelMax": 5,
+      "type": "dessin_anime",
+      "themes": [
+        "humour"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "40 épisodes classiques de ~11-12 min.",
+      "verified": true
+    },
+    {
+      "id": "boonie-bears-official",
+      "name": "熊出没 Boonie Bears (chaîne officielle chinoise)",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/channel/UCexhmwhQ2zmBDt2Q6qM3hdg/videos",
+      "phases": [
+        3
+      ],
+      "levelMin": 3,
+      "levelMax": 5,
+      "type": "dessin_anime",
+      "themes": [
+        "forêt",
+        "humour",
+        "aventure"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Chaîne officielle (5 M abonnés). Accent du nord-est et argot : phase 3 uniquement ; préférer « 熊熊乐园 » (Boonie Cubs, plus simple).",
+      "verified": true
+    },
+    {
+      "id": "boonie-cubs",
+      "name": "熊出没 – 熊大熊二小时候 (Boonie Cubs compilations)",
+      "kind": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLxrS3n2SvsMqi6CP4bMRR_6i77e-d0ndA",
+      "phases": [
+        2,
+        3
+      ],
+      "levelMin": 2,
+      "levelMax": 4,
+      "type": "dessin_anime",
+      "themes": [
+        "école",
+        "enfance"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Version « bébés ours » destinée aux tout-petits : langage plus simple que la série principale ; compilations longues (30-60 min) à découper.",
+      "verified": true
+    },
+    {
+      "id": "fantawild-chinese",
+      "name": "Fantawild Animation Official Chinese Channel (方特动漫)",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/channel/UCOBnTReFJ9bY0_VLoitpgRQ/videos",
+      "phases": [
+        3
+      ],
+      "levelMin": 3,
+      "levelMax": 5,
+      "type": "dessin_anime",
+      "themes": [
+        "aventure"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Studio de Boonie Bears ; séries 熊出没四季篇 etc. Pour la phase 3.",
+      "verified": true
+    },
+    {
+      "id": "babybus-chinese",
+      "name": "寶寶巴士 BabyBus – 中文兒歌童謠 卡通動畫",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/channel/UCttafJi4SCirZhlxsxISbyA/videos",
+      "phases": [
+        1,
+        2
+      ],
+      "levelMin": 1,
+      "levelMax": 2,
+      "type": "dessin_anime",
+      "themes": [
+        "chansons",
+        "sécurité",
+        "habitudes"
+      ],
+      "hasChineseSubs": "unknown",
+      "notes": "Chaîne officielle (3,8 M abonnés) en mandarin mais titres en caractères traditionnels. Comptines très répétitives pour 2-5 ans : bon input sonore dès la phase 1.",
+      "verified": true
+    },
+    {
+      "id": "talk-chinese",
+      "name": "TalkChinese",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@TalkChinese",
+      "phases": [],
+      "levelMin": null,
+      "levelMax": null,
+      "type": "dialogue",
+      "themes": [],
+      "hasChineseSubs": "unknown",
+      "notes": "Handle @TalkChinese existant mais sans aucune vidéo publique ; aucune autre chaîne « Talk Chinese » fiable identifiée. Ne pas utiliser.",
+      "verified": false
+    },
+    {
+      "id": "mandarin-mosaic",
+      "name": "Mandarin Mosaic",
+      "kind": "youtube_channel",
+      "url": "https://www.youtube.com/@mandarinmosaic",
+      "phases": [],
+      "levelMin": null,
+      "levelMax": null,
+      "type": "histoire",
+      "themes": [],
+      "hasChineseSubs": "unknown",
+      "notes": "Mandarin Mosaic est surtout un site/blog (mandarinmosaic.com) ; la chaîne YouTube existe mais n'a aucune vidéo publique. Ne pas utiliser pour l'instant.",
+      "verified": false
+    }
+  ],
+  "starterVideos": [
+    {
+      "url": "https://www.youtube.com/watch?v=q2hrlAGewvY",
+      "title": "Pinyin Lesson Series #1: What is Pinyin & How Does it Help Me Speak Mandarin Chinese? | Yoyo Chinese",
+      "sourceId": "yoyo-chinese",
+      "phase": 0,
+      "durationSec": 252,
+      "hasChineseCC": null,
+      "themes": [
+        "pinyin"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PgHelJXrBzM",
+      "title": "Pinyin Lesson Series #2: An Introduction to Tones (Mandarin Chinese Pronunciation) | Yoyo Chinese",
+      "sourceId": "yoyo-chinese",
+      "phase": 0,
+      "durationSec": 237,
+      "hasChineseCC": null,
+      "themes": [
+        "tons"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=taB08XWsuK0",
+      "title": "Pinyin Lesson Series #6: Tone Pairs - Part 1 (Mandarin Chinese Pronunciation) | Yoyo Chinese",
+      "sourceId": "yoyo-chinese",
+      "phase": 0,
+      "durationSec": 354,
+      "hasChineseCC": null,
+      "themes": [
+        "tons",
+        "paires de tons"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YeSk19-1WA4",
+      "title": "Come tone deaf, leave tone happy! Mandarin tone contrasts 1st vs 2nd: 深知 (shēnzhī) vs 伸直 (shēnzhí)",
+      "sourceId": "czh-tone-minimal-pairs",
+      "phase": 0,
+      "durationSec": 397,
+      "hasChineseCC": null,
+      "themes": [
+        "tons",
+        "paires minimales"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cCN3RRkkwmc",
+      "title": "Mandarin tone pair practice - 1st tone + 1st tone | Chinese pronunciation",
+      "sourceId": "czh-tone-minimal-pairs",
+      "phase": 0,
+      "durationSec": 363,
+      "hasChineseCC": null,
+      "themes": [
+        "tons"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gZmbg0sWeqE",
+      "title": "Chinese Tones & Simple Finals | Chinese Pronunciation | Pinyin Song | Mandarin | Kids | Little Fox",
+      "sourceId": "littlefox-pinyin",
+      "phase": 0,
+      "durationSec": 1401,
+      "hasChineseCC": null,
+      "themes": [
+        "pinyin",
+        "tons",
+        "chansons"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=V2TambAgK0Q",
+      "title": "汉语声调 & 声调歌 (Chinese Tones & Chinese Tones Song) | Mandarin | Chinese Pronunciation | Little Fox",
+      "sourceId": "littlefox-pinyin",
+      "phase": 0,
+      "durationSec": 502,
+      "hasChineseCC": null,
+      "themes": [
+        "tons",
+        "chansons"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FlaJ12tmtu4",
+      "title": "Mandarin Pronunciation: Everything You Need to Know in Under 1 Hour",
+      "sourceId": "mandarin-blueprint-pronunciation",
+      "phase": 0,
+      "durationSec": 3371,
+      "hasChineseCC": null,
+      "themes": [
+        "prononciation"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TTnH_7wFvdw",
+      "title": "Pinyin Tone Listening Test | Mandarin Chinese",
+      "sourceId": "mandarin-click",
+      "phase": 0,
+      "durationSec": 258,
+      "hasChineseCC": null,
+      "themes": [
+        "tons",
+        "évaluation"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=m_rDIzj6DRE",
+      "title": "Hello Song (你好歌) | Chinese Greeting & Numbers | Chinese song | By Little Fox",
+      "sourceId": "littlefox-greetings-numbers",
+      "phase": 1,
+      "durationSec": 59,
+      "hasChineseCC": null,
+      "themes": [
+        "salutations",
+        "chansons"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NcLNmRgCpAE",
+      "title": "Number Song (数字歌) | Chinese Greeting & Numbers | Chinese song | By Little Fox",
+      "sourceId": "littlefox-greetings-numbers",
+      "phase": 1,
+      "durationSec": 56,
+      "hasChineseCC": null,
+      "themes": [
+        "nombres",
+        "chansons"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Povt97OPmCc",
+      "title": "Who Am I? 1: I Have a Spoon (我是谁？1：我有一把勺子) | Early Learning | Chinese | By Little Fox",
+      "sourceId": "littlefox-who-am-i",
+      "phase": 1,
+      "durationSec": 103,
+      "hasChineseCC": null,
+      "themes": [
+        "objets",
+        "métiers"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rbLlUXT72C4",
+      "title": "HSK1 | 我的家 My Home | Comprehensible Input Stories HSK1 Practice Bundle 1/4 | Beginner Chinese",
+      "sourceId": "mandarin-click-hsk1-ci",
+      "phase": 1,
+      "durationSec": 210,
+      "hasChineseCC": null,
+      "themes": [
+        "famille",
+        "maison"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=re6GOiJOYvE",
+      "title": "HSK1 | 我的朋友 My Friends | Comprehensible Input Stories HSK1 Practice Bundle 2/4 | Beginner Chinese",
+      "sourceId": "mandarin-click-hsk1-ci",
+      "phase": 1,
+      "durationSec": 188,
+      "hasChineseCC": null,
+      "themes": [
+        "amis"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=J4JgqQgdlZQ",
+      "title": "HSK1 | 买东西 Shopping | Comprehensible Input Stories HSK1 Practice Bundle 3/4 | Beginner Chinese",
+      "sourceId": "mandarin-click-hsk1-ci",
+      "phase": 1,
+      "durationSec": 256,
+      "hasChineseCC": null,
+      "themes": [
+        "courses",
+        "argent"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu5bkhIGqOY",
+      "title": "HSK1 | 王小姐 Miss Wang | Comprehensible Input Stories HSK1 Practice Bundle 4/4 | Beginner Chinese",
+      "sourceId": "mandarin-click-hsk1-ci",
+      "phase": 1,
+      "durationSec": 204,
+      "hasChineseCC": null,
+      "themes": [
+        "personnes"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=k0aZj3LoApc",
+      "title": "第一课：Locations and directions (dialogues and story) - Mandarin Chinese Course [ New HSK 1 ]",
+      "sourceId": "mandarin-click-course-hsk1",
+      "phase": 1,
+      "durationSec": 155,
+      "hasChineseCC": null,
+      "themes": [
+        "lieux",
+        "directions"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PcergOJuC1M",
+      "title": "一周的生活 | Slow Chinese Stories Newcomer | Chinese Listening Practice HSK 1/2",
+      "sourceId": "mandarin-click-newcomer",
+      "phase": 1,
+      "durationSec": 327,
+      "hasChineseCC": null,
+      "themes": [
+        "routine",
+        "jours de la semaine"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KoWJ7YrCuf0",
+      "title": "我爱星期日 | Slow Chinese Stories Newcomer | Chinese Listening Practice HSK 1/2",
+      "sourceId": "mandarin-click-newcomer",
+      "phase": 1,
+      "durationSec": 161,
+      "hasChineseCC": null,
+      "themes": [
+        "week-end",
+        "loisirs"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8tNjoXAOzjQ",
+      "title": "王先生爱喝茶 | Slow Chinese Stories Newcomer | Chinese Listening Practice HSK 1/2",
+      "sourceId": "mandarin-click-newcomer",
+      "phase": 1,
+      "durationSec": 188,
+      "hasChineseCC": null,
+      "themes": [
+        "boissons",
+        "habitudes"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2j6w66fAPuI",
+      "title": "HSK 1/2 | 我要去北京 (1) | Mandarin Chinese Podcast | Beginner Chinese Listening Practice",
+      "sourceId": "mandarin-click-podcast-hsk12",
+      "phase": 1,
+      "durationSec": 292,
+      "hasChineseCC": null,
+      "themes": [
+        "voyage"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=d3-b0mIH3qE",
+      "title": "Slow Chinese Story for Beginners (HSK 1-2) | My Family 🏫",
+      "sourceId": "storytime-hsk12",
+      "phase": 1,
+      "durationSec": 192,
+      "hasChineseCC": null,
+      "themes": [
+        "famille"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jf3sp-UVHDU",
+      "title": "Slow Chinese Story for Beginners (HSK 1-2) | Xiaoyu Goes Grocery Shopping 🛒",
+      "sourceId": "storytime-hsk12",
+      "phase": 1,
+      "durationSec": 281,
+      "hasChineseCC": null,
+      "themes": [
+        "courses"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8j9Ol_KS4g8",
+      "title": "Slow Chinese Story for Beginners (HSK 1-2) | A Box of Peaches 🍑",
+      "sourceId": "storytime-hsk12",
+      "phase": 1,
+      "durationSec": 160,
+      "hasChineseCC": null,
+      "themes": [
+        "nourriture"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iisKTQ8D7Ok",
+      "title": "Talking about my hobbies | Supper Beginner Chinese | Comprehensible Input",
+      "sourceId": "blabla-super-beginner",
+      "phase": 1,
+      "durationSec": 283,
+      "hasChineseCC": null,
+      "themes": [
+        "loisirs"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oZwZvrri8UQ",
+      "title": "Fell Asleep in a Meeting? | Learn Chinese via Story | Beginner Comprehensible Input (HSK1-3)",
+      "sourceId": "tingting-misadventures-mark",
+      "phase": 1,
+      "durationSec": 334,
+      "hasChineseCC": null,
+      "themes": [
+        "travail"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vgLRx2ZGgGs",
+      "title": "What's in My Bag? Beginner Chinese Comprehensible Input (HSK 1-2)",
+      "sourceId": "tingting-real-life-slow",
+      "phase": 1,
+      "durationSec": 664,
+      "hasChineseCC": null,
+      "themes": [
+        "objets",
+        "vie quotidienne"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IJzcZky4O2o",
+      "title": "How to introduce yourself in Mandarin? | Super Easy Mandarin 5",
+      "sourceId": "easy-mandarin-beginners",
+      "phase": 1,
+      "durationSec": 548,
+      "hasChineseCC": null,
+      "themes": [
+        "se présenter"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xIUOSE2Nnqw",
+      "title": "How to Read Numbers in Mandarin | Super Easy Mandarin 6",
+      "sourceId": "easy-mandarin-beginners",
+      "phase": 1,
+      "durationSec": 418,
+      "hasChineseCC": null,
+      "themes": [
+        "nombres"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wzNw1VVtGBo",
+      "title": "HSK2 | 王医生 Doctor Wang | Comprehensible Input Stories HSK2 Practice Bundle 1/5 | Beginner Chinese",
+      "sourceId": "mandarin-click-hsk2-ci",
+      "phase": 2,
+      "durationSec": 196,
+      "hasChineseCC": null,
+      "themes": [
+        "santé",
+        "métiers"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=keEpYPSLK-k",
+      "title": "HSK2 | 生病 To fall ill | Comprehensible Input Stories HSK2 Practice Bundle 3/5 | Beginner Chinese",
+      "sourceId": "mandarin-click-hsk2-ci",
+      "phase": 2,
+      "durationSec": 235,
+      "hasChineseCC": null,
+      "themes": [
+        "santé"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jVpTZF9ubI0",
+      "title": "Slow Chinese Story for Beginners (HSK 1-2) | Can You Trust the Weather Forecast? 🤔",
+      "sourceId": "storytime-hsk12",
+      "phase": 2,
+      "durationSec": 263,
+      "hasChineseCC": null,
+      "themes": [
+        "météo"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ha56mfpHhO4",
+      "title": "HSK 2/3 | 你和谁住一块儿 | Mandarin Chinese Podcast | Beginner Chinese Listening Practice",
+      "sourceId": "mandarin-click-podcast-hsk23",
+      "phase": 2,
+      "durationSec": 510,
+      "hasChineseCC": null,
+      "themes": [
+        "logement",
+        "famille"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=S5Q8Mb-pYCQ",
+      "title": "Super Beginner Chinese Conversation: Guess the famous teacher in China | Comprehensible input",
+      "sourceId": "lazy-chinese-complete-beginner",
+      "phase": 2,
+      "durationSec": 789,
+      "hasChineseCC": null,
+      "themes": [
+        "culture",
+        "personnes célèbres"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UrqLrDwNIzs",
+      "title": "Newbie | What do you do for a living?",
+      "sourceId": "chinesepod-beginner",
+      "phase": 2,
+      "durationSec": 794,
+      "hasChineseCC": null,
+      "themes": [
+        "métiers"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6QjWo7-Mn3o",
+      "title": "Tour Around Taipei (IN SLOW MANDARIN) | Super Easy Mandarin 10",
+      "sourceId": "easy-mandarin-beginners",
+      "phase": 2,
+      "durationSec": 448,
+      "hasChineseCC": null,
+      "themes": [
+        "voyage",
+        "Taïwan"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_g5h1WROx9I",
+      "title": "午餐 🍕 Lunch | 小猪佩奇 第一季 第34集 | 佩佩豬 中文 🐷 粉红猪小妹 | Peppa Pig Chinese | 儿童动画",
+      "sourceId": "peppa-pig-s1",
+      "phase": 2,
+      "durationSec": 285,
+      "hasChineseCC": null,
+      "themes": [
+        "repas",
+        "famille"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tVRfv0cz7ms",
+      "title": "煎饼 🥞 Pancakes | 小猪佩奇 第一季 第29集 | 佩佩豬 中文 🐷 粉红猪小妹 | Peppa Pig Chinese | 儿童动画",
+      "sourceId": "peppa-pig-s1",
+      "phase": 2,
+      "durationSec": 285,
+      "hasChineseCC": null,
+      "themes": [
+        "cuisine",
+        "famille"
+      ]
+    }
+  ]
+}

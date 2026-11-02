@@ -1,0 +1,7212 @@
+[
+ {
+  "id": "p3-01",
+  "phase": 3,
+  "title": "Questions affirmatives-négatives : 是不是, 有没有",
+  "pattern": "Sujet + V不V + (O) ？\nSujet + 有没有 + O / V ？\nPhrase，是不是？ / Sujet + 是不是 + prédicat ？",
+  "hsk": 3,
+  "explanation": "En chinois, on peut poser une question fermée **sans 吗**, en juxtaposant la forme affirmative et la forme négative du verbe ou de l'adjectif : 你去不去？ « Tu y vas (ou pas) ? ». Le ton est un peu plus direct et neutre qu'avec 吗.\n\n**Les formes principales :**\n- Verbe ou adjectif : 忙不忙、好不好、是不是、去不去.\n- Verbe de deux syllabes : on peut abréger la première partie : 喜不喜欢、认不认识、知不知道.\n- **有** se nie avec 没 : on dit toujours **有没有**, jamais « 有不有 ».\n- Pour une action passée : 你去没去？ ou 你有没有去？, ou encore phrase + **没有** à la fin : 你吃饭了没有？\n\n**是不是 pour demander confirmation.** Placé devant le prédicat (你是不是累了？) ou en fin de phrase après une virgule (你累了，是不是？), il signifie « c'est bien ça ? », « n'est-ce pas ? ». Le locuteur a déjà une idée de la réponse.\n\n**Pièges pour un francophone :**\n- **Jamais de 吗** avec une forme V不V : « 你忙不忙吗？ » est faux, la question est déjà posée.\n- **Pas d'adverbe** comme 很、都、也、太 devant la forme V不V : « 你很忙不忙？ » est faux. On dit 你忙不忙？ Pour garder 都, on utilise plutôt 吗 : 你们都去吗？\n- 去不去 porte sur le présent ou le futur ; pour le passé, utilisez 去没去 ou 有没有去.\n- Attention à l'ordre avec un objet : 你喝不喝咖啡？ (forme courante) ; 你喝咖啡不喝？ existe à l'oral mais est moins fréquent.\n\nCes questions sont très fréquentes à l'oral : maîtrisez-les pour comprendre vos interlocuteurs chinois, qui les emploient plus souvent que 吗 dans la conversation rapide.",
+  "examples": [
+   {
+    "zh": "你明天有没有时间？",
+    "fr": "Est-ce que tu as du temps demain ?"
+   },
+   {
+    "zh": "你喜不喜欢喝咖啡？",
+    "fr": "Tu aimes le café ou pas ?"
+   },
+   {
+    "zh": "他是不是生病了？",
+    "fr": "Il est malade, c'est ça ?"
+   },
+   {
+    "zh": "你作业做完了没有？",
+    "fr": "Tu as fini tes devoirs ?"
+   },
+   {
+    "zh": "你去过北京，是不是？",
+    "fr": "Tu es déjà allé à Pékin, n'est-ce pas ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "明天",
+     "有没有",
+     "时间"
+    ],
+    "answer": "你明天有没有时间",
+    "fr": "Est-ce que tu as du temps demain ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "是不是",
+     "生病",
+     "了"
+    ],
+    "answer": "他是不是生病了",
+    "fr": "Il est malade, c'est ça ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "认不认识",
+     "那个",
+     "老师"
+    ],
+    "answer": "你认不认识那个老师",
+    "fr": "Tu connais ce professeur ou pas ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你们学校___图书馆？",
+    "options": [
+     "有没有",
+     "是不是",
+     "有不有",
+     "吗"
+    ],
+    "answer": "有没有",
+    "fr": "Est-ce qu'il y a une bibliothèque dans votre école ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "他___你的哥哥？",
+    "options": [
+     "是不是",
+     "有没有",
+     "是没是",
+     "吗"
+    ],
+    "answer": "是不是",
+    "fr": "C'est ton grand frère ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你去过上海，___？",
+    "options": [
+     "是不是",
+     "有没有",
+     "吗",
+     "不是"
+    ],
+    "answer": "是不是",
+    "fr": "Tu es déjà allé à Shanghai, n'est-ce pas ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question affirmative-négative (sans 吗).",
+    "zh": "你认识他吗？",
+    "answers": [
+     "你认识不认识他？",
+     "你认不认识他？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question avec 有没有.",
+    "zh": "你看过这个电影吗？",
+    "answers": [
+     "你有没有看过这个电影？",
+     "这个电影你有没有看过？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 是不是 pour demander confirmation.",
+    "zh": "你累了。",
+    "answers": [
+     "你是不是累了？",
+     "你累了，是不是？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "你很忙不忙？",
+    "answers": [
+     "你忙不忙？",
+     "你很忙吗？"
+    ],
+    "explanation": "Aucun adverbe de degré comme 很 devant la forme V不V."
+   },
+   {
+    "type": "error",
+    "zh": "你有不有中文书？",
+    "answers": [
+     "你有没有中文书？"
+    ],
+    "explanation": "有 se nie toujours avec 没 : la forme est 有没有."
+   },
+   {
+    "type": "error",
+    "zh": "你喜欢不喜欢他吗？",
+    "answers": [
+     "你喜欢不喜欢他？",
+     "你喜不喜欢他？",
+     "你喜欢他吗？"
+    ],
+    "explanation": "On ne cumule pas la forme V不V et 吗 : choisissez l'une ou l'autre."
+   },
+   {
+    "type": "translate",
+    "fr": "Est-ce qu'il y a un supermarché près d'ici ?",
+    "answers": [
+     "这儿附近有没有超市？",
+     "这里附近有没有超市？",
+     "附近有没有超市？",
+     "这附近有没有超市？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Tu n'es pas content, c'est ça ?",
+    "answers": [
+     "你是不是不高兴？",
+     "你不高兴，是不是？",
+     "你是不是不高兴了？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Tu as fini tes devoirs (ou pas) ?",
+    "answers": [
+     "你作业做完了没有？",
+     "你做完作业了没有？",
+     "你有没有做完作业？",
+     "你作业有没有做完？",
+     "你做完作业没有？",
+     "你作业做完没有？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Comment demander « Es-tu allé à l'hôpital hier ? »",
+    "options": [
+     "你昨天去没去医院？",
+     "你昨天有不有去医院？",
+     "你昨天去不去医院？"
+    ],
+    "answer": 0,
+    "explanation": "Pour le passé, on utilise V没V (ou 有没有 + V). 去不去 porte sur le présent ou le futur, et « 有不有 » n'existe pas."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle question est correcte ?",
+    "options": [
+     "你们都去不去？",
+     "你们都去吗？",
+     "你们去不去吗？"
+    ],
+    "answer": 1,
+    "explanation": "Avec 都, on évite la forme V不V et on utilise 吗. Et on ne combine jamais V不V avec 吗."
+   },
+   {
+    "type": "listen",
+    "zh": "你明天有没有课？",
+    "question": "Que demande-t-on ?",
+    "options": [
+     "Où a lieu le cours",
+     "Si l'on aime ce cours",
+     "Si l'on a cours demain"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-02",
+  "phase": 3,
+  "title": "刚 et 刚才 : « venir de » et « tout à l'heure »",
+  "pattern": "Sujet + 刚 + V (+ durée)\n刚才 + Sujet + V… / Sujet + 刚才 + V…\n刚才 + 的 + nom",
+  "hsk": 3,
+  "explanation": "刚 et 刚才 se traduisent tous les deux par une idée de passé récent, mais ils n'ont pas la même nature grammaticale.\n\n**刚 est un adverbe** : « venir de », « tout juste ». Il se place **après le sujet, juste devant le verbe** : 我刚到。« Je viens d'arriver. » Le « récent » est **subjectif** : 他刚来北京两个月 « il n'est à Pékin que depuis deux mois ». 刚 peut donc concerner des jours, des semaines, voire des années. Il s'emploie souvent avec 就 : 他刚回家就下雨了 « à peine était-il rentré qu'il s'est mis à pleuvoir ».\n\n**刚才 est un nom de temps** : « tout à l'heure, il y a quelques minutes ». Comme 昨天 ou 今天, il peut se placer **avant ou après le sujet** : 刚才我去了超市 / 我刚才去了超市. Il désigne toujours un moment très proche (quelques minutes, une heure).\n\n**Ce que 刚才 peut faire et 刚 ne peut pas faire :**\n- Qualifier un nom avec 的 : 刚才的电话 « le coup de fil de tout à l'heure » (jamais « 刚的电话 »).\n- Se combiner avec la négation : 刚才我没听见 « tout à l'heure, je n'ai pas entendu ». On ne dit pas « 我刚没听见 ».\n- Se mettre en tête de phrase.\n\n**Ce que 刚 peut faire et 刚才 ne peut pas faire :**\n- Être suivi d'une durée : 我刚学了一个月 / 她刚结婚一年.\n- Former la structure 刚…就….\n\n**Pièges :**\n- Avec 刚, on évite souvent 了 en fin de phrase : 我刚吃完饭 (et non « 我刚吃完饭了 », qui sonne maladroit).\n- « Tout à l'heure » en français peut aussi désigner le futur (« je viendrai tout à l'heure ») ! 刚才 ne concerne **que le passé** ; pour le futur, dites 一会儿.",
+  "examples": [
+   {
+    "zh": "我刚到机场。",
+    "fr": "Je viens d'arriver à l'aéroport."
+   },
+   {
+    "zh": "刚才谁给你打电话了？",
+    "fr": "Qui t'a appelé tout à l'heure ?"
+   },
+   {
+    "zh": "他刚来北京两个月。",
+    "fr": "Il n'est à Pékin que depuis deux mois."
+   },
+   {
+    "zh": "刚才的事情你别告诉别人。",
+    "fr": "Ne raconte à personne ce qui s'est passé tout à l'heure."
+   },
+   {
+    "zh": "他刚下飞机就给我打电话了。",
+    "fr": "À peine descendu de l'avion, il m'a appelé."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "刚",
+     "到",
+     "机场"
+    ],
+    "answer": "我刚到机场",
+    "fr": "Je viens d'arriver à l'aéroport."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "刚才",
+     "的",
+     "电话",
+     "是",
+     "谁",
+     "打",
+     "的"
+    ],
+    "answer": "刚才的电话是谁打的",
+    "fr": "Qui a passé le coup de fil de tout à l'heure ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "刚",
+     "来",
+     "北京",
+     "两个月"
+    ],
+    "answer": "他刚来北京两个月",
+    "fr": "Il n'est à Pékin que depuis deux mois."
+   },
+   {
+    "type": "cloze",
+    "zh": "___的电话是我妈妈打的。",
+    "options": [
+     "刚才",
+     "刚",
+     "一直",
+     "已经"
+    ],
+    "answer": "刚才",
+    "fr": "Le coup de fil de tout à l'heure, c'était ma mère."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___搬到这儿，还不认识邻居。",
+    "options": [
+     "刚",
+     "刚才",
+     "以前",
+     "最后"
+    ],
+    "answer": "刚",
+    "fr": "Je viens d'emménager ici, je ne connais pas encore les voisins."
+   },
+   {
+    "type": "cloze",
+    "zh": "___我没听清楚，你能再说一次吗？",
+    "options": [
+     "刚才",
+     "刚",
+     "马上",
+     "就"
+    ],
+    "answer": "刚才",
+    "fr": "Je n'ai pas bien entendu tout à l'heure, tu peux répéter ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "他___下飞机就给我打电话了。",
+    "options": [
+     "刚",
+     "刚才",
+     "一直",
+     "终于"
+    ],
+    "answer": "刚",
+    "fr": "À peine descendu de l'avion, il m'a appelé."
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 刚 pour dire que l'action vient d'avoir lieu.",
+    "zh": "我吃完饭。",
+    "answers": [
+     "我刚吃完饭。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Déplace 刚才 en tête de phrase.",
+    "zh": "我刚才去了超市。",
+    "answers": [
+     "刚才我去了超市。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "刚的事情你别告诉别人。",
+    "answers": [
+     "刚才的事情你别告诉别人。"
+    ],
+    "explanation": "刚 est un adverbe : il ne peut pas qualifier un nom avec 的. Il faut 刚才."
+   },
+   {
+    "type": "error",
+    "zh": "我刚没听见。",
+    "answers": [
+     "我刚才没听见。",
+     "刚才我没听见。"
+    ],
+    "explanation": "刚 ne se combine pas avec la négation ; avec 没, on utilise 刚才."
+   },
+   {
+    "type": "translate",
+    "fr": "Je viens de commencer à apprendre le chinois.",
+    "answers": [
+     "我刚开始学汉语。",
+     "我刚开始学习汉语。",
+     "我刚开始学中文。",
+     "我刚开始学习中文。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Où étais-tu tout à l'heure ?",
+    "answers": [
+     "你刚才在哪儿？",
+     "刚才你在哪儿？",
+     "你刚才在哪里？",
+     "刚才你在哪里？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Elle n'est mariée que depuis un an.",
+    "answers": [
+     "她刚结婚一年。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我刚不太舒服。",
+     "刚我不太舒服。",
+     "刚才我不太舒服。"
+    ],
+    "answer": 2,
+    "explanation": "刚 ne se met ni en tête de phrase, ni devant une négation ou un état. 刚才, nom de temps, convient."
+   },
+   {
+    "type": "choice",
+    "question": "« Il n'est rentré que depuis une semaine. »",
+    "options": [
+     "他刚才回来一个星期。",
+     "他刚回来一个星期。",
+     "他一个星期刚才回来。"
+    ],
+    "answer": 1,
+    "explanation": "Seul 刚 peut être suivi d'une durée. 刚才 désigne un moment ponctuel très proche."
+   },
+   {
+    "type": "listen",
+    "zh": "我刚到家，你一会儿再打电话吧。",
+    "question": "Que dit la personne ?",
+    "options": [
+     "Elle est encore au bureau",
+     "Elle va bientôt partir",
+     "Elle vient d'arriver chez elle"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-03",
+  "phase": 3,
+  "title": "一直 : « sans arrêt », « toujours », « tout droit »",
+  "pattern": "Sujet + 一直 + (在) + V\nSujet + 一直 + 没 / 不 + V\n一直 + V + 到 + moment\n一直 + 往 + direction + 走",
+  "hsk": 3,
+  "explanation": "一直 est un adverbe qui exprime la **continuité sans interruption** d'une action ou d'un état sur une période.\n\n**Emplois principaux :**\n- Action continue : 雨一直下 « la pluie ne s'arrête pas ». On l'associe souvent à 在 : 我一直在等你 « je n'ai pas arrêté de t'attendre ».\n- État qui dure depuis longtemps : 他从小一直住在北京 « depuis tout petit, il a toujours habité à Pékin ».\n- Avec la négation : 一直没 + V « n'a toujours pas… (depuis longtemps) » : 他一直没给我打电话. 一直不 + V exprime une attitude constante : 他一直不喜欢吃鱼.\n- Avec 到 : 一直 + V + 到 + limite : 我们一直玩到晚上十点.\n- Sens spatial : **一直往前走** « allez tout droit ». Indispensable pour demander son chemin !\n\n**Position :** comme tout adverbe, 一直 se place **après le sujet et après les mots de temps**, devant le verbe : 我昨天一直在家 (et non « 一直我昨天在家 »).\n\n**一直 ou 总是 ?** Le français « toujours » recouvre deux idées :\n- **une continuité sans pause** → 一直 : 他一直在工作 « il travaille sans s'arrêter ».\n- **une répétition habituelle** → 总是 : 他总是迟到 « il est toujours en retard (à chaque fois) ». Dire « 他一直迟到 » est maladroit.\n\n**一直 ou 还 ?** 还 signifie « encore » à un moment précis (他还在睡觉 « il dort encore ») ; 一直 insiste sur toute la durée écoulée (他一直在睡觉 « il n'a fait que dormir »).\n\n**Piège :** ne confondez pas 一直 avec les autres mots en 一 : 一起 (ensemble), 一边 (en même temps), 一共 (au total), 一定 (sûrement).",
+  "examples": [
+   {
+    "zh": "雨一直下到晚上。",
+    "fr": "La pluie n'a pas cessé jusqu'au soir."
+   },
+   {
+    "zh": "我一直在等你。",
+    "fr": "Je n'ai pas arrêté de t'attendre."
+   },
+   {
+    "zh": "他从小一直住在北京。",
+    "fr": "Depuis tout petit, il a toujours habité à Pékin."
+   },
+   {
+    "zh": "我们一直没有机会见面。",
+    "fr": "Nous n'avons jamais eu l'occasion de nous voir."
+   },
+   {
+    "zh": "你一直往前走，银行在左边。",
+    "fr": "Allez tout droit, la banque est à gauche."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "雨",
+     "一直",
+     "下",
+     "到",
+     "晚上"
+    ],
+    "answer": "雨一直下到晚上",
+    "fr": "La pluie n'a pas cessé jusqu'au soir."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "一直",
+     "在",
+     "等",
+     "你"
+    ],
+    "answer": "我一直在等你",
+    "fr": "Je n'ai pas arrêté de t'attendre."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "一直",
+     "往前走"
+    ],
+    "answer": "你一直往前走",
+    "fr": "Va tout droit."
+   },
+   {
+    "type": "cloze",
+    "zh": "他从小___住在北京。",
+    "options": [
+     "一直",
+     "刚",
+     "刚才",
+     "终于"
+    ],
+    "answer": "一直",
+    "fr": "Depuis tout petit, il a toujours habité à Pékin."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们___没有机会见面。",
+    "options": [
+     "一直",
+     "一边",
+     "一起",
+     "一样"
+    ],
+    "answer": "一直",
+    "fr": "Nous n'avons jamais eu l'occasion de nous voir."
+   },
+   {
+    "type": "cloze",
+    "zh": "下课以后，他___在图书馆学习到十点。",
+    "options": [
+     "一直",
+     "一共",
+     "一下",
+     "一点儿"
+    ],
+    "answer": "一直",
+    "fr": "Après les cours, il a étudié à la bibliothèque sans s'arrêter jusqu'à dix heures."
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 一直 pour exprimer la continuité.",
+    "zh": "他最近很忙。",
+    "answers": [
+     "他最近一直很忙。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime « il ne m'a toujours pas appelé » avec 一直没.",
+    "zh": "他给我打电话。",
+    "answers": [
+     "他一直没给我打电话。",
+     "他一直没有给我打电话。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "一直他在看书。",
+    "answers": [
+     "他一直在看书。"
+    ],
+    "explanation": "一直 est un adverbe : il se place après le sujet, devant le verbe."
+   },
+   {
+    "type": "error",
+    "zh": "我一直昨天在家。",
+    "answers": [
+     "我昨天一直在家。",
+     "昨天我一直在家。"
+    ],
+    "explanation": "Le mot de temps (昨天) précède l'adverbe 一直."
+   },
+   {
+    "type": "translate",
+    "fr": "J'ai toujours aimé la musique chinoise.",
+    "answers": [
+     "我一直很喜欢中国音乐。",
+     "我一直喜欢中国音乐。",
+     "我一直都很喜欢中国音乐。",
+     "我一直都喜欢中国音乐。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Va tout droit, la banque est à gauche.",
+    "answers": [
+     "一直往前走，银行在左边。",
+     "你一直往前走，银行在左边。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il n'a pas arrêté de pleuvoir aujourd'hui.",
+    "answers": [
+     "今天一直在下雨。",
+     "今天一直下雨。",
+     "今天雨一直在下。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Il arrive toujours en retard (à chaque fois). »",
+    "options": [
+     "他总是迟到。",
+     "他一直迟到。",
+     "他一直在迟到。"
+    ],
+    "answer": 0,
+    "explanation": "Pour une habitude répétée, on emploie 总是. 一直 exprime une continuité sans interruption."
+   },
+   {
+    "type": "choice",
+    "question": "« Je l'ai attendu tout l'après-midi sans bouger. »",
+    "options": [
+     "我总是一下午等他。",
+     "一直我一下午等他。",
+     "我一下午一直在等他。"
+    ],
+    "answer": 2,
+    "explanation": "Continuité sur une période → 一直, placé après le sujet et le complément de temps."
+   },
+   {
+    "type": "listen",
+    "zh": "从这儿一直往前走，十分钟就到了。",
+    "question": "Comment s'y rendre ?",
+    "options": [
+     "Prendre le métro",
+     "Aller tout droit pendant dix minutes",
+     "Tourner à droite"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-04",
+  "phase": 3,
+  "title": "Le double 了 : une durée qui continue jusqu'à maintenant",
+  "pattern": "Sujet + V + 了 + durée + (O) + 了\nSujet + V + O + V + 了 + durée + 了\nSujet + V (non duratif) + O + durée + 了\nSujet + durée + 没 + V + 了",
+  "hsk": 3,
+  "explanation": "Vous savez déjà indiquer une durée avec 了 : 我学了两年汉语 « j'ai étudié le chinois pendant deux ans ». Mais cette phrase sous-entend souvent que **c'est terminé**. Pour dire que l'action **dure encore aujourd'hui** (« cela fait deux ans que j'étudie », « j'étudie depuis deux ans »), on ajoute un **second 了 en fin de phrase**.\n\n- 我学了两年汉语。→ J'ai étudié deux ans (et j'ai peut-être arrêté).\n- 我学了两年汉语**了**。→ Cela fait deux ans que j'étudie (et je continue).\n\n**Avec un objet**, deux constructions sont possibles :\n- V + 了 + durée + O + 了 : 我等了你半个小时了.\n- V + O + V + 了 + durée + 了 (verbe répété) : 我学汉语学了两年了.\n\n**Verbes ponctuels** (来、去、到、结婚、认识、离开…) : l'action elle-même ne dure pas, c'est le temps écoulé **depuis** qu'on compte. Pas de 了 après le verbe, la durée se place après l'objet : 他来中国三年了 « il est en Chine depuis trois ans » ; 我们认识十年了.\n\n**À la négative** : durée + 没 + V + 了 : 我们三个月没见面了 « cela fait trois mois qu'on ne s'est pas vus ».\n\n**Pièges pour un francophone :**\n- Le mot « depuis » ne se traduit **pas** par 从 + durée : « 我从两年学汉语 » est faux. Le chinois exprime le « depuis » par la structure du double 了.\n- Le français utilise le présent (« j'habite ici depuis six ans ») ; le chinois, lui, utilise 了 : 我在这儿住了六年了.\n- Ne mettez pas 了 après un verbe ponctuel suivi d'un lieu : « 他来了中国两年了 » est faux.\n- On ajoute souvent 已经 pour insister : 我已经等了一个小时了！",
+  "examples": [
+   {
+    "zh": "我学汉语学了两年了。",
+    "fr": "Cela fait deux ans que j'apprends le chinois."
+   },
+   {
+    "zh": "我们已经等了半个小时了。",
+    "fr": "Ça fait déjà une demi-heure qu'on attend."
+   },
+   {
+    "zh": "他来中国三年了。",
+    "fr": "Il est en Chine depuis trois ans."
+   },
+   {
+    "zh": "我们三个月没见面了。",
+    "fr": "Ça fait trois mois qu'on ne s'est pas vus."
+   },
+   {
+    "zh": "我在北京住了六年了。",
+    "fr": "J'habite à Pékin depuis six ans."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "学",
+     "汉语",
+     "学了",
+     "两年",
+     "了"
+    ],
+    "answer": "我学汉语学了两年了",
+    "fr": "Cela fait deux ans que j'apprends le chinois."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "已经",
+     "等了",
+     "半个小时",
+     "了"
+    ],
+    "answer": "我们已经等了半个小时了",
+    "fr": "Ça fait déjà une demi-heure qu'on attend."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "来",
+     "中国",
+     "三年",
+     "了"
+    ],
+    "answer": "他来中国三年了",
+    "fr": "Il est en Chine depuis trois ans."
+   },
+   {
+    "type": "cloze",
+    "zh": "我在这家公司工作了五年___，现在还在这儿。",
+    "options": [
+     "了",
+     "过",
+     "着",
+     "的"
+    ],
+    "answer": "了",
+    "fr": "Je travaille dans cette entreprise depuis cinq ans, j'y suis toujours."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们三个月没见面___。",
+    "options": [
+     "了",
+     "过",
+     "着",
+     "呢"
+    ],
+    "answer": "了",
+    "fr": "Ça fait trois mois qu'on ne s'est pas vus."
+   },
+   {
+    "type": "cloze",
+    "zh": "她结婚十年___。",
+    "options": [
+     "了",
+     "着",
+     "过",
+     "的"
+    ],
+    "answer": "了",
+    "fr": "Elle est mariée depuis dix ans."
+   },
+   {
+    "type": "transform",
+    "instruction": "Il étudie toujours : ajoute le 了 final.",
+    "zh": "我学了两年汉语。",
+    "answers": [
+     "我学了两年汉语了。",
+     "我学汉语学了两年了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime que l'action dure depuis deux heures et continue (double 了).",
+    "zh": "他看电视。（两个小时）",
+    "answers": [
+     "他看了两个小时电视了。",
+     "他看电视看了两个小时了。",
+     "他已经看了两个小时电视了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime « cela fait trois jours qu'il n'est pas venu ».",
+    "zh": "他没来。（三天）",
+    "answers": [
+     "他三天没来了。",
+     "他已经三天没来了。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我从三年学习汉语。",
+    "answers": [
+     "我学了三年汉语了。",
+     "我学汉语学了三年了。",
+     "我学习汉语学了三年了。",
+     "我学习了三年汉语了。"
+    ],
+    "explanation": "« Depuis » + durée ne se traduit pas par 从 : on utilise la structure V了 + durée + 了."
+   },
+   {
+    "type": "error",
+    "zh": "他来了中国两年了。",
+    "answers": [
+     "他来中国两年了。"
+    ],
+    "explanation": "Avec un verbe ponctuel comme 来, pas de 了 après le verbe : la durée suit l'objet."
+   },
+   {
+    "type": "error",
+    "zh": "我没见他了两年。",
+    "answers": [
+     "我两年没见他了。",
+     "我已经两年没见他了。",
+     "我两年没见到他了。"
+    ],
+    "explanation": "À la négative, la durée se place avant 没 : durée + 没 + V + 了."
+   },
+   {
+    "type": "translate",
+    "fr": "J'habite à Pékin depuis six ans.",
+    "answers": [
+     "我在北京住了六年了。",
+     "我住在北京六年了。",
+     "我在北京住六年了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ça fait une heure que je t'attends !",
+    "answers": [
+     "我等了你一个小时了！",
+     "我等你等了一个小时了！",
+     "我已经等了你一个小时了！",
+     "我已经等你等了一个小时了！"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase indique qu'il apprend toujours le chinois ?",
+    "options": [
+     "他学了两年汉语了。",
+     "他学过两年汉语。",
+     "他学了两年汉语。"
+    ],
+    "answer": 0,
+    "explanation": "Le 了 final indique que la durée court jusqu'à maintenant et que l'action continue."
+   },
+   {
+    "type": "choice",
+    "question": "« Je n'ai pas mangé depuis deux jours. »",
+    "options": [
+     "我没吃了两天饭。",
+     "我两天了没吃饭。",
+     "我两天没吃饭了。"
+    ],
+    "answer": 2,
+    "explanation": "Négation de durée : durée + 没 + V + 了."
+   },
+   {
+    "type": "listen",
+    "zh": "我们认识十年了，他是我最好的朋友。",
+    "question": "Depuis combien de temps se connaissent-ils ?",
+    "options": [
+     "Quatre ans",
+     "Deux ans",
+     "Dix ans"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-05",
+  "phase": 3,
+  "title": "着 avancé : V1着V2 et V着V着",
+  "pattern": "Sujet + V1 + 着 + V2 (manière)\nSujet + V着V着 + 就 + V2 (à force de…)",
+  "hsk": 3,
+  "explanation": "Vous connaissez 着 pour décrire un état durable : 门开着 « la porte est ouverte ». Voici deux emplois plus avancés, très fréquents à l'oral.\n\n**1. V1着 + V2 : la manière dont on fait quelque chose.**\nLe premier verbe suivi de 着 décrit la **posture ou la manière**, le second verbe est l'action principale :\n- 站着吃饭 « manger debout »\n- 坐着看电视 « regarder la télé assis »\n- 走着去学校 « aller à l'école à pied »\n- 笑着说 « dire en souriant », 哭着说 « dire en pleurant »\nLe français utilise souvent un gérondif (« en souriant ») ou un adverbe ; le chinois place la manière **avant** l'action. Ne dites pas « 他看电视坐着 ».\n\n**2. V着V着 + 就… : « à force de…, (soudain)… »**\nOn répète le verbe avec 着 pour exprimer qu'une action se prolongeait, et que pendant ce temps quelque chose d'autre s'est produit, souvent sans qu'on s'y attende :\n- 孩子听着听着就睡着了。« À force d'écouter, l'enfant s'est endormi. »\n- 我们走着走着就到了。« Nous avons marché, marché, et nous sommes arrivés. »\n- 她说着说着就哭了。« Tout en parlant, elle s'est mise à pleurer. »\nLa seconde partie contient très souvent 就 et un 了 final.\n\n**Pièges pour un francophone :**\n- On ne met **pas 在** avec cette structure : « 他坐在着看电视 » est faux ; dites 他坐着看电视. (En revanche, 他坐在椅子上看电视 est correct, mais c'est une autre structure : le lieu.)\n- 着 ne se place qu'**une fois**, juste après le premier verbe : 他看着电视吃饭, pas « 他看着电视着吃饭 ».\n- Pour « à force de », ne remplacez pas 着 par 了 : « 走了走了 » n'a pas ce sens.\n- Dans 睡着 (« s'endormir »), le caractère 着 est un complément de résultat qui se prononce différemment : ce n'est pas le même 着 que la marque de durée.",
+  "examples": [
+   {
+    "zh": "他们站着聊天。",
+    "fr": "Ils discutent debout."
+   },
+   {
+    "zh": "我每天走着去学校。",
+    "fr": "Je vais à l'école à pied tous les jours."
+   },
+   {
+    "zh": "老师笑着回答了我的问题。",
+    "fr": "Le professeur a répondu à ma question en souriant."
+   },
+   {
+    "zh": "孩子听着听着就睡着了。",
+    "fr": "À force d'écouter, l'enfant s'est endormi."
+   },
+   {
+    "zh": "我们走着走着就到了公园。",
+    "fr": "Nous avons marché, marché, et nous sommes arrivés au parc."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "他们",
+     "站着",
+     "聊天"
+    ],
+    "answer": "他们站着聊天",
+    "fr": "Ils discutent debout."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "走着",
+     "去",
+     "学校"
+    ],
+    "answer": "我走着去学校",
+    "fr": "Je vais à l'école à pied."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "孩子",
+     "听着听着",
+     "就",
+     "睡着",
+     "了"
+    ],
+    "answer": "孩子听着听着就睡着了",
+    "fr": "À force d'écouter, l'enfant s'est endormi."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "她",
+     "笑着",
+     "说",
+     "谢谢"
+    ],
+    "answer": "她笑着说谢谢",
+    "fr": "Elle a dit merci en souriant."
+   },
+   {
+    "type": "cloze",
+    "zh": "别站___吃饭，坐下吧。",
+    "options": [
+     "着",
+     "了",
+     "过",
+     "在"
+    ],
+    "answer": "着",
+    "fr": "Ne mange pas debout, assieds-toi."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们走着走___就到了公园。",
+    "options": [
+     "着",
+     "了",
+     "过",
+     "的"
+    ],
+    "answer": "着",
+    "fr": "Nous avons marché, marché, et nous sommes arrivés au parc."
+   },
+   {
+    "type": "cloze",
+    "zh": "老师笑___回答了我的问题。",
+    "options": [
+     "着",
+     "了",
+     "过",
+     "得"
+    ],
+    "answer": "着",
+    "fr": "Le professeur a répondu à ma question en souriant."
+   },
+   {
+    "type": "transform",
+    "instruction": "Fusionne les deux phrases avec V1着V2 : il mange debout.",
+    "zh": "他吃饭。他站着。",
+    "answers": [
+     "他站着吃饭。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Utilise V着V着 pour dire « à force de lire, il s'est endormi ».",
+    "zh": "他看书，后来睡着了。",
+    "answers": [
+     "他看着看着就睡着了。",
+     "他看书看着看着就睡着了。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "他坐在着看电视。",
+    "answers": [
+     "他坐着看电视。"
+    ],
+    "explanation": "Pour exprimer la manière, V着 suffit : on n'ajoute pas 在."
+   },
+   {
+    "type": "error",
+    "zh": "我们走了走了就到了。",
+    "answers": [
+     "我们走着走着就到了。"
+    ],
+    "explanation": "« À force de » se dit V着V着, pas V了V了."
+   },
+   {
+    "type": "error",
+    "zh": "他看着电视着吃饭。",
+    "answers": [
+     "他看着电视吃饭。"
+    ],
+    "explanation": "着 se place une seule fois, juste après le premier verbe."
+   },
+   {
+    "type": "translate",
+    "fr": "Ils sont allés au parc à pied.",
+    "answers": [
+     "他们走着去公园了。",
+     "他们是走着去公园的。",
+     "他们走着去了公园。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Elle s'est excusée en pleurant.",
+    "answers": [
+     "她哭着说对不起。",
+     "她哭着说了对不起。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Nous marchions, et tout à coup il s'est mis à pleuvoir.",
+    "answers": [
+     "我们走着走着就下雨了。",
+     "走着走着就下雨了。",
+     "我们走着走着，下雨了。",
+     "我们走着走着，突然下雨了。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Comment dire « Il travaille debout » ?",
+    "options": [
+     "他在站工作。",
+     "他工作着站。",
+     "他站着工作。"
+    ],
+    "answer": 2,
+    "explanation": "La manière (站着) se place avant l'action principale (工作)."
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 他说着说着就哭了。 ?",
+    "options": [
+     "Tout en parlant, il s'est mis à pleurer.",
+     "Il pleure chaque fois qu'il parle.",
+     "Il a parlé puis a cessé de pleurer."
+    ],
+    "answer": 0,
+    "explanation": "V着V着 + 就 : pendant que l'action se prolongeait, autre chose s'est produit."
+   },
+   {
+    "type": "listen",
+    "zh": "我每天走着去上班，二十分钟就到了。",
+    "question": "Comment va-t-il au travail ?",
+    "options": [
+     "À vélo",
+     "À pied",
+     "En bus"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-06",
+  "phase": 3,
+  "title": "越来越 : « de plus en plus »",
+  "pattern": "Sujet + 越来越 + adjectif / verbe psychologique (+ 了)\nSujet + V + 得 + 越来越 + adjectif (+ 了)",
+  "hsk": 3,
+  "explanation": "越来越 exprime une **évolution progressive** : « de plus en plus ». Il se place devant un adjectif ou un verbe exprimant un sentiment, une capacité ou un souhait (喜欢、想、会、能、了解…).\n\n- 天气越来越冷了。« Il fait de plus en plus froid. »\n- 我越来越喜欢中国菜了。« J'aime de plus en plus la cuisine chinoise. »\n\nOn ajoute très souvent **了** à la fin, car il s'agit d'un changement de situation.\n\n**« De moins en moins »** n'a pas de mot spécial : on dit 越来越少 (« de moins en moins nombreux ») ou 越来越不 + adjectif / verbe : 他越来越不想上班了 « il a de moins en moins envie d'aller travailler ».\n\n**Avec un verbe d'action** (parler, courir, écrire…), on ne peut pas mettre 越来越 directement devant le verbe. On passe par le **complément de degré** : V + 得 + 越来越 + adjectif.\n- 他汉语说得越来越好了。« Il parle chinois de mieux en mieux. »\n- 她跑得越来越快。« Elle court de plus en plus vite. »\n\n**Pièges pour un francophone :**\n- **Aucun adverbe de degré** après 越来越 : « 越来越很冷 », « 越来越非常喜欢 » sont faux. 越来越 joue déjà le rôle de l'adverbe.\n- Ne calquez pas « il parle de mieux en mieux chinois » en « 他越来越说汉语好 » : utilisez 得.\n- 越来越 ne se combine pas avec 比 : on dit 她越来越漂亮了 ou 她比以前漂亮了, mais pas les deux ensemble.\n- 越来越 est fixe : on ne coupe pas 越 et 来越. La structure à deux 越 séparés (越…越…) est un autre point de grammaire, qui relie deux actions.",
+  "examples": [
+   {
+    "zh": "天气越来越冷了。",
+    "fr": "Il fait de plus en plus froid."
+   },
+   {
+    "zh": "我越来越喜欢中国菜了。",
+    "fr": "J'aime de plus en plus la cuisine chinoise."
+   },
+   {
+    "zh": "他汉语说得越来越好了。",
+    "fr": "Il parle chinois de mieux en mieux."
+   },
+   {
+    "zh": "来上课的学生越来越少了。",
+    "fr": "Il y a de moins en moins d'élèves qui viennent en cours."
+   },
+   {
+    "zh": "这个城市越来越漂亮了。",
+    "fr": "Cette ville est de plus en plus belle."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "天气",
+     "越来越",
+     "冷",
+     "了"
+    ],
+    "answer": "天气越来越冷了",
+    "fr": "Il fait de plus en plus froid."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "越来越",
+     "想",
+     "家",
+     "了"
+    ],
+    "answer": "我越来越想家了",
+    "fr": "J'ai de plus en plus le mal du pays."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他的",
+     "汉语",
+     "说得",
+     "越来越",
+     "好",
+     "了"
+    ],
+    "answer": "他的汉语说得越来越好了",
+    "fr": "Il parle chinois de mieux en mieux."
+   },
+   {
+    "type": "cloze",
+    "zh": "这个城市___漂亮了。",
+    "options": [
+     "越来越",
+     "越",
+     "比",
+     "一点儿"
+    ],
+    "answer": "越来越",
+    "fr": "Cette ville est de plus en plus belle."
+   },
+   {
+    "type": "cloze",
+    "zh": "来上课的学生越来越___了。",
+    "options": [
+     "少",
+     "很少",
+     "不少",
+     "太少"
+    ],
+    "answer": "少",
+    "fr": "Il y a de moins en moins d'élèves qui viennent en cours."
+   },
+   {
+    "type": "cloze",
+    "zh": "爷爷的身体越来越___了。",
+    "options": [
+     "健康",
+     "很健康",
+     "非常健康",
+     "太健康"
+    ],
+    "answer": "健康",
+    "fr": "Grand-père se porte de mieux en mieux."
+   },
+   {
+    "type": "transform",
+    "instruction": "Utilise 越来越 pour exprimer une évolution.",
+    "zh": "东西很贵。",
+    "answers": [
+     "东西越来越贵了。",
+     "东西越来越贵。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Utilise 越来越 avec le complément de degré.",
+    "zh": "他跑得很快。",
+    "answers": [
+     "他跑得越来越快了。",
+     "他跑得越来越快。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "天气越来越很热了。",
+    "answers": [
+     "天气越来越热了。"
+    ],
+    "explanation": "Pas d'adverbe de degré (很) après 越来越."
+   },
+   {
+    "type": "error",
+    "zh": "他越来越说汉语好了。",
+    "answers": [
+     "他汉语说得越来越好了。",
+     "他说汉语说得越来越好了。",
+     "他的汉语说得越来越好了。"
+    ],
+    "explanation": "Avec un verbe d'action, on passe par le complément de degré : V得越来越 + adjectif."
+   },
+   {
+    "type": "translate",
+    "fr": "Il fait de plus en plus chaud.",
+    "answers": [
+     "天气越来越热了。",
+     "越来越热了。",
+     "天越来越热了。",
+     "天气越来越热。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je parle chinois de mieux en mieux.",
+    "answers": [
+     "我汉语说得越来越好了。",
+     "我的汉语说得越来越好了。",
+     "我说汉语说得越来越好了。",
+     "我的汉语越来越好了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il y a de moins en moins d'arbres.",
+    "answers": [
+     "树越来越少了。",
+     "树越来越少。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Je l'aime de plus en plus. »",
+    "options": [
+     "我喜欢她越来越了。",
+     "我越来越喜欢她了。",
+     "我越来越很喜欢她。"
+    ],
+    "answer": 1,
+    "explanation": "越来越 se place devant le verbe psychologique 喜欢, sans adverbe de degré."
+   },
+   {
+    "type": "choice",
+    "question": "« Il court de plus en plus vite. »",
+    "options": [
+     "他越来越跑快了。",
+     "他跑越来越快。",
+     "他跑得越来越快了。"
+    ],
+    "answer": 2,
+    "explanation": "跑 est un verbe d'action : on utilise 得 + 越来越 + adjectif."
+   },
+   {
+    "type": "listen",
+    "zh": "最近工作越来越忙，我没时间锻炼了。",
+    "question": "Pourquoi ne fait-il plus de sport ?",
+    "options": [
+     "Il est malade",
+     "Il n'aime pas le sport",
+     "Son travail est de plus en plus prenant"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-07",
+  "phase": 3,
+  "title": "越…越… : « plus…, plus… »",
+  "pattern": "Sujet + 越 + V1 + 越 + adj. / V2\nSujet1 + 越 + V1，Sujet2 + 越 + adj. / V2",
+  "hsk": 3,
+  "explanation": "La structure 越…越… met en relation **deux éléments qui évoluent ensemble** : « plus A, plus B ». Contrairement à 越来越 qui décrit une simple évolution dans le temps, 越…越… indique que **la seconde évolution dépend de la première**.\n\n**Même sujet :**\n- 这个故事我越听越喜欢。« Plus j'écoute cette histoire, plus je l'aime. »\n- 他越吃越胖。« Plus il mange, plus il grossit. »\n- 雨越下越大。« La pluie tombe de plus en plus fort » (littéralement : plus elle tombe, plus elle est forte). C'est une expression très courante pour la pluie, la neige ou le vent.\n\n**Deux sujets différents :** chaque sujet se place **devant son 越**, et une virgule sépare les deux parties. On peut ajouter 就 devant le second 越.\n- 你越说，他越生气。« Plus tu parles, plus il s'énerve. »\n- 你越努力，成绩就越好。« Plus tu travailles, meilleures sont tes notes. »\n\n**Pièges pour un francophone :**\n- **Le sujet précède 越** : « 越我们走越远 » est faux ; dites 我们越走越远. Le français commence par « plus », mais en chinois 越 est un adverbe et suit toujours le sujet.\n- **Pas de 很、非常 ou 更** après le second 越 : « 越看越很喜欢 » est faux.\n- Pour « moins », utilisez 越 + négation : 我越想越不明白 « plus j'y pense, moins je comprends ».\n- Ne confondez pas : 他越来越高兴 (« il est de plus en plus content ») et 他越说越高兴 (« plus il parle, plus il est content »). Dans le second cas, c'est le fait de parler qui le rend content.",
+  "examples": [
+   {
+    "zh": "这个故事我越听越喜欢。",
+    "fr": "Plus j'écoute cette histoire, plus je l'aime."
+   },
+   {
+    "zh": "雨越下越大。",
+    "fr": "La pluie tombe de plus en plus fort."
+   },
+   {
+    "zh": "你越说，他越生气。",
+    "fr": "Plus tu parles, plus il s'énerve."
+   },
+   {
+    "zh": "汉语越学越有意思。",
+    "fr": "Plus on apprend le chinois, plus c'est intéressant."
+   },
+   {
+    "zh": "我越想越不明白。",
+    "fr": "Plus j'y pense, moins je comprends."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "这个",
+     "菜",
+     "越",
+     "吃",
+     "越",
+     "好吃"
+    ],
+    "answer": "这个菜越吃越好吃",
+    "fr": "Plus on mange ce plat, plus on le trouve bon."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "雨",
+     "越",
+     "下",
+     "越",
+     "大"
+    ],
+    "answer": "雨越下越大",
+    "fr": "La pluie tombe de plus en plus fort."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "越",
+     "说",
+     "他",
+     "越",
+     "生气"
+    ],
+    "answer": "你越说他越生气",
+    "fr": "Plus tu parles, plus il s'énerve."
+   },
+   {
+    "type": "cloze",
+    "zh": "汉语越学越___。",
+    "options": [
+     "有意思",
+     "很有意思",
+     "更有意思",
+     "最有意思"
+    ],
+    "answer": "有意思",
+    "fr": "Plus on apprend le chinois, plus c'est intéressant."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___想越不明白。",
+    "options": [
+     "越",
+     "越来越",
+     "更",
+     "很"
+    ],
+    "answer": "越",
+    "fr": "Plus j'y pense, moins je comprends."
+   },
+   {
+    "type": "cloze",
+    "zh": "他越吃___胖。",
+    "options": [
+     "越",
+     "越来越",
+     "很",
+     "比"
+    ],
+    "answer": "越",
+    "fr": "Plus il mange, plus il grossit."
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie avec 越…越… : plus il court, plus il va vite.",
+    "zh": "他跑。他跑得快。",
+    "answers": [
+     "他越跑越快。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie avec 越…越… (deux sujets différents).",
+    "zh": "你着急。我不会做。",
+    "answers": [
+     "你越着急，我越不会做。",
+     "你越着急，我就越不会做。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "这本书我越看越很喜欢。",
+    "answers": [
+     "这本书我越看越喜欢。"
+    ],
+    "explanation": "Pas d'adverbe de degré (很) après le second 越."
+   },
+   {
+    "type": "error",
+    "zh": "越我们走，越远。",
+    "answers": [
+     "我们越走越远。"
+    ],
+    "explanation": "越 est un adverbe : le sujet se place avant lui."
+   },
+   {
+    "type": "translate",
+    "fr": "Plus je mange, plus j'ai faim.",
+    "answers": [
+     "我越吃越饿。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Plus tu travailles dur, meilleures sont tes notes.",
+    "answers": [
+     "你越努力，成绩越好。",
+     "你越努力，成绩就越好。",
+     "你越努力学习，成绩越好。",
+     "你越努力学习，成绩就越好。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "La pluie tombe de plus en plus fort.",
+    "answers": [
+     "雨越下越大。",
+     "雨越下越大了。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Plus je le regarde, moins je le comprends. »",
+    "options": [
+     "我越看越明白不。",
+     "我越看越不明白。",
+     "我看越来越不明白。"
+    ],
+    "answer": 1,
+    "explanation": "Pour « moins », on met la négation après le second 越."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase relie deux évolutions (plus A, plus B) ?",
+    "options": [
+     "他越说越高兴。",
+     "天气越来越冷。",
+     "他越来越高兴。"
+    ],
+    "answer": 0,
+    "explanation": "越说越高兴 : c'est le fait de parler qui le rend plus content. 越来越 indique seulement une évolution dans le temps."
+   },
+   {
+    "type": "listen",
+    "zh": "这个城市我越住越喜欢，不想离开了。",
+    "question": "Que ressent la personne ?",
+    "options": [
+     "Elle aime de plus en plus la ville",
+     "Elle vient d'arriver",
+     "Elle veut partir"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p3-08",
+  "phase": 3,
+  "title": "一…就… : « dès que », « aussitôt »",
+  "pattern": "Sujet + 一 + V1 + 就 + V2\n(Sujet1) + 一 + V1，Sujet2 + 就 + V2",
+  "hsk": 3,
+  "explanation": "La structure 一…就… exprime que deux actions se suivent **immédiatement** : « dès que A, B ». Elle peut décrire :\n- **un événement unique** : 我一到家就给你打电话。« Dès que j'arrive à la maison, je t'appelle. »\n- **une habitude, une réaction systématique** : 他一喝酒就脸红。« Dès qu'il boit de l'alcool, il devient rouge. »\n- **une grande facilité** : 这个问题一看就懂。« Ce problème, on le comprend au premier coup d'œil. »\n\nIci, 一 ne signifie **pas « un »** : c'est un adverbe qui marque la première action, toujours placé devant le verbe.\n\n**Position de 一 et de 就 :**\n- 一 et 就 sont des adverbes : ils se placent **après le sujet** de leur proposition et **devant le verbe**.\n- Avec un seul sujet : 我一下课就去吃饭.\n- Avec deux sujets : 老师一来，我们就开始上课。Chaque sujet garde sa place devant son adverbe.\n- La première proposition peut ne pas avoir de sujet : 一下课，我们就去踢足球.\n\n**Pièges pour un francophone :**\n- **就 ne précède jamais le sujet** : « 一下课，就我们去… » est faux ; dites 一下课，我们就去….\n- Ne remplacez pas 就 par 才 : 才 indique un retard (« seulement après »), le contraire de l'idée de rapidité.\n- Le français « dès que » est une conjonction en tête de phrase ; en chinois, 一 suit le sujet : 我一到北京就感冒了 « dès mon arrivée à Pékin, j'ai attrapé un rhume ».\n- Ne confondez pas avec 一 + quantité (一个、一次) : ici, 一 est directement suivi d'un verbe.\n- Le verbe après 一 est souvent court (到、看、听、回、下课…) et ne prend généralement pas 了.",
+  "examples": [
+   {
+    "zh": "我一到家就给你打电话。",
+    "fr": "Dès que j'arrive à la maison, je t'appelle."
+   },
+   {
+    "zh": "他一喝酒就脸红。",
+    "fr": "Dès qu'il boit de l'alcool, il devient tout rouge."
+   },
+   {
+    "zh": "一下课，我们就去吃饭。",
+    "fr": "Dès la fin du cours, on va manger."
+   },
+   {
+    "zh": "老师一来，我们就开始上课了。",
+    "fr": "Dès que le professeur est arrivé, nous avons commencé le cours."
+   },
+   {
+    "zh": "这个问题很简单，一看就懂。",
+    "fr": "Cette question est simple, on la comprend tout de suite."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "一",
+     "到家",
+     "就",
+     "给你打电话"
+    ],
+    "answer": "我一到家就给你打电话",
+    "fr": "Dès que j'arrive à la maison, je t'appelle."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "一",
+     "喝酒",
+     "就",
+     "脸红"
+    ],
+    "answer": "他一喝酒就脸红",
+    "fr": "Dès qu'il boit de l'alcool, il devient tout rouge."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "妈妈",
+     "一",
+     "回来",
+     "我们",
+     "就",
+     "吃饭"
+    ],
+    "answer": "妈妈一回来我们就吃饭",
+    "fr": "Dès que maman rentre, on mange."
+   },
+   {
+    "type": "cloze",
+    "zh": "她一看见狗___害怕。",
+    "options": [
+     "就",
+     "才",
+     "都",
+     "也"
+    ],
+    "answer": "就",
+    "fr": "Dès qu'elle voit un chien, elle a peur."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___听就明白了。",
+    "options": [
+     "一",
+     "刚才",
+     "就",
+     "才"
+    ],
+    "answer": "一",
+    "fr": "J'ai compris dès que je l'ai entendu."
+   },
+   {
+    "type": "cloze",
+    "zh": "天一黑，他们___回家了。",
+    "options": [
+     "就",
+     "才",
+     "再",
+     "还"
+    ],
+    "answer": "就",
+    "fr": "Dès que la nuit est tombée, ils sont rentrés."
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie les deux phrases avec 一…就….",
+    "zh": "我起床。我喝咖啡。",
+    "answers": [
+     "我一起床就喝咖啡。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie avec 一…就… (deux sujets).",
+    "zh": "老师来了。我们开始上课。",
+    "answers": [
+     "老师一来，我们就开始上课。",
+     "老师一来，我们就开始上课了。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "一下课，就我们去踢足球。",
+    "answers": [
+     "一下课，我们就去踢足球。"
+    ],
+    "explanation": "就 est un adverbe : il se place après le sujet, devant le verbe."
+   },
+   {
+    "type": "error",
+    "zh": "我就到家一给你打电话。",
+    "answers": [
+     "我一到家就给你打电话。"
+    ],
+    "explanation": "一 accompagne la première action, 就 la seconde."
+   },
+   {
+    "type": "translate",
+    "fr": "Dès qu'il pleut, il n'a plus envie de sortir.",
+    "answers": [
+     "一下雨他就不想出去。",
+     "一下雨，他就不想出去。",
+     "一下雨，他就不想出门。",
+     "他一下雨就不想出去。",
+     "一下雨，他就不想出去了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Dès mon arrivée à Pékin, j'ai attrapé un rhume.",
+    "answers": [
+     "我一到北京就感冒了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Cette question est très simple, on la comprend au premier coup d'œil.",
+    "answers": [
+     "这个问题很简单，一看就懂。",
+     "这个问题很简单，一看就明白。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 他一喝咖啡就睡不着。 ?",
+    "options": [
+     "Dès qu'il boit du café, il n'arrive plus à dormir.",
+     "Il boit un café puis il dort.",
+     "Il ne boit qu'un seul café."
+    ],
+    "answer": 0,
+    "explanation": "一…就… : la seconde situation suit immédiatement la première, ici de façon systématique."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "你一到机场，就给我打电话。",
+     "你一到机场，给我就打电话。",
+     "你到机场一，就给我打电话。"
+    ],
+    "answer": 0,
+    "explanation": "一 et 就 se placent juste devant leur verbe respectif."
+   },
+   {
+    "type": "listen",
+    "zh": "我妹妹一看电视就不想写作业。",
+    "question": "Que se passe-t-il quand la petite sœur regarde la télé ?",
+    "options": [
+     "Elle fait ses devoirs",
+     "Elle s'endort",
+     "Elle n'a plus envie de faire ses devoirs"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-09",
+  "phase": 3,
+  "title": "先…然后 / 再… : « d'abord…, ensuite… »",
+  "pattern": "Sujet + 先 + V1，然后 + (再) + V2\nSujet + 先 + V1 + 再 + V2",
+  "hsk": 3,
+  "explanation": "Pour ordonner des actions, le chinois utilise 先 « d'abord » puis 然后 et / ou 再 « ensuite ».\n\n**先** est un adverbe : il se place **après le sujet, devant le verbe** : 我们先吃饭 « mangeons d'abord ».\n\n**再** est aussi un adverbe, placé devant le second verbe. Avec 先, il exprime « ensuite seulement » et s'emploie surtout pour **des projets, des conseils, des instructions** (actions pas encore faites) :\n- 我们先吃饭再去看电影。« On mange d'abord, puis on va au cinéma. »\n- 你先想一想再回答。« Réfléchis avant de répondre. »\n\n**然后** est un connecteur : il se place **en tête de la seconde proposition** et peut être suivi d'un sujet. Il fonctionne **au passé comme au futur** :\n- 他先去了银行，然后去了超市。« Il est d'abord allé à la banque, puis au supermarché. »\n- 你先往前走，然后往右走。« Va d'abord tout droit, puis tourne à droite. »\nOn peut combiner les deux : 先…，然后再…\n\n**Pièges pour un francophone :**\n- « D'abord » se met souvent en tête en français ; en chinois, **先 suit le sujet** : 我们先去买票, pas « 先我们去买票 ».\n- Pour raconter des actions **passées**, préférez 然后 ; 再 sert surtout à ce qui n'est pas encore fait. (Pour une répétition passée, on utilise 又, qui est un autre sens.)\n- Ne confondez pas 然后 et 以后 : 以后 suit une action ou un moment (吃饭以后 « après le repas ») ; 然后 ouvre la proposition suivante (…，然后… « et puis… »).\n- Pour une liste plus longue, terminez avec 最后 « enfin » : 先…，然后…，最后….",
+  "examples": [
+   {
+    "zh": "我们先吃饭再去看电影。",
+    "fr": "On mange d'abord, puis on va au cinéma."
+   },
+   {
+    "zh": "你先洗手，然后吃蛋糕。",
+    "fr": "Lave-toi d'abord les mains, puis mange le gâteau."
+   },
+   {
+    "zh": "他先去了银行，然后去了超市。",
+    "fr": "Il est d'abord allé à la banque, puis au supermarché."
+   },
+   {
+    "zh": "你先想一想，然后再回答。",
+    "fr": "Réfléchis d'abord, et ensuite réponds."
+   },
+   {
+    "zh": "你先坐地铁，然后再换公共汽车。",
+    "fr": "Prends d'abord le métro, puis change pour le bus."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "先",
+     "吃饭",
+     "再",
+     "去",
+     "看电影"
+    ],
+    "answer": "我们先吃饭再去看电影",
+    "fr": "On mange d'abord, puis on va au cinéma."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "先",
+     "洗手",
+     "然后",
+     "吃",
+     "蛋糕"
+    ],
+    "answer": "你先洗手然后吃蛋糕",
+    "fr": "Lave-toi d'abord les mains, puis mange le gâteau."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "先",
+     "去了",
+     "银行",
+     "然后",
+     "去了",
+     "超市"
+    ],
+    "answer": "他先去了银行然后去了超市",
+    "fr": "Il est d'abord allé à la banque, puis au supermarché."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们___做作业，再去玩。",
+    "options": [
+     "先",
+     "然后",
+     "再",
+     "就"
+    ],
+    "answer": "先",
+    "fr": "On fait d'abord les devoirs, puis on va jouer."
+   },
+   {
+    "type": "cloze",
+    "zh": "你先往前走，___往右走。",
+    "options": [
+     "然后",
+     "先",
+     "以前",
+     "刚才"
+    ],
+    "answer": "然后",
+    "fr": "Va d'abord tout droit, puis tourne à droite."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们先去北京，___去上海。",
+    "options": [
+     "再",
+     "又",
+     "先",
+     "刚"
+    ],
+    "answer": "再",
+    "fr": "On va d'abord à Pékin, puis à Shanghai."
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie les deux actions avec 先…再….",
+    "zh": "我洗澡。我睡觉。",
+    "answers": [
+     "我先洗澡再睡觉。",
+     "我先洗澡，然后再睡觉。",
+     "我先洗澡，然后睡觉。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie les deux actions passées avec 先…然后….",
+    "zh": "他吃了早饭。他去了学校。",
+    "answers": [
+     "他先吃了早饭，然后去了学校。",
+     "他先吃了早饭，然后去学校了。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "先我们去买票，然后进去。",
+    "answers": [
+     "我们先去买票，然后进去。",
+     "我们先去买票，然后再进去。"
+    ],
+    "explanation": "先 est un adverbe : il se place après le sujet."
+   },
+   {
+    "type": "error",
+    "zh": "我们吃饭先，再看电视。",
+    "answers": [
+     "我们先吃饭，再看电视。",
+     "我们先吃饭再看电视。"
+    ],
+    "explanation": "先 se place devant le verbe, pas après."
+   },
+   {
+    "type": "translate",
+    "fr": "Réfléchis d'abord, ensuite réponds.",
+    "answers": [
+     "你先想一想，然后再回答。",
+     "先想一想，再回答。",
+     "你先想想再回答。",
+     "先想一想再回答。",
+     "你先想一想再回答。",
+     "先想想再回答。",
+     "你先想想，然后再回答。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Lave-toi d'abord les mains, puis mange.",
+    "answers": [
+     "先洗手，然后吃饭。",
+     "你先洗手再吃饭。",
+     "先洗手再吃饭。",
+     "你先洗手，然后再吃饭。",
+     "你先洗手，然后吃饭。",
+     "先洗手，然后再吃饭。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Hier, j'ai d'abord fait le ménage, puis je suis allé faire des courses.",
+    "answers": [
+     "我昨天先打扫了房间，然后去买东西了。",
+     "昨天我先打扫了房间，然后去买东西了。",
+     "我昨天先打扫了房间，然后去了超市。",
+     "昨天我先打扫房间，然后去买东西了。",
+     "我昨天先打扫房间，然后去买东西了。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我们再吃饭先走吧。",
+     "先我们吃饭再走吧。",
+     "我们先吃饭再走吧。"
+    ],
+    "answer": 2,
+    "explanation": "先 introduit la première action, 再 la seconde ; tous deux suivent le sujet."
+   },
+   {
+    "type": "choice",
+    "question": "Complète : 昨天我先去了银行，___去了超市。",
+    "options": [
+     "再",
+     "然后",
+     "才"
+    ],
+    "answer": 1,
+    "explanation": "Pour enchaîner des actions passées, on utilise 然后. 再 s'emploie surtout pour ce qui n'est pas encore fait."
+   },
+   {
+    "type": "listen",
+    "zh": "你先坐地铁，然后再换公共汽车。",
+    "question": "Que faut-il faire en premier ?",
+    "options": [
+     "Prendre le bus",
+     "Prendre un taxi",
+     "Prendre le métro"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-10",
+  "phase": 3,
+  "title": "Complément directionnel simple : V + 来 / 去",
+  "pattern": "Sujet + V + 来 / 去\nSujet + V + lieu + 来 / 去\nSujet + V + 来 / 去 + objet (ou V + objet + 来 / 去)",
+  "hsk": 3,
+  "explanation": "En chinois, on précise très souvent la **direction d'un mouvement par rapport à celui qui parle** en ajoutant 来 ou 去 après le verbe :\n- **来** : le mouvement se fait **vers le locuteur** (ou vers l'endroit dont on parle) : 你过来！« Viens (vers moi) ! »\n- **去** : le mouvement **s'éloigne du locuteur** : 他回去了。« Il est reparti (là-bas). »\n\nLes verbes de mouvement les plus fréquents avec ce complément sont 进 (entrer), 出 (sortir), 上 (monter), 下 (descendre), 回 (revenir), 过 (passer, traverser), ainsi que 带 (apporter), 拿 (prendre), 送 (envoyer)…\n- 外面很冷，快进来！« Il fait froid dehors, entre vite ! » (je suis à l'intérieur)\n- 妈妈叫你，你快下去吧。« Maman t'appelle, descends vite. » (maman est en bas, moi en haut avec toi)\n\n**Place du complément de lieu :** le lieu se place **obligatoirement entre le verbe et 来 / 去** :\n- 他回家去了。« Il est rentré chez lui. »\n- 老师进教室来了。« Le professeur est entré dans la classe. »\n\n**Place d'un objet qui n'est pas un lieu :** il peut se mettre avant ou après 来 / 去 :\n- 明天带你的字典来。/ 他带来了一些水果。\n\n**Pièges pour un francophone :**\n- Le français « entrer », « sortir » ne précise pas le point de vue. En chinois, 进来 et 进去 ne sont pas interchangeables : tout dépend d'où se trouve le locuteur.\n- **Jamais de lieu après 来 / 去** : « 他回去家了 », « 进来教室 » sont faux.\n- 来 et 去 à la fin d'un verbe se prononcent souvent au ton neutre ; à l'écoute, ils sont légers mais indispensables pour comprendre qui va où.\n- Au téléphone, quand on se rend chez quelqu'un, on dit 我马上过来 / 我马上过去 selon qu'on se place du côté de l'interlocuteur ou du sien : les deux s'entendent, mais 过去 est plus logique pour celui qui part.",
+  "examples": [
+   {
+    "zh": "外面很冷，你快进来吧！",
+    "fr": "Il fait froid dehors, entre vite !"
+   },
+   {
+    "zh": "他回家去了。",
+    "fr": "Il est rentré chez lui."
+   },
+   {
+    "zh": "老师进教室来了。",
+    "fr": "Le professeur est entré dans la classe."
+   },
+   {
+    "zh": "明天请带你的字典来。",
+    "fr": "Demain, apporte ton dictionnaire, s'il te plaît."
+   },
+   {
+    "zh": "我在楼上，你上来吧。",
+    "fr": "Je suis en haut, monte."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "快",
+     "进来",
+     "吧"
+    ],
+    "answer": "你快进来吧",
+    "fr": "Entre vite !"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "回",
+     "家",
+     "去",
+     "了"
+    ],
+    "answer": "他回家去了",
+    "fr": "Il est rentré chez lui."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "进",
+     "教室",
+     "去",
+     "吧"
+    ],
+    "answer": "我们进教室去吧",
+    "fr": "Entrons dans la classe."
+   },
+   {
+    "type": "cloze",
+    "zh": "妈妈在楼下叫你，你快下___吧。",
+    "options": [
+     "去",
+     "来",
+     "过",
+     "了"
+    ],
+    "answer": "去",
+    "fr": "Maman t'appelle d'en bas, descends vite."
+   },
+   {
+    "type": "cloze",
+    "zh": "外面很冷，你快进___！",
+    "options": [
+     "来",
+     "去",
+     "到",
+     "在"
+    ],
+    "answer": "来",
+    "fr": "Il fait froid dehors, entre vite (ici) !"
+   },
+   {
+    "type": "cloze",
+    "zh": "我在楼上，你上___吧。",
+    "options": [
+     "来",
+     "去",
+     "过",
+     "着"
+    ],
+    "answer": "来",
+    "fr": "Je suis en haut, monte (me rejoindre)."
+   },
+   {
+    "type": "transform",
+    "instruction": "Insère le lieu 教室 au bon endroit.",
+    "zh": "老师进来了。",
+    "answers": [
+     "老师进教室来了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Le locuteur est à l'intérieur : la personne s'éloigne de lui. Modifie la phrase.",
+    "zh": "他出来了。",
+    "answers": [
+     "他出去了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute l'objet 一些水果.",
+    "zh": "他带来了。",
+    "answers": [
+     "他带来了一些水果。",
+     "他带了一些水果来。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "他回去家了。",
+    "answers": [
+     "他回家去了。"
+    ],
+    "explanation": "Le lieu se place entre le verbe et 来 / 去, jamais après."
+   },
+   {
+    "type": "error",
+    "zh": "老师进来教室了。",
+    "answers": [
+     "老师进教室来了。"
+    ],
+    "explanation": "Le lieu (教室) se met entre 进 et 来."
+   },
+   {
+    "type": "translate",
+    "fr": "Viens ici !",
+    "answers": [
+     "你过来！",
+     "过来！",
+     "你过来吧！",
+     "过来吧！",
+     "到这儿来！",
+     "你到这儿来！"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il est rentré en Chine.",
+    "answers": [
+     "他回中国去了。",
+     "他回中国了。",
+     "他回国了。",
+     "他回国去了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Monte, je suis en haut.",
+    "answers": [
+     "你上楼来吧，我在楼上。",
+     "上楼来吧，我在楼上。",
+     "你上来吧，我在楼上。",
+     "上来吧，我在楼上。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Tu es dans le bureau et tu invites quelqu'un qui frappe à entrer :",
+    "options": [
+     "请进去。",
+     "请来进。",
+     "请进来。"
+    ],
+    "answer": 2,
+    "explanation": "Le mouvement se fait vers toi : 进来."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "他回去了学校。",
+     "他回去学校了。",
+     "他回学校去了。"
+    ],
+    "answer": 2,
+    "explanation": "Le lieu (学校) se place entre 回 et 去."
+   },
+   {
+    "type": "listen",
+    "zh": "我在家等你，你下了课就回来吧。",
+    "question": "Où se trouve la personne qui parle ?",
+    "options": [
+     "Au bureau",
+     "À la maison",
+     "À l'école"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-11",
+  "phase": 3,
+  "title": "Complément directionnel composé : 走进来, 跑出去, 站起来…",
+  "pattern": "Sujet + V + 上/下/进/出/回/过/起 + 来/去\nSujet + V + 上/下/进/出/回/过 + lieu + 来/去\nSujet + V + 出/起… + objet + 来/去",
+  "hsk": 3,
+  "explanation": "Le complément directionnel composé combine **trois éléments** : un verbe qui indique la **manière** du mouvement (走 marcher, 跑 courir, 拿 prendre, 搬 déménager, 爬 grimper, 飞 voler…), une **direction** (上、下、进、出、回、过、起) et le point de vue **来 / 去**.\n\n- 他走进来了。« Il est entré (en marchant, vers moi). »\n- 孩子们跑出去了。« Les enfants sont sortis en courant. »\n- 请大家站起来。« Levez-vous, s'il vous plaît. »\n- 鸟飞过来了。« L'oiseau est arrivé en volant (vers nous). »\n\nLà où le français utilise un verbe de direction et précise la manière à part (« sortir en courant », « entrer en marchant »), le chinois dit **manière + direction + point de vue** dans un seul bloc. C'est extrêmement fréquent dans les récits.\n\n**Place du lieu :** comme pour le complément simple, le lieu s'insère **avant 来 / 去** :\n- 他跑上楼去了。« Il est monté à l'étage en courant. »\n- 妈妈走进房间来了。« Maman est entrée dans la chambre. »\n\n**Place d'un objet (chose) :** il se met en général **avant 来 / 去**, parfois après tout le bloc :\n- 她从包里拿出一本书来。/ 她从包里拿出来一本书。« Elle a sorti un livre de son sac. »\n\n**起来** est particulier : il n'a pas de version 起去. Il indique un mouvement vers le haut : 站起来 « se lever », 拿起来 « soulever ».\n\n**Pièges pour un francophone :**\n- **Le lieu ne se met jamais après 来 / 去** : « 他跑出去教室了 », « 走进来了教室 » sont faux.\n- N'oubliez pas le verbe de manière : 走、跑、拿… C'est lui qui porte l'action ; 进来 seul est moins précis.\n- Avec 从 + lieu + 里, on indique le point de départ : 从教室里走出来 « sortir de la classe ».",
+  "examples": [
+   {
+    "zh": "他从教室里走出来了。",
+    "fr": "Il est sorti de la classe."
+   },
+   {
+    "zh": "孩子们跑进教室来了。",
+    "fr": "Les enfants sont entrés dans la classe en courant."
+   },
+   {
+    "zh": "她从包里拿出一本书来。",
+    "fr": "Elle a sorti un livre de son sac."
+   },
+   {
+    "zh": "请大家站起来。",
+    "fr": "Levez-vous tous, s'il vous plaît."
+   },
+   {
+    "zh": "我们爬上山去了。",
+    "fr": "Nous avons grimpé en haut de la montagne."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "从",
+     "教室",
+     "里",
+     "走",
+     "出来",
+     "了"
+    ],
+    "answer": "他从教室里走出来了",
+    "fr": "Il est sorti de la classe."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "孩子们",
+     "跑进",
+     "教室",
+     "来",
+     "了"
+    ],
+    "answer": "孩子们跑进教室来了",
+    "fr": "Les enfants sont entrés dans la classe en courant."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "一只",
+     "鸟",
+     "飞进",
+     "房间",
+     "来",
+     "了"
+    ],
+    "answer": "一只鸟飞进房间来了",
+    "fr": "Un oiseau est entré dans la pièce en volant."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "大家",
+     "都",
+     "站起来",
+     "了"
+    ],
+    "answer": "大家都站起来了",
+    "fr": "Tout le monde s'est levé."
+   },
+   {
+    "type": "cloze",
+    "zh": "你看，那只鸟飞___来了！",
+    "options": [
+     "过",
+     "着",
+     "了",
+     "得"
+    ],
+    "answer": "过",
+    "fr": "Regarde, cet oiseau arrive vers nous en volant !"
+   },
+   {
+    "type": "cloze",
+    "zh": "他坐了一会儿，然后站___走了。",
+    "options": [
+     "起来",
+     "回来",
+     "进去",
+     "上去"
+    ],
+    "answer": "起来",
+    "fr": "Il s'est assis un moment, puis il s'est levé et il est parti."
+   },
+   {
+    "type": "cloze",
+    "zh": "他跑___二楼去了。",
+    "options": [
+     "上",
+     "起",
+     "开",
+     "着"
+    ],
+    "answer": "上",
+    "fr": "Il est monté au deuxième étage en courant."
+   },
+   {
+    "type": "transform",
+    "instruction": "Insère le lieu 房间 au bon endroit.",
+    "zh": "妈妈走进来了。",
+    "answers": [
+     "妈妈走进房间来了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute l'objet 一张照片.",
+    "zh": "他拿出来了。",
+    "answers": [
+     "他拿出一张照片来。",
+     "他拿出来一张照片。",
+     "他拿出来了一张照片。",
+     "他拿出了一张照片来。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "他跑出去教室了。",
+    "answers": [
+     "他跑出教室去了。"
+    ],
+    "explanation": "Le lieu se place avant 来 / 去 : 跑出 + lieu + 去."
+   },
+   {
+    "type": "error",
+    "zh": "我们爬上去山了。",
+    "answers": [
+     "我们爬上山去了。"
+    ],
+    "explanation": "Le lieu (山) se met entre 上 et 去."
+   },
+   {
+    "type": "error",
+    "zh": "老师走进来了教室。",
+    "answers": [
+     "老师走进教室来了。"
+    ],
+    "explanation": "Le lieu ne peut jamais suivre 来 / 去."
+   },
+   {
+    "type": "translate",
+    "fr": "Les enfants sont sortis en courant.",
+    "answers": [
+     "孩子们跑出去了。",
+     "孩子们跑出来了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il a sorti son téléphone de son sac.",
+    "answers": [
+     "他从包里拿出手机来。",
+     "他从包里拿出了手机。",
+     "他从包里拿出来手机。",
+     "他从包里拿出了他的手机。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il est rentré chez lui en courant.",
+    "answers": [
+     "他跑回家去了。",
+     "他跑回家来了。",
+     "他跑回家了。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "他走楼上去了。",
+     "他走上楼去了。",
+     "他走上去楼了。"
+    ],
+    "answer": 1,
+    "explanation": "Le lieu (楼) s'insère entre 上 et 去."
+   },
+   {
+    "type": "choice",
+    "question": "Tu es dans ta chambre ; ton ami arrive du couloir et entre. Tu dis :",
+    "options": [
+     "他走进去了。",
+     "他走出去了。",
+     "他走进来了。"
+    ],
+    "answer": 2,
+    "explanation": "Il entre et se rapproche de toi : 进 + 来."
+   },
+   {
+    "type": "listen",
+    "zh": "我看见一个孩子从商店里跑出来了。",
+    "question": "Qu'a vu la personne ?",
+    "options": [
+     "Un enfant qui pleure",
+     "Un enfant qui entre dans un magasin",
+     "Un enfant qui sort d'un magasin en courant"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-12",
+  "phase": 3,
+  "title": "Sens figurés de 起来, 下去 et 出来",
+  "pattern": "V + 起来 (début / impression / souvenir) ; V + 起 + O + 来\nV + 下去 (continuer)\nV + 出来 (identifier, trouver)",
+  "hsk": 3,
+  "explanation": "Les compléments directionnels ne parlent pas toujours de mouvement. Trois d'entre eux ont des sens figurés très courants.\n\n**起来**\n- **Début d'une action ou d'un état** : 孩子突然哭起来了 « l'enfant s'est soudain mis à pleurer ». Avec un objet, celui-ci se glisse **entre 起 et 来** : 外面下起雨来了 « il s'est mis à pleuvoir », 他唱起歌来 « il se met à chanter ».\n- **Impression** : 看起来 « avoir l'air », 听起来 « ça a l'air (à l'entendre) », 吃起来 « au goût » : 这个菜看起来很好吃 « ce plat a l'air délicieux ».\n- **Souvenir** : 想起来 « se rappeler » : 我想起来他叫什么了 « je me rappelle comment il s'appelle ».\n\n**下去**\n- **Continuer** une action déjà commencée : 你说下去 « continue (de parler) » ; 汉语很难，但是我会学下去 « le chinois est difficile, mais je vais continuer ». On l'emploie souvent avec 再 : 你再这样吃下去会胖的 « si tu continues à manger comme ça, tu vas grossir ».\n\n**出来**\n- **Identifier, reconnaître, découvrir** grâce à un sens : 看出来 « remarquer, deviner en voyant », 听出来 « reconnaître à l'oreille » : 我听出来了，这是王老师的声音.\n- **Trouver, produire** : 想出来一个办法 « trouver une solution ».\n\n**Pièges pour un francophone :**\n- **Place de l'objet avec 起来** : « 下雨起来 » est faux, dites 下起雨来.\n- Ne confondez pas **想起来** (se rappeler une chose oubliée) et **想出来** (trouver une idée nouvelle).\n- Ne confondez pas **看起来** (« avoir l'air ») et **看出来** (« s'apercevoir de ») : 他看起来不高兴 « il a l'air mécontent » / 我看出来他不高兴 « j'ai remarqué qu'il était mécontent ».\n- Pour « continuer », n'utilisez pas 出去 ou 起来 : seul 下去 a ce sens.",
+  "examples": [
+   {
+    "zh": "这个菜看起来很好吃。",
+    "fr": "Ce plat a l'air délicieux."
+   },
+   {
+    "zh": "外面下起雨来了。",
+    "fr": "Il s'est mis à pleuvoir dehors."
+   },
+   {
+    "zh": "汉语很难，但是我会学下去。",
+    "fr": "Le chinois est difficile, mais je vais continuer à l'apprendre."
+   },
+   {
+    "zh": "我听出来了，这是王老师的声音。",
+    "fr": "J'ai reconnu : c'est la voix du professeur Wang."
+   },
+   {
+    "zh": "我想起来他叫什么了。",
+    "fr": "Je me rappelle comment il s'appelle."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "这个",
+     "菜",
+     "看起来",
+     "很",
+     "好吃"
+    ],
+    "answer": "这个菜看起来很好吃",
+    "fr": "Ce plat a l'air délicieux."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "外面",
+     "下起",
+     "雨",
+     "来",
+     "了"
+    ],
+    "answer": "外面下起雨来了",
+    "fr": "Il s'est mis à pleuvoir dehors."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "再",
+     "说下去",
+     "我",
+     "就",
+     "生气",
+     "了"
+    ],
+    "answer": "你再说下去我就生气了",
+    "fr": "Si tu continues à parler, je vais me fâcher."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "想起来",
+     "他",
+     "是",
+     "谁",
+     "了",
+     "吗"
+    ],
+    "answer": "你想起来他是谁了吗",
+    "fr": "Tu te rappelles qui il est ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "这个办法听___不错。",
+    "options": [
+     "起来",
+     "下去",
+     "出来",
+     "过去"
+    ],
+    "answer": "起来",
+    "fr": "Cette méthode a l'air pas mal."
+   },
+   {
+    "type": "cloze",
+    "zh": "汉语很难，但是我会学___。",
+    "options": [
+     "下去",
+     "起来",
+     "出来",
+     "过来"
+    ],
+    "answer": "下去",
+    "fr": "Le chinois est difficile, mais je vais continuer à l'apprendre."
+   },
+   {
+    "type": "cloze",
+    "zh": "我听___了，这是王老师的声音。",
+    "options": [
+     "出来",
+     "起来",
+     "下去",
+     "过去"
+    ],
+    "answer": "出来",
+    "fr": "J'ai reconnu : c'est la voix du professeur Wang."
+   },
+   {
+    "type": "cloze",
+    "zh": "孩子突然哭___来了。",
+    "options": [
+     "起",
+     "下",
+     "回",
+     "进"
+    ],
+    "answer": "起",
+    "fr": "L'enfant s'est soudain mis à pleurer."
+   },
+   {
+    "type": "transform",
+    "instruction": "Utilise 看起来 pour exprimer une impression.",
+    "zh": "他很累。",
+    "answers": [
+     "他看起来很累。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Utilise 起…来 pour dire qu'il se met à chanter.",
+    "zh": "他唱歌。",
+    "answers": [
+     "他唱起歌来。",
+     "他唱起歌来了。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "外面下雨起来了。",
+    "answers": [
+     "外面下起雨来了。"
+    ],
+    "explanation": "L'objet se place entre 起 et 来 : 下起雨来."
+   },
+   {
+    "type": "error",
+    "zh": "这个故事很有意思，你说出去吧。",
+    "answers": [
+     "这个故事很有意思，你说下去吧。"
+    ],
+    "explanation": "« Continuer » se dit V + 下去."
+   },
+   {
+    "type": "error",
+    "zh": "我看起来了，他不高兴。",
+    "answers": [
+     "我看出来了，他不高兴。"
+    ],
+    "explanation": "« Remarquer, s'apercevoir » se dit 看出来 ; 看起来 signifie « avoir l'air »."
+   },
+   {
+    "type": "translate",
+    "fr": "Cette jupe a l'air chère.",
+    "answers": [
+     "这条裙子看起来很贵。",
+     "这条裙子看起来很贵啊。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ça me revient : je sais où il habite.",
+    "answers": [
+     "我想起来他住在哪儿了。",
+     "我想起来他住在哪里了。",
+     "我想起来了，我知道他住在哪儿。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Si tu continues à manger comme ça, tu vas grossir.",
+    "answers": [
+     "你再这样吃下去，会胖的。",
+     "你再这样吃下去会胖的。",
+     "你这样吃下去会胖的。",
+     "你再吃下去就会胖的。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 我看出来了 ?",
+    "options": [
+     "J'ai commencé à regarder.",
+     "Je suis sorti voir.",
+     "Je m'en suis aperçu."
+    ],
+    "answer": 2,
+    "explanation": "看出来 : identifier, remarquer quelque chose grâce à la vue."
+   },
+   {
+    "type": "choice",
+    "question": "« Tout à coup, il s'est mis à pleuvoir. »",
+    "options": [
+     "突然下雨起来了。",
+     "突然下下去雨了。",
+     "突然下起雨来了。"
+    ],
+    "answer": 2,
+    "explanation": "Début d'action : 起来, avec l'objet entre 起 et 来."
+   },
+   {
+    "type": "listen",
+    "zh": "这个办法听起来不错，我们试试吧。",
+    "question": "Que pense la personne de cette méthode ?",
+    "options": [
+     "Elle l'a déjà essayée",
+     "Elle a l'air bonne",
+     "Elle est trop difficile"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-13",
+  "phase": 3,
+  "title": "Complément potentiel : 听得懂, 看不见…",
+  "pattern": "Sujet + V + 得 + résultat / direction (possible)\nSujet + V + 不 + résultat / direction (impossible)\nV得…V不… ？ / V得… + 吗 ？",
+  "hsk": 3,
+  "explanation": "Le complément potentiel indique si le **résultat** d'une action est **possible ou impossible**. On insère **得** (possible) ou **不** (impossible) entre le verbe et son complément de résultat ou de direction :\n- 听懂 « comprendre en écoutant » → 听得懂 « arriver à comprendre » / 听不懂 « ne pas arriver à comprendre »\n- 看见 → 看得见 / 看不见 « (ne pas) arriver à voir »\n- 做完 → 做得完 / 做不完 « (ne pas) pouvoir finir »\n- 找到 → 找不到 « ne pas trouver » ; 睡着 → 睡不着 « ne pas arriver à dormir » ; 回来 → 回不来 « ne pas pouvoir revenir »\n\nLa forme **négative** est de loin la plus fréquente. Pour poser une question : 你听得懂吗？ ou 你听得懂听不懂？\n\nL'objet se place après le complément ou en tête de phrase : 我听不懂上海话 / 上海话我听不懂.\n\n**Potentiel ou 能 / 不能 ?** C'est le piège principal.\n- Le potentiel exprime une **capacité objective liée au résultat** : 太远了，我看不见 « c'est trop loin, je n'arrive pas à voir ».\n- **不能** exprime plutôt une **interdiction** ou une impossibilité liée aux circonstances : 这儿不能进去 « on n'a pas le droit d'entrer ici ». Comparez avec 门关了，进不去 « la porte est fermée, impossible d'entrer ».\n- Dire « 我不能听懂 » pour « je ne comprends pas » est une faute typique de francophone : dites 我听不懂.\n\n**Potentiel ou 没 ?**\n- 我没听懂 : « je n'ai pas compris » (constat sur ce qui vient de se passer).\n- 我听不懂 : « je n'arrive pas à comprendre » (incapacité).\n\n**Autres pièges :**\n- On ne dit pas « 听不得懂 » ni « 做没完 » : c'est 得 **ou** 不, directement entre les deux éléments.\n- 得 se place entre le verbe et le résultat, pas après l'objet.",
+  "examples": [
+   {
+    "zh": "老师说的话我都听得懂。",
+    "fr": "Je comprends tout ce que dit le professeur."
+   },
+   {
+    "zh": "太远了，我看不见。",
+    "fr": "C'est trop loin, je n'arrive pas à voir."
+   },
+   {
+    "zh": "这么多菜，我们吃不完。",
+    "fr": "Autant de plats, on n'arrivera pas à tout finir."
+   },
+   {
+    "zh": "我找不到我的护照了。",
+    "fr": "Je ne trouve plus mon passeport."
+   },
+   {
+    "zh": "昨天晚上我睡不着。",
+    "fr": "Hier soir, je n'arrivais pas à dormir."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "老师",
+     "说",
+     "的",
+     "话",
+     "我",
+     "都",
+     "听得懂"
+    ],
+    "answer": "老师说的话我都听得懂",
+    "fr": "Je comprends tout ce que dit le professeur."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "太",
+     "远",
+     "了",
+     "我",
+     "看不见"
+    ],
+    "answer": "太远了我看不见",
+    "fr": "C'est trop loin, je n'arrive pas à voir."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "菜",
+     "太",
+     "多",
+     "了",
+     "我们",
+     "吃不完"
+    ],
+    "answer": "菜太多了我们吃不完",
+    "fr": "Il y a trop de plats, on n'arrivera pas à tout finir."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "听得见",
+     "我",
+     "吗"
+    ],
+    "answer": "你听得见我吗",
+    "fr": "Tu m'entends ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "作业太多了，我今天做不___。",
+    "options": [
+     "完",
+     "着",
+     "见",
+     "起"
+    ],
+    "answer": "完",
+    "fr": "Il y a trop de devoirs, je ne pourrai pas les finir aujourd'hui."
+   },
+   {
+    "type": "cloze",
+    "zh": "我找___我的手机了。",
+    "options": [
+     "不到",
+     "没到",
+     "不了",
+     "得到"
+    ],
+    "answer": "不到",
+    "fr": "Je ne trouve plus mon téléphone."
+   },
+   {
+    "type": "cloze",
+    "zh": "昨天晚上我睡不___。",
+    "options": [
+     "着",
+     "完",
+     "见",
+     "懂"
+    ],
+    "answer": "着",
+    "fr": "Hier soir, je n'arrivais pas à dormir."
+   },
+   {
+    "type": "cloze",
+    "zh": "你说得太快了，我听___懂。",
+    "options": [
+     "不",
+     "没",
+     "得不",
+     "很"
+    ],
+    "answer": "不",
+    "fr": "Tu parles trop vite, je n'arrive pas à comprendre."
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime l'incapacité avec le complément potentiel négatif.",
+    "zh": "黑板上的字我看见了。",
+    "answers": [
+     "黑板上的字我看不见。",
+     "我看不见黑板上的字。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question avec la forme « possible + impossible ».",
+    "zh": "你看得见吗？",
+    "answers": [
+     "你看得见看不见？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我不能听懂他说的话。",
+    "answers": [
+     "我听不懂他说的话。",
+     "他说的话我听不懂。"
+    ],
+    "explanation": "Pour une incapacité liée au résultat, on utilise le complément potentiel, pas 不能."
+   },
+   {
+    "type": "error",
+    "zh": "这么多作业，我今天做没完。",
+    "answers": [
+     "这么多作业，我今天做不完。",
+     "我今天做不完这么多作业。"
+    ],
+    "explanation": "Le potentiel négatif se forme avec 不, jamais avec 没."
+   },
+   {
+    "type": "error",
+    "zh": "我听不得懂。",
+    "answers": [
+     "我听不懂。"
+    ],
+    "explanation": "On met 得 OU 不 entre le verbe et le résultat, pas les deux."
+   },
+   {
+    "type": "translate",
+    "fr": "Je ne trouve pas mon passeport.",
+    "answers": [
+     "我找不到我的护照了。",
+     "我找不到护照了。",
+     "我找不到我的护照。",
+     "我找不到护照。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Tu comprends le chinois (à l'oral) ?",
+    "answers": [
+     "你听得懂汉语吗？",
+     "你听得懂中文吗？",
+     "你听得懂听不懂汉语？",
+     "汉语你听得懂吗？",
+     "你听得懂听不懂中文？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "J'ai bu trop de café, je n'arrive pas à dormir.",
+    "answers": [
+     "我喝了太多咖啡，睡不着。",
+     "咖啡喝得太多了，我睡不着。",
+     "我咖啡喝多了，睡不着。",
+     "我喝了太多咖啡，我睡不着。",
+     "我咖啡喝得太多了，睡不着。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Il parle trop vite, je n'arrive pas à comprendre. »",
+    "options": [
+     "他说得太快，我听不懂。",
+     "他说得太快，我不能听懂。",
+     "他说得太快，我没听得懂。"
+    ],
+    "answer": 0,
+    "explanation": "Incapacité liée au résultat (comprendre) : 听不懂."
+   },
+   {
+    "type": "choice",
+    "question": "« On n'a pas le droit d'entrer ici. »",
+    "options": [
+     "这儿进不去。",
+     "这儿没进去。",
+     "这儿不能进去。"
+    ],
+    "answer": 2,
+    "explanation": "Une interdiction s'exprime avec 不能. 进不去 signifie qu'il est matériellement impossible d'entrer."
+   },
+   {
+    "type": "listen",
+    "zh": "黑板上的字太小了，后面的同学看不清楚。",
+    "question": "Quel est le problème ?",
+    "options": [
+     "Les élèves du fond ne voient pas bien",
+     "Le professeur parle trop bas",
+     "Le tableau est sale"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p3-14",
+  "phase": 3,
+  "title": "La phrase en 把 : agir sur un objet",
+  "pattern": "Sujet + 把 + objet (défini) + V + autre élément\n(autre élément : 了, résultat, direction, 在/到/给 + …, etc.)\nSujet + 没 / 别 / 要 + 把 + objet + V + …",
+  "hsk": 3,
+  "explanation": "La structure en 把 permet de mettre l'accent sur **ce qu'on fait d'un objet** et sur **le résultat** obtenu. On déplace l'objet **devant le verbe** grâce à 把 :\n- 我做完了作业。→ 我**把作业**做完了。« J'ai fini mes devoirs. »\n- 请关上门。→ 请**把门**关上。« Ferme la porte, s'il te plaît. »\n\nElle est **obligatoire** quand on indique où l'on met quelque chose ou à qui on le donne : 他把书放在桌子上了 « il a posé le livre sur la table » ; 别把这件事告诉妈妈 « ne dis pas ça à maman ».\n\n**Les quatre règles d'or :**\n1. **L'objet est défini** : il s'agit d'une chose précise, connue des deux interlocuteurs (那本书、我的衣服、作业). On ne dit pas « 我把一本书买了 ».\n2. **Le verbe n'est jamais seul** : il doit être suivi d'un élément qui montre le résultat (了, 完, 干净, 上, 在 + lieu, 给 + personne, 下来, etc.). « 我把书看 » est faux.\n3. **Le verbe doit agir sur l'objet**. Les verbes de perception, de sentiment ou d'état ne vont pas avec 把 : 是、有、喜欢、知道、觉得、来、去…\n4. **Négation, modaux et adverbes se placent devant 把**, jamais devant le verbe : 我**没**把作业做完 ; 你**别**把手机放在这儿 ; 他**要**把房间打扫干净.\n\n**Pièges pour un francophone :**\n- Le français dit « j'ai fini les devoirs » sans rien déplacer. Le chinois préfère souvent 把 quand le résultat compte : c'est une tournure très naturelle, pas une forme littéraire.\n- Ne confondez pas 把 et 被 : avec 把, le sujet **fait** l'action (我把蛋糕吃了 « j'ai mangé le gâteau ») ; avec 被, le sujet **subit** l'action (蛋糕被我吃了 « le gâteau a été mangé par moi »).\n- Ne mettez pas 没 entre l'objet et le verbe : « 我把作业没做完 » est faux.",
+  "examples": [
+   {
+    "zh": "请把门关上。",
+    "fr": "Ferme la porte, s'il te plaît."
+   },
+   {
+    "zh": "我把作业做完了。",
+    "fr": "J'ai fini mes devoirs."
+   },
+   {
+    "zh": "他把书放在桌子上了。",
+    "fr": "Il a posé le livre sur la table."
+   },
+   {
+    "zh": "别把这件事告诉妈妈。",
+    "fr": "Ne dis pas ça à maman."
+   },
+   {
+    "zh": "我已经把衣服洗干净了。",
+    "fr": "J'ai déjà lavé les vêtements (ils sont propres)."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "请",
+     "把",
+     "门",
+     "关上"
+    ],
+    "answer": "请把门关上",
+    "fr": "Ferme la porte, s'il te plaît."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "把",
+     "作业",
+     "做完",
+     "了"
+    ],
+    "answer": "我把作业做完了",
+    "fr": "J'ai fini mes devoirs."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "把",
+     "书",
+     "放在",
+     "桌子",
+     "上",
+     "了"
+    ],
+    "answer": "他把书放在桌子上了",
+    "fr": "Il a posé le livre sur la table."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "别",
+     "把",
+     "这件事",
+     "告诉",
+     "妈妈"
+    ],
+    "answer": "别把这件事告诉妈妈",
+    "fr": "Ne dis pas ça à maman."
+   },
+   {
+    "type": "cloze",
+    "zh": "请___空调关了。",
+    "options": [
+     "把",
+     "被",
+     "对",
+     "让"
+    ],
+    "answer": "把",
+    "fr": "Éteins la clim, s'il te plaît."
+   },
+   {
+    "type": "cloze",
+    "zh": "我已经把衣服洗___了。",
+    "options": [
+     "干净",
+     "很干净",
+     "干净的",
+     "得干净"
+    ],
+    "answer": "干净",
+    "fr": "J'ai déjà lavé les vêtements."
+   },
+   {
+    "type": "cloze",
+    "zh": "你___把手机放在这儿。",
+    "options": [
+     "别",
+     "了",
+     "得",
+     "着"
+    ],
+    "answer": "别",
+    "fr": "Ne pose pas ton téléphone ici."
+   },
+   {
+    "type": "cloze",
+    "zh": "他没___钱还给我。",
+    "options": [
+     "把",
+     "被",
+     "给",
+     "对"
+    ],
+    "answer": "把",
+    "fr": "Il ne m'a pas rendu l'argent."
+   },
+   {
+    "type": "transform",
+    "instruction": "Réécris la phrase avec 把.",
+    "zh": "我吃完了蛋糕。",
+    "answers": [
+     "我把蛋糕吃完了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Réécris la phrase avec 把.",
+    "zh": "请关上门。",
+    "answers": [
+     "请把门关上。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative (il n'a pas fini).",
+    "zh": "他把作业做完了。",
+    "answers": [
+     "他没把作业做完。",
+     "他没有把作业做完。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我把书看。",
+    "answers": [
+     "我把书看完了。",
+     "我把书看了。"
+    ],
+    "explanation": "Avec 把, le verbe ne peut pas rester seul : il faut un élément de résultat (了, 完…)."
+   },
+   {
+    "type": "error",
+    "zh": "我把作业没做完。",
+    "answers": [
+     "我没把作业做完。",
+     "我没有把作业做完。"
+    ],
+    "explanation": "La négation se place devant 把."
+   },
+   {
+    "type": "error",
+    "zh": "他把这个电影喜欢。",
+    "answers": [
+     "他喜欢这个电影。"
+    ],
+    "explanation": "喜欢 est un verbe de sentiment : il n'agit pas sur l'objet et ne peut pas s'employer avec 把."
+   },
+   {
+    "type": "translate",
+    "fr": "Mets ta valise ici.",
+    "answers": [
+     "把你的行李箱放在这儿。",
+     "把行李箱放在这儿。",
+     "你把行李箱放在这儿吧。",
+     "请把行李箱放在这儿。",
+     "把你的行李箱放这儿。",
+     "你把行李箱放在这儿。",
+     "请把你的行李箱放在这儿。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il faut absolument finir ces devoirs aujourd'hui.",
+    "answers": [
+     "今天一定要把作业做完。",
+     "你今天一定要把作业做完。",
+     "今天一定要把这些作业做完。",
+     "今天一定要把作业写完。",
+     "今天一定要把这些作业写完。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ne mets pas les livres sur la chaise.",
+    "answers": [
+     "别把书放在椅子上。",
+     "不要把书放在椅子上。",
+     "你别把书放在椅子上。",
+     "你不要把书放在椅子上。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我把那本书买了。",
+     "我把一本书买了。",
+     "我把书买。"
+    ],
+    "answer": 0,
+    "explanation": "L'objet de 把 doit être défini (那本书) et le verbe doit être suivi d'un élément (了)."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "他要把房间打扫干净。",
+     "他把房间打扫要干净。",
+     "他把房间要打扫干净。"
+    ],
+    "answer": 0,
+    "explanation": "Les verbes modaux comme 要 se placent devant 把."
+   },
+   {
+    "type": "listen",
+    "zh": "你出门的时候，别忘了把灯关上。",
+    "question": "Que faut-il faire en sortant ?",
+    "options": [
+     "Fermer la porte",
+     "Éteindre la lumière",
+     "Allumer la clim"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-15",
+  "phase": 3,
+  "title": "Le passif avec 被",
+  "pattern": "Patient + 被 + (agent) + V + autre élément\nPatient + 没 + 被 + (agent) + V + …",
+  "hsk": 3,
+  "explanation": "被 sert à former une phrase passive : le sujet **subit** l'action. L'auteur de l'action (l'agent) se place juste après 被 :\n- 我的蛋糕被弟弟吃了。« Mon gâteau a été mangé par mon petit frère. »\n- 我的自行车被人骑走了。« Mon vélo a été emporté par quelqu'un (on m'a pris mon vélo). »\n\nL'agent peut être **omis** avec 被 : 我的手机被拿走了 « mon téléphone a été pris ». On utilise souvent 人 quand l'agent est inconnu.\n\n**Règles (proches de celles de 把) :**\n- Le verbe **n'est pas seul** : il est suivi de 了, d'un complément de résultat (完、坏、走…), de direction ou de lieu.\n- **Négation et adverbes devant 被** : 我的钱没被他拿走 ; 我的电脑已经被弟弟用坏了.\n- On peut transformer une phrase en 把 en phrase en 被 : 他把我的书借走了 → 我的书被他借走了.\n\n**Nuance importante :** traditionnellement, 被 s'emploie surtout pour des événements **désagréables ou subis** (perte, accident, reproche). Aujourd'hui on le rencontre aussi dans des contextes neutres, mais il garde souvent cette nuance.\n\n**Pièges pour un francophone :**\n- Le français emploie beaucoup plus le passif que le chinois. Beaucoup de passifs français se traduisent **sans 被** : « les devoirs sont finis » = 作业做完了 ; « la lettre a été envoyée » = 信已经发了. Le chinois comprend le sens passif par le contexte. Réservez 被 aux cas où l'on veut insister sur le fait que le sujet a subi l'action, souvent avec un agent.\n- **Ordre** : patient + 被 + agent + verbe. « 被弟弟我的蛋糕吃了 » est faux.\n- Ne dites pas « 我的手机被拿走 » sans élément final : ajoutez 了.",
+  "examples": [
+   {
+    "zh": "我的蛋糕被弟弟吃了。",
+    "fr": "Mon gâteau a été mangé par mon petit frère."
+   },
+   {
+    "zh": "他的自行车被人骑走了。",
+    "fr": "Quelqu'un lui a pris son vélo."
+   },
+   {
+    "zh": "我的伞被同事拿走了。",
+    "fr": "Mon parapluie a été emporté par un collègue."
+   },
+   {
+    "zh": "我被老师叫到办公室去了。",
+    "fr": "J'ai été convoqué au bureau par le professeur."
+   },
+   {
+    "zh": "我的电脑没被弟弟用坏。",
+    "fr": "Mon ordinateur n'a pas été cassé par mon frère."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我的",
+     "蛋糕",
+     "被",
+     "弟弟",
+     "吃",
+     "了"
+    ],
+    "answer": "我的蛋糕被弟弟吃了",
+    "fr": "Mon gâteau a été mangé par mon petit frère."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他的",
+     "自行车",
+     "被",
+     "人",
+     "骑走",
+     "了"
+    ],
+    "answer": "他的自行车被人骑走了",
+    "fr": "Quelqu'un lui a pris son vélo."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "被",
+     "老师",
+     "叫到",
+     "办公室",
+     "去",
+     "了"
+    ],
+    "answer": "我被老师叫到办公室去了",
+    "fr": "J'ai été convoqué au bureau par le professeur."
+   },
+   {
+    "type": "cloze",
+    "zh": "我的伞___同事拿走了。",
+    "options": [
+     "被",
+     "把",
+     "对",
+     "向"
+    ],
+    "answer": "被",
+    "fr": "Mon parapluie a été emporté par un collègue."
+   },
+   {
+    "type": "cloze",
+    "zh": "牛奶被猫喝___了。",
+    "options": [
+     "完",
+     "着",
+     "见",
+     "懂"
+    ],
+    "answer": "完",
+    "fr": "Le lait a été entièrement bu par le chat."
+   },
+   {
+    "type": "cloze",
+    "zh": "我的电脑没___弟弟用坏。",
+    "options": [
+     "被",
+     "把",
+     "对",
+     "跟"
+    ],
+    "answer": "被",
+    "fr": "Mon ordinateur n'a pas été cassé par mon frère."
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets la phrase au passif avec 被.",
+    "zh": "弟弟吃了我的苹果。",
+    "answers": [
+     "我的苹果被弟弟吃了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets la phrase au passif avec 被.",
+    "zh": "妈妈发现了这件事。",
+    "answers": [
+     "这件事被妈妈发现了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme la phrase en 把 en phrase en 被.",
+    "zh": "他把我的书借走了。",
+    "answers": [
+     "我的书被他借走了。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我的手机被拿走。",
+    "answers": [
+     "我的手机被拿走了。",
+     "我的手机被人拿走了。"
+    ],
+    "explanation": "Le verbe d'une phrase en 被 ne reste pas seul : il faut au moins 了."
+   },
+   {
+    "type": "error",
+    "zh": "我的钱被没他拿走。",
+    "answers": [
+     "我的钱没被他拿走。",
+     "我的钱没有被他拿走。"
+    ],
+    "explanation": "La négation se place devant 被."
+   },
+   {
+    "type": "error",
+    "zh": "被弟弟我的蛋糕吃了。",
+    "answers": [
+     "我的蛋糕被弟弟吃了。"
+    ],
+    "explanation": "Ordre : patient + 被 + agent + verbe."
+   },
+   {
+    "type": "translate",
+    "fr": "Mon vélo a été pris par quelqu'un.",
+    "answers": [
+     "我的自行车被人骑走了。",
+     "我的自行车被人拿走了。",
+     "我的自行车被骑走了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Le gâteau a été (entièrement) mangé par les enfants.",
+    "answers": [
+     "蛋糕被孩子们吃完了。",
+     "蛋糕被孩子们吃了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Mes devoirs ont été emportés par le vent.",
+    "answers": [
+     "我的作业被风刮走了。",
+     "作业被风刮走了。",
+     "我的作业被风吹走了。",
+     "作业被风吹走了。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase française se traduit le plus naturellement SANS 被 ?",
+    "options": [
+     "Le gâteau a été mangé par mon frère.",
+     "Les devoirs sont finis.",
+     "On m'a pris mon téléphone."
+    ],
+    "answer": 1,
+    "explanation": "作业做完了 suffit : le chinois n'a pas besoin de 被 quand le sens passif est évident et qu'on n'insiste pas sur l'agent."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我的衣服被妈妈洗干净了。",
+     "我的衣服妈妈被洗干净了。",
+     "我的衣服被妈妈洗。"
+    ],
+    "answer": 0,
+    "explanation": "Patient + 被 + agent + verbe + résultat."
+   },
+   {
+    "type": "listen",
+    "zh": "我的咖啡被谁喝了？我刚才放在这儿的。",
+    "question": "Que s'est-il passé ?",
+    "options": [
+     "Il a renversé son café",
+     "Quelqu'un a bu son café",
+     "Il cherche un café"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-16",
+  "phase": 3,
+  "title": "被, 让 et 叫 : passif et causatif",
+  "pattern": "Patient + 被 + (agent) + V + …\nPatient + 让 / 叫 + agent (obligatoire) + V + …\nA + 让 / 叫 + B + V (faire faire, demander)",
+  "hsk": 3,
+  "explanation": "À l'oral, le passif peut aussi se former avec **让** ou **叫** à la place de 被 :\n- 我的书让同学借走了。« Mon livre a été emprunté par un camarade. »\n- 蛋糕叫孩子们吃完了。« Le gâteau a été fini par les enfants. »\n\n**La différence essentielle :** avec 让 et 叫, **l'agent est obligatoire**. Avec 被, il est facultatif.\n- 我的自行车被骑走了。✔\n- 我的自行车让骑走了。✘ → 我的自行车让人骑走了。✔\n\n**Registre :** 被 s'emploie à l'écrit comme à l'oral ; 让 et 叫 sont plus **familiers et oraux**.\n\n**Attention au double sens de 让 et 叫.** Ces mots ont aussi un sens **causatif** que vous connaissez : « faire faire, demander à quelqu'un de, laisser » :\n- 妈妈让我去超市。« Maman m'a demandé d'aller au supermarché. »\n- 老师叫我们明天早点儿来。« Le professeur nous a dit de venir un peu plus tôt demain. »\nC'est le contexte qui permet de trancher :\n- si le sujet est **une chose qui subit** (书、蛋糕、电脑) et que le verbe porte un résultat (走、完、坏), c'est un **passif** ;\n- si le sujet est **une personne qui donne un ordre** et que le verbe est une action à faire, c'est un **causatif**.\n\n**Pièges pour un francophone :**\n- N'omettez jamais l'agent après 让 / 叫 passifs : utilisez 人 s'il est inconnu.\n- Comme avec 被, la négation se place avant : 我的钱没让他拿走.\n- 被 n'a **pas** de sens causatif : « 妈妈被我去超市 » n'a aucun sens.\n- En cas de doute, à l'écrit, préférez 被 pour le passif : c'est la forme la plus sûre.",
+  "examples": [
+   {
+    "zh": "我的书让同学借走了。",
+    "fr": "Mon livre a été emprunté par un camarade."
+   },
+   {
+    "zh": "蛋糕叫孩子们吃完了。",
+    "fr": "Le gâteau a été fini par les enfants."
+   },
+   {
+    "zh": "我的自行车被骑走了。",
+    "fr": "On m'a pris mon vélo."
+   },
+   {
+    "zh": "妈妈让我去超市。",
+    "fr": "Maman m'a demandé d'aller au supermarché."
+   },
+   {
+    "zh": "老师叫我们明天早点儿来。",
+    "fr": "Le professeur nous a dit de venir un peu plus tôt demain."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我的",
+     "书",
+     "让",
+     "同学",
+     "借走",
+     "了"
+    ],
+    "answer": "我的书让同学借走了",
+    "fr": "Mon livre a été emprunté par un camarade."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "蛋糕",
+     "叫",
+     "孩子们",
+     "吃完",
+     "了"
+    ],
+    "answer": "蛋糕叫孩子们吃完了",
+    "fr": "Le gâteau a été fini par les enfants."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "妈妈",
+     "让",
+     "我",
+     "去",
+     "超市"
+    ],
+    "answer": "妈妈让我去超市",
+    "fr": "Maman m'a demandé d'aller au supermarché."
+   },
+   {
+    "type": "cloze",
+    "zh": "我的自行车___骑走了。",
+    "options": [
+     "被",
+     "让",
+     "叫",
+     "把"
+    ],
+    "answer": "被",
+    "fr": "On m'a pris mon vélo."
+   },
+   {
+    "type": "cloze",
+    "zh": "我的伞让___拿走了。",
+    "options": [
+     "人",
+     "了",
+     "被",
+     "把"
+    ],
+    "answer": "人",
+    "fr": "Quelqu'un a pris mon parapluie."
+   },
+   {
+    "type": "cloze",
+    "zh": "老师___我们明天早点儿来。",
+    "options": [
+     "让",
+     "被",
+     "把",
+     "对"
+    ],
+    "answer": "让",
+    "fr": "Le professeur nous a dit de venir un peu plus tôt demain."
+   },
+   {
+    "type": "transform",
+    "instruction": "Remplace 被 par 让.",
+    "zh": "我的电脑被弟弟用坏了。",
+    "answers": [
+     "我的电脑让弟弟用坏了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Remplace 被 par 叫 (attention : l'agent est obligatoire, utilise 人).",
+    "zh": "我的手机被拿走了。",
+    "answers": [
+     "我的手机叫人拿走了。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我的钱让拿走了。",
+    "answers": [
+     "我的钱被拿走了。",
+     "我的钱让人拿走了。",
+     "我的钱被人拿走了。"
+    ],
+    "explanation": "Avec 让 passif, l'agent est obligatoire ; sinon utilisez 被."
+   },
+   {
+    "type": "error",
+    "zh": "那本书叫借走了。",
+    "answers": [
+     "那本书被借走了。",
+     "那本书叫人借走了。",
+     "那本书被人借走了。"
+    ],
+    "explanation": "Avec 叫 passif, il faut un agent (人 si on ne sait pas qui)."
+   },
+   {
+    "type": "translate",
+    "fr": "Quelqu'un a pris ma valise (à l'oral, avec 让).",
+    "answers": [
+     "我的行李箱让人拿走了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Le professeur m'a demandé de répondre à la question.",
+    "answers": [
+     "老师让我回答问题。",
+     "老师叫我回答问题。",
+     "老师让我回答这个问题。",
+     "老师叫我回答这个问题。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Mon ordinateur a été cassé par mon petit frère.",
+    "answers": [
+     "我的电脑被弟弟用坏了。",
+     "我的电脑让弟弟用坏了。",
+     "我的电脑叫弟弟用坏了。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est INCORRECTE ?",
+    "options": [
+     "我的书被借走了。",
+     "我的书叫人借走了。",
+     "我的书让借走了。"
+    ],
+    "answer": 2,
+    "explanation": "让 passif exige un agent : 让人借走了."
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 妈妈让我洗碗。 ?",
+    "options": [
+     "Maman a lavé mon bol.",
+     "J'ai été lavé par maman.",
+     "Maman m'a demandé de faire la vaisselle."
+    ],
+    "answer": 2,
+    "explanation": "Le sujet est une personne qui donne une consigne : 让 est ici causatif."
+   },
+   {
+    "type": "listen",
+    "zh": "我的蛋糕叫谁吃了？",
+    "question": "Que demande la personne ?",
+    "options": [
+     "Qui a mangé son gâteau",
+     "Qui veut du gâteau",
+     "Où est la pâtisserie"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p3-17",
+  "phase": 3,
+  "title": "除了…以外 : « sauf » ou « en plus de »",
+  "pattern": "除了 + A + (以外)，Sujet + 都 + V (exclusion)\n除了 + A + (以外)，Sujet + 还 / 也 + V (addition)",
+  "hsk": 3,
+  "explanation": "La structure 除了…以外 correspond au français « à part », « excepté » ou « en plus de ». Elle a **deux sens opposés**, et c'est **l'adverbe de la seconde partie** qui indique lequel :\n\n**1. Exclusion avec 都 : « sauf A, tous… »**\n- 除了他以外，我们都去了。« À part lui, nous y sommes tous allés. » (lui n'y est pas allé)\n- 除了星期天，我每天都上班。« Je travaille tous les jours sauf le dimanche. »\n\n**2. Addition avec 还 ou 也 : « en plus de A, aussi… »**\n- 除了汉语以外，我还学历史。« En plus du chinois, j'étudie aussi l'histoire. »\n- 除了北京，我也去了上海。« En plus de Pékin, je suis aussi allé à Shanghai. »\n\n**以外** est facultatif : 除了他，我们都去了 est tout aussi correct. On peut aussi placer 除了… après le sujet : 他除了游泳以外，还喜欢跑步.\n\n**Pièges pour un francophone :**\n- Le français « à part » est ambigu (« à part lui, qui est venu ? »). En chinois, **ne vous trompez pas d'adverbe** : 都 = exclusion, 还 / 也 = addition. Changer l'adverbe change complètement le sens.\n- **都, 还, 也 sont des adverbes** : ils se placent **après le sujet** de la seconde partie, devant le verbe : 除了星期天，我每天都上班 (et non « 都我每天上班 »).\n- Avec 都, le sujet de la seconde partie est souvent un pluriel ou un mot de totalité : 大家、我们、每天、所有的人.\n- Ne confondez pas 以外 (« à l'exception de / en dehors de ») avec 以后 (« après ») : ils se ressemblent à l'écrit.",
+  "examples": [
+   {
+    "zh": "除了他以外，我们都去了。",
+    "fr": "À part lui, nous y sommes tous allés."
+   },
+   {
+    "zh": "除了星期天，我每天都上班。",
+    "fr": "Je travaille tous les jours sauf le dimanche."
+   },
+   {
+    "zh": "除了汉语以外，我还学历史。",
+    "fr": "En plus du chinois, j'étudie aussi l'histoire."
+   },
+   {
+    "zh": "除了北京，我也去了上海。",
+    "fr": "En plus de Pékin, je suis aussi allé à Shanghai."
+   },
+   {
+    "zh": "他除了游泳以外，还喜欢跑步。",
+    "fr": "En plus de la natation, il aime aussi courir."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "除了",
+     "我",
+     "以外",
+     "谁",
+     "都",
+     "不",
+     "知道"
+    ],
+    "answer": "除了我以外谁都不知道",
+    "fr": "À part moi, personne ne le sait."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "除了",
+     "苹果",
+     "以外",
+     "还",
+     "有",
+     "香蕉"
+    ],
+    "answer": "除了苹果以外还有香蕉",
+    "fr": "En plus des pommes, il y a aussi des bananes."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "除了",
+     "星期一",
+     "哪天",
+     "都",
+     "可以"
+    ],
+    "answer": "除了星期一哪天都可以",
+    "fr": "N'importe quel jour me va, sauf le lundi."
+   },
+   {
+    "type": "cloze",
+    "zh": "除了小王，大家___同意。",
+    "options": [
+     "都",
+     "还",
+     "也",
+     "就"
+    ],
+    "answer": "都",
+    "fr": "Tout le monde est d'accord sauf Xiao Wang."
+   },
+   {
+    "type": "cloze",
+    "zh": "除了中国菜以外，我___喜欢吃日本菜。",
+    "options": [
+     "还",
+     "都",
+     "就",
+     "才"
+    ],
+    "answer": "还",
+    "fr": "En plus de la cuisine chinoise, j'aime aussi la cuisine japonaise."
+   },
+   {
+    "type": "cloze",
+    "zh": "___咖啡以外，他还喝很多茶。",
+    "options": [
+     "除了",
+     "关于",
+     "为了",
+     "对"
+    ],
+    "answer": "除了",
+    "fr": "En plus du café, il boit aussi beaucoup de thé."
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime l'exclusion avec 除了…以外，都….",
+    "zh": "我们都去了，可是他没去。",
+    "answers": [
+     "除了他以外，我们都去了。",
+     "除了他，我们都去了。",
+     "我们除了他以外都去了。",
+     "我们除了他都去了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime l'addition avec 除了…以外，还….",
+    "zh": "他喜欢游泳，也喜欢跑步。",
+    "answers": [
+     "除了游泳以外，他还喜欢跑步。",
+     "除了游泳，他还喜欢跑步。",
+     "他除了游泳以外，还喜欢跑步。",
+     "他除了游泳，还喜欢跑步。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "除了星期天以外，都我每天上班。",
+    "answers": [
+     "除了星期天以外，我每天都上班。",
+     "除了星期天，我每天都上班。"
+    ],
+    "explanation": "都 est un adverbe : il se place après le sujet et le mot de temps, devant le verbe."
+   },
+   {
+    "type": "error",
+    "zh": "除了数学以外，我都学历史。",
+    "answers": [
+     "除了数学以外，我还学历史。",
+     "除了数学以外，我也学历史。",
+     "除了数学，我还学历史。",
+     "除了数学，我也学历史。"
+    ],
+    "explanation": "Pour « en plus de », on utilise 还 ou 也, pas 都."
+   },
+   {
+    "type": "translate",
+    "fr": "Tout le monde est arrivé sauf le professeur.",
+    "answers": [
+     "除了老师以外，大家都来了。",
+     "除了老师，大家都来了。",
+     "除了老师以外，大家都到了。",
+     "除了老师，大家都到了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "En plus de Pékin, je suis aussi allé à Shanghai.",
+    "answers": [
+     "除了北京以外，我还去了上海。",
+     "除了北京，我还去了上海。",
+     "除了北京以外，我也去了上海。",
+     "除了北京，我也去了上海。",
+     "除了北京以外，我还去过上海。",
+     "除了北京，我还去过上海。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "À part le lundi, il est à la maison tous les jours.",
+    "answers": [
+     "除了星期一以外，他每天都在家。",
+     "除了星期一，他每天都在家。",
+     "他除了星期一以外，每天都在家。",
+     "他除了星期一，每天都在家。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 除了小李以外，我们都喜欢唱歌。 ?",
+    "options": [
+     "Nous aimons tous chanter, sauf Xiao Li.",
+     "Seul Xiao Li aime chanter.",
+     "Nous aimons tous chanter, Xiao Li aussi."
+    ],
+    "answer": 0,
+    "explanation": "除了…都… : exclusion."
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 除了小李以外，我们还请了他的妹妹。 ?",
+    "options": [
+     "En plus de Xiao Li, nous avons invité sa sœur.",
+     "Xiao Li a invité sa sœur.",
+     "Nous avons invité sa sœur mais pas Xiao Li."
+    ],
+    "answer": 0,
+    "explanation": "除了…还… : addition."
+   },
+   {
+    "type": "listen",
+    "zh": "除了星期天，我每天都要上班。",
+    "question": "Quel jour cette personne ne travaille-t-elle pas ?",
+    "options": [
+     "Le dimanche",
+     "Le samedi",
+     "Le lundi"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p3-18",
+  "phase": 3,
+  "title": "不但…而且… : « non seulement…, mais en plus… »",
+  "pattern": "Sujet + 不但 + A，而且 + (还 / 也) + B\n不但 + Sujet1 + A，而且 + Sujet2 + 也 + A",
+  "hsk": 3,
+  "explanation": "不但…而且… exprime une **gradation** : on ajoute un second élément qui renforce le premier. C'est l'équivalent de « non seulement…, mais (en plus)… ».\n- 她不但聪明，而且很努力。« Non seulement elle est intelligente, mais en plus elle est travailleuse. »\n- 这家饭店的菜不但便宜，而且好吃。« Les plats de ce restaurant sont non seulement bon marché, mais aussi bons. »\n\nOn renforce souvent la seconde partie avec **也** ou **还** après 而且 : 他不但会唱歌，而且还会跳舞.\n\n**La place de 不但 dépend du sujet :**\n- **Un seul sujet** pour les deux parties → 不但 se place **après le sujet** : 他不但会说汉语，而且说得很好。\n- **Deux sujets différents** → 不但 se place **avant le premier sujet**, et le second sujet suit 而且 : 不但我喜欢这个电影，而且我的朋友也喜欢。\n\n**Pièges pour un francophone :**\n- « 不但他会唱歌，而且会跳舞 » est faux : comme il n'y a qu'un sujet, 不但 doit le suivre.\n- **Ne reliez pas deux propositions avec 和** : 和 ne relie que des noms (« 他很高和很聪明 » est faux). Pour « et en plus », utilisez 而且 ou 也.\n- 不但…而且… n'exprime **pas** une opposition : n'utilisez pas 但是 dans la seconde partie, malgré le « mais » du français.\n- La gradation va du moins fort au plus fort : le second élément doit être plus important, plus surprenant ou s'ajouter au premier.\n- À l'oral, on rencontre aussi 不但…还… ou 不但…也… sans 而且 ; dans les exercices, gardez la forme complète.",
+  "examples": [
+   {
+    "zh": "他不但会说汉语，而且说得很好。",
+    "fr": "Non seulement il parle chinois, mais en plus il le parle très bien."
+   },
+   {
+    "zh": "这家饭店的菜不但便宜，而且好吃。",
+    "fr": "Les plats de ce restaurant sont non seulement bon marché, mais aussi bons."
+   },
+   {
+    "zh": "不但我喜欢这个电影，而且我的朋友也喜欢。",
+    "fr": "Non seulement moi j'aime ce film, mais mes amis aussi."
+   },
+   {
+    "zh": "她不但聪明，而且很努力。",
+    "fr": "Non seulement elle est intelligente, mais elle est aussi travailleuse."
+   },
+   {
+    "zh": "他不但会唱歌，而且还会跳舞。",
+    "fr": "Non seulement il sait chanter, mais il sait aussi danser."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "不但",
+     "会",
+     "说",
+     "汉语",
+     "而且",
+     "说得",
+     "很",
+     "好"
+    ],
+    "answer": "他不但会说汉语而且说得很好",
+    "fr": "Non seulement il parle chinois, mais en plus il le parle très bien."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这家",
+     "饭店",
+     "的",
+     "菜",
+     "不但",
+     "便宜",
+     "而且",
+     "好吃"
+    ],
+    "answer": "这家饭店的菜不但便宜而且好吃",
+    "fr": "Les plats de ce restaurant sont non seulement bon marché, mais aussi bons."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "不但",
+     "我",
+     "喜欢",
+     "而且",
+     "我",
+     "妈妈",
+     "也",
+     "喜欢"
+    ],
+    "answer": "不但我喜欢而且我妈妈也喜欢",
+    "fr": "Non seulement moi j'aime ça, mais ma mère aussi."
+   },
+   {
+    "type": "cloze",
+    "zh": "她不但聪明，___很努力。",
+    "options": [
+     "而且",
+     "但是",
+     "所以",
+     "因为"
+    ],
+    "answer": "而且",
+    "fr": "Non seulement elle est intelligente, mais elle est aussi travailleuse."
+   },
+   {
+    "type": "cloze",
+    "zh": "___我去过长城，而且我爸爸也去过。",
+    "options": [
+     "不但",
+     "虽然",
+     "因为",
+     "如果"
+    ],
+    "answer": "不但",
+    "fr": "Non seulement je suis allé à la Grande Muraille, mais mon père aussi."
+   },
+   {
+    "type": "cloze",
+    "zh": "这件衣服不但很贵，而且___不好看。",
+    "options": [
+     "也",
+     "都",
+     "就",
+     "才"
+    ],
+    "answer": "也",
+    "fr": "Ce vêtement est non seulement cher, mais en plus il n'est pas joli."
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie les deux phrases avec 不但…而且….",
+    "zh": "这个房间很大。这个房间很干净。",
+    "answers": [
+     "这个房间不但很大，而且很干净。",
+     "这个房间不但大，而且很干净。",
+     "这个房间不但很大，而且也很干净。",
+     "这个房间不但大，而且干净。",
+     "这个房间不但很大，而且还很干净。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie avec 不但…而且… (deux sujets différents).",
+    "zh": "小王会游泳。他弟弟也会游泳。",
+    "answers": [
+     "不但小王会游泳，而且他弟弟也会游泳。",
+     "不但小王会游泳，而且他的弟弟也会游泳。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "他不但很高，和很聪明。",
+    "answers": [
+     "他不但很高，而且很聪明。",
+     "他不但很高，而且也很聪明。",
+     "他不但很高，而且还很聪明。"
+    ],
+    "explanation": "和 ne relie que des noms ; pour relier deux propositions, on utilise 而且."
+   },
+   {
+    "type": "error",
+    "zh": "不但他会唱歌，而且会跳舞。",
+    "answers": [
+     "他不但会唱歌，而且会跳舞。",
+     "他不但会唱歌，而且还会跳舞。"
+    ],
+    "explanation": "Avec un seul sujet, 不但 se place après le sujet."
+   },
+   {
+    "type": "translate",
+    "fr": "Ce téléphone est non seulement cher, mais en plus il n'est pas pratique.",
+    "answers": [
+     "这个手机不但很贵，而且不方便。",
+     "这个手机不但贵，而且不方便。",
+     "这个手机不但很贵，而且也不方便。",
+     "这个手机不但很贵，而且还不方便。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Non seulement il a de la fièvre, mais en plus il a mal à la tête.",
+    "answers": [
+     "他不但发烧了，而且头也疼。",
+     "他不但发烧，而且头疼。",
+     "他不但发烧了，而且还头疼。",
+     "他不但发烧了，而且头也很疼。",
+     "他不但发烧了，而且头疼。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Non seulement moi j'aime ce film, mais mes amis aussi.",
+    "answers": [
+     "不但我喜欢这个电影，而且我的朋友也喜欢。",
+     "不但我喜欢这个电影，而且我的朋友们也喜欢。",
+     "不但我喜欢这部电影，而且我的朋友也喜欢。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "不但他会开车，而且开得很好。",
+     "他不但会开车，而且开得很好。",
+     "他不但会开车，和开得很好。"
+    ],
+    "answer": 1,
+    "explanation": "Un seul sujet : 不但 après le sujet, et 而且 (pas 和) pour la seconde partie."
+   },
+   {
+    "type": "choice",
+    "question": "Complète : 这里不但环境很好，___东西也很便宜。",
+    "options": [
+     "而且",
+     "所以",
+     "但是"
+    ],
+    "answer": 0,
+    "explanation": "Gradation (deux qualités qui s'ajoutent) : 不但…而且…."
+   },
+   {
+    "type": "listen",
+    "zh": "这家商店的水果不但便宜，而且很新鲜。",
+    "question": "Comment sont les fruits de ce magasin ?",
+    "options": [
+     "Chers mais frais",
+     "Bon marché et frais",
+     "Bon marché mais pas frais"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-19",
+  "phase": 3,
+  "title": "只要…就… : « il suffit que…, du moment que… »",
+  "pattern": "只要 + condition，(Sujet) + 就 + résultat\nSujet + 只要 + condition，就 + résultat",
+  "hsk": 3,
+  "explanation": "只要…就… exprime une **condition suffisante** : si la condition est remplie, le résultat suit forcément. On traduit par « il suffit que…, et… », « du moment que… », « pourvu que… ».\n- 只要你努力，就一定能学好。« Du moment que tu travailles dur, tu y arriveras. »\n- 只要不下雨，我们就去爬山。« Pourvu qu'il ne pleuve pas, on ira faire de la randonnée. »\n\n**Position :**\n- 只要 se place **en tête** de la première proposition ou **après son sujet** : 只要你多练习… / 你只要多练习…\n- 就 est un adverbe : il se place **après le sujet** de la seconde proposition, devant le verbe : 只要你来，**我就**高兴.\n\nLa structure insiste sur le fait que la condition est **facile** ou **peu exigeante** : il n'en faut pas plus pour obtenir le résultat. Par exemple : 只要坐地铁，二十分钟就到了 « il suffit de prendre le métro, en vingt minutes on y est ».\n\n**Pièges pour un francophone :**\n- **Ne confondez pas avec 只有…才…** (point suivant). 只要 + **就** = condition suffisante (« il suffit de ») ; 只有 + **才** = condition nécessaire (« il faut absolument », « seulement si »). On ne mélange jamais 只要 avec 才, ni 只有 avec 就.\n- **就 ne précède jamais le sujet** : « 只要你多休息，就你会好的 » est faux.\n- 只要 est plus fort que 如果 (« si ») : il souligne qu'une seule condition suffit.\n- Le 只 de 只要 fait penser à « seulement » ; ne traduisez pas mot à mot par « seulement si », qui correspond plutôt à 只有.",
+  "examples": [
+   {
+    "zh": "只要你努力，就一定能学好。",
+    "fr": "Du moment que tu travailles dur, tu y arriveras."
+   },
+   {
+    "zh": "只要不下雨，我们就去爬山。",
+    "fr": "Pourvu qu'il ne pleuve pas, on ira faire de la randonnée."
+   },
+   {
+    "zh": "只要你喜欢，我就送给你。",
+    "fr": "Du moment que ça te plaît, je te l'offre."
+   },
+   {
+    "zh": "只要坐地铁，二十分钟就到了。",
+    "fr": "Il suffit de prendre le métro, on y est en vingt minutes."
+   },
+   {
+    "zh": "你只要多练习，就会说得更好。",
+    "fr": "Il te suffit de t'entraîner davantage pour parler mieux."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "只要你",
+     "努力",
+     "就",
+     "一定",
+     "能",
+     "学好"
+    ],
+    "answer": "只要你努力就一定能学好",
+    "fr": "Du moment que tu travailles dur, tu y arriveras."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "只要",
+     "不",
+     "下雨",
+     "我们",
+     "就",
+     "去",
+     "爬山"
+    ],
+    "answer": "只要不下雨我们就去爬山",
+    "fr": "Pourvu qu'il ne pleuve pas, on ira faire de la randonnée."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你只要",
+     "多",
+     "练习",
+     "就",
+     "会",
+     "说得",
+     "更好"
+    ],
+    "answer": "你只要多练习就会说得更好",
+    "fr": "Il te suffit de t'entraîner davantage pour parler mieux."
+   },
+   {
+    "type": "cloze",
+    "zh": "只要你喜欢，我___送给你。",
+    "options": [
+     "就",
+     "才",
+     "都",
+     "还"
+    ],
+    "answer": "就",
+    "fr": "Du moment que ça te plaît, je te l'offre."
+   },
+   {
+    "type": "cloze",
+    "zh": "___有时间，我就去看你。",
+    "options": [
+     "只要",
+     "只有",
+     "虽然",
+     "因为"
+    ],
+    "answer": "只要",
+    "fr": "Du moment que j'ai du temps, je viens te voir."
+   },
+   {
+    "type": "cloze",
+    "zh": "只要坐地铁，二十分钟___到了。",
+    "options": [
+     "就",
+     "才",
+     "还",
+     "再"
+    ],
+    "answer": "就",
+    "fr": "Il suffit de prendre le métro, on y est en vingt minutes."
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie avec 只要…就….",
+    "zh": "你告诉我。我帮你。",
+    "answers": [
+     "只要你告诉我，我就帮你。",
+     "你只要告诉我，我就帮你。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Reformule avec 只要…就… : il suffit d'avoir un passeport pour entrer.",
+    "zh": "有护照，你可以进去。",
+    "answers": [
+     "只要有护照，你就可以进去。",
+     "你只要有护照，就可以进去。",
+     "只要你有护照，就可以进去。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "只要你来，我才高兴。",
+    "answers": [
+     "只要你来，我就高兴。",
+     "只要你来，我就很高兴。"
+    ],
+    "explanation": "只要 va avec 就, jamais avec 才."
+   },
+   {
+    "type": "error",
+    "zh": "只要你多休息，就你会好的。",
+    "answers": [
+     "只要你多休息，你就会好的。",
+     "只要你多休息，就会好的。",
+     "你只要多休息，就会好的。"
+    ],
+    "explanation": "就 est un adverbe : il suit le sujet."
+   },
+   {
+    "type": "translate",
+    "fr": "Du moment que tu es heureux, je suis heureux.",
+    "answers": [
+     "只要你高兴，我就高兴。",
+     "只要你快乐，我就快乐。",
+     "只要你开心，我就开心。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Pourvu qu'il ne pleuve pas demain, on ira au parc.",
+    "answers": [
+     "只要明天不下雨，我们就去公园。",
+     "明天只要不下雨，我们就去公园。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il suffit que tu m'appelles et je viens.",
+    "answers": [
+     "只要你给我打电话，我就来。",
+     "只要你打电话，我就来。",
+     "你只要给我打电话，我就来。",
+     "你只要给我打电话，我就会来。",
+     "只要你给我打电话，我就会来。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 只要有钱，他就去旅游。 ?",
+    "options": [
+     "Il n'a jamais d'argent pour voyager.",
+     "Dès qu'il a de l'argent, il part en voyage.",
+     "Il voyage même sans argent."
+    ],
+    "answer": 1,
+    "explanation": "只要…就… : avoir de l'argent suffit pour qu'il voyage."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "只要你去，我才去。",
+     "只要你去，我就去。",
+     "只有你去，我就去。"
+    ],
+    "answer": 1,
+    "explanation": "Les paires sont fixes : 只要…就… et 只有…才…."
+   },
+   {
+    "type": "listen",
+    "zh": "只要你每天练习半个小时，你的汉语就会越来越好。",
+    "question": "Que conseille la personne ?",
+    "options": [
+     "Partir en Chine",
+     "S'entraîner une demi-heure par jour",
+     "Prendre des cours particuliers"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-20",
+  "phase": 3,
+  "title": "只有…才… : « seulement si…, ce n'est qu'en… que… »",
+  "pattern": "只有 + condition，(Sujet) + 才 + résultat\n只有 + nom / personne + 才 + V",
+  "hsk": 3,
+  "explanation": "只有…才… exprime une **condition nécessaire et unique** : sans elle, le résultat est impossible. On traduit par « seulement si », « ce n'est qu'en… que… », « il faut… pour… ».\n- 只有多练习，才能说好汉语。« Ce n'est qu'en pratiquant beaucoup qu'on peut bien parler chinois. »\n- 只有你去请他，他才会来。« Il ne viendra que si c'est toi qui l'invites. »\n\n只有 peut aussi porter directement sur une **personne, un moment ou une chose** : « il n'y a que… qui… » :\n- 只有他才知道这件事。« Il n'y a que lui qui soit au courant. »\n- 我只有周末才有时间。« Je n'ai du temps que le week-end. »\n\n**Position :** 才 est un adverbe ; il se place **après le sujet** de la seconde proposition : 只有考了好成绩，**妈妈才**会高兴.\n\n**只要…就… ou 只有…才… ?** C'est la comparaison clé :\n- 只要你来，我就去。« Il suffit que tu viennes pour que j'y aille. » (ta venue suffit ; d'autres choses pourraient aussi me décider)\n- 只有你来，我才去。« Je n'irai que si tu viens. » (sans toi, je n'y vais pas)\nLe premier est **ouvert et facile** ; le second est **exigeant et exclusif**.\n\n**Pièges pour un francophone :**\n- Ne mélangez pas les paires : « 只有…就… » et « 只要…才… » sont fautifs.\n- 才 indique ici une condition, pas un retard. Il est souvent suivi d'un verbe modal : 才能、才会、才可以.\n- Après 才, on ne met généralement pas 了 en fin de phrase.\n- Avec une personne, ne dites pas « 只是他知道 » : 只是 signifie « c'est juste que ».",
+  "examples": [
+   {
+    "zh": "只有多练习，才能说好汉语。",
+    "fr": "Ce n'est qu'en pratiquant beaucoup qu'on peut bien parler chinois."
+   },
+   {
+    "zh": "只有他才知道这件事。",
+    "fr": "Il n'y a que lui qui soit au courant."
+   },
+   {
+    "zh": "我只有周末才有时间。",
+    "fr": "Je n'ai du temps que le week-end."
+   },
+   {
+    "zh": "只有你去请他，他才会来。",
+    "fr": "Il ne viendra que si c'est toi qui l'invites."
+   },
+   {
+    "zh": "只有每天锻炼，身体才会好。",
+    "fr": "Ce n'est qu'en faisant du sport tous les jours qu'on est en bonne santé."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "只有",
+     "多",
+     "练习",
+     "才",
+     "能",
+     "说好",
+     "汉语"
+    ],
+    "answer": "只有多练习才能说好汉语",
+    "fr": "Ce n'est qu'en pratiquant beaucoup qu'on peut bien parler chinois."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "只有",
+     "你",
+     "才",
+     "能",
+     "帮",
+     "我"
+    ],
+    "answer": "只有你才能帮我",
+    "fr": "Il n'y a que toi qui puisses m'aider."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "只有",
+     "周末",
+     "才",
+     "有",
+     "时间",
+     "看电影"
+    ],
+    "answer": "只有周末才有时间看电影",
+    "fr": "Ce n'est que le week-end qu'on a le temps d'aller au cinéma."
+   },
+   {
+    "type": "cloze",
+    "zh": "只有努力学习，___能考好。",
+    "options": [
+     "才",
+     "就",
+     "都",
+     "也"
+    ],
+    "answer": "才",
+    "fr": "Ce n'est qu'en étudiant sérieusement qu'on réussit ses examens."
+   },
+   {
+    "type": "cloze",
+    "zh": "___你去请他，他才会来。",
+    "options": [
+     "只有",
+     "只要",
+     "虽然",
+     "因为"
+    ],
+    "answer": "只有",
+    "fr": "Il ne viendra que si c'est toi qui l'invites."
+   },
+   {
+    "type": "cloze",
+    "zh": "只有每天锻炼，身体___会好。",
+    "options": [
+     "才",
+     "就",
+     "都",
+     "还"
+    ],
+    "answer": "才",
+    "fr": "Ce n'est qu'en faisant du sport tous les jours qu'on est en bonne santé."
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime la condition nécessaire avec 只有…才… : il faut finir ses devoirs pour pouvoir regarder la télé.",
+    "zh": "做完作业，你可以看电视。",
+    "answers": [
+     "只有做完作业，你才可以看电视。",
+     "你只有做完作业，才可以看电视。",
+     "只有做完作业，你才能看电视。",
+     "你只有做完作业，才能看电视。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Remplace 只要…就… par 只有…才… (condition nécessaire).",
+    "zh": "只要你来，问题就能解决。",
+    "answers": [
+     "只有你来，问题才能解决。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "只有你去，我就去。",
+    "answers": [
+     "只有你去，我才去。",
+     "只要你去，我就去。"
+    ],
+    "explanation": "只有 va avec 才 ; 只要 va avec 就."
+   },
+   {
+    "type": "error",
+    "zh": "只有考了好成绩，才妈妈会高兴。",
+    "answers": [
+     "只有考了好成绩，妈妈才会高兴。"
+    ],
+    "explanation": "才 est un adverbe : il se place après le sujet (妈妈)."
+   },
+   {
+    "type": "translate",
+    "fr": "Il n'y a que lui qui sache où elle habite.",
+    "answers": [
+     "只有他才知道她住在哪儿。",
+     "只有他知道她住在哪儿。",
+     "只有他才知道她住在哪里。",
+     "只有他知道她住在哪里。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ce n'est qu'en pratiquant beaucoup qu'on peut bien parler chinois.",
+    "answers": [
+     "只有多练习，才能说好汉语。",
+     "只有多练习，才能把汉语说好。",
+     "只有多练习才能说好汉语。",
+     "只有多练习，才能说好中文。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je n'ai du temps que le week-end.",
+    "answers": [
+     "只有周末我才有时间。",
+     "我只有周末才有时间。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase exprime une condition NÉCESSAIRE (« seulement si ») ?",
+    "options": [
+     "如果你喜欢，就买吧。",
+     "只要你喜欢，就买吧。",
+     "只有你同意，我才去。"
+    ],
+    "answer": 2,
+    "explanation": "只有…才… : sans ton accord, je n'irai pas."
+   },
+   {
+    "type": "choice",
+    "question": "Complète : 只有他来，我们___能开始。",
+    "options": [
+     "就",
+     "都",
+     "才"
+    ],
+    "answer": 2,
+    "explanation": "只有 appelle toujours 才."
+   },
+   {
+    "type": "listen",
+    "zh": "只有星期六下午，图书馆才开门。",
+    "question": "Quand la bibliothèque est-elle ouverte ?",
+    "options": [
+     "Le samedi matin",
+     "Seulement le samedi après-midi",
+     "Tous les après-midi"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-21",
+  "phase": 3,
+  "title": "连…都 / 也… : « même »",
+  "pattern": "连 + élément mis en relief + 都 / 也 + V\n连 + 一 + classificateur + nom + 都 / 也 + 不 / 没 + V",
+  "hsk": 3,
+  "explanation": "连…都 / 也… met en relief un élément **extrême ou inattendu** : « même… ». L'idée est : « si c'est vrai même pour cet élément, alors c'est forcément vrai pour les autres ».\n- 连我爷爷都会用手机。« Même mon grand-père sait utiliser un portable. » (alors tout le monde sait)\n- 他连饭都没吃就走了。« Il est parti sans même manger. »\n\n**Ce qu'on peut mettre en relief :**\n- **le sujet** : 连老师都不知道这个字怎么读。« Même le professeur ne sait pas lire ce caractère. »\n- **l'objet**, qui doit alors **passer devant le verbe** : 他连这个字都不认识。« Il ne connaît même pas ce caractère. »\n- **un moment** : 我太忙了，连周末也要上班。« Je suis tellement occupé que je dois travailler même le week-end. »\n\n**Avec 一 + classificateur**, la structure exprime une négation totale : 我连一分钱也没有 « je n'ai même pas un centime » ; 我连一口水都没喝 « je n'ai même pas bu une gorgée d'eau ».\n\n**都 ou 也 ?** Les deux sont possibles et presque équivalents ; 都 est un peu plus fréquent. Mais **l'un des deux est obligatoire** : « 我连一口水没喝 » est faux.\n\n**Pièges pour un francophone :**\n- En français, « même » se place souvent après le verbe (« il ne connaît même pas ce mot »). En chinois, **l'élément mis en relief et 连 se placent devant le verbe**, et 都 / 也 juste avant le verbe : « 他都不认识连这个字 » est faux.\n- 都 / 也 se place après l'élément introduit par 连, jamais avant.\n- 连 n'a rien à voir ici avec son sens de « relier » : c'est un mot de mise en relief.\n- On peut omettre 连 à l'oral (他饭都没吃), mais jamais 都 / 也.",
+  "examples": [
+   {
+    "zh": "他连饭都没吃就走了。",
+    "fr": "Il est parti sans même manger."
+   },
+   {
+    "zh": "连我爷爷都会用手机。",
+    "fr": "Même mon grand-père sait utiliser un portable."
+   },
+   {
+    "zh": "他连这个字都不认识。",
+    "fr": "Il ne connaît même pas ce caractère."
+   },
+   {
+    "zh": "我太忙了，连周末也要上班。",
+    "fr": "Je suis tellement occupé que je travaille même le week-end."
+   },
+   {
+    "zh": "我连一分钱也没有。",
+    "fr": "Je n'ai même pas un centime."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "连",
+     "饭",
+     "都",
+     "没",
+     "吃",
+     "就",
+     "走",
+     "了"
+    ],
+    "answer": "他连饭都没吃就走了",
+    "fr": "Il est parti sans même manger."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "连",
+     "我",
+     "妈妈",
+     "都",
+     "不",
+     "知道"
+    ],
+    "answer": "连我妈妈都不知道",
+    "fr": "Même ma mère ne le sait pas."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "连",
+     "一",
+     "分",
+     "钱",
+     "也",
+     "没有"
+    ],
+    "answer": "我连一分钱也没有",
+    "fr": "Je n'ai même pas un centime."
+   },
+   {
+    "type": "cloze",
+    "zh": "他连自己的名字___写错了。",
+    "options": [
+     "都",
+     "就",
+     "才",
+     "还"
+    ],
+    "answer": "都",
+    "fr": "Il s'est trompé même en écrivant son propre nom."
+   },
+   {
+    "type": "cloze",
+    "zh": "___老师都不知道这个字怎么读。",
+    "options": [
+     "连",
+     "对",
+     "把",
+     "被"
+    ],
+    "answer": "连",
+    "fr": "Même le professeur ne sait pas lire ce caractère."
+   },
+   {
+    "type": "cloze",
+    "zh": "我太忙了，连周末___要上班。",
+    "options": [
+     "也",
+     "才",
+     "就",
+     "再"
+    ],
+    "answer": "也",
+    "fr": "Je suis tellement occupé que je travaille même le week-end."
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets l'objet en relief avec 连…都….",
+    "zh": "他不认识这个字。",
+    "answers": [
+     "他连这个字都不认识。",
+     "他连这个字也不认识。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Utilise 连…也… pour insister : je n'ai même pas envie de manger.",
+    "zh": "我太累了，不想吃饭。",
+    "answers": [
+     "我太累了，连饭也不想吃。",
+     "我太累了，连饭都不想吃。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "他都不认识连这个字。",
+    "answers": [
+     "他连这个字都不认识。",
+     "他连这个字也不认识。"
+    ],
+    "explanation": "L'élément introduit par 连 se place devant le verbe, suivi de 都 / 也."
+   },
+   {
+    "type": "error",
+    "zh": "我连一口水没喝。",
+    "answers": [
+     "我连一口水都没喝。",
+     "我连一口水也没喝。"
+    ],
+    "explanation": "Avec 连, l'adverbe 都 ou 也 est obligatoire."
+   },
+   {
+    "type": "translate",
+    "fr": "Même mon grand-père sait utiliser un portable.",
+    "answers": [
+     "连我爷爷都会用手机。",
+     "连我爷爷也会用手机。",
+     "连爷爷都会用手机。",
+     "连爷爷也会用手机。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il est parti sans même dire au revoir.",
+    "answers": [
+     "他连再见都没说就走了。",
+     "他连再见也没说就走了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je n'ai même pas le temps de manger.",
+    "answers": [
+     "我连吃饭的时间都没有。",
+     "我连吃饭的时间也没有。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "他都连这个问题不会。",
+     "他连这个问题都不会。",
+     "他不会连这个问题都。"
+    ],
+    "answer": 1,
+    "explanation": "Ordre : 连 + élément + 都 + verbe."
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 这么简单的题，连小孩子都会做。 ?",
+    "options": [
+     "Seuls les enfants savent faire cet exercice.",
+     "Même un enfant saurait faire un exercice aussi simple.",
+     "Les enfants ne savent pas faire cet exercice."
+    ],
+    "answer": 1,
+    "explanation": "连…都… met en relief un cas extrême : même un enfant y arrive."
+   },
+   {
+    "type": "listen",
+    "zh": "我今天太忙了，连午饭都没吃。",
+    "question": "Qu'est-ce que la personne n'a pas fait aujourd'hui ?",
+    "options": [
+     "Elle n'a pas travaillé",
+     "Elle n'a pas dormi",
+     "Elle n'a pas déjeuné"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-22",
+  "phase": 3,
+  "title": "Négation totale : 一点儿也不, 一…也没",
+  "pattern": "Sujet + 一点儿 + 也 / 都 + 不 + adj. / V\nSujet + 一点儿 + nom + 也 / 都 + 没有\nSujet + 一 + classificateur + nom + 也 / 都 + 没 / 不 + V",
+  "hsk": 3,
+  "explanation": "Pour dire « pas du tout » ou « pas un seul », le chinois utilise **一** (« un », « un peu ») suivi de **也** ou **都** et d'une négation. L'idée est : « même un peu, ce n'est pas le cas ».\n\n**1. 一点儿也 / 都不 + adjectif ou verbe : « pas du tout »**\n- 我一点儿也不累。« Je ne suis pas du tout fatigué. »\n- 今天一点儿都不冷。« Il ne fait pas froid du tout aujourd'hui. »\n\n**2. 一点儿 + nom + 也 / 都没有 : « pas la moindre… »**\n- 冰箱里一点儿水果都没有了。« Il n'y a plus un seul fruit dans le frigo. »\n\n**3. 一 + classificateur + nom + 也 / 都 + 没 / 不 : « pas un seul »**\n- 他一句话也没说。« Il n'a pas dit un seul mot. »\n- 教室里一个人也没有。« Il n'y a personne dans la classe. »\n- 这个电影我一次也没看过。« Je n'ai jamais vu ce film, pas une seule fois. »\nUtilisez **没** pour les faits passés et **不** pour la volonté ou l'habitude : 我一本书也不买 « je n'achèterai pas un seul livre ».\n\n**Pièges pour un francophone :**\n- **Ordre** : « pas du tout » se place à la fin en français, mais en chinois tout le bloc 一点儿也不 est **devant** l'adjectif ou le verbe : « 我不累一点儿 », « 我不一点儿累 » sont faux.\n- **N'oubliez pas 也 / 都** : « 这件衣服一点儿不贵 » est incorrect à l'écrit.\n- **一点儿 ≠ 有点儿.** 有点儿 signifie « un peu (trop) » devant un adjectif négatif : 今天有点儿冷 « il fait un peu froid ». Seul 一点儿 forme la négation totale : 今天一点儿也不冷.\n- 一点儿也 + adjectif sans négation n'a pas de sens : « 一点儿也贵 » est faux.",
+  "examples": [
+   {
+    "zh": "这个蛋糕一点儿也不甜。",
+    "fr": "Ce gâteau n'est pas sucré du tout."
+   },
+   {
+    "zh": "我一点儿都不累。",
+    "fr": "Je ne suis pas du tout fatigué."
+   },
+   {
+    "zh": "他一句话也没说。",
+    "fr": "Il n'a pas dit un seul mot."
+   },
+   {
+    "zh": "冰箱里一点儿水果都没有了。",
+    "fr": "Il n'y a plus un seul fruit dans le frigo."
+   },
+   {
+    "zh": "教室里一个人也没有。",
+    "fr": "Il n'y a personne dans la classe."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "这个",
+     "蛋糕",
+     "一点儿",
+     "也",
+     "不",
+     "甜"
+    ],
+    "answer": "这个蛋糕一点儿也不甜",
+    "fr": "Ce gâteau n'est pas sucré du tout."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "一点儿",
+     "都",
+     "不",
+     "累"
+    ],
+    "answer": "我一点儿都不累",
+    "fr": "Je ne suis pas du tout fatigué."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "房间",
+     "里",
+     "一",
+     "个",
+     "人",
+     "也",
+     "没有"
+    ],
+    "answer": "房间里一个人也没有",
+    "fr": "Il n'y a personne dans la pièce."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "冰箱",
+     "里",
+     "一点儿",
+     "水果",
+     "都",
+     "没有",
+     "了"
+    ],
+    "answer": "冰箱里一点儿水果都没有了",
+    "fr": "Il n'y a plus un seul fruit dans le frigo."
+   },
+   {
+    "type": "cloze",
+    "zh": "今天一点儿___不冷。",
+    "options": [
+     "也",
+     "就",
+     "还",
+     "才"
+    ],
+    "answer": "也",
+    "fr": "Il ne fait pas froid du tout aujourd'hui."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___个朋友也没有。",
+    "options": [
+     "一",
+     "有",
+     "没",
+     "两"
+    ],
+    "answer": "一",
+    "fr": "Je n'ai pas un seul ami."
+   },
+   {
+    "type": "cloze",
+    "zh": "这个电影我一次也___看过。",
+    "options": [
+     "没",
+     "不",
+     "别",
+     "都"
+    ],
+    "answer": "没",
+    "fr": "Je n'ai jamais vu ce film, pas une seule fois."
+   },
+   {
+    "type": "transform",
+    "instruction": "Renforce la négation avec 一点儿也.",
+    "zh": "我不害怕。",
+    "answers": [
+     "我一点儿也不害怕。",
+     "我一点儿都不害怕。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Dis « je n'ai pas bu une seule goutte d'alcool » avec 一…也没.",
+    "zh": "我没喝酒。",
+    "answers": [
+     "我一口酒也没喝。",
+     "我一口酒都没喝。",
+     "我一点儿酒也没喝。",
+     "我一点儿酒都没喝。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我不一点儿累。",
+    "answers": [
+     "我一点儿也不累。",
+     "我一点儿都不累。"
+    ],
+    "explanation": "Le bloc 一点儿也不 se place devant l'adjectif."
+   },
+   {
+    "type": "error",
+    "zh": "这件衣服一点儿也贵。",
+    "answers": [
+     "这件衣服一点儿也不贵。",
+     "这件衣服一点儿都不贵。"
+    ],
+    "explanation": "一点儿也 doit être suivi d'une négation."
+   },
+   {
+    "type": "error",
+    "zh": "今天有点儿也不热。",
+    "answers": [
+     "今天一点儿也不热。",
+     "今天一点儿都不热。"
+    ],
+    "explanation": "La négation totale se forme avec 一点儿, pas avec 有点儿."
+   },
+   {
+    "type": "translate",
+    "fr": "Je ne comprends pas du tout.",
+    "answers": [
+     "我一点儿也不懂。",
+     "我一点儿都不懂。",
+     "我一点儿也不明白。",
+     "我一点儿都不明白。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il n'y a personne dans la classe.",
+    "answers": [
+     "教室里一个人也没有。",
+     "教室里一个人都没有。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ce film n'est pas du tout intéressant.",
+    "answers": [
+     "这个电影一点儿也没有意思。",
+     "这个电影一点儿都没有意思。",
+     "这个电影一点儿也没意思。",
+     "这个电影一点儿都没意思。",
+     "这个电影一点儿意思也没有。",
+     "这个电影一点儿意思都没有。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Je ne suis pas du tout fatigué. »",
+    "options": [
+     "我一点儿也不累。",
+     "我有点儿不累。",
+     "我不累一点儿。"
+    ],
+    "answer": 0,
+    "explanation": "一点儿也不 + adjectif, placé devant l'adjectif."
+   },
+   {
+    "type": "choice",
+    "question": "« Je n'ai pas acheté un seul livre. »",
+    "options": [
+     "我一本书也不买了。",
+     "我没买一本书也。",
+     "我一本书也没买。"
+    ],
+    "answer": 2,
+    "explanation": "Fait passé → 没. 一本书也不买了 signifie « je n'achèterai plus un seul livre »."
+   },
+   {
+    "type": "listen",
+    "zh": "我昨天一分钟也没睡，今天特别累。",
+    "question": "Combien de temps la personne a-t-elle dormi hier ?",
+    "options": [
+     "Pas du tout",
+     "Une heure",
+     "Une minute"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p3-23",
+  "phase": 3,
+  "title": "Mots interrogatifs indéfinis : 什么都, 谁都, 哪儿都…",
+  "pattern": "Sujet + mot interrogatif + 都 / 也 + V (tout, n'importe…)\nSujet + mot interrogatif + 都 / 也 + 不 / 没 + V (rien, personne, nulle part)",
+  "hsk": 3,
+  "explanation": "Les mots interrogatifs (什么、谁、哪儿、什么时候、怎么…) ne servent pas qu'à poser des questions. Suivis de **都** ou **也**, ils prennent un sens **indéfini et total** :\n\n**À l'affirmative : « tout, tout le monde, partout, n'importe… »**\n- 我什么都吃。« Je mange de tout. »\n- 这件事谁都知道。« Tout le monde est au courant. »\n- 你什么时候来都可以。« Tu peux venir n'importe quand. »\n\n**À la négative : « rien, personne, nulle part, jamais »**\n- 他今天什么都没吃。« Il n'a rien mangé aujourd'hui. »\n- 周末我哪儿也不想去。« Le week-end, je ne veux aller nulle part. »\n- 我在这儿谁都不认识。« Je ne connais personne ici. »\n\nAvec **怎么**, on exprime « de quelque manière que ce soit » : 我怎么说他都不听 « j'ai beau lui parler, il n'écoute pas ».\n\n**Règles d'ordre :**\n- Le mot interrogatif + 都 / 也 se placent **devant le verbe**. Même s'il s'agit de l'objet, il **remonte avant le verbe** : 我什么都吃, jamais « 我吃什么都 ».\n- 都 / 也 est **obligatoire** : sans lui, la phrase redevient une question (他哪儿不想去？ « où ne veut-il pas aller ? »).\n- À la négative, 都 et 也 sont presque équivalents ; à l'affirmative, on préfère **都**.\n\n**Pièges pour un francophone :**\n- Le français a des mots spécifiques (« rien », « personne », « nulle part ») ; le chinois réutilise les mots interrogatifs. Ne cherchez pas un mot « rien » : 什么都不/没 suffit.\n- Ne mettez pas de 吗 : 他什么都不知道 est une affirmation, pas une question.\n- 没 pour le passé (什么都没买), 不 pour la volonté ou l'habitude (什么都不想买).",
+  "examples": [
+   {
+    "zh": "我什么都吃。",
+    "fr": "Je mange de tout."
+   },
+   {
+    "zh": "这件事谁都知道。",
+    "fr": "Tout le monde est au courant."
+   },
+   {
+    "zh": "周末我哪儿也不想去。",
+    "fr": "Le week-end, je ne veux aller nulle part."
+   },
+   {
+    "zh": "你什么时候来都可以。",
+    "fr": "Tu peux venir n'importe quand."
+   },
+   {
+    "zh": "我怎么说他都不听。",
+    "fr": "J'ai beau lui parler, il n'écoute pas."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "什么",
+     "都",
+     "吃"
+    ],
+    "answer": "我什么都吃",
+    "fr": "Je mange de tout."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "哪儿",
+     "也",
+     "不",
+     "想",
+     "去"
+    ],
+    "answer": "我哪儿也不想去",
+    "fr": "Je ne veux aller nulle part."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "谁",
+     "都",
+     "可以",
+     "参加"
+    ],
+    "answer": "谁都可以参加",
+    "fr": "Tout le monde peut participer."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "什么",
+     "都",
+     "没",
+     "吃"
+    ],
+    "answer": "他什么都没吃",
+    "fr": "Il n'a rien mangé."
+   },
+   {
+    "type": "cloze",
+    "zh": "这个问题太难了，班里___都不会回答。",
+    "options": [
+     "谁",
+     "哪儿",
+     "怎么",
+     "几"
+    ],
+    "answer": "谁",
+    "fr": "Cette question est trop difficile, personne dans la classe ne sait y répondre."
+   },
+   {
+    "type": "cloze",
+    "zh": "我找了半天，哪儿___找不到。",
+    "options": [
+     "都",
+     "就",
+     "才",
+     "还"
+    ],
+    "answer": "都",
+    "fr": "J'ai cherché longtemps, impossible de le trouver nulle part."
+   },
+   {
+    "type": "cloze",
+    "zh": "你___时候来都可以。",
+    "options": [
+     "什么",
+     "哪",
+     "怎么",
+     "谁"
+    ],
+    "answer": "什么",
+    "fr": "Tu peux venir n'importe quand."
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime « il ne veut rien manger » avec 什么也.",
+    "zh": "他不想吃东西。",
+    "answers": [
+     "他什么也不想吃。",
+     "他什么都不想吃。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime « tout le monde l'aime » avec 谁都.",
+    "zh": "大家都喜欢她。",
+    "answers": [
+     "谁都喜欢她。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我吃什么都。",
+    "answers": [
+     "我什么都吃。"
+    ],
+    "explanation": "Le mot interrogatif + 都 se place devant le verbe, même quand c'est l'objet."
+   },
+   {
+    "type": "error",
+    "zh": "他哪儿不想去。",
+    "answers": [
+     "他哪儿都不想去。",
+     "他哪儿也不想去。"
+    ],
+    "explanation": "Sans 都 / 也, la phrase devient une question. Pour « nulle part », il faut 哪儿都 / 哪儿也."
+   },
+   {
+    "type": "translate",
+    "fr": "Je ne connais personne ici.",
+    "answers": [
+     "我在这儿谁都不认识。",
+     "我在这儿谁也不认识。",
+     "在这儿我谁也不认识。",
+     "在这儿我谁都不认识。",
+     "这儿的人我谁都不认识。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Tu peux venir n'importe quand.",
+    "answers": [
+     "你什么时候来都可以。",
+     "你什么时候都可以来。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Hier, je ne suis allé nulle part.",
+    "answers": [
+     "我昨天哪儿也没去。",
+     "我昨天哪儿都没去。",
+     "昨天我哪儿也没去。",
+     "昨天我哪儿都没去。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 他什么都不知道。 ?",
+    "options": [
+     "Il sait tout.",
+     "Que sait-il ?",
+     "Il ne sait rien."
+    ],
+    "answer": 2,
+    "explanation": "什么 + 都 + 不 : « rien ». Ce n'est pas une question."
+   },
+   {
+    "type": "choice",
+    "question": "Comment dire « Tout le monde peut le faire » ?",
+    "options": [
+     "谁都能做。",
+     "都谁能做。",
+     "谁能做都。"
+    ],
+    "answer": 0,
+    "explanation": "Mot interrogatif + 都 + verbe."
+   },
+   {
+    "type": "listen",
+    "zh": "我怎么说他都不听。",
+    "question": "Que se passe-t-il ?",
+    "options": [
+     "Il ne parle pas",
+     "Quoi que je dise, il n'écoute pas",
+     "Il écoute attentivement"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-24",
+  "phase": 3,
+  "title": "还是 : « il vaut mieux », « finalement plutôt »",
+  "pattern": "(Sujet) + 还是 + V + 吧\n(Sujet) + 还是 + V + 比较好",
+  "hsk": 3,
+  "explanation": "Vous connaissez 还是 dans les questions alternatives (你喝茶还是喝咖啡？ « thé ou café ? ») et au sens de « toujours, encore » (他还是很忙). Il a un troisième sens très courant : **« il vaut mieux », « finalement, plutôt »**.\n\nCe 还是 exprime un **choix fait après réflexion**, en comparant des options (dites ou sous-entendues) :\n- 外面下雨了，我们还是坐出租车吧。« Il pleut, on ferait mieux de prendre un taxi. »\n- 你感冒了，还是在家休息吧。« Tu es enrhumé, il vaut mieux que tu restes te reposer à la maison. »\n- 我想了想，还是不去了。« Réflexion faite, je n'y vais pas. »\n\n**Construction :**\n- 还是 se place **après le sujet**, devant le verbe (le sujet est souvent omis). On le place aussi devant le sujet : 还是我去吧 « c'est plutôt moi qui vais y aller ».\n- On termine très souvent par **吧** (conseil, suggestion) ou par **比较好** : 我觉得还是这件比较好.\n- On peut le renforcer avec **最好** : 你最好还是去医院看看.\n\n**Comment reconnaître le sens ?**\n- **还是 entre deux options dans une question** → « ou » : 你去还是我去？\n- **还是 + V + 吧** ou un contexte de décision → « il vaut mieux » : 还是你去吧.\n- **还是 + état qui persiste** → « toujours » : 他还是不明白.\n\n**Pièges pour un francophone :**\n- Ne confondez pas avec **或者**, qui signifie « ou » dans une phrase affirmative et ne donne jamais de conseil.\n- Pour donner un conseil, terminez par **吧**, pas par 了 : 你还是多穿点儿衣服吧.\n- 吧 se place en fin de phrase, jamais juste après 还是.\n- 还是 adoucit le conseil : c'est plus poli qu'un impératif sec, et très utilisé dans la conversation.",
+  "examples": [
+   {
+    "zh": "外面下雨了，我们还是坐出租车吧。",
+    "fr": "Il pleut, on ferait mieux de prendre un taxi."
+   },
+   {
+    "zh": "你感冒了，还是在家休息吧。",
+    "fr": "Tu es enrhumé, il vaut mieux que tu te reposes à la maison."
+   },
+   {
+    "zh": "我想了想，还是不去了。",
+    "fr": "Réflexion faite, je n'y vais pas."
+   },
+   {
+    "zh": "我觉得还是这件比较好。",
+    "fr": "Je trouve que celui-ci est finalement mieux."
+   },
+   {
+    "zh": "飞机票太贵了，我们还是坐火车去吧。",
+    "fr": "Les billets d'avion sont trop chers, prenons plutôt le train."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "还是",
+     "坐",
+     "出租车",
+     "去",
+     "吧"
+    ],
+    "answer": "还是坐出租车去吧",
+    "fr": "Allons-y plutôt en taxi."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "还是",
+     "去",
+     "医院",
+     "看看",
+     "吧"
+    ],
+    "answer": "还是去医院看看吧",
+    "fr": "Tu ferais mieux d'aller voir un médecin à l'hôpital."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "还是",
+     "明天",
+     "再",
+     "去",
+     "吧"
+    ],
+    "answer": "还是明天再去吧",
+    "fr": "Allons-y plutôt demain."
+   },
+   {
+    "type": "cloze",
+    "zh": "太晚了，我们___回家吧。",
+    "options": [
+     "还是",
+     "或者",
+     "还有",
+     "而且"
+    ],
+    "answer": "还是",
+    "fr": "Il est trop tard, on ferait mieux de rentrer."
+   },
+   {
+    "type": "cloze",
+    "zh": "你感冒了，还是在家休息___。",
+    "options": [
+     "吧",
+     "吗",
+     "呢",
+     "了"
+    ],
+    "answer": "吧",
+    "fr": "Tu es enrhumé, il vaut mieux que tu te reposes à la maison."
+   },
+   {
+    "type": "cloze",
+    "zh": "我想了想，___不去了。",
+    "options": [
+     "还是",
+     "或者",
+     "而且",
+     "只要"
+    ],
+    "answer": "还是",
+    "fr": "Réflexion faite, je n'y vais pas."
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en conseil avec 还是…吧.",
+    "zh": "你明天来。",
+    "answers": [
+     "你还是明天来吧。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime « finalement, il vaut mieux prendre le train ».",
+    "zh": "我们坐火车。",
+    "answers": [
+     "我们还是坐火车吧。",
+     "还是坐火车吧。",
+     "还是我们坐火车吧。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "你还是吧去医院。",
+    "answers": [
+     "你还是去医院吧。",
+     "你最好还是去医院吧。"
+    ],
+    "explanation": "吧 se place en fin de phrase, pas après 还是."
+   },
+   {
+    "type": "error",
+    "zh": "天气这么冷，你还是多穿衣服了。",
+    "answers": [
+     "天气这么冷，你还是多穿点儿衣服吧。",
+     "天气这么冷，你还是多穿衣服吧。",
+     "天气这么冷，你还是多穿一点儿衣服吧。"
+    ],
+    "explanation": "还是 « il vaut mieux » introduit un conseil : on termine par 吧, pas par 了."
+   },
+   {
+    "type": "translate",
+    "fr": "Il est tard, tu ferais mieux de rentrer.",
+    "answers": [
+     "太晚了，你还是回家吧。",
+     "很晚了，你还是回家吧。",
+     "不早了，你还是回去吧。",
+     "太晚了，你还是回去吧。",
+     "很晚了，你还是回去吧。",
+     "不早了，你还是回家吧。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Réflexion faite, je vais plutôt prendre du thé.",
+    "answers": [
+     "我还是喝茶吧。",
+     "我想了想，还是喝茶吧。",
+     "我还是要茶吧。",
+     "我想了想，我还是喝茶吧。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il vaut mieux demander au professeur.",
+    "answers": [
+     "还是问老师吧。",
+     "你还是问老师吧。",
+     "我们还是问老师吧。",
+     "还是问问老师吧。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Dans quelle phrase 还是 signifie-t-il « il vaut mieux » ?",
+    "options": [
+     "你喝茶还是喝咖啡？",
+     "他还是在睡觉。",
+     "我们还是走吧。"
+    ],
+    "answer": 2,
+    "explanation": "还是 + V + 吧 : suggestion après réflexion. Les deux autres signifient « ou » et « toujours »."
+   },
+   {
+    "type": "choice",
+    "question": "Ton ami hésite à acheter une veste chère. Tu lui conseilles d'attendre :",
+    "options": [
+     "你还是等一等吗？",
+     "你等一等还是吧。",
+     "你还是等一等吧。"
+    ],
+    "answer": 2,
+    "explanation": "Conseil : 还是 + V + 吧."
+   },
+   {
+    "type": "listen",
+    "zh": "飞机票太贵了，我们还是坐火车去吧。",
+    "question": "Que propose la personne ?",
+    "options": [
+     "Prendre l'avion",
+     "Ne pas partir",
+     "Prendre le train"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-25",
+  "phase": 3,
+  "title": "不是…而是… et 不是…就是…",
+  "pattern": "不是 + A，而是 + B (ce n'est pas A, c'est B)\n不是 + A，就是 + B (soit A, soit B)",
+  "hsk": 4,
+  "explanation": "Ces deux structures commencent de la même façon mais ont des sens très différents. Seul le second mot (而是 ou 就是) permet de les distinguer.\n\n**1. 不是 A，而是 B : « ce n'est pas A, c'est B »**\nOn **rectifie** une idée : on rejette A et on donne la bonne explication B.\n- 他不是不想来，而是没有时间。« Ce n'est pas qu'il ne veut pas venir, c'est qu'il n'a pas le temps. »\n- 这不是我的书，而是我同学的。« Ce n'est pas mon livre, c'est celui de mon camarade. »\nTrès utile pour se justifier poliment : 我不是不喜欢这件衣服，而是觉得太贵了.\n\n**2. 不是 A，就是 B : « soit A, soit B »**\nOn présente **deux possibilités qui épuisent la situation** : c'est forcément l'une ou l'autre. Souvent, la phrase décrit une habitude répétitive, parfois avec une nuance de reproche :\n- 周末他不是睡觉，就是玩游戏。« Le week-end, soit il dort, soit il joue aux jeux vidéo. »\n- 这几天不是刮风，就是下雨。« Ces jours-ci, soit il y a du vent, soit il pleut. »\n- 他现在不是在办公室，就是在家。« En ce moment, il est soit au bureau, soit chez lui. »\n\n**Pièges pour un francophone :**\n- Le français dit « ce n'est pas A, **mais** B ». Ne traduisez pas « mais » par **但是** : « 我不是不想去，但是没有时间 » est maladroit. Utilisez **而是**.\n- N'oubliez pas le **是** de 而是 : « 而不努力 » est incomplet ; dites 而是不努力.\n- 不是…就是… n'est **pas une négation** : la personne fait bien A ou B. Comparez : 她不是在唱歌，而是在哭 « elle ne chante pas, elle pleure » / 她不是在唱歌，就是在跳舞 « elle est toujours en train de chanter ou de danser ».\n- 而是 appartient à un registre un peu plus soutenu (HSK 4), mais il est fréquent à l'oral dans cette structure.",
+  "examples": [
+   {
+    "zh": "他不是不想来，而是没有时间。",
+    "fr": "Ce n'est pas qu'il ne veut pas venir, c'est qu'il n'a pas le temps."
+   },
+   {
+    "zh": "这不是我的书，而是我同学的。",
+    "fr": "Ce n'est pas mon livre, c'est celui de mon camarade."
+   },
+   {
+    "zh": "周末他不是睡觉，就是玩游戏。",
+    "fr": "Le week-end, soit il dort, soit il joue aux jeux vidéo."
+   },
+   {
+    "zh": "这几天不是刮风，就是下雨。",
+    "fr": "Ces jours-ci, soit il y a du vent, soit il pleut."
+   },
+   {
+    "zh": "我不是不喜欢这件衣服，而是觉得太贵了。",
+    "fr": "Ce n'est pas que je n'aime pas ce vêtement, c'est que je le trouve trop cher."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "不是",
+     "不想",
+     "来",
+     "而是",
+     "没有",
+     "时间"
+    ],
+    "answer": "他不是不想来而是没有时间",
+    "fr": "Ce n'est pas qu'il ne veut pas venir, c'est qu'il n'a pas le temps."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "不是",
+     "睡觉",
+     "就是",
+     "玩",
+     "游戏"
+    ],
+    "answer": "他不是睡觉就是玩游戏",
+    "fr": "Soit il dort, soit il joue aux jeux vidéo."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "不是",
+     "我的",
+     "书",
+     "而是",
+     "我",
+     "同学",
+     "的"
+    ],
+    "answer": "这不是我的书而是我同学的",
+    "fr": "Ce n'est pas mon livre, c'est celui de mon camarade."
+   },
+   {
+    "type": "cloze",
+    "zh": "我不是不喜欢你，___我太忙了。",
+    "options": [
+     "而是",
+     "但是",
+     "或者",
+     "所以"
+    ],
+    "answer": "而是",
+    "fr": "Ce n'est pas que je ne t'aime pas, c'est que je suis trop occupé."
+   },
+   {
+    "type": "cloze",
+    "zh": "这几天不是刮风，___下雨。",
+    "options": [
+     "就是",
+     "而是",
+     "但是",
+     "还是"
+    ],
+    "answer": "就是",
+    "fr": "Ces jours-ci, soit il y a du vent, soit il pleut."
+   },
+   {
+    "type": "cloze",
+    "zh": "他其实不是中国人，___日本人。",
+    "options": [
+     "而是",
+     "但是",
+     "所以",
+     "或者"
+    ],
+    "answer": "而是",
+    "fr": "En fait, il n'est pas chinois, il est japonais."
+   },
+   {
+    "type": "transform",
+    "instruction": "Rectifie l'idée avec 不是…而是….",
+    "zh": "他没生病。他太累了。",
+    "answers": [
+     "他不是生病了，而是太累了。",
+     "他不是病了，而是太累了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime l'alternative avec 不是…就是….",
+    "zh": "晚上他看电视或者上网。",
+    "answers": [
+     "晚上他不是看电视，就是上网。",
+     "晚上他不是看电视就是上网。",
+     "他晚上不是看电视，就是上网。",
+     "他晚上不是看电视就是上网。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我不是不想去，但是没有时间。",
+    "answers": [
+     "我不是不想去，而是没有时间。"
+    ],
+    "explanation": "Pour rectifier (« ce n'est pas…, c'est… »), on utilise 而是, pas 但是."
+   },
+   {
+    "type": "error",
+    "zh": "他不是不聪明，而不努力。",
+    "answers": [
+     "他不是不聪明，而是不努力。"
+    ],
+    "explanation": "La structure complète est 不是…而是… : n'oubliez pas 是."
+   },
+   {
+    "type": "translate",
+    "fr": "Ce n'est pas que je ne veux pas t'aider, c'est que je ne sais pas comment faire.",
+    "answers": [
+     "我不是不想帮你，而是不知道怎么做。",
+     "我不是不想帮你，而是我不知道怎么做。",
+     "不是我不想帮你，而是我不知道怎么做。",
+     "我不是不想帮你，而是不会做。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "En ce moment, il est soit au bureau, soit chez lui.",
+    "answers": [
+     "他现在不是在办公室，就是在家。",
+     "他现在不是在办公室就是在家。",
+     "现在他不是在办公室，就是在家。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ce n'est pas lui qui est venu, c'est son grand frère.",
+    "answers": [
+     "来的不是他，而是他哥哥。",
+     "不是他来了，而是他哥哥来了。",
+     "不是他来的，而是他哥哥来的。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 她不是在唱歌，就是在跳舞。 ?",
+    "options": [
+     "Elle est toujours soit en train de chanter, soit en train de danser.",
+     "Elle ne chante ni ne danse.",
+     "Elle ne chante pas, elle danse."
+    ],
+    "answer": 0,
+    "explanation": "不是…就是… : l'une ou l'autre des deux possibilités, forcément."
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 她不是在唱歌，而是在哭。 ?",
+    "options": [
+     "Elle chante et elle pleure.",
+     "Soit elle chante, soit elle pleure.",
+     "Elle ne chante pas : en fait, elle pleure."
+    ],
+    "answer": 2,
+    "explanation": "不是…而是… : on rejette A et on donne la vraie situation B."
+   },
+   {
+    "type": "listen",
+    "zh": "我不是不喜欢这件衣服，而是觉得太贵了。",
+    "question": "Pourquoi la personne n'achète-t-elle pas ce vêtement ?",
+    "options": [
+     "Elle ne l'aime pas",
+     "Elle le trouve trop cher",
+     "Il est trop petit"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-26",
+  "phase": 3,
+  "title": "La question rhétorique 不是…吗？",
+  "pattern": "Sujet + 不是 + … + 吗 ？\n(« …, non ? / Tu n'avais pas dit que… ? »)",
+  "hsk": 3,
+  "explanation": "La structure 不是…吗？ ressemble à une question négative, mais c'est en réalité une **affirmation déguisée** (question rhétorique). Le locuteur est **convaincu que c'est vrai** et exprime sa **surprise**, un **rappel** ou un **reproche**.\n\n- 你不是说今天不来吗？« Tu n'avais pas dit que tu ne venais pas aujourd'hui ? » (= tu l'avais dit, et pourtant tu es là)\n- 这不是你的手机吗？« C'est bien ton téléphone, non ? »\n- 我不是告诉过你吗？« Je te l'avais dit, non ? » (reproche)\n- 你不是去北京了吗？怎么还在这儿？« Tu n'étais pas parti à Pékin ? Pourquoi tu es encore là ? »\n\nOn la combine très souvent avec 说 (« tu avais dit que… »), avec 早就 (« depuis longtemps ») ou avec une seconde question en 怎么 qui exprime l'étonnement.\n\n**Construction :** 不是 se place devant le prédicat ou devant 说 / 告诉 ; la phrase se termine **obligatoirement par 吗**. Si le prédicat contient déjà 是, on ne le répète pas : 你不是老师吗？ (et non « 你不是是老师吗 »).\n\n**Pièges pour un francophone :**\n- Ne la comprenez pas comme une vraie question négative ! 你不是会说汉语吗？ ne demande pas si vous parlez chinois : la personne **pense que vous le parlez** et s'étonne que vous ne le fassiez pas.\n- La particule finale est **吗**, jamais 呢 ou 吧.\n- On ne remplace pas 不是 par 没是 : la forme est figée.\n- L'intonation compte : le ton est souvent montant, insistant, parfois agacé. À l'écoute, repérez 不是 au début et 吗 à la fin pour identifier ce sens.\n- Dans une réponse, on confirme souvent avec 是啊 / 对啊 (« eh oui… »), puis on explique.",
+  "examples": [
+   {
+    "zh": "你不是说今天不来吗？",
+    "fr": "Tu n'avais pas dit que tu ne venais pas aujourd'hui ?"
+   },
+   {
+    "zh": "这不是你的手机吗？",
+    "fr": "C'est bien ton téléphone, non ?"
+   },
+   {
+    "zh": "我不是告诉过你吗？",
+    "fr": "Je te l'avais dit, non ?"
+   },
+   {
+    "zh": "你不是去北京了吗？怎么还在这儿？",
+    "fr": "Tu n'étais pas parti à Pékin ? Pourquoi tu es encore là ?"
+   },
+   {
+    "zh": "你不是喜欢吃鱼吗？为什么不吃？",
+    "fr": "Tu n'aimes pas le poisson, d'habitude ? Pourquoi tu n'en manges pas ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "不是",
+     "说",
+     "今天",
+     "不",
+     "来",
+     "吗"
+    ],
+    "answer": "你不是说今天不来吗",
+    "fr": "Tu n'avais pas dit que tu ne venais pas aujourd'hui ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "不是",
+     "你",
+     "的",
+     "手机",
+     "吗"
+    ],
+    "answer": "这不是你的手机吗",
+    "fr": "C'est bien ton téléphone, non ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "不是",
+     "告诉",
+     "过",
+     "你",
+     "吗"
+    ],
+    "answer": "我不是告诉过你吗",
+    "fr": "Je te l'avais dit, non ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你不是去北京了___？怎么还在这儿？",
+    "options": [
+     "吗",
+     "呢",
+     "吧",
+     "的"
+    ],
+    "answer": "吗",
+    "fr": "Tu n'étais pas parti à Pékin ? Pourquoi tu es encore là ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你___喜欢吃鱼吗？为什么不吃？",
+    "options": [
+     "不是",
+     "没",
+     "是不是",
+     "有没有"
+    ],
+    "answer": "不是",
+    "fr": "Tu n'aimes pas le poisson, d'habitude ? Pourquoi tu n'en manges pas ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "这件事你不是___知道了吗？",
+    "options": [
+     "早就",
+     "才",
+     "刚",
+     "一点儿"
+    ],
+    "answer": "早就",
+    "fr": "Tu le savais depuis longtemps, non ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question rhétorique avec 不是…吗？",
+    "zh": "你说过你会来。",
+    "answers": [
+     "你不是说过你会来吗？",
+     "你不是说你会来吗？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Tu es surpris de le voir à l'école : exprime-le avec 不是…吗？",
+    "zh": "他生病了。",
+    "answers": [
+     "他不是生病了吗？",
+     "他不是病了吗？",
+     "你不是生病了吗？",
+     "你不是病了吗？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "你不是说今天不下雨呢？",
+    "answers": [
+     "你不是说今天不下雨吗？"
+    ],
+    "explanation": "La question rhétorique 不是… se termine par 吗, jamais par 呢."
+   },
+   {
+    "type": "error",
+    "zh": "你没是说要来吗？",
+    "answers": [
+     "你不是说要来吗？"
+    ],
+    "explanation": "La structure est figée : 不是…吗？, jamais « 没是 »."
+   },
+   {
+    "type": "translate",
+    "fr": "Tu n'avais pas dit que tu ne venais pas aujourd'hui ?",
+    "answers": [
+     "你不是说今天不来吗？",
+     "你不是说你今天不来吗？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ce n'est pas ton professeur, là-bas ?",
+    "answers": [
+     "那不是你的老师吗？",
+     "那个人不是你的老师吗？",
+     "那不是你老师吗？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je te l'avais déjà dit, non ?",
+    "answers": [
+     "我不是告诉过你吗？",
+     "我不是已经告诉你了吗？",
+     "我不是跟你说过吗？",
+     "我不是告诉你了吗？",
+     "我不是已经告诉过你了吗？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que pense la personne qui dit 你不是会说汉语吗？ ?",
+    "options": [
+     "Elle pense que tu ne parles pas chinois.",
+     "Elle te demande si tu veux apprendre le chinois.",
+     "Elle pense que tu parles chinois et s'étonne."
+    ],
+    "answer": 2,
+    "explanation": "不是…吗？ est une affirmation déguisée : elle est sûre que tu parles chinois."
+   },
+   {
+    "type": "choice",
+    "question": "Ton ami dit qu'il ne connaît pas Pékin alors qu'il y a vécu. Tu réagis :",
+    "options": [
+     "你在北京住过吗？",
+     "你不是在北京住过吗？",
+     "你不在北京住过吗？"
+    ],
+    "answer": 1,
+    "explanation": "Pour rappeler un fait avec étonnement : 不是…吗？"
+   },
+   {
+    "type": "listen",
+    "zh": "你不是说今天请我吃饭吗？怎么忘了？",
+    "question": "Que reproche la personne ?",
+    "options": [
+     "D'avoir oublié l'invitation au restaurant promise",
+     "D'être en retard",
+     "D'avoir trop mangé"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p3-27",
+  "phase": 3,
+  "title": "难道…吗？ : « ne me dis pas que… ? »",
+  "pattern": "难道 + Sujet + … + 吗 ？\nSujet + 难道 + … + 吗 ？",
+  "hsk": 4,
+  "explanation": "难道 introduit une **question rhétorique forte**. Le locuteur exprime son **étonnement**, son **incrédulité** ou un **reproche**, et sous-entend en réalité **le contraire** de ce qu'il dit :\n- 难道你不知道吗？« Tu ne le sais donc pas ? » (= tu devrais le savoir !)\n- 难道你忘了今天是我的生日吗？« Ne me dis pas que tu as oublié que c'est mon anniversaire ! »\n- 难道是他吃了蛋糕吗？« Serait-ce lui qui a mangé le gâteau ? » (soupçon, surprise)\n\n**Logique :** si la question contient une négation, le locuteur pense que c'est **positif**, et inversement :\n- 难道你不累吗？→ tu es forcément fatigué.\n- 难道你又忘了吗？→ je n'arrive pas à croire que tu aies encore oublié.\n\n**Construction :**\n- 难道 se place **en tête de phrase** ou **après le sujet** : 难道你不知道吗？ / 你难道不知道吗？\n- La phrase se termine presque toujours par **吗**.\n- On le combine souvent avec 不、没、又、还 ou avec 不是 : 难道这不是你的吗？\n\n**难道 ou 不是…吗 ?** Les deux expriment une question rhétorique. 不是…吗 est plus courant et neutre (rappel, constat). 难道 est **plus fort, plus émotionnel** : il exprime l'incrédulité, voire l'indignation.\n\n**Pièges pour un francophone :**\n- Ne répondez pas à une question en 难道 comme à une vraie question : c'est plutôt une remarque. On répond par une justification.\n- Terminez par **吗**, ni 吧 ni 呢.\n- Le registre est un peu soutenu (HSK 4), mais vous l'entendrez souvent dans les séries et les conversations animées.\n- Attention à ne pas l'employer trop souvent avec des inconnus : le ton peut paraître agressif.",
+  "examples": [
+   {
+    "zh": "难道你不认识我了吗？",
+    "fr": "Tu ne me reconnais donc plus ?"
+   },
+   {
+    "zh": "你难道没看过这个电影吗？",
+    "fr": "Ne me dis pas que tu n'as jamais vu ce film !"
+   },
+   {
+    "zh": "难道你忘了今天是我的生日吗？",
+    "fr": "Tu as oublié que c'est mon anniversaire aujourd'hui ?"
+   },
+   {
+    "zh": "这么简单的问题，难道你不会吗？",
+    "fr": "Une question aussi simple, tu ne sais vraiment pas y répondre ?"
+   },
+   {
+    "zh": "都十点了，难道他还没起床吗？",
+    "fr": "Il est déjà dix heures, il n'est quand même pas encore au lit ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "难道你",
+     "不",
+     "认识",
+     "我",
+     "了",
+     "吗"
+    ],
+    "answer": "难道你不认识我了吗",
+    "fr": "Tu ne me reconnais donc plus ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你难道",
+     "没",
+     "听说",
+     "过",
+     "吗"
+    ],
+    "answer": "你难道没听说过吗",
+    "fr": "Tu n'en as donc jamais entendu parler ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "难道",
+     "是",
+     "你",
+     "做",
+     "的",
+     "吗"
+    ],
+    "answer": "难道是你做的吗",
+    "fr": "Ne me dis pas que c'est toi qui l'as fait ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "___你忘了今天是我的生日吗？",
+    "options": [
+     "难道",
+     "虽然",
+     "只要",
+     "因为"
+    ],
+    "answer": "难道",
+    "fr": "Tu as oublié que c'est mon anniversaire aujourd'hui ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "这么简单的问题，难道你不会___？",
+    "options": [
+     "吗",
+     "呢",
+     "吧",
+     "了"
+    ],
+    "answer": "吗",
+    "fr": "Une question aussi simple, tu ne sais vraiment pas y répondre ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "他难道___知道吗？",
+    "options": [
+     "不",
+     "很",
+     "得",
+     "了"
+    ],
+    "answer": "不",
+    "fr": "Il ne le sait donc pas ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question rhétorique avec 难道…吗？",
+    "zh": "你不知道吗？",
+    "answers": [
+     "难道你不知道吗？",
+     "你难道不知道吗？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime ton reproche avec 难道…吗？ : tu ne vois pas que je suis occupé ?",
+    "zh": "你没看见我很忙。",
+    "answers": [
+     "难道你没看见我很忙吗？",
+     "你难道没看见我很忙吗？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "你难道不累呢？",
+    "answers": [
+     "你难道不累吗？",
+     "难道你不累吗？"
+    ],
+    "explanation": "Une question en 难道 se termine par 吗."
+   },
+   {
+    "type": "error",
+    "zh": "难道我们不应该帮助他吧？",
+    "answers": [
+     "难道我们不应该帮助他吗？",
+     "我们难道不应该帮助他吗？"
+    ],
+    "explanation": "难道 s'emploie avec 吗, pas avec 吧."
+   },
+   {
+    "type": "translate",
+    "fr": "Ne me dis pas que tu as encore oublié !",
+    "answers": [
+     "难道你又忘了吗？",
+     "你难道又忘了吗？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Tu ne sais donc pas qu'il est malade ?",
+    "answers": [
+     "难道你不知道他生病了吗？",
+     "你难道不知道他生病了吗？",
+     "难道你不知道他病了吗？",
+     "你难道不知道他病了吗？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ne me dis pas que c'est lui qui a mangé le gâteau ?",
+    "answers": [
+     "难道是他吃了蛋糕吗？",
+     "难道蛋糕是他吃的吗？",
+     "难道是他把蛋糕吃了吗？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que veut dire 难道你不想回家吗？ ?",
+    "options": [
+     "Tu n'as vraiment pas envie de rentrer ? (tu devrais en avoir envie)",
+     "Où veux-tu aller ?",
+     "Tu veux rentrer maintenant ?"
+    ],
+    "answer": 0,
+    "explanation": "难道 + négation : le locuteur pense que l'autre a forcément envie de rentrer."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "难道你不知道吧？",
+     "难道你不知道吗？",
+     "你知道难道吗？"
+    ],
+    "answer": 1,
+    "explanation": "难道 en tête ou après le sujet, et 吗 en fin de phrase."
+   },
+   {
+    "type": "listen",
+    "zh": "都十点了，难道他还没起床吗？",
+    "question": "Qu'est-ce qui étonne la personne ?",
+    "options": [
+     "Qu'il soit déjà levé",
+     "Qu'il ne soit pas encore levé à dix heures",
+     "Qu'il soit parti"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-28",
+  "phase": 3,
+  "title": "为了 : exprimer le but (« pour, afin de »)",
+  "pattern": "为了 + but，Sujet + action\nSujet + action + 是为了 + but",
+  "hsk": 3,
+  "explanation": "为了 introduit le **but** d'une action : « pour », « afin de », « dans le but de ».\n\n**1. 为了 + but en tête de phrase** (construction la plus fréquente) :\n- 为了学好汉语，他每天看中文电视。« Pour bien apprendre le chinois, il regarde la télé chinoise tous les jours. »\n- 为了不迟到，他六点就起床了。« Pour ne pas être en retard, il s'est levé dès six heures. »\n\n**2. 是为了 + but en fin de phrase**, pour **expliquer** pourquoi on fait quelque chose :\n- 我来中国是为了学汉语。« Si je suis venu en Chine, c'est pour apprendre le chinois. »\n- 他这么做是为了你。« S'il a fait ça, c'est pour toi. »\n\n为了 peut introduire un verbe (为了学好汉语) ou un nom (为了孩子 « pour les enfants », 为了健康 « pour la santé »).\n\n**Pièges pour un francophone :**\n- **为了 (but) ≠ 因为 (cause).** 因为 explique ce qui a provoqué l'action (« parce que ») ; 为了 indique ce qu'on veut obtenir (« pour »). « 因为学好汉语，我每天练习 » est faux.\n- **Ne traduisez pas chaque « pour » par 为了 !** Pour un but immédiat après un verbe de mouvement, le chinois enchaîne simplement les verbes : 我去超市买水果 « je vais au supermarché (pour) acheter des fruits ». « 我为了去超市买水果 » est faux. Gardez 为了 pour un but plus important, souvent placé en tête.\n- « Pour + personne » au sens de « en faveur de » peut se dire 为了 (为了孩子，我努力工作) ; mais « un cadeau pour toi » se dit 给你的礼物, et « pour moi (à mon avis) » se dit 对我来说.\n- Quand le but vient **après** l'action, utilisez **是为了** plutôt qu'une simple virgule : 我每天锻炼是为了健康.",
+  "examples": [
+   {
+    "zh": "为了学好汉语，他每天看中文电视。",
+    "fr": "Pour bien apprendre le chinois, il regarde la télé chinoise tous les jours."
+   },
+   {
+    "zh": "我来中国是为了学汉语。",
+    "fr": "Si je suis venu en Chine, c'est pour apprendre le chinois."
+   },
+   {
+    "zh": "为了身体健康，我每天都锻炼。",
+    "fr": "Pour être en bonne santé, je fais du sport tous les jours."
+   },
+   {
+    "zh": "为了不迟到，他六点就起床了。",
+    "fr": "Pour ne pas être en retard, il s'est levé dès six heures."
+   },
+   {
+    "zh": "他这么做是为了你。",
+    "fr": "S'il a fait ça, c'est pour toi."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "为了",
+     "身体",
+     "健康",
+     "要",
+     "多",
+     "运动"
+    ],
+    "answer": "为了身体健康要多运动",
+    "fr": "Pour être en bonne santé, il faut faire plus de sport."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "来",
+     "中国",
+     "是",
+     "为了",
+     "学",
+     "汉语"
+    ],
+    "answer": "我来中国是为了学汉语",
+    "fr": "Si je suis venu en Chine, c'est pour apprendre le chinois."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "这么",
+     "做",
+     "是",
+     "为了",
+     "你",
+     "好"
+    ],
+    "answer": "我这么做是为了你好",
+    "fr": "Si je fais ça, c'est pour ton bien."
+   },
+   {
+    "type": "cloze",
+    "zh": "___不迟到，他六点就起床了。",
+    "options": [
+     "为了",
+     "因为",
+     "关于",
+     "根据"
+    ],
+    "answer": "为了",
+    "fr": "Pour ne pas être en retard, il s'est levé dès six heures."
+   },
+   {
+    "type": "cloze",
+    "zh": "我学汉语是___以后去中国工作。",
+    "options": [
+     "为了",
+     "关于",
+     "所以",
+     "根据"
+    ],
+    "answer": "为了",
+    "fr": "J'apprends le chinois pour pouvoir travailler en Chine plus tard."
+   },
+   {
+    "type": "cloze",
+    "zh": "他这么做___为了你。",
+    "options": [
+     "是",
+     "有",
+     "在",
+     "要"
+    ],
+    "answer": "是",
+    "fr": "S'il a fait ça, c'est pour toi."
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime le but avec 为了 en tête de phrase.",
+    "zh": "他每天跑步，他想身体更健康。",
+    "answers": [
+     "为了身体更健康，他每天跑步。",
+     "为了让身体更健康，他每天跑步。",
+     "为了身体更健康，他每天都跑步。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Place le but à la fin avec 是为了.",
+    "zh": "为了见你，我来这儿。",
+    "answers": [
+     "我来这儿是为了见你。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "因为学好汉语，我每天练习。",
+    "answers": [
+     "为了学好汉语，我每天练习。"
+    ],
+    "explanation": "Il s'agit d'un but, pas d'une cause : on utilise 为了."
+   },
+   {
+    "type": "error",
+    "zh": "我每天锻炼，为了健康。",
+    "answers": [
+     "我每天锻炼是为了健康。",
+     "为了健康，我每天锻炼。"
+    ],
+    "explanation": "Quand le but suit l'action, on utilise 是为了 ; sinon, 为了 se place en tête."
+   },
+   {
+    "type": "translate",
+    "fr": "Pour ne pas être en retard, il a pris un taxi.",
+    "answers": [
+     "为了不迟到，他坐了出租车。",
+     "为了不迟到，他坐出租车去了。",
+     "为了不迟到，他是坐出租车去的。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je travaille dur pour mes enfants.",
+    "answers": [
+     "为了孩子，我努力工作。",
+     "我努力工作是为了孩子。",
+     "为了我的孩子，我努力工作。",
+     "我努力工作是为了我的孩子。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je suis venu en Chine pour apprendre le chinois.",
+    "answers": [
+     "我来中国是为了学汉语。",
+     "为了学汉语，我来中国了。",
+     "我来中国是为了学习汉语。",
+     "为了学习汉语，我来了中国。",
+     "为了学汉语，我来了中国。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Je vais au supermarché acheter des fruits. »",
+    "options": [
+     "我去超市买水果。",
+     "我去超市为了买水果。",
+     "我为了去超市买水果。"
+    ],
+    "answer": 0,
+    "explanation": "Pour un but immédiat après un verbe de mouvement, on enchaîne simplement les verbes, sans 为了."
+   },
+   {
+    "type": "choice",
+    "question": "Complète : ___让妈妈高兴，他每天都打电话回家。",
+    "options": [
+     "关于",
+     "因为",
+     "为了"
+    ],
+    "answer": 2,
+    "explanation": "Rendre sa mère heureuse est le but recherché : 为了."
+   },
+   {
+    "type": "listen",
+    "zh": "为了能看懂中文电影，我每天学习两个小时。",
+    "question": "Pourquoi étudie-t-il deux heures par jour ?",
+    "options": [
+     "Pour trouver du travail",
+     "Pour comprendre les films chinois",
+     "Pour réussir un examen"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-29",
+  "phase": 3,
+  "title": "关于 : « au sujet de, concernant »",
+  "pattern": "关于 + sujet，phrase\n关于 + sujet + 的 + nom",
+  "hsk": 3,
+  "explanation": "关于 introduit le **thème** dont on parle : « au sujet de », « concernant », « sur ».\n\n**Deux positions possibles :**\n1. **En tête de phrase**, suivi d'une virgule : 关于这个问题，我们明天再说。« Concernant ce problème, on en reparlera demain. »\n2. **Devant un nom, avec 的**, pour préciser le sujet d'un livre, d'un film, d'une histoire : 一本关于中国历史的书 « un livre sur l'histoire de la Chine » ; 一个关于熊猫的故事 « une histoire sur les pandas ».\n\n**Règle importante :** contrairement à beaucoup de prépositions, le groupe 关于 ne se place **pas entre le sujet et le verbe** : « 我关于这件事不清楚 » est faux. Dites 关于这件事，我不清楚 ou utilisez 对 : 我对这件事不清楚.\n\n**关于 ou 对 ?**\n- **关于** présente le **thème**, le contenu : 关于中国的书, 关于这件事.\n- **对** indique la **cible d'une attitude ou d'un sentiment** : 我对中国文化很感兴趣 « je m'intéresse à la culture chinoise » ; 他对我很好 « il est gentil avec moi ». Avec 感兴趣、满意、了解、好 + attitude, utilisez 对, jamais 关于.\n\n**Pièges pour un francophone :**\n- Le français « sur » (« un livre sur la Chine ») ne se traduit pas par 上 ! Dites 关于中国的书.\n- N'oubliez pas **的** quand 关于 qualifie un nom : 关于动物的电影.\n- « Je m'intéresse à… » : 我**对**…感兴趣, pas « 我关于…感兴趣 ».\n- Un groupe 关于 en fin de phrase sans nom (« 老师会告诉我们关于考试 ») est incomplet : ajoutez 的事 ou 的情况 → 关于考试的事.",
+  "examples": [
+   {
+    "zh": "我想买一本关于中国历史的书。",
+    "fr": "Je voudrais acheter un livre sur l'histoire de la Chine."
+   },
+   {
+    "zh": "关于这个问题，我们明天再说。",
+    "fr": "Concernant ce problème, on en reparlera demain."
+   },
+   {
+    "zh": "这是一个关于熊猫的故事。",
+    "fr": "C'est une histoire sur les pandas."
+   },
+   {
+    "zh": "关于这件事，我什么都不知道。",
+    "fr": "Au sujet de cette affaire, je ne sais rien."
+   },
+   {
+    "zh": "我对中国文化很感兴趣。",
+    "fr": "Je m'intéresse beaucoup à la culture chinoise. (对, pas 关于)"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "想",
+     "买",
+     "一本",
+     "关于",
+     "中国",
+     "历史",
+     "的",
+     "书"
+    ],
+    "answer": "我想买一本关于中国历史的书",
+    "fr": "Je voudrais acheter un livre sur l'histoire de la Chine."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "关于",
+     "这个",
+     "问题",
+     "我",
+     "不",
+     "太",
+     "清楚"
+    ],
+    "answer": "关于这个问题我不太清楚",
+    "fr": "Sur cette question, je ne sais pas trop."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "是",
+     "一个",
+     "关于",
+     "熊猫",
+     "的",
+     "故事"
+    ],
+    "answer": "这是一个关于熊猫的故事",
+    "fr": "C'est une histoire sur les pandas."
+   },
+   {
+    "type": "cloze",
+    "zh": "他给我们讲了一个___北京的故事。",
+    "options": [
+     "关于",
+     "对",
+     "为了",
+     "根据"
+    ],
+    "answer": "关于",
+    "fr": "Il nous a raconté une histoire sur Pékin."
+   },
+   {
+    "type": "cloze",
+    "zh": "___这件事，我什么都不知道。",
+    "options": [
+     "关于",
+     "为了",
+     "被",
+     "因为"
+    ],
+    "answer": "关于",
+    "fr": "Au sujet de cette affaire, je ne sais rien."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___中国文化很感兴趣。",
+    "options": [
+     "对",
+     "关于",
+     "为了",
+     "跟"
+    ],
+    "answer": "对",
+    "fr": "Je m'intéresse beaucoup à la culture chinoise."
+   },
+   {
+    "type": "transform",
+    "instruction": "Introduis le thème avec 关于 en tête de phrase.",
+    "zh": "我们以后再说这个问题。",
+    "answers": [
+     "关于这个问题，我们以后再说。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Utilise 关于…的 pour décrire le livre.",
+    "zh": "这本书写的是中国音乐。",
+    "answers": [
+     "这是一本关于中国音乐的书。",
+     "这本书是关于中国音乐的。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我关于这件事不清楚。",
+    "answers": [
+     "关于这件事，我不清楚。",
+     "关于这件事我不清楚。",
+     "我对这件事不清楚。"
+    ],
+    "explanation": "Le groupe 关于 ne se place pas entre le sujet et le verbe : mettez-le en tête, ou utilisez 对."
+   },
+   {
+    "type": "error",
+    "zh": "我关于中国菜很感兴趣。",
+    "answers": [
+     "我对中国菜很感兴趣。"
+    ],
+    "explanation": "感兴趣 exprime une attitude : on utilise 对, pas 关于."
+   },
+   {
+    "type": "translate",
+    "fr": "J'ai lu beaucoup de livres sur la Chine.",
+    "answers": [
+     "我看了很多关于中国的书。",
+     "我看过很多关于中国的书。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Concernant ce voyage, j'ai encore quelques questions.",
+    "answers": [
+     "关于这次旅游，我还有几个问题。",
+     "关于这次旅游，我还有一些问题。",
+     "关于这次旅游我还有几个问题。",
+     "关于这次旅行，我还有几个问题。",
+     "关于这次旅行，我还有一些问题。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "C'est un film sur les animaux.",
+    "answers": [
+     "这是一个关于动物的电影。",
+     "这是一部关于动物的电影。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我关于音乐很感兴趣。",
+     "关于我音乐很感兴趣。",
+     "我对音乐很感兴趣。"
+    ],
+    "answer": 2,
+    "explanation": "S'intéresser à quelque chose : 对…感兴趣."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "关于考试的事，老师明天会告诉我们。",
+     "老师关于考试的事明天会告诉我们。",
+     "老师明天会告诉我们关于考试。"
+    ],
+    "answer": 0,
+    "explanation": "Le groupe 关于 se place en tête de phrase ; en fin de phrase, il faudrait un nom (关于考试的事)."
+   },
+   {
+    "type": "listen",
+    "zh": "昨天我看了一个关于熊猫的节目，很有意思。",
+    "question": "De quoi parlait l'émission ?",
+    "options": [
+     "Des pandas",
+     "Des oiseaux",
+     "De la cuisine"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p3-30",
+  "phase": 3,
+  "title": "对…来说 : « pour (quelqu'un) », « du point de vue de »",
+  "pattern": "对 + personne / groupe + 来说，jugement",
+  "hsk": 4,
+  "explanation": "对…来说 présente un jugement **du point de vue d'une personne ou d'un groupe** : « pour moi », « pour les enfants », « pour un étranger ».\n- 对我来说，汉字比较难。« Pour moi, les caractères sont assez difficiles. »\n- 对孩子来说，这个问题太难了。« Pour un enfant, cette question est trop difficile. »\n- 对他来说，工作最重要。« Pour lui, c'est le travail qui compte le plus. »\n\nLa structure se place en général **en tête de phrase**, suivie d'une virgule. Elle peut aussi suivre le thème de la phrase : 汉字对我来说比较难. La suite exprime une **évaluation** : difficile, facile, important, cher, nouveau…\n\n**Pièges pour un francophone :**\n- **« Pour moi » ne se traduit ni par 为了我 ni par 给我.** 为了 exprime le but (« dans l'intérêt de »), 给 le destinataire (« un cadeau pour moi » = 给我的礼物). Pour un **point de vue**, c'est 对我来说.\n- **N'oubliez pas 来说** : « 对我说 » signifie « me dire » (对 = à, vers) ! 他对我说 « il m'a dit ».\n- Ne confondez pas avec **对** seul devant une attitude : 他对我很好 « il est gentil avec moi », sans 来说.\n- 对…来说 introduit une évaluation objective pour cette personne ; pour une simple **opinion**, utilisez plutôt 我觉得 : 我觉得这个电影不好看.\n- La structure 对…来说 est notée HSK 4, mais elle est si fréquente qu'il est utile de la connaître dès maintenant. On trouve aussi la variante 对…来讲, de même sens.",
+  "examples": [
+   {
+    "zh": "对我来说，汉字比较难。",
+    "fr": "Pour moi, les caractères sont assez difficiles."
+   },
+   {
+    "zh": "对孩子来说，这个问题太难了。",
+    "fr": "Pour un enfant, cette question est trop difficile."
+   },
+   {
+    "zh": "对他来说，工作最重要。",
+    "fr": "Pour lui, c'est le travail qui compte le plus."
+   },
+   {
+    "zh": "对外国人来说，用筷子不太容易。",
+    "fr": "Pour un étranger, utiliser des baguettes n'est pas très facile."
+   },
+   {
+    "zh": "对我来说，这是最好的礼物。",
+    "fr": "Pour moi, c'est le plus beau des cadeaux."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "对",
+     "我",
+     "来说",
+     "太",
+     "难",
+     "了"
+    ],
+    "answer": "对我来说太难了",
+    "fr": "Pour moi, c'est trop difficile."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "对",
+     "孩子",
+     "来说",
+     "不",
+     "太",
+     "容易"
+    ],
+    "answer": "对孩子来说不太容易",
+    "fr": "Pour un enfant, ce n'est pas très facile."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "对",
+     "他",
+     "来说",
+     "有点儿",
+     "贵"
+    ],
+    "answer": "对他来说有点儿贵",
+    "fr": "Pour lui, c'est un peu cher."
+   },
+   {
+    "type": "cloze",
+    "zh": "对我___，这是最好的礼物。",
+    "options": [
+     "来说",
+     "说来",
+     "看来",
+     "以外"
+    ],
+    "answer": "来说",
+    "fr": "Pour moi, c'est le plus beau des cadeaux."
+   },
+   {
+    "type": "cloze",
+    "zh": "___老人来说，冬天要特别注意身体。",
+    "options": [
+     "对",
+     "为",
+     "给",
+     "跟"
+    ],
+    "answer": "对",
+    "fr": "Pour les personnes âgées, il faut faire particulièrement attention à sa santé en hiver."
+   },
+   {
+    "type": "cloze",
+    "zh": "对外国人来说，用筷子不太___。",
+    "options": [
+     "容易",
+     "很容易",
+     "容易的",
+     "得容易"
+    ],
+    "answer": "容易",
+    "fr": "Pour un étranger, utiliser des baguettes n'est pas très facile."
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime le point de vue avec 对…来说.",
+    "zh": "我觉得这个城市太大了。",
+    "answers": [
+     "对我来说，这个城市太大了。",
+     "这个城市对我来说太大了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime le point de vue avec 对…来说.",
+    "zh": "学生觉得这个考试不难。",
+    "answers": [
+     "对学生来说，这个考试不难。",
+     "这个考试对学生来说不难。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "为了我来说，钱不重要。",
+    "answers": [
+     "对我来说，钱不重要。"
+    ],
+    "explanation": "Le point de vue se dit 对…来说 ; 为了 exprime le but."
+   },
+   {
+    "type": "error",
+    "zh": "对我说，家人最重要。",
+    "answers": [
+     "对我来说，家人最重要。"
+    ],
+    "explanation": "对我说 signifie « me dire ». Pour « pour moi », il faut 对我来说."
+   },
+   {
+    "type": "translate",
+    "fr": "Pour moi, la santé est ce qu'il y a de plus important.",
+    "answers": [
+     "对我来说，健康最重要。",
+     "对我来说，身体健康最重要。",
+     "对我来说，身体最重要。",
+     "健康对我来说最重要。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Pour les enfants, ce livre est trop difficile.",
+    "answers": [
+     "对孩子来说，这本书太难了。",
+     "对孩子们来说，这本书太难了。",
+     "对小孩子来说，这本书太难了。",
+     "这本书对孩子来说太难了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Pour lui, ce n'est pas un problème.",
+    "answers": [
+     "对他来说，这不是问题。",
+     "对他来说，这不是什么问题。",
+     "对他来说这不是问题。",
+     "这对他来说不是问题。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Pour moi, c'est facile. »",
+    "options": [
+     "给我来说，这很容易。",
+     "为了我，这很容易。",
+     "对我来说，这很容易。"
+    ],
+    "answer": 2,
+    "explanation": "Point de vue : 对 + personne + 来说."
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 对我来说，北京的冬天太冷了。 ?",
+    "options": [
+     "Pour moi, l'hiver à Pékin est trop froid.",
+     "L'hiver à Pékin est trop froid pour tout le monde.",
+     "Je n'aime pas Pékin en été."
+    ],
+    "answer": 0,
+    "explanation": "对我来说 limite le jugement au point de vue du locuteur."
+   },
+   {
+    "type": "listen",
+    "zh": "对我来说，每天早上喝一杯咖啡很重要。",
+    "question": "Qu'est-ce qui est important pour cette personne ?",
+    "options": [
+     "Lire le journal",
+     "Boire un café chaque matin",
+     "Faire du sport chaque matin"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-31",
+  "phase": 3,
+  "title": "根据 : « d'après, selon, sur la base de »",
+  "pattern": "根据 + source / information，phrase\nSujet + 根据 + critère + V\n(nom) 根据 : fondement, preuve",
+  "hsk": 3,
+  "explanation": "根据 indique la **source** ou la **base** sur laquelle s'appuie une affirmation ou une décision : « d'après », « selon », « en fonction de ».\n\n**1. Source d'une information** (souvent en tête de phrase) :\n- 根据新闻，明天会下大雪。« D'après les infos, il va beaucoup neiger demain. »\n- 根据地图，银行就在附近。« D'après la carte, la banque est tout près. »\n\n**2. Critère d'une décision** (après le sujet possible) :\n- 老师根据我们的水平选择了这本书。« Le professeur a choisi ce livre en fonction de notre niveau. »\n- 根据你的要求，我们给你换了房间。« Selon votre demande, nous vous avons changé de chambre. »\n\n**3. Comme nom** : « fondement, preuve » : 你这么说，有什么根据？« Sur quoi te bases-tu pour dire ça ? »\n\n**Pièges pour un francophone :**\n- **« Selon moi » ne se dit pas « 根据我 »** ! 根据 s'appuie sur une source objective (un document, des faits, une demande). Pour une opinion, dites **我觉得** ou **对我来说** : 我觉得他说得对 « selon moi, il a raison ».\n- Ne confondez pas avec **关于** : 关于 annonce le **thème** (« au sujet de »), 根据 la **source** (« d'après »). 根据新闻 = d'après les informations ; 关于新闻 = au sujet des informations.\n- « Selon lui » (rapporter les propos de quelqu'un) : on dit plutôt 根据他说的 ou simplement 他说 : 他说商店今天不开门.\n- 根据 est surtout employé dans un registre un peu formel (journaux, annonces, explications) ; à l'oral, 他说 / 听说 sont plus courants pour rapporter une information.",
+  "examples": [
+   {
+    "zh": "根据新闻，明天会下大雪。",
+    "fr": "D'après les infos, il va beaucoup neiger demain."
+   },
+   {
+    "zh": "老师根据我们的水平选择了这本书。",
+    "fr": "Le professeur a choisi ce livre en fonction de notre niveau."
+   },
+   {
+    "zh": "根据地图，银行就在附近。",
+    "fr": "D'après la carte, la banque est tout près."
+   },
+   {
+    "zh": "根据你的要求，我们给你换了一个房间。",
+    "fr": "Selon votre demande, nous vous avons changé de chambre."
+   },
+   {
+    "zh": "你这么说，有什么根据？",
+    "fr": "Sur quoi te bases-tu pour dire ça ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "根据",
+     "新闻",
+     "明天",
+     "会",
+     "下",
+     "大雪"
+    ],
+    "answer": "根据新闻明天会下大雪",
+    "fr": "D'après les infos, il va beaucoup neiger demain."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "根据",
+     "老师",
+     "的",
+     "话",
+     "明天",
+     "不",
+     "上课"
+    ],
+    "answer": "根据老师的话明天不上课",
+    "fr": "D'après ce qu'a dit le professeur, il n'y a pas cours demain."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "要",
+     "根据",
+     "自己",
+     "的",
+     "水平",
+     "选",
+     "书"
+    ],
+    "answer": "我们要根据自己的水平选书",
+    "fr": "Nous devons choisir nos livres en fonction de notre niveau."
+   },
+   {
+    "type": "cloze",
+    "zh": "___报纸上说的，这家饭店很有名。",
+    "options": [
+     "根据",
+     "关于",
+     "为了",
+     "对"
+    ],
+    "answer": "根据",
+    "fr": "D'après ce que dit le journal, ce restaurant est très connu."
+   },
+   {
+    "type": "cloze",
+    "zh": "根据你的___，我们给你找了一个大一点儿的房间。",
+    "options": [
+     "要求",
+     "关于",
+     "因为",
+     "为了"
+    ],
+    "answer": "要求",
+    "fr": "Selon votre demande, nous vous avons trouvé une chambre un peu plus grande."
+   },
+   {
+    "type": "cloze",
+    "zh": "你这么说，有什么___？",
+    "options": [
+     "根据",
+     "关于",
+     "为了",
+     "除了"
+    ],
+    "answer": "根据",
+    "fr": "Sur quoi te bases-tu pour dire ça ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Introduis la source de l'information avec 根据.",
+    "zh": "新闻说，明天会很冷。",
+    "answers": [
+     "根据新闻，明天会很冷。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Réécris avec 根据 : j'ai fait ce plat d'après la méthode de maman.",
+    "zh": "我用妈妈说的方法做了这个菜。",
+    "answers": [
+     "根据妈妈说的方法，我做了这个菜。",
+     "我根据妈妈说的方法做了这个菜。",
+     "我是根据妈妈说的方法做的这个菜。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "根据我，这个电影不好看。",
+    "answers": [
+     "我觉得这个电影不好看。",
+     "对我来说，这个电影不好看。",
+     "在我看来，这个电影不好看。"
+    ],
+    "explanation": "根据 s'appuie sur une source objective ; pour une opinion personnelle, on dit 我觉得."
+   },
+   {
+    "type": "error",
+    "zh": "关于新闻，今天下午有雨。",
+    "answers": [
+     "根据新闻，今天下午有雨。"
+    ],
+    "explanation": "Pour donner la source d'une information (« d'après »), on utilise 根据 ; 关于 signifie « au sujet de »."
+   },
+   {
+    "type": "translate",
+    "fr": "D'après la carte, la banque est tout près d'ici.",
+    "answers": [
+     "根据地图，银行就在附近。",
+     "根据地图，银行在这儿附近。",
+     "根据地图，银行离这儿很近。",
+     "根据地图，银行就在这儿附近。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "D'après ce qu'il dit, le magasin est fermé aujourd'hui.",
+    "answers": [
+     "根据他说的，商店今天不开门。",
+     "根据他说的，商店今天关门了。",
+     "根据他说的，商店今天关门。",
+     "根据他说的，那家商店今天不开门。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Choisis en fonction de ton niveau.",
+    "answers": [
+     "根据你的水平选择吧。",
+     "你根据自己的水平选择吧。",
+     "根据自己的水平选择。",
+     "根据你的水平来选择吧。",
+     "你根据你的水平选择吧。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Selon moi, il a raison. »",
+    "options": [
+     "关于我，他说得对。",
+     "我觉得他说得对。",
+     "根据我，他说得对。"
+    ],
+    "answer": 1,
+    "explanation": "Une opinion personnelle s'exprime avec 我觉得, pas avec 根据."
+   },
+   {
+    "type": "choice",
+    "question": "Complète : ___历史书，这个城市已经有两千多年的历史了。",
+    "options": [
+     "根据",
+     "关于",
+     "为了"
+    ],
+    "answer": 0,
+    "explanation": "Les livres d'histoire sont la source de l'information : 根据."
+   },
+   {
+    "type": "listen",
+    "zh": "根据今天的新闻，明天上午会下雨。",
+    "question": "Quel temps fera-t-il demain matin ?",
+    "options": [
+     "Il neigera",
+     "Il fera beau",
+     "Il pleuvra"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "p3-32",
+  "phase": 3,
+  "title": "终于 et 最后 : « enfin » et « finalement, en dernier »",
+  "pattern": "Sujet + 终于 + V + 了 (enfin, après une longue attente)\n最后 + (Sujet) + V (en dernier, pour finir)\n最后 + 一 + classificateur + nom (le dernier…)",
+  "hsk": 3,
+  "explanation": "Le français « enfin » ou « finalement » correspond à deux mots chinois très différents.\n\n**终于 : « enfin ! » après une longue attente ou de gros efforts**\nC'est un **adverbe** : il se place **après le sujet**, devant le verbe, et la phrase se termine souvent par **了**. Il exprime le soulagement : ce qu'on attendait arrive enfin.\n- 我终于找到工作了！« J'ai enfin trouvé du travail ! »\n- 等了两个小时，车终于来了。« Après deux heures d'attente, le bus est enfin arrivé. »\n- 春天终于来了。« Le printemps est enfin là. »\n\n**最后 : « en dernier, pour finir, à la fin »**\nC'est un **nom de temps / un adjectif** qui indique la **dernière place dans une série**. Il peut se placer **avant le sujet** et **devant un nom** :\n- 我们先去北京，然后去上海，最后去西安。« D'abord Pékin, puis Shanghai, et enfin Xi'an. »\n- 我们想了很久，最后大家决定去上海。« Après avoir longtemps réfléchi, nous avons finalement décidé d'aller à Shanghai. »\n- 这是我在中国的最后一天。« C'est mon dernier jour en Chine. »\n- 他是最后到的。« C'est lui qui est arrivé en dernier. »\n\n**Comment choisir ?**\n- On attendait, on espérait, on faisait des efforts → **终于**.\n- On énumère des étapes ou on parle du dernier élément d'une série → **最后**.\n\n**Pièges pour un francophone :**\n- 终于 ne qualifie jamais un nom : « 终于一个问题 » est faux ; dites 最后一个问题 « la dernière question ».\n- 终于 ne se met pas en tête de phrase : « 终于我们到了 » → 我们终于到了.\n- « Enfin » dans le sens « bref, en somme » (« enfin, bref… ») ne se traduit ni par l'un ni par l'autre.",
+  "examples": [
+   {
+    "zh": "我终于找到工作了！",
+    "fr": "J'ai enfin trouvé du travail !"
+   },
+   {
+    "zh": "等了两个小时，车终于来了。",
+    "fr": "Après deux heures d'attente, le bus est enfin arrivé."
+   },
+   {
+    "zh": "我们先去北京，然后去上海，最后去西安。",
+    "fr": "D'abord Pékin, puis Shanghai, et enfin Xi'an."
+   },
+   {
+    "zh": "这是我在中国的最后一天。",
+    "fr": "C'est mon dernier jour en Chine."
+   },
+   {
+    "zh": "他是最后到的。",
+    "fr": "C'est lui qui est arrivé en dernier."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "终于",
+     "找到",
+     "工作",
+     "了"
+    ],
+    "answer": "我终于找到工作了",
+    "fr": "J'ai enfin trouvé du travail !"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "等了",
+     "两个",
+     "小时",
+     "车",
+     "终于",
+     "来",
+     "了"
+    ],
+    "answer": "等了两个小时车终于来了",
+    "fr": "Après deux heures d'attente, le bus est enfin arrivé."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "先",
+     "去",
+     "北京",
+     "然后",
+     "去",
+     "上海",
+     "最后",
+     "去",
+     "西安"
+    ],
+    "answer": "我们先去北京然后去上海最后去西安",
+    "fr": "D'abord Pékin, puis Shanghai, et enfin Xi'an."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这是",
+     "我",
+     "在",
+     "中国",
+     "的",
+     "最后",
+     "一天"
+    ],
+    "answer": "这是我在中国的最后一天",
+    "fr": "C'est mon dernier jour en Chine."
+   },
+   {
+    "type": "cloze",
+    "zh": "找了一个小时，我___找到了我的手机。",
+    "options": [
+     "终于",
+     "一直",
+     "一边",
+     "马上"
+    ],
+    "answer": "终于",
+    "fr": "Après avoir cherché une heure, j'ai enfin retrouvé mon téléphone."
+   },
+   {
+    "type": "cloze",
+    "zh": "这是我们___一次见面。",
+    "options": [
+     "最后",
+     "终于",
+     "以后",
+     "然后"
+    ],
+    "answer": "最后",
+    "fr": "C'est la dernière fois que nous nous voyons."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们想了很久，___大家决定去上海。",
+    "options": [
+     "最后",
+     "终于",
+     "一直",
+     "刚"
+    ],
+    "answer": "最后",
+    "fr": "Après avoir longtemps réfléchi, nous avons finalement décidé d'aller à Shanghai."
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 终于 pour exprimer « enfin » après une longue attente.",
+    "zh": "春天来了。",
+    "answers": [
+     "春天终于来了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Complète la série d'étapes avec 最后.",
+    "zh": "我们先吃饭，然后看电影，回家。",
+    "answers": [
+     "我们先吃饭，然后看电影，最后回家。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "这是终于一个问题。",
+    "answers": [
+     "这是最后一个问题。"
+    ],
+    "explanation": "终于 est un adverbe et ne qualifie pas un nom. « La dernière question » = 最后一个问题."
+   },
+   {
+    "type": "error",
+    "zh": "终于我们到了。",
+    "answers": [
+     "我们终于到了。"
+    ],
+    "explanation": "终于 se place après le sujet, devant le verbe."
+   },
+   {
+    "type": "translate",
+    "fr": "Le bus est enfin arrivé !",
+    "answers": [
+     "公共汽车终于来了！",
+     "车终于来了！",
+     "公共汽车终于到了！",
+     "车终于到了！"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "C'est la dernière question.",
+    "answers": [
+     "这是最后一个问题。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "J'ai enfin compris.",
+    "answers": [
+     "我终于明白了。",
+     "我终于懂了。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Après trois ans d'efforts, il parle enfin bien chinois. »",
+    "options": [
+     "努力了三年，他能说好汉语终于了。",
+     "努力了三年，终于他能说好汉语了。",
+     "努力了三年，他终于能说好汉语了。"
+    ],
+    "answer": 2,
+    "explanation": "Résultat attendu après de longs efforts : 终于, placé après le sujet."
+   },
+   {
+    "type": "choice",
+    "question": "« C'est lui qui est arrivé en dernier. »",
+    "options": [
+     "他终于最后到。",
+     "他是最后到的。",
+     "他是终于到的。"
+    ],
+    "answer": 1,
+    "explanation": "La dernière place dans une série se dit 最后."
+   },
+   {
+    "type": "listen",
+    "zh": "等了半个小时，她终于来了。",
+    "question": "Que s'est-il passé ?",
+    "options": [
+     "Elle est enfin arrivée après une demi-heure",
+     "Elle est arrivée en avance",
+     "Elle n'est pas venue"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p3-33",
+  "phase": 3,
+  "title": "其实 : « en fait, en réalité »",
+  "pattern": "(Apparence / opinion)，其实 + réalité\nSujet + 其实 + prédicat / 其实 + Sujet + prédicat",
+  "hsk": 3,
+  "explanation": "其实 introduit **la réalité**, souvent **différente de ce qu'on croit ou de ce qui paraît** : « en fait », « en réalité », « à vrai dire ».\n\n**Emplois typiques :**\n- **Corriger une apparence**, souvent avec 看起来 : 他看起来很年轻，其实已经五十岁了。« Il a l'air jeune, mais en fait il a déjà cinquante ans. »\n- **Corriger une croyance** : 大家都觉得他是老师，其实他是学生。« Tout le monde pense qu'il est professeur, en réalité il est étudiant. »\n- **Faire un aveu, nuancer** : 其实我不太喜欢吃甜的。« À vrai dire, je n'aime pas trop le sucré. »\n- **Rassurer** : 这个问题其实很简单。« En fait, ce problème est très simple. »\n\n**Position :** 其实 se place **en tête de proposition** (其实我…) ou **après le sujet** (我其实…). Il suit souvent une virgule après la première partie de la phrase.\n\n**Pièges pour un francophone :**\n- 其实 **contient déjà l'idée d'opposition** : pas besoin d'ajouter 但是 (même si 但是其实 se rencontre à l'oral). En tout cas, n'utilisez pas 所以 ou 而且 à sa place : ils ne marquent pas l'opposition.\n- **其实 ≠ 真的.** 真的 signifie « vraiment » (insistance sur la vérité : 我真的很累) ; 其实 révèle une réalité cachée ou inattendue (我说我不累，其实我很累).\n- 其实 se place avant le verbe ou le sujet, jamais au milieu d'un groupe nominal : « 他是我的其实哥哥 » est faux.\n- En français, « en fait » est souvent un tic de langage. En chinois, 其实 garde un vrai sens de contraste : ne l'utilisez pas à chaque phrase.",
+  "examples": [
+   {
+    "zh": "他看起来很年轻，其实已经五十岁了。",
+    "fr": "Il a l'air jeune, mais en fait il a déjà cinquante ans."
+   },
+   {
+    "zh": "其实我不太喜欢吃甜的。",
+    "fr": "À vrai dire, je n'aime pas trop le sucré."
+   },
+   {
+    "zh": "这个问题其实很简单。",
+    "fr": "En fait, ce problème est très simple."
+   },
+   {
+    "zh": "大家都觉得他是老师，其实他是学生。",
+    "fr": "Tout le monde pense qu'il est professeur ; en réalité, il est étudiant."
+   },
+   {
+    "zh": "这件衣服看起来很贵，其实很便宜。",
+    "fr": "Ce vêtement a l'air cher, mais en fait il est bon marché."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "看起来",
+     "很",
+     "年轻",
+     "其实",
+     "已经",
+     "五十",
+     "岁",
+     "了"
+    ],
+    "answer": "他看起来很年轻其实已经五十岁了",
+    "fr": "Il a l'air jeune, mais en fait il a déjà cinquante ans."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "说",
+     "他",
+     "会",
+     "游泳",
+     "其实",
+     "他",
+     "不",
+     "会"
+    ],
+    "answer": "他说他会游泳其实他不会",
+    "fr": "Il dit qu'il sait nager, mais en fait il ne sait pas."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "看起来",
+     "很",
+     "难",
+     "其实",
+     "很",
+     "简单"
+    ],
+    "answer": "看起来很难其实很简单",
+    "fr": "Ça a l'air difficile, mais en fait c'est très simple."
+   },
+   {
+    "type": "cloze",
+    "zh": "大家都觉得他是老师，___他是学生。",
+    "options": [
+     "其实",
+     "所以",
+     "而且",
+     "然后"
+    ],
+    "answer": "其实",
+    "fr": "Tout le monde pense qu'il est professeur ; en réalité, il est étudiant."
+   },
+   {
+    "type": "cloze",
+    "zh": "这件衣服看起来很贵，___很便宜。",
+    "options": [
+     "其实",
+     "而且",
+     "所以",
+     "就"
+    ],
+    "answer": "其实",
+    "fr": "Ce vêtement a l'air cher, mais en fait il est bon marché."
+   },
+   {
+    "type": "cloze",
+    "zh": "我说我不累，___我很累。",
+    "options": [
+     "其实",
+     "因为",
+     "终于",
+     "一直"
+    ],
+    "answer": "其实",
+    "fr": "J'ai dit que je n'étais pas fatigué, mais en fait je suis très fatigué."
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 其实 pour révéler la réalité.",
+    "zh": "他说他会做饭，他不会。",
+    "answers": [
+     "他说他会做饭，其实他不会。",
+     "他说他会做饭，其实不会。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie avec 看起来…其实… : cet exercice a l'air difficile, mais il est simple.",
+    "zh": "这个题很难。这个题很简单。",
+    "answers": [
+     "这个题看起来很难，其实很简单。",
+     "这个题看起来很难，其实它很简单。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "他看起来很累，所以他一点儿也不累。",
+    "answers": [
+     "他看起来很累，其实他一点儿也不累。",
+     "他看起来很累，其实一点儿也不累。"
+    ],
+    "explanation": "Pour opposer l'apparence et la réalité, on utilise 其实, pas 所以."
+   },
+   {
+    "type": "error",
+    "zh": "大家都觉得她是中国人，而且她是日本人。",
+    "answers": [
+     "大家都觉得她是中国人，其实她是日本人。"
+    ],
+    "explanation": "而且 ajoute une information ; pour corriger une croyance, il faut 其实."
+   },
+   {
+    "type": "translate",
+    "fr": "En fait, je ne suis pas très content.",
+    "answers": [
+     "其实我不太高兴。",
+     "我其实不太高兴。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il a l'air jeune, mais en fait il a déjà quarante ans.",
+    "answers": [
+     "他看起来很年轻，其实已经四十岁了。",
+     "他看起来很年轻，其实他已经四十岁了。",
+     "他看起来很年轻，其实他已经四十了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "En fait, cette méthode n'est pas difficile.",
+    "answers": [
+     "其实这个办法不难。",
+     "这个办法其实不难。",
+     "其实这个方法不难。",
+     "这个方法其实不难。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Complète : 这个菜看起来不好吃，___很好吃。",
+    "options": [
+     "所以",
+     "而且",
+     "其实"
+    ],
+    "answer": 2,
+    "explanation": "La réalité contredit l'apparence : 其实."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "他是我的其实哥哥。",
+     "其实他是我的哥哥。",
+     "他是其实我的哥哥。"
+    ],
+    "answer": 1,
+    "explanation": "其实 se place en tête de proposition ou après le sujet, jamais à l'intérieur d'un groupe nominal."
+   },
+   {
+    "type": "listen",
+    "zh": "很多人觉得北京太大了，其实坐地铁去哪儿都很方便。",
+    "question": "Que dit la personne à propos de Pékin ?",
+    "options": [
+     "C'est trop grand pour se déplacer",
+     "En réalité, avec le métro, on va partout facilement",
+     "Il n'y a pas de métro"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "p3-34",
+  "phase": 3,
+  "title": "既然…就… : « puisque… »",
+  "pattern": "既然 + fait connu，(Sujet) + 就 / 那就 + conclusion ou conseil\nSujet + 既然 + fait connu，就 + …",
+  "hsk": 4,
+  "explanation": "既然 signifie « puisque », « du moment que ». Il part d'un **fait déjà connu ou admis par les deux interlocuteurs** pour en tirer une **conclusion**, un **conseil** ou une **décision**. La seconde partie contient presque toujours **就** (ou 那就, 那么, 还是), et souvent **吧**.\n- 既然你不舒服，就回家休息吧。« Puisque tu ne te sens pas bien, rentre te reposer. »\n- 既然大家都来了，我们就开始吧。« Puisque tout le monde est là, commençons. »\n- 既然你已经决定了，我就不说什么了。« Puisque tu as déjà décidé, je ne dirai rien. »\n\n**Position :** 既然 se place en tête de la première proposition ou **après son sujet** (你既然来了，就多住几天吧). 就 est un adverbe : il se place **après le sujet** de la seconde proposition (我们就开始吧), jamais devant.\n\n**既然 ou 因为 ?**\n- **因为** apporte une **cause nouvelle**, que l'autre ne connaît pas forcément, et s'associe à 所以 : 因为下雨了，所以我没去 « je n'y suis pas allé parce qu'il pleuvait ».\n- **既然** part d'un **fait évident pour tous** et débouche sur une **suggestion, une question ou une conclusion logique**, avec 就 : 既然下雨了，你就别出去了 « puisqu'il pleut, ne sors pas ».\n\n**Pièges pour un francophone :**\n- Ne combinez pas 既然 avec **所以** : « 既然你不想去，所以别去了 » est maladroit ; dites 既然你不想去，就别去了.\n- 既然 ne marque **pas une concession** : n'utilisez pas 但是 après (c'est le rôle de 虽然).\n- Le français « puisque » est assez proche, mais en chinois la seconde partie est très souvent un **conseil** (吧) ou une **décision** : c'est l'usage le plus naturel.",
+  "examples": [
+   {
+    "zh": "既然你不舒服，就回家休息吧。",
+    "fr": "Puisque tu ne te sens pas bien, rentre te reposer."
+   },
+   {
+    "zh": "既然大家都来了，我们就开始吧。",
+    "fr": "Puisque tout le monde est là, commençons."
+   },
+   {
+    "zh": "既然你已经决定了，我就不说什么了。",
+    "fr": "Puisque tu as déjà décidé, je ne dirai rien."
+   },
+   {
+    "zh": "你既然来了，就多住几天吧。",
+    "fr": "Puisque tu es venu, reste donc quelques jours de plus."
+   },
+   {
+    "zh": "既然你不喜欢，就别买了。",
+    "fr": "Puisque ça ne te plaît pas, ne l'achète pas."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "既然",
+     "下雨",
+     "了",
+     "我们",
+     "就",
+     "别",
+     "去",
+     "了"
+    ],
+    "answer": "既然下雨了我们就别去了",
+    "fr": "Puisqu'il pleut, n'y allons pas."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "既然你",
+     "已经",
+     "决定",
+     "了",
+     "我",
+     "就",
+     "不",
+     "说",
+     "什么",
+     "了"
+    ],
+    "answer": "既然你已经决定了我就不说什么了",
+    "fr": "Puisque tu as déjà décidé, je ne dirai rien."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你既然",
+     "来",
+     "了",
+     "就",
+     "多",
+     "住",
+     "几天",
+     "吧"
+    ],
+    "answer": "你既然来了就多住几天吧",
+    "fr": "Puisque tu es venu, reste donc quelques jours de plus."
+   },
+   {
+    "type": "cloze",
+    "zh": "___你不喜欢，就别买了。",
+    "options": [
+     "既然",
+     "虽然",
+     "只有",
+     "不但"
+    ],
+    "answer": "既然",
+    "fr": "Puisque ça ne te plaît pas, ne l'achète pas."
+   },
+   {
+    "type": "cloze",
+    "zh": "既然下雨了，我们___明天再去吧。",
+    "options": [
+     "就",
+     "才",
+     "都",
+     "也"
+    ],
+    "answer": "就",
+    "fr": "Puisqu'il pleut, on ira plutôt demain."
+   },
+   {
+    "type": "cloze",
+    "zh": "既然大家都同意，___这么做吧。",
+    "options": [
+     "那就",
+     "但是",
+     "可是",
+     "而且"
+    ],
+    "answer": "那就",
+    "fr": "Puisque tout le monde est d'accord, faisons comme ça."
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie avec 既然…就….",
+    "zh": "你很累。你早点儿睡觉吧。",
+    "answers": [
+     "既然你很累，就早点儿睡觉吧。",
+     "你既然很累，就早点儿睡觉吧。",
+     "既然你很累，那就早点儿睡觉吧。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Remplace 因为…所以… par 既然…就… pour donner un conseil.",
+    "zh": "因为你没有时间，所以你别来了。",
+    "answers": [
+     "既然你没有时间，就别来了。",
+     "你既然没有时间，就别来了。",
+     "既然你没有时间，那就别来了。",
+     "既然你没有时间，你就别来了。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "既然你不想去，所以别去了。",
+    "answers": [
+     "既然你不想去，就别去了。",
+     "既然你不想去，那就别去了。"
+    ],
+    "explanation": "既然 va avec 就, pas avec 所以."
+   },
+   {
+    "type": "error",
+    "zh": "既然大家都到了，就我们开始吧。",
+    "answers": [
+     "既然大家都到了，我们就开始吧。",
+     "既然大家都到了，那我们就开始吧。"
+    ],
+    "explanation": "就 est un adverbe : il se place après le sujet (我们)."
+   },
+   {
+    "type": "translate",
+    "fr": "Puisque tu es là, mange avec nous.",
+    "answers": [
+     "既然来了，就和我们一起吃饭吧。",
+     "既然你来了，就跟我们一起吃饭吧。",
+     "既然你来了，就和我们一起吃饭吧。",
+     "既然来了，就跟我们一起吃饭吧。",
+     "你既然来了，就和我们一起吃饭吧。",
+     "你既然来了，就跟我们一起吃饭吧。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Puisque c'est trop cher, ne l'achète pas.",
+    "answers": [
+     "既然太贵了，就别买了。",
+     "既然很贵，就别买了。",
+     "既然这么贵，就别买了。",
+     "既然太贵了，就不要买了。",
+     "既然太贵了，那就别买了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Puisque tout le monde est arrivé, commençons.",
+    "answers": [
+     "既然大家都来了，我们就开始吧。",
+     "既然大家都到了，我们就开始吧。",
+     "既然大家都来了，就开始吧。",
+     "既然大家都到了，就开始吧。",
+     "既然大家都来了，那我们开始吧。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase utilise 既然 correctement ?",
+    "options": [
+     "既然下雨了，但是我还是去了。",
+     "既然下雨了，所以我没去。",
+     "既然下雨了，你就别出去了。"
+    ],
+    "answer": 2,
+    "explanation": "既然 part d'un fait connu pour donner un conseil, avec 就. Il ne va ni avec 所以 ni avec 但是."
+   },
+   {
+    "type": "choice",
+    "question": "Complète : 既然你这么喜欢这本书，我___送给你吧。",
+    "options": [
+     "才",
+     "都",
+     "就"
+    ],
+    "answer": 2,
+    "explanation": "既然 appelle 就 dans la seconde partie."
+   },
+   {
+    "type": "listen",
+    "zh": "既然你明天要考试，今天就早点儿睡吧。",
+    "question": "Que conseille la personne ?",
+    "options": [
+     "Sortir avec des amis",
+     "Réviser toute la nuit",
+     "Se coucher tôt"
+    ],
+    "answer": 2
+   }
+  ]
+ }
+]

@@ -1,0 +1,6371 @@
+[
+ {
+  "id": "p1-01",
+  "phase": 1,
+  "title": "L'ordre de base : Sujet + Verbe + Objet",
+  "pattern": "Sujet + Verbe + Objet",
+  "hsk": 1,
+  "explanation": "Bonne nouvelle : la phrase chinoise de base suit le **même ordre que le français** : d'abord le sujet, puis le verbe, puis l'objet.\n\n- 我喝茶。 = Je bois du thé.\n- 他学习汉语。 = Il étudie le chinois.\n\n**Le verbe ne se conjugue jamais.** Il n'y a ni personnes, ni temps, ni terminaisons : 吃 veut dire « manger », « mange », « manges », « mangeons »… On dit 我吃, 你吃, 他们吃 sans rien changer. C'est le contexte (ou un mot de temps comme « demain ») qui indique le moment.\n\n**Il n'y a pas d'articles.** Pas de « le », « la », « un », « des » : 我喝茶 peut se traduire « je bois du thé » ou « je bois le thé ». De même, les noms n'ont **ni genre ni pluriel** : 书 = « livre » ou « livres ».\n\n**Piège n°1 pour un francophone : les pronoms compléments.** En français, on dit « je **le** connais », « je **t'**aime » : le pronom passe devant le verbe. En chinois, **jamais** : le pronom reste à sa place d'objet, après le verbe.\n\n- Je le connais → 我认识他。 (littéralement « je connais lui »)\n- Je t'aime → 我爱你。\n\n**Piège n°2 : vouloir conjuguer.** N'ajoute rien au verbe pour le pluriel : 他们吃 (« ils mangent »), surtout pas *他们吃们. Le suffixe 们 sert uniquement à mettre au pluriel les pronoms personnels (我们, 你们, 他们) et certains noms de personnes.\n\nRetiens donc la formule : **Qui ? → fait quoi ? → à quoi / à qui ?** Toutes les leçons suivantes viendront se greffer sur ce squelette.",
+  "examples": [
+   {
+    "zh": "我喝茶。",
+    "fr": "Je bois du thé."
+   },
+   {
+    "zh": "他学习汉语。",
+    "fr": "Il étudie le chinois."
+   },
+   {
+    "zh": "我们看电影。",
+    "fr": "Nous regardons un film."
+   },
+   {
+    "zh": "妈妈买苹果。",
+    "fr": "Maman achète des pommes."
+   },
+   {
+    "zh": "我爱你。",
+    "fr": "Je t'aime."
+   },
+   {
+    "zh": "老师认识他。",
+    "fr": "Le professeur le connaît."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "喝",
+     "水"
+    ],
+    "answer": "我喝水",
+    "fr": "Je bois de l'eau."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他们",
+     "吃",
+     "米饭"
+    ],
+    "answer": "他们吃米饭",
+    "fr": "Ils mangent du riz."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "爱",
+     "你"
+    ],
+    "answer": "我爱你",
+    "fr": "Je t'aime."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "妈妈",
+     "看",
+     "电视"
+    ],
+    "answer": "妈妈看电视",
+    "fr": "Maman regarde la télévision."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___汉语。",
+    "options": [
+     "学习",
+     "是",
+     "很",
+     "吗"
+    ],
+    "answer": "学习",
+    "fr": "J'étudie le chinois."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___他。",
+    "options": [
+     "认识",
+     "高兴",
+     "好",
+     "大"
+    ],
+    "answer": "认识",
+    "fr": "Je le connais."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们___电影。",
+    "options": [
+     "看",
+     "很",
+     "是",
+     "的"
+    ],
+    "answer": "看",
+    "fr": "Nous regardons un film."
+   },
+   {
+    "type": "transform",
+    "instruction": "Remplace le sujet 我 par 他 (« il »). Attention : le verbe ne change pas.",
+    "zh": "我喝茶。",
+    "answers": [
+     "他喝茶。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Remplace le sujet par 我们 (« nous »).",
+    "zh": "她学习汉语。",
+    "answers": [
+     "我们学习汉语。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我他认识。",
+    "answers": [
+     "我认识他。"
+    ],
+    "explanation": "En chinois, le pronom complément se place après le verbe, contrairement au français « je le connais »."
+   },
+   {
+    "type": "error",
+    "zh": "我你爱。",
+    "answers": [
+     "我爱你。"
+    ],
+    "explanation": "« Je t'aime » : le pronom 你 est l'objet, il vient après le verbe 爱."
+   },
+   {
+    "type": "error",
+    "zh": "他书看。",
+    "answers": [
+     "他看书。"
+    ],
+    "explanation": "L'ordre est Sujet + Verbe + Objet : l'objet 书 suit le verbe 看."
+   },
+   {
+    "type": "translate",
+    "fr": "Je regarde la télévision.",
+    "answers": [
+     "我看电视。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il la connaît.",
+    "answers": [
+     "他认识她。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Nous étudions le chinois.",
+    "answers": [
+     "我们学习汉语。",
+     "我们学汉语。",
+     "我们学习中文。",
+     "我们学中文。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Papa achète des fruits.",
+    "answers": [
+     "爸爸买水果。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Comment dit-on « Je le connais » ?",
+    "options": [
+     "我他认识。",
+     "我认识他。",
+     "认识我他。"
+    ],
+    "answer": 1,
+    "explanation": "Le complément d'objet, même quand c'est un pronom, se place après le verbe."
+   },
+   {
+    "type": "choice",
+    "question": "Si 我吃 = « je mange », comment dit-on « ils mangent » ?",
+    "options": [
+     "他们吃。",
+     "他们吃们。",
+     "他吃们。"
+    ],
+    "answer": 0,
+    "explanation": "Le verbe ne se conjugue jamais : seul le sujet change (他们)."
+   },
+   {
+    "type": "listen",
+    "zh": "妈妈喝茶。",
+    "question": "Que boit maman ?",
+    "options": [
+     "Du thé",
+     "De l'eau",
+     "Rien"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-02",
+  "phase": 1,
+  "title": "Être + nom avec 是",
+  "pattern": "A + 是 + B (nom)",
+  "hsk": 1,
+  "explanation": "Le verbe 是 correspond à « être » quand on relie **deux noms** (ou pronoms) : on dit qui ou ce qu'est quelqu'un ou quelque chose.\n\n- 我是学生。 = Je suis étudiant.\n- 这是书。 = C'est un livre.\n\nComme tous les verbes chinois, **是 est invariable** : 我是, 你是, 他们是… Pas de « suis / es / est / sommes ».\n\n**Pas d'article** : « je suis **un** étudiant » se dit simplement 我是学生. Pour dire « c'est un… », on utilise 这是… (« ceci est… »).\n\n**Nationalité** : on ajoute 人 (« personne ») au nom du pays. 中国 = la Chine, 中国人 = un Chinois. Dire *我是中国 signifie « je suis la Chine » !\n\n**Les trois grands pièges de 是 pour un francophone :**\n\n- **Pas de 是 devant un adjectif.** « Je suis grand », « il est content » ne se disent PAS avec 是 (voir la leçon suivante).\n- **Pas de 是 pour la localisation.** « Je suis à Pékin » utilise un autre verbe, 在 (leçon à venir).\n- **是 est obligatoire entre deux noms.** *他学生 est incorrect : il faut 他是学生. (Seules exceptions, vues plus tard : les dates, l'heure, l'âge et les prix, où 是 peut tomber : 今天星期五.)\n\nLa négation se fait avec 不 : 我不是老师 (« je ne suis pas professeur »), et la question avec 吗 : 你是老师吗？ — nous verrons ces deux points juste après.\n\nEn résumé : **是 = « être » + nom**, et seulement dans ce cas. Chaque fois que tu veux dire « être », demande-toi : est-ce suivi d'un nom (是), d'un adjectif (很) ou d'un lieu (在) ?",
+  "examples": [
+   {
+    "zh": "我是学生。",
+    "fr": "Je suis étudiant."
+   },
+   {
+    "zh": "他是老师。",
+    "fr": "Il est professeur."
+   },
+   {
+    "zh": "她是中国人。",
+    "fr": "Elle est chinoise."
+   },
+   {
+    "zh": "这是书。",
+    "fr": "C'est un livre."
+   },
+   {
+    "zh": "我们是朋友。",
+    "fr": "Nous sommes amis."
+   },
+   {
+    "zh": "他是医生。",
+    "fr": "Il est médecin."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "是",
+     "学生"
+    ],
+    "answer": "我是学生",
+    "fr": "Je suis étudiant."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "她",
+     "是",
+     "中国人"
+    ],
+    "answer": "她是中国人",
+    "fr": "Elle est chinoise."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "是",
+     "同学"
+    ],
+    "answer": "我们是同学",
+    "fr": "Nous sommes camarades de classe."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "是",
+     "椅子"
+    ],
+    "answer": "这是椅子",
+    "fr": "C'est une chaise."
+   },
+   {
+    "type": "cloze",
+    "zh": "他___医生。",
+    "options": [
+     "是",
+     "很",
+     "在",
+     "有"
+    ],
+    "answer": "是",
+    "fr": "Il est médecin."
+   },
+   {
+    "type": "cloze",
+    "zh": "这___书。",
+    "options": [
+     "是",
+     "很",
+     "吗",
+     "不"
+    ],
+    "answer": "是",
+    "fr": "C'est un livre."
+   },
+   {
+    "type": "cloze",
+    "zh": "你们___老师。",
+    "options": [
+     "是",
+     "很",
+     "在",
+     "会"
+    ],
+    "answer": "是",
+    "fr": "Vous êtes professeurs."
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie les deux éléments avec 是 pour faire une phrase.",
+    "zh": "他 / 中国人",
+    "answers": [
+     "他是中国人。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie les deux éléments avec 是 pour faire une phrase.",
+    "zh": "她 / 医生",
+    "answers": [
+     "她是医生。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Remplace le sujet par 我们 (« nous »).",
+    "zh": "我是学生。",
+    "answers": [
+     "我们是学生。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我是中国。",
+    "answers": [
+     "我是中国人。"
+    ],
+    "explanation": "Pour la nationalité on ajoute 人 : 中国人 = « Chinois ». 中国 seul = « la Chine »."
+   },
+   {
+    "type": "error",
+    "zh": "他学生。",
+    "answers": [
+     "他是学生。"
+    ],
+    "explanation": "Entre deux noms, 是 est obligatoire."
+   },
+   {
+    "type": "error",
+    "zh": "这书是。",
+    "answers": [
+     "这是书。"
+    ],
+    "explanation": "是 se place entre les deux termes : A + 是 + B."
+   },
+   {
+    "type": "translate",
+    "fr": "Je suis professeur.",
+    "answers": [
+     "我是老师。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ils sont médecins.",
+    "answers": [
+     "他们是医生。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Nous sommes amis.",
+    "answers": [
+     "我们是朋友。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Laquelle signifie « Il est chinois » ?",
+    "options": [
+     "他是中国。",
+     "他是中国人。",
+     "他中国人是。"
+    ],
+    "answer": 1,
+    "explanation": "Nationalité = pays + 人, reliée au sujet par 是."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我是老师。",
+     "我老师是。",
+     "是我老师。"
+    ],
+    "answer": 0,
+    "explanation": "L'ordre est Sujet + 是 + Nom."
+   },
+   {
+    "type": "listen",
+    "zh": "她是医生。",
+    "question": "Quelle est sa profession ?",
+    "options": [
+     "Médecin",
+     "Professeure",
+     "Étudiante"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-03",
+  "phase": 1,
+  "title": "Les adjectifs avec 很 (sans 是)",
+  "pattern": "Sujet + 很 + Adjectif",
+  "hsk": 1,
+  "explanation": "En chinois, les adjectifs fonctionnent **comme des verbes** : ils peuvent former le prédicat à eux seuls. On n'utilise donc **pas 是** devant un adjectif.\n\n- 我很高兴。 = Je suis content.\n- 北京很大。 = Pékin est grand.\n\n**Le rôle de 很.** Dans une affirmation simple et neutre, on place presque toujours 很 entre le sujet et l'adjectif. Littéralement 很 veut dire « très », mais ici son sens est **très affaibli** : 她很漂亮 se traduit le plus souvent « elle est jolie », pas forcément « très jolie ». 很 sert surtout de « liant ».\n\nQue se passe-t-il sans 很 ? Une phrase comme 天气冷 sonne incomplète, ou prend une valeur de **comparaison / contraste** (« il fait froid, lui, [alors que…] »). Pour une simple description, mets 很.\n\n**Quand 很 disparaît :**\n\n- À la forme négative : 我不高兴 (« je ne suis pas content »).\n- Souvent dans les questions avec 吗 : 你好吗？ 北京冷吗？\n- Quand on utilise un autre adverbe de degré (太…了, que tu verras plus tard).\n\n**Pièges pour un francophone :**\n\n- *我是高兴 ✗ → 我很高兴 ✓. Le réflexe « je suis = 我是 » est le piège n°1 des débutants !\n- *她是很漂亮 ✗ : même avec 很, pas de 是.\n- Pour la météo, pas de sujet « il » : 今天很热 = « il fait chaud aujourd'hui » (littéralement « aujourd'hui très chaud »).\n\nRetiens : **是 + nom**, mais **很 + adjectif**.",
+  "examples": [
+   {
+    "zh": "我很好。",
+    "fr": "Je vais bien."
+   },
+   {
+    "zh": "她很漂亮。",
+    "fr": "Elle est jolie."
+   },
+   {
+    "zh": "今天很冷。",
+    "fr": "Il fait froid aujourd'hui."
+   },
+   {
+    "zh": "北京很大。",
+    "fr": "Pékin est grand."
+   },
+   {
+    "zh": "我很高兴。",
+    "fr": "Je suis content."
+   },
+   {
+    "zh": "天气很热。",
+    "fr": "Il fait chaud."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "很",
+     "高兴"
+    ],
+    "answer": "我很高兴",
+    "fr": "Je suis content."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "今天",
+     "很",
+     "热"
+    ],
+    "answer": "今天很热",
+    "fr": "Il fait chaud aujourd'hui."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "北京",
+     "很",
+     "大"
+    ],
+    "answer": "北京很大",
+    "fr": "Pékin est grand."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "她",
+     "的",
+     "猫",
+     "很",
+     "小"
+    ],
+    "answer": "她的猫很小",
+    "fr": "Son chat est petit."
+   },
+   {
+    "type": "cloze",
+    "zh": "她___漂亮。",
+    "options": [
+     "很",
+     "是",
+     "在",
+     "有"
+    ],
+    "answer": "很",
+    "fr": "Elle est jolie."
+   },
+   {
+    "type": "cloze",
+    "zh": "学校___小。",
+    "options": [
+     "很",
+     "是",
+     "在",
+     "的"
+    ],
+    "answer": "很",
+    "fr": "L'école est petite."
+   },
+   {
+    "type": "cloze",
+    "zh": "天气很___。",
+    "options": [
+     "冷",
+     "是",
+     "学生",
+     "吃"
+    ],
+    "answer": "冷",
+    "fr": "Il fait froid."
+   },
+   {
+    "type": "transform",
+    "instruction": "Fais une phrase descriptive avec 很.",
+    "zh": "我 / 高兴",
+    "answers": [
+     "我很高兴。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Rends l'affirmation neutre et naturelle en ajoutant 很.",
+    "zh": "天气冷。",
+    "answers": [
+     "天气很冷。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我是高兴。",
+    "answers": [
+     "我很高兴。"
+    ],
+    "explanation": "Un adjectif ne se construit pas avec 是 ; on utilise 很."
+   },
+   {
+    "type": "error",
+    "zh": "她是很漂亮。",
+    "answers": [
+     "她很漂亮。"
+    ],
+    "explanation": "Pas de 是 devant un adjectif, même avec 很."
+   },
+   {
+    "type": "error",
+    "zh": "今天是热。",
+    "answers": [
+     "今天很热。"
+    ],
+    "explanation": "Pour décrire (ici la météo), on utilise 很 + adjectif, sans 是."
+   },
+   {
+    "type": "translate",
+    "fr": "Je vais bien.",
+    "answers": [
+     "我很好。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il fait froid aujourd'hui.",
+    "answers": [
+     "今天很冷。",
+     "今天天气很冷。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Elle est contente.",
+    "answers": [
+     "她很高兴。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我是很高兴。",
+     "我很高兴。",
+     "我高兴是。"
+    ],
+    "answer": 1,
+    "explanation": "Adjectif = 很 + adjectif, sans 是."
+   },
+   {
+    "type": "choice",
+    "question": "Dans 我很好, quel est le rôle de 很 ?",
+    "options": [
+     "Il signifie toujours fortement « très ».",
+     "Il relie le sujet à l'adjectif ; son sens « très » est faible.",
+     "Il marque le passé."
+    ],
+    "answer": 1,
+    "explanation": "Dans une affirmation neutre, 很 est presque obligatoire et son sens est affaibli."
+   },
+   {
+    "type": "listen",
+    "zh": "今天很冷。",
+    "question": "Quel temps fait-il ?",
+    "options": [
+     "Il fait froid",
+     "Il fait chaud",
+     "Il pleut"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-04",
+  "phase": 1,
+  "title": "La négation avec 不",
+  "pattern": "Sujet + 不 + Verbe / Adjectif\nA + 不是 + B",
+  "hsk": 1,
+  "explanation": "Pour dire « ne… pas », on place **不** juste **devant le verbe ou l'adjectif**. Un seul mot, pas deux comme en français (« ne… pas »).\n\n- 我不是老师。 = Je ne suis pas professeur.\n- 他不喝茶。 = Il ne boit pas de thé.\n- 今天不冷。 = Il ne fait pas froid aujourd'hui.\n\n**Avec un adjectif, 很 disparaît.** 她很高兴 → 她不高兴. Attention aux nuances :\n\n- 不高兴 = « pas content » (forme neutre)\n- 很不高兴 = « très mécontent »\n- 不很高兴 = « pas très content » (rare, plutôt on dit 不太高兴, vu plus tard)\n\n**Où exactement ?** 不 suit le sujet et précède immédiatement ce qu'il nie : *我是不老师 ✗ → 我不是老师 ✓. Il ne se place jamais en début de phrase avant le sujet (*不我去 ✗), ni après le verbe (*他喝不茶 ✗).\n\n**Que nie 不 ?** Le présent, les habitudes, la volonté et le futur : 我不去 = « je n'y vais pas / je n'irai pas / je ne veux pas y aller ». Pour une action passée qui n'a pas eu lieu, on utilisera 没 (leçon ultérieure).\n\n**Exception importante :** le verbe 有 (« avoir ») ne se nie **jamais** avec 不, mais avec 没 : 没有. Tu le verras dans la leçon sur 有.\n\n**Petite remarque de prononciation :** 不 change de ton quand il est suivi d'un mot au quatrième ton (comme dans 不是, 不去). L'audio de l'application te le fera entendre ; inutile de s'en inquiéter à l'écrit.\n\nFormule à retenir : **Sujet + 不 + verbe/adjectif**.",
+  "examples": [
+   {
+    "zh": "我不是老师。",
+    "fr": "Je ne suis pas professeur."
+   },
+   {
+    "zh": "他不喝茶。",
+    "fr": "Il ne boit pas de thé."
+   },
+   {
+    "zh": "今天不冷。",
+    "fr": "Il ne fait pas froid aujourd'hui."
+   },
+   {
+    "zh": "我们不去。",
+    "fr": "Nous n'y allons pas."
+   },
+   {
+    "zh": "我不认识他。",
+    "fr": "Je ne le connais pas."
+   },
+   {
+    "zh": "她不高兴。",
+    "fr": "Elle n'est pas contente."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "不",
+     "是",
+     "医生"
+    ],
+    "answer": "我不是医生",
+    "fr": "Je ne suis pas médecin."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "不",
+     "喝",
+     "水"
+    ],
+    "answer": "他不喝水",
+    "fr": "Il ne boit pas d'eau."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "今天",
+     "不",
+     "热"
+    ],
+    "answer": "今天不热",
+    "fr": "Il ne fait pas chaud aujourd'hui."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___是中国人。",
+    "options": [
+     "不",
+     "没",
+     "很",
+     "吗"
+    ],
+    "answer": "不",
+    "fr": "Je ne suis pas chinois."
+   },
+   {
+    "type": "cloze",
+    "zh": "她___认识我。",
+    "options": [
+     "不",
+     "很",
+     "是",
+     "吗"
+    ],
+    "answer": "不",
+    "fr": "Elle ne me connaît pas."
+   },
+   {
+    "type": "cloze",
+    "zh": "北京今天___冷。",
+    "options": [
+     "不",
+     "是",
+     "吗",
+     "的"
+    ],
+    "answer": "不",
+    "fr": "Il ne fait pas froid à Pékin aujourd'hui."
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "我是学生。",
+    "answers": [
+     "我不是学生。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative (attention à 很).",
+    "zh": "她很高兴。",
+    "answers": [
+     "她不高兴。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "我们看电视。",
+    "answers": [
+     "我们不看电视。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我是不老师。",
+    "answers": [
+     "我不是老师。"
+    ],
+    "explanation": "不 se place devant 是, pas après."
+   },
+   {
+    "type": "error",
+    "zh": "他喝不茶。",
+    "answers": [
+     "他不喝茶。"
+    ],
+    "explanation": "不 se place avant le verbe."
+   },
+   {
+    "type": "error",
+    "zh": "不我去。",
+    "answers": [
+     "我不去。"
+    ],
+    "explanation": "不 suit le sujet et précède le verbe."
+   },
+   {
+    "type": "translate",
+    "fr": "Je ne suis pas chinois.",
+    "answers": [
+     "我不是中国人。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il ne fait pas froid aujourd'hui.",
+    "answers": [
+     "今天不冷。",
+     "今天天气不冷。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Nous ne regardons pas la télévision.",
+    "answers": [
+     "我们不看电视。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Elle n'est pas contente » se dit :",
+    "options": [
+     "她很不高兴。",
+     "她不高兴。",
+     "她不很高兴。"
+    ],
+    "answer": 1,
+    "explanation": "La forme neutre est 不 + adjectif, sans 很. 很不高兴 = « très mécontente »."
+   },
+   {
+    "type": "choice",
+    "question": "Où se place 不 ?",
+    "options": [
+     "Après le verbe",
+     "Juste avant le verbe ou l'adjectif",
+     "En fin de phrase"
+    ],
+    "answer": 1,
+    "explanation": "不 précède directement ce qu'il nie."
+   },
+   {
+    "type": "listen",
+    "zh": "我不是老师，我是学生。",
+    "question": "Que fait la personne ?",
+    "options": [
+     "Elle est étudiante",
+     "Elle est professeure",
+     "Elle est médecin"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-05",
+  "phase": 1,
+  "title": "La question fermée avec 吗",
+  "pattern": "Phrase affirmative + 吗？",
+  "hsk": 1,
+  "explanation": "Pour poser une question à laquelle on répond par « oui » ou « non », c'est très simple : on prend la phrase affirmative **telle quelle** et on ajoute **吗** à la fin.\n\n- 你是学生。 → 你是学生吗？ = Es-tu étudiant ?\n- 你喝茶。 → 你喝茶吗？ = Bois-tu du thé ?\n\n**Pas d'inversion, pas de « est-ce que ».** En français on inverse (« es-tu ») ou on ajoute « est-ce que ». En chinois, l'ordre des mots ne bouge **jamais** : *是你学生吗 ✗.\n\n**Comment répondre ?** Le chinois n'a pas de vrai mot pour « oui » ou « non » qui marche partout. On **reprend le verbe** (ou l'adjectif) de la question :\n\n- 你喝茶吗？ — 喝。(oui) / 不喝。(non)\n- 你是老师吗？ — 是。/ 不是。\n- 北京冷吗？ — 很冷。/ 不冷。\n\nC'est un réflexe à prendre : ne réponds pas 是 à toutes les questions ! 是 ne signifie « oui » que si la question contient 是.\n\n**Avec les adjectifs**, 很 tombe souvent dans la question : 你好吗？, 今天冷吗？\n\n**Piège important :** 吗 ne se combine **jamais** avec un mot interrogatif (« quoi », « qui », « où »…). *你喝什么吗 ✗ → 你喝什么？ ✓. Une phrase ne peut avoir qu'un seul « outil » de question.\n\nÀ l'écrit, on termine par le point d'interrogation chinois ？. À l'oral, l'intonation monte peu : c'est 吗 qui porte la question.",
+  "examples": [
+   {
+    "zh": "你是学生吗？",
+    "fr": "Es-tu étudiant ?"
+   },
+   {
+    "zh": "你喝茶吗？",
+    "fr": "Bois-tu du thé ?"
+   },
+   {
+    "zh": "他是中国人吗？",
+    "fr": "Est-il chinois ?"
+   },
+   {
+    "zh": "北京冷吗？",
+    "fr": "Fait-il froid à Pékin ?"
+   },
+   {
+    "zh": "你认识他吗？——不认识。",
+    "fr": "Le connais-tu ? — Non."
+   },
+   {
+    "zh": "你好吗？",
+    "fr": "Comment vas-tu ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "是",
+     "老师",
+     "吗"
+    ],
+    "answer": "你是老师吗",
+    "fr": "Es-tu professeur ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "喝",
+     "茶",
+     "吗"
+    ],
+    "answer": "他喝茶吗",
+    "fr": "Boit-il du thé ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你们",
+     "认识",
+     "她",
+     "吗"
+    ],
+    "answer": "你们认识她吗",
+    "fr": "La connaissez-vous ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你是医生___？",
+    "options": [
+     "吗",
+     "不",
+     "很",
+     "是"
+    ],
+    "answer": "吗",
+    "fr": "Es-tu médecin ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "今天热___？",
+    "options": [
+     "吗",
+     "很",
+     "是",
+     "不"
+    ],
+    "answer": "吗",
+    "fr": "Fait-il chaud aujourd'hui ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "A：你喝水吗？ B：___，我不喝。",
+    "options": [
+     "不喝",
+     "不是",
+     "没有",
+     "吗"
+    ],
+    "answer": "不喝",
+    "fr": "Tu bois de l'eau ? — Non, je n'en bois pas."
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question avec 吗.",
+    "zh": "他是中国人。",
+    "answers": [
+     "他是中国人吗？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question avec 吗.",
+    "zh": "你看电视。",
+    "answers": [
+     "你看电视吗？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Réponds négativement en reprenant le verbe.",
+    "zh": "你是老师吗？",
+    "answers": [
+     "我不是老师。",
+     "不是。",
+     "不是，我不是老师。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "是你学生吗？",
+    "answers": [
+     "你是学生吗？"
+    ],
+    "explanation": "Pas d'inversion : l'ordre reste celui de l'affirmation, on ajoute 吗 à la fin."
+   },
+   {
+    "type": "error",
+    "zh": "你喝什么吗？",
+    "answers": [
+     "你喝什么？"
+    ],
+    "explanation": "Une question avec un mot interrogatif (什么) ne prend pas 吗."
+   },
+   {
+    "type": "error",
+    "zh": "吗你认识他？",
+    "answers": [
+     "你认识他吗？"
+    ],
+    "explanation": "吗 se place toujours en fin de phrase."
+   },
+   {
+    "type": "translate",
+    "fr": "Es-tu chinois ?",
+    "answers": [
+     "你是中国人吗？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Comment vas-tu ?",
+    "answers": [
+     "你好吗？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Fait-il froid à Pékin ?",
+    "answers": [
+     "北京冷吗？",
+     "北京很冷吗？",
+     "北京天气冷吗？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Comment répondre « oui » à 你喝茶吗？",
+    "options": [
+     "是。",
+     "喝。",
+     "吗。"
+    ],
+    "answer": 1,
+    "explanation": "On répond en reprenant le verbe de la question : 喝 (oui) / 不喝 (non)."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle question est correcte ?",
+    "options": [
+     "你吗是学生？",
+     "你是学生吗？",
+     "吗你是学生？"
+    ],
+    "answer": 1,
+    "explanation": "吗 se place toujours en fin de phrase."
+   },
+   {
+    "type": "listen",
+    "zh": "你是北京人吗？",
+    "question": "Que demande-t-on ?",
+    "options": [
+     "Si la personne est de Pékin",
+     "Où habite la personne",
+     "Comment s'appelle la personne"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-06",
+  "phase": 1,
+  "title": "La possession avec 的",
+  "pattern": "Possesseur + 的 + Objet possédé",
+  "hsk": 1,
+  "explanation": "Pour exprimer la possession, on place **le possesseur d'abord**, puis **的**, puis **la chose possédée**.\n\n- 我的书 = mon livre (littéralement « moi-的 livre »)\n- 老师的电脑 = l'ordinateur du professeur\n\n**Pronom + 的 = adjectif possessif.** 我的 = mon / ma / mes ; 你的 = ton / ta / tes ; 他的 / 她的 = son / sa / ses ; 我们的 = notre / nos ; 他们的 = leur / leurs. Pas d'accord en genre ni en nombre : 我的猫 peut être « mon chat » ou « mes chats ».\n\n**Ordre inversé par rapport au français.** On dit « le livre **du professeur** » mais en chinois « **professeur**-的 livre » : 老师的书. C'est l'erreur la plus fréquente : *书的老师 veut dire « le professeur du livre » !\n\n**的 tout seul = « le mien, le tien… ».** Si l'objet est déjà connu, on peut le supprimer :\n\n- 这是我的书。 → 这是我的。 = C'est à moi. / C'est le mien.\n- 那是老师的。 = Ça, c'est au professeur.\n\n**Plusieurs possesseurs en chaîne** : 我朋友的猫 = le chat de mon ami. On lit toujours de gauche à droite, du plus « grand » au plus « petit ».\n\n**Pièges :**\n\n- Ne mets pas 的 après l'objet : *书我的 ✗.\n- 的 se prononce très légèrement (ton neutre) : on l'entend à peine, mais ne l'oublie pas pour autant avec les objets.\n- Avec les membres de la famille et les proches, 的 est souvent omis : ce sera l'objet de la leçon suivante.\n\nFormule : **qui possède + 的 + quoi**.",
+  "examples": [
+   {
+    "zh": "这是我的书。",
+    "fr": "C'est mon livre."
+   },
+   {
+    "zh": "他是我的老师。",
+    "fr": "C'est mon professeur."
+   },
+   {
+    "zh": "老师的电脑很大。",
+    "fr": "L'ordinateur du professeur est grand."
+   },
+   {
+    "zh": "我的猫很小。",
+    "fr": "Mon chat est petit."
+   },
+   {
+    "zh": "这是他们的学校。",
+    "fr": "C'est leur école."
+   },
+   {
+    "zh": "这是我的。",
+    "fr": "C'est à moi."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "是",
+     "我",
+     "的",
+     "书"
+    ],
+    "answer": "这是我的书",
+    "fr": "C'est mon livre."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "老师",
+     "的",
+     "电脑",
+     "很",
+     "大"
+    ],
+    "answer": "老师的电脑很大",
+    "fr": "L'ordinateur du professeur est grand."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "她",
+     "是",
+     "我",
+     "的",
+     "朋友"
+    ],
+    "answer": "她是我的朋友",
+    "fr": "Elle est mon amie."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "是",
+     "他们",
+     "的",
+     "学校"
+    ],
+    "answer": "这是他们的学校",
+    "fr": "C'est leur école."
+   },
+   {
+    "type": "cloze",
+    "zh": "这是我___杯子。",
+    "options": [
+     "的",
+     "是",
+     "很",
+     "吗"
+    ],
+    "answer": "的",
+    "fr": "C'est ma tasse."
+   },
+   {
+    "type": "cloze",
+    "zh": "___的猫很漂亮。",
+    "options": [
+     "她",
+     "是",
+     "很",
+     "不"
+    ],
+    "answer": "她",
+    "fr": "Son chat est beau."
+   },
+   {
+    "type": "cloze",
+    "zh": "那是老师___。",
+    "options": [
+     "的",
+     "是",
+     "在",
+     "很"
+    ],
+    "answer": "的",
+    "fr": "Ça, c'est au professeur."
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme pour dire « C'est le mien » (utilise 的 seul).",
+    "zh": "这是我的书。",
+    "answers": [
+     "这是我的。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime la possession : « l'ordinateur de l'ami ».",
+    "zh": "朋友 / 电脑",
+    "answers": [
+     "朋友的电脑"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "这是书的我。",
+    "answers": [
+     "这是我的书。"
+    ],
+    "explanation": "Le possesseur vient avant 的, l'objet après : 我的书."
+   },
+   {
+    "type": "error",
+    "zh": "他是老师我的。",
+    "answers": [
+     "他是我的老师。"
+    ],
+    "explanation": "Possesseur + 的 + nom : 我的老师."
+   },
+   {
+    "type": "error",
+    "zh": "这是我书。",
+    "answers": [
+     "这是我的书。"
+    ],
+    "explanation": "Avec un objet, 的 est obligatoire entre le possesseur et la chose possédée."
+   },
+   {
+    "type": "translate",
+    "fr": "C'est mon ordinateur.",
+    "answers": [
+     "这是我的电脑。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Le chat de mon ami est petit.",
+    "answers": [
+     "我朋友的猫很小。",
+     "我的朋友的猫很小。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "C'est à toi.",
+    "answers": [
+     "这是你的。",
+     "那是你的。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Le livre du professeur » se dit :",
+    "options": [
+     "书的老师",
+     "老师的书",
+     "老师书的"
+    ],
+    "answer": 1,
+    "explanation": "Le possesseur (老师) vient en premier, puis 的, puis l'objet."
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 他们的 ?",
+    "options": [
+     "leur / leurs",
+     "ils",
+     "avec eux"
+    ],
+    "answer": 0,
+    "explanation": "们 marque le pluriel des pronoms ; 的 marque la possession."
+   },
+   {
+    "type": "listen",
+    "zh": "这是我朋友的电脑。",
+    "question": "À qui est l'ordinateur ?",
+    "options": [
+     "À un ami du locuteur",
+     "Au locuteur",
+     "Au professeur"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-07",
+  "phase": 1,
+  "title": "Omission de 的 avec la famille et les proches",
+  "pattern": "Pronom + membre de la famille\nPronom + institution proche (我们学校, 我家)",
+  "hsk": 1,
+  "explanation": "Dans la leçon précédente, tu as vu que 的 marque la possession. Mais avec les **personnes très proches** et les **institutions auxquelles on appartient**, les Chinois **omettent** très souvent 的.\n\n**Membres de la famille :**\n\n- 我妈妈 = ma mère (plus naturel que 我的妈妈)\n- 他哥哥 = son grand frère\n- 你女儿 = ta fille\n\n**Proches et relations :** 我朋友, 我老师, 我同学 (les deux formes, avec ou sans 的, sont correctes).\n\n**Institutions et groupes :** 我们学校 (notre école), 我家 (ma maison / ma famille), 我们医院 (notre hôpital). Avec ces mots, on emploie souvent le pronom pluriel (我们) même si on parle de soi.\n\n**Mais avec les OBJETS, 的 reste obligatoire !**\n\n- 我的书 ✓ — *我书 ✗\n- 我的电脑 ✓ — *我电脑 ✗\n- 我的杯子 ✓ — *我杯子 ✗\n\nL'idée : la relation entre toi et ta mère est « intime », inséparable ; celle entre toi et un livre ne l'est pas.\n\n**Chaînes de possession :** on garde généralement le **dernier** 的, celui qui introduit l'objet : 我妈妈的书 (« le livre de ma mère »), 我朋友的猫 (« le chat de mon ami »). On évite d'empiler les 的 : 我的妈妈的书 n'est pas faux, mais c'est lourd.\n\n**Piège pour un francophone :** ne généralise pas ! L'omission ne marche **qu'avec les personnes proches et les institutions**. Quand tu hésites, garde 的 : 我的妈妈 est un peu insistant mais jamais faux, alors que *我书 est une vraie faute.",
+  "examples": [
+   {
+    "zh": "我妈妈是老师。",
+    "fr": "Ma mère est professeure."
+   },
+   {
+    "zh": "他哥哥是医生。",
+    "fr": "Son grand frère est médecin."
+   },
+   {
+    "zh": "我们学校很大。",
+    "fr": "Notre école est grande."
+   },
+   {
+    "zh": "这是我家。",
+    "fr": "C'est ma maison."
+   },
+   {
+    "zh": "我妈妈的电脑很小。",
+    "fr": "L'ordinateur de ma mère est petit."
+   },
+   {
+    "zh": "我朋友是中国人。",
+    "fr": "Mon ami est chinois."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "妈妈",
+     "是",
+     "医生"
+    ],
+    "answer": "我妈妈是医生",
+    "fr": "Ma mère est médecin."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "学校",
+     "很",
+     "大"
+    ],
+    "answer": "我们学校很大",
+    "fr": "Notre école est grande."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "爸爸",
+     "的",
+     "书",
+     "很",
+     "多"
+    ],
+    "answer": "我爸爸的书很多",
+    "fr": "Mon père a beaucoup de livres."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "是",
+     "我",
+     "家"
+    ],
+    "answer": "这是我家",
+    "fr": "C'est ma maison."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___书很多。",
+    "options": [
+     "的",
+     "吗",
+     "是",
+     "很"
+    ],
+    "answer": "的",
+    "fr": "J'ai beaucoup de livres."
+   },
+   {
+    "type": "cloze",
+    "zh": "这是我___的书。",
+    "options": [
+     "妈妈",
+     "是",
+     "很",
+     "吗"
+    ],
+    "answer": "妈妈",
+    "fr": "C'est le livre de ma mère."
+   },
+   {
+    "type": "cloze",
+    "zh": "我妈妈___电脑很大。",
+    "options": [
+     "的",
+     "是",
+     "很",
+     "吗"
+    ],
+    "answer": "的",
+    "fr": "L'ordinateur de ma mère est grand."
+   },
+   {
+    "type": "transform",
+    "instruction": "Rends la phrase plus naturelle en supprimant le 的 inutile.",
+    "zh": "我的妈妈是老师。",
+    "answers": [
+     "我妈妈是老师。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Rends la phrase plus naturelle en supprimant le 的 inutile.",
+    "zh": "我们的学校很小。",
+    "answers": [
+     "我们学校很小。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "这是我书。",
+    "answers": [
+     "这是我的书。"
+    ],
+    "explanation": "Avec un objet, 的 est obligatoire. On ne l'omet qu'avec les proches et les institutions."
+   },
+   {
+    "type": "error",
+    "zh": "我杯子很大。",
+    "answers": [
+     "我的杯子很大。"
+    ],
+    "explanation": "Un objet (杯子) exige 的 : 我的杯子."
+   },
+   {
+    "type": "translate",
+    "fr": "Mon père est médecin.",
+    "answers": [
+     "我爸爸是医生。",
+     "我的爸爸是医生。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Sa grande sœur est jolie.",
+    "answers": [
+     "她姐姐很漂亮。",
+     "他姐姐很漂亮。",
+     "她的姐姐很漂亮。",
+     "他的姐姐很漂亮。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "C'est le livre de mon ami.",
+    "answers": [
+     "这是我朋友的书。",
+     "这是我的朋友的书。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle expression est INCORRECTE ?",
+    "options": [
+     "我妈妈",
+     "我们学校",
+     "我电脑"
+    ],
+    "answer": 2,
+    "explanation": "On n'omet pas 的 devant un objet : 我的电脑."
+   },
+   {
+    "type": "choice",
+    "question": "« Le chat de ma fille » :",
+    "options": [
+     "我女儿的猫",
+     "我的女儿猫",
+     "我女儿猫的"
+    ],
+    "answer": 0,
+    "explanation": "On omet 的 entre 我 et 女儿 (proche), mais on le garde devant l'objet 猫."
+   },
+   {
+    "type": "listen",
+    "zh": "我哥哥是医生，我姐姐是老师。",
+    "question": "Que fait la grande sœur ?",
+    "options": [
+     "Professeure",
+     "Médecin",
+     "Étudiante"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-08",
+  "phase": 1,
+  "title": "Questions avec 什么, 谁, 哪儿, 哪",
+  "pattern": "Le mot interrogatif prend la place de la réponse\n你喝什么？ → 我喝茶。",
+  "hsk": 1,
+  "explanation": "Pour poser une question ouverte (« quoi ? », « qui ? », « où ? »), le chinois utilise des **mots interrogatifs** :\n\n- **什么** = quoi, quel (什么 + nom = quel… : 什么书 = quel livre)\n- **谁** = qui (谁的 = à qui, de qui)\n- **哪儿** = où\n- **哪** = quel (parmi plusieurs) : 哪国人 = de quel pays\n\n**La règle d'or : le mot interrogatif reste à la place de la réponse.** On ne le déplace pas en début de phrase comme en français. Prends la phrase-réponse et remplace simplement l'information inconnue :\n\n- 我喝**茶**。 → 你喝**什么**？ (« Que bois-tu ? », littéralement « tu bois quoi ? »)\n- 他是**王老师**。 → 他是**谁**？\n- 我去**北京**。 → 你去**哪儿**？\n- 这是**我**的书。 → 这是**谁**的书？\n\nSi l'inconnu est le sujet, le mot interrogatif est en tête, tout simplement parce que le sujet y est : 谁是你的老师？\n\n**Pièges pour un francophone :**\n\n- **Pas de déplacement** : *什么你喝 ✗. Le réflexe « Que… » en début de phrase est à combattre.\n- **Pas de 吗** avec un mot interrogatif : *他是谁吗 ✗. Le mot interrogatif suffit à faire la question.\n- « Comment t'appelles-tu ? » se dit 你叫什么名字？ (« tu t'appelles quel nom ? ») : on n'utilise pas « comment » ici.\n- 哪儿 (où) et 哪 (quel) se ressemblent : 哪儿 désigne un lieu, 哪 se met devant un nom ou un classificateur.\n\nLes questions de quantité (几, 多少) suivent la même logique ; nous les verrons après les nombres.",
+  "examples": [
+   {
+    "zh": "你喝什么？",
+    "fr": "Que bois-tu ?"
+   },
+   {
+    "zh": "他是谁？",
+    "fr": "Qui est-il ?"
+   },
+   {
+    "zh": "这是谁的书？",
+    "fr": "À qui est ce livre ?"
+   },
+   {
+    "zh": "你叫什么名字？",
+    "fr": "Comment t'appelles-tu ?"
+   },
+   {
+    "zh": "你去哪儿？",
+    "fr": "Où vas-tu ?"
+   },
+   {
+    "zh": "你是哪国人？",
+    "fr": "De quel pays es-tu ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "叫",
+     "什么",
+     "名字"
+    ],
+    "answer": "你叫什么名字",
+    "fr": "Comment t'appelles-tu ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "是",
+     "谁"
+    ],
+    "answer": "他是谁",
+    "fr": "Qui est-il ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "去",
+     "哪儿"
+    ],
+    "answer": "你去哪儿",
+    "fr": "Où vas-tu ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "是",
+     "谁",
+     "的",
+     "书"
+    ],
+    "answer": "这是谁的书",
+    "fr": "À qui est ce livre ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你吃___？",
+    "options": [
+     "什么",
+     "谁",
+     "谁的",
+     "哪"
+    ],
+    "answer": "什么",
+    "fr": "Que manges-tu ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "___是你的老师？",
+    "options": [
+     "谁",
+     "什么",
+     "哪儿",
+     "吗"
+    ],
+    "answer": "谁",
+    "fr": "Qui est ton professeur ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你是___国人？",
+    "options": [
+     "哪",
+     "什么",
+     "谁",
+     "哪儿"
+    ],
+    "answer": "哪",
+    "fr": "De quel pays es-tu ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question qui porte sur 茶.",
+    "zh": "我喝茶。",
+    "answers": [
+     "你喝什么？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question qui porte sur la personne (王老师).",
+    "zh": "她是王老师。",
+    "answers": [
+     "她是谁？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question qui porte sur le lieu (北京).",
+    "zh": "我去北京。",
+    "answers": [
+     "你去哪儿？",
+     "你去哪里？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "什么你喝？",
+    "answers": [
+     "你喝什么？"
+    ],
+    "explanation": "Le mot interrogatif reste à la place de la réponse, après le verbe."
+   },
+   {
+    "type": "error",
+    "zh": "他是谁吗？",
+    "answers": [
+     "他是谁？"
+    ],
+    "explanation": "Pas de 吗 avec un mot interrogatif."
+   },
+   {
+    "type": "translate",
+    "fr": "Que regardes-tu ?",
+    "answers": [
+     "你看什么？",
+     "你在看什么？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Qui est-ce ?",
+    "answers": [
+     "这是谁？",
+     "他是谁？",
+     "她是谁？",
+     "那是谁？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Quel livre lis-tu ?",
+    "answers": [
+     "你看什么书？",
+     "你读什么书？",
+     "你在看什么书？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle question est correcte ?",
+    "options": [
+     "你学习什么吗？",
+     "什么你学习？",
+     "你学习什么？"
+    ],
+    "answer": 2,
+    "explanation": "Le mot interrogatif reste à la place de l'objet, et on n'ajoute pas 吗."
+   },
+   {
+    "type": "choice",
+    "question": "Pour demander « à qui ? » (possession), on dit :",
+    "options": [
+     "谁的",
+     "什么的",
+     "哪儿的"
+    ],
+    "answer": 0,
+    "explanation": "谁 + 的 = à qui : 这是谁的书？"
+   },
+   {
+    "type": "listen",
+    "zh": "你叫什么名字？",
+    "question": "Que demande-t-on ?",
+    "options": [
+     "Le nom",
+     "L'âge",
+     "Le pays"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-09",
+  "phase": 1,
+  "title": "Retourner la question avec 呢",
+  "pattern": "Nom / Pronom + 呢？",
+  "hsk": 1,
+  "explanation": "La particule **呢** permet de poser une question **courte** en s'appuyant sur ce qui vient d'être dit. C'est l'équivalent de « Et toi ? », « Et lui ? ».\n\n- 我很好，你呢？ = Je vais bien, et toi ?\n- 我是学生，你呢？ = Je suis étudiant, et toi ?\n- 我喝茶，他呢？ = Moi je bois du thé, et lui ?\n\nOn évite ainsi de répéter toute la question (你好吗？, 你是学生吗？). C'est extrêmement fréquent dans la conversation.\n\n**Deuxième usage : « Où est… ? »** Un nom seul suivi de 呢, sans contexte précédent, demande où se trouve quelque chose ou quelqu'un :\n\n- 我的书呢？ = Où est mon livre ?\n- 妈妈呢？ = Où est maman ?\n\n**Construction :** 呢 se place **après** le nom ou le pronom, en fin de phrase : *呢你 ✗.\n\n**Pièges pour un francophone :**\n\n- **Ne confonds pas 呢 et 吗.** 吗 transforme une phrase complète en question oui/non (你好吗？). 呢 « renvoie » une question déjà posée ou sous-entendue, et s'attache à un simple nom (你呢？). *我很好，你吗？ ✗.\n- On ne combine pas 呢 et 吗 : *你呢吗 ✗.\n- 你呢？ n'a de sens que s'il y a un contexte : la première phrase indique de quoi on parle.\n\nComment répondre ? On répond à la question sous-entendue : A : 我是老师，你呢？ — B : 我也是老师 / 我是学生.",
+  "examples": [
+   {
+    "zh": "我很好，你呢？",
+    "fr": "Je vais bien, et toi ?"
+   },
+   {
+    "zh": "我是学生，你呢？",
+    "fr": "Je suis étudiant, et toi ?"
+   },
+   {
+    "zh": "我喝茶，他呢？",
+    "fr": "Moi je bois du thé, et lui ?"
+   },
+   {
+    "zh": "我妈妈是老师，你妈妈呢？",
+    "fr": "Ma mère est professeure, et la tienne ?"
+   },
+   {
+    "zh": "我的书呢？",
+    "fr": "Où est mon livre ?"
+   },
+   {
+    "zh": "他去北京，你们呢？",
+    "fr": "Il va à Pékin, et vous ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "很",
+     "好",
+     "你",
+     "呢"
+    ],
+    "answer": "我很好你呢",
+    "fr": "Je vais bien, et toi ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "是",
+     "中国人",
+     "你",
+     "呢"
+    ],
+    "answer": "我是中国人你呢",
+    "fr": "Je suis chinois, et toi ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "的",
+     "猫",
+     "呢"
+    ],
+    "answer": "我的猫呢",
+    "fr": "Où est mon chat ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "我喝水，你___？",
+    "options": [
+     "呢",
+     "吗",
+     "的",
+     "很"
+    ],
+    "answer": "呢",
+    "fr": "Je bois de l'eau, et toi ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "他是医生，___呢？",
+    "options": [
+     "你",
+     "吗",
+     "什么",
+     "很"
+    ],
+    "answer": "你",
+    "fr": "Il est médecin, et toi ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "我的电脑___？",
+    "options": [
+     "呢",
+     "吗",
+     "的",
+     "是"
+    ],
+    "answer": "呢",
+    "fr": "Où est mon ordinateur ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Raccourcis la deuxième question avec 呢.",
+    "zh": "我是老师。你是老师吗？",
+    "answers": [
+     "我是老师，你呢？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Raccourcis la deuxième question avec 呢.",
+    "zh": "我很好。你好吗？",
+    "answers": [
+     "我很好，你呢？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我很好，你吗？",
+    "answers": [
+     "我很好，你呢？"
+    ],
+    "explanation": "Pour renvoyer la question (« et toi ? »), on utilise 呢, pas 吗."
+   },
+   {
+    "type": "error",
+    "zh": "我喝茶，呢你？",
+    "answers": [
+     "我喝茶，你呢？"
+    ],
+    "explanation": "呢 se place après le nom ou le pronom."
+   },
+   {
+    "type": "translate",
+    "fr": "Je suis étudiant, et toi ?",
+    "answers": [
+     "我是学生，你呢？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Où est ma tasse ?",
+    "answers": [
+     "我的杯子呢？",
+     "我的杯子在哪儿？",
+     "我的杯子在哪里？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Mon père est médecin, et le tien ?",
+    "answers": [
+     "我爸爸是医生，你爸爸呢？",
+     "我爸爸是医生，你的爸爸呢？",
+     "我的爸爸是医生，你的呢？",
+     "我爸爸是医生，你的呢？",
+     "我的爸爸是医生，你爸爸呢？",
+     "我的爸爸是医生，你的爸爸呢？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 我的书呢？",
+    "options": [
+     "Où est mon livre ?",
+     "C'est mon livre ?",
+     "J'ai un livre."
+    ],
+    "answer": 0,
+    "explanation": "Nom + 呢 sans contexte = « où est… ? »."
+   },
+   {
+    "type": "choice",
+    "question": "A : 你好吗？ B : 我很好，___",
+    "options": [
+     "你吗？",
+     "你呢？",
+     "呢你？"
+    ],
+    "answer": 1,
+    "explanation": "On renvoie la question avec 你呢？"
+   },
+   {
+    "type": "listen",
+    "zh": "我是北京人，你呢？",
+    "question": "Que veut savoir la personne ?",
+    "options": [
+     "D'où vient l'autre personne",
+     "Si l'autre aime Pékin",
+     "Où se trouve Pékin"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-10",
+  "phase": 1,
+  "title": "Avoir et « il y a » : 有 / 没有",
+  "pattern": "Sujet + 有 + Objet\nSujet + 没有 + Objet\nLieu + 有 + Chose (il y a)",
+  "hsk": 1,
+  "explanation": "Le verbe **有** a deux grands usages.\n\n**1. Avoir, posséder.**\n\n- 我有电脑。 = J'ai un ordinateur.\n- 他有一个哥哥。 = Il a un grand frère.\n\n**2. « Il y a » (existence).** On place d'abord **le lieu**, puis 有, puis ce qui s'y trouve :\n\n- 商店里有水果。 = Il y a des fruits dans le magasin.\n- 桌子上有书。 = Il y a des livres sur la table.\n\nIl n'y a pas de « il » impersonnel : le lieu joue le rôle de sujet. Note les petits mots 里 (dans) et 上 (sur) qui transforment un objet en lieu.\n\n**La négation : uniquement 没有 (ou 没).** C'est LA grande exception : 有 ne se nie **jamais** avec 不.\n\n- 我没有钱。 / 我没钱。 = Je n'ai pas d'argent.\n- *我不有钱 ✗\n\n**Question :** 你有猫吗？ — 有。/ 没有。 On répond en reprenant 有, comme pour tout verbe.\n\n**Pièges pour un francophone :**\n\n- *不有 ✗ : c'est l'erreur n°1. Retiens le bloc 没有.\n- **L'ordre de « il y a »** : en français, le lieu est souvent à la fin (« il y a un livre sur la table »). En chinois, il vient **en premier** : 桌子上有书, et non *有书在桌子上.\n- Avec 没有, pas besoin d'article ni de nombre : 我没有哥哥 (« je n'ai pas de grand frère »).\n- Ne confonds pas avec 是 (« être ») ni 在 (« se trouver », leçon suivante) : 有 présente ce qui existe ou ce qu'on possède.",
+  "examples": [
+   {
+    "zh": "我有钱。",
+    "fr": "J'ai de l'argent."
+   },
+   {
+    "zh": "他没有电脑。",
+    "fr": "Il n'a pas d'ordinateur."
+   },
+   {
+    "zh": "你有猫吗？",
+    "fr": "As-tu un chat ?"
+   },
+   {
+    "zh": "商店里有水果。",
+    "fr": "Il y a des fruits dans le magasin."
+   },
+   {
+    "zh": "我家有狗。",
+    "fr": "Nous avons un chien à la maison."
+   },
+   {
+    "zh": "桌子上没有书。",
+    "fr": "Il n'y a pas de livre sur la table."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "有",
+     "电脑"
+    ],
+    "answer": "我有电脑",
+    "fr": "J'ai un ordinateur."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "没有",
+     "钱"
+    ],
+    "answer": "他没有钱",
+    "fr": "Il n'a pas d'argent."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "有",
+     "猫",
+     "吗"
+    ],
+    "answer": "你有猫吗",
+    "fr": "As-tu un chat ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "商店",
+     "里",
+     "有",
+     "水果"
+    ],
+    "answer": "商店里有水果",
+    "fr": "Il y a des fruits dans le magasin."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___有狗。",
+    "options": [
+     "没",
+     "不",
+     "很",
+     "是"
+    ],
+    "answer": "没",
+    "fr": "Je n'ai pas de chien."
+   },
+   {
+    "type": "cloze",
+    "zh": "你___电脑吗？",
+    "options": [
+     "有",
+     "是",
+     "很",
+     "在"
+    ],
+    "answer": "有",
+    "fr": "As-tu un ordinateur ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "学校里___很多学生。",
+    "options": [
+     "有",
+     "是",
+     "很",
+     "的"
+    ],
+    "answer": "有",
+    "fr": "Il y a beaucoup d'élèves dans l'école."
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "我有钱。",
+    "answers": [
+     "我没有钱。",
+     "我没钱。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "他们有电视。",
+    "answers": [
+     "他们没有电视。",
+     "他们没电视。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question avec 吗.",
+    "zh": "她有朋友。",
+    "answers": [
+     "她有朋友吗？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我不有猫。",
+    "answers": [
+     "我没有猫。",
+     "我没猫。"
+    ],
+    "explanation": "On nie 有 avec 没, jamais avec 不."
+   },
+   {
+    "type": "error",
+    "zh": "有书在桌子上。",
+    "answers": [
+     "桌子上有书。"
+    ],
+    "explanation": "Pour « il y a », le lieu vient en premier : Lieu + 有 + chose."
+   },
+   {
+    "type": "translate",
+    "fr": "J'ai de l'argent.",
+    "answers": [
+     "我有钱。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Elle n'a pas de chat.",
+    "answers": [
+     "她没有猫。",
+     "她没猫。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il y a des pommes à la maison.",
+    "answers": [
+     "家里有苹果。",
+     "我家有苹果。",
+     "我家里有苹果。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle est la négation de 我有电脑 ?",
+    "options": [
+     "我不有电脑。",
+     "我没有电脑。",
+     "我有不电脑。"
+    ],
+    "answer": 1,
+    "explanation": "有 se nie toujours avec 没."
+   },
+   {
+    "type": "choice",
+    "question": "« Il y a de l'eau dans la tasse » :",
+    "options": [
+     "杯子里有水。",
+     "有水杯子里。",
+     "杯子里是水有。"
+    ],
+    "answer": 0,
+    "explanation": "Lieu (杯子里) + 有 + chose (水)."
+   },
+   {
+    "type": "listen",
+    "zh": "我没有哥哥，我有姐姐。",
+    "question": "Qui y a-t-il dans sa famille ?",
+    "options": [
+     "Une grande sœur",
+     "Un grand frère",
+     "Les deux"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-11",
+  "phase": 1,
+  "title": "Être quelque part : 在",
+  "pattern": "Personne / Chose + 在 + Lieu\nPersonne / Chose + 不在 + Lieu",
+  "hsk": 1,
+  "explanation": "Pour dire où se trouve quelqu'un ou quelque chose, on utilise le verbe **在** (« se trouver à, être à »). Ce n'est **pas** 是 !\n\n- 我在家。 = Je suis à la maison.\n- 老师在学校。 = Le professeur est à l'école.\n- 你在哪儿？ = Où es-tu ?\n\n**Négation :** 不在. 妈妈不在家。 = Maman n'est pas à la maison.\n\n**Question :** 你在哪儿？ (le mot 哪儿 prend la place du lieu) ou 他在家吗？\n\n**Objets et lieux : 上 et 里.** Un nom d'objet (table, chaise, tasse) n'est pas un lieu en soi. Pour en faire un lieu, on ajoute un mot de position après :\n\n- 桌子**上** = sur la table\n- 杯子**里** = dans la tasse\n- 我的书在桌子上。 = Mon livre est sur la table.\n\nEn revanche, les noms de villes, pays et lieux « naturels » (学校, 医院, 家, 北京, 中国) sont déjà des lieux : *在北京里 ✗ → 在北京 ✓.\n\n**在 ou 有 ?** Les deux parlent de localisation, mais :\n\n- 书在桌子上 = **le** livre (un livre précis, connu) est sur la table. Ordre : chose + 在 + lieu.\n- 桌子上有书 = **il y a un** livre sur la table. Ordre : lieu + 有 + chose.\n\n**Pièges pour un francophone :**\n\n- *我是北京 ✗ (« je suis Pékin ») → 我在北京 ✓.\n- Pas de préposition supplémentaire : 在 contient déjà « à / dans ».\n- 在家 = à la maison (pas besoin de 里).\n- Oublier 上 / 里 après un objet : *杯子在桌子 ✗.",
+  "examples": [
+   {
+    "zh": "我在家。",
+    "fr": "Je suis à la maison."
+   },
+   {
+    "zh": "老师在学校。",
+    "fr": "Le professeur est à l'école."
+   },
+   {
+    "zh": "你在哪儿？",
+    "fr": "Où es-tu ?"
+   },
+   {
+    "zh": "我的书在桌子上。",
+    "fr": "Mon livre est sur la table."
+   },
+   {
+    "zh": "妈妈不在家。",
+    "fr": "Maman n'est pas à la maison."
+   },
+   {
+    "zh": "他在北京。",
+    "fr": "Il est à Pékin."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "在",
+     "学校"
+    ],
+    "answer": "我在学校",
+    "fr": "Je suis à l'école."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "在",
+     "哪儿"
+    ],
+    "answer": "你在哪儿",
+    "fr": "Où es-tu ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "猫",
+     "在",
+     "椅子",
+     "上"
+    ],
+    "answer": "猫在椅子上",
+    "fr": "Le chat est sur la chaise."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "爸爸",
+     "不",
+     "在",
+     "家"
+    ],
+    "answer": "爸爸不在家",
+    "fr": "Papa n'est pas à la maison."
+   },
+   {
+    "type": "cloze",
+    "zh": "我妈妈___医院。",
+    "options": [
+     "在",
+     "是",
+     "有",
+     "很"
+    ],
+    "answer": "在",
+    "fr": "Ma mère est à l'hôpital."
+   },
+   {
+    "type": "cloze",
+    "zh": "书在桌子___。",
+    "options": [
+     "上",
+     "在",
+     "有",
+     "是"
+    ],
+    "answer": "上",
+    "fr": "Le livre est sur la table."
+   },
+   {
+    "type": "cloze",
+    "zh": "他们___在北京。",
+    "options": [
+     "不",
+     "吗",
+     "很",
+     "的"
+    ],
+    "answer": "不",
+    "fr": "Ils ne sont pas à Pékin."
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question « où ? ».",
+    "zh": "老师在学校。",
+    "answers": [
+     "老师在哪儿？",
+     "老师在哪里？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "我在家。",
+    "answers": [
+     "我不在家。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我是北京。",
+    "answers": [
+     "我在北京。"
+    ],
+    "explanation": "Pour dire où l'on se trouve, on utilise 在, pas 是."
+   },
+   {
+    "type": "error",
+    "zh": "杯子在桌子。",
+    "answers": [
+     "杯子在桌子上。"
+    ],
+    "explanation": "Un objet (桌子) n'est pas un lieu : on ajoute 上 (sur) ou 里 (dans)."
+   },
+   {
+    "type": "error",
+    "zh": "他在北京里。",
+    "answers": [
+     "他在北京。"
+    ],
+    "explanation": "Un nom de ville est déjà un lieu : pas besoin de 里."
+   },
+   {
+    "type": "translate",
+    "fr": "Où est ton chat ?",
+    "answers": [
+     "你的猫在哪儿？",
+     "你的猫呢？",
+     "你的猫在哪里？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je suis à la maison.",
+    "answers": [
+     "我在家。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Le professeur n'est pas à l'école.",
+    "answers": [
+     "老师不在学校。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Il est à l'hôpital » :",
+    "options": [
+     "他是医院。",
+     "他在医院。",
+     "他有医院。"
+    ],
+    "answer": 1,
+    "explanation": "Localisation = 在 + lieu."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle différence entre 书在桌子上 et 桌子上有书 ?",
+    "options": [
+     "Aucune",
+     "Le premier parle d'un livre précis (« le livre est sur la table ») ; le second signale l'existence (« il y a un livre sur la table »)",
+     "桌子上有书 est incorrect"
+    ],
+    "answer": 1,
+    "explanation": "Chose connue + 在 + lieu ; lieu + 有 + chose nouvelle."
+   },
+   {
+    "type": "listen",
+    "zh": "我不在家，我在学校。",
+    "question": "Où est la personne ?",
+    "options": [
+     "À l'école",
+     "À la maison",
+     "À l'hôpital"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-12",
+  "phase": 1,
+  "title": "Faire quelque chose quelque part : 在 + lieu + verbe",
+  "pattern": "Sujet + 在 + Lieu + Verbe (+ Objet)",
+  "hsk": 1,
+  "explanation": "Quand on veut dire **où se déroule une action**, on place 在 + lieu **avant le verbe**. C'est l'inverse du français, qui met le lieu à la fin.\n\n- Je travaille **à l'hôpital**. → 我**在医院**工作。\n- Nous mangeons **au restaurant**. → 我们**在饭馆**吃饭。\n- J'étudie le chinois **à la maison**. → 我**在家**学习汉语。\n\nRetiens l'ordre : **Qui → où → fait quoi**. Le chinois « plante le décor » avant de raconter l'action.\n\n**Négation :** 不 se place devant 在 : 我爸爸不在家工作。 = Mon père ne travaille pas à la maison.\n\n**Question :** on remplace le lieu par 哪儿, à la même place : 你在哪儿工作？ = Où travailles-tu ?\n\n**Avec une expression de temps**, le temps vient avant le lieu : 我明天在家看书 (tu le reverras dans la leçon sur le temps).\n\n**Exception : 住 (habiter).** Avec quelques verbes, dont 住, on peut mettre 在 + lieu **après** le verbe : 我住在北京 = j'habite à Pékin. On peut aussi dire 我在北京住. Pour tous les autres verbes que tu connais, garde le lieu avant le verbe.\n\n**Pièges pour un francophone :**\n\n- *我工作在医院 ✗ : c'est l'ordre français calqué, l'erreur la plus fréquente.\n- 在 doit être **immédiatement suivi du lieu** : *我在看书家 ✗.\n- Ne confonds pas avec 去 + lieu (« aller à ») : 我在学校学习 (j'étudie à l'école) ≠ 我去学校学习 (je vais à l'école pour étudier).",
+  "examples": [
+   {
+    "zh": "我在家吃饭。",
+    "fr": "Je mange à la maison."
+   },
+   {
+    "zh": "他在医院工作。",
+    "fr": "Il travaille à l'hôpital."
+   },
+   {
+    "zh": "我们在学校学习汉语。",
+    "fr": "Nous étudions le chinois à l'école."
+   },
+   {
+    "zh": "你在哪儿工作？",
+    "fr": "Où travailles-tu ?"
+   },
+   {
+    "zh": "妈妈在商店买东西。",
+    "fr": "Maman fait des courses au magasin."
+   },
+   {
+    "zh": "我住在北京。",
+    "fr": "J'habite à Pékin."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "在",
+     "家",
+     "看",
+     "电视"
+    ],
+    "answer": "我在家看电视",
+    "fr": "Je regarde la télé à la maison."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "在",
+     "医院",
+     "工作"
+    ],
+    "answer": "他在医院工作",
+    "fr": "Il travaille à l'hôpital."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "在",
+     "哪儿",
+     "学习",
+     "汉语"
+    ],
+    "answer": "你在哪儿学习汉语",
+    "fr": "Où étudies-tu le chinois ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "在",
+     "饭馆",
+     "吃",
+     "饭"
+    ],
+    "answer": "我们在饭馆吃饭",
+    "fr": "Nous mangeons au restaurant."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___学校学习。",
+    "options": [
+     "在",
+     "是",
+     "有",
+     "很"
+    ],
+    "answer": "在",
+    "fr": "J'étudie à l'école."
+   },
+   {
+    "type": "cloze",
+    "zh": "她在商店___东西。",
+    "options": [
+     "买",
+     "在",
+     "是",
+     "有"
+    ],
+    "answer": "买",
+    "fr": "Elle achète des choses au magasin."
+   },
+   {
+    "type": "cloze",
+    "zh": "我爸爸___在家工作。",
+    "options": [
+     "不",
+     "的",
+     "很",
+     "吗"
+    ],
+    "answer": "不",
+    "fr": "Mon père ne travaille pas à la maison."
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute le lieu 学校 dans la phrase.",
+    "zh": "我学习汉语。",
+    "answers": [
+     "我在学校学习汉语。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute le lieu 家 dans la phrase.",
+    "zh": "妈妈看书。",
+    "answers": [
+     "妈妈在家看书。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question sur le lieu.",
+    "zh": "他在医院工作。",
+    "answers": [
+     "他在哪儿工作？",
+     "他在哪里工作？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我工作在医院。",
+    "answers": [
+     "我在医院工作。"
+    ],
+    "explanation": "Le lieu (在 + lieu) se place avant le verbe, contrairement au français."
+   },
+   {
+    "type": "error",
+    "zh": "他们吃饭在饭馆。",
+    "answers": [
+     "他们在饭馆吃饭。"
+    ],
+    "explanation": "在 + lieu précède le verbe : 在饭馆吃饭."
+   },
+   {
+    "type": "error",
+    "zh": "我在看书家。",
+    "answers": [
+     "我在家看书。"
+    ],
+    "explanation": "在 doit être suivi immédiatement du lieu."
+   },
+   {
+    "type": "translate",
+    "fr": "J'étudie le chinois à la maison.",
+    "answers": [
+     "我在家学习汉语。",
+     "我在家学汉语。",
+     "我在家学习中文。",
+     "我在家学中文。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ma mère travaille dans une école.",
+    "answers": [
+     "我妈妈在学校工作。",
+     "我的妈妈在学校工作。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Où travailles-tu ?",
+    "answers": [
+     "你在哪儿工作？",
+     "你在哪里工作？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Je mange au restaurant » :",
+    "options": [
+     "我吃饭在饭馆。",
+     "我在饭馆吃饭。",
+     "在饭馆我吃饭在。"
+    ],
+    "answer": 1,
+    "explanation": "Sujet + 在 + lieu + verbe."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte avec le verbe 住 (habiter) ?",
+    "options": [
+     "我住在北京。",
+     "我北京住。",
+     "我住北京在。"
+    ],
+    "answer": 0,
+    "explanation": "住 fait exception : on dit 住在 + lieu (ou 在北京住)."
+   },
+   {
+    "type": "listen",
+    "zh": "我爸爸在医院工作，他是医生。",
+    "question": "Où travaille le père ?",
+    "options": [
+     "À l'hôpital",
+     "À l'école",
+     "Au magasin"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-13",
+  "phase": 1,
+  "title": "Nombres et classificateurs (个, 本, 口, 杯…)",
+  "pattern": "Nombre + Classificateur + Nom\n两 + Classificateur (et non 二)",
+  "hsk": 1,
+  "explanation": "**Les nombres** sont très logiques : 一 二 三 四 五 六 七 八 九 十 (1 à 10). Ensuite on combine :\n\n- 十一 = 11 (dix-un), 十五 = 15\n- 二十 = 20 (deux-dix), 二十五 = 25, 九十九 = 99\n\n**Le classificateur.** En chinois, on ne peut pas mettre un nombre directement devant un nom. Il faut un petit mot intermédiaire, le **classificateur** (un peu comme « une **tasse** de thé », « une **paire** de chaussures », mais pour tous les noms) :\n\n- **个** : le classificateur général, pour les personnes et beaucoup d'objets — 三个人, 一个苹果\n- **本** : livres, cahiers — 两本书\n- **口** : membres d'une famille (pour compter la famille) — 我家有四口人\n- **杯** : une tasse / un verre de — 一杯茶, 两杯水\n- **块** : unité de monnaie (le yuan, à l'oral) — 十块钱\n\nSi tu ne connais pas le classificateur, 个 est souvent accepté à l'oral, mais apprends chaque nom avec son classificateur.\n\n**« Deux » : 二 ou 两 ?** Pour compter (« un, deux, trois »), dans les nombres composés (十二, 二十) et les dates, on dit 二. Mais **devant un classificateur**, on dit **两** : 两个人, 两本书. *二个 ✗.\n\n**Pièges pour un francophone :**\n\n- Oublier le classificateur : *三书 ✗ → 三本书 ✓.\n- Ajouter 们 au pluriel : avec un nombre, **jamais** de 们 : *三个学生们 ✗.\n- L'âge se dit nombre + 岁, sans verbe (ni 是 ni 有) : 我女儿五岁 (« ma fille a cinq ans »).",
+  "examples": [
+   {
+    "zh": "我有一个哥哥。",
+    "fr": "J'ai un grand frère."
+   },
+   {
+    "zh": "我家有四口人。",
+    "fr": "Nous sommes quatre dans ma famille."
+   },
+   {
+    "zh": "我买三本书。",
+    "fr": "J'achète trois livres."
+   },
+   {
+    "zh": "他有两个女儿。",
+    "fr": "Il a deux filles."
+   },
+   {
+    "zh": "我喝一杯茶。",
+    "fr": "Je bois une tasse de thé."
+   },
+   {
+    "zh": "这个杯子十块钱。",
+    "fr": "Cette tasse coûte dix yuans."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "有",
+     "两",
+     "个",
+     "妹妹"
+    ],
+    "answer": "我有两个妹妹",
+    "fr": "J'ai deux petites sœurs."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "家",
+     "有",
+     "五",
+     "口",
+     "人"
+    ],
+    "answer": "我家有五口人",
+    "fr": "Nous sommes cinq dans ma famille."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "她",
+     "买",
+     "三",
+     "本",
+     "书"
+    ],
+    "answer": "她买三本书",
+    "fr": "Elle achète trois livres."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "喝",
+     "一",
+     "杯",
+     "茶"
+    ],
+    "answer": "我喝一杯茶",
+    "fr": "Je bois une tasse de thé."
+   },
+   {
+    "type": "cloze",
+    "zh": "我有三___朋友。",
+    "options": [
+     "个",
+     "本",
+     "口",
+     "杯"
+    ],
+    "answer": "个",
+    "fr": "J'ai trois amis."
+   },
+   {
+    "type": "cloze",
+    "zh": "桌子上有两___书。",
+    "options": [
+     "本",
+     "个",
+     "口",
+     "杯"
+    ],
+    "answer": "本",
+    "fr": "Il y a deux livres sur la table."
+   },
+   {
+    "type": "cloze",
+    "zh": "他家有四___人。",
+    "options": [
+     "口",
+     "本",
+     "杯",
+     "块"
+    ],
+    "answer": "口",
+    "fr": "Ils sont quatre dans sa famille."
+   },
+   {
+    "type": "cloze",
+    "zh": "我有___个哥哥。",
+    "options": [
+     "两",
+     "二",
+     "们",
+     "本"
+    ],
+    "answer": "两",
+    "fr": "J'ai deux grands frères."
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute « trois » devant le nom (avec le bon classificateur).",
+    "zh": "我买书。",
+    "answers": [
+     "我买三本书。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute « deux » devant le nom (avec le bon classificateur).",
+    "zh": "我有女儿。",
+    "answers": [
+     "我有两个女儿。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我有三书。",
+    "answers": [
+     "我有三本书。"
+    ],
+    "explanation": "Entre le nombre et le nom, il faut un classificateur : 本 pour les livres."
+   },
+   {
+    "type": "error",
+    "zh": "他有二个儿子。",
+    "answers": [
+     "他有两个儿子。"
+    ],
+    "explanation": "Devant un classificateur, « deux » se dit 两, pas 二."
+   },
+   {
+    "type": "error",
+    "zh": "我有三个朋友们。",
+    "answers": [
+     "我有三个朋友。"
+    ],
+    "explanation": "Avec un nombre, on n'ajoute jamais 们."
+   },
+   {
+    "type": "translate",
+    "fr": "J'ai un fils.",
+    "answers": [
+     "我有一个儿子。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Nous sommes trois dans ma famille.",
+    "answers": [
+     "我家有三口人。",
+     "我家有三个人。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je bois deux tasses de thé.",
+    "answers": [
+     "我喝两杯茶。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Nous avons onze professeurs.",
+    "answers": [
+     "我们有十一个老师。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quel classificateur pour 书 (livre) ?",
+    "options": [
+     "个",
+     "本",
+     "口"
+    ],
+    "answer": 1,
+    "explanation": "本 s'emploie pour les livres."
+   },
+   {
+    "type": "choice",
+    "question": "Comment dit-on 25 ?",
+    "options": [
+     "二五",
+     "二十五",
+     "五十二"
+    ],
+    "answer": 1,
+    "explanation": "25 = deux-dix-cinq : 二十五."
+   },
+   {
+    "type": "listen",
+    "zh": "我家有四口人：爸爸、妈妈、哥哥和我。",
+    "question": "Combien de personnes compte la famille ?",
+    "options": [
+     "Quatre",
+     "Trois",
+     "Cinq"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-14",
+  "phase": 1,
+  "title": "Ce… -ci / -là : 这 et 那 + classificateur",
+  "pattern": "这 / 那 + (Nombre) + Classificateur + Nom\n这 / 那 + 是 + Nom\n哪 + Classificateur ？",
+  "hsk": 1,
+  "explanation": "**这** signifie « ceci, ce…-ci » (proche) et **那** « cela, ce…-là » (éloigné).\n\n**Utilisés seuls, comme sujet**, ils se mettent directement devant 是 :\n\n- 这是我的书。 = C'est mon livre. / Ceci est mon livre.\n- 那是我们学校。 = Ça, c'est notre école.\n\n**Devant un nom, il faut un classificateur**, exactement comme avec un nombre :\n\n- 这**个**人 = cette personne\n- 那**本**书 = ce livre-là\n- 这**杯**茶 = cette tasse de thé\n\n**Avec un nombre**, l'ordre est fixe : **这 / 那 + nombre + classificateur + nom**.\n\n- 这三本书 = ces trois livres\n- 那两个学生 = ces deux élèves-là\n\n**Comme pronom** (« celui-ci, celui-là ») : 这个, 那个. 我要这个 = je veux celui-ci.\n\n**哪 + classificateur = « lequel ? »** : 哪个？ 哪本书？ Comme tous les mots interrogatifs, il reste à sa place : 你喜欢哪个？\n\n**这儿 / 那儿** = ici / là-bas (des lieux) : 我在这儿。\n\n**Pièges pour un francophone :**\n\n- Oublier le classificateur devant le nom (*这书 s'entend à l'oral, mais 这本书 est la forme correcte à apprendre).\n- Mettre le nombre avant 这 : *三这本书 ✗ → 这三本书 ✓.\n- Mettre deux classificateurs : *这个本书 ✗.\n- Mauvais classificateur : 本 est pour les livres, 个 pour les personnes : *这本人 ✗.\n- 这是 (« c'est ») et 这个是 (« celui-ci est ») ne sont pas interchangeables devant un nom : 这本书很好, pas *这是书很好.",
+  "examples": [
+   {
+    "zh": "这是我的书。",
+    "fr": "C'est mon livre."
+   },
+   {
+    "zh": "那个人是我的老师。",
+    "fr": "Cette personne-là est mon professeur."
+   },
+   {
+    "zh": "这本书很好。",
+    "fr": "Ce livre est très bien."
+   },
+   {
+    "zh": "那三个学生是中国人。",
+    "fr": "Ces trois élèves-là sont chinois."
+   },
+   {
+    "zh": "这个杯子很大。",
+    "fr": "Cette tasse est grande."
+   },
+   {
+    "zh": "你喜欢哪个？",
+    "fr": "Lequel aimes-tu ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "本",
+     "书",
+     "很",
+     "好"
+    ],
+    "answer": "这本书很好",
+    "fr": "Ce livre est très bien."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "那",
+     "个",
+     "人",
+     "是",
+     "医生"
+    ],
+    "answer": "那个人是医生",
+    "fr": "Cette personne-là est médecin."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "两",
+     "个",
+     "苹果",
+     "很",
+     "大"
+    ],
+    "answer": "这两个苹果很大",
+    "fr": "Ces deux pommes sont grosses."
+   },
+   {
+    "type": "cloze",
+    "zh": "___本书是我的。",
+    "options": [
+     "这",
+     "这个",
+     "是",
+     "很"
+    ],
+    "answer": "这",
+    "fr": "Ce livre est à moi."
+   },
+   {
+    "type": "cloze",
+    "zh": "那___杯子很小。",
+    "options": [
+     "个",
+     "本",
+     "口",
+     "是"
+    ],
+    "answer": "个",
+    "fr": "Cette tasse est petite."
+   },
+   {
+    "type": "cloze",
+    "zh": "___个是你的？",
+    "options": [
+     "哪",
+     "什么",
+     "谁",
+     "哪儿"
+    ],
+    "answer": "哪",
+    "fr": "Lequel est à toi ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Remplace 这 par 那.",
+    "zh": "这个人是老师。",
+    "answers": [
+     "那个人是老师。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute « deux » (这 + nombre + classificateur).",
+    "zh": "这本书很好。",
+    "answers": [
+     "这两本书很好。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "三这本书很好。",
+    "answers": [
+     "这三本书很好。"
+    ],
+    "explanation": "L'ordre est 这 + nombre + classificateur + nom."
+   },
+   {
+    "type": "error",
+    "zh": "这个本书是他的。",
+    "answers": [
+     "这本书是他的。"
+    ],
+    "explanation": "Un seul classificateur : 本 pour les livres (pas 个本)."
+   },
+   {
+    "type": "error",
+    "zh": "这本人是老师。",
+    "answers": [
+     "这个人是老师。"
+    ],
+    "explanation": "Pour les personnes, le classificateur est 个 ; 本 est pour les livres."
+   },
+   {
+    "type": "translate",
+    "fr": "Cet ordinateur est très petit.",
+    "answers": [
+     "这个电脑很小。",
+     "这台电脑很小。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ce livre-là est à mon professeur.",
+    "answers": [
+     "那本书是我老师的。",
+     "那本书是我的老师的。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Qui est cette personne ?",
+    "answers": [
+     "这个人是谁？",
+     "那个人是谁？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Ces trois livres » :",
+    "options": [
+     "三这本书",
+     "这三本书",
+     "这本三书"
+    ],
+    "answer": 1,
+    "explanation": "这 + nombre + classificateur + nom."
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 那个 ?",
+    "options": [
+     "celui-là / ce…-là",
+     "ici",
+     "lequel ?"
+    ],
+    "answer": 0,
+    "explanation": "那 = là (éloigné) + 个 (classificateur)."
+   },
+   {
+    "type": "listen",
+    "zh": "这个杯子是我的，那个杯子是我妈妈的。",
+    "question": "À qui est la tasse « là-bas » ?",
+    "options": [
+     "À la mère",
+     "Au locuteur",
+     "Au père"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-15",
+  "phase": 1,
+  "title": "Demander une quantité : 几 et 多少",
+  "pattern": "几 + Classificateur + Nom ？ (petite quantité)\n多少 (+ Classificateur) + Nom ？ (quantité quelconque)\n…多少钱？",
+  "hsk": 1,
+  "explanation": "Il existe deux mots pour « combien ? ».\n\n**几** s'emploie quand on s'attend à une **petite quantité** (en général moins de dix) :\n\n- 你有几个哥哥？ = Combien as-tu de grands frères ?\n- 你家有几口人？ = Combien êtes-vous dans ta famille ?\n- 你女儿几岁？ = Quel âge a ta fille ? (pour un enfant)\n\nAprès 几, le **classificateur est obligatoire** : 几个, 几本, 几口.\n\n**多少** s'emploie pour une quantité **quelconque ou grande**, quand on n'a aucune idée de la réponse :\n\n- 你们学校有多少学生？ = Combien d'élèves a votre école ?\n- 这个多少钱？ = Combien ça coûte ?\n\nAprès 多少, le classificateur est **facultatif** : 多少本书 ou 多少书.\n\n**Pour les prix**, on utilise toujours 多少钱 : 这本书多少钱？ — 三十块。\n\n**Pour les dates et l'heure**, on utilise 几 (petits nombres attendus) : 几点 (quelle heure), 几号 (quel jour du mois), 星期几 (quel jour de la semaine). Tu les verras en détail bientôt.\n\n**Comme tous les mots interrogatifs**, 几 et 多少 restent **à la place de la réponse** et on n'ajoute **pas de 吗** :\n\n- 我有两个哥哥。 → 你有几个哥哥？\n\n**Pièges pour un francophone :**\n\n- Oublier le classificateur après 几 : *几书 ✗ → 几本书 ✓.\n- Placer « combien » en tête comme en français : *几个人你家有 ✗.\n- Ajouter 吗 à la fin : *几口人吗 ✗.\n- Pour l'âge d'un adulte, 几岁 est familier (on l'utilise surtout avec les enfants).",
+  "examples": [
+   {
+    "zh": "你家有几口人？",
+    "fr": "Combien êtes-vous dans ta famille ?"
+   },
+   {
+    "zh": "你有几个哥哥？",
+    "fr": "Combien as-tu de grands frères ?"
+   },
+   {
+    "zh": "你们学校有多少学生？",
+    "fr": "Combien d'élèves a votre école ?"
+   },
+   {
+    "zh": "这个多少钱？",
+    "fr": "Combien ça coûte ?"
+   },
+   {
+    "zh": "你女儿几岁？",
+    "fr": "Quel âge a ta fille ?"
+   },
+   {
+    "zh": "今天几号？",
+    "fr": "Quel jour du mois sommes-nous ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "家",
+     "有",
+     "几",
+     "口",
+     "人"
+    ],
+    "answer": "你家有几口人",
+    "fr": "Combien êtes-vous dans ta famille ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "个",
+     "多少",
+     "钱"
+    ],
+    "answer": "这个多少钱",
+    "fr": "Combien coûte ceci ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "有",
+     "几",
+     "个",
+     "朋友"
+    ],
+    "answer": "你有几个朋友",
+    "fr": "Combien d'amis as-tu ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你们",
+     "学校",
+     "有",
+     "多少",
+     "学生"
+    ],
+    "answer": "你们学校有多少学生",
+    "fr": "Combien d'élèves y a-t-il dans votre école ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你有___个妹妹？",
+    "options": [
+     "几",
+     "什么",
+     "谁",
+     "哪儿"
+    ],
+    "answer": "几",
+    "fr": "Combien as-tu de petites sœurs ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "这本书___钱？",
+    "options": [
+     "多少",
+     "几",
+     "什么",
+     "吗"
+    ],
+    "answer": "多少",
+    "fr": "Combien coûte ce livre ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你女儿___岁？",
+    "options": [
+     "几",
+     "谁",
+     "什么",
+     "哪"
+    ],
+    "answer": "几",
+    "fr": "Quel âge a ta fille ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你买几___苹果？",
+    "options": [
+     "个",
+     "吗",
+     "多少",
+     "呢"
+    ],
+    "answer": "个",
+    "fr": "Combien de pommes achètes-tu ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question sur le nombre (petite quantité).",
+    "zh": "我有两个哥哥。",
+    "answers": [
+     "你有几个哥哥？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question sur le prix.",
+    "zh": "这个杯子十块钱。",
+    "answers": [
+     "这个杯子多少钱？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "你有几书？",
+    "answers": [
+     "你有几本书？"
+    ],
+    "explanation": "Après 几, le classificateur est obligatoire."
+   },
+   {
+    "type": "error",
+    "zh": "你家有几口人吗？",
+    "answers": [
+     "你家有几口人？"
+    ],
+    "explanation": "Pas de 吗 avec un mot interrogatif comme 几."
+   },
+   {
+    "type": "translate",
+    "fr": "Combien coûte cette chose ?",
+    "answers": [
+     "这个东西多少钱？",
+     "这个多少钱？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Combien as-tu de livres ?",
+    "answers": [
+     "你有几本书？",
+     "你有多少本书？",
+     "你有多少书？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Quel âge a ta fille ?",
+    "answers": [
+     "你女儿几岁？",
+     "你的女儿几岁？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Pour demander le nombre d'élèves d'une grande école :",
+    "options": [
+     "几",
+     "多少",
+     "什么"
+    ],
+    "answer": 1,
+    "explanation": "Grande quantité inconnue : 多少."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle question est correcte ?",
+    "options": [
+     "几个人你家有？",
+     "你家有几口人？",
+     "你家有几人？"
+    ],
+    "answer": 1,
+    "explanation": "几 + classificateur (口 pour la famille), à la place de la réponse."
+   },
+   {
+    "type": "listen",
+    "zh": "这本书三十块钱。",
+    "question": "Combien coûte le livre ?",
+    "options": [
+     "30 yuans",
+     "3 yuans",
+     "13 yuans"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-16",
+  "phase": 1,
+  "title": "Aussi : 也",
+  "pattern": "Sujet + 也 + Verbe / Adjectif\nSujet + 也 + 不 + Verbe (non plus)",
+  "hsk": 1,
+  "explanation": "**也** signifie « aussi ». Sa place est **fixe** : juste **après le sujet** et **avant le verbe** (ou l'adjectif, ou 很, 不, 是, 在…).\n\n- 我也是学生。 = Moi aussi, je suis étudiant. / Je suis aussi étudiant.\n- 他也喝茶。 = Lui aussi boit du thé.\n- 我也很好。 = Moi aussi, je vais bien.\n\n**« Non plus » : 也 + 不.** Pour une phrase négative, on combine 也 et 不 dans cet ordre :\n\n- 她也不去。 = Elle n'y va pas non plus.\n- 我也不认识他。 = Moi non plus, je ne le connais pas.\n\n*不也 ✗ — l'ordre est toujours **也不**.\n\n**« Moi aussi » tout court** : on ne peut pas dire *我也 seul. On reprend le verbe, ou on utilise 是 :\n\n- A : 我喜欢猫。 B : 我也喜欢。 / 我也是。\n\n**Pièges pour un francophone :**\n\n- En français, « aussi » se met souvent en fin de phrase (« je bois du thé aussi »). En chinois, **jamais** : *我喝茶也 ✗.\n- 也 ne se place **jamais avant le sujet** : *也我喝水 ✗.\n- 也 est un adverbe : il porte sur le verbe. Il ne relie pas deux noms : pour « du thé et aussi de l'eau », on utilise 和 (leçon à venir).\n- Quand 也 et 都 se combinent, l'ordre est 也都 (voir leçon suivante).\n\nRetiens la mélodie : **sujet – 也 – verbe**.",
+  "examples": [
+   {
+    "zh": "我也是学生。",
+    "fr": "Moi aussi, je suis étudiant."
+   },
+   {
+    "zh": "他也喝茶。",
+    "fr": "Lui aussi boit du thé."
+   },
+   {
+    "zh": "我也很好。",
+    "fr": "Moi aussi, je vais bien."
+   },
+   {
+    "zh": "她也不去。",
+    "fr": "Elle n'y va pas non plus."
+   },
+   {
+    "zh": "我也喜欢猫。",
+    "fr": "Moi aussi, j'aime les chats."
+   },
+   {
+    "zh": "你是老师？我也是。",
+    "fr": "Tu es professeur ? Moi aussi."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "也",
+     "是",
+     "老师"
+    ],
+    "answer": "我也是老师",
+    "fr": "Je suis aussi professeur."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "也",
+     "不",
+     "喝",
+     "茶"
+    ],
+    "answer": "他也不喝茶",
+    "fr": "Il ne boit pas de thé non plus."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "她",
+     "也",
+     "在",
+     "家"
+    ],
+    "answer": "她也在家",
+    "fr": "Elle aussi est à la maison."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "也",
+     "很",
+     "高兴"
+    ],
+    "answer": "我也很高兴",
+    "fr": "Moi aussi, je suis content."
+   },
+   {
+    "type": "cloze",
+    "zh": "我是中国人，他___是中国人。",
+    "options": [
+     "也",
+     "都",
+     "很",
+     "和"
+    ],
+    "answer": "也",
+    "fr": "Je suis chinois, lui aussi."
+   },
+   {
+    "type": "cloze",
+    "zh": "你喝茶，我也___。",
+    "options": [
+     "喝",
+     "的",
+     "也",
+     "很"
+    ],
+    "answer": "喝",
+    "fr": "Tu bois du thé, moi aussi."
+   },
+   {
+    "type": "cloze",
+    "zh": "我不认识他，她也___认识他。",
+    "options": [
+     "不",
+     "吗",
+     "很",
+     "是"
+    ],
+    "answer": "不",
+    "fr": "Je ne le connais pas, elle non plus."
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 也 dans la phrase.",
+    "zh": "我喜欢猫。",
+    "answers": [
+     "我也喜欢猫。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 也 dans la phrase (« non plus »).",
+    "zh": "他不在家。",
+    "answers": [
+     "他也不在家。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我是学生也。",
+    "answers": [
+     "我也是学生。"
+    ],
+    "explanation": "也 ne se place jamais en fin de phrase : il suit le sujet et précède le verbe."
+   },
+   {
+    "type": "error",
+    "zh": "也我喝水。",
+    "answers": [
+     "我也喝水。"
+    ],
+    "explanation": "也 se place après le sujet."
+   },
+   {
+    "type": "error",
+    "zh": "他不也去。",
+    "answers": [
+     "他也不去。"
+    ],
+    "explanation": "L'ordre est 也 + 不 : « non plus »."
+   },
+   {
+    "type": "translate",
+    "fr": "Moi aussi, je suis étudiant.",
+    "answers": [
+     "我也是学生。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il ne regarde pas la télé non plus.",
+    "answers": [
+     "他也不看电视。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Mon grand frère est aussi médecin.",
+    "answers": [
+     "我哥哥也是医生。",
+     "我的哥哥也是医生。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Moi non plus, je n'y vais pas. » :",
+    "options": [
+     "我不也去。",
+     "我也不去。",
+     "我去也不。"
+    ],
+    "answer": 1,
+    "explanation": "也 + 不 + verbe."
+   },
+   {
+    "type": "choice",
+    "question": "A : 我很好。 B : « Moi aussi. »",
+    "options": [
+     "也我很好。",
+     "我也很好。",
+     "我很好也。"
+    ],
+    "answer": 1,
+    "explanation": "也 se place entre le sujet et 很."
+   },
+   {
+    "type": "listen",
+    "zh": "我是学生，我哥哥也是学生。",
+    "question": "Que fait le grand frère ?",
+    "options": [
+     "Il est étudiant",
+     "Il est professeur",
+     "Il est médecin"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-17",
+  "phase": 1,
+  "title": "Tous : 都",
+  "pattern": "Sujet (pluriel) + 都 + Verbe / Adjectif\n都不 = aucun ; 不都 = pas tous",
+  "hsk": 1,
+  "explanation": "**都** signifie « tous, tous les deux, entièrement ». Comme 也, c'est un **adverbe** : il se place **après le sujet** et **avant le verbe**.\n\n- 我们都是学生。 = Nous sommes tous étudiants.\n- 他们都喝茶。 = Ils boivent tous du thé.\n- 我爸爸和我妈妈都是老师。 = Mon père et ma mère sont tous les deux professeurs.\n\n**都 regarde vers la gauche.** Il « résume » le groupe qui le précède (le sujet pluriel). C'est pourquoi le français « **tous** les élèves » devient 学生**都**… : le nom d'abord, 都 ensuite. *都学生很高兴 ✗.\n\n**Avec la négation, l'ordre change le sens :**\n\n- **都不** = aucun… ne, tous… ne… pas : 我们都不去。 = Aucun de nous n'y va.\n- **不都** = pas tous : 他们不都是中国人。 = Ils ne sont pas tous chinois.\n\n**Avec 也 :** l'ordre est toujours **也都** : 我们也都很好。 = Nous allons tous bien, nous aussi. *都也 ✗.\n\n**Pièges pour un francophone :**\n\n- Placer 都 devant le sujet comme « tous » en français : *都我们是学生 ✗.\n- Placer 都 après le verbe : *我们是都学生 ✗.\n- Confondre 都不 et 不都 : c'est une vraie différence de sens !\n- Avec deux personnes reliées par 和, 都 traduit « tous les deux » : 我和他都… On l'ajoute très souvent, là où le français ne dit rien.",
+  "examples": [
+   {
+    "zh": "我们都是学生。",
+    "fr": "Nous sommes tous étudiants."
+   },
+   {
+    "zh": "他们都喝茶。",
+    "fr": "Ils boivent tous du thé."
+   },
+   {
+    "zh": "我爸爸和我妈妈都是老师。",
+    "fr": "Mon père et ma mère sont tous les deux professeurs."
+   },
+   {
+    "zh": "我们都不去。",
+    "fr": "Aucun de nous n'y va."
+   },
+   {
+    "zh": "他们不都是中国人。",
+    "fr": "Ils ne sont pas tous chinois."
+   },
+   {
+    "zh": "我们也都很好。",
+    "fr": "Nous allons tous bien, nous aussi."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "都",
+     "是",
+     "学生"
+    ],
+    "answer": "我们都是学生",
+    "fr": "Nous sommes tous étudiants."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他们",
+     "都",
+     "不",
+     "在",
+     "家"
+    ],
+    "answer": "他们都不在家",
+    "fr": "Aucun d'eux n'est à la maison."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "也",
+     "都",
+     "很",
+     "好"
+    ],
+    "answer": "我们也都很好",
+    "fr": "Nous allons tous bien, nous aussi."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "爸爸",
+     "妈妈",
+     "都",
+     "是",
+     "医生"
+    ],
+    "answer": "我爸爸妈妈都是医生",
+    "fr": "Mon père et ma mère sont tous les deux médecins."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们___喜欢猫。",
+    "options": [
+     "都",
+     "和",
+     "吗",
+     "的"
+    ],
+    "answer": "都",
+    "fr": "Nous aimons tous les chats."
+   },
+   {
+    "type": "cloze",
+    "zh": "他们都___是老师。",
+    "options": [
+     "不",
+     "没",
+     "很",
+     "也"
+    ],
+    "answer": "不",
+    "fr": "Aucun d'eux n'est professeur."
+   },
+   {
+    "type": "cloze",
+    "zh": "学生___在学校。",
+    "options": [
+     "都",
+     "和",
+     "吗",
+     "的"
+    ],
+    "answer": "都",
+    "fr": "Les élèves sont tous à l'école."
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 都 pour dire « tous ».",
+    "zh": "他们是中国人。",
+    "answers": [
+     "他们都是中国人。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Dis « Aucun de nous n'y va » avec 都不.",
+    "zh": "我们去。",
+    "answers": [
+     "我们都不去。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "都我们是学生。",
+    "answers": [
+     "我们都是学生。"
+    ],
+    "explanation": "都 se place après le sujet, avant le verbe."
+   },
+   {
+    "type": "error",
+    "zh": "我们都也喝茶。",
+    "answers": [
+     "我们也都喝茶。"
+    ],
+    "explanation": "Quand on combine 也 et 都, l'ordre est 也都."
+   },
+   {
+    "type": "error",
+    "zh": "都学生很高兴。",
+    "answers": [
+     "学生都很高兴。"
+    ],
+    "explanation": "« Tous les élèves » devient 学生都 : 都 suit le nom."
+   },
+   {
+    "type": "translate",
+    "fr": "Nous sommes tous chinois.",
+    "answers": [
+     "我们都是中国人。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ils ne sont pas tous professeurs.",
+    "answers": [
+     "他们不都是老师。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Les pommes sont toutes grosses.",
+    "answers": [
+     "苹果都很大。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 他们不都是学生 ?",
+    "options": [
+     "Aucun d'eux n'est étudiant.",
+     "Ils ne sont pas tous étudiants.",
+     "Ils sont tous étudiants."
+    ],
+    "answer": 1,
+    "explanation": "不都 = pas tous ; 都不 = aucun."
+   },
+   {
+    "type": "choice",
+    "question": "« Tous mes amis aiment le thé » :",
+    "options": [
+     "都我的朋友喜欢茶。",
+     "我的朋友都喜欢茶。",
+     "我的朋友喜欢都茶。"
+    ],
+    "answer": 1,
+    "explanation": "Le groupe d'abord, puis 都 devant le verbe."
+   },
+   {
+    "type": "listen",
+    "zh": "我们都不是老师，我们都是学生。",
+    "question": "Qui sont-ils ?",
+    "options": [
+     "Tous des étudiants",
+     "Tous des professeurs",
+     "Des médecins"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-18",
+  "phase": 1,
+  "title": "Où placer le temps : avant le verbe",
+  "pattern": "Sujet + Temps + (在 + Lieu) + Verbe…\nTemps + Sujet + Verbe…",
+  "hsk": 1,
+  "explanation": "Les expressions qui disent **quand** se passe l'action (今天, 明天, 昨天, 现在, 上午, 下午, 星期一, 三点…) se placent **avant le verbe**, jamais à la fin de la phrase comme souvent en français.\n\nDeux positions sont possibles :\n\n- **Après le sujet** (la plus fréquente) : 我**明天**去北京。 = Je vais à Pékin demain.\n- **En tête de phrase** (pour planter le décor) : **明天**我去北京。\n\nMais **jamais après le verbe** : *我去北京明天 ✗.\n\n**Le verbe ne change pas** : c'est le mot de temps qui indique le passé ou le futur. 我明天去北京 (futur), 我现在去北京 (présent) : 去 reste 去.\n\n**Temps et lieu ensemble** : le chinois va du plus général au plus précis. **Le temps vient avant le lieu**, qui vient avant le verbe :\n\n- 我**明天在家**看书。 = Demain, je lis à la maison.\n- *我在家明天看书 ✗\n\nOrdre complet à retenir : **Sujet – Quand – Où – Fait quoi**.\n\n**Questions :** 什么时候 (« quand ») et 几点 (« à quelle heure ») occupent la même place que la réponse, devant le verbe :\n\n- 你什么时候去学校？ — 我明天去。\n- 你们几点吃饭？ — 我们十二点吃饭。\n\n**Pièges pour un francophone :**\n\n- Mettre « demain », « à trois heures », « lundi » à la fin : c'est le calque le plus fréquent.\n- Placer le lieu avant le temps.\n- Vouloir marquer le futur sur le verbe : inutile, 明天 suffit.",
+  "examples": [
+   {
+    "zh": "我明天去北京。",
+    "fr": "Je vais à Pékin demain."
+   },
+   {
+    "zh": "今天我很高兴。",
+    "fr": "Aujourd'hui, je suis content."
+   },
+   {
+    "zh": "他下午在家看书。",
+    "fr": "Cet après-midi, il lit à la maison."
+   },
+   {
+    "zh": "你什么时候去学校？",
+    "fr": "Quand vas-tu à l'école ?"
+   },
+   {
+    "zh": "我们星期一工作。",
+    "fr": "Nous travaillons le lundi."
+   },
+   {
+    "zh": "昨天很冷。",
+    "fr": "Il faisait froid hier."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "你什么时候",
+     "在",
+     "家"
+    ],
+    "answer": "你什么时候在家",
+    "fr": "Quand seras-tu à la maison ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们几点",
+     "在",
+     "饭馆",
+     "吃",
+     "饭"
+    ],
+    "answer": "我们几点在饭馆吃饭",
+    "fr": "À quelle heure mangeons-nous au restaurant ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他下午",
+     "在",
+     "家",
+     "看",
+     "书"
+    ],
+    "answer": "他下午在家看书",
+    "fr": "Il lit à la maison cet après-midi."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___去商店。",
+    "options": [
+     "明天",
+     "吗",
+     "很",
+     "的"
+    ],
+    "answer": "明天",
+    "fr": "Je vais au magasin demain."
+   },
+   {
+    "type": "cloze",
+    "zh": "他___下午在家。",
+    "options": [
+     "今天",
+     "在",
+     "有",
+     "吗"
+    ],
+    "answer": "今天",
+    "fr": "Il est à la maison cet après-midi."
+   },
+   {
+    "type": "cloze",
+    "zh": "你___去学校？",
+    "options": [
+     "什么时候",
+     "什么",
+     "谁",
+     "哪儿"
+    ],
+    "answer": "什么时候",
+    "fr": "Quand vas-tu à l'école ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 明天 à la bonne place.",
+    "zh": "我去北京。",
+    "answers": [
+     "我明天去北京。",
+     "明天我去北京。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute 下午 à la bonne place.",
+    "zh": "我们在家看电视。",
+    "answers": [
+     "我们下午在家看电视。",
+     "下午我们在家看电视。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question sur le moment (« quand ? »).",
+    "zh": "他明天去医院。",
+    "answers": [
+     "他什么时候去医院？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我去北京明天。",
+    "answers": [
+     "我明天去北京。",
+     "明天我去北京。"
+    ],
+    "explanation": "L'expression de temps se place avant le verbe, jamais à la fin."
+   },
+   {
+    "type": "error",
+    "zh": "他在家今天。",
+    "answers": [
+     "他今天在家。",
+     "今天他在家。"
+    ],
+    "explanation": "Le temps (今天) se place avant 在 + lieu."
+   },
+   {
+    "type": "error",
+    "zh": "我在学校明天学习。",
+    "answers": [
+     "我明天在学校学习。",
+     "明天我在学校学习。"
+    ],
+    "explanation": "Le temps vient avant le lieu : Sujet + Temps + 在 + lieu + Verbe."
+   },
+   {
+    "type": "translate",
+    "fr": "Je travaille demain.",
+    "answers": [
+     "我明天工作。",
+     "明天我工作。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Aujourd'hui, je suis à la maison.",
+    "answers": [
+     "我今天在家。",
+     "今天我在家。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Quand viens-tu ?",
+    "answers": [
+     "你什么时候来？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我看书下午。",
+     "我下午看书。",
+     "我看下午书。"
+    ],
+    "answer": 1,
+    "explanation": "Le temps (下午) se place avant le verbe."
+   },
+   {
+    "type": "choice",
+    "question": "Où se place le temps par rapport au lieu ?",
+    "options": [
+     "Le temps avant le lieu : 我明天在家吃饭。",
+     "Le lieu avant le temps : 我在家明天吃饭。",
+     "N'importe où, même à la fin."
+    ],
+    "answer": 0,
+    "explanation": "Ordre : Sujet – Quand – Où – Verbe."
+   },
+   {
+    "type": "listen",
+    "zh": "我明天上午去医院。",
+    "question": "Quand la personne va-t-elle à l'hôpital ?",
+    "options": [
+     "Demain matin",
+     "Aujourd'hui",
+     "Demain après-midi"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-19",
+  "phase": 1,
+  "title": "Dates, jours et heures",
+  "pattern": "Année → Mois → Jour → Jour de la semaine → Moment → Heure\n二〇二六年十月三十号星期五下午三点",
+  "hsk": 1,
+  "explanation": "Pour les dates et les heures, le chinois va toujours **du plus grand au plus petit** : année, mois, jour, jour de la semaine, moment de la journée, heure. C'est l'inverse du français !\n\n**L'année** se lit chiffre par chiffre, suivie de 年 : 二〇二六年 (2026).\n\n**Les mois** = nombre + 月 : 一月 (janvier), 二月 (février)… 十二月 (décembre).\n\n**Le jour du mois** = nombre + 号 (à l'oral ; à l'écrit on trouve aussi 日) : 三十号 = le 30.\n\n→ 十月三十号 = le 30 octobre.\n\n**Les jours de la semaine** = 星期 + nombre, en commençant par lundi : 星期一 (lundi), 星期二 (mardi)… 星期六 (samedi). Dimanche est l'exception : 星期天 (ou 星期日).\n\n**L'heure** = nombre + 点 (+ nombre + 分) : 三点 = 3 h ; 八点十分 = 8 h 10. On précise le moment avant : 上午九点 (9 h du matin), 下午三点 (15 h).\n\n**Questions** (avec 几, car la réponse est un petit nombre) :\n\n- 今天几号？ = On est le combien ?\n- 今天星期几？ = Quel jour sommes-nous ?\n- 现在几点？ = Quelle heure est-il ?\n\nDans ces phrases, 是 est **facultatif** : 今天星期五 ou 今天是星期五.\n\n**Pièges pour un francophone :**\n\n- **2 heures = 两点**, pas *二点 (两 devant un classificateur… et 点 en est un).\n- L'ordre inverse : *三十号十月 ✗ → 十月三十号 ✓.\n- **一月** (janvier) ≠ **一个月** (un mois, une durée).\n- Une heure, comme toute expression de temps, se place **avant le verbe** : 我八点去学校.",
+  "examples": [
+   {
+    "zh": "今天十月三十号。",
+    "fr": "Aujourd'hui, c'est le 30 octobre."
+   },
+   {
+    "zh": "今天星期五。",
+    "fr": "Aujourd'hui, c'est vendredi."
+   },
+   {
+    "zh": "现在三点。",
+    "fr": "Il est trois heures."
+   },
+   {
+    "zh": "我明天上午九点去学校。",
+    "fr": "Demain, je vais à l'école à 9 h du matin."
+   },
+   {
+    "zh": "现在两点十分。",
+    "fr": "Il est 2 h 10."
+   },
+   {
+    "zh": "星期天我不工作。",
+    "fr": "Je ne travaille pas le dimanche."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "今天",
+     "十月",
+     "三十",
+     "号"
+    ],
+    "answer": "今天十月三十号",
+    "fr": "Aujourd'hui, c'est le 30 octobre."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "现在",
+     "下午",
+     "两",
+     "点"
+    ],
+    "answer": "现在下午两点",
+    "fr": "Il est deux heures de l'après-midi."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "现在",
+     "是",
+     "星期一",
+     "上午",
+     "九",
+     "点"
+    ],
+    "answer": "现在是星期一上午九点",
+    "fr": "Nous sommes lundi, il est 9 heures du matin."
+   },
+   {
+    "type": "cloze",
+    "zh": "今天星期___？",
+    "options": [
+     "几",
+     "多少",
+     "什么",
+     "哪"
+    ],
+    "answer": "几",
+    "fr": "Quel jour de la semaine sommes-nous ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "现在___点？",
+    "options": [
+     "几",
+     "多少",
+     "什么",
+     "哪"
+    ],
+    "answer": "几",
+    "fr": "Quelle heure est-il ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "现在___点。",
+    "options": [
+     "两",
+     "二",
+     "们",
+     "个"
+    ],
+    "answer": "两",
+    "fr": "Il est deux heures."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们十二月二十五___去北京。",
+    "options": [
+     "号",
+     "月",
+     "年",
+     "点"
+    ],
+    "answer": "号",
+    "fr": "Nous allons à Pékin le 25 décembre."
+   },
+   {
+    "type": "transform",
+    "instruction": "Remets la date dans l'ordre chinois.",
+    "zh": "星期五，三十号，十月",
+    "answers": [
+     "十月三十号星期五",
+     "十月三十号，星期五",
+     "十月三十号星期五。",
+     "十月三十号，星期五。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question sur l'heure.",
+    "zh": "现在三点。",
+    "answers": [
+     "现在几点？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question sur le jour de la semaine.",
+    "zh": "今天星期三。",
+    "answers": [
+     "今天星期几？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "现在二点。",
+    "answers": [
+     "现在两点。"
+    ],
+    "explanation": "Pour les heures, « deux » se dit 两 : 两点."
+   },
+   {
+    "type": "error",
+    "zh": "今天三十号十月。",
+    "answers": [
+     "今天十月三十号。"
+    ],
+    "explanation": "En chinois on va du plus grand au plus petit : le mois puis le jour."
+   },
+   {
+    "type": "error",
+    "zh": "我去学校八点。",
+    "answers": [
+     "我八点去学校。"
+    ],
+    "explanation": "L'heure est une expression de temps : elle se place avant le verbe."
+   },
+   {
+    "type": "translate",
+    "fr": "Aujourd'hui, c'est lundi.",
+    "answers": [
+     "今天星期一。",
+     "今天是星期一。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il est 10 heures.",
+    "answers": [
+     "现在十点。",
+     "现在是十点。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Demain, c'est le 1er mai.",
+    "answers": [
+     "明天五月一号。",
+     "明天是五月一号。",
+     "明天五月一日。",
+     "明天是五月一日。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 星期天 ?",
+    "options": [
+     "Dimanche",
+     "Lundi",
+     "Une semaine"
+    ],
+    "answer": 0,
+    "explanation": "星期天 (ou 星期日) = dimanche ; 星期一 = lundi."
+   },
+   {
+    "type": "choice",
+    "question": "Comment dit-on « 8 h 10 » ?",
+    "options": [
+     "八点十分",
+     "十分八点",
+     "八十点分"
+    ],
+    "answer": 0,
+    "explanation": "Heure (点) puis minutes (分), du plus grand au plus petit."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle différence entre 一月 et 一个月 ?",
+    "options": [
+     "Aucune",
+     "一月 = janvier ; 一个月 = un mois (durée)",
+     "一月 = un mois ; 一个月 = janvier"
+    ],
+    "answer": 1,
+    "explanation": "Nombre + 月 = nom du mois ; nombre + 个 + 月 = durée."
+   },
+   {
+    "type": "listen",
+    "zh": "今天是十月三十号，星期五。",
+    "question": "Quel jour sommes-nous ?",
+    "options": [
+     "Vendredi 30 octobre",
+     "Samedi 30 octobre",
+     "Vendredi 13 octobre"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-20",
+  "phase": 1,
+  "title": "Vouloir : 想 et 要",
+  "pattern": "Sujet + 想 + Verbe (avoir envie de)\nSujet + 要 + Verbe / Nom (vouloir)\nSujet + 不想 + Verbe",
+  "hsk": 1,
+  "explanation": "Deux verbes traduisent « vouloir ». Tous deux se placent **devant le verbe principal**.\n\n**想 + verbe = avoir envie de, aimerait.** C'est la forme douce et polie, la plus courante :\n\n- 我想喝茶。 = J'ai envie de boire du thé. / Je voudrais boire du thé.\n- 他想去北京。 = Il aimerait aller à Pékin.\n\n**要 + verbe = vouloir, compter faire.** Plus ferme, plus décidé : 我要学习汉语 = je veux (je vais) apprendre le chinois.\n\n**要 + nom = vouloir quelque chose.** C'est la formule pour commander ou demander :\n\n- 我要一杯水。 = Je voudrais un verre d'eau.\n- 你要什么？ = Que veux-tu ? / Que désirez-vous ?\n\n**Attention : 想 + nom de personne = penser à, manquer.** 我想妈妈 signifie « Maman me manque » (ou « je pense à maman »), pas « je veux maman » !\n\n**La négation : préfère 不想.** Pour dire « je ne veux pas / je n'ai pas envie », on dit **不想** : 我不想去。 Évite 不要 dans ce sens : 不要 + verbe sonne comme un ordre négatif (« ne… pas ! ») : 不要去！ = « N'y va pas ! ».\n\n**Question :** 你想喝什么？ (Qu'as-tu envie de boire ?) ; 你想去吗？\n\n**Pièges pour un francophone :**\n\n- Placer 想 / 要 après le verbe : *我喝想茶 ✗.\n- Dire 我不要… quand on veut simplement décliner poliment.\n- Oublier que 想 + personne exprime le manque.\n- Avec 要 + nom, n'oublie pas le classificateur : 要一杯茶, 要两个苹果.",
+  "examples": [
+   {
+    "zh": "我想喝茶。",
+    "fr": "J'ai envie de boire du thé."
+   },
+   {
+    "zh": "我要一杯水。",
+    "fr": "Je voudrais un verre d'eau."
+   },
+   {
+    "zh": "他想去北京。",
+    "fr": "Il aimerait aller à Pékin."
+   },
+   {
+    "zh": "我不想看电视。",
+    "fr": "Je n'ai pas envie de regarder la télé."
+   },
+   {
+    "zh": "你要什么？",
+    "fr": "Que veux-tu ?"
+   },
+   {
+    "zh": "我很想妈妈。",
+    "fr": "Maman me manque beaucoup."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "想",
+     "去",
+     "中国"
+    ],
+    "answer": "我想去中国",
+    "fr": "J'ai envie d'aller en Chine."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "要",
+     "一",
+     "杯",
+     "茶"
+    ],
+    "answer": "我要一杯茶",
+    "fr": "Je voudrais une tasse de thé."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "不",
+     "想",
+     "吃",
+     "饭"
+    ],
+    "answer": "他不想吃饭",
+    "fr": "Il n'a pas envie de manger."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___一个苹果。",
+    "options": [
+     "要",
+     "想",
+     "是",
+     "很"
+    ],
+    "answer": "要",
+    "fr": "Je veux une pomme."
+   },
+   {
+    "type": "cloze",
+    "zh": "你___喝什么？",
+    "options": [
+     "想",
+     "是",
+     "的",
+     "很"
+    ],
+    "answer": "想",
+    "fr": "Qu'as-tu envie de boire ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "我不___去学校。",
+    "options": [
+     "想",
+     "有",
+     "很",
+     "在"
+    ],
+    "answer": "想",
+    "fr": "Je n'ai pas envie d'aller à l'école."
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative (« ne pas avoir envie »).",
+    "zh": "我想看电影。",
+    "answers": [
+     "我不想看电影。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question avec 吗.",
+    "zh": "你想去商店。",
+    "answers": [
+     "你想去商店吗？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我喝想茶。",
+    "answers": [
+     "我想喝茶。"
+    ],
+    "explanation": "想 se place avant le verbe principal."
+   },
+   {
+    "type": "error",
+    "zh": "你喝要什么？",
+    "answers": [
+     "你要喝什么？"
+    ],
+    "explanation": "要 se place avant le verbe principal."
+   },
+   {
+    "type": "translate",
+    "fr": "J'ai envie de regarder un film.",
+    "answers": [
+     "我想看电影。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Que voulez-vous ? (au restaurant)",
+    "answers": [
+     "你要什么？",
+     "你想要什么？",
+     "你们要什么？",
+     "您要什么？",
+     "你们想要什么？",
+     "您想要什么？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Ma mère me manque.",
+    "answers": [
+     "我想妈妈。",
+     "我想我妈妈。",
+     "我很想妈妈。",
+     "我很想我妈妈。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Pour dire poliment « Je n'ai pas envie d'y aller » :",
+    "options": [
+     "我不要去。",
+     "我不想去。",
+     "我想不去。"
+    ],
+    "answer": 1,
+    "explanation": "不要 sonne comme un refus ferme ou une interdiction ; 不想 = « ne pas avoir envie »."
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 我想我的朋友 ?",
+    "options": [
+     "Mon ami me manque / Je pense à mon ami",
+     "Je veux un ami",
+     "Je veux être ami"
+    ],
+    "answer": 0,
+    "explanation": "想 + personne = penser à, manquer."
+   },
+   {
+    "type": "listen",
+    "zh": "我不想喝茶，我想喝水。",
+    "question": "Que veut boire la personne ?",
+    "options": [
+     "De l'eau",
+     "Du thé",
+     "Rien"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-21",
+  "phase": 1,
+  "title": "Savoir et pouvoir : 会 et 能",
+  "pattern": "Sujet + 会 + Verbe (savoir faire, compétence apprise)\nSujet + 能 + Verbe (pouvoir : possibilité, permission)",
+  "hsk": 1,
+  "explanation": "Le français « pouvoir » et « savoir » se répartissent en chinois entre **会** et **能**. Les deux se placent **devant le verbe**.\n\n**会 = savoir faire (une compétence apprise).** Langues, écriture, cuisine, tout ce qui s'apprend :\n\n- 我会说汉语。 = Je parle chinois. / Je sais parler chinois.\n- 他不会做饭。 = Il ne sait pas cuisiner.\n- Avec une langue, on peut même dire directement 我会汉语.\n\n**能 = pouvoir (possibilité, circonstances, permission, capacité).**\n\n- 我明天不能来。 = Je ne peux pas venir demain (je suis pris).\n- 你能来吗？ = Peux-tu venir ?\n- 我能坐这儿吗？ = Est-ce que je peux m'asseoir ici ?\n\nQuestion type pour demander une permission : **我能…吗？**\n\n**Comment choisir ?** Demande-toi : est-ce que la personne **a appris** à le faire (会) ou est-ce que **la situation le permet** (能) ?\n\n- « Je ne sais pas écrire les caractères » (jamais appris) → 我不会写汉字.\n- « Je ne peux pas venir demain » (pas disponible) → 我明天不能来.\n\n**Un autre sens de 会 :** il peut aussi exprimer une probabilité future (« il va sûrement… ») : 明天会下雨 = il va pleuvoir demain. Tu le reverras plus tard ; pour l'instant, retiens le sens « savoir faire ».\n\n**Négation :** 不会, 不能 (jamais 没会 / 没能 dans ce sens).\n\n**Pièges pour un francophone :**\n\n- Traduire « je peux parler chinois » par 能 : si c'est une compétence, c'est 会.\n- Placer 会 / 能 après le verbe : *我说会汉语 ✗.\n- 不能 peut aussi exprimer une interdiction : 这儿不能坐 = on ne peut pas s'asseoir ici.",
+  "examples": [
+   {
+    "zh": "我会说汉语。",
+    "fr": "Je parle chinois."
+   },
+   {
+    "zh": "她会写汉字。",
+    "fr": "Elle sait écrire les caractères chinois."
+   },
+   {
+    "zh": "我明天不能来。",
+    "fr": "Je ne peux pas venir demain."
+   },
+   {
+    "zh": "你能来吗？",
+    "fr": "Peux-tu venir ?"
+   },
+   {
+    "zh": "他不会做饭。",
+    "fr": "Il ne sait pas cuisiner."
+   },
+   {
+    "zh": "我能坐这儿吗？",
+    "fr": "Est-ce que je peux m'asseoir ici ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "会",
+     "说",
+     "汉语"
+    ],
+    "answer": "我会说汉语",
+    "fr": "Je parle chinois."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "能",
+     "来",
+     "学校",
+     "吗"
+    ],
+    "answer": "你能来学校吗",
+    "fr": "Peux-tu venir à l'école ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "不",
+     "会",
+     "做",
+     "饭"
+    ],
+    "answer": "他不会做饭",
+    "fr": "Il ne sait pas cuisiner."
+   },
+   {
+    "type": "cloze",
+    "zh": "这儿___坐吗？",
+    "options": [
+     "能",
+     "会",
+     "是",
+     "很"
+    ],
+    "answer": "能",
+    "fr": "Peut-on s'asseoir ici ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "我不___做中国菜。",
+    "options": [
+     "会",
+     "吗",
+     "有",
+     "很"
+    ],
+    "answer": "会",
+    "fr": "Je ne sais pas cuisiner chinois."
+   },
+   {
+    "type": "cloze",
+    "zh": "你___说汉语吗？",
+    "options": [
+     "会",
+     "很",
+     "的",
+     "吗"
+    ],
+    "answer": "会",
+    "fr": "Sais-tu parler chinois ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "我会写汉字。",
+    "answers": [
+     "我不会写汉字。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en demande de permission avec 能.",
+    "zh": "我看你的书。",
+    "answers": [
+     "我能看你的书吗？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我说会汉语。",
+    "answers": [
+     "我会说汉语。"
+    ],
+    "explanation": "会 se place avant le verbe."
+   },
+   {
+    "type": "error",
+    "zh": "你来能吗？",
+    "answers": [
+     "你能来吗？"
+    ],
+    "explanation": "能 précède le verbe."
+   },
+   {
+    "type": "translate",
+    "fr": "Je ne sais pas parler chinois.",
+    "answers": [
+     "我不会说汉语。",
+     "我不会汉语。",
+     "我不会说中文。",
+     "我不会中文。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Est-ce que je peux m'asseoir ici ?",
+    "answers": [
+     "我能坐这儿吗？",
+     "我能在这儿坐吗？",
+     "这儿能坐吗？",
+     "我可以坐这儿吗？",
+     "我可以在这儿坐吗？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Elle sait cuisiner.",
+    "answers": [
+     "她会做饭。",
+     "她会做菜。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Pour une compétence apprise (parler une langue, écrire), on utilise :",
+    "options": [
+     "会",
+     "能",
+     "想"
+    ],
+    "answer": 0,
+    "explanation": "会 = savoir faire, compétence acquise."
+   },
+   {
+    "type": "choice",
+    "question": "« Désolé, je ne peux pas venir demain (je suis pris). » :",
+    "options": [
+     "对不起，我明天不会来。",
+     "对不起，我明天不能来。",
+     "对不起，我明天不想来。"
+    ],
+    "answer": 1,
+    "explanation": "不能 = impossibilité due aux circonstances ; 不想来 = « je n'ai pas envie de venir »."
+   },
+   {
+    "type": "listen",
+    "zh": "我会说汉语，我不会写汉字。",
+    "question": "Que ne sait-il pas faire ?",
+    "options": [
+     "Écrire les caractères",
+     "Parler chinois",
+     "Cuisiner"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-22",
+  "phase": 1,
+  "title": "Aimer faire quelque chose : 喜欢 + verbe",
+  "pattern": "Sujet + (很) + 喜欢 + Nom\nSujet + (很) + 喜欢 + Verbe + Objet",
+  "hsk": 1,
+  "explanation": "**喜欢** (« aimer, apprécier ») peut être suivi **d'un nom** ou **directement d'un verbe**.\n\n- 我喜欢猫。 = J'aime les chats.\n- 我喜欢喝茶。 = J'aime boire du thé.\n- 她喜欢看电影。 = Elle aime regarder des films.\n\n**Aucun mot de liaison** : comme dans « aimer **lire** » (et non « aimer *de* lire »), le verbe suit 喜欢 directement, sans rien entre les deux. *喜欢的喝茶 ✗.\n\n**Préciser l'action.** Là où le français dit simplement « j'aime le thé », le chinois précise souvent ce qu'on fait avec : 我喜欢**喝**茶 (boire), 我喜欢**看**书 (lire), 我喜欢**吃**苹果 (manger). Les deux formes existent, mais celle avec le verbe est très naturelle.\n\n**Degré :** 很 se place **devant** 喜欢 : 我很喜欢… = j'aime beaucoup… *喜欢很 ✗.\n\n**Négation :** 不喜欢 : 她不喜欢做饭。\n\n**Question :** 你喜欢学习汉语吗？ ou avec un mot interrogatif : 你喜欢吃什么？ (Qu'aimes-tu manger ?)\n\n**喜欢 ou 爱 ?** 爱 exprime l'amour (我爱你) ou une passion forte (他爱看书 = il adore lire). Pour les goûts quotidiens, 喜欢 est plus neutre et plus courant. Attention : 我喜欢你 = « tu me plais / je t'aime bien », plus léger que 我爱你.\n\n**Pièges pour un francophone :**\n\n- Mettre 很 après 喜欢 : *我喜欢很看电影 ✗.\n- Ajouter un mot entre 喜欢 et le verbe.\n- Déplacer 什么 en tête : *什么你喜欢吃 ✗ → 你喜欢吃什么 ✓.",
+  "examples": [
+   {
+    "zh": "我喜欢猫。",
+    "fr": "J'aime les chats."
+   },
+   {
+    "zh": "我喜欢喝茶。",
+    "fr": "J'aime boire du thé."
+   },
+   {
+    "zh": "他很喜欢看电影。",
+    "fr": "Il aime beaucoup regarder des films."
+   },
+   {
+    "zh": "她不喜欢做饭。",
+    "fr": "Elle n'aime pas cuisiner."
+   },
+   {
+    "zh": "你喜欢学习汉语吗？",
+    "fr": "Aimes-tu étudier le chinois ?"
+   },
+   {
+    "zh": "我爱你。",
+    "fr": "Je t'aime."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "喜欢",
+     "看",
+     "书"
+    ],
+    "answer": "我喜欢看书",
+    "fr": "J'aime lire."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "很",
+     "喜欢",
+     "喝",
+     "茶"
+    ],
+    "answer": "他很喜欢喝茶",
+    "fr": "Il aime beaucoup boire du thé."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "喜欢",
+     "吃",
+     "什么"
+    ],
+    "answer": "你喜欢吃什么",
+    "fr": "Qu'est-ce que tu aimes manger ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "不",
+     "喜欢",
+     "看",
+     "电视"
+    ],
+    "answer": "我不喜欢看电视",
+    "fr": "Je n'aime pas regarder la télé."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___喜欢做饭。",
+    "options": [
+     "很",
+     "的",
+     "在",
+     "有"
+    ],
+    "answer": "很",
+    "fr": "J'aime beaucoup cuisiner."
+   },
+   {
+    "type": "cloze",
+    "zh": "她喜欢___电影。",
+    "options": [
+     "看",
+     "是",
+     "很",
+     "有"
+    ],
+    "answer": "看",
+    "fr": "Elle aime regarder des films."
+   },
+   {
+    "type": "cloze",
+    "zh": "你喜欢学习汉语___？",
+    "options": [
+     "吗",
+     "呢",
+     "什么",
+     "很"
+    ],
+    "answer": "吗",
+    "fr": "Aimes-tu étudier le chinois ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "我喜欢喝水。",
+    "answers": [
+     "我不喜欢喝水。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Renforce avec « beaucoup » (很).",
+    "zh": "他喜欢看书。",
+    "answers": [
+     "他很喜欢看书。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我喜欢很看电影。",
+    "answers": [
+     "我很喜欢看电影。"
+    ],
+    "explanation": "很 se place avant 喜欢."
+   },
+   {
+    "type": "error",
+    "zh": "我喜欢的喝茶。",
+    "answers": [
+     "我喜欢喝茶。"
+    ],
+    "explanation": "Aucun mot de liaison entre 喜欢 et le verbe."
+   },
+   {
+    "type": "translate",
+    "fr": "J'aime regarder des films.",
+    "answers": [
+     "我喜欢看电影。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Elle n'aime pas cuisiner.",
+    "answers": [
+     "她不喜欢做饭。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Aimes-tu les chats ?",
+    "answers": [
+     "你喜欢猫吗？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« J'aime beaucoup lire » :",
+    "options": [
+     "我喜欢很看书。",
+     "我很喜欢看书。",
+     "我喜欢看书很。"
+    ],
+    "answer": 1,
+    "explanation": "很 + 喜欢 + verbe."
+   },
+   {
+    "type": "choice",
+    "question": "Comment demander « Qu'aimes-tu manger ? »",
+    "options": [
+     "你喜欢吃什么？",
+     "你什么喜欢吃？",
+     "你喜欢什么吃吗？"
+    ],
+    "answer": 0,
+    "explanation": "什么 reste à la place de l'objet, sans 吗."
+   },
+   {
+    "type": "listen",
+    "zh": "我喜欢喝茶，我不喜欢喝水。",
+    "question": "Qu'aime boire la personne ?",
+    "options": [
+     "Du thé",
+     "De l'eau",
+     "Les deux"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-23",
+  "phase": 1,
+  "title": "Et : 和 (relier des noms seulement)",
+  "pattern": "Nom + 和 + Nom\nA、B 和 C",
+  "hsk": 1,
+  "explanation": "**和** veut dire « et », mais attention : il ne relie que des **noms** ou des **pronoms** (et des groupes nominaux).\n\n- 我和他 = lui et moi\n- 猫和狗 = les chats et les chiens\n- 我有一个哥哥和一个妹妹。 = J'ai un grand frère et une petite sœur.\n\n**Dans une liste**, on sépare les éléments par la virgule d'énumération « 、 » et on met 和 avant le dernier : 爸爸、妈妈和我.\n\n**Avec 都** : quand deux sujets sont reliés par 和, on ajoute très souvent 都 (« tous les deux ») devant le verbe : 我和他都是学生.\n\n**Ce que 和 ne fait PAS :**\n\n- Relier **deux verbes** : *我喝茶和吃米饭 ✗.\n- Relier **deux adjectifs** : *她很漂亮和很高兴 ✗.\n- Relier **deux phrases** : *我是学生和他是老师 ✗.\n\nDans ces cas, on **juxtapose** simplement avec une virgule, ou on utilise **也** (« aussi ») :\n\n- 我喝茶，也吃米饭。 = Je bois du thé et (aussi) je mange du riz.\n- 他会说汉语，也会写汉字。 = Il parle chinois et écrit aussi les caractères.\n\n**Pour une question de choix** (« ceci ou cela ? »), on n'utilise pas 和 mais 还是 (leçon à venir).\n\n**Pièges pour un francophone :**\n\n- Le « et » français est universel ; le 和 chinois est **réservé aux noms**. C'est l'une des erreurs les plus tenaces.\n- Ne pas oublier 都 après deux sujets reliés : c'est plus naturel.\n- L'ordre poli en français « lui et moi » se dit souvent 我和他 en chinois : les deux ordres sont corrects.",
+  "examples": [
+   {
+    "zh": "我和他是朋友。",
+    "fr": "Lui et moi sommes amis."
+   },
+   {
+    "zh": "我喜欢猫和狗。",
+    "fr": "J'aime les chats et les chiens."
+   },
+   {
+    "zh": "爸爸和妈妈都在家。",
+    "fr": "Papa et maman sont tous les deux à la maison."
+   },
+   {
+    "zh": "我有一个哥哥和一个妹妹。",
+    "fr": "J'ai un grand frère et une petite sœur."
+   },
+   {
+    "zh": "我买苹果、米饭和茶。",
+    "fr": "J'achète des pommes, du riz et du thé."
+   },
+   {
+    "zh": "我会说汉语，也会写汉字。",
+    "fr": "Je parle chinois et j'écris aussi les caractères."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "爸爸",
+     "和",
+     "他",
+     "的",
+     "朋友",
+     "喝",
+     "茶"
+    ],
+    "answer": "爸爸和他的朋友喝茶",
+    "fr": "Papa et son ami boivent du thé."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "王老师",
+     "和",
+     "他",
+     "女儿",
+     "都",
+     "在",
+     "北京"
+    ],
+    "answer": "王老师和他女儿都在北京",
+    "fr": "Le professeur Wang et sa fille sont tous les deux à Pékin."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "老师",
+     "和",
+     "他",
+     "的",
+     "学生",
+     "都",
+     "在",
+     "学校"
+    ],
+    "answer": "老师和他的学生都在学校",
+    "fr": "Le professeur et ses élèves sont tous à l'école."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___我妈妈都是医生。",
+    "options": [
+     "和",
+     "也",
+     "都",
+     "很"
+    ],
+    "answer": "和",
+    "fr": "Ma mère et moi sommes médecins."
+   },
+   {
+    "type": "cloze",
+    "zh": "我会说汉语，___会写汉字。",
+    "options": [
+     "也",
+     "和",
+     "都",
+     "很"
+    ],
+    "answer": "也",
+    "fr": "Je parle chinois et j'écris aussi les caractères."
+   },
+   {
+    "type": "cloze",
+    "zh": "桌子上有书___杯子。",
+    "options": [
+     "和",
+     "也",
+     "都",
+     "是"
+    ],
+    "answer": "和",
+    "fr": "Il y a des livres et une tasse sur la table."
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie les deux phrases en une seule avec 和 et 都.",
+    "zh": "我是学生。他是学生。",
+    "answers": [
+     "我和他都是学生。",
+     "他和我都是学生。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Relie les deux phrases avec 和.",
+    "zh": "我喜欢猫。我喜欢狗。",
+    "answers": [
+     "我喜欢猫和狗。",
+     "我喜欢狗和猫。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我喝茶和吃米饭。",
+    "answers": [
+     "我喝茶，也吃米饭。",
+     "我喝茶，吃米饭。"
+    ],
+    "explanation": "和 ne relie que des noms, pas deux verbes (ou deux actions)."
+   },
+   {
+    "type": "error",
+    "zh": "她很漂亮和很高兴。",
+    "answers": [
+     "她很漂亮，也很高兴。"
+    ],
+    "explanation": "和 ne relie pas deux adjectifs ; on utilise 也 ou on juxtapose."
+   },
+   {
+    "type": "translate",
+    "fr": "Mon père et ma mère sont à la maison.",
+    "answers": [
+     "我爸爸和我妈妈都在家。",
+     "爸爸和妈妈都在家。",
+     "我爸爸和妈妈都在家。",
+     "我爸爸和我妈妈在家。",
+     "爸爸和妈妈在家。",
+     "我爸爸和妈妈在家。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "J'aime le thé et les fruits.",
+    "answers": [
+     "我喜欢茶和水果。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Elle et moi sommes amies.",
+    "answers": [
+     "我和她是朋友。",
+     "她和我是朋友。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我看书和看电视。",
+     "我有猫和狗。",
+     "他很大和很好。"
+    ],
+    "answer": 1,
+    "explanation": "和 relie deux noms (猫, 狗), jamais deux verbes ou deux adjectifs."
+   },
+   {
+    "type": "choice",
+    "question": "« Il parle chinois et il écrit aussi les caractères » :",
+    "options": [
+     "他会说汉语和写汉字。",
+     "他会说汉语，也会写汉字。",
+     "他会说汉语，和也会写汉字。"
+    ],
+    "answer": 1,
+    "explanation": "Pour relier deux actions, on utilise 也."
+   },
+   {
+    "type": "listen",
+    "zh": "我家有爸爸、妈妈、姐姐和我。",
+    "question": "Combien sont-ils dans la famille ?",
+    "options": [
+     "Quatre",
+     "Trois",
+     "Cinq"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-24",
+  "phase": 1,
+  "title": "Aller et venir : 去 / 来 + lieu",
+  "pattern": "Sujet + 去 / 来 + Lieu\nSujet + 去 / 来 + Lieu + Verbe (but)",
+  "hsk": 1,
+  "explanation": "**去** = aller (s'éloigner de l'endroit où l'on parle) ; **来** = venir (se rapprocher de celui qui parle). Le lieu se place **directement après**, sans préposition.\n\n- 我去学校。 = Je vais à l'école.\n- 他来北京。 = Il vient à Pékin.\n- 你来我家吗？ = Tu viens chez moi ?\n\n**Pas de « à », pas de 在** : *我去在北京 ✗. Le verbe 去 contient déjà l'idée de « aller à ».\n\n**Exprimer le but : 去 + lieu + verbe.** Pour dire « aller quelque part **pour** faire quelque chose », on enchaîne simplement : d'abord le déplacement, puis l'action.\n\n- 我去商店买东西。 = Je vais au magasin faire des courses.\n- 我们去饭馆吃饭。 = Nous allons manger au restaurant.\n\nC'est l'ordre chronologique : on y va, puis on y fait quelque chose. *我买东西去商店 ✗.\n\n**Négation et question :** 我明天不去医院 ; 你去哪儿？ ; 你来吗？\n\n**Rentrer : 回.** 回家 = rentrer à la maison, 回中国 = rentrer en Chine. Même construction : 我回家吃饭.\n\n**去 ou 来 ?** Tout dépend d'où se trouve **la personne qui parle**. Si tu es à Pékin et que tu invites quelqu'un : 你来北京吧！ Si tu es en France et que tu parles de ton voyage : 我去北京.\n\n**Pièges pour un francophone :**\n\n- Ajouter 在 ou une préposition après 去.\n- Mettre le but avant le déplacement.\n- Utiliser 去 pour une invitation (« Viens chez moi ! ») : il faut 来.",
+  "examples": [
+   {
+    "zh": "我去学校。",
+    "fr": "Je vais à l'école."
+   },
+   {
+    "zh": "他来北京。",
+    "fr": "Il vient à Pékin."
+   },
+   {
+    "zh": "我们去饭馆吃饭。",
+    "fr": "Nous allons manger au restaurant."
+   },
+   {
+    "zh": "你去哪儿？",
+    "fr": "Où vas-tu ?"
+   },
+   {
+    "zh": "我明天不去医院。",
+    "fr": "Je ne vais pas à l'hôpital demain."
+   },
+   {
+    "zh": "你来我家吗？",
+    "fr": "Tu viens chez moi ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "去",
+     "商店",
+     "买",
+     "东西"
+    ],
+    "answer": "我去商店买东西",
+    "fr": "Je vais au magasin faire des courses."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "来",
+     "我",
+     "家",
+     "吃",
+     "饭",
+     "吗"
+    ],
+    "answer": "你来我家吃饭吗",
+    "fr": "Tu viens manger chez moi ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他们",
+     "去",
+     "饭馆",
+     "吃",
+     "饭"
+    ],
+    "answer": "他们去饭馆吃饭",
+    "fr": "Ils vont manger au restaurant."
+   },
+   {
+    "type": "cloze",
+    "zh": "我___学校。",
+    "options": [
+     "去",
+     "是",
+     "有",
+     "很"
+    ],
+    "answer": "去",
+    "fr": "Je vais à l'école."
+   },
+   {
+    "type": "cloze",
+    "zh": "妈妈，你___北京吗？我在北京。",
+    "options": [
+     "来",
+     "去",
+     "是",
+     "很"
+    ],
+    "answer": "来",
+    "fr": "Maman, tu viens à Pékin ? Je suis à Pékin."
+   },
+   {
+    "type": "cloze",
+    "zh": "我们去医院___医生。",
+    "options": [
+     "看",
+     "在",
+     "去",
+     "是"
+    ],
+    "answer": "看",
+    "fr": "Nous allons voir le médecin à l'hôpital."
+   },
+   {
+    "type": "transform",
+    "instruction": "Ajoute le but : aller au magasin POUR acheter des fruits.",
+    "zh": "我去商店。",
+    "answers": [
+     "我去商店买水果。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Pose la question « où ? ».",
+    "zh": "他去北京。",
+    "answers": [
+     "他去哪儿？",
+     "他去哪里？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我去在北京。",
+    "answers": [
+     "我去北京。"
+    ],
+    "explanation": "Après 去, le lieu suit directement, sans 在."
+   },
+   {
+    "type": "error",
+    "zh": "我买东西去商店。",
+    "answers": [
+     "我去商店买东西。"
+    ],
+    "explanation": "On dit d'abord où l'on va, puis ce qu'on y fait : 去 + lieu + verbe."
+   },
+   {
+    "type": "error",
+    "zh": "他明天去不学校。",
+    "answers": [
+     "他明天不去学校。"
+    ],
+    "explanation": "不 se place avant 去."
+   },
+   {
+    "type": "translate",
+    "fr": "Je vais à l'hôpital.",
+    "answers": [
+     "我去医院。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il vient en Chine demain.",
+    "answers": [
+     "他明天来中国。",
+     "明天他来中国。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Nous allons au restaurant pour manger.",
+    "answers": [
+     "我们去饭馆吃饭。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Ton ami est chez lui et t'appelle : « Viens chez moi ! » Il dit :",
+    "options": [
+     "你去我家！",
+     "你来我家！",
+     "你在我家！"
+    ],
+    "answer": 1,
+    "explanation": "来 = mouvement vers la personne qui parle."
+   },
+   {
+    "type": "choice",
+    "question": "« Je vais à Pékin pour étudier le chinois » :",
+    "options": [
+     "我学习汉语去北京。",
+     "我去北京学习汉语。",
+     "我去学习北京汉语。"
+    ],
+    "answer": 1,
+    "explanation": "去 + lieu, puis le verbe du but."
+   },
+   {
+    "type": "listen",
+    "zh": "我明天去商店买水果。",
+    "question": "Que fera la personne demain ?",
+    "options": [
+     "Acheter des fruits au magasin",
+     "Manger au restaurant",
+     "Aller à l'école"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-25",
+  "phase": 1,
+  "title": "Introduction à 了 : action accomplie et changement",
+  "pattern": "Sujet + Verbe + 了 + (Nombre + CL) + Objet\nSujet + Verbe + Objet + 了\nSituation + 了 (changement)",
+  "hsk": 1,
+  "explanation": "**了** est l'une des particules les plus célèbres… et les plus mal comprises. Première chose à retenir : **了 n'est pas un « passé »**. Le chinois n'a pas de temps grammaticaux. 了 indique surtout deux choses.\n\n**1. Une action accomplie.**\n\n- 我买了三本书。 = J'ai acheté trois livres.\n- 他去北京了。 = Il est allé à Pékin. (Il est parti.)\n- 你吃饭了吗？ = As-tu mangé ?\n\nDeux positions sont possibles : **juste après le verbe**, surtout quand l'objet est précisé par un nombre (买了三本书), ou **en fin de phrase** (我吃饭了). Pour débuter, retiens ces deux modèles.\n\n**2. Un changement de situation** (« maintenant, c'est… »). 了 en fin de phrase signale que quelque chose est nouveau :\n\n- 下雨了！ = Il s'est mis à pleuvoir !\n- 我女儿六岁了。 = Ma fille a (maintenant) six ans.\n- 天气冷了。 = Il commence à faire froid.\n\n**Question :** on ajoute 吗 après 了 : 他来了吗？\n\n**Négation :** on utilise 没 et **on supprime 了** (prochaine leçon) : 我没吃饭.\n\n**Pièges pour un francophone :**\n\n- Mettre 了 partout dès qu'on parle du passé. Un état passé (« hier, j'étais content ») ne prend pas 了 : 昨天我很高兴, sans 了.\n- Placer 了 **avant** le verbe : *我了吃饭 ✗.\n- Garder 了 avec 没 : *我没吃了 ✗.\n- Oublier que 了 en fin de phrase peut vouloir dire « maintenant » plutôt que « passé ».\n\nNe t'inquiète pas si 了 te semble flou : tu le retrouveras dans les phases suivantes avec plus de nuances.",
+  "examples": [
+   {
+    "zh": "我买了一本书。",
+    "fr": "J'ai acheté un livre."
+   },
+   {
+    "zh": "他去北京了。",
+    "fr": "Il est allé à Pékin."
+   },
+   {
+    "zh": "下雨了！",
+    "fr": "Il s'est mis à pleuvoir !"
+   },
+   {
+    "zh": "我吃饭了。",
+    "fr": "J'ai mangé."
+   },
+   {
+    "zh": "我女儿五岁了。",
+    "fr": "Ma fille a cinq ans maintenant."
+   },
+   {
+    "zh": "你喝茶了吗？",
+    "fr": "As-tu bu du thé ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "买了",
+     "三",
+     "本",
+     "书"
+    ],
+    "answer": "我买了三本书",
+    "fr": "J'ai acheté trois livres."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "哥哥",
+     "二十",
+     "岁",
+     "了"
+    ],
+    "answer": "我哥哥二十岁了",
+    "fr": "Mon grand frère a vingt ans maintenant."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "吃饭",
+     "了",
+     "吗"
+    ],
+    "answer": "你吃饭了吗",
+    "fr": "As-tu mangé ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "天气",
+     "热",
+     "了"
+    ],
+    "answer": "天气热了",
+    "fr": "Il commence à faire chaud."
+   },
+   {
+    "type": "cloze",
+    "zh": "我喝___一杯茶。",
+    "options": [
+     "了",
+     "吗",
+     "呢",
+     "的"
+    ],
+    "answer": "了",
+    "fr": "J'ai bu une tasse de thé."
+   },
+   {
+    "type": "cloze",
+    "zh": "我女儿六岁___。",
+    "options": [
+     "了",
+     "是",
+     "的",
+     "很"
+    ],
+    "answer": "了",
+    "fr": "Ma fille a six ans maintenant."
+   },
+   {
+    "type": "cloze",
+    "zh": "你看电影___吗？",
+    "options": [
+     "了",
+     "呢",
+     "很",
+     "是"
+    ],
+    "answer": "了",
+    "fr": "As-tu vu le film ?"
+   },
+   {
+    "type": "transform",
+    "instruction": "Indique que l'action est accomplie (ajoute 了).",
+    "zh": "我买水果。",
+    "answers": [
+     "我买水果了。",
+     "我买了水果。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Indique un changement de situation (« maintenant… »).",
+    "zh": "天气很冷。",
+    "answers": [
+     "天气冷了。",
+     "天气很冷了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question avec 了吗.",
+    "zh": "他来了。",
+    "answers": [
+     "他来了吗？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我没吃了饭。",
+    "answers": [
+     "我没吃饭。",
+     "我没有吃饭。"
+    ],
+    "explanation": "Avec la négation 没, on supprime 了."
+   },
+   {
+    "type": "error",
+    "zh": "我了吃饭。",
+    "answers": [
+     "我吃饭了。"
+    ],
+    "explanation": "了 ne se place jamais avant le verbe."
+   },
+   {
+    "type": "translate",
+    "fr": "J'ai acheté deux pommes.",
+    "answers": [
+     "我买了两个苹果。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il est venu.",
+    "answers": [
+     "他来了。",
+     "她来了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il pleut ! (il s'est mis à pleuvoir)",
+    "answers": [
+     "下雨了！",
+     "下雨了。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 我二十岁了 ?",
+    "options": [
+     "J'avais vingt ans.",
+     "J'ai maintenant vingt ans.",
+     "J'aurai vingt ans."
+    ],
+    "answer": 1,
+    "explanation": "了 en fin de phrase marque un changement : « me voilà à vingt ans »."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我了买三本书。",
+     "我买了三本书。",
+     "我买三了本书。"
+    ],
+    "answer": 1,
+    "explanation": "了 se place juste après le verbe : 买了."
+   },
+   {
+    "type": "listen",
+    "zh": "我买了一本书和两个苹果。",
+    "question": "Qu'a acheté la personne ?",
+    "options": [
+     "Un livre et deux pommes",
+     "Deux livres et une pomme",
+     "Un livre seulement"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-26",
+  "phase": 1,
+  "title": "Ne pas avoir fait : 没 + verbe",
+  "pattern": "Sujet + 没(有) + Verbe (+ Objet) — sans 了",
+  "hsk": 1,
+  "explanation": "Pour dire qu'une action **n'a pas eu lieu** (« je n'ai pas mangé », « il n'est pas venu »), on utilise **没** ou **没有** devant le verbe, et **le 了 disparaît**.\n\n- 我吃饭了。 → 我**没**吃饭。 = Je n'ai pas mangé.\n- 他昨天来了。 → 他昨天**没有**来。 = Il n'est pas venu hier.\n\n没 et 没有 sont équivalents ici ; 没 est plus court et très courant à l'oral.\n\n**不 ou 没 ?** C'est la distinction clé :\n\n- **不** nie une habitude, une volonté, un état, le présent ou le futur : 我不喝茶 = je ne bois pas de thé (en général) / je ne veux pas en boire.\n- **没** nie une action **accomplie** : 我没喝茶 = je n'ai pas bu de thé (ce n'est pas arrivé).\n\nAvec un mot de passé comme 昨天, c'est donc 没 : 他昨天没去学校, et non *他昨天不去学校.\n\n**Répondre à une question en 了吗 :**\n\n- 你吃饭了吗？ — 吃了。(oui) / 没吃。 ou 没有。(non)\n\n**Et 有 ?** Tu connais déjà 没有 = « ne pas avoir ». C'est le même 没 : il nie l'existence, ici l'existence de l'action.\n\n**Pièges pour un francophone :**\n\n- Garder 了 avec 没 : *我没吃饭了 ✗. C'est l'erreur la plus fréquente.\n- Utiliser 不 pour le passé : *昨天我不去 ✗.\n- Pas de 没 devant 是 ou les adjectifs dans ce sens : « il n'était pas content » se dit 他不高兴.",
+  "examples": [
+   {
+    "zh": "我没吃饭。",
+    "fr": "Je n'ai pas mangé."
+   },
+   {
+    "zh": "他昨天没去学校。",
+    "fr": "Il n'est pas allé à l'école hier."
+   },
+   {
+    "zh": "我没有看那个电影。",
+    "fr": "Je n'ai pas vu ce film."
+   },
+   {
+    "zh": "你买了吗？——没买。",
+    "fr": "Tu l'as acheté ? — Non."
+   },
+   {
+    "zh": "妈妈没来。",
+    "fr": "Maman n'est pas venue."
+   },
+   {
+    "zh": "我没看见他。",
+    "fr": "Je ne l'ai pas vu."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "妈妈",
+     "没",
+     "去",
+     "商店",
+     "买",
+     "东西"
+    ],
+    "answer": "妈妈没去商店买东西",
+    "fr": "Maman n'est pas allée faire les courses au magasin."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "他",
+     "没",
+     "看见",
+     "我"
+    ],
+    "answer": "他没看见我",
+    "fr": "Il ne m'a pas vu."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "没有",
+     "买",
+     "水果"
+    ],
+    "answer": "我们没有买水果",
+    "fr": "Nous n'avons pas acheté de fruits."
+   },
+   {
+    "type": "cloze",
+    "zh": "我昨天___去商店。",
+    "options": [
+     "没",
+     "不",
+     "了",
+     "很"
+    ],
+    "answer": "没",
+    "fr": "Je ne suis pas allé au magasin hier."
+   },
+   {
+    "type": "cloze",
+    "zh": "A：你吃饭了吗？ B：我___吃。",
+    "options": [
+     "没",
+     "了",
+     "很",
+     "是"
+    ],
+    "answer": "没",
+    "fr": "Tu as mangé ? — Non, je n'ai pas mangé."
+   },
+   {
+    "type": "cloze",
+    "zh": "妈妈昨天没___医院。",
+    "options": [
+     "去",
+     "去了",
+     "了",
+     "是"
+    ],
+    "answer": "去",
+    "fr": "Maman n'est pas allée à l'hôpital hier."
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "我吃饭了。",
+    "answers": [
+     "我没吃饭。",
+     "我没有吃饭。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "他昨天来了。",
+    "answers": [
+     "他昨天没来。",
+     "他昨天没有来。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Mets à la forme négative.",
+    "zh": "我买了那本书。",
+    "answers": [
+     "我没买那本书。",
+     "我没有买那本书。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我没吃饭了。",
+    "answers": [
+     "我没吃饭。",
+     "我没有吃饭。"
+    ],
+    "explanation": "Avec 没, on enlève 了."
+   },
+   {
+    "type": "error",
+    "zh": "他昨天不去学校。",
+    "answers": [
+     "他昨天没去学校。",
+     "他昨天没有去学校。"
+    ],
+    "explanation": "Pour une action passée qui n'a pas eu lieu, on utilise 没, pas 不."
+   },
+   {
+    "type": "translate",
+    "fr": "Je n'ai pas bu de thé.",
+    "answers": [
+     "我没喝茶。",
+     "我没有喝茶。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Elle n'est pas venue hier.",
+    "answers": [
+     "她昨天没来。",
+     "她昨天没有来。",
+     "昨天她没来。",
+     "昨天她没有来。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je ne l'ai pas vu.",
+    "answers": [
+     "我没看见他。",
+     "我没有看见他。",
+     "我没看见她。",
+     "我没有看见她。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "« Je ne bois pas de thé (habitude) » puis « Je n'ai pas bu de thé » :",
+    "options": [
+     "我不喝茶 / 我没喝茶",
+     "我没喝茶 / 我不喝茶",
+     "我不喝茶了 / 我没喝茶了"
+    ],
+    "answer": 0,
+    "explanation": "不 = habitude ; 没 = action non réalisée."
+   },
+   {
+    "type": "choice",
+    "question": "Quelle phrase est correcte ?",
+    "options": [
+     "我没有看了电影。",
+     "我没有看电影。",
+     "我不看了电影。"
+    ],
+    "answer": 1,
+    "explanation": "没有 + verbe, sans 了."
+   },
+   {
+    "type": "listen",
+    "zh": "我昨天没去学校，我在家。",
+    "question": "Où était la personne hier ?",
+    "options": [
+     "À la maison",
+     "À l'école",
+     "À l'hôpital"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-27",
+  "phase": 1,
+  "title": "Trop, tellement : 太…了",
+  "pattern": "太 + Adjectif + 了\n不太 + Adjectif (pas très)",
+  "hsk": 1,
+  "explanation": "La structure **太 + adjectif + 了** exprime soit **l'excès** (« trop »), soit une **exclamation** enthousiaste (« tellement ! », « vraiment ! »). Le contexte fait la différence.\n\n- 今天太冷了。 = Il fait trop froid aujourd'hui.\n- 这个杯子太小了。 = Cette tasse est trop petite.\n- 太好了！ = Génial ! Super !\n- 你的猫太漂亮了！ = Ton chat est tellement beau !\n\n**Le 了 final** fait partie de la structure : n'oublie pas de le mettre après l'adjectif. Ce 了 n'a rien à voir avec le passé.\n\n**太 remplace 很.** On ne les combine pas : *太很好了 ✗. Rappelle-toi : 很 est l'adverbe « neutre » ; 太…了 est un autre adverbe de degré, plus fort.\n\n**不太 + adjectif = « pas très ».** C'est une façon polie et adoucie de nier :\n\n- 今天不太冷。 = Il ne fait pas très froid aujourd'hui.\n- 我不太喜欢。 = Je n'aime pas trop.\n\nIci, **pas de 了** à la fin.\n\n**Ne confonds pas :**\n\n- 不太好 = pas très bien (atténué)\n- 太不好了 = vraiment pas bien (très négatif, plus rare)\n\n**Pièges pour un francophone :**\n\n- Oublier 了 : 太好 tout seul sonne incomplet.\n- Placer 了 au milieu : *太了好 ✗, *今天了太冷 ✗.\n- Utiliser 很 et 太 ensemble.\n- Ajouter 了 après 不太 : *不太冷了 change le sens (« il ne fait plus très froid »).",
+  "examples": [
+   {
+    "zh": "太好了！",
+    "fr": "Génial !"
+   },
+   {
+    "zh": "今天太冷了。",
+    "fr": "Il fait trop froid aujourd'hui."
+   },
+   {
+    "zh": "这个杯子太小了。",
+    "fr": "Cette tasse est trop petite."
+   },
+   {
+    "zh": "你的猫太漂亮了！",
+    "fr": "Ton chat est tellement beau !"
+   },
+   {
+    "zh": "我不太喜欢。",
+    "fr": "Je n'aime pas trop."
+   },
+   {
+    "zh": "这儿的人太多了。",
+    "fr": "Il y a trop de monde ici."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "太",
+     "好",
+     "了"
+    ],
+    "answer": "太好了",
+    "fr": "Génial !"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "今天",
+     "太",
+     "热",
+     "了"
+    ],
+    "answer": "今天太热了",
+    "fr": "Il fait trop chaud aujourd'hui."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这",
+     "个",
+     "电脑",
+     "太",
+     "大",
+     "了"
+    ],
+    "answer": "这个电脑太大了",
+    "fr": "Cet ordinateur est trop grand."
+   },
+   {
+    "type": "cloze",
+    "zh": "这本书太好___！",
+    "options": [
+     "了",
+     "吗",
+     "的",
+     "很"
+    ],
+    "answer": "了",
+    "fr": "Ce livre est vraiment génial !"
+   },
+   {
+    "type": "cloze",
+    "zh": "苹果___多了！",
+    "options": [
+     "太",
+     "吗",
+     "的",
+     "呢"
+    ],
+    "answer": "太",
+    "fr": "Il y a trop de pommes !"
+   },
+   {
+    "type": "cloze",
+    "zh": "北京今天不___冷。",
+    "options": [
+     "太",
+     "了",
+     "是",
+     "吗"
+    ],
+    "answer": "太",
+    "fr": "Il ne fait pas très froid à Pékin aujourd'hui."
+   },
+   {
+    "type": "transform",
+    "instruction": "Exprime l'excès avec 太…了.",
+    "zh": "这个杯子很小。",
+    "answers": [
+     "这个杯子太小了。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Atténue avec 不太 (« pas très »).",
+    "zh": "天气很冷。",
+    "answers": [
+     "天气不太冷。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "太很好了！",
+    "answers": [
+     "太好了！"
+    ],
+    "explanation": "太 remplace 很 : on ne les combine pas."
+   },
+   {
+    "type": "error",
+    "zh": "今天了太冷。",
+    "answers": [
+     "今天太冷了。"
+    ],
+    "explanation": "了 se place à la fin, après l'adjectif."
+   },
+   {
+    "type": "error",
+    "zh": "他的猫太了漂亮。",
+    "answers": [
+     "他的猫太漂亮了。"
+    ],
+    "explanation": "Structure : 太 + adjectif + 了."
+   },
+   {
+    "type": "translate",
+    "fr": "C'est trop petit !",
+    "answers": [
+     "太小了！",
+     "这个太小了！",
+     "太小了。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Génial !",
+    "answers": [
+     "太好了！"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Il fait trop froid aujourd'hui.",
+    "answers": [
+     "今天太冷了。",
+     "今天天气太冷了。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Que signifie 不太好 ?",
+    "options": [
+     "Pas très bien",
+     "Trop bien",
+     "Vraiment mauvais"
+    ],
+    "answer": 0,
+    "explanation": "不太 + adjectif = « pas très »."
+   },
+   {
+    "type": "choice",
+    "question": "« Ta fille est tellement jolie ! » :",
+    "options": [
+     "你女儿太漂亮了！",
+     "你女儿很太漂亮！",
+     "你女儿太了漂亮！"
+    ],
+    "answer": 0,
+    "explanation": "太 + adjectif + 了."
+   },
+   {
+    "type": "listen",
+    "zh": "这个太大了，我要小的。",
+    "question": "Pourquoi la personne n'en veut-elle pas ?",
+    "options": [
+     "C'est trop grand",
+     "C'est trop petit",
+     "C'est trop cher"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-28",
+  "phase": 1,
+  "title": "Ou bien ? La question alternative avec 还是",
+  "pattern": "A + 还是 + B ？",
+  "hsk": 1,
+  "explanation": "Pour demander à quelqu'un de **choisir entre deux possibilités** (« thé ou café ? »), on relie les deux options par **还是**.\n\n- 你喝茶还是喝水？ = Tu bois du thé ou de l'eau ?\n- 他是老师还是学生？ = Il est professeur ou étudiant ?\n- 你今天去还是明天去？ = Tu y vas aujourd'hui ou demain ?\n\n**Répéter le verbe ou pas ?** Les deux sont possibles quand le verbe est le même : 你喝茶还是喝水？ ou 你喝茶还是水？ Si les actions sont différentes, on les écrit en entier : 我们在家吃饭还是去饭馆？\n\n**Pas de 吗 !** La question est déjà portée par 还是. *你喝茶还是喝水吗 ✗. C'est la même logique qu'avec les mots interrogatifs.\n\n**Comment répondre ?** On choisit l'une des options, en reprenant le verbe : 我喝茶。 / 我是学生。 On ne répond pas par 是 ou par 还是.\n\n**还是 = « ou » seulement dans les QUESTIONS.** Dans une phrase affirmative (« je bois du thé ou du café, ça m'est égal »), le chinois utilise un autre mot que tu verras plus tard. Pour l'instant, retiens : **还是 = question de choix**.\n\n**Pièges pour un francophone :**\n\n- Ajouter 吗 à la fin, par réflexe de question.\n- Utiliser 和 (« et ») pour proposer un choix : *你要这个和那个？ signifie « tu veux celui-ci et celui-là ? ».\n- Répondre par 是 ou 不是 : la personne attend un choix (我是学生), pas un « oui » ou un « non ».",
+  "examples": [
+   {
+    "zh": "你喝茶还是喝水？",
+    "fr": "Tu bois du thé ou de l'eau ?"
+   },
+   {
+    "zh": "你是老师还是学生？",
+    "fr": "Tu es professeur ou étudiant ?"
+   },
+   {
+    "zh": "你今天去还是明天去？",
+    "fr": "Tu y vas aujourd'hui ou demain ?"
+   },
+   {
+    "zh": "这是你的还是他的？",
+    "fr": "C'est à toi ou à lui ?"
+   },
+   {
+    "zh": "你要米饭还是苹果？",
+    "fr": "Tu veux du riz ou une pomme ?"
+   },
+   {
+    "zh": "我们在家吃饭还是去饭馆？",
+    "fr": "On mange à la maison ou on va au restaurant ?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "你喝茶",
+     "还是",
+     "喝",
+     "水"
+    ],
+    "answer": "你喝茶还是喝水",
+    "fr": "Tu bois du thé ou de l'eau ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "这是你的",
+     "还是",
+     "他",
+     "的"
+    ],
+    "answer": "这是你的还是他的",
+    "fr": "C'est à toi ou à lui ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你今天去",
+     "还是",
+     "明天",
+     "去"
+    ],
+    "answer": "你今天去还是明天去",
+    "fr": "Tu y vas aujourd'hui ou demain ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你喜欢猫___狗？",
+    "options": [
+     "还是",
+     "也",
+     "都",
+     "吗"
+    ],
+    "answer": "还是",
+    "fr": "Tu préfères les chats ou les chiens ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你们在家吃饭___去饭馆吃饭？",
+    "options": [
+     "还是",
+     "和",
+     "也",
+     "都"
+    ],
+    "answer": "还是",
+    "fr": "Vous mangez à la maison ou au restaurant ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "A：你喝茶还是喝水？ B：我___茶。",
+    "options": [
+     "喝",
+     "还是",
+     "吗",
+     "和"
+    ],
+    "answer": "喝",
+    "fr": "Tu bois du thé ou de l'eau ? — Je bois du thé."
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en question alternative : « du thé ou de l'eau ? »",
+    "zh": "你喝茶吗？",
+    "answers": [
+     "你喝茶还是喝水？",
+     "你喝茶还是水？"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Combine les deux questions en une seule avec 还是.",
+    "zh": "他是老师吗？他是学生吗？",
+    "answers": [
+     "他是老师还是学生？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "你喝茶还是喝水吗？",
+    "answers": [
+     "你喝茶还是喝水？"
+    ],
+    "explanation": "Une question avec 还是 ne prend pas 吗."
+   },
+   {
+    "type": "error",
+    "zh": "你要这个和那个？",
+    "answers": [
+     "你要这个还是那个？"
+    ],
+    "explanation": "Pour proposer un choix (« ou ? »), on utilise 还是, pas 和 (« et »)."
+   },
+   {
+    "type": "translate",
+    "fr": "Tu vas à l'école ou à l'hôpital ?",
+    "answers": [
+     "你去学校还是去医院？",
+     "你去学校还是医院？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "C'est à toi ou à lui ?",
+    "answers": [
+     "这是你的还是他的？",
+     "这是你的还是她的？",
+     "那是你的还是他的？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Tu viens aujourd'hui ou demain ?",
+    "answers": [
+     "你今天来还是明天来？",
+     "你今天还是明天来？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle question est correcte ?",
+    "options": [
+     "你喝茶还是水吗？",
+     "你喝茶还是水？",
+     "你还是喝茶水？"
+    ],
+    "answer": 1,
+    "explanation": "A + 还是 + B, sans 吗."
+   },
+   {
+    "type": "choice",
+    "question": "Que répond-on à 你是老师还是学生？",
+    "options": [
+     "是。",
+     "我是学生。",
+     "还是。"
+    ],
+    "answer": 1,
+    "explanation": "On choisit une des options."
+   },
+   {
+    "type": "listen",
+    "zh": "你想喝茶还是喝水？",
+    "question": "Que propose-t-on ?",
+    "options": [
+     "Du thé ou de l'eau",
+     "Du thé et de l'eau",
+     "Seulement du thé"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-29",
+  "phase": 1,
+  "title": "Suggérer avec 吧",
+  "pattern": "(我们) + Verbe… + 吧！ (suggestion)\nPhrase + 吧？ (supposition)",
+  "hsk": 1,
+  "explanation": "La particule **吧**, placée en fin de phrase, **adoucit** ce qu'on dit. Elle a deux grands usages.\n\n**1. Suggestion, proposition, invitation** (« et si on… », « allons… ! ») :\n\n- 我们去吃饭吧！ = Allons manger !\n- 我们明天去吧。 = Allons-y demain.\n- 你坐吧。 = Assieds-toi (je t'en prie).\n\nAvec 我们, c'est l'équivalent de l'impératif français « -ons » (allons, mangeons). Avec 你, c'est un ordre adouci, une invitation polie.\n\n**2. Supposition** (« …, n'est-ce pas ? », « je suppose que… ») :\n\n- 你是中国人吧？ = Tu es chinois, je suppose ? / Tu es chinois, non ?\n- 他是你哥哥吧？ = C'est ton grand frère, n'est-ce pas ?\n\n**吧 ou 吗 ?**\n\n- 你是老师**吗**？ = question neutre : je n'en sais rien.\n- 你是老师**吧**？ = je pense que oui, je demande confirmation.\n\n**好吧** = « d'accord » (souvent un peu résigné, « bon, d'accord »).\n\n**Pièges pour un francophone :**\n\n- Utiliser 吗 pour une proposition : *我们去吃饭吗！ ✗ (ce serait une question : « on va manger ? »).\n- Placer 吧 ailleurs qu'en fin de phrase.\n- Sans 吧, une phrase comme 你坐 sonne sec, presque un ordre. Les Chinois utilisent beaucoup 吧 pour rester polis.",
+  "examples": [
+   {
+    "zh": "我们去吃饭吧！",
+    "fr": "Allons manger !"
+   },
+   {
+    "zh": "你坐吧。",
+    "fr": "Assieds-toi."
+   },
+   {
+    "zh": "我们明天去吧。",
+    "fr": "Allons-y demain."
+   },
+   {
+    "zh": "你是中国人吧？",
+    "fr": "Tu es chinois, n'est-ce pas ?"
+   },
+   {
+    "zh": "好吧。",
+    "fr": "Bon, d'accord."
+   },
+   {
+    "zh": "我们看电影吧！",
+    "fr": "Regardons un film !"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "去",
+     "商店",
+     "吧"
+    ],
+    "answer": "我们去商店吧",
+    "fr": "Allons au magasin !"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "是",
+     "老师",
+     "吧"
+    ],
+    "answer": "你是老师吧",
+    "fr": "Tu es professeur, je suppose ?"
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "在",
+     "家",
+     "吃",
+     "饭",
+     "吧"
+    ],
+    "answer": "我们在家吃饭吧",
+    "fr": "Mangeons à la maison !"
+   },
+   {
+    "type": "cloze",
+    "zh": "我们去看电影___！",
+    "options": [
+     "吧",
+     "吗",
+     "呢",
+     "的"
+    ],
+    "answer": "吧",
+    "fr": "Allons voir un film !"
+   },
+   {
+    "type": "cloze",
+    "zh": "他是你哥哥___？",
+    "options": [
+     "吧",
+     "呢",
+     "的",
+     "很"
+    ],
+    "answer": "吧",
+    "fr": "C'est ton grand frère, n'est-ce pas ?"
+   },
+   {
+    "type": "cloze",
+    "zh": "你坐___。",
+    "options": [
+     "吧",
+     "吗",
+     "呢",
+     "的"
+    ],
+    "answer": "吧",
+    "fr": "Assieds-toi, je t'en prie."
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en suggestion (« faisons… ! »).",
+    "zh": "我们喝茶。",
+    "answers": [
+     "我们喝茶吧！",
+     "我们喝茶吧。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Transforme en supposition (« …, n'est-ce pas ? »).",
+    "zh": "你是学生。",
+    "answers": [
+     "你是学生吧？"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "我们去吃饭吗！",
+    "answers": [
+     "我们去吃饭吧！",
+     "我们去吃饭吧。"
+    ],
+    "explanation": "Pour une suggestion, on utilise 吧, pas 吗."
+   },
+   {
+    "type": "error",
+    "zh": "吧我们去北京。",
+    "answers": [
+     "我们去北京吧！",
+     "我们去北京吧。"
+    ],
+    "explanation": "吧 se place en fin de phrase."
+   },
+   {
+    "type": "translate",
+    "fr": "Allons à l'école !",
+    "answers": [
+     "我们去学校吧！",
+     "我们去学校吧。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Tu es chinois, n'est-ce pas ?",
+    "answers": [
+     "你是中国人吧？"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Allons-y demain !",
+    "answers": [
+     "我们明天去吧！",
+     "我们明天去吧。",
+     "明天去吧！",
+     "明天去吧。",
+     "明天我们去吧！",
+     "明天我们去吧。"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle différence entre 你是老师吗？ et 你是老师吧？",
+    "options": [
+     "Aucune",
+     "吗 = question neutre ; 吧 = on suppose que oui et on demande confirmation",
+     "吧 est plus impoli"
+    ],
+    "answer": 1,
+    "explanation": "吧 exprime une supposition."
+   },
+   {
+    "type": "choice",
+    "question": "Pour proposer « Regardons la télé ! » :",
+    "options": [
+     "我们看电视吧！",
+     "我们看电视吗？",
+     "我们看电视呢？"
+    ],
+    "answer": 0,
+    "explanation": "Suggestion = 吧."
+   },
+   {
+    "type": "listen",
+    "zh": "今天太热了，我们在家看电视吧。",
+    "question": "Que propose la personne ?",
+    "options": [
+     "Regarder la télé à la maison",
+     "Aller au magasin",
+     "Aller au restaurant"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "p1-30",
+  "phase": 1,
+  "title": "Adoucir un verbe : 一下 et le redoublement",
+  "pattern": "Verbe + 一下 (+ Objet)\nVerbe + Verbe (看看)\nVerbe + 一 + Verbe (看一看)",
+  "hsk": 1,
+  "explanation": "En chinois, on adoucit souvent une action pour dire qu'elle est **brève**, **légère** ou pour formuler une demande **plus polie** (« un peu », « un instant », « jeter un œil »). Deux outils équivalents existent.\n\n**1. Verbe + 一下**\n\n- 请你看一下。 = Regarde un peu, s'il te plaît.\n- 你坐一下。 = Assieds-toi un instant.\n- 我看一下你的书。 = Je jette un œil à ton livre.\n\n一下 se place **juste après le verbe**, et **avant l'objet** : 看一下这本书.\n\n**2. Le redoublement du verbe** (verbes d'une syllabe) : **AA** ou **A一A**\n\n- 看看, 看一看 = jeter un coup d'œil\n- 听听, 听一听 = écouter un peu\n- 想想, 想一想 = réfléchir un peu : 我想想。 = Laisse-moi réfléchir.\n\n我们去商店看看吧。 = Allons faire un tour au magasin.\n\nCes formes sont très fréquentes à l'oral : elles rendent la phrase détendue et aimable. 我能看看吗？ (« je peux regarder ? ») est plus poli que 我能看吗？\n\n**Quels verbes ?** Seulement les **verbes d'action** que l'on peut faire « un peu » : 看, 听, 说, 想, 坐, 写, 读, 学习… **Pas** les verbes d'état ou de relation : *是是, *有有, *在在, *喜欢喜欢 ✗.\n\n**Pièges pour un francophone :**\n\n- Placer 一下 avant le verbe (comme « un peu » qu'on mettrait n'importe où) : *请你一下看 ✗.\n- Combiner les deux outils : *看看一下 ✗. Choisis l'un **ou** l'autre.\n- Confondre 一下 (« un instant », avec un verbe) et 一点儿 (« un peu de », avec une quantité) : tu verras ce dernier plus tard.",
+  "examples": [
+   {
+    "zh": "请你看一下。",
+    "fr": "Regarde un peu, s'il te plaît."
+   },
+   {
+    "zh": "我看看你的书，好吗？",
+    "fr": "Je peux jeter un œil à ton livre ?"
+   },
+   {
+    "zh": "你听一下。",
+    "fr": "Écoute un peu."
+   },
+   {
+    "zh": "我们去商店看看吧。",
+    "fr": "Allons faire un tour au magasin."
+   },
+   {
+    "zh": "你坐一下。",
+    "fr": "Assieds-toi un instant."
+   },
+   {
+    "zh": "我想想。",
+    "fr": "Laisse-moi réfléchir."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "tokens": [
+     "请",
+     "你",
+     "看",
+     "一下"
+    ],
+    "answer": "请你看一下",
+    "fr": "Regarde un peu, s'il te plaît."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我",
+     "看",
+     "看",
+     "你",
+     "的",
+     "电脑"
+    ],
+    "answer": "我看看你的电脑",
+    "fr": "Je jette un œil à ton ordinateur."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "你",
+     "听",
+     "一下",
+     "这个"
+    ],
+    "answer": "你听一下这个",
+    "fr": "Écoute un peu ça."
+   },
+   {
+    "type": "order",
+    "tokens": [
+     "我们",
+     "去",
+     "商店",
+     "看看",
+     "吧"
+    ],
+    "answer": "我们去商店看看吧",
+    "fr": "Allons faire un tour au magasin !"
+   },
+   {
+    "type": "cloze",
+    "zh": "请你坐___。",
+    "options": [
+     "一下",
+     "一个",
+     "一点",
+     "了"
+    ],
+    "answer": "一下",
+    "fr": "Assieds-toi un instant, s'il te plaît."
+   },
+   {
+    "type": "cloze",
+    "zh": "我想___。",
+    "options": [
+     "想",
+     "一",
+     "是",
+     "很"
+    ],
+    "answer": "想",
+    "fr": "Laisse-moi réfléchir."
+   },
+   {
+    "type": "cloze",
+    "zh": "你看___看这本书。",
+    "options": [
+     "一",
+     "下",
+     "是",
+     "个"
+    ],
+    "answer": "一",
+    "fr": "Jette un œil à ce livre."
+   },
+   {
+    "type": "transform",
+    "instruction": "Adoucis la demande avec 一下.",
+    "zh": "请你看我的书。",
+    "answers": [
+     "请你看一下我的书。"
+    ]
+   },
+   {
+    "type": "transform",
+    "instruction": "Adoucis avec le redoublement du verbe.",
+    "zh": "你听这个。",
+    "answers": [
+     "你听听这个。",
+     "你听一听这个。"
+    ]
+   },
+   {
+    "type": "error",
+    "zh": "请你一下看。",
+    "answers": [
+     "请你看一下。"
+    ],
+    "explanation": "一下 se place après le verbe."
+   },
+   {
+    "type": "error",
+    "zh": "我看看一下。",
+    "answers": [
+     "我看一下。",
+     "我看看。",
+     "我看一看。"
+    ],
+    "explanation": "On choisit 一下 OU le redoublement, pas les deux."
+   },
+   {
+    "type": "error",
+    "zh": "他是是老师。",
+    "answers": [
+     "他是老师。"
+    ],
+    "explanation": "On ne redouble pas 是 : seuls les verbes d'action se redoublent."
+   },
+   {
+    "type": "translate",
+    "fr": "Assieds-toi un instant.",
+    "answers": [
+     "你坐一下。",
+     "请坐一下。",
+     "你坐坐。",
+     "请你坐一下。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Laisse-moi réfléchir.",
+    "answers": [
+     "我想想。",
+     "我想一想。",
+     "我想一下。"
+    ]
+   },
+   {
+    "type": "translate",
+    "fr": "Je peux regarder un peu ?",
+    "answers": [
+     "我能看看吗？",
+     "我能看一下吗？",
+     "我能看一看吗？"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Laquelle est correcte ?",
+    "options": [
+     "我们说说。",
+     "我们说一下说。",
+     "我们一下说。"
+    ],
+    "answer": 0,
+    "explanation": "Redoublement AA : 说说."
+   },
+   {
+    "type": "choice",
+    "question": "Quel verbe ne peut PAS se redoubler ?",
+    "options": [
+     "看",
+     "听",
+     "有"
+    ],
+    "answer": 2,
+    "explanation": "有 n'est pas un verbe d'action : *有有 est impossible."
+   },
+   {
+    "type": "listen",
+    "zh": "这本书很好，你看看吧。",
+    "question": "Que suggère la personne ?",
+    "options": [
+     "De jeter un œil au livre",
+     "D'acheter le livre",
+     "D'écrire un livre"
+    ],
+    "answer": 0
+   }
+  ]
+ }
+]

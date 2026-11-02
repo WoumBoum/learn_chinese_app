@@ -1,0 +1,12837 @@
+{
+ "的": {
+  "pn": "de5",
+  "py": "de",
+  "fr": [
+   "(particule de possession / de détermination)",
+   "de (… de qqn)"
+  ]
+ },
+ "了": {
+  "pn": "le5",
+  "py": "le",
+  "fr": [
+   "(particule : action accomplie / changement)",
+   "(liǎo) finir ; comprendre"
+  ]
+ },
+ "我": {
+  "pn": "wo3",
+  "py": "wǒ",
+  "fr": [
+   "je",
+   "moi"
+  ]
+ },
+ "是": {
+  "pn": "shi4",
+  "py": "shì",
+  "fr": [
+   "être",
+   "oui ; c'est exact"
+  ]
+ },
+ "你": {
+  "pn": "ni3",
+  "py": "nǐ",
+  "fr": [
+   "tu",
+   "toi"
+  ]
+ },
+ "在": {
+  "pn": "zai4",
+  "py": "zài",
+  "fr": [
+   "être à (un lieu) ; se trouver",
+   "à ; dans",
+   "être en train de"
+  ]
+ },
+ "不": {
+  "pn": "bu4",
+  "py": "bù",
+  "fr": [
+   "ne… pas ; non"
+  ]
+ },
+ "有": {
+  "pn": "you3",
+  "py": "yǒu",
+  "fr": [
+   "avoir",
+   "il y a"
+  ]
+ },
+ "他": {
+  "pn": "ta1",
+  "py": "tā",
+  "fr": [
+   "il",
+   "lui"
+  ]
+ },
+ "这": {
+  "pn": "zhe4",
+  "py": "zhè",
+  "fr": [
+   "ce ; cet ; cette",
+   "ceci"
+  ]
+ },
+ "就": {
+  "pn": "jiu4",
+  "py": "jiù",
+  "fr": [
+   "alors ; dans ce cas",
+   "tout de suite ; déjà",
+   "justement ; seulement"
+  ]
+ },
+ "个": {
+  "pn": "ge4",
+  "py": "gè",
+  "fr": [
+   "(classificateur général)",
+   "individuel"
+  ]
+ },
+ "和": {
+  "pn": "he2",
+  "py": "hé",
+  "fr": [
+   "et ; avec"
+  ]
+ },
+ "人": {
+  "pn": "ren2",
+  "py": "rén",
+  "fr": [
+   "personne ; homme",
+   "gens"
+  ]
+ },
+ "说": {
+  "pn": "shuo1",
+  "py": "shuō",
+  "fr": [
+   "dire ; parler",
+   "expliquer"
+  ]
+ },
+ "我们": {
+  "pn": "wo3 men5",
+  "py": "wǒ men",
+  "fr": [
+   "nous"
+  ]
+ },
+ "要": {
+  "pn": "yao4",
+  "py": "yào",
+  "fr": [
+   "vouloir",
+   "devoir ; falloir",
+   "aller (faire), être sur le point de"
+  ]
+ },
+ "好": {
+  "pn": "hao3",
+  "py": "hǎo",
+  "fr": [
+   "bon ; bien",
+   "d'accord !",
+   "(hào) aimer ; avoir le goût de"
+  ]
+ },
+ "一": {
+  "pn": "yi1",
+  "py": "yī",
+  "fr": [
+   "un ; 1"
+  ]
+ },
+ "会": {
+  "pn": "hui4",
+  "py": "huì",
+  "fr": [
+   "savoir (faire) ; pouvoir",
+   "(futur probable) : il va…",
+   "réunion ; assemblée"
+  ]
+ },
+ "也": {
+  "pn": "ye3",
+  "py": "yě",
+  "fr": [
+   "aussi ; également"
+  ]
+ },
+ "都": {
+  "pn": "dou1",
+  "py": "dōu",
+  "fr": [
+   "tous ; tout",
+   "même ; déjà"
+  ]
+ },
+ "对": {
+  "pn": "dui4",
+  "py": "duì",
+  "fr": [
+   "correct ; juste",
+   "envers ; à l'égard de",
+   "face à"
+  ]
+ },
+ "到": {
+  "pn": "dao4",
+  "py": "dào",
+  "fr": [
+   "arriver ; atteindre",
+   "jusqu'à ; à"
+  ]
+ },
+ "上": {
+  "pn": "shang4",
+  "py": "shàng",
+  "fr": [
+   "monter ; sur ; dessus",
+   "précédent ; dernier",
+   "aller à (école, travail)"
+  ]
+ },
+ "来": {
+  "pn": "lai2",
+  "py": "lái",
+  "fr": [
+   "venir ; arriver",
+   "(verbe substitut : faire, prendre)"
+  ]
+ },
+ "很": {
+  "pn": "hen3",
+  "py": "hěn",
+  "fr": [
+   "très",
+   "(adverbe de degré)"
+  ]
+ },
+ "还": {
+  "pn": "hai2",
+  "py": "hái",
+  "fr": [
+   "encore ; toujours",
+   "en plus",
+   "(huán) rendre ; rembourser"
+  ]
+ },
+ "去": {
+  "pn": "qu4",
+  "py": "qù",
+  "fr": [
+   "aller",
+   "partir ; quitter"
+  ]
+ },
+ "她": {
+  "pn": "ta1",
+  "py": "tā",
+  "fr": [
+   "elle"
+  ]
+ },
+ "着": {
+  "pn": "zhe5",
+  "py": "zhe",
+  "fr": [
+   "(particule : action en cours / état)",
+   "(zháo) toucher ; atteindre"
+  ]
+ },
+ "想": {
+  "pn": "xiang3",
+  "py": "xiǎng",
+  "fr": [
+   "penser ; réfléchir",
+   "vouloir ; avoir envie de",
+   "(se) manquer (qqn)"
+  ]
+ },
+ "给": {
+  "pn": "gei3",
+  "py": "gěi",
+  "fr": [
+   "donner",
+   "pour ; à"
+  ]
+ },
+ "没有": {
+  "pn": "mei2 you3",
+  "py": "méi yǒu",
+  "fr": [
+   "ne pas avoir ; il n'y a pas",
+   "ne pas (passé : ne… pas encore)"
+  ]
+ },
+ "能": {
+  "pn": "neng2",
+  "py": "néng",
+  "fr": [
+   "pouvoir ; être capable de",
+   "capacité ; énergie"
+  ]
+ },
+ "那": {
+  "pn": "na4",
+  "py": "nà",
+  "fr": [
+   "ce… là ; cela",
+   "alors ; dans ce cas"
+  ]
+ },
+ "他们": {
+  "pn": "ta1 men5",
+  "py": "tā men",
+  "fr": [
+   "ils ; eux"
+  ]
+ },
+ "看": {
+  "pn": "kan4",
+  "py": "kàn",
+  "fr": [
+   "regarder ; voir",
+   "lire",
+   "trouver ; estimer"
+  ]
+ },
+ "做": {
+  "pn": "zuo4",
+  "py": "zuò",
+  "fr": [
+   "faire",
+   "fabriquer ; préparer"
+  ]
+ },
+ "什么": {
+  "pn": "shen2 me5",
+  "py": "shén me",
+  "fr": [
+   "quoi ; que ; quel",
+   "quelque chose"
+  ]
+ },
+ "吧": {
+  "pn": "ba5",
+  "py": "ba",
+  "fr": [
+   "(particule de suggestion / supposition)",
+   "(bā) bar"
+  ]
+ },
+ "点": {
+  "pn": "dian3",
+  "py": "diǎn",
+  "fr": [
+   "point",
+   "heure (… heures)",
+   "un peu ; commander (un plat)"
+  ]
+ },
+ "过": {
+  "pn": "guo4",
+  "py": "guò",
+  "fr": [
+   "passer ; traverser",
+   "(particule : expérience passée)",
+   "fêter ; vivre"
+  ]
+ },
+ "没": {
+  "pn": "mei2",
+  "py": "méi",
+  "fr": [
+   "ne pas (avoir) ; ne… pas",
+   "(mò) sombrer ; disparaître"
+  ]
+ },
+ "大": {
+  "pn": "da4",
+  "py": "dà",
+  "fr": [
+   "grand",
+   "âgé ; aîné"
+  ]
+ },
+ "从": {
+  "pn": "cong2",
+  "py": "cóng",
+  "fr": [
+   "depuis ; à partir de",
+   "par ; via"
+  ]
+ },
+ "下": {
+  "pn": "xia4",
+  "py": "xià",
+  "fr": [
+   "descendre ; sous ; dessous",
+   "prochain ; suivant",
+   "(classificateur des coups, des fois)"
+  ]
+ },
+ "中": {
+  "pn": "zhong1",
+  "py": "zhōng",
+  "fr": [
+   "milieu ; centre",
+   "dans ; parmi",
+   "Chine"
+  ]
+ },
+ "里": {
+  "pn": "li3",
+  "py": "lǐ",
+  "fr": [
+   "dans ; à l'intérieur",
+   "li (≈ 500 m)"
+  ]
+ },
+ "真": {
+  "pn": "zhen1",
+  "py": "zhēn",
+  "fr": [
+   "vraiment",
+   "vrai ; réel"
+  ]
+ },
+ "现在": {
+  "pn": "xian4 zai4",
+  "py": "xiàn zài",
+  "fr": [
+   "maintenant",
+   "actuellement"
+  ]
+ },
+ "年": {
+  "pn": "nian2",
+  "py": "nián",
+  "fr": [
+   "année ; an"
+  ]
+ },
+ "用": {
+  "pn": "yong4",
+  "py": "yòng",
+  "fr": [
+   "utiliser ; se servir de",
+   "avec (un outil)"
+  ]
+ },
+ "多": {
+  "pn": "duo1",
+  "py": "duō",
+  "fr": [
+   "beaucoup ; nombreux",
+   "plus de ; de trop",
+   "combien (多大…)"
+  ]
+ },
+ "两": {
+  "pn": "liang3",
+  "py": "liǎng",
+  "fr": [
+   "deux (devant un classificateur)",
+   "liang (50 g)"
+  ]
+ },
+ "等": {
+  "pn": "deng3",
+  "py": "děng",
+  "fr": [
+   "attendre",
+   "etc.",
+   "classe ; rang"
+  ]
+ },
+ "吗": {
+  "pn": "ma5",
+  "py": "ma",
+  "fr": [
+   "(particule interrogative)"
+  ]
+ },
+ "天": {
+  "pn": "tian1",
+  "py": "tiān",
+  "fr": [
+   "jour ; journée",
+   "ciel",
+   "temps (météo)"
+  ]
+ },
+ "出": {
+  "pn": "chu1",
+  "py": "chū",
+  "fr": [
+   "sortir",
+   "produire ; se produire"
+  ]
+ },
+ "太": {
+  "pn": "tai4",
+  "py": "tài",
+  "fr": [
+   "trop",
+   "très ; tellement"
+  ]
+ },
+ "最": {
+  "pn": "zui4",
+  "py": "zuì",
+  "fr": [
+   "le plus",
+   "(superlatif)"
+  ]
+ },
+ "再": {
+  "pn": "zai4",
+  "py": "zài",
+  "fr": [
+   "encore ; de nouveau",
+   "ensuite ; puis"
+  ]
+ },
+ "呢": {
+  "pn": "ne5",
+  "py": "ne",
+  "fr": [
+   "(particule : et toi ? / question)",
+   "(particule : action en cours)"
+  ]
+ },
+ "次": {
+  "pn": "ci4",
+  "py": "cì",
+  "fr": [
+   "fois (classificateur)",
+   "suivant ; second"
+  ]
+ },
+ "小": {
+  "pn": "xiao3",
+  "py": "xiǎo",
+  "fr": [
+   "petit",
+   "jeune"
+  ]
+ },
+ "知道": {
+  "pn": "zhi1 dao4",
+  "py": "zhī dào",
+  "fr": [
+   "savoir",
+   "être au courant"
+  ]
+ },
+ "时候": {
+  "pn": "shi2 hou5",
+  "py": "shí hou",
+  "fr": [
+   "moment ; quand (…的时候)",
+   "temps"
+  ]
+ },
+ "走": {
+  "pn": "zou3",
+  "py": "zǒu",
+  "fr": [
+   "marcher",
+   "partir ; s'en aller"
+  ]
+ },
+ "工作": {
+  "pn": "gong1 zuo4",
+  "py": "gōng zuò",
+  "fr": [
+   "travail ; emploi",
+   "travailler"
+  ]
+ },
+ "事": {
+  "pn": "shi4",
+  "py": "shì",
+  "fr": [
+   "affaire ; chose",
+   "problème ; incident"
+  ]
+ },
+ "后": {
+  "pn": "hou4",
+  "py": "hòu",
+  "fr": [
+   "après ; derrière",
+   "arrière"
+  ]
+ },
+ "家": {
+  "pn": "jia1",
+  "py": "jiā",
+  "fr": [
+   "maison ; foyer",
+   "famille",
+   "(classificateur des entreprises)"
+  ]
+ },
+ "你们": {
+  "pn": "ni3 men5",
+  "py": "nǐ men",
+  "fr": [
+   "vous (pluriel)"
+  ]
+ },
+ "前": {
+  "pn": "qian2",
+  "py": "qián",
+  "fr": [
+   "devant ; avant",
+   "précédent ; ancien"
+  ]
+ },
+ "时间": {
+  "pn": "shi2 jian1",
+  "py": "shí jiān",
+  "fr": [
+   "temps",
+   "moment ; durée"
+  ]
+ },
+ "怎么": {
+  "pn": "zen3 me5",
+  "py": "zěn me",
+  "fr": [
+   "comment",
+   "pourquoi"
+  ]
+ },
+ "爱": {
+  "pn": "ai4",
+  "py": "ài",
+  "fr": [
+   "aimer",
+   "amour",
+   "avoir tendance à"
+  ]
+ },
+ "地": {
+  "pn": "de5",
+  "py": "de",
+  "fr": [
+   "(particule adverbiale : -ment)",
+   "(dì) terre ; sol"
+  ]
+ },
+ "这些": {
+  "pn": "zhe4 xie1",
+  "py": "zhè xiē",
+  "fr": [
+   "ces ; ceux-ci"
+  ]
+ },
+ "跟": {
+  "pn": "gen1",
+  "py": "gēn",
+  "fr": [
+   "avec ; et",
+   "suivre",
+   "talon"
+  ]
+ },
+ "喜欢": {
+  "pn": "xi3 huan5",
+  "py": "xǐ huan",
+  "fr": [
+   "aimer ; apprécier"
+  ]
+ },
+ "吃": {
+  "pn": "chi1",
+  "py": "chī",
+  "fr": [
+   "manger"
+  ]
+ },
+ "谁": {
+  "pn": "shei2",
+  "py": "shéi",
+  "fr": [
+   "qui"
+  ]
+ },
+ "新": {
+  "pn": "xin1",
+  "py": "xīn",
+  "fr": [
+   "nouveau ; neuf",
+   "récemment"
+  ]
+ },
+ "找": {
+  "pn": "zhao3",
+  "py": "zhǎo",
+  "fr": [
+   "chercher",
+   "rendre la monnaie",
+   "aller voir (qqn)"
+  ]
+ },
+ "打": {
+  "pn": "da3",
+  "py": "dǎ",
+  "fr": [
+   "frapper ; battre",
+   "jouer (à un sport)",
+   "téléphoner (打电话)"
+  ]
+ },
+ "还有": {
+  "pn": "hai2 you3",
+  "py": "hái yǒu",
+  "fr": [
+   "en plus ; et aussi",
+   "il reste encore"
+  ]
+ },
+ "快": {
+  "pn": "kuai4",
+  "py": "kuài",
+  "fr": [
+   "rapide ; vite",
+   "bientôt ; presque"
+  ]
+ },
+ "比": {
+  "pn": "bi3",
+  "py": "bǐ",
+  "fr": [
+   "que (comparaison) ; par rapport à",
+   "comparer"
+  ]
+ },
+ "今天": {
+  "pn": "jin1 tian1",
+  "py": "jīn tiān",
+  "fr": [
+   "aujourd'hui"
+  ]
+ },
+ "话": {
+  "pn": "hua4",
+  "py": "huà",
+  "fr": [
+   "parole ; propos",
+   "langue ; langage"
+  ]
+ },
+ "还是": {
+  "pn": "hai2 shi5",
+  "py": "hái shi",
+  "fr": [
+   "ou (bien) (question)",
+   "toujours ; encore",
+   "plutôt (mieux vaut)"
+  ]
+ },
+ "觉得": {
+  "pn": "jue2 de5",
+  "py": "jué de",
+  "fr": [
+   "trouver que ; penser",
+   "se sentir"
+  ]
+ },
+ "月": {
+  "pn": "yue4",
+  "py": "yuè",
+  "fr": [
+   "mois",
+   "lune"
+  ]
+ },
+ "看到": {
+  "pn": "kan4 dao4",
+  "py": "kàn dào",
+  "fr": [
+   "voir ; apercevoir"
+  ]
+ },
+ "起来": {
+  "pn": "qi3 lai5",
+  "py": "qǐ lai",
+  "fr": [
+   "se lever",
+   "(après verbe) commencer à ; avoir l'air"
+  ]
+ },
+ "一起": {
+  "pn": "yi1 qi3",
+  "py": "yī qǐ",
+  "fr": [
+   "ensemble",
+   "avec"
+  ]
+ },
+ "起": {
+  "pn": "qi3",
+  "py": "qǐ",
+  "fr": [
+   "se lever",
+   "commencer",
+   "(classificateur des incidents)"
+  ]
+ },
+ "几": {
+  "pn": "ji3",
+  "py": "jǐ",
+  "fr": [
+   "combien (petit nombre)",
+   "quelques"
+  ]
+ },
+ "见": {
+  "pn": "jian4",
+  "py": "jiàn",
+  "fr": [
+   "voir",
+   "rencontrer"
+  ]
+ },
+ "车": {
+  "pn": "che1",
+  "py": "chē",
+  "fr": [
+   "voiture ; véhicule"
+  ]
+ },
+ "一些": {
+  "pn": "yi1 xie1",
+  "py": "yī xiē",
+  "fr": [
+   "quelques ; un peu de"
+  ]
+ },
+ "找到": {
+  "pn": "zhao3 dao4",
+  "py": "zhǎo dào",
+  "fr": [
+   "trouver"
+  ]
+ },
+ "手": {
+  "pn": "shou3",
+  "py": "shǒu",
+  "fr": [
+   "main"
+  ]
+ },
+ "听": {
+  "pn": "ting1",
+  "py": "tīng",
+  "fr": [
+   "écouter ; entendre",
+   "obéir"
+  ]
+ },
+ "非常": {
+  "pn": "fei1 chang2",
+  "py": "fēi cháng",
+  "fr": [
+   "très ; extrêmement",
+   "extraordinaire"
+  ]
+ },
+ "开": {
+  "pn": "kai1",
+  "py": "kāi",
+  "fr": [
+   "ouvrir",
+   "conduire (un véhicule)",
+   "allumer ; démarrer"
+  ]
+ },
+ "叫": {
+  "pn": "jiao4",
+  "py": "jiào",
+  "fr": [
+   "s'appeler",
+   "appeler ; crier",
+   "faire faire (qqch à qqn)"
+  ]
+ },
+ "孩子": {
+  "pn": "hai2 zi5",
+  "py": "hái zi",
+  "fr": [
+   "enfant"
+  ]
+ },
+ "这里": {
+  "pn": "zhe4 li3",
+  "py": "zhè lǐ",
+  "fr": [
+   "ici"
+  ]
+ },
+ "别": {
+  "pn": "bie2",
+  "py": "bié",
+  "fr": [
+   "ne… pas (impératif)",
+   "autre",
+   "quitter ; se séparer"
+  ]
+ },
+ "请": {
+  "pn": "qing3",
+  "py": "qǐng",
+  "fr": [
+   "s'il vous plaît ; veuillez",
+   "inviter",
+   "demander"
+  ]
+ },
+ "钱": {
+  "pn": "qian2",
+  "py": "qián",
+  "fr": [
+   "argent"
+  ]
+ },
+ "本": {
+  "pn": "ben3",
+  "py": "běn",
+  "fr": [
+   "(classificateur des livres)",
+   "racine ; origine",
+   "ce ; le présent (本周…)"
+  ]
+ },
+ "回": {
+  "pn": "hui2",
+  "py": "huí",
+  "fr": [
+   "revenir ; retourner",
+   "fois (classificateur)",
+   "répondre"
+  ]
+ },
+ "东西": {
+  "pn": "dong1 xi5",
+  "py": "dōng xi",
+  "fr": [
+   "chose ; objet",
+   "truc"
+  ]
+ },
+ "三": {
+  "pn": "san1",
+  "py": "sān",
+  "fr": [
+   "trois ; 3"
+  ]
+ },
+ "一样": {
+  "pn": "yi1 yang4",
+  "py": "yī yàng",
+  "fr": [
+   "pareil ; identique",
+   "comme"
+  ]
+ },
+ "买": {
+  "pn": "mai3",
+  "py": "mǎi",
+  "fr": [
+   "acheter"
+  ]
+ },
+ "重要": {
+  "pn": "zhong4 yao4",
+  "py": "zhòng yào",
+  "fr": [
+   "important"
+  ]
+ },
+ "问": {
+  "pn": "wen4",
+  "py": "wèn",
+  "fr": [
+   "demander ; poser une question"
+  ]
+ },
+ "告诉": {
+  "pn": "gao4 su5",
+  "py": "gào su",
+  "fr": [
+   "dire (à qqn) ; informer"
+  ]
+ },
+ "出来": {
+  "pn": "chu1 lai2",
+  "py": "chū lái",
+  "fr": [
+   "sortir ; apparaître",
+   "(après verbe) sortir ; aboutir"
+  ]
+ },
+ "地方": {
+  "pn": "di4 fang5",
+  "py": "dì fang",
+  "fr": [
+   "endroit ; lieu",
+   "(dì fāng) local ; région"
+  ]
+ },
+ "最后": {
+  "pn": "zui4 hou4",
+  "py": "zuì hòu",
+  "fr": [
+   "enfin ; finalement",
+   "dernier"
+  ]
+ },
+ "老": {
+  "pn": "lao3",
+  "py": "lǎo",
+  "fr": [
+   "vieux ; âgé",
+   "toujours ; sans cesse",
+   "(préfixe familier : 老王, 老师…)"
+  ]
+ },
+ "岁": {
+  "pn": "sui4",
+  "py": "suì",
+  "fr": [
+   "an (âge) ; … ans"
+  ]
+ },
+ "行": {
+  "pn": "xing2",
+  "py": "xíng",
+  "fr": [
+   "aller ; marcher",
+   "ça va ; d'accord",
+   "(háng) rangée ; métier ; banque"
+  ]
+ },
+ "号": {
+  "pn": "hao4",
+  "py": "hào",
+  "fr": [
+   "numéro",
+   "jour du mois",
+   "taille ; pointure"
+  ]
+ },
+ "放": {
+  "pn": "fang4",
+  "py": "fàng",
+  "fr": [
+   "mettre ; poser",
+   "lâcher ; libérer",
+   "avoir congé (放假)"
+  ]
+ },
+ "朋友": {
+  "pn": "peng2 you5",
+  "py": "péng you",
+  "fr": [
+   "ami"
+  ]
+ },
+ "住": {
+  "pn": "zhu4",
+  "py": "zhù",
+  "fr": [
+   "habiter ; loger",
+   "(après verbe) fermement ; arrêt"
+  ]
+ },
+ "拿": {
+  "pn": "na2",
+  "py": "ná",
+  "fr": [
+   "prendre ; tenir"
+  ]
+ },
+ "高": {
+  "pn": "gao1",
+  "py": "gāo",
+  "fr": [
+   "haut ; grand (taille)",
+   "élevé"
+  ]
+ },
+ "正": {
+  "pn": "zheng4",
+  "py": "zhèng",
+  "fr": [
+   "en train de ; justement",
+   "droit ; correct"
+  ]
+ },
+ "先": {
+  "pn": "xian1",
+  "py": "xiān",
+  "fr": [
+   "d'abord",
+   "avant"
+  ]
+ },
+ "得到": {
+  "pn": "de2 dao4",
+  "py": "dé dào",
+  "fr": [
+   "obtenir ; recevoir"
+  ]
+ },
+ "那些": {
+  "pn": "na4 xie1",
+  "py": "nà xiē",
+  "fr": [
+   "ces ; ceux-là"
+  ]
+ },
+ "准备": {
+  "pn": "zhun3 bei4",
+  "py": "zhǔn bèi",
+  "fr": [
+   "préparer ; se préparer",
+   "avoir l'intention de",
+   "préparation"
+  ]
+ },
+ "水": {
+  "pn": "shui3",
+  "py": "shuǐ",
+  "fr": [
+   "eau"
+  ]
+ },
+ "进": {
+  "pn": "jin4",
+  "py": "jìn",
+  "fr": [
+   "entrer",
+   "avancer"
+  ]
+ },
+ "写": {
+  "pn": "xie3",
+  "py": "xiě",
+  "fr": [
+   "écrire"
+  ]
+ },
+ "国家": {
+  "pn": "guo2 jia1",
+  "py": "guó jiā",
+  "fr": [
+   "pays ; nation",
+   "État"
+  ]
+ },
+ "您": {
+  "pn": "nin2",
+  "py": "nín",
+  "fr": [
+   "vous (politesse)"
+  ]
+ },
+ "电话": {
+  "pn": "dian4 hua4",
+  "py": "diàn huà",
+  "fr": [
+   "téléphone",
+   "appel téléphonique"
+  ]
+ },
+ "女": {
+  "pn": "nü3",
+  "py": "nǚ",
+  "fr": [
+   "femme ; féminin",
+   "fille"
+  ]
+ },
+ "送": {
+  "pn": "song4",
+  "py": "sòng",
+  "fr": [
+   "offrir",
+   "livrer ; envoyer",
+   "raccompagner"
+  ]
+ },
+ "分": {
+  "pn": "fen1",
+  "py": "fēn",
+  "fr": [
+   "minute",
+   "diviser ; partager",
+   "point ; centime"
+  ]
+ },
+ "笑": {
+  "pn": "xiao4",
+  "py": "xiào",
+  "fr": [
+   "rire ; sourire",
+   "se moquer de"
+  ]
+ },
+ "女人": {
+  "pn": "nü3 ren2",
+  "py": "nǚ rén",
+  "fr": [
+   "femme"
+  ]
+ },
+ "小时": {
+  "pn": "xiao3 shi2",
+  "py": "xiǎo shí",
+  "fr": [
+   "heure (durée)"
+  ]
+ },
+ "有些": {
+  "pn": "you3 xie1",
+  "py": "yǒu xiē",
+  "fr": [
+   "certains ; quelques",
+   "un peu"
+  ]
+ },
+ "帮": {
+  "pn": "bang1",
+  "py": "bāng",
+  "fr": [
+   "aider",
+   "bande ; groupe"
+  ]
+ },
+ "日": {
+  "pn": "ri4",
+  "py": "rì",
+  "fr": [
+   "jour",
+   "date (du mois)",
+   "soleil"
+  ]
+ },
+ "别人": {
+  "pn": "bie2 ren5",
+  "py": "bié ren",
+  "fr": [
+   "les autres ; autrui"
+  ]
+ },
+ "站": {
+  "pn": "zhan4",
+  "py": "zhàn",
+  "fr": [
+   "se tenir debout",
+   "station ; gare"
+  ]
+ },
+ "路": {
+  "pn": "lu4",
+  "py": "lù",
+  "fr": [
+   "route ; chemin",
+   "ligne (de bus)"
+  ]
+ },
+ "男人": {
+  "pn": "nan2 ren2",
+  "py": "nán rén",
+  "fr": [
+   "homme"
+  ]
+ },
+ "正在": {
+  "pn": "zheng4 zai4",
+  "py": "zhèng zài",
+  "fr": [
+   "en train de"
+  ]
+ },
+ "门": {
+  "pn": "men2",
+  "py": "mén",
+  "fr": [
+   "porte",
+   "(classificateur des matières, cours)"
+  ]
+ },
+ "喝": {
+  "pn": "he1",
+  "py": "hē",
+  "fr": [
+   "boire"
+  ]
+ },
+ "穿": {
+  "pn": "chuan1",
+  "py": "chuān",
+  "fr": [
+   "porter (vêtement) ; mettre",
+   "traverser ; percer"
+  ]
+ },
+ "学校": {
+  "pn": "xue2 xiao4",
+  "py": "xué xiào",
+  "fr": [
+   "école"
+  ]
+ },
+ "花": {
+  "pn": "hua1",
+  "py": "huā",
+  "fr": [
+   "fleur",
+   "dépenser"
+  ]
+ },
+ "坐": {
+  "pn": "zuo4",
+  "py": "zuò",
+  "fr": [
+   "s'asseoir",
+   "prendre (un transport)"
+  ]
+ },
+ "早": {
+  "pn": "zao3",
+  "py": "zǎo",
+  "fr": [
+   "tôt",
+   "matin",
+   "bonjour !"
+  ]
+ },
+ "们": {
+  "pn": "men5",
+  "py": "men",
+  "fr": [
+   "(suffixe du pluriel)"
+  ]
+ },
+ "身上": {
+  "pn": "shen1 shang5",
+  "py": "shēn shang",
+  "fr": [
+   "sur soi",
+   "sur le corps"
+  ]
+ },
+ "干": {
+  "pn": "gan4",
+  "py": "gàn",
+  "fr": [
+   "faire ; travailler",
+   "(gān) sec"
+  ]
+ },
+ "认识": {
+  "pn": "ren4 shi5",
+  "py": "rèn shi",
+  "fr": [
+   "connaître (qqn)",
+   "reconnaître",
+   "connaissance"
+  ]
+ },
+ "睡": {
+  "pn": "shui4",
+  "py": "shuì",
+  "fr": [
+   "dormir"
+  ]
+ },
+ "明天": {
+  "pn": "ming2 tian1",
+  "py": "míng tiān",
+  "fr": [
+   "demain"
+  ]
+ },
+ "回来": {
+  "pn": "hui2 lai5",
+  "py": "huí lai",
+  "fr": [
+   "revenir ; rentrer"
+  ]
+ },
+ "四": {
+  "pn": "si4",
+  "py": "sì",
+  "fr": [
+   "quatre ; 4"
+  ]
+ },
+ "块": {
+  "pn": "kuai4",
+  "py": "kuài",
+  "fr": [
+   "yuan (fam.)",
+   "morceau",
+   "(classificateur des morceaux)"
+  ]
+ },
+ "外": {
+  "pn": "wai4",
+  "py": "wài",
+  "fr": [
+   "dehors ; extérieur",
+   "étranger"
+  ]
+ },
+ "晚上": {
+  "pn": "wan3 shang5",
+  "py": "wǎn shang",
+  "fr": [
+   "soir",
+   "le soir"
+  ]
+ },
+ "妈": {
+  "pn": "ma1",
+  "py": "mā",
+  "fr": [
+   "maman ; mère"
+  ]
+ },
+ "球": {
+  "pn": "qiu2",
+  "py": "qiú",
+  "fr": [
+   "balle ; ballon",
+   "globe"
+  ]
+ },
+ "谢谢": {
+  "pn": "xie4 xie5",
+  "py": "xiè xie",
+  "fr": [
+   "merci",
+   "remercier"
+  ]
+ },
+ "学": {
+  "pn": "xue2",
+  "py": "xué",
+  "fr": [
+   "apprendre ; étudier",
+   "imiter"
+  ]
+ },
+ "多少": {
+  "pn": "duo1 shao5",
+  "py": "duō shao",
+  "fr": [
+   "combien",
+   "nombre ; quantité"
+  ]
+ },
+ "第二": {
+  "pn": "di4 er4",
+  "py": "dì èr",
+  "fr": [
+   "deuxième ; second"
+  ]
+ },
+ "妈妈": {
+  "pn": "ma1 ma5",
+  "py": "mā ma",
+  "fr": [
+   "maman ; mère"
+  ]
+ },
+ "错": {
+  "pn": "cuo4",
+  "py": "cuò",
+  "fr": [
+   "faux ; erroné",
+   "erreur ; faute",
+   "(不错) pas mal"
+  ]
+ },
+ "少": {
+  "pn": "shao3",
+  "py": "shǎo",
+  "fr": [
+   "peu",
+   "manquer",
+   "(shào) jeune"
+  ]
+ },
+ "别的": {
+  "pn": "bie2 de5",
+  "py": "bié de",
+  "fr": [
+   "autre"
+  ]
+ },
+ "难": {
+  "pn": "nan2",
+  "py": "nán",
+  "fr": [
+   "difficile"
+  ]
+ },
+ "电影": {
+  "pn": "dian4 ying3",
+  "py": "diàn yǐng",
+  "fr": [
+   "film ; cinéma"
+  ]
+ },
+ "间": {
+  "pn": "jian1",
+  "py": "jiān",
+  "fr": [
+   "entre ; parmi",
+   "(classificateur des pièces)"
+  ]
+ },
+ "哪": {
+  "pn": "na3",
+  "py": "nǎ",
+  "fr": [
+   "quel ; lequel",
+   "où (哪儿)"
+  ]
+ },
+ "跑": {
+  "pn": "pao3",
+  "py": "pǎo",
+  "fr": [
+   "courir",
+   "s'enfuir"
+  ]
+ },
+ "回家": {
+  "pn": "hui2 jia1",
+  "py": "huí jiā",
+  "fr": [
+   "rentrer à la maison"
+  ]
+ },
+ "昨天": {
+  "pn": "zuo2 tian1",
+  "py": "zuó tiān",
+  "fr": [
+   "hier"
+  ]
+ },
+ "晚": {
+  "pn": "wan3",
+  "py": "wǎn",
+  "fr": [
+   "tard ; en retard",
+   "soir"
+  ]
+ },
+ "书": {
+  "pn": "shu1",
+  "py": "shū",
+  "fr": [
+   "livre"
+  ]
+ },
+ "五": {
+  "pn": "wu3",
+  "py": "wǔ",
+  "fr": [
+   "cinq ; 5"
+  ]
+ },
+ "先生": {
+  "pn": "xian1 sheng5",
+  "py": "xiān sheng",
+  "fr": [
+   "monsieur",
+   "mari"
+  ]
+ },
+ "男": {
+  "pn": "nan2",
+  "py": "nán",
+  "fr": [
+   "homme ; masculin"
+  ]
+ },
+ "动": {
+  "pn": "dong4",
+  "py": "dòng",
+  "fr": [
+   "bouger",
+   "toucher à",
+   "(après verbe) pouvoir déplacer"
+  ]
+ },
+ "医院": {
+  "pn": "yi1 yuan4",
+  "py": "yī yuàn",
+  "fr": [
+   "hôpital"
+  ]
+ },
+ "重": {
+  "pn": "zhong4",
+  "py": "zhòng",
+  "fr": [
+   "lourd",
+   "important ; grave",
+   "(chóng) répéter ; de nouveau"
+  ]
+ },
+ "真的": {
+  "pn": "zhen1 de5",
+  "py": "zhēn de",
+  "fr": [
+   "vraiment",
+   "vrai"
+  ]
+ },
+ "子": {
+  "pn": "zi5",
+  "py": "zi",
+  "fr": [
+   "(suffixe nominal)",
+   "(zǐ) fils ; enfant",
+   "graine"
+  ]
+ },
+ "远": {
+  "pn": "yuan3",
+  "py": "yuǎn",
+  "fr": [
+   "loin ; éloigné"
+  ]
+ },
+ "口": {
+  "pn": "kou3",
+  "py": "kǒu",
+  "fr": [
+   "bouche",
+   "entrée ; ouverture",
+   "(classificateur : membres d'une famille)"
+  ]
+ },
+ "学生": {
+  "pn": "xue2 sheng5",
+  "py": "xué sheng",
+  "fr": [
+   "étudiant ; élève"
+  ]
+ },
+ "二": {
+  "pn": "er4",
+  "py": "èr",
+  "fr": [
+   "deux ; 2"
+  ]
+ },
+ "儿子": {
+  "pn": "er2 zi5",
+  "py": "ér zi",
+  "fr": [
+   "fils"
+  ]
+ },
+ "明白": {
+  "pn": "ming2 bai5",
+  "py": "míng bai",
+  "fr": [
+   "comprendre",
+   "clair ; évident"
+  ]
+ },
+ "杯": {
+  "pn": "bei1",
+  "py": "bēi",
+  "fr": [
+   "verre ; tasse",
+   "(classificateur : un verre de…)"
+  ]
+ },
+ "记得": {
+  "pn": "ji4 de5",
+  "py": "jì de",
+  "fr": [
+   "se souvenir de ; se rappeler"
+  ]
+ },
+ "歌": {
+  "pn": "ge1",
+  "py": "gē",
+  "fr": [
+   "chanson",
+   "chanter"
+  ]
+ },
+ "半": {
+  "pn": "ban4",
+  "py": "bàn",
+  "fr": [
+   "moitié ; demi",
+   "et demie (heure)"
+  ]
+ },
+ "中国": {
+  "pn": "Zhong1 guo2",
+  "py": "Zhōng guó",
+  "fr": [
+   "Chine"
+  ]
+ },
+ "身体": {
+  "pn": "shen1 ti3",
+  "py": "shēn tǐ",
+  "fr": [
+   "corps",
+   "santé"
+  ]
+ },
+ "元": {
+  "pn": "yuan2",
+  "py": "yuán",
+  "fr": [
+   "yuan (monnaie)",
+   "premier ; originel"
+  ]
+ },
+ "哪里": {
+  "pn": "na3 li3",
+  "py": "nǎ lǐ",
+  "fr": [
+   "où",
+   "pas du tout ! (modestie)"
+  ]
+ },
+ "包": {
+  "pn": "bao1",
+  "py": "bāo",
+  "fr": [
+   "sac",
+   "envelopper ; emballer",
+   "paquet ; colis"
+  ]
+ },
+ "楼": {
+  "pn": "lou2",
+  "py": "lóu",
+  "fr": [
+   "bâtiment ; immeuble",
+   "étage"
+  ]
+ },
+ "那里": {
+  "pn": "na4 li5",
+  "py": "nà li",
+  "fr": [
+   "là-bas ; là"
+  ]
+ },
+ "电视": {
+  "pn": "dian4 shi4",
+  "py": "diàn shì",
+  "fr": [
+   "télévision"
+  ]
+ },
+ "飞": {
+  "pn": "fei1",
+  "py": "fēi",
+  "fr": [
+   "voler (dans les airs)"
+  ]
+ },
+ "介绍": {
+  "pn": "jie4 shao4",
+  "py": "jiè shào",
+  "fr": [
+   "présenter (qqn)",
+   "introduction ; présentation"
+  ]
+ },
+ "下午": {
+  "pn": "xia4 wu3",
+  "py": "xià wǔ",
+  "fr": [
+   "après-midi"
+  ]
+ },
+ "出去": {
+  "pn": "chu1 qu4",
+  "py": "chū qù",
+  "fr": [
+   "sortir"
+  ]
+ },
+ "学习": {
+  "pn": "xue2 xi2",
+  "py": "xué xí",
+  "fr": [
+   "étudier ; apprendre",
+   "études"
+  ]
+ },
+ "老师": {
+  "pn": "lao3 shi1",
+  "py": "lǎo shī",
+  "fr": [
+   "professeur ; enseignant"
+  ]
+ },
+ "六": {
+  "pn": "liu4",
+  "py": "liù",
+  "fr": [
+   "six ; 6"
+  ]
+ },
+ "唱": {
+  "pn": "chang4",
+  "py": "chàng",
+  "fr": [
+   "chanter"
+  ]
+ },
+ "大学": {
+  "pn": "da4 xue2",
+  "py": "dà xué",
+  "fr": [
+   "université"
+  ]
+ },
+ "病": {
+  "pn": "bing4",
+  "py": "bìng",
+  "fr": [
+   "maladie",
+   "tomber malade ; malade"
+  ]
+ },
+ "医生": {
+  "pn": "yi1 sheng1",
+  "py": "yī shēng",
+  "fr": [
+   "médecin ; docteur"
+  ]
+ },
+ "名字": {
+  "pn": "ming2 zi5",
+  "py": "míng zi",
+  "fr": [
+   "nom ; prénom"
+  ]
+ },
+ "她们": {
+  "pn": "ta1 men5",
+  "py": "tā men",
+  "fr": [
+   "elles"
+  ]
+ },
+ "马上": {
+  "pn": "ma3 shang4",
+  "py": "mǎ shàng",
+  "fr": [
+   "tout de suite ; immédiatement"
+  ]
+ },
+ "今年": {
+  "pn": "jin1 nian2",
+  "py": "jīn nián",
+  "fr": [
+   "cette année"
+  ]
+ },
+ "手机": {
+  "pn": "shou3 ji1",
+  "py": "shǒu jī",
+  "fr": [
+   "téléphone portable"
+  ]
+ },
+ "忙": {
+  "pn": "mang2",
+  "py": "máng",
+  "fr": [
+   "occupé ; affairé"
+  ]
+ },
+ "十": {
+  "pn": "shi2",
+  "py": "shí",
+  "fr": [
+   "dix ; 10"
+  ]
+ },
+ "看见": {
+  "pn": "kan4 jian4",
+  "py": "kàn jiàn",
+  "fr": [
+   "voir ; apercevoir"
+  ]
+ },
+ "听到": {
+  "pn": "ting1 dao4",
+  "py": "tīng dào",
+  "fr": [
+   "entendre"
+  ]
+ },
+ "女儿": {
+  "pn": "nü3 er2",
+  "py": "nǚ ér",
+  "fr": [
+   "fille (enfant)"
+  ]
+ },
+ "说话": {
+  "pn": "shuo1 hua4",
+  "py": "shuō huà",
+  "fr": [
+   "parler"
+  ]
+ },
+ "汽车": {
+  "pn": "qi4 che1",
+  "py": "qì chē",
+  "fr": [
+   "voiture ; automobile"
+  ]
+ },
+ "爸爸": {
+  "pn": "ba4 ba5",
+  "py": "bà ba",
+  "fr": [
+   "papa ; père"
+  ]
+ },
+ "字": {
+  "pn": "zi4",
+  "py": "zì",
+  "fr": [
+   "caractère (écrit)",
+   "mot"
+  ]
+ },
+ "高兴": {
+  "pn": "gao1 xing4",
+  "py": "gāo xìng",
+  "fr": [
+   "content ; heureux"
+  ]
+ },
+ "白": {
+  "pn": "bai2",
+  "py": "bái",
+  "fr": [
+   "blanc",
+   "en vain ; gratuitement"
+  ]
+ },
+ "去年": {
+  "pn": "qu4 nian2",
+  "py": "qù nián",
+  "fr": [
+   "l'année dernière"
+  ]
+ },
+ "热": {
+  "pn": "re4",
+  "py": "rè",
+  "fr": [
+   "chaud",
+   "chauffer"
+  ]
+ },
+ "试": {
+  "pn": "shi4",
+  "py": "shì",
+  "fr": [
+   "essayer",
+   "test ; examen"
+  ]
+ },
+ "来到": {
+  "pn": "lai2 dao4",
+  "py": "lái dào",
+  "fr": [
+   "arriver ; venir à"
+  ]
+ },
+ "睡觉": {
+  "pn": "shui4 jiao4",
+  "py": "shuì jiào",
+  "fr": [
+   "dormir ; se coucher"
+  ]
+ },
+ "电脑": {
+  "pn": "dian4 nao3",
+  "py": "diàn nǎo",
+  "fr": [
+   "ordinateur"
+  ]
+ },
+ "票": {
+  "pn": "piao4",
+  "py": "piào",
+  "fr": [
+   "billet ; ticket",
+   "bulletin de vote"
+  ]
+ },
+ "西": {
+  "pn": "xi1",
+  "py": "xī",
+  "fr": [
+   "ouest",
+   "occidental"
+  ]
+ },
+ "床": {
+  "pn": "chuang2",
+  "py": "chuáng",
+  "fr": [
+   "lit"
+  ]
+ },
+ "第": {
+  "pn": "di4",
+  "py": "dì",
+  "fr": [
+   "(préfixe des ordinaux : 第一…)"
+  ]
+ },
+ "回到": {
+  "pn": "hui2 dao4",
+  "py": "huí dào",
+  "fr": [
+   "revenir à ; retourner à"
+  ]
+ },
+ "差": {
+  "pn": "cha4",
+  "py": "chà",
+  "fr": [
+   "mauvais ; médiocre",
+   "manquer ; moins (heure)",
+   "(chā) différence"
+  ]
+ },
+ "家里": {
+  "pn": "jia1 li3",
+  "py": "jiā lǐ",
+  "fr": [
+   "à la maison ; chez soi",
+   "famille"
+  ]
+ },
+ "教": {
+  "pn": "jiao1",
+  "py": "jiāo",
+  "fr": [
+   "enseigner",
+   "(jiào) religion ; enseignement"
+  ]
+ },
+ "不用": {
+  "pn": "bu4 yong4",
+  "py": "bù yòng",
+  "fr": [
+   "pas la peine de ; inutile"
+  ]
+ },
+ "读": {
+  "pn": "du2",
+  "py": "dú",
+  "fr": [
+   "lire (à voix haute)",
+   "étudier"
+  ]
+ },
+ "忘": {
+  "pn": "wang4",
+  "py": "wàng",
+  "fr": [
+   "oublier"
+  ]
+ },
+ "认真": {
+  "pn": "ren4 zhen1",
+  "py": "rèn zhēn",
+  "fr": [
+   "sérieux ; consciencieux"
+  ]
+ },
+ "电": {
+  "pn": "dian4",
+  "py": "diàn",
+  "fr": [
+   "électricité",
+   "électrique"
+  ]
+ },
+ "房子": {
+  "pn": "fang2 zi5",
+  "py": "fáng zi",
+  "fr": [
+   "maison ; logement"
+  ]
+ },
+ "冷": {
+  "pn": "leng3",
+  "py": "lěng",
+  "fr": [
+   "froid"
+  ]
+ },
+ "山": {
+  "pn": "shan1",
+  "py": "shān",
+  "fr": [
+   "montagne"
+  ]
+ },
+ "常": {
+  "pn": "chang2",
+  "py": "cháng",
+  "fr": [
+   "souvent",
+   "ordinaire ; habituel"
+  ]
+ },
+ "飞机": {
+  "pn": "fei1 ji1",
+  "py": "fēi jī",
+  "fr": [
+   "avion"
+  ]
+ },
+ "早上": {
+  "pn": "zao3 shang5",
+  "py": "zǎo shang",
+  "fr": [
+   "matin"
+  ]
+ },
+ "回答": {
+  "pn": "hui2 da2",
+  "py": "huí dá",
+  "fr": [
+   "répondre",
+   "réponse"
+  ]
+ },
+ "记": {
+  "pn": "ji4",
+  "py": "jì",
+  "fr": [
+   "noter ; enregistrer",
+   "retenir ; mémoriser"
+  ]
+ },
+ "关": {
+  "pn": "guan1",
+  "py": "guān",
+  "fr": [
+   "fermer ; éteindre",
+   "concerner",
+   "passe ; col"
+  ]
+ },
+ "哥": {
+  "pn": "ge1",
+  "py": "gē",
+  "fr": [
+   "grand frère"
+  ]
+ },
+ "爸": {
+  "pn": "ba4",
+  "py": "bà",
+  "fr": [
+   "papa ; père"
+  ]
+ },
+ "风": {
+  "pn": "feng1",
+  "py": "fēng",
+  "fr": [
+   "vent",
+   "style"
+  ]
+ },
+ "回去": {
+  "pn": "hui2 qu5",
+  "py": "huí qu",
+  "fr": [
+   "rentrer ; retourner"
+  ]
+ },
+ "累": {
+  "pn": "lei4",
+  "py": "lèi",
+  "fr": [
+   "fatigué",
+   "(lěi) accumuler"
+  ]
+ },
+ "打开": {
+  "pn": "da3 kai1",
+  "py": "dǎ kāi",
+  "fr": [
+   "ouvrir",
+   "allumer"
+  ]
+ },
+ "病人": {
+  "pn": "bing4 ren2",
+  "py": "bìng rén",
+  "fr": [
+   "malade ; patient"
+  ]
+ },
+ "肉": {
+  "pn": "rou4",
+  "py": "ròu",
+  "fr": [
+   "viande",
+   "chair"
+  ]
+ },
+ "打电话": {
+  "pn": "da3 dian4 hua4",
+  "py": "dǎ diàn huà",
+  "fr": [
+   "téléphoner"
+  ]
+ },
+ "休息": {
+  "pn": "xiu1 xi5",
+  "py": "xiū xi",
+  "fr": [
+   "se reposer",
+   "repos"
+  ]
+ },
+ "班": {
+  "pn": "ban1",
+  "py": "bān",
+  "fr": [
+   "classe",
+   "équipe ; service (horaire)"
+  ]
+ },
+ "坏": {
+  "pn": "huai4",
+  "py": "huài",
+  "fr": [
+   "mauvais ; méchant",
+   "cassé ; abîmé"
+  ]
+ },
+ "一边": {
+  "pn": "yi1 bian1",
+  "py": "yī biān",
+  "fr": [
+   "tout en… (一边…一边…)",
+   "un côté"
+  ]
+ },
+ "洗": {
+  "pn": "xi3",
+  "py": "xǐ",
+  "fr": [
+   "laver"
+  ]
+ },
+ "有的": {
+  "pn": "you3 de5",
+  "py": "yǒu de",
+  "fr": [
+   "certains ; quelques-uns"
+  ]
+ },
+ "毛": {
+  "pn": "mao2",
+  "py": "máo",
+  "fr": [
+   "poil ; plume ; laine",
+   "mao (dixième de yuan)"
+  ]
+ },
+ "忘记": {
+  "pn": "wang4 ji4",
+  "py": "wàng jì",
+  "fr": [
+   "oublier"
+  ]
+ },
+ "房间": {
+  "pn": "fang2 jian1",
+  "py": "fáng jiān",
+  "fr": [
+   "chambre ; pièce"
+  ]
+ },
+ "八": {
+  "pn": "ba1",
+  "py": "bā",
+  "fr": [
+   "huit ; 8"
+  ]
+ },
+ "左": {
+  "pn": "zuo3",
+  "py": "zuǒ",
+  "fr": [
+   "gauche"
+  ]
+ },
+ "吃饭": {
+  "pn": "chi1 fan4",
+  "py": "chī fàn",
+  "fr": [
+   "manger ; prendre un repas"
+  ]
+ },
+ "动作": {
+  "pn": "dong4 zuo4",
+  "py": "dòng zuò",
+  "fr": [
+   "mouvement ; geste",
+   "action"
+  ]
+ },
+ "七": {
+  "pn": "qi1",
+  "py": "qī",
+  "fr": [
+   "sept ; 7"
+  ]
+ },
+ "菜": {
+  "pn": "cai4",
+  "py": "cài",
+  "fr": [
+   "plat (cuisiné)",
+   "légume",
+   "cuisine (d'un pays)"
+  ]
+ },
+ "衣服": {
+  "pn": "yi1 fu5",
+  "py": "yī fu",
+  "fr": [
+   "vêtement"
+  ]
+ },
+ "饿": {
+  "pn": "e4",
+  "py": "è",
+  "fr": [
+   "avoir faim"
+  ]
+ },
+ "树": {
+  "pn": "shu4",
+  "py": "shù",
+  "fr": [
+   "arbre"
+  ]
+ },
+ "右": {
+  "pn": "you4",
+  "py": "yòu",
+  "fr": [
+   "droite"
+  ]
+ },
+ "上班": {
+  "pn": "shang4 ban1",
+  "py": "shàng bān",
+  "fr": [
+   "aller au travail",
+   "être au travail"
+  ]
+ },
+ "生日": {
+  "pn": "sheng1 ri4",
+  "py": "shēng rì",
+  "fr": [
+   "anniversaire"
+  ]
+ },
+ "东": {
+  "pn": "dong1",
+  "py": "dōng",
+  "fr": [
+   "est (point cardinal)"
+  ]
+ },
+ "姐姐": {
+  "pn": "jie3 jie5",
+  "py": "jiě jie",
+  "fr": [
+   "grande sœur"
+  ]
+ },
+ "课": {
+  "pn": "ke4",
+  "py": "kè",
+  "fr": [
+   "cours ; leçon"
+  ]
+ },
+ "国": {
+  "pn": "guo2",
+  "py": "guó",
+  "fr": [
+   "pays ; nation",
+   "national"
+  ]
+ },
+ "饭": {
+  "pn": "fan4",
+  "py": "fàn",
+  "fr": [
+   "repas",
+   "riz cuit"
+  ]
+ },
+ "一半": {
+  "pn": "yi1 ban4",
+  "py": "yī bàn",
+  "fr": [
+   "moitié"
+  ]
+ },
+ "家人": {
+  "pn": "jia1 ren2",
+  "py": "jiā rén",
+  "fr": [
+   "membre de la famille ; famille"
+  ]
+ },
+ "有时": {
+  "pn": "you3 shi2",
+  "py": "yǒu shí",
+  "fr": [
+   "parfois"
+  ]
+ },
+ "小姐": {
+  "pn": "xiao3 jie5",
+  "py": "xiǎo jie",
+  "fr": [
+   "mademoiselle",
+   "demoiselle"
+  ]
+ },
+ "对不起": {
+  "pn": "dui4 bu5 qi3",
+  "py": "duì bu qǐ",
+  "fr": [
+   "pardon ; désolé",
+   "excusez-moi"
+  ]
+ },
+ "进去": {
+  "pn": "jin4 qu4",
+  "py": "jìn qù",
+  "fr": [
+   "entrer"
+  ]
+ },
+ "哥哥": {
+  "pn": "ge1 ge5",
+  "py": "gē ge",
+  "fr": [
+   "grand frère"
+  ]
+ },
+ "没什么": {
+  "pn": "mei2 shen2 me5",
+  "py": "méi shén me",
+  "fr": [
+   "ce n'est rien ; pas de problème",
+   "rien de spécial"
+  ]
+ },
+ "路上": {
+  "pn": "lu4 shang5",
+  "py": "lù shang",
+  "fr": [
+   "en route ; en chemin"
+  ]
+ },
+ "天气": {
+  "pn": "tian1 qi4",
+  "py": "tiān qì",
+  "fr": [
+   "temps (météo)"
+  ]
+ },
+ "最好": {
+  "pn": "zui4 hao3",
+  "py": "zuì hǎo",
+  "fr": [
+   "le meilleur",
+   "il vaut mieux"
+  ]
+ },
+ "南": {
+  "pn": "nan2",
+  "py": "nán",
+  "fr": [
+   "sud"
+  ]
+ },
+ "考试": {
+  "pn": "kao3 shi4",
+  "py": "kǎo shì",
+  "fr": [
+   "examen",
+   "passer un examen"
+  ]
+ },
+ "有时候": {
+  "pn": "you3 shi2 hou5",
+  "py": "yǒu shí hou",
+  "fr": [
+   "parfois"
+  ]
+ },
+ "慢": {
+  "pn": "man4",
+  "py": "màn",
+  "fr": [
+   "lent ; lentement"
+  ]
+ },
+ "旁边": {
+  "pn": "pang2 bian1",
+  "py": "páng biān",
+  "fr": [
+   "à côté",
+   "côté"
+  ]
+ },
+ "同学": {
+  "pn": "tong2 xue2",
+  "py": "tóng xué",
+  "fr": [
+   "camarade de classe"
+  ]
+ },
+ "北": {
+  "pn": "bei3",
+  "py": "běi",
+  "fr": [
+   "nord"
+  ]
+ },
+ "帮忙": {
+  "pn": "bang1 mang2",
+  "py": "bāng máng",
+  "fr": [
+   "aider ; rendre service"
+  ]
+ },
+ "进来": {
+  "pn": "jin4 lai2",
+  "py": "jìn lái",
+  "fr": [
+   "entrer (vers ici)"
+  ]
+ },
+ "见面": {
+  "pn": "jian4 mian4",
+  "py": "jiàn miàn",
+  "fr": [
+   "se voir ; se rencontrer"
+  ]
+ },
+ "好看": {
+  "pn": "hao3 kan4",
+  "py": "hǎo kàn",
+  "fr": [
+   "beau ; joli",
+   "intéressant (film, livre)"
+  ]
+ },
+ "中间": {
+  "pn": "zhong1 jian1",
+  "py": "zhōng jiān",
+  "fr": [
+   "milieu ; au milieu",
+   "entre ; parmi"
+  ]
+ },
+ "女生": {
+  "pn": "nü3 sheng1",
+  "py": "nǚ shēng",
+  "fr": [
+   "fille ; étudiante"
+  ]
+ },
+ "茶": {
+  "pn": "cha2",
+  "py": "chá",
+  "fr": [
+   "thé"
+  ]
+ },
+ "地点": {
+  "pn": "di4 dian3",
+  "py": "dì diǎn",
+  "fr": [
+   "lieu ; endroit"
+  ]
+ },
+ "雨": {
+  "pn": "yu3",
+  "py": "yǔ",
+  "fr": [
+   "pluie"
+  ]
+ },
+ "星期": {
+  "pn": "xing1 qi1",
+  "py": "xīng qī",
+  "fr": [
+   "semaine",
+   "(星期一…) jour de la semaine"
+  ]
+ },
+ "车上": {
+  "pn": "che1 shang4",
+  "py": "chē shàng",
+  "fr": [
+   "dans la voiture ; à bord"
+  ]
+ },
+ "考": {
+  "pn": "kao3",
+  "py": "kǎo",
+  "fr": [
+   "passer un examen",
+   "interroger ; tester"
+  ]
+ },
+ "九": {
+  "pn": "jiu3",
+  "py": "jiǔ",
+  "fr": [
+   "neuf ; 9"
+  ]
+ },
+ "妹妹": {
+  "pn": "mei4 mei5",
+  "py": "mèi mei",
+  "fr": [
+   "petite sœur"
+  ]
+ },
+ "生气": {
+  "pn": "sheng1 qi4",
+  "py": "shēng qì",
+  "fr": [
+   "se fâcher ; en colère"
+  ]
+ },
+ "地上": {
+  "pn": "di4 shang5",
+  "py": "dì shang",
+  "fr": [
+   "par terre ; au sol"
+  ]
+ },
+ "上午": {
+  "pn": "shang4 wu3",
+  "py": "shàng wǔ",
+  "fr": [
+   "matin ; matinée"
+  ]
+ },
+ "一会儿": {
+  "pn": "yi1 hui4 r5",
+  "py": "yī huì r",
+  "fr": [
+   "un moment ; un instant",
+   "tout à l'heure"
+  ]
+ },
+ "贵": {
+  "pn": "gui4",
+  "py": "guì",
+  "fr": [
+   "cher ; coûteux",
+   "précieux",
+   "(votre) honorable (您贵姓)"
+  ]
+ },
+ "记住": {
+  "pn": "ji4 zhu5",
+  "py": "jì zhu",
+  "fr": [
+   "retenir ; bien se souvenir"
+  ]
+ },
+ "下次": {
+  "pn": "xia4 ci4",
+  "py": "xià cì",
+  "fr": [
+   "la prochaine fois"
+  ]
+ },
+ "知识": {
+  "pn": "zhi1 shi5",
+  "py": "zhī shi",
+  "fr": [
+   "connaissances ; savoir"
+  ]
+ },
+ "机场": {
+  "pn": "ji1 chang3",
+  "py": "jī chǎng",
+  "fr": [
+   "aéroport"
+  ]
+ },
+ "学院": {
+  "pn": "xue2 yuan4",
+  "py": "xué yuàn",
+  "fr": [
+   "institut ; faculté"
+  ]
+ },
+ "老人": {
+  "pn": "lao3 ren2",
+  "py": "lǎo rén",
+  "fr": [
+   "personne âgée"
+  ]
+ },
+ "页": {
+  "pn": "ye4",
+  "py": "yè",
+  "fr": [
+   "page"
+  ]
+ },
+ "工人": {
+  "pn": "gong1 ren2",
+  "py": "gōng rén",
+  "fr": [
+   "ouvrier"
+  ]
+ },
+ "那边": {
+  "pn": "na4 bian5",
+  "py": "nà bian",
+  "fr": [
+   "là-bas ; de ce côté-là"
+  ]
+ },
+ "弟弟": {
+  "pn": "di4 di5",
+  "py": "dì di",
+  "fr": [
+   "petit frère"
+  ]
+ },
+ "干净": {
+  "pn": "gan1 jing4",
+  "py": "gān jìng",
+  "fr": [
+   "propre ; net"
+  ]
+ },
+ "在家": {
+  "pn": "zai4 jia1",
+  "py": "zài jiā",
+  "fr": [
+   "être à la maison"
+  ]
+ },
+ "百": {
+  "pn": "bai3",
+  "py": "bǎi",
+  "fr": [
+   "cent ; 100"
+  ]
+ },
+ "网上": {
+  "pn": "wang3 shang4",
+  "py": "wǎng shàng",
+  "fr": [
+   "en ligne ; sur Internet"
+  ]
+ },
+ "好吃": {
+  "pn": "hao3 chi1",
+  "py": "hǎo chī",
+  "fr": [
+   "bon ; délicieux"
+  ]
+ },
+ "明年": {
+  "pn": "ming2 nian2",
+  "py": "míng nián",
+  "fr": [
+   "l'année prochaine"
+  ]
+ },
+ "再见": {
+  "pn": "zai4 jian4",
+  "py": "zài jiàn",
+  "fr": [
+   "au revoir"
+  ]
+ },
+ "妹": {
+  "pn": "mei4",
+  "py": "mèi",
+  "fr": [
+   "petite sœur"
+  ]
+ },
+ "这儿": {
+  "pn": "zhe4 r5",
+  "py": "zhè r",
+  "fr": [
+   "ici"
+  ]
+ },
+ "哪儿": {
+  "pn": "na3 r5",
+  "py": "nǎ r",
+  "fr": [
+   "où"
+  ]
+ },
+ "不对": {
+  "pn": "bu4 dui4",
+  "py": "bù duì",
+  "fr": [
+   "faux ; incorrect",
+   "anormal"
+  ]
+ },
+ "中午": {
+  "pn": "zhong1 wu3",
+  "py": "zhōng wǔ",
+  "fr": [
+   "midi"
+  ]
+ },
+ "起床": {
+  "pn": "qi3 chuang2",
+  "py": "qǐ chuáng",
+  "fr": [
+   "se lever (du lit)"
+  ]
+ },
+ "是不是": {
+  "pn": "shi4 bu5 shi4",
+  "py": "shì bu shì",
+  "fr": [
+   "est-ce que… ? ; n'est-ce pas ?"
+  ]
+ },
+ "开车": {
+  "pn": "kai1 che1",
+  "py": "kāi chē",
+  "fr": [
+   "conduire (une voiture)"
+  ]
+ },
+ "干什么": {
+  "pn": "gan4 shen2 me5",
+  "py": "gàn shén me",
+  "fr": [
+   "que faire ? ; qu'est-ce que tu fais ?"
+  ]
+ },
+ "奶": {
+  "pn": "nai3",
+  "py": "nǎi",
+  "fr": [
+   "lait",
+   "grand-mère (fam.)"
+  ]
+ },
+ "门口": {
+  "pn": "men2 kou3",
+  "py": "mén kǒu",
+  "fr": [
+   "entrée ; devant la porte"
+  ]
+ },
+ "常常": {
+  "pn": "chang2 chang2",
+  "py": "cháng cháng",
+  "fr": [
+   "souvent"
+  ]
+ },
+ "这边": {
+  "pn": "zhe4 bian1",
+  "py": "zhè biān",
+  "fr": [
+   "ici ; de ce côté"
+  ]
+ },
+ "男生": {
+  "pn": "nan2 sheng1",
+  "py": "nán shēng",
+  "fr": [
+   "garçon ; étudiant"
+  ]
+ },
+ "火车": {
+  "pn": "huo3 che1",
+  "py": "huǒ chē",
+  "fr": [
+   "train"
+  ]
+ },
+ "奶奶": {
+  "pn": "nai3 nai5",
+  "py": "nǎi nai",
+  "fr": [
+   "grand-mère (paternelle)"
+  ]
+ },
+ "上次": {
+  "pn": "shang4 ci4",
+  "py": "shàng cì",
+  "fr": [
+   "la dernière fois"
+  ]
+ },
+ "唱歌": {
+  "pn": "chang4 ge1",
+  "py": "chàng gē",
+  "fr": [
+   "chanter"
+  ]
+ },
+ "右边": {
+  "pn": "you4 bian5",
+  "py": "yòu bian",
+  "fr": [
+   "côté droit ; à droite"
+  ]
+ },
+ "上学": {
+  "pn": "shang4 xue2",
+  "py": "shàng xué",
+  "fr": [
+   "aller à l'école"
+  ]
+ },
+ "牛奶": {
+  "pn": "niu2 nai3",
+  "py": "niú nǎi",
+  "fr": [
+   "lait (de vache)"
+  ]
+ },
+ "女朋友": {
+  "pn": "nü3 peng2 you5",
+  "py": "nǚ péng you",
+  "fr": [
+   "petite amie"
+  ]
+ },
+ "上课": {
+  "pn": "shang4 ke4",
+  "py": "shàng kè",
+  "fr": [
+   "aller en cours ; avoir cours",
+   "faire cours"
+  ]
+ },
+ "爷爷": {
+  "pn": "ye2 ye5",
+  "py": "yé ye",
+  "fr": [
+   "grand-père (paternel)"
+  ]
+ },
+ "听见": {
+  "pn": "ting1 jian4",
+  "py": "tīng jiàn",
+  "fr": [
+   "entendre"
+  ]
+ },
+ "新年": {
+  "pn": "xin1 nian2",
+  "py": "xīn nián",
+  "fr": [
+   "Nouvel An"
+  ]
+ },
+ "男朋友": {
+  "pn": "nan2 peng2 you5",
+  "py": "nán péng you",
+  "fr": [
+   "petit ami"
+  ]
+ },
+ "下班": {
+  "pn": "xia4 ban1",
+  "py": "xià bān",
+  "fr": [
+   "finir le travail ; sortir du bureau"
+  ]
+ },
+ "水果": {
+  "pn": "shui3 guo3",
+  "py": "shuǐ guǒ",
+  "fr": [
+   "fruit"
+  ]
+ },
+ "读书": {
+  "pn": "du2 shu1",
+  "py": "dú shū",
+  "fr": [
+   "lire",
+   "étudier ; faire des études"
+  ]
+ },
+ "那儿": {
+  "pn": "na4 r5",
+  "py": "nà r",
+  "fr": [
+   "là-bas ; là"
+  ]
+ },
+ "商店": {
+  "pn": "shang1 dian4",
+  "py": "shāng diàn",
+  "fr": [
+   "magasin"
+  ]
+ },
+ "鸡蛋": {
+  "pn": "ji1 dan4",
+  "py": "jī dàn",
+  "fr": [
+   "œuf (de poule)"
+  ]
+ },
+ "没关系": {
+  "pn": "mei2 guan1 xi5",
+  "py": "méi guān xi",
+  "fr": [
+   "ce n'est pas grave ; de rien"
+  ]
+ },
+ "地图": {
+  "pn": "di4 tu2",
+  "py": "dì tú",
+  "fr": [
+   "carte (géographique) ; plan"
+  ]
+ },
+ "姐": {
+  "pn": "jie3",
+  "py": "jiě",
+  "fr": [
+   "grande sœur"
+  ]
+ },
+ "坐下": {
+  "pn": "zuo4 xia5",
+  "py": "zuò xia",
+  "fr": [
+   "s'asseoir"
+  ]
+ },
+ "零": {
+  "pn": "ling2",
+  "py": "líng",
+  "fr": [
+   "zéro",
+   "(petite) monnaie ; détail"
+  ]
+ },
+ "桌子": {
+  "pn": "zhuo1 zi5",
+  "py": "zhuō zi",
+  "fr": [
+   "table ; bureau"
+  ]
+ },
+ "白天": {
+  "pn": "bai2 tian1",
+  "py": "bái tiān",
+  "fr": [
+   "journée ; le jour"
+  ]
+ },
+ "请问": {
+  "pn": "qing3 wen4",
+  "py": "qǐng wèn",
+  "fr": [
+   "excusez-moi, … ? (pour demander)"
+  ]
+ },
+ "哪些": {
+  "pn": "na3 xie1",
+  "py": "nǎ xiē",
+  "fr": [
+   "lesquels ; quels"
+  ]
+ },
+ "晚饭": {
+  "pn": "wan3 fan4",
+  "py": "wǎn fàn",
+  "fr": [
+   "dîner (repas du soir)"
+  ]
+ },
+ "小学": {
+  "pn": "xiao3 xue2",
+  "py": "xiǎo xué",
+  "fr": [
+   "école primaire"
+  ]
+ },
+ "图书馆": {
+  "pn": "tu2 shu1 guan3",
+  "py": "tú shū guǎn",
+  "fr": [
+   "bibliothèque"
+  ]
+ },
+ "开玩笑": {
+  "pn": "kai1 wan2 xiao4",
+  "py": "kāi wán xiào",
+  "fr": [
+   "plaisanter ; blaguer"
+  ]
+ },
+ "国外": {
+  "pn": "guo2 wai4",
+  "py": "guó wài",
+  "fr": [
+   "étranger ; à l'étranger"
+  ]
+ },
+ "日期": {
+  "pn": "ri4 qi1",
+  "py": "rì qī",
+  "fr": [
+   "date"
+  ]
+ },
+ "饭店": {
+  "pn": "fan4 dian4",
+  "py": "fàn diàn",
+  "fr": [
+   "restaurant",
+   "hôtel"
+  ]
+ },
+ "中学": {
+  "pn": "zhong1 xue2",
+  "py": "zhōng xué",
+  "fr": [
+   "collège ; lycée (école secondaire)"
+  ]
+ },
+ "上网": {
+  "pn": "shang4 wang3",
+  "py": "shàng wǎng",
+  "fr": [
+   "aller sur Internet ; être en ligne"
+  ]
+ },
+ "商场": {
+  "pn": "shang1 chang3",
+  "py": "shāng chǎng",
+  "fr": [
+   "centre commercial"
+  ]
+ },
+ "楼下": {
+  "pn": "lou2 xia4",
+  "py": "lóu xià",
+  "fr": [
+   "en bas ; à l'étage du dessous"
+  ]
+ },
+ "面包": {
+  "pn": "mian4 bao1",
+  "py": "miàn bāo",
+  "fr": [
+   "pain"
+  ]
+ },
+ "外国": {
+  "pn": "wai4 guo2",
+  "py": "wài guó",
+  "fr": [
+   "pays étranger",
+   "étranger"
+  ]
+ },
+ "生病": {
+  "pn": "sheng1 bing4",
+  "py": "shēng bìng",
+  "fr": [
+   "tomber malade ; être malade"
+  ]
+ },
+ "好听": {
+  "pn": "hao3 ting1",
+  "py": "hǎo tīng",
+  "fr": [
+   "agréable à entendre ; joli (son)"
+  ]
+ },
+ "开会": {
+  "pn": "kai1 hui4",
+  "py": "kāi huì",
+  "fr": [
+   "tenir une réunion ; être en réunion"
+  ]
+ },
+ "钱包": {
+  "pn": "qian2 bao1",
+  "py": "qián bāo",
+  "fr": [
+   "portefeuille ; porte-monnaie"
+  ]
+ },
+ "大学生": {
+  "pn": "da4 xue2 sheng1",
+  "py": "dà xué shēng",
+  "fr": [
+   "étudiant (à l'université)"
+  ]
+ },
+ "车站": {
+  "pn": "che1 zhan4",
+  "py": "chē zhàn",
+  "fr": [
+   "gare ; station ; arrêt"
+  ]
+ },
+ "走路": {
+  "pn": "zou3 lu4",
+  "py": "zǒu lù",
+  "fr": [
+   "marcher ; aller à pied"
+  ]
+ },
+ "小朋友": {
+  "pn": "xiao3 peng2 you3",
+  "py": "xiǎo péng yǒu",
+  "fr": [
+   "enfant ; petit (enfant)"
+  ]
+ },
+ "左边": {
+  "pn": "zuo3 bian5",
+  "py": "zuǒ bian",
+  "fr": [
+   "côté gauche ; à gauche"
+  ]
+ },
+ "北京": {
+  "pn": "Bei3 jing1",
+  "py": "Běi jīng",
+  "fr": [
+   "Pékin"
+  ]
+ },
+ "有用": {
+  "pn": "you3 yong4",
+  "py": "yǒu yòng",
+  "fr": [
+   "utile"
+  ]
+ },
+ "爱好": {
+  "pn": "ai4 hao4",
+  "py": "ài hào",
+  "fr": [
+   "passe-temps ; loisir",
+   "aimer ; avoir le goût de"
+  ]
+ },
+ "不大": {
+  "pn": "bu4 da4",
+  "py": "bù dà",
+  "fr": [
+   "pas très",
+   "pas souvent"
+  ]
+ },
+ "午饭": {
+  "pn": "wu3 fan4",
+  "py": "wǔ fàn",
+  "fr": [
+   "déjeuner (repas de midi)"
+  ]
+ },
+ "上车": {
+  "pn": "shang4 che1",
+  "py": "shàng chē",
+  "fr": [
+   "monter (dans un véhicule)"
+  ]
+ },
+ "马路": {
+  "pn": "ma3 lu4",
+  "py": "mǎ lù",
+  "fr": [
+   "rue ; route"
+  ]
+ },
+ "门票": {
+  "pn": "men2 piao4",
+  "py": "mén piào",
+  "fr": [
+   "billet d'entrée"
+  ]
+ },
+ "机票": {
+  "pn": "ji1 piao4",
+  "py": "jī piào",
+  "fr": [
+   "billet d'avion"
+  ]
+ },
+ "楼上": {
+  "pn": "lou2 shang4",
+  "py": "lóu shàng",
+  "fr": [
+   "en haut ; à l'étage du dessus"
+  ]
+ },
+ "打球": {
+  "pn": "da3 qiu2",
+  "py": "dǎ qiú",
+  "fr": [
+   "jouer au ballon"
+  ]
+ },
+ "下雨": {
+  "pn": "xia4 yu3",
+  "py": "xià yǔ",
+  "fr": [
+   "pleuvoir"
+  ]
+ },
+ "下车": {
+  "pn": "xia4 che1",
+  "py": "xià chē",
+  "fr": [
+   "descendre (d'un véhicule)"
+  ]
+ },
+ "杯子": {
+  "pn": "bei1 zi5",
+  "py": "bēi zi",
+  "fr": [
+   "verre ; tasse"
+  ]
+ },
+ "放假": {
+  "pn": "fang4 jia4",
+  "py": "fàng jià",
+  "fr": [
+   "être en vacances ; avoir congé"
+  ]
+ },
+ "路口": {
+  "pn": "lu4 kou3",
+  "py": "lù kǒu",
+  "fr": [
+   "carrefour ; intersection"
+  ]
+ },
+ "有名": {
+  "pn": "you3 ming2",
+  "py": "yǒu míng",
+  "fr": [
+   "célèbre ; connu"
+  ]
+ },
+ "中文": {
+  "pn": "Zhong1 wen2",
+  "py": "Zhōng wén",
+  "fr": [
+   "chinois (langue)"
+  ]
+ },
+ "弟": {
+  "pn": "di4",
+  "py": "dì",
+  "fr": [
+   "petit frère"
+  ]
+ },
+ "电视机": {
+  "pn": "dian4 shi4 ji1",
+  "py": "diàn shì jī",
+  "fr": [
+   "téléviseur"
+  ]
+ },
+ "早饭": {
+  "pn": "zao3 fan4",
+  "py": "zǎo fàn",
+  "fr": [
+   "petit-déjeuner"
+  ]
+ },
+ "一点儿": {
+  "pn": "yi1 dian3 r5",
+  "py": "yī diǎn r",
+  "fr": [
+   "un peu"
+  ]
+ },
+ "书店": {
+  "pn": "shu1 dian4",
+  "py": "shū diàn",
+  "fr": [
+   "librairie"
+  ]
+ },
+ "放学": {
+  "pn": "fang4 xue2",
+  "py": "fàng xué",
+  "fr": [
+   "sortir de l'école ; fin des cours"
+  ]
+ },
+ "关上": {
+  "pn": "guan1 shang4",
+  "py": "guān shàng",
+  "fr": [
+   "fermer",
+   "éteindre"
+  ]
+ },
+ "玩儿": {
+  "pn": "wan2 r5",
+  "py": "wán r",
+  "fr": [
+   "jouer ; s'amuser"
+  ]
+ },
+ "半天": {
+  "pn": "ban4 tian1",
+  "py": "bàn tiān",
+  "fr": [
+   "demi-journée",
+   "longtemps ; un bon moment"
+  ]
+ },
+ "星期天": {
+  "pn": "Xing1 qi1 tian1",
+  "py": "Xīng qī tiān",
+  "fr": [
+   "dimanche"
+  ]
+ },
+ "车票": {
+  "pn": "che1 piao4",
+  "py": "chē piào",
+  "fr": [
+   "billet (de train, de bus)"
+  ]
+ },
+ "看病": {
+  "pn": "kan4 bing4",
+  "py": "kàn bìng",
+  "fr": [
+   "consulter un médecin",
+   "soigner (un patient)"
+  ]
+ },
+ "电影院": {
+  "pn": "dian4 ying3 yuan4",
+  "py": "diàn yǐng yuàn",
+  "fr": [
+   "cinéma (salle)"
+  ]
+ },
+ "前天": {
+  "pn": "qian2 tian1",
+  "py": "qián tiān",
+  "fr": [
+   "avant-hier"
+  ]
+ },
+ "后天": {
+  "pn": "hou4 tian1",
+  "py": "hòu tiān",
+  "fr": [
+   "après-demain"
+  ]
+ },
+ "渴": {
+  "pn": "ke3",
+  "py": "kě",
+  "fr": [
+   "avoir soif"
+  ]
+ },
+ "洗手间": {
+  "pn": "xi3 shou3 jian1",
+  "py": "xǐ shǒu jiān",
+  "fr": [
+   "toilettes"
+  ]
+ },
+ "下课": {
+  "pn": "xia4 ke4",
+  "py": "xià kè",
+  "fr": [
+   "fin du cours ; sortir de classe"
+  ]
+ },
+ "请假": {
+  "pn": "qing3 jia4",
+  "py": "qǐng jià",
+  "fr": [
+   "demander un congé"
+  ]
+ },
+ "米饭": {
+  "pn": "mi3 fan4",
+  "py": "mǐ fàn",
+  "fr": [
+   "riz (cuit)"
+  ]
+ },
+ "里边": {
+  "pn": "li3 bian5",
+  "py": "lǐ bian",
+  "fr": [
+   "dedans ; à l'intérieur"
+  ]
+ },
+ "外语": {
+  "pn": "wai4 yu3",
+  "py": "wài yǔ",
+  "fr": [
+   "langue étrangère"
+  ]
+ },
+ "没事儿": {
+  "pn": "mei2 shi4 r5",
+  "py": "méi shì r",
+  "fr": [
+   "ce n'est rien ; pas de souci",
+   "être libre"
+  ]
+ },
+ "一块儿": {
+  "pn": "yi1 kuai4 r5",
+  "py": "yī kuài r",
+  "fr": [
+   "ensemble",
+   "au même endroit"
+  ]
+ },
+ "书包": {
+  "pn": "shu1 bao1",
+  "py": "shū bāo",
+  "fr": [
+   "cartable"
+  ]
+ },
+ "小学生": {
+  "pn": "xiao3 xue2 sheng1",
+  "py": "xiǎo xué shēng",
+  "fr": [
+   "écolier"
+  ]
+ },
+ "外边": {
+  "pn": "wai4 bian5",
+  "py": "wài bian",
+  "fr": [
+   "dehors ; à l'extérieur"
+  ]
+ },
+ "中学生": {
+  "pn": "zhong1 xue2 sheng1",
+  "py": "zhōng xué shēng",
+  "fr": [
+   "collégien ; lycéen"
+  ]
+ },
+ "本子": {
+  "pn": "ben3 zi5",
+  "py": "běn zi",
+  "fr": [
+   "cahier ; carnet"
+  ]
+ },
+ "星期日": {
+  "pn": "Xing1 qi1 ri4",
+  "py": "Xīng qī rì",
+  "fr": [
+   "dimanche"
+  ]
+ },
+ "课本": {
+  "pn": "ke4 ben3",
+  "py": "kè běn",
+  "fr": [
+   "manuel (scolaire)"
+  ]
+ },
+ "汉语": {
+  "pn": "Han4 yu3",
+  "py": "Hàn yǔ",
+  "fr": [
+   "chinois (langue)"
+  ]
+ },
+ "后边": {
+  "pn": "hou4 bian5",
+  "py": "hòu bian",
+  "fr": [
+   "derrière ; à l'arrière"
+  ]
+ },
+ "西边": {
+  "pn": "xi1 bian1",
+  "py": "xī biān",
+  "fr": [
+   "côté ouest ; à l'ouest"
+  ]
+ },
+ "上边": {
+  "pn": "shang4 bian5",
+  "py": "shàng bian",
+  "fr": [
+   "dessus ; en haut"
+  ]
+ },
+ "打车": {
+  "pn": "da3 che1",
+  "py": "dǎ chē",
+  "fr": [
+   "prendre un taxi"
+  ]
+ },
+ "东边": {
+  "pn": "dong1 bian5",
+  "py": "dōng bian",
+  "fr": [
+   "côté est ; à l'est"
+  ]
+ },
+ "包子": {
+  "pn": "bao1 zi5",
+  "py": "bāo zi",
+  "fr": [
+   "brioche farcie à la vapeur (baozi)"
+  ]
+ },
+ "不客气": {
+  "pn": "bu4 ke4 qi5",
+  "py": "bù kè qi",
+  "fr": [
+   "de rien ; je vous en prie",
+   "impoli"
+  ]
+ },
+ "南边": {
+  "pn": "nan2 bian5",
+  "py": "nán bian",
+  "fr": [
+   "côté sud ; au sud"
+  ]
+ },
+ "北边": {
+  "pn": "bei3 bian1",
+  "py": "běi biān",
+  "fr": [
+   "côté nord ; au nord"
+  ]
+ },
+ "女孩儿": {
+  "pn": "nü3 hai2 r5",
+  "py": "nǚ hái r",
+  "fr": [
+   "fille ; fillette"
+  ]
+ },
+ "下边": {
+  "pn": "xia4 bian5",
+  "py": "xià bian",
+  "fr": [
+   "dessous ; en bas"
+  ]
+ },
+ "汉字": {
+  "pn": "han4 zi4",
+  "py": "hàn zì",
+  "fr": [
+   "caractère chinois ; sinogramme"
+  ]
+ },
+ "请进": {
+  "pn": "qing3 jin4",
+  "py": "qǐng jìn",
+  "fr": [
+   "entrez, je vous prie"
+  ]
+ },
+ "好玩儿": {
+  "pn": "hao3 wan2 r5",
+  "py": "hǎo wán r",
+  "fr": [
+   "amusant ; marrant"
+  ]
+ },
+ "前边": {
+  "pn": "qian2 bian5",
+  "py": "qián bian",
+  "fr": [
+   "devant ; à l'avant"
+  ]
+ },
+ "小孩儿": {
+  "pn": "xiao3 hai2 r5",
+  "py": "xiǎo hái r",
+  "fr": [
+   "enfant ; petit"
+  ]
+ },
+ "教学楼": {
+  "pn": "jiao4 xue2 lou2",
+  "py": "jiào xué lóu",
+  "fr": [
+   "bâtiment des salles de classe"
+  ]
+ },
+ "网友": {
+  "pn": "wang3 you3",
+  "py": "wǎng yǒu",
+  "fr": [
+   "ami en ligne ; internaute"
+  ]
+ },
+ "课文": {
+  "pn": "ke4 wen2",
+  "py": "kè wén",
+  "fr": [
+   "texte (d'une leçon)"
+  ]
+ },
+ "请坐": {
+  "pn": "qing3 zuo4",
+  "py": "qǐng zuò",
+  "fr": [
+   "asseyez-vous, je vous prie"
+  ]
+ },
+ "半年": {
+  "pn": "ban4 nian2",
+  "py": "bàn nián",
+  "fr": [
+   "six mois ; semestre"
+  ]
+ },
+ "听写": {
+  "pn": "ting1 xie3",
+  "py": "tīng xiě",
+  "fr": [
+   "dictée",
+   "écrire sous la dictée"
+  ]
+ },
+ "面条儿": {
+  "pn": "mian4 tiao2 r5",
+  "py": "miàn tiáo r",
+  "fr": [
+   "nouilles"
+  ]
+ },
+ "男孩儿": {
+  "pn": "nan2 hai2 r5",
+  "py": "nán hái r",
+  "fr": [
+   "garçon"
+  ]
+ },
+ "一下儿": {
+  "pn": "yi1 xia4 r5",
+  "py": "yī xià r",
+  "fr": [
+   "un peu ; un instant (après verbe)",
+   "une fois",
+   "tout à coup"
+  ]
+ },
+ "有一些": {
+  "pn": "you3 yi1 xie1",
+  "py": "yǒu yī xiē",
+  "fr": [
+   "quelques",
+   "un peu"
+  ]
+ },
+ "分钟": {
+  "pn": "fen1 zhong1",
+  "py": "fēn zhōng",
+  "fr": [
+   "minute"
+  ]
+ },
+ "些": {
+  "pn": "xie1",
+  "py": "xiē",
+  "fr": [
+   "quelques ; un peu",
+   "(classificateur de pluralité)"
+  ]
+ },
+ "狗": {
+  "pn": "gou3",
+  "py": "gǒu",
+  "fr": [
+   "chien"
+  ]
+ },
+ "漂亮": {
+  "pn": "piao4 liang5",
+  "py": "piào liang",
+  "fr": [
+   "beau ; joli"
+  ]
+ },
+ "猫": {
+  "pn": "mao1",
+  "py": "māo",
+  "fr": [
+   "chat"
+  ]
+ },
+ "后面": {
+  "pn": "hou4 mian5",
+  "py": "hòu mian",
+  "fr": [
+   "derrière ; à l'arrière",
+   "plus tard ; ensuite"
+  ]
+ },
+ "喂": {
+  "pn": "wei2",
+  "py": "wéi",
+  "fr": [
+   "allô (au téléphone)",
+   "(wèi) hé !",
+   "(wèi) nourrir"
+  ]
+ },
+ "怎么样": {
+  "pn": "zen3 me5 yang4",
+  "py": "zěn me yàng",
+  "fr": [
+   "comment (ça va / c'était) ?",
+   "que dirais-tu de… ?"
+  ]
+ },
+ "前面": {
+  "pn": "qian2 mian4",
+  "py": "qián miàn",
+  "fr": [
+   "devant ; en avant",
+   "ci-dessus ; précédent"
+  ]
+ },
+ "苹果": {
+  "pn": "ping2 guo3",
+  "py": "píng guǒ",
+  "fr": [
+   "pomme"
+  ]
+ },
+ "出租车": {
+  "pn": "chu1 zu1 che1",
+  "py": "chū zū chē",
+  "fr": [
+   "taxi"
+  ]
+ },
+ "椅子": {
+  "pn": "yi3 zi5",
+  "py": "yǐ zi",
+  "fr": [
+   "chaise"
+  ]
+ },
+ "火车站": {
+  "pn": "huo3 che1 zhan4",
+  "py": "huǒ chē zhàn",
+  "fr": [
+   "gare (ferroviaire)"
+  ]
+ },
+ "饭馆": {
+  "pn": "fan4 guan3",
+  "py": "fàn guǎn",
+  "fr": [
+   "restaurant"
+  ]
+ },
+ "啊": {
+  "pn": "a5",
+  "py": "a",
+  "fr": [
+   "(particule finale : ah !, exclamation)",
+   "ah ! ; oh !"
+  ]
+ },
+ "让": {
+  "pn": "rang4",
+  "py": "ràng",
+  "fr": [
+   "laisser ; permettre",
+   "faire faire (qqch à qqn)",
+   "céder"
+  ]
+ },
+ "但": {
+  "pn": "dan4",
+  "py": "dàn",
+  "fr": [
+   "mais",
+   "seulement"
+  ]
+ },
+ "自己": {
+  "pn": "zi4 ji3",
+  "py": "zì jǐ",
+  "fr": [
+   "soi-même",
+   "propre (à soi)"
+  ]
+ },
+ "得": {
+  "pn": "de5",
+  "py": "de",
+  "fr": [
+   "(particule de complément : 说得好)",
+   "(dé) obtenir",
+   "(děi) devoir ; falloir"
+  ]
+ },
+ "可以": {
+  "pn": "ke3 yi3",
+  "py": "kě yǐ",
+  "fr": [
+   "pouvoir (permission)",
+   "pas mal ; correct"
+  ]
+ },
+ "为": {
+  "pn": "wei4",
+  "py": "wèi",
+  "fr": [
+   "pour",
+   "à cause de",
+   "(wéi) être ; servir de"
+  ]
+ },
+ "已经": {
+  "pn": "yi3 jing1",
+  "py": "yǐ jīng",
+  "fr": [
+   "déjà"
+  ]
+ },
+ "这样": {
+  "pn": "zhe4 yang4",
+  "py": "zhè yàng",
+  "fr": [
+   "ainsi ; comme ça",
+   "tel ; de ce genre"
+  ]
+ },
+ "如果": {
+  "pn": "ru2 guo3",
+  "py": "rú guǒ",
+  "fr": [
+   "si (condition)"
+  ]
+ },
+ "因为": {
+  "pn": "yin1 wei4",
+  "py": "yīn wèi",
+  "fr": [
+   "parce que",
+   "à cause de"
+  ]
+ },
+ "又": {
+  "pn": "you4",
+  "py": "yòu",
+  "fr": [
+   "de nouveau ; encore",
+   "à la fois… et…"
+  ]
+ },
+ "只": {
+  "pn": "zhi3",
+  "py": "zhǐ",
+  "fr": [
+   "seulement ; ne… que",
+   "(zhī) (classificateur des animaux)"
+  ]
+ },
+ "问题": {
+  "pn": "wen4 ti2",
+  "py": "wèn tí",
+  "fr": [
+   "question",
+   "problème"
+  ]
+ },
+ "它": {
+  "pn": "ta1",
+  "py": "tā",
+  "fr": [
+   "il ; elle (choses, animaux)"
+  ]
+ },
+ "但是": {
+  "pn": "dan4 shi4",
+  "py": "dàn shì",
+  "fr": [
+   "mais ; cependant"
+  ]
+ },
+ "该": {
+  "pn": "gai1",
+  "py": "gāi",
+  "fr": [
+   "devoir ; il faut",
+   "ce ; ledit",
+   "être au tour de"
+  ]
+ },
+ "更": {
+  "pn": "geng4",
+  "py": "gèng",
+  "fr": [
+   "plus ; encore plus"
+  ]
+ },
+ "可能": {
+  "pn": "ke3 neng2",
+  "py": "kě néng",
+  "fr": [
+   "peut-être",
+   "possible",
+   "possibilité"
+  ]
+ },
+ "才": {
+  "pn": "cai2",
+  "py": "cái",
+  "fr": [
+   "seulement (alors) ; pas avant",
+   "à peine",
+   "talent"
+  ]
+ },
+ "像": {
+  "pn": "xiang4",
+  "py": "xiàng",
+  "fr": [
+   "ressembler à",
+   "comme",
+   "portrait ; image"
+  ]
+ },
+ "当": {
+  "pn": "dang1",
+  "py": "dāng",
+  "fr": [
+   "être ; servir de",
+   "quand (当…的时候)",
+   "(dàng) convenable"
+  ]
+ },
+ "所以": {
+  "pn": "suo3 yi3",
+  "py": "suǒ yǐ",
+  "fr": [
+   "donc ; c'est pourquoi"
+  ]
+ },
+ "那么": {
+  "pn": "na4 me5",
+  "py": "nà me",
+  "fr": [
+   "alors ; dans ce cas",
+   "si ; tellement"
+  ]
+ },
+ "向": {
+  "pn": "xiang4",
+  "py": "xiàng",
+  "fr": [
+   "vers ; en direction de",
+   "à (envers qqn)"
+  ]
+ },
+ "这么": {
+  "pn": "zhe4 me5",
+  "py": "zhè me",
+  "fr": [
+   "si ; tellement",
+   "ainsi ; comme ça"
+  ]
+ },
+ "认为": {
+  "pn": "ren4 wei2",
+  "py": "rèn wéi",
+  "fr": [
+   "penser ; estimer (que)"
+  ]
+ },
+ "应该": {
+  "pn": "ying1 gai1",
+  "py": "yīng gāi",
+  "fr": [
+   "devoir ; il faut",
+   "devrait"
+  ]
+ },
+ "带": {
+  "pn": "dai4",
+  "py": "dài",
+  "fr": [
+   "apporter ; emmener",
+   "ceinture ; bande",
+   "zone ; région"
+  ]
+ },
+ "位": {
+  "pn": "wei4",
+  "py": "wèi",
+  "fr": [
+   "(classificateur poli des personnes)",
+   "place ; position"
+  ]
+ },
+ "大家": {
+  "pn": "da4 jia1",
+  "py": "dà jiā",
+  "fr": [
+   "tout le monde ; tous"
+  ]
+ },
+ "发现": {
+  "pn": "fa1 xian4",
+  "py": "fā xiàn",
+  "fr": [
+   "découvrir ; s'apercevoir",
+   "découverte"
+  ]
+ },
+ "一定": {
+  "pn": "yi1 ding4",
+  "py": "yī dìng",
+  "fr": [
+   "sûrement ; absolument",
+   "certain ; déterminé"
+  ]
+ },
+ "生活": {
+  "pn": "sheng1 huo2",
+  "py": "shēng huó",
+  "fr": [
+   "vie",
+   "vivre"
+  ]
+ },
+ "一直": {
+  "pn": "yi1 zhi2",
+  "py": "yī zhí",
+  "fr": [
+   "toujours ; sans arrêt",
+   "tout droit"
+  ]
+ },
+ "不过": {
+  "pn": "bu4 guo4",
+  "py": "bù guò",
+  "fr": [
+   "mais ; cependant",
+   "seulement"
+  ]
+ },
+ "公司": {
+  "pn": "gong1 si1",
+  "py": "gōng sī",
+  "fr": [
+   "entreprise ; société"
+  ]
+ },
+ "不要": {
+  "pn": "bu4 yao4",
+  "py": "bù yào",
+  "fr": [
+   "ne… pas (impératif)",
+   "ne pas vouloir"
+  ]
+ },
+ "成": {
+  "pn": "cheng2",
+  "py": "chéng",
+  "fr": [
+   "devenir ; se transformer en",
+   "réussir ; achever",
+   "dix pour cent"
+  ]
+ },
+ "名": {
+  "pn": "ming2",
+  "py": "míng",
+  "fr": [
+   "nom",
+   "célèbre",
+   "(classificateur des personnes ; place)"
+  ]
+ },
+ "所有": {
+  "pn": "suo3 you3",
+  "py": "suǒ yǒu",
+  "fr": [
+   "tout ; tous les",
+   "posséder"
+  ]
+ },
+ "而且": {
+  "pn": "er2 qie3",
+  "py": "ér qiě",
+  "fr": [
+   "de plus ; en outre",
+   "(不但…而且) mais aussi"
+  ]
+ },
+ "必须": {
+  "pn": "bi4 xu1",
+  "py": "bì xū",
+  "fr": [
+   "devoir absolument ; il faut"
+  ]
+ },
+ "长": {
+  "pn": "chang2",
+  "py": "cháng",
+  "fr": [
+   "long",
+   "longueur",
+   "(zhǎng) grandir ; chef"
+  ]
+ },
+ "成为": {
+  "pn": "cheng2 wei2",
+  "py": "chéng wéi",
+  "fr": [
+   "devenir"
+  ]
+ },
+ "其他": {
+  "pn": "qi2 ta1",
+  "py": "qí tā",
+  "fr": [
+   "autre ; les autres",
+   "le reste"
+  ]
+ },
+ "事情": {
+  "pn": "shi4 qing5",
+  "py": "shì qing",
+  "fr": [
+   "affaire ; chose",
+   "problème"
+  ]
+ },
+ "感觉": {
+  "pn": "gan3 jue2",
+  "py": "gǎn jué",
+  "fr": [
+   "sentir ; avoir l'impression",
+   "sensation ; impression"
+  ]
+ },
+ "然后": {
+  "pn": "ran2 hou4",
+  "py": "rán hòu",
+  "fr": [
+   "ensuite ; puis"
+  ]
+ },
+ "条": {
+  "pn": "tiao2",
+  "py": "tiáo",
+  "fr": [
+   "(classificateur des objets longs)",
+   "bande ; article (de loi)"
+  ]
+ },
+ "场": {
+  "pn": "chang3",
+  "py": "chǎng",
+  "fr": [
+   "(classificateur des matchs, films…)",
+   "terrain ; lieu",
+   "scène"
+  ]
+ },
+ "件": {
+  "pn": "jian4",
+  "py": "jiàn",
+  "fr": [
+   "(classificateur : vêtements, affaires)",
+   "pièce ; document"
+  ]
+ },
+ "进行": {
+  "pn": "jin4 xing2",
+  "py": "jìn xíng",
+  "fr": [
+   "effectuer ; mener",
+   "se dérouler"
+  ]
+ },
+ "为什么": {
+  "pn": "wei4 shen2 me5",
+  "py": "wèi shén me",
+  "fr": [
+   "pourquoi"
+  ]
+ },
+ "或": {
+  "pn": "huo4",
+  "py": "huò",
+  "fr": [
+   "ou",
+   "peut-être"
+  ]
+ },
+ "出现": {
+  "pn": "chu1 xian4",
+  "py": "chū xiàn",
+  "fr": [
+   "apparaître ; surgir"
+  ]
+ },
+ "头": {
+  "pn": "tou2",
+  "py": "tóu",
+  "fr": [
+   "tête",
+   "bout ; extrémité",
+   "(classificateur : bétail)"
+  ]
+ },
+ "见到": {
+  "pn": "jian4 dao4",
+  "py": "jiàn dào",
+  "fr": [
+   "voir ; rencontrer"
+  ]
+ },
+ "通过": {
+  "pn": "tong1 guo4",
+  "py": "tōng guò",
+  "fr": [
+   "par ; au moyen de",
+   "passer ; traverser",
+   "adopter (une loi)"
+  ]
+ },
+ "周": {
+  "pn": "zhou1",
+  "py": "zhōu",
+  "fr": [
+   "semaine",
+   "cercle ; tour",
+   "alentours"
+  ]
+ },
+ "过去": {
+  "pn": "guo4 qu4",
+  "py": "guò qù",
+  "fr": [
+   "passé ; autrefois",
+   "(guò qu) passer ; aller (là-bas)"
+  ]
+ },
+ "参加": {
+  "pn": "can1 jia1",
+  "py": "cān jiā",
+  "fr": [
+   "participer à ; prendre part"
+  ]
+ },
+ "安全": {
+  "pn": "an1 quan2",
+  "py": "ān quán",
+  "fr": [
+   "sûr ; en sécurité",
+   "sécurité"
+  ]
+ },
+ "结果": {
+  "pn": "jie2 guo3",
+  "py": "jié guǒ",
+  "fr": [
+   "résultat",
+   "finalement ; du coup"
+  ]
+ },
+ "或者": {
+  "pn": "huo4 zhe3",
+  "py": "huò zhě",
+  "fr": [
+   "ou (bien)",
+   "peut-être"
+  ]
+ },
+ "不错": {
+  "pn": "bu4 cuo4",
+  "py": "bù cuò",
+  "fr": [
+   "pas mal ; bien",
+   "correct"
+  ]
+ },
+ "机会": {
+  "pn": "ji1 hui4",
+  "py": "jī huì",
+  "fr": [
+   "occasion ; chance"
+  ]
+ },
+ "完全": {
+  "pn": "wan2 quan2",
+  "py": "wán quán",
+  "fr": [
+   "complètement ; tout à fait",
+   "complet"
+  ]
+ },
+ "完": {
+  "pn": "wan2",
+  "py": "wán",
+  "fr": [
+   "finir ; terminer",
+   "épuisé (plus de…)"
+  ]
+ },
+ "发": {
+  "pn": "fa1",
+  "py": "fā",
+  "fr": [
+   "envoyer",
+   "émettre ; distribuer",
+   "(fà) cheveux"
+  ]
+ },
+ "计划": {
+  "pn": "ji4 hua4",
+  "py": "jì huà",
+  "fr": [
+   "plan ; projet",
+   "prévoir ; planifier"
+  ]
+ },
+ "可是": {
+  "pn": "ke3 shi4",
+  "py": "kě shì",
+  "fr": [
+   "mais ; pourtant"
+  ]
+ },
+ "全": {
+  "pn": "quan2",
+  "py": "quán",
+  "fr": [
+   "entier ; tout",
+   "complètement"
+  ]
+ },
+ "以后": {
+  "pn": "yi3 hou4",
+  "py": "yǐ hòu",
+  "fr": [
+   "après",
+   "plus tard ; à l'avenir"
+  ]
+ },
+ "要求": {
+  "pn": "yao1 qiu2",
+  "py": "yāo qiú",
+  "fr": [
+   "exiger ; demander",
+   "exigence"
+  ]
+ },
+ "信": {
+  "pn": "xin4",
+  "py": "xìn",
+  "fr": [
+   "lettre",
+   "croire",
+   "confiance"
+  ]
+ },
+ "队": {
+  "pn": "dui4",
+  "py": "duì",
+  "fr": [
+   "équipe",
+   "file ; rang"
+  ]
+ },
+ "接": {
+  "pn": "jie1",
+  "py": "jiē",
+  "fr": [
+   "aller chercher ; accueillir",
+   "recevoir ; répondre (téléphone)",
+   "joindre ; relier"
+  ]
+ },
+ "相信": {
+  "pn": "xiang1 xin4",
+  "py": "xiāng xìn",
+  "fr": [
+   "croire",
+   "avoir confiance en"
+  ]
+ },
+ "刚": {
+  "pn": "gang1",
+  "py": "gāng",
+  "fr": [
+   "à l'instant ; tout juste",
+   "juste ; exactement"
+  ]
+ },
+ "虽然": {
+  "pn": "sui1 ran2",
+  "py": "suī rán",
+  "fr": [
+   "bien que ; quoique"
+  ]
+ },
+ "原因": {
+  "pn": "yuan2 yin1",
+  "py": "yuán yīn",
+  "fr": [
+   "raison ; cause"
+  ]
+ },
+ "只要": {
+  "pn": "zhi3 yao4",
+  "py": "zhǐ yào",
+  "fr": [
+   "pourvu que ; il suffit que"
+  ]
+ },
+ "不同": {
+  "pn": "bu4 tong2",
+  "py": "bù tóng",
+  "fr": [
+   "différent"
+  ]
+ },
+ "进入": {
+  "pn": "jin4 ru4",
+  "py": "jìn rù",
+  "fr": [
+   "entrer (dans)",
+   "accéder à"
+  ]
+ },
+ "有人": {
+  "pn": "you3 ren2",
+  "py": "yǒu rén",
+  "fr": [
+   "quelqu'un ; certains",
+   "occupé (toilettes)"
+  ]
+ },
+ "接受": {
+  "pn": "jie1 shou4",
+  "py": "jiē shòu",
+  "fr": [
+   "accepter",
+   "recevoir"
+  ]
+ },
+ "其中": {
+  "pn": "qi2 zhong1",
+  "py": "qí zhōng",
+  "fr": [
+   "parmi eux ; dont"
+  ]
+ },
+ "人们": {
+  "pn": "ren2 men5",
+  "py": "rén men",
+  "fr": [
+   "les gens"
+  ]
+ },
+ "道": {
+  "pn": "dao4",
+  "py": "dào",
+  "fr": [
+   "chemin ; voie",
+   "(classificateur : questions, plats)",
+   "dire"
+  ]
+ },
+ "能够": {
+  "pn": "neng2 gou4",
+  "py": "néng gòu",
+  "fr": [
+   "pouvoir ; être capable de"
+  ]
+ },
+ "拉": {
+  "pn": "la1",
+  "py": "lā",
+  "fr": [
+   "tirer",
+   "jouer (violon…)"
+  ]
+ },
+ "完成": {
+  "pn": "wan2 cheng2",
+  "py": "wán chéng",
+  "fr": [
+   "achever ; accomplir"
+  ]
+ },
+ "求": {
+  "pn": "qiu2",
+  "py": "qiú",
+  "fr": [
+   "demander ; supplier",
+   "chercher"
+  ]
+ },
+ "帮助": {
+  "pn": "bang1 zhu4",
+  "py": "bāng zhù",
+  "fr": [
+   "aider",
+   "aide"
+  ]
+ },
+ "变": {
+  "pn": "bian4",
+  "py": "biàn",
+  "fr": [
+   "changer ; devenir"
+  ]
+ },
+ "加": {
+  "pn": "jia1",
+  "py": "jiā",
+  "fr": [
+   "ajouter",
+   "plus (addition)"
+  ]
+ },
+ "当时": {
+  "pn": "dang1 shi2",
+  "py": "dāng shí",
+  "fr": [
+   "à ce moment-là ; à l'époque"
+  ]
+ },
+ "努力": {
+  "pn": "nu3 li4",
+  "py": "nǔ lì",
+  "fr": [
+   "faire des efforts",
+   "travailleur ; appliqué"
+  ]
+ },
+ "部分": {
+  "pn": "bu4 fen5",
+  "py": "bù fen",
+  "fr": [
+   "partie"
+  ]
+ },
+ "以前": {
+  "pn": "yi3 qian2",
+  "py": "yǐ qián",
+  "fr": [
+   "avant ; autrefois"
+  ]
+ },
+ "办法": {
+  "pn": "ban4 fa3",
+  "py": "bàn fǎ",
+  "fr": [
+   "moyen ; solution ; méthode"
+  ]
+ },
+ "特别": {
+  "pn": "te4 bie2",
+  "py": "tè bié",
+  "fr": [
+   "particulièrement ; spécialement",
+   "spécial"
+  ]
+ },
+ "真正": {
+  "pn": "zhen1 zheng4",
+  "py": "zhēn zhèng",
+  "fr": [
+   "vrai ; véritable",
+   "vraiment"
+  ]
+ },
+ "掉": {
+  "pn": "diao4",
+  "py": "diào",
+  "fr": [
+   "tomber",
+   "perdre",
+   "(après verbe) complètement (吃掉…)"
+  ]
+ },
+ "改变": {
+  "pn": "gai3 bian4",
+  "py": "gǎi biàn",
+  "fr": [
+   "changer ; modifier",
+   "changement"
+  ]
+ },
+ "讲": {
+  "pn": "jiang3",
+  "py": "jiǎng",
+  "fr": [
+   "parler ; dire",
+   "expliquer ; raconter"
+  ]
+ },
+ "离开": {
+  "pn": "li2 kai1",
+  "py": "lí kāi",
+  "fr": [
+   "quitter ; partir"
+  ]
+ },
+ "万": {
+  "pn": "wan4",
+  "py": "wàn",
+  "fr": [
+   "dix mille",
+   "absolument"
+  ]
+ },
+ "生": {
+  "pn": "sheng1",
+  "py": "shēng",
+  "fr": [
+   "naître ; donner naissance",
+   "cru ; pas cuit",
+   "vie"
+  ]
+ },
+ "片": {
+  "pn": "pian4",
+  "py": "piàn",
+  "fr": [
+   "tranche ; morceau",
+   "(classificateur : tranches, étendues)",
+   "film (影片)"
+  ]
+ },
+ "同时": {
+  "pn": "tong2 shi2",
+  "py": "tóng shí",
+  "fr": [
+   "en même temps",
+   "de plus"
+  ]
+ },
+ "以为": {
+  "pn": "yi3 wei2",
+  "py": "yǐ wéi",
+  "fr": [
+   "croire (à tort) ; s'imaginer"
+  ]
+ },
+ "越": {
+  "pn": "yue4",
+  "py": "yuè",
+  "fr": [
+   "plus… plus… (越…越…)",
+   "franchir ; dépasser"
+  ]
+ },
+ "方法": {
+  "pn": "fang1 fa3",
+  "py": "fāng fǎ",
+  "fr": [
+   "méthode ; moyen"
+  ]
+ },
+ "组": {
+  "pn": "zu3",
+  "py": "zǔ",
+  "fr": [
+   "groupe",
+   "organiser ; former"
+  ]
+ },
+ "直接": {
+  "pn": "zhi2 jie1",
+  "py": "zhí jiē",
+  "fr": [
+   "direct",
+   "directement"
+  ]
+ },
+ "卖": {
+  "pn": "mai4",
+  "py": "mài",
+  "fr": [
+   "vendre"
+  ]
+ },
+ "选": {
+  "pn": "xuan3",
+  "py": "xuǎn",
+  "fr": [
+   "choisir",
+   "élire"
+  ]
+ },
+ "句": {
+  "pn": "ju4",
+  "py": "jù",
+  "fr": [
+   "phrase",
+   "(classificateur des phrases)"
+  ]
+ },
+ "影响": {
+  "pn": "ying3 xiang3",
+  "py": "yǐng xiǎng",
+  "fr": [
+   "influence",
+   "influencer ; affecter"
+  ]
+ },
+ "永远": {
+  "pn": "yong3 yuan3",
+  "py": "yǒng yuǎn",
+  "fr": [
+   "pour toujours ; éternellement"
+  ]
+ },
+ "方面": {
+  "pn": "fang1 mian4",
+  "py": "fāng miàn",
+  "fr": [
+   "aspect ; côté",
+   "domaine"
+  ]
+ },
+ "也许": {
+  "pn": "ye3 xu3",
+  "py": "yě xǔ",
+  "fr": [
+   "peut-être"
+  ]
+ },
+ "面": {
+  "pn": "mian4",
+  "py": "miàn",
+  "fr": [
+   "nouilles ; farine",
+   "visage ; face",
+   "côté ; surface"
+  ]
+ },
+ "活动": {
+  "pn": "huo2 dong4",
+  "py": "huó dòng",
+  "fr": [
+   "activité",
+   "bouger ; faire de l'exercice"
+  ]
+ },
+ "份": {
+  "pn": "fen4",
+  "py": "fèn",
+  "fr": [
+   "part ; portion",
+   "(classif. : journaux, documents)"
+  ]
+ },
+ "信息": {
+  "pn": "xin4 xi1",
+  "py": "xìn xī",
+  "fr": [
+   "information",
+   "message"
+  ]
+ },
+ "最近": {
+  "pn": "zui4 jin4",
+  "py": "zuì jìn",
+  "fr": [
+   "récemment ; ces derniers temps",
+   "le plus proche"
+  ]
+ },
+ "换": {
+  "pn": "huan4",
+  "py": "huàn",
+  "fr": [
+   "changer ; échanger"
+  ]
+ },
+ "靠": {
+  "pn": "kao4",
+  "py": "kào",
+  "fr": [
+   "s'appuyer contre",
+   "compter sur ; dépendre de",
+   "près de"
+  ]
+ },
+ "脸": {
+  "pn": "lian3",
+  "py": "liǎn",
+  "fr": [
+   "visage",
+   "face ; honneur"
+  ]
+ },
+ "快乐": {
+  "pn": "kuai4 le4",
+  "py": "kuài lè",
+  "fr": [
+   "heureux ; joyeux"
+  ]
+ },
+ "使用": {
+  "pn": "shi3 yong4",
+  "py": "shǐ yòng",
+  "fr": [
+   "utiliser ; employer"
+  ]
+ },
+ "来自": {
+  "pn": "lai2 zi4",
+  "py": "lái zì",
+  "fr": [
+   "venir de ; provenir de"
+  ]
+ },
+ "段": {
+  "pn": "duan4",
+  "py": "duàn",
+  "fr": [
+   "(classif. : passage, période)",
+   "section ; segment"
+  ]
+ },
+ "检查": {
+  "pn": "jian3 cha2",
+  "py": "jiǎn chá",
+  "fr": [
+   "contrôler ; vérifier",
+   "examen ; inspection"
+  ]
+ },
+ "中心": {
+  "pn": "zhong1 xin1",
+  "py": "zhōng xīn",
+  "fr": [
+   "centre"
+  ]
+ },
+ "米": {
+  "pn": "mi3",
+  "py": "mǐ",
+  "fr": [
+   "riz",
+   "mètre"
+  ]
+ },
+ "行动": {
+  "pn": "xing2 dong4",
+  "py": "xíng dòng",
+  "fr": [
+   "action",
+   "agir"
+  ]
+ },
+ "开心": {
+  "pn": "kai1 xin1",
+  "py": "kāi xīn",
+  "fr": [
+   "content ; joyeux",
+   "s'amuser"
+  ]
+ },
+ "懂": {
+  "pn": "dong3",
+  "py": "dǒng",
+  "fr": [
+   "comprendre"
+  ]
+ },
+ "卡": {
+  "pn": "ka3",
+  "py": "kǎ",
+  "fr": [
+   "carte (bancaire…)",
+   "bloquer ; ramer (lent)",
+   "(qiǎ) coincer"
+  ]
+ },
+ "带来": {
+  "pn": "dai4 lai2",
+  "py": "dài lái",
+  "fr": [
+   "apporter ; amener",
+   "entraîner (une conséquence)"
+  ]
+ },
+ "办": {
+  "pn": "ban4",
+  "py": "bàn",
+  "fr": [
+   "faire ; s'occuper de",
+   "régler (une affaire)"
+  ]
+ },
+ "过来": {
+  "pn": "guo4 lai2",
+  "py": "guò lái",
+  "fr": [
+   "venir (vers ici)",
+   "(après verbe) revenir à soi"
+  ]
+ },
+ "算": {
+  "pn": "suan4",
+  "py": "suàn",
+  "fr": [
+   "compter ; calculer",
+   "considérer comme",
+   "laisse tomber (算了)"
+  ]
+ },
+ "辆": {
+  "pn": "liang4",
+  "py": "liàng",
+  "fr": [
+   "(classificateur des véhicules)"
+  ]
+ },
+ "药": {
+  "pn": "yao4",
+  "py": "yào",
+  "fr": [
+   "médicament"
+  ]
+ },
+ "留": {
+  "pn": "liu2",
+  "py": "liú",
+  "fr": [
+   "rester",
+   "laisser ; garder"
+  ]
+ },
+ "家庭": {
+  "pn": "jia1 ting2",
+  "py": "jiā tíng",
+  "fr": [
+   "famille ; foyer"
+  ]
+ },
+ "交": {
+  "pn": "jiao1",
+  "py": "jiāo",
+  "fr": [
+   "remettre ; rendre",
+   "payer",
+   "se faire (des amis)"
+  ]
+ },
+ "套": {
+  "pn": "tao4",
+  "py": "tào",
+  "fr": [
+   "(classif. : ensemble, jeu, série)",
+   "housse ; étui",
+   "enfiler"
+  ]
+ },
+ "全部": {
+  "pn": "quan2 bu4",
+  "py": "quán bù",
+  "fr": [
+   "tout ; la totalité"
+  ]
+ },
+ "刚刚": {
+  "pn": "gang1 gang5",
+  "py": "gāng gang",
+  "fr": [
+   "à l'instant ; tout juste"
+  ]
+ },
+ "正常": {
+  "pn": "zheng4 chang2",
+  "py": "zhèng cháng",
+  "fr": [
+   "normal"
+  ]
+ },
+ "黑": {
+  "pn": "hei1",
+  "py": "hēi",
+  "fr": [
+   "noir",
+   "sombre"
+  ]
+ },
+ "店": {
+  "pn": "dian4",
+  "py": "diàn",
+  "fr": [
+   "magasin ; boutique",
+   "auberge"
+  ]
+ },
+ "服务": {
+  "pn": "fu2 wu4",
+  "py": "fú wù",
+  "fr": [
+   "service",
+   "servir"
+  ]
+ },
+ "想到": {
+  "pn": "xiang3 dao4",
+  "py": "xiǎng dào",
+  "fr": [
+   "penser à",
+   "s'attendre à"
+  ]
+ },
+ "行为": {
+  "pn": "xing2 wei2",
+  "py": "xíng wéi",
+  "fr": [
+   "comportement ; conduite",
+   "acte"
+  ]
+ },
+ "挺": {
+  "pn": "ting3",
+  "py": "tǐng",
+  "fr": [
+   "assez ; plutôt (挺好)",
+   "droit ; raide"
+  ]
+ },
+ "好像": {
+  "pn": "hao3 xiang4",
+  "py": "hǎo xiàng",
+  "fr": [
+   "on dirait que ; sembler"
+  ]
+ },
+ "克": {
+  "pn": "ke4",
+  "py": "kè",
+  "fr": [
+   "gramme",
+   "vaincre ; surmonter"
+  ]
+ },
+ "愿意": {
+  "pn": "yuan4 yi4",
+  "py": "yuàn yì",
+  "fr": [
+   "vouloir bien ; être d'accord pour"
+  ]
+ },
+ "装": {
+  "pn": "zhuang1",
+  "py": "zhuāng",
+  "fr": [
+   "mettre ; charger",
+   "installer",
+   "faire semblant"
+  ]
+ },
+ "音乐": {
+  "pn": "yin1 yue4",
+  "py": "yīn yuè",
+  "fr": [
+   "musique"
+  ]
+ },
+ "感谢": {
+  "pn": "gan3 xie4",
+  "py": "gǎn xiè",
+  "fr": [
+   "remercier",
+   "remerciement ; gratitude"
+  ]
+ },
+ "座": {
+  "pn": "zuo4",
+  "py": "zuò",
+  "fr": [
+   "(classif. : montagnes, bâtiments)",
+   "siège ; place"
+  ]
+ },
+ "那样": {
+  "pn": "na4 yang4",
+  "py": "nà yàng",
+  "fr": [
+   "ainsi ; comme ça",
+   "tel"
+  ]
+ },
+ "往": {
+  "pn": "wang3",
+  "py": "wǎng",
+  "fr": [
+   "vers ; en direction de",
+   "aller"
+  ]
+ },
+ "眼": {
+  "pn": "yan3",
+  "py": "yǎn",
+  "fr": [
+   "œil",
+   "(classificateur : un coup d'œil)"
+  ]
+ },
+ "感到": {
+  "pn": "gan3 dao4",
+  "py": "gǎn dào",
+  "fr": [
+   "ressentir ; se sentir"
+  ]
+ },
+ "清楚": {
+  "pn": "qing1 chu5",
+  "py": "qīng chu",
+  "fr": [
+   "clair ; net",
+   "bien comprendre"
+  ]
+ },
+ "照片": {
+  "pn": "zhao4 pian4",
+  "py": "zhào piàn",
+  "fr": [
+   "photo"
+  ]
+ },
+ "停": {
+  "pn": "ting2",
+  "py": "tíng",
+  "fr": [
+   "s'arrêter ; arrêter",
+   "se garer"
+  ]
+ },
+ "银行": {
+  "pn": "yin2 hang2",
+  "py": "yín háng",
+  "fr": [
+   "banque"
+  ]
+ },
+ "故事": {
+  "pn": "gu4 shi5",
+  "py": "gù shi",
+  "fr": [
+   "histoire ; récit"
+  ]
+ },
+ "气": {
+  "pn": "qi4",
+  "py": "qì",
+  "fr": [
+   "air ; gaz",
+   "souffle",
+   "se fâcher ; colère"
+  ]
+ },
+ "倒": {
+  "pn": "dao3",
+  "py": "dǎo",
+  "fr": [
+   "tomber ; renverser",
+   "(dào) verser",
+   "(dào) pourtant ; au contraire"
+  ]
+ },
+ "酒": {
+  "pn": "jiu3",
+  "py": "jiǔ",
+  "fr": [
+   "alcool",
+   "vin"
+  ]
+ },
+ "原来": {
+  "pn": "yuan2 lai2",
+  "py": "yuán lái",
+  "fr": [
+   "en fait ; tiens !",
+   "autrefois ; à l'origine",
+   "d'origine"
+  ]
+ },
+ "它们": {
+  "pn": "ta1 men5",
+  "py": "tā men",
+  "fr": [
+   "ils ; elles (choses, animaux)"
+  ]
+ },
+ "红": {
+  "pn": "hong2",
+  "py": "hóng",
+  "fr": [
+   "rouge",
+   "populaire"
+  ]
+ },
+ "欢迎": {
+  "pn": "huan1 ying2",
+  "py": "huān yíng",
+  "fr": [
+   "bienvenue",
+   "accueillir"
+  ]
+ },
+ "一般": {
+  "pn": "yi1 ban1",
+  "py": "yī bān",
+  "fr": [
+   "en général",
+   "ordinaire ; moyen"
+  ]
+ },
+ "可爱": {
+  "pn": "ke3 ai4",
+  "py": "kě ài",
+  "fr": [
+   "mignon ; adorable"
+  ]
+ },
+ "边": {
+  "pn": "bian1",
+  "py": "biān",
+  "fr": [
+   "côté ; bord",
+   "(一边…一边…) tout en"
+  ]
+ },
+ "新闻": {
+  "pn": "xin1 wen2",
+  "py": "xīn wén",
+  "fr": [
+   "informations ; actualités"
+  ]
+ },
+ "眼睛": {
+  "pn": "yan3 jing5",
+  "py": "yǎn jing",
+  "fr": [
+   "œil ; yeux"
+  ]
+ },
+ "做到": {
+  "pn": "zuo4 dao4",
+  "py": "zuò dào",
+  "fr": [
+   "réussir à faire ; accomplir"
+  ]
+ },
+ "近": {
+  "pn": "jin4",
+  "py": "jìn",
+  "fr": [
+   "proche ; près",
+   "environ"
+  ]
+ },
+ "怎样": {
+  "pn": "zen3 yang4",
+  "py": "zěn yàng",
+  "fr": [
+   "comment ; de quelle façon"
+  ]
+ },
+ "收": {
+  "pn": "shou1",
+  "py": "shōu",
+  "fr": [
+   "recevoir",
+   "ranger",
+   "encaisser"
+  ]
+ },
+ "声音": {
+  "pn": "sheng1 yin1",
+  "py": "shēng yīn",
+  "fr": [
+   "son ; voix"
+  ]
+ },
+ "数": {
+  "pn": "shu3",
+  "py": "shǔ",
+  "fr": [
+   "compter",
+   "(shù) nombre ; chiffre"
+  ]
+ },
+ "变成": {
+  "pn": "bian4 cheng2",
+  "py": "biàn chéng",
+  "fr": [
+   "devenir ; se transformer en"
+  ]
+ },
+ "受到": {
+  "pn": "shou4 dao4",
+  "py": "shòu dào",
+  "fr": [
+   "recevoir ; subir",
+   "être (aimé, critiqué…)"
+  ]
+ },
+ "经过": {
+  "pn": "jing1 guo4",
+  "py": "jīng guò",
+  "fr": [
+   "passer par",
+   "après ; grâce à",
+   "processus"
+  ]
+ },
+ "只能": {
+  "pn": "zhi3 neng2",
+  "py": "zhǐ néng",
+  "fr": [
+   "ne pouvoir que ; être obligé de"
+  ]
+ },
+ "哭": {
+  "pn": "ku1",
+  "py": "kū",
+  "fr": [
+   "pleurer"
+  ]
+ },
+ "怕": {
+  "pn": "pa4",
+  "py": "pà",
+  "fr": [
+   "avoir peur",
+   "craindre que"
+  ]
+ },
+ "离": {
+  "pn": "li2",
+  "py": "lí",
+  "fr": [
+   "loin de (distance)",
+   "quitter"
+  ]
+ },
+ "重新": {
+  "pn": "chong2 xin1",
+  "py": "chóng xīn",
+  "fr": [
+   "de nouveau ; à nouveau"
+  ]
+ },
+ "提": {
+  "pn": "ti2",
+  "py": "tí",
+  "fr": [
+   "porter (à la main)",
+   "mentionner",
+   "soulever (une question)"
+  ]
+ },
+ "度": {
+  "pn": "du4",
+  "py": "dù",
+  "fr": [
+   "degré",
+   "passer (du temps)"
+  ]
+ },
+ "经常": {
+  "pn": "jing1 chang2",
+  "py": "jīng cháng",
+  "fr": [
+   "souvent ; régulièrement"
+  ]
+ },
+ "面前": {
+  "pn": "mian4 qian2",
+  "py": "miàn qián",
+  "fr": [
+   "devant ; en face de"
+  ]
+ },
+ "低": {
+  "pn": "di1",
+  "py": "dī",
+  "fr": [
+   "bas",
+   "baisser"
+  ]
+ },
+ "节目": {
+  "pn": "jie2 mu4",
+  "py": "jié mù",
+  "fr": [
+   "programme ; émission"
+  ]
+ },
+ "健康": {
+  "pn": "jian4 kang1",
+  "py": "jiàn kāng",
+  "fr": [
+   "santé",
+   "en bonne santé ; sain"
+  ]
+ },
+ "弄": {
+  "pn": "nong4",
+  "py": "nòng",
+  "fr": [
+   "faire ; s'occuper de",
+   "bricoler ; manipuler"
+  ]
+ },
+ "作用": {
+  "pn": "zuo4 yong4",
+  "py": "zuò yòng",
+  "fr": [
+   "rôle ; effet",
+   "agir sur"
+  ]
+ },
+ "满": {
+  "pn": "man3",
+  "py": "mǎn",
+  "fr": [
+   "plein",
+   "satisfait"
+  ]
+ },
+ "说明": {
+  "pn": "shuo1 ming2",
+  "py": "shuō míng",
+  "fr": [
+   "expliquer ; montrer",
+   "explication ; notice"
+  ]
+ },
+ "许多": {
+  "pn": "xu3 duo1",
+  "py": "xǔ duō",
+  "fr": [
+   "beaucoup de ; de nombreux"
+  ]
+ },
+ "同样": {
+  "pn": "tong2 yang4",
+  "py": "tóng yàng",
+  "fr": [
+   "pareil ; de même",
+   "également"
+  ]
+ },
+ "身边": {
+  "pn": "shen1 bian1",
+  "py": "shēn biān",
+  "fr": [
+   "à côté de soi ; auprès de",
+   "sur soi"
+  ]
+ },
+ "越来越": {
+  "pn": "yue4 lai2 yue4",
+  "py": "yuè lái yuè",
+  "fr": [
+   "de plus en plus"
+  ]
+ },
+ "短": {
+  "pn": "duan3",
+  "py": "duǎn",
+  "fr": [
+   "court",
+   "défaut"
+  ]
+ },
+ "意思": {
+  "pn": "yi4 si5",
+  "py": "yì si",
+  "fr": [
+   "sens ; signification",
+   "intention",
+   "intéressant (有意思)"
+  ]
+ },
+ "意见": {
+  "pn": "yi4 jian4",
+  "py": "yì jiàn",
+  "fr": [
+   "avis ; opinion",
+   "objection ; plainte"
+  ]
+ },
+ "查": {
+  "pn": "cha2",
+  "py": "chá",
+  "fr": [
+   "vérifier ; chercher (info)",
+   "examiner ; enquêter"
+  ]
+ },
+ "脚": {
+  "pn": "jiao3",
+  "py": "jiǎo",
+  "fr": [
+   "pied"
+  ]
+ },
+ "主要": {
+  "pn": "zhu3 yao4",
+  "py": "zhǔ yào",
+  "fr": [
+   "principal",
+   "principalement"
+  ]
+ },
+ "市": {
+  "pn": "shi4",
+  "py": "shì",
+  "fr": [
+   "ville ; municipalité",
+   "marché"
+  ]
+ },
+ "不少": {
+  "pn": "bu4 shao3",
+  "py": "bù shǎo",
+  "fr": [
+   "beaucoup ; pas mal de"
+  ]
+ },
+ "讨论": {
+  "pn": "tao3 lun4",
+  "py": "tǎo lùn",
+  "fr": [
+   "discuter ; débattre",
+   "discussion"
+  ]
+ },
+ "超过": {
+  "pn": "chao1 guo4",
+  "py": "chāo guò",
+  "fr": [
+   "dépasser ; excéder"
+  ]
+ },
+ "比如": {
+  "pn": "bi3 ru2",
+  "py": "bǐ rú",
+  "fr": [
+   "par exemple"
+  ]
+ },
+ "假": {
+  "pn": "jia3",
+  "py": "jiǎ",
+  "fr": [
+   "faux",
+   "(jià) congé ; vacances"
+  ]
+ },
+ "后来": {
+  "pn": "hou4 lai2",
+  "py": "hòu lái",
+  "fr": [
+   "ensuite ; plus tard"
+  ]
+ },
+ "嘴": {
+  "pn": "zui3",
+  "py": "zuǐ",
+  "fr": [
+   "bouche",
+   "bec"
+  ]
+ },
+ "自由": {
+  "pn": "zi4 you2",
+  "py": "zì yóu",
+  "fr": [
+   "liberté",
+   "libre"
+  ]
+ },
+ "改": {
+  "pn": "gai3",
+  "py": "gǎi",
+  "fr": [
+   "changer ; modifier",
+   "corriger"
+  ]
+ },
+ "就要": {
+  "pn": "jiu4 yao4",
+  "py": "jiù yào",
+  "fr": [
+   "être sur le point de"
+  ]
+ },
+ "加油": {
+  "pn": "jia1 you2",
+  "py": "jiā yóu",
+  "fr": [
+   "courage ! ; allez !",
+   "faire le plein (d'essence)"
+  ]
+ },
+ "省": {
+  "pn": "sheng3",
+  "py": "shěng",
+  "fr": [
+   "province",
+   "économiser",
+   "épargner (effort)"
+  ]
+ },
+ "海": {
+  "pn": "hai3",
+  "py": "hǎi",
+  "fr": [
+   "mer"
+  ]
+ },
+ "夜": {
+  "pn": "ye4",
+  "py": "yè",
+  "fr": [
+   "nuit"
+  ]
+ },
+ "十分": {
+  "pn": "shi2 fen1",
+  "py": "shí fēn",
+  "fr": [
+   "très ; extrêmement"
+  ]
+ },
+ "称": {
+  "pn": "cheng1",
+  "py": "chēng",
+  "fr": [
+   "appeler ; nommer",
+   "peser"
+  ]
+ },
+ "年轻": {
+  "pn": "nian2 qing1",
+  "py": "nián qīng",
+  "fr": [
+   "jeune"
+  ]
+ },
+ "条件": {
+  "pn": "tiao2 jian4",
+  "py": "tiáo jiàn",
+  "fr": [
+   "condition",
+   "conditions (de vie…)"
+  ]
+ },
+ "晚安": {
+  "pn": "wan3 an1",
+  "py": "wǎn ān",
+  "fr": [
+   "bonne nuit"
+  ]
+ },
+ "画": {
+  "pn": "hua4",
+  "py": "huà",
+  "fr": [
+   "dessiner ; peindre",
+   "tableau ; dessin"
+  ]
+ },
+ "广告": {
+  "pn": "guang3 gao4",
+  "py": "guǎng gào",
+  "fr": [
+   "publicité"
+  ]
+ },
+ "提出": {
+  "pn": "ti2 chu1",
+  "py": "tí chū",
+  "fr": [
+   "proposer ; avancer (une idée)",
+   "soulever (une question)"
+  ]
+ },
+ "运动": {
+  "pn": "yun4 dong4",
+  "py": "yùn dòng",
+  "fr": [
+   "sport ; exercice",
+   "mouvement"
+  ]
+ },
+ "样子": {
+  "pn": "yang4 zi5",
+  "py": "yàng zi",
+  "fr": [
+   "air ; aspect",
+   "manière",
+   "modèle"
+  ]
+ },
+ "实现": {
+  "pn": "shi2 xian4",
+  "py": "shí xiàn",
+  "fr": [
+   "réaliser ; concrétiser"
+  ]
+ },
+ "刚才": {
+  "pn": "gang1 cai2",
+  "py": "gāng cái",
+  "fr": [
+   "tout à l'heure ; à l'instant"
+  ]
+ },
+ "通": {
+  "pn": "tong1",
+  "py": "tōng",
+  "fr": [
+   "passer ; être ouvert",
+   "communiquer",
+   "comprendre ; maîtriser"
+  ]
+ },
+ "办公室": {
+  "pn": "ban4 gong1 shi4",
+  "py": "bàn gōng shì",
+  "fr": [
+   "bureau (pièce)"
+  ]
+ },
+ "正确": {
+  "pn": "zheng4 que4",
+  "py": "zhèng què",
+  "fr": [
+   "correct ; juste"
+  ]
+ },
+ "爱情": {
+  "pn": "ai4 qing2",
+  "py": "ài qíng",
+  "fr": [
+   "amour (sentimental)"
+  ]
+ },
+ "收到": {
+  "pn": "shou1 dao4",
+  "py": "shōu dào",
+  "fr": [
+   "recevoir"
+  ]
+ },
+ "够": {
+  "pn": "gou4",
+  "py": "gòu",
+  "fr": [
+   "assez ; suffisant",
+   "atteindre"
+  ]
+ },
+ "正是": {
+  "pn": "zheng4 shi4",
+  "py": "zhèng shì",
+  "fr": [
+   "c'est justement ; précisément"
+  ]
+ },
+ "方向": {
+  "pn": "fang1 xiang4",
+  "py": "fāng xiàng",
+  "fr": [
+   "direction"
+  ]
+ },
+ "排": {
+  "pn": "pai2",
+  "py": "pái",
+  "fr": [
+   "rang ; rangée",
+   "arranger ; disposer",
+   "faire la queue (排队)"
+  ]
+ },
+ "鱼": {
+  "pn": "yu2",
+  "py": "yú",
+  "fr": [
+   "poisson"
+  ]
+ },
+ "关心": {
+  "pn": "guan1 xin1",
+  "py": "guān xīn",
+  "fr": [
+   "se soucier de ; s'intéresser à"
+  ]
+ },
+ "节": {
+  "pn": "jie2",
+  "py": "jié",
+  "fr": [
+   "fête",
+   "(classificateur : cours, sections)",
+   "nœud ; articulation"
+  ]
+ },
+ "留下": {
+  "pn": "liu2 xia4",
+  "py": "liú xià",
+  "fr": [
+   "laisser",
+   "rester"
+  ]
+ },
+ "教育": {
+  "pn": "jiao4 yu4",
+  "py": "jiào yù",
+  "fr": [
+   "éducation",
+   "éduquer"
+  ]
+ },
+ "日子": {
+  "pn": "ri4 zi5",
+  "py": "rì zi",
+  "fr": [
+   "jour ; date",
+   "vie (quotidienne)"
+  ]
+ },
+ "取": {
+  "pn": "qu3",
+  "py": "qǔ",
+  "fr": [
+   "prendre ; retirer (argent)",
+   "obtenir"
+  ]
+ },
+ "层": {
+  "pn": "ceng2",
+  "py": "céng",
+  "fr": [
+   "étage",
+   "couche"
+  ]
+ },
+ "心里": {
+  "pn": "xin1 li5",
+  "py": "xīn li",
+  "fr": [
+   "dans son cœur ; intérieurement"
+  ]
+ },
+ "腿": {
+  "pn": "tui3",
+  "py": "tuǐ",
+  "fr": [
+   "jambe"
+  ]
+ },
+ "全国": {
+  "pn": "quan2 guo2",
+  "py": "quán guó",
+  "fr": [
+   "tout le pays ; national"
+  ]
+ },
+ "街": {
+  "pn": "jie1",
+  "py": "jiē",
+  "fr": [
+   "rue"
+  ]
+ },
+ "笔": {
+  "pn": "bi3",
+  "py": "bǐ",
+  "fr": [
+   "stylo ; crayon",
+   "(classificateur : sommes d'argent)"
+  ]
+ },
+ "通知": {
+  "pn": "tong1 zhi1",
+  "py": "tōng zhī",
+  "fr": [
+   "informer ; aviser",
+   "avis ; notification"
+  ]
+ },
+ "鞋": {
+  "pn": "xie2",
+  "py": "xié",
+  "fr": [
+   "chaussure"
+  ]
+ },
+ "习惯": {
+  "pn": "xi2 guan4",
+  "py": "xí guàn",
+  "fr": [
+   "habitude",
+   "s'habituer à"
+  ]
+ },
+ "目的": {
+  "pn": "mu4 di4",
+  "py": "mù dì",
+  "fr": [
+   "but ; objectif"
+  ]
+ },
+ "国际": {
+  "pn": "guo2 ji4",
+  "py": "guó jì",
+  "fr": [
+   "international"
+  ]
+ },
+ "周末": {
+  "pn": "zhou1 mo4",
+  "py": "zhōu mò",
+  "fr": [
+   "week-end"
+  ]
+ },
+ "推": {
+  "pn": "tui1",
+  "py": "tuī",
+  "fr": [
+   "pousser",
+   "reporter ; repousser",
+   "promouvoir"
+  ]
+ },
+ "听说": {
+  "pn": "ting1 shuo1",
+  "py": "tīng shuō",
+  "fr": [
+   "entendre dire (que)",
+   "il paraît que"
+  ]
+ },
+ "油": {
+  "pn": "you2",
+  "py": "yóu",
+  "fr": [
+   "huile",
+   "essence (carburant)",
+   "gras"
+  ]
+ },
+ "科学": {
+  "pn": "ke1 xue2",
+  "py": "kē xué",
+  "fr": [
+   "science",
+   "scientifique"
+  ]
+ },
+ "心情": {
+  "pn": "xin1 qing2",
+  "py": "xīn qíng",
+  "fr": [
+   "humeur ; état d'esprit"
+  ]
+ },
+ "接着": {
+  "pn": "jie1 zhe5",
+  "py": "jiē zhe",
+  "fr": [
+   "ensuite ; puis",
+   "continuer",
+   "attraper"
+  ]
+ },
+ "流": {
+  "pn": "liu2",
+  "py": "liú",
+  "fr": [
+   "couler",
+   "courant ; flux"
+  ]
+ },
+ "实在": {
+  "pn": "shi2 zai4",
+  "py": "shí zài",
+  "fr": [
+   "vraiment ; réellement",
+   "honnête ; concret"
+  ]
+ },
+ "表": {
+  "pn": "biao3",
+  "py": "biǎo",
+  "fr": [
+   "montre",
+   "tableau ; formulaire",
+   "exprimer ; montrer"
+  ]
+ },
+ "船": {
+  "pn": "chuan2",
+  "py": "chuán",
+  "fr": [
+   "bateau"
+  ]
+ },
+ "养": {
+  "pn": "yang3",
+  "py": "yǎng",
+  "fr": [
+   "élever (animaux, enfants)",
+   "nourrir ; entretenir"
+  ]
+ },
+ "鸡": {
+  "pn": "ji1",
+  "py": "jī",
+  "fr": [
+   "poulet ; poule"
+  ]
+ },
+ "遍": {
+  "pn": "bian4",
+  "py": "biàn",
+  "fr": [
+   "fois (du début à la fin)",
+   "partout"
+  ]
+ },
+ "瓶": {
+  "pn": "ping2",
+  "py": "píng",
+  "fr": [
+   "bouteille",
+   "(classificateur : une bouteille de…)"
+  ]
+ },
+ "普通": {
+  "pn": "pu3 tong1",
+  "py": "pǔ tōng",
+  "fr": [
+   "ordinaire ; commun"
+  ]
+ },
+ "打算": {
+  "pn": "da3 suan4",
+  "py": "dǎ suàn",
+  "fr": [
+   "avoir l'intention de ; compter",
+   "projet ; intention"
+  ]
+ },
+ "重点": {
+  "pn": "zhong4 dian3",
+  "py": "zhòng diǎn",
+  "fr": [
+   "point essentiel ; priorité",
+   "clé ; principal"
+  ]
+ },
+ "咱们": {
+  "pn": "zan2 men5",
+  "py": "zán men",
+  "fr": [
+   "nous (toi et moi inclus)"
+  ]
+ },
+ "小心": {
+  "pn": "xiao3 xin1",
+  "py": "xiǎo xīn",
+  "fr": [
+   "faire attention",
+   "attention !"
+  ]
+ },
+ "不够": {
+  "pn": "bu4 gou4",
+  "py": "bù gòu",
+  "fr": [
+   "pas assez ; insuffisant"
+  ]
+ },
+ "怎么办": {
+  "pn": "zen3 me5 ban4",
+  "py": "zěn me bàn",
+  "fr": [
+   "que faire ? ; comment faire ?"
+  ]
+ },
+ "举行": {
+  "pn": "ju3 xing2",
+  "py": "jǔ xíng",
+  "fr": [
+   "tenir (réunion, cérémonie) ; organiser"
+  ]
+ },
+ "想法": {
+  "pn": "xiang3 fa3",
+  "py": "xiǎng fǎ",
+  "fr": [
+   "idée ; opinion"
+  ]
+ },
+ "动物": {
+  "pn": "dong4 wu4",
+  "py": "dòng wù",
+  "fr": [
+   "animal"
+  ]
+ },
+ "不行": {
+  "pn": "bu4 xing2",
+  "py": "bù xíng",
+  "fr": [
+   "ça ne va pas ; pas possible",
+   "nul ; incapable"
+  ]
+ },
+ "明星": {
+  "pn": "ming2 xing1",
+  "py": "míng xīng",
+  "fr": [
+   "star ; vedette"
+  ]
+ },
+ "级": {
+  "pn": "ji2",
+  "py": "jí",
+  "fr": [
+   "niveau ; grade",
+   "année (scolaire)"
+  ]
+ },
+ "顺利": {
+  "pn": "shun4 li4",
+  "py": "shùn lì",
+  "fr": [
+   "sans encombre ; sans problème"
+  ]
+ },
+ "水平": {
+  "pn": "shui3 ping2",
+  "py": "shuǐ píng",
+  "fr": [
+   "niveau",
+   "horizontal"
+  ]
+ },
+ "网": {
+  "pn": "wang3",
+  "py": "wǎng",
+  "fr": [
+   "réseau ; Internet",
+   "filet"
+  ]
+ },
+ "借": {
+  "pn": "jie4",
+  "py": "jiè",
+  "fr": [
+   "emprunter",
+   "prêter"
+  ]
+ },
+ "长大": {
+  "pn": "zhang3 da4",
+  "py": "zhǎng dà",
+  "fr": [
+   "grandir"
+  ]
+ },
+ "交给": {
+  "pn": "jiao1 gei3",
+  "py": "jiāo gěi",
+  "fr": [
+   "remettre à ; confier à"
+  ]
+ },
+ "头发": {
+  "pn": "tou2 fa5",
+  "py": "tóu fa",
+  "fr": [
+   "cheveux"
+  ]
+ },
+ "封": {
+  "pn": "feng1",
+  "py": "fēng",
+  "fr": [
+   "(classificateur des lettres)",
+   "sceller ; fermer"
+  ]
+ },
+ "蛋": {
+  "pn": "dan4",
+  "py": "dàn",
+  "fr": [
+   "œuf"
+  ]
+ },
+ "科": {
+  "pn": "ke1",
+  "py": "kē",
+  "fr": [
+   "matière ; discipline",
+   "service ; section"
+  ]
+ },
+ "占": {
+  "pn": "zhan4",
+  "py": "zhàn",
+  "fr": [
+   "occuper",
+   "représenter (un pourcentage)"
+  ]
+ },
+ "词": {
+  "pn": "ci2",
+  "py": "cí",
+  "fr": [
+   "mot",
+   "paroles (chanson)"
+  ]
+ },
+ "鸟": {
+  "pn": "niao3",
+  "py": "niǎo",
+  "fr": [
+   "oiseau"
+  ]
+ },
+ "取得": {
+  "pn": "qu3 de2",
+  "py": "qǔ dé",
+  "fr": [
+   "obtenir ; remporter"
+  ]
+ },
+ "想起": {
+  "pn": "xiang3 qi3",
+  "py": "xiǎng qǐ",
+  "fr": [
+   "se rappeler ; se souvenir de"
+  ]
+ },
+ "蓝": {
+  "pn": "lan2",
+  "py": "lán",
+  "fr": [
+   "bleu"
+  ]
+ },
+ "纸": {
+  "pn": "zhi3",
+  "py": "zhǐ",
+  "fr": [
+   "papier",
+   "(classificateur : documents)"
+  ]
+ },
+ "背": {
+  "pn": "bei4",
+  "py": "bèi",
+  "fr": [
+   "dos",
+   "apprendre par cœur",
+   "(bēi) porter sur le dos"
+  ]
+ },
+ "一生": {
+  "pn": "yi1 sheng1",
+  "py": "yī shēng",
+  "fr": [
+   "toute la vie"
+  ]
+ },
+ "照顾": {
+  "pn": "zhao4 gu5",
+  "py": "zhào gu",
+  "fr": [
+   "s'occuper de ; prendre soin de"
+  ]
+ },
+ "急": {
+  "pn": "ji2",
+  "py": "jí",
+  "fr": [
+   "pressé ; impatient",
+   "urgent",
+   "inquiet"
+  ]
+ },
+ "疼": {
+  "pn": "teng2",
+  "py": "téng",
+  "fr": [
+   "avoir mal ; douloureux",
+   "chérir"
+  ]
+ },
+ "态度": {
+  "pn": "tai4 du5",
+  "py": "tài du",
+  "fr": [
+   "attitude"
+  ]
+ },
+ "小组": {
+  "pn": "xiao3 zu3",
+  "py": "xiǎo zǔ",
+  "fr": [
+   "groupe ; équipe"
+  ]
+ },
+ "数字": {
+  "pn": "shu4 zi4",
+  "py": "shù zì",
+  "fr": [
+   "chiffre ; nombre",
+   "numérique"
+  ]
+ },
+ "礼物": {
+  "pn": "li3 wu4",
+  "py": "lǐ wù",
+  "fr": [
+   "cadeau"
+  ]
+ },
+ "酒店": {
+  "pn": "jiu3 dian4",
+  "py": "jiǔ diàn",
+  "fr": [
+   "hôtel"
+  ]
+ },
+ "交通": {
+  "pn": "jiao1 tong1",
+  "py": "jiāo tōng",
+  "fr": [
+   "circulation ; trafic",
+   "transports"
+  ]
+ },
+ "亮": {
+  "pn": "liang4",
+  "py": "liàng",
+  "fr": [
+   "brillant ; lumineux",
+   "s'allumer ; briller"
+  ]
+ },
+ "篇": {
+  "pn": "pian1",
+  "py": "piān",
+  "fr": [
+   "(classificateur : articles, textes)",
+   "texte ; chapitre"
+  ]
+ },
+ "出口": {
+  "pn": "chu1 kou3",
+  "py": "chū kǒu",
+  "fr": [
+   "sortie",
+   "exporter ; exportation"
+  ]
+ },
+ "味道": {
+  "pn": "wei4 dao5",
+  "py": "wèi dao",
+  "fr": [
+   "goût ; saveur",
+   "odeur"
+  ]
+ },
+ "平": {
+  "pn": "ping2",
+  "py": "píng",
+  "fr": [
+   "plat",
+   "égal ; égalité",
+   "calme"
+  ]
+ },
+ "出发": {
+  "pn": "chu1 fa1",
+  "py": "chū fā",
+  "fr": [
+   "partir ; se mettre en route"
+  ]
+ },
+ "接到": {
+  "pn": "jie1 dao4",
+  "py": "jiē dào",
+  "fr": [
+   "recevoir"
+  ]
+ },
+ "提高": {
+  "pn": "ti2 gao1",
+  "py": "tí gāo",
+  "fr": [
+   "améliorer ; augmenter",
+   "élever"
+  ]
+ },
+ "千": {
+  "pn": "qian1",
+  "py": "qiān",
+  "fr": [
+   "mille ; 1000"
+  ]
+ },
+ "墙": {
+  "pn": "qiang2",
+  "py": "qiáng",
+  "fr": [
+   "mur"
+  ]
+ },
+ "满意": {
+  "pn": "man3 yi4",
+  "py": "mǎn yì",
+  "fr": [
+   "satisfait"
+  ]
+ },
+ "食物": {
+  "pn": "shi2 wu4",
+  "py": "shí wù",
+  "fr": [
+   "nourriture ; aliment"
+  ]
+ },
+ "司机": {
+  "pn": "si1 ji1",
+  "py": "sī jī",
+  "fr": [
+   "chauffeur ; conducteur"
+  ]
+ },
+ "大量": {
+  "pn": "da4 liang4",
+  "py": "dà liàng",
+  "fr": [
+   "grande quantité ; beaucoup de"
+  ]
+ },
+ "黄": {
+  "pn": "huang2",
+  "py": "huáng",
+  "fr": [
+   "jaune",
+   "pornographique",
+   "échouer (fam.)"
+  ]
+ },
+ "轻": {
+  "pn": "qing1",
+  "py": "qīng",
+  "fr": [
+   "léger",
+   "doux ; doucement",
+   "jeune"
+  ]
+ },
+ "信号": {
+  "pn": "xin4 hao4",
+  "py": "xìn hào",
+  "fr": [
+   "signal ; réseau (téléphone)"
+  ]
+ },
+ "好多": {
+  "pn": "hao3 duo1",
+  "py": "hǎo duō",
+  "fr": [
+   "beaucoup de ; plein de"
+  ]
+ },
+ "经理": {
+  "pn": "jing1 li3",
+  "py": "jīng lǐ",
+  "fr": [
+   "directeur ; gérant ; manager"
+  ]
+ },
+ "大部分": {
+  "pn": "da4 bu4 fen5",
+  "py": "dà bù fen",
+  "fr": [
+   "la plupart ; la majeure partie"
+  ]
+ },
+ "吹": {
+  "pn": "chui1",
+  "py": "chuī",
+  "fr": [
+   "souffler",
+   "se vanter",
+   "rompre (fam.)"
+  ]
+ },
+ "颜色": {
+  "pn": "yan2 se4",
+  "py": "yán sè",
+  "fr": [
+   "couleur"
+  ]
+ },
+ "成绩": {
+  "pn": "cheng2 ji4",
+  "py": "chéng jì",
+  "fr": [
+   "résultats ; notes",
+   "réussite"
+  ]
+ },
+ "角度": {
+  "pn": "jiao3 du4",
+  "py": "jiǎo dù",
+  "fr": [
+   "angle",
+   "point de vue"
+  ]
+ },
+ "多么": {
+  "pn": "duo1 me5",
+  "py": "duō me",
+  "fr": [
+   "comme ; que (exclamatif)",
+   "combien"
+  ]
+ },
+ "什么样": {
+  "pn": "shen2 me5 yang4",
+  "py": "shén me yàng",
+  "fr": [
+   "quel genre de ; comment"
+  ]
+ },
+ "语言": {
+  "pn": "yu3 yan2",
+  "py": "yǔ yán",
+  "fr": [
+   "langue ; langage"
+  ]
+ },
+ "网站": {
+  "pn": "wang3 zhan4",
+  "py": "wǎng zhàn",
+  "fr": [
+   "site web"
+  ]
+ },
+ "地球": {
+  "pn": "di4 qiu2",
+  "py": "dì qiú",
+  "fr": [
+   "la Terre ; globe"
+  ]
+ },
+ "雪": {
+  "pn": "xue3",
+  "py": "xuě",
+  "fr": [
+   "neige"
+  ]
+ },
+ "那时": {
+  "pn": "na4 shi2",
+  "py": "nà shí",
+  "fr": [
+   "à cette époque ; alors"
+  ]
+ },
+ "实际": {
+  "pn": "shi2 ji4",
+  "py": "shí jì",
+  "fr": [
+   "réel ; concret",
+   "réalité",
+   "pratique"
+  ]
+ },
+ "心中": {
+  "pn": "xin1 zhong1",
+  "py": "xīn zhōng",
+  "fr": [
+   "dans le cœur ; en pensée"
+  ]
+ },
+ "灯": {
+  "pn": "deng1",
+  "py": "dēng",
+  "fr": [
+   "lampe ; lumière"
+  ]
+ },
+ "太阳": {
+  "pn": "tai4 yang5",
+  "py": "tài yang",
+  "fr": [
+   "soleil"
+  ]
+ },
+ "可怕": {
+  "pn": "ke3 pa4",
+  "py": "kě pà",
+  "fr": [
+   "effrayant ; terrible"
+  ]
+ },
+ "方便": {
+  "pn": "fang1 bian4",
+  "py": "fāng biàn",
+  "fr": [
+   "pratique ; commode",
+   "disponible"
+  ]
+ },
+ "爬": {
+  "pn": "pa2",
+  "py": "pá",
+  "fr": [
+   "grimper",
+   "ramper"
+  ]
+ },
+ "差不多": {
+  "pn": "cha4 bu5 duo1",
+  "py": "chà bu duō",
+  "fr": [
+   "presque ; à peu près",
+   "pareil"
+  ]
+ },
+ "高中": {
+  "pn": "gao1 zhong1",
+  "py": "gāo zhōng",
+  "fr": [
+   "lycée"
+  ]
+ },
+ "英语": {
+  "pn": "Ying1 yu3",
+  "py": "Yīng yǔ",
+  "fr": [
+   "anglais (langue)"
+  ]
+ },
+ "空气": {
+  "pn": "kong1 qi4",
+  "py": "kōng qì",
+  "fr": [
+   "air",
+   "atmosphère"
+  ]
+ },
+ "以下": {
+  "pn": "yi3 xia4",
+  "py": "yǐ xià",
+  "fr": [
+   "au-dessous de ; moins de",
+   "ci-dessous ; suivant"
+  ]
+ },
+ "喊": {
+  "pn": "han3",
+  "py": "hǎn",
+  "fr": [
+   "crier",
+   "appeler"
+  ]
+ },
+ "讲话": {
+  "pn": "jiang3 hua4",
+  "py": "jiǎng huà",
+  "fr": [
+   "parler",
+   "discours"
+  ]
+ },
+ "大多数": {
+  "pn": "da4 duo1 shu4",
+  "py": "dà duō shù",
+  "fr": [
+   "la plupart ; la majorité"
+  ]
+ },
+ "随便": {
+  "pn": "sui2 bian4",
+  "py": "suí biàn",
+  "fr": [
+   "comme tu veux ; n'importe",
+   "négligent ; désinvolte"
+  ]
+ },
+ "随时": {
+  "pn": "sui2 shi2",
+  "py": "suí shí",
+  "fr": [
+   "à tout moment ; n'importe quand"
+  ]
+ },
+ "合适": {
+  "pn": "he2 shi4",
+  "py": "hé shì",
+  "fr": [
+   "approprié ; qui convient"
+  ]
+ },
+ "相同": {
+  "pn": "xiang1 tong2",
+  "py": "xiāng tóng",
+  "fr": [
+   "identique ; pareil"
+  ]
+ },
+ "出生": {
+  "pn": "chu1 sheng1",
+  "py": "chū shēng",
+  "fr": [
+   "naître",
+   "naissance"
+  ]
+ },
+ "以上": {
+  "pn": "yi3 shang4",
+  "py": "yǐ shàng",
+  "fr": [
+   "plus de ; au-dessus de",
+   "ci-dessus"
+  ]
+ },
+ "名单": {
+  "pn": "ming2 dan1",
+  "py": "míng dān",
+  "fr": [
+   "liste (de noms)"
+  ]
+ },
+ "答应": {
+  "pn": "da1 ying5",
+  "py": "dā ying",
+  "fr": [
+   "promettre ; accepter",
+   "répondre"
+  ]
+ },
+ "公园": {
+  "pn": "gong1 yuan2",
+  "py": "gōng yuán",
+  "fr": [
+   "parc"
+  ]
+ },
+ "红色": {
+  "pn": "hong2 se4",
+  "py": "hóng sè",
+  "fr": [
+   "rouge"
+  ]
+ },
+ "热情": {
+  "pn": "re4 qing2",
+  "py": "rè qíng",
+  "fr": [
+   "chaleureux ; accueillant",
+   "enthousiasme"
+  ]
+ },
+ "到处": {
+  "pn": "dao4 chu4",
+  "py": "dào chù",
+  "fr": [
+   "partout"
+  ]
+ },
+ "放下": {
+  "pn": "fang4 xia4",
+  "py": "fàng xià",
+  "fr": [
+   "poser ; déposer",
+   "laisser tomber"
+  ]
+ },
+ "观点": {
+  "pn": "guan1 dian3",
+  "py": "guān diǎn",
+  "fr": [
+   "point de vue"
+  ]
+ },
+ "公平": {
+  "pn": "gong1 ping2",
+  "py": "gōng píng",
+  "fr": [
+   "juste ; équitable"
+  ]
+ },
+ "高级": {
+  "pn": "gao1 ji2",
+  "py": "gāo jí",
+  "fr": [
+   "supérieur ; avancé",
+   "haut de gamme"
+  ]
+ },
+ "早就": {
+  "pn": "zao3 jiu4",
+  "py": "zǎo jiù",
+  "fr": [
+   "depuis longtemps déjà"
+  ]
+ },
+ "的话": {
+  "pn": "de5 hua4",
+  "py": "de huà",
+  "fr": [
+   "si (… 的话) ; au cas où"
+  ]
+ },
+ "骑": {
+  "pn": "qi2",
+  "py": "qí",
+  "fr": [
+   "monter (à cheval, à vélo)"
+  ]
+ },
+ "报纸": {
+  "pn": "bao4 zhi3",
+  "py": "bào zhǐ",
+  "fr": [
+   "journal"
+  ]
+ },
+ "响": {
+  "pn": "xiang3",
+  "py": "xiǎng",
+  "fr": [
+   "sonner ; retentir",
+   "bruyant"
+  ]
+ },
+ "收入": {
+  "pn": "shou1 ru4",
+  "py": "shōu rù",
+  "fr": [
+   "revenu ; salaire"
+  ]
+ },
+ "河": {
+  "pn": "he2",
+  "py": "hé",
+  "fr": [
+   "rivière ; fleuve"
+  ]
+ },
+ "练": {
+  "pn": "lian4",
+  "py": "liàn",
+  "fr": [
+   "s'entraîner ; pratiquer"
+  ]
+ },
+ "举": {
+  "pn": "ju3",
+  "py": "jǔ",
+  "fr": [
+   "lever",
+   "citer (un exemple)"
+  ]
+ },
+ "多久": {
+  "pn": "duo1 jiu3",
+  "py": "duō jiǔ",
+  "fr": [
+   "combien de temps"
+  ]
+ },
+ "租": {
+  "pn": "zu1",
+  "py": "zū",
+  "fr": [
+   "louer",
+   "loyer"
+  ]
+ },
+ "同事": {
+  "pn": "tong2 shi4",
+  "py": "tóng shì",
+  "fr": [
+   "collègue"
+  ]
+ },
+ "球队": {
+  "pn": "qiu2 dui4",
+  "py": "qiú duì",
+  "fr": [
+   "équipe (de sport)"
+  ]
+ },
+ "舒服": {
+  "pn": "shu1 fu5",
+  "py": "shū fu",
+  "fr": [
+   "confortable ; agréable",
+   "se sentir bien"
+  ]
+ },
+ "上周": {
+  "pn": "shang4 zhou1",
+  "py": "shàng zhōu",
+  "fr": [
+   "la semaine dernière"
+  ]
+ },
+ "单位": {
+  "pn": "dan1 wei4",
+  "py": "dān wèi",
+  "fr": [
+   "unité (de mesure)",
+   "lieu de travail ; organisme"
+  ]
+ },
+ "体育": {
+  "pn": "ti3 yu4",
+  "py": "tǐ yù",
+  "fr": [
+   "sport",
+   "éducation physique"
+  ]
+ },
+ "黑色": {
+  "pn": "hei1 se4",
+  "py": "hēi sè",
+  "fr": [
+   "noir"
+  ]
+ },
+ "道路": {
+  "pn": "dao4 lu4",
+  "py": "dào lù",
+  "fr": [
+   "route ; chemin"
+  ]
+ },
+ "大人": {
+  "pn": "da4 ren5",
+  "py": "dà ren",
+  "fr": [
+   "adulte ; grande personne"
+  ]
+ },
+ "角": {
+  "pn": "jiao3",
+  "py": "jiǎo",
+  "fr": [
+   "angle ; coin",
+   "corne",
+   "jiao (dixième de yuan)"
+  ]
+ },
+ "绿色": {
+  "pn": "lü4 se4",
+  "py": "lǜ sè",
+  "fr": [
+   "vert",
+   "écologique"
+  ]
+ },
+ "旅行": {
+  "pn": "lü3 xing2",
+  "py": "lǚ xíng",
+  "fr": [
+   "voyager",
+   "voyage"
+  ]
+ },
+ "公路": {
+  "pn": "gong1 lu4",
+  "py": "gōng lù",
+  "fr": [
+   "route"
+  ]
+ },
+ "主人": {
+  "pn": "zhu3 ren2",
+  "py": "zhǔ rén",
+  "fr": [
+   "hôte",
+   "maître ; propriétaire"
+  ]
+ },
+ "信心": {
+  "pn": "xin4 xin1",
+  "py": "xìn xīn",
+  "fr": [
+   "confiance (en soi)"
+  ]
+ },
+ "故意": {
+  "pn": "gu4 yi4",
+  "py": "gù yì",
+  "fr": [
+   "exprès ; intentionnellement"
+  ]
+ },
+ "闻": {
+  "pn": "wen2",
+  "py": "wén",
+  "fr": [
+   "sentir (odeur)",
+   "entendre"
+  ]
+ },
+ "看法": {
+  "pn": "kan4 fa3",
+  "py": "kàn fǎ",
+  "fr": [
+   "avis ; point de vue"
+  ]
+ },
+ "放心": {
+  "pn": "fang4 xin1",
+  "py": "fàng xīn",
+  "fr": [
+   "être rassuré ; être tranquille",
+   "ne t'inquiète pas"
+  ]
+ },
+ "草": {
+  "pn": "cao3",
+  "py": "cǎo",
+  "fr": [
+   "herbe",
+   "brouillon"
+  ]
+ },
+ "湖": {
+  "pn": "hu2",
+  "py": "hú",
+  "fr": [
+   "lac"
+  ]
+ },
+ "正好": {
+  "pn": "zheng4 hao3",
+  "py": "zhèng hǎo",
+  "fr": [
+   "justement ; tomber bien",
+   "juste comme il faut"
+  ]
+ },
+ "院": {
+  "pn": "yuan4",
+  "py": "yuàn",
+  "fr": [
+   "cour",
+   "établissement (hôpital, institut)"
+  ]
+ },
+ "安静": {
+  "pn": "an1 jing4",
+  "py": "ān jìng",
+  "fr": [
+   "calme ; silencieux"
+  ]
+ },
+ "道理": {
+  "pn": "dao4 li5",
+  "py": "dào li",
+  "fr": [
+   "raison ; logique",
+   "principe"
+  ]
+ },
+ "公里": {
+  "pn": "gong1 li3",
+  "py": "gōng lǐ",
+  "fr": [
+   "kilomètre"
+  ]
+ },
+ "好处": {
+  "pn": "hao3 chu5",
+  "py": "hǎo chu",
+  "fr": [
+   "avantage ; bienfait"
+  ]
+ },
+ "旅游": {
+  "pn": "lü3 you2",
+  "py": "lǚ yóu",
+  "fr": [
+   "faire du tourisme ; voyager",
+   "tourisme"
+  ]
+ },
+ "作业": {
+  "pn": "zuo4 ye4",
+  "py": "zuò yè",
+  "fr": [
+   "devoirs (scolaires)",
+   "travail ; opération"
+  ]
+ },
+ "家长": {
+  "pn": "jia1 zhang3",
+  "py": "jiā zhǎng",
+  "fr": [
+   "parents (d'élève)",
+   "chef de famille"
+  ]
+ },
+ "绿": {
+  "pn": "lü4",
+  "py": "lǜ",
+  "fr": [
+   "vert"
+  ]
+ },
+ "重复": {
+  "pn": "chong2 fu4",
+  "py": "chóng fù",
+  "fr": [
+   "répéter",
+   "répétition"
+  ]
+ },
+ "小说": {
+  "pn": "xiao3 shuo1",
+  "py": "xiǎo shuō",
+  "fr": [
+   "roman"
+  ]
+ },
+ "教师": {
+  "pn": "jiao4 shi1",
+  "py": "jiào shī",
+  "fr": [
+   "enseignant ; professeur"
+  ]
+ },
+ "白色": {
+  "pn": "bai2 se4",
+  "py": "bái sè",
+  "fr": [
+   "blanc"
+  ]
+ },
+ "理想": {
+  "pn": "li3 xiang3",
+  "py": "lǐ xiǎng",
+  "fr": [
+   "idéal",
+   "rêve ; ambition"
+  ]
+ },
+ "感动": {
+  "pn": "gan3 dong4",
+  "py": "gǎn dòng",
+  "fr": [
+   "émouvoir ; toucher",
+   "ému"
+  ]
+ },
+ "好事": {
+  "pn": "hao3 shi4",
+  "py": "hǎo shì",
+  "fr": [
+   "bonne chose",
+   "bonne action"
+  ]
+ },
+ "提到": {
+  "pn": "ti2 dao4",
+  "py": "tí dào",
+  "fr": [
+   "mentionner ; évoquer"
+  ]
+ },
+ "不如": {
+  "pn": "bu4 ru2",
+  "py": "bù rú",
+  "fr": [
+   "ne pas valoir",
+   "mieux vaut (不如…)"
+  ]
+ },
+ "题": {
+  "pn": "ti2",
+  "py": "tí",
+  "fr": [
+   "question (d'examen) ; exercice",
+   "sujet ; titre"
+  ]
+ },
+ "顾客": {
+  "pn": "gu4 ke4",
+  "py": "gù kè",
+  "fr": [
+   "client"
+  ]
+ },
+ "难过": {
+  "pn": "nan2 guo4",
+  "py": "nán guò",
+  "fr": [
+   "triste ; peiné",
+   "se sentir mal"
+  ]
+ },
+ "组成": {
+  "pn": "zu3 cheng2",
+  "py": "zǔ chéng",
+  "fr": [
+   "former ; composer"
+  ]
+ },
+ "流行": {
+  "pn": "liu2 xing2",
+  "py": "liú xíng",
+  "fr": [
+   "à la mode ; populaire",
+   "se répandre (épidémie)"
+  ]
+ },
+ "送给": {
+  "pn": "song4 gei3",
+  "py": "sòng gěi",
+  "fr": [
+   "offrir à"
+  ]
+ },
+ "不久": {
+  "pn": "bu4 jiu3",
+  "py": "bù jiǔ",
+  "fr": [
+   "bientôt ; peu après"
+  ]
+ },
+ "客人": {
+  "pn": "ke4 ren2",
+  "py": "kè rén",
+  "fr": [
+   "invité ; hôte",
+   "client"
+  ]
+ },
+ "人口": {
+  "pn": "ren2 kou3",
+  "py": "rén kǒu",
+  "fr": [
+   "population"
+  ]
+ },
+ "平时": {
+  "pn": "ping2 shi2",
+  "py": "píng shí",
+  "fr": [
+   "d'habitude ; en temps normal"
+  ]
+ },
+ "比如说": {
+  "pn": "bi3 ru2 shuo1",
+  "py": "bǐ rú shuō",
+  "fr": [
+   "par exemple"
+  ]
+ },
+ "不好意思": {
+  "pn": "bu4 hao3 yi4 si5",
+  "py": "bù hǎo yì si",
+  "fr": [
+   "désolé ; excusez-moi",
+   "être gêné"
+  ]
+ },
+ "便宜": {
+  "pn": "pian2 yi5",
+  "py": "pián yi",
+  "fr": [
+   "bon marché ; pas cher",
+   "petit avantage"
+  ]
+ },
+ "碰": {
+  "pn": "peng4",
+  "py": "pèng",
+  "fr": [
+   "toucher ; heurter",
+   "rencontrer"
+  ]
+ },
+ "请求": {
+  "pn": "qing3 qiu2",
+  "py": "qǐng qiú",
+  "fr": [
+   "demander ; solliciter",
+   "demande ; requête"
+  ]
+ },
+ "准确": {
+  "pn": "zhun3 que4",
+  "py": "zhǔn què",
+  "fr": [
+   "exact ; précis"
+  ]
+ },
+ "碗": {
+  "pn": "wan3",
+  "py": "wǎn",
+  "fr": [
+   "bol",
+   "(classificateur : un bol de…)"
+  ]
+ },
+ "碰到": {
+  "pn": "peng4 dao4",
+  "py": "pèng dào",
+  "fr": [
+   "tomber sur ; rencontrer"
+  ]
+ },
+ "蓝色": {
+  "pn": "lan2 se4",
+  "py": "lán sè",
+  "fr": [
+   "bleu"
+  ]
+ },
+ "懂得": {
+  "pn": "dong3 de5",
+  "py": "dǒng de",
+  "fr": [
+   "comprendre ; savoir"
+  ]
+ },
+ "广场": {
+  "pn": "guang3 chang3",
+  "py": "guǎng chǎng",
+  "fr": [
+   "place (publique)"
+  ]
+ },
+ "好久": {
+  "pn": "hao3 jiu3",
+  "py": "hǎo jiǔ",
+  "fr": [
+   "longtemps"
+  ]
+ },
+ "夏天": {
+  "pn": "xia4 tian1",
+  "py": "xià tiān",
+  "fr": [
+   "été"
+  ]
+ },
+ "接下来": {
+  "pn": "jie1 xia4 lai2",
+  "py": "jiē xià lái",
+  "fr": [
+   "ensuite ; et maintenant"
+  ]
+ },
+ "早餐": {
+  "pn": "zao3 can1",
+  "py": "zǎo cān",
+  "fr": [
+   "petit-déjeuner"
+  ]
+ },
+ "图片": {
+  "pn": "tu2 pian4",
+  "py": "tú piàn",
+  "fr": [
+   "image ; photo"
+  ]
+ },
+ "车辆": {
+  "pn": "che1 liang4",
+  "py": "chē liàng",
+  "fr": [
+   "véhicule"
+  ]
+ },
+ "有意思": {
+  "pn": "you3 yi4 si5",
+  "py": "yǒu yì si",
+  "fr": [
+   "intéressant ; amusant"
+  ]
+ },
+ "早晨": {
+  "pn": "zao3 chen2",
+  "py": "zǎo chén",
+  "fr": [
+   "matin ; tôt le matin"
+  ]
+ },
+ "出门": {
+  "pn": "chu1 men2",
+  "py": "chū mén",
+  "fr": [
+   "sortir",
+   "partir en voyage"
+  ]
+ },
+ "以外": {
+  "pn": "yi3 wai4",
+  "py": "yǐ wài",
+  "fr": [
+   "en dehors de ; à part",
+   "au-delà de"
+  ]
+ },
+ "做法": {
+  "pn": "zuo4 fa3",
+  "py": "zuò fǎ",
+  "fr": [
+   "façon de faire ; méthode"
+  ]
+ },
+ "作家": {
+  "pn": "zuo4 jia1",
+  "py": "zuò jiā",
+  "fr": [
+   "écrivain ; auteur"
+  ]
+ },
+ "全体": {
+  "pn": "quan2 ti3",
+  "py": "quán tǐ",
+  "fr": [
+   "tous ; l'ensemble (des membres)"
+  ]
+ },
+ "地铁": {
+  "pn": "di4 tie3",
+  "py": "dì tiě",
+  "fr": [
+   "métro"
+  ]
+ },
+ "熟": {
+  "pn": "shu2",
+  "py": "shú",
+  "fr": [
+   "cuit",
+   "mûr",
+   "familier ; bien connu"
+  ]
+ },
+ "小时候": {
+  "pn": "xiao3 shi2 hou5",
+  "py": "xiǎo shí hou",
+  "fr": [
+   "dans son enfance ; quand on était petit"
+  ]
+ },
+ "全身": {
+  "pn": "quan2 shen1",
+  "py": "quán shēn",
+  "fr": [
+   "tout le corps"
+  ]
+ },
+ "练习": {
+  "pn": "lian4 xi2",
+  "py": "liàn xí",
+  "fr": [
+   "s'exercer ; s'entraîner",
+   "exercice"
+  ]
+ },
+ "咱": {
+  "pn": "zan2",
+  "py": "zán",
+  "fr": [
+   "nous (toi et moi inclus)",
+   "moi (dial.)"
+  ]
+ },
+ "平安": {
+  "pn": "ping2 an1",
+  "py": "píng ān",
+  "fr": [
+   "sain et sauf ; en paix"
+  ]
+ },
+ "人数": {
+  "pn": "ren2 shu4",
+  "py": "rén shù",
+  "fr": [
+   "nombre de personnes"
+  ]
+ },
+ "队长": {
+  "pn": "dui4 zhang3",
+  "py": "duì zhǎng",
+  "fr": [
+   "capitaine ; chef d'équipe"
+  ]
+ },
+ "南方": {
+  "pn": "nan2 fang1",
+  "py": "nán fāng",
+  "fr": [
+   "le Sud",
+   "méridional"
+  ]
+ },
+ "友好": {
+  "pn": "you3 hao3",
+  "py": "yǒu hǎo",
+  "fr": [
+   "amical"
+  ]
+ },
+ "亿": {
+  "pn": "yi4",
+  "py": "yì",
+  "fr": [
+   "cent millions"
+  ]
+ },
+ "对话": {
+  "pn": "dui4 hua4",
+  "py": "duì huà",
+  "fr": [
+   "dialogue ; conversation",
+   "dialoguer"
+  ]
+ },
+ "停车": {
+  "pn": "ting2 che1",
+  "py": "tíng chē",
+  "fr": [
+   "se garer ; stationner",
+   "s'arrêter"
+  ]
+ },
+ "冬天": {
+  "pn": "dong1 tian1",
+  "py": "dōng tiān",
+  "fr": [
+   "hiver"
+  ]
+ },
+ "云": {
+  "pn": "yun2",
+  "py": "yún",
+  "fr": [
+   "nuage"
+  ]
+ },
+ "青年": {
+  "pn": "qing1 nian2",
+  "py": "qīng nián",
+  "fr": [
+   "jeune ; jeunesse"
+  ]
+ },
+ "好人": {
+  "pn": "hao3 ren2",
+  "py": "hǎo rén",
+  "fr": [
+   "bonne personne ; gentil"
+  ]
+ },
+ "大声": {
+  "pn": "da4 sheng1",
+  "py": "dà shēng",
+  "fr": [
+   "à voix haute ; fort"
+  ]
+ },
+ "分开": {
+  "pn": "fen1 kai1",
+  "py": "fēn kāi",
+  "fr": [
+   "séparer ; se séparer"
+  ]
+ },
+ "校长": {
+  "pn": "xiao4 zhang3",
+  "py": "xiào zhǎng",
+  "fr": [
+   "directeur d'école ; proviseur",
+   "président d'université"
+  ]
+ },
+ "市长": {
+  "pn": "shi4 zhang3",
+  "py": "shì zhǎng",
+  "fr": [
+   "maire"
+  ]
+ },
+ "自行车": {
+  "pn": "zi4 xing2 che1",
+  "py": "zì xíng chē",
+  "fr": [
+   "vélo ; bicyclette"
+  ]
+ },
+ "相机": {
+  "pn": "xiang4 ji1",
+  "py": "xiàng jī",
+  "fr": [
+   "appareil photo"
+  ]
+ },
+ "花园": {
+  "pn": "hua1 yuan2",
+  "py": "huā yuán",
+  "fr": [
+   "jardin"
+  ]
+ },
+ "影片": {
+  "pn": "ying3 pian4",
+  "py": "yǐng piàn",
+  "fr": [
+   "film"
+  ]
+ },
+ "温度": {
+  "pn": "wen1 du4",
+  "py": "wēn dù",
+  "fr": [
+   "température"
+  ]
+ },
+ "等于": {
+  "pn": "deng3 yu2",
+  "py": "děng yú",
+  "fr": [
+   "égaler ; être égal à",
+   "revenir à"
+  ]
+ },
+ "周年": {
+  "pn": "zhou1 nian2",
+  "py": "zhōu nián",
+  "fr": [
+   "anniversaire (d'un événement)"
+  ]
+ },
+ "节日": {
+  "pn": "jie2 ri4",
+  "py": "jié rì",
+  "fr": [
+   "fête ; jour férié"
+  ]
+ },
+ "例如": {
+  "pn": "li4 ru2",
+  "py": "lì rú",
+  "fr": [
+   "par exemple"
+  ]
+ },
+ "重视": {
+  "pn": "zhong4 shi4",
+  "py": "zhòng shì",
+  "fr": [
+   "accorder de l'importance à"
+  ]
+ },
+ "洗澡": {
+  "pn": "xi3 zao3",
+  "py": "xǐ zǎo",
+  "fr": [
+   "prendre une douche ; prendre un bain"
+  ]
+ },
+ "今后": {
+  "pn": "jin1 hou4",
+  "py": "jīn hòu",
+  "fr": [
+   "désormais ; à l'avenir"
+  ]
+ },
+ "这时": {
+  "pn": "zhe4 shi2",
+  "py": "zhè shí",
+  "fr": [
+   "à ce moment-là"
+  ]
+ },
+ "大大": {
+  "pn": "da4 da4",
+  "py": "dà dà",
+  "fr": [
+   "grandement ; énormément"
+  ]
+ },
+ "科学家": {
+  "pn": "ke1 xue2 jia1",
+  "py": "kē xué jiā",
+  "fr": [
+   "scientifique ; savant"
+  ]
+ },
+ "姓": {
+  "pn": "xing4",
+  "py": "xìng",
+  "fr": [
+   "nom de famille",
+   "s'appeler (de nom de famille)"
+  ]
+ },
+ "篮球": {
+  "pn": "lan2 qiu2",
+  "py": "lán qiú",
+  "fr": [
+   "basket-ball"
+  ]
+ },
+ "晚餐": {
+  "pn": "wan3 can1",
+  "py": "wǎn cān",
+  "fr": [
+   "dîner"
+  ]
+ },
+ "大门": {
+  "pn": "da4 men2",
+  "py": "dà mén",
+  "fr": [
+   "portail ; porte principale"
+  ]
+ },
+ "晚会": {
+  "pn": "wan3 hui4",
+  "py": "wǎn huì",
+  "fr": [
+   "soirée (spectacle, fête)"
+  ]
+ },
+ "大小": {
+  "pn": "da4 xiao3",
+  "py": "dà xiǎo",
+  "fr": [
+   "taille ; dimension"
+  ]
+ },
+ "不一定": {
+  "pn": "bu4 yi1 ding4",
+  "py": "bù yī dìng",
+  "fr": [
+   "pas forcément ; pas sûr"
+  ]
+ },
+ "少年": {
+  "pn": "shao4 nian2",
+  "py": "shào nián",
+  "fr": [
+   "adolescent ; jeune"
+  ]
+ },
+ "计算机": {
+  "pn": "ji4 suan4 ji1",
+  "py": "jì suàn jī",
+  "fr": [
+   "ordinateur"
+  ]
+ },
+ "难受": {
+  "pn": "nan2 shou4",
+  "py": "nán shòu",
+  "fr": [
+   "se sentir mal ; souffrir",
+   "pénible ; triste"
+  ]
+ },
+ "刻": {
+  "pn": "ke4",
+  "py": "kè",
+  "fr": [
+   "quart d'heure",
+   "moment",
+   "graver"
+  ]
+ },
+ "参观": {
+  "pn": "can1 guan1",
+  "py": "cān guān",
+  "fr": [
+   "visiter"
+  ]
+ },
+ "太太": {
+  "pn": "tai4 tai5",
+  "py": "tài tai",
+  "fr": [
+   "épouse ; femme",
+   "madame"
+  ]
+ },
+ "笔记本": {
+  "pn": "bi3 ji4 ben3",
+  "py": "bǐ jì běn",
+  "fr": [
+   "carnet ; cahier",
+   "ordinateur portable"
+  ]
+ },
+ "对面": {
+  "pn": "dui4 mian4",
+  "py": "duì miàn",
+  "fr": [
+   "en face"
+  ]
+ },
+ "信用卡": {
+  "pn": "xin4 yong4 ka3",
+  "py": "xìn yòng kǎ",
+  "fr": [
+   "carte de crédit"
+  ]
+ },
+ "青少年": {
+  "pn": "qing1 shao4 nian2",
+  "py": "qīng shào nián",
+  "fr": [
+   "adolescent ; jeunes"
+  ]
+ },
+ "特点": {
+  "pn": "te4 dian3",
+  "py": "tè diǎn",
+  "fr": [
+   "caractéristique ; particularité"
+  ]
+ },
+ "阴": {
+  "pn": "yin1",
+  "py": "yīn",
+  "fr": [
+   "couvert ; nuageux",
+   "ombre",
+   "yin"
+  ]
+ },
+ "笑话": {
+  "pn": "xiao4 hua5",
+  "py": "xiào hua",
+  "fr": [
+   "blague",
+   "se moquer de"
+  ]
+ },
+ "凉": {
+  "pn": "liang2",
+  "py": "liáng",
+  "fr": [
+   "frais ; froid"
+  ]
+ },
+ "平常": {
+  "pn": "ping2 chang2",
+  "py": "píng cháng",
+  "fr": [
+   "d'habitude",
+   "ordinaire"
+  ]
+ },
+ "不但": {
+  "pn": "bu4 dan4",
+  "py": "bù dàn",
+  "fr": [
+   "non seulement"
+  ]
+ },
+ "半夜": {
+  "pn": "ban4 ye4",
+  "py": "bàn yè",
+  "fr": [
+   "minuit ; en pleine nuit"
+  ]
+ },
+ "商量": {
+  "pn": "shang1 liang5",
+  "py": "shāng liang",
+  "fr": [
+   "discuter ; se concerter"
+  ]
+ },
+ "黄色": {
+  "pn": "huang2 se4",
+  "py": "huáng sè",
+  "fr": [
+   "jaune",
+   "pornographique"
+  ]
+ },
+ "姓名": {
+  "pn": "xing4 ming2",
+  "py": "xìng míng",
+  "fr": [
+   "nom et prénom"
+  ]
+ },
+ "午餐": {
+  "pn": "wu3 can1",
+  "py": "wǔ cān",
+  "fr": [
+   "déjeuner"
+  ]
+ },
+ "排队": {
+  "pn": "pai2 dui4",
+  "py": "pái duì",
+  "fr": [
+   "faire la queue"
+  ]
+ },
+ "校园": {
+  "pn": "xiao4 yuan2",
+  "py": "xiào yuán",
+  "fr": [
+   "campus"
+  ]
+ },
+ "等到": {
+  "pn": "deng3 dao4",
+  "py": "děng dào",
+  "fr": [
+   "quand ; une fois que",
+   "attendre jusqu'à"
+  ]
+ },
+ "一部分": {
+  "pn": "yi1 bu4 fen5",
+  "py": "yī bù fen",
+  "fr": [
+   "une partie"
+  ]
+ },
+ "爱人": {
+  "pn": "ai4 ren5",
+  "py": "ài ren",
+  "fr": [
+   "époux ; épouse (Chine)",
+   "amoureux"
+  ]
+ },
+ "多数": {
+  "pn": "duo1 shu4",
+  "py": "duō shù",
+  "fr": [
+   "la plupart ; majorité"
+  ]
+ },
+ "西方": {
+  "pn": "Xi1 fang1",
+  "py": "Xī fāng",
+  "fr": [
+   "l'Occident",
+   "occidental",
+   "ouest"
+  ]
+ },
+ "春天": {
+  "pn": "chun1 tian1",
+  "py": "chūn tiān",
+  "fr": [
+   "printemps"
+  ]
+ },
+ "超市": {
+  "pn": "chao1 shi4",
+  "py": "chāo shì",
+  "fr": [
+   "supermarché"
+  ]
+ },
+ "球场": {
+  "pn": "qiu2 chang3",
+  "py": "qiú chǎng",
+  "fr": [
+   "terrain de sport"
+  ]
+ },
+ "住院": {
+  "pn": "zhu4 yuan4",
+  "py": "zhù yuàn",
+  "fr": [
+   "être hospitalisé"
+  ]
+ },
+ "教学": {
+  "pn": "jiao4 xue2",
+  "py": "jiào xué",
+  "fr": [
+   "enseignement"
+  ]
+ },
+ "座位": {
+  "pn": "zuo4 wei4",
+  "py": "zuò wèi",
+  "fr": [
+   "place assise ; siège"
+  ]
+ },
+ "忽然": {
+  "pn": "hu1 ran2",
+  "py": "hū rán",
+  "fr": [
+   "soudain ; tout à coup"
+  ]
+ },
+ "假期": {
+  "pn": "jia4 qi1",
+  "py": "jià qī",
+  "fr": [
+   "vacances ; congé"
+  ]
+ },
+ "游客": {
+  "pn": "you2 ke4",
+  "py": "yóu kè",
+  "fr": [
+   "touriste ; visiteur"
+  ]
+ },
+ "报名": {
+  "pn": "bao4 ming2",
+  "py": "bào míng",
+  "fr": [
+   "s'inscrire"
+  ]
+ },
+ "拿到": {
+  "pn": "na2 dao4",
+  "py": "ná dào",
+  "fr": [
+   "obtenir ; récupérer"
+  ]
+ },
+ "脏": {
+  "pn": "zang1",
+  "py": "zāng",
+  "fr": [
+   "sale",
+   "(zàng) organe"
+  ]
+ },
+ "全家": {
+  "pn": "quan2 jia1",
+  "py": "quán jiā",
+  "fr": [
+   "toute la famille"
+  ]
+ },
+ "从小": {
+  "pn": "cong2 xiao3",
+  "py": "cóng xiǎo",
+  "fr": [
+   "depuis l'enfance"
+  ]
+ },
+ "饱": {
+  "pn": "bao3",
+  "py": "bǎo",
+  "fr": [
+   "rassasié ; avoir assez mangé"
+  ]
+ },
+ "一共": {
+  "pn": "yi1 gong4",
+  "py": "yī gòng",
+  "fr": [
+   "en tout ; au total"
+  ]
+ },
+ "月亮": {
+  "pn": "yue4 liang5",
+  "py": "yuè liang",
+  "fr": [
+   "lune"
+  ]
+ },
+ "公斤": {
+  "pn": "gong1 jin1",
+  "py": "gōng jīn",
+  "fr": [
+   "kilogramme"
+  ]
+ },
+ "北方": {
+  "pn": "bei3 fang1",
+  "py": "běi fāng",
+  "fr": [
+   "le Nord",
+   "septentrional"
+  ]
+ },
+ "平等": {
+  "pn": "ping2 deng3",
+  "py": "píng děng",
+  "fr": [
+   "égalité",
+   "égal"
+  ]
+ },
+ "打工": {
+  "pn": "da3 gong1",
+  "py": "dǎ gōng",
+  "fr": [
+   "faire un petit boulot ; travailler"
+  ]
+ },
+ "星星": {
+  "pn": "xing1 xing5",
+  "py": "xīng xing",
+  "fr": [
+   "étoile"
+  ]
+ },
+ "多云": {
+  "pn": "duo1 yun2",
+  "py": "duō yún",
+  "fr": [
+   "nuageux"
+  ]
+ },
+ "不满": {
+  "pn": "bu4 man3",
+  "py": "bù mǎn",
+  "fr": [
+   "mécontent",
+   "mécontentement"
+  ]
+ },
+ "例子": {
+  "pn": "li4 zi5",
+  "py": "lì zi",
+  "fr": [
+   "exemple"
+  ]
+ },
+ "教室": {
+  "pn": "jiao4 shi4",
+  "py": "jiào shì",
+  "fr": [
+   "salle de classe"
+  ]
+ },
+ "快要": {
+  "pn": "kuai4 yao4",
+  "py": "kuài yào",
+  "fr": [
+   "être sur le point de ; bientôt"
+  ]
+ },
+ "东方": {
+  "pn": "dong1 fang1",
+  "py": "dōng fāng",
+  "fr": [
+   "l'Orient",
+   "oriental",
+   "est"
+  ]
+ },
+ "常见": {
+  "pn": "chang2 jian4",
+  "py": "cháng jiàn",
+  "fr": [
+   "courant ; fréquent"
+  ]
+ },
+ "商人": {
+  "pn": "shang1 ren2",
+  "py": "shāng rén",
+  "fr": [
+   "commerçant ; homme d'affaires"
+  ]
+ },
+ "少数": {
+  "pn": "shao3 shu4",
+  "py": "shǎo shù",
+  "fr": [
+   "minorité",
+   "petit nombre"
+  ]
+ },
+ "走过": {
+  "pn": "zou3 guo4",
+  "py": "zǒu guò",
+  "fr": [
+   "passer (devant, par)"
+  ]
+ },
+ "得出": {
+  "pn": "de2 chu1",
+  "py": "dé chū",
+  "fr": [
+   "arriver à (une conclusion) ; obtenir"
+  ]
+ },
+ "起飞": {
+  "pn": "qi3 fei1",
+  "py": "qǐ fēi",
+  "fr": [
+   "décoller (avion)"
+  ]
+ },
+ "网球": {
+  "pn": "wang3 qiu2",
+  "py": "wǎng qiú",
+  "fr": [
+   "tennis"
+  ]
+ },
+ "停车场": {
+  "pn": "ting2 che1 chang3",
+  "py": "tíng chē chǎng",
+  "fr": [
+   "parking"
+  ]
+ },
+ "大海": {
+  "pn": "da4 hai3",
+  "py": "dà hǎi",
+  "fr": [
+   "mer ; océan"
+  ]
+ },
+ "做饭": {
+  "pn": "zuo4 fan4",
+  "py": "zuò fàn",
+  "fr": [
+   "faire la cuisine"
+  ]
+ },
+ "出租": {
+  "pn": "chu1 zu1",
+  "py": "chū zū",
+  "fr": [
+   "louer (à qqn) ; mettre en location"
+  ]
+ },
+ "这时候": {
+  "pn": "zhe4 shi2 hou5",
+  "py": "zhè shí hou",
+  "fr": [
+   "à ce moment-là"
+  ]
+ },
+ "老是": {
+  "pn": "lao3 shi5",
+  "py": "lǎo shi",
+  "fr": [
+   "toujours ; sans arrêt"
+  ]
+ },
+ "月份": {
+  "pn": "yue4 fen4",
+  "py": "yuè fèn",
+  "fr": [
+   "mois"
+  ]
+ },
+ "坏人": {
+  "pn": "huai4 ren2",
+  "py": "huài rén",
+  "fr": [
+   "méchant ; malfaiteur"
+  ]
+ },
+ "天上": {
+  "pn": "tian1 shang4",
+  "py": "tiān shàng",
+  "fr": [
+   "dans le ciel"
+  ]
+ },
+ "旅客": {
+  "pn": "lü3 ke4",
+  "py": "lǚ kè",
+  "fr": [
+   "voyageur ; passager"
+  ]
+ },
+ "大衣": {
+  "pn": "da4 yi1",
+  "py": "dà yī",
+  "fr": [
+   "manteau"
+  ]
+ },
+ "学期": {
+  "pn": "xue2 qi1",
+  "py": "xué qī",
+  "fr": [
+   "semestre ; trimestre (scolaire)"
+  ]
+ },
+ "路边": {
+  "pn": "lu4 bian1",
+  "py": "lù biān",
+  "fr": [
+   "bord de la route"
+  ]
+ },
+ "难题": {
+  "pn": "nan2 ti2",
+  "py": "nán tí",
+  "fr": [
+   "problème difficile"
+  ]
+ },
+ "入口": {
+  "pn": "ru4 kou3",
+  "py": "rù kǒu",
+  "fr": [
+   "entrée"
+  ]
+ },
+ "实习": {
+  "pn": "shi2 xi2",
+  "py": "shí xí",
+  "fr": [
+   "faire un stage",
+   "stage"
+  ]
+ },
+ "点头": {
+  "pn": "dian3 tou2",
+  "py": "diǎn tóu",
+  "fr": [
+   "hocher la tête ; acquiescer"
+  ]
+ },
+ "手表": {
+  "pn": "shou3 biao3",
+  "py": "shǒu biǎo",
+  "fr": [
+   "montre (bracelet)"
+  ]
+ },
+ "院长": {
+  "pn": "yuan4 zhang3",
+  "py": "yuàn zhǎng",
+  "fr": [
+   "directeur (hôpital, institut) ; doyen"
+  ]
+ },
+ "东北": {
+  "pn": "dong1 bei3",
+  "py": "dōng běi",
+  "fr": [
+   "nord-est",
+   "Nord-Est de la Chine"
+  ]
+ },
+ "夜里": {
+  "pn": "ye4 li5",
+  "py": "yè li",
+  "fr": [
+   "la nuit ; pendant la nuit"
+  ]
+ },
+ "音乐会": {
+  "pn": "yin1 yue4 hui4",
+  "py": "yīn yuè huì",
+  "fr": [
+   "concert"
+  ]
+ },
+ "中年": {
+  "pn": "zhong1 nian2",
+  "py": "zhōng nián",
+  "fr": [
+   "âge mûr ; d'âge moyen"
+  ]
+ },
+ "院子": {
+  "pn": "yuan4 zi5",
+  "py": "yuàn zi",
+  "fr": [
+   "cour ; jardin"
+  ]
+ },
+ "找出": {
+  "pn": "zhao3 chu1",
+  "py": "zhǎo chū",
+  "fr": [
+   "trouver ; dénicher"
+  ]
+ },
+ "名称": {
+  "pn": "ming2 cheng1",
+  "py": "míng chēng",
+  "fr": [
+   "nom (d'une chose) ; appellation"
+  ]
+ },
+ "分数": {
+  "pn": "fen1 shu4",
+  "py": "fēn shù",
+  "fr": [
+   "note ; score",
+   "fraction (maths)"
+  ]
+ },
+ "瓶子": {
+  "pn": "ping2 zi5",
+  "py": "píng zi",
+  "fr": [
+   "bouteille"
+  ]
+ },
+ "举手": {
+  "pn": "ju3 shou3",
+  "py": "jǔ shǒu",
+  "fr": [
+   "lever la main"
+  ]
+ },
+ "复习": {
+  "pn": "fu4 xi2",
+  "py": "fù xí",
+  "fr": [
+   "réviser",
+   "révision"
+  ]
+ },
+ "课堂": {
+  "pn": "ke4 tang2",
+  "py": "kè táng",
+  "fr": [
+   "salle de classe ; en classe"
+  ]
+ },
+ "出国": {
+  "pn": "chu1 guo2",
+  "py": "chū guó",
+  "fr": [
+   "aller à l'étranger"
+  ]
+ },
+ "秋天": {
+  "pn": "qiu1 tian1",
+  "py": "qiū tiān",
+  "fr": [
+   "automne"
+  ]
+ },
+ "护照": {
+  "pn": "hu4 zhao4",
+  "py": "hù zhào",
+  "fr": [
+   "passeport"
+  ]
+ },
+ "下雪": {
+  "pn": "xia4 xue3",
+  "py": "xià xuě",
+  "fr": [
+   "neiger"
+  ]
+ },
+ "英文": {
+  "pn": "Ying1 wen2",
+  "py": "Yīng wén",
+  "fr": [
+   "anglais (langue)"
+  ]
+ },
+ "气温": {
+  "pn": "qi4 wen1",
+  "py": "qì wēn",
+  "fr": [
+   "température (de l'air)"
+  ]
+ },
+ "画家": {
+  "pn": "hua4 jia1",
+  "py": "huà jiā",
+  "fr": [
+   "peintre"
+  ]
+ },
+ "骑车": {
+  "pn": "qi2 che1",
+  "py": "qí chē",
+  "fr": [
+   "faire du vélo"
+  ]
+ },
+ "西南": {
+  "pn": "xi1 nan2",
+  "py": "xī nán",
+  "fr": [
+   "sud-ouest"
+  ]
+ },
+ "西北": {
+  "pn": "xi1 bei3",
+  "py": "xī běi",
+  "fr": [
+   "nord-ouest"
+  ]
+ },
+ "海边": {
+  "pn": "hai3 bian1",
+  "py": "hǎi biān",
+  "fr": [
+   "bord de mer"
+  ]
+ },
+ "住房": {
+  "pn": "zhu4 fang2",
+  "py": "zhù fáng",
+  "fr": [
+   "logement"
+  ]
+ },
+ "出院": {
+  "pn": "chu1 yuan4",
+  "py": "chū yuàn",
+  "fr": [
+   "sortir de l'hôpital"
+  ]
+ },
+ "体育馆": {
+  "pn": "ti3 yu4 guan3",
+  "py": "tǐ yù guǎn",
+  "fr": [
+   "gymnase ; salle de sport"
+  ]
+ },
+ "老朋友": {
+  "pn": "lao3 peng2 you5",
+  "py": "lǎo péng you",
+  "fr": [
+   "vieil ami"
+  ]
+ },
+ "菜单": {
+  "pn": "cai4 dan1",
+  "py": "cài dān",
+  "fr": [
+   "menu ; carte"
+  ]
+ },
+ "年级": {
+  "pn": "nian2 ji2",
+  "py": "nián jí",
+  "fr": [
+   "année (scolaire) ; classe"
+  ]
+ },
+ "走开": {
+  "pn": "zou3 kai1",
+  "py": "zǒu kāi",
+  "fr": [
+   "s'en aller",
+   "va-t'en !"
+  ]
+ },
+ "笔记": {
+  "pn": "bi3 ji4",
+  "py": "bǐ jì",
+  "fr": [
+   "notes",
+   "prendre des notes"
+  ]
+ },
+ "外地": {
+  "pn": "wai4 di4",
+  "py": "wài dì",
+  "fr": [
+   "autre région (que la sienne)"
+  ]
+ },
+ "休假": {
+  "pn": "xiu1 jia4",
+  "py": "xiū jià",
+  "fr": [
+   "prendre des congés"
+  ]
+ },
+ "小声": {
+  "pn": "xiao3 sheng1",
+  "py": "xiǎo shēng",
+  "fr": [
+   "à voix basse"
+  ]
+ },
+ "大自然": {
+  "pn": "da4 zi4 ran2",
+  "py": "dà zì rán",
+  "fr": [
+   "nature"
+  ]
+ },
+ "送到": {
+  "pn": "song4 dao4",
+  "py": "sòng dào",
+  "fr": [
+   "livrer à ; apporter jusqu'à"
+  ]
+ },
+ "打印": {
+  "pn": "da3 yin4",
+  "py": "dǎ yìn",
+  "fr": [
+   "imprimer"
+  ]
+ },
+ "斤": {
+  "pn": "jin1",
+  "py": "jīn",
+  "fr": [
+   "livre chinoise (500 g)"
+  ]
+ },
+ "老年": {
+  "pn": "lao3 nian2",
+  "py": "lǎo nián",
+  "fr": [
+   "vieillesse",
+   "âgé"
+  ]
+ },
+ "照相": {
+  "pn": "zhao4 xiang4",
+  "py": "zhào xiàng",
+  "fr": [
+   "prendre une photo"
+  ]
+ },
+ "动物园": {
+  "pn": "dong4 wu4 yuan2",
+  "py": "dòng wù yuán",
+  "fr": [
+   "zoo"
+  ]
+ },
+ "草地": {
+  "pn": "cao3 di4",
+  "py": "cǎo dì",
+  "fr": [
+   "pelouse ; prairie"
+  ]
+ },
+ "药店": {
+  "pn": "yao4 dian4",
+  "py": "yào diàn",
+  "fr": [
+   "pharmacie"
+  ]
+ },
+ "回国": {
+  "pn": "hui2 guo2",
+  "py": "huí guó",
+  "fr": [
+   "rentrer dans son pays"
+  ]
+ },
+ "关机": {
+  "pn": "guan1 ji1",
+  "py": "guān jī",
+  "fr": [
+   "éteindre (appareil)"
+  ]
+ },
+ "晴": {
+  "pn": "qing2",
+  "py": "qíng",
+  "fr": [
+   "ensoleillé ; beau (temps)"
+  ]
+ },
+ "班长": {
+  "pn": "ban1 zhang3",
+  "py": "bān zhǎng",
+  "fr": [
+   "chef de classe ; délégué"
+  ]
+ },
+ "常用": {
+  "pn": "chang2 yong4",
+  "py": "cháng yòng",
+  "fr": [
+   "courant ; d'usage fréquent"
+  ]
+ },
+ "里头": {
+  "pn": "li3 tou5",
+  "py": "lǐ tou",
+  "fr": [
+   "dedans ; à l'intérieur"
+  ]
+ },
+ "请客": {
+  "pn": "qing3 ke4",
+  "py": "qǐng kè",
+  "fr": [
+   "inviter (payer pour les autres)"
+  ]
+ },
+ "日报": {
+  "pn": "ri4 bao4",
+  "py": "rì bào",
+  "fr": [
+   "quotidien (journal)"
+  ]
+ },
+ "行人": {
+  "pn": "xing2 ren2",
+  "py": "xíng rén",
+  "fr": [
+   "piéton ; passant"
+  ]
+ },
+ "开学": {
+  "pn": "kai1 xue2",
+  "py": "kāi xué",
+  "fr": [
+   "rentrée (scolaire)"
+  ]
+ },
+ "走进": {
+  "pn": "zou3 jin4",
+  "py": "zǒu jìn",
+  "fr": [
+   "entrer (dans)"
+  ]
+ },
+ "洗衣机": {
+  "pn": "xi3 yi1 ji1",
+  "py": "xǐ yī jī",
+  "fr": [
+   "machine à laver"
+  ]
+ },
+ "词语": {
+  "pn": "ci2 yu3",
+  "py": "cí yǔ",
+  "fr": [
+   "mot ; expression"
+  ]
+ },
+ "句子": {
+  "pn": "ju4 zi5",
+  "py": "jù zi",
+  "fr": [
+   "phrase"
+  ]
+ },
+ "筷子": {
+  "pn": "kuai4 zi5",
+  "py": "kuài zi",
+  "fr": [
+   "baguettes"
+  ]
+ },
+ "体育场": {
+  "pn": "ti3 yu4 chang3",
+  "py": "tǐ yù chǎng",
+  "fr": [
+   "stade"
+  ]
+ },
+ "组长": {
+  "pn": "zu3 zhang3",
+  "py": "zǔ zhǎng",
+  "fr": [
+   "chef de groupe"
+  ]
+ },
+ "作文": {
+  "pn": "zuo4 wen2",
+  "py": "zuò wén",
+  "fr": [
+   "rédaction ; dissertation"
+  ]
+ },
+ "东南": {
+  "pn": "dong1 nan2",
+  "py": "dōng nán",
+  "fr": [
+   "sud-est"
+  ]
+ },
+ "个子": {
+  "pn": "ge4 zi5",
+  "py": "gè zi",
+  "fr": [
+   "taille (d'une personne)"
+  ]
+ },
+ "难看": {
+  "pn": "nan2 kan4",
+  "py": "nán kàn",
+  "fr": [
+   "laid ; moche"
+  ]
+ },
+ "有点儿": {
+  "pn": "you3 dian3 r5",
+  "py": "yǒu diǎn r",
+  "fr": [
+   "un peu (souvent négatif)"
+  ]
+ },
+ "地铁站": {
+  "pn": "di4 tie3 zhan4",
+  "py": "dì tiě zhàn",
+  "fr": [
+   "station de métro"
+  ]
+ },
+ "快餐": {
+  "pn": "kuai4 can1",
+  "py": "kuài cān",
+  "fr": [
+   "restauration rapide ; fast-food"
+  ]
+ },
+ "站住": {
+  "pn": "zhan4 zhu4",
+  "py": "zhàn zhù",
+  "fr": [
+   "halte ! ; s'arrêter"
+  ]
+ },
+ "饺子": {
+  "pn": "jiao3 zi5",
+  "py": "jiǎo zi",
+  "fr": [
+   "raviolis chinois (jiaozi)"
+  ]
+ },
+ "开机": {
+  "pn": "kai1 ji1",
+  "py": "kāi jī",
+  "fr": [
+   "allumer (un appareil)"
+  ]
+ },
+ "公共汽车": {
+  "pn": "gong1 gong4 qi4 che1",
+  "py": "gōng gòng qì chē",
+  "fr": [
+   "bus ; autobus"
+  ]
+ },
+ "碰见": {
+  "pn": "peng4 jian4",
+  "py": "pèng jiàn",
+  "fr": [
+   "tomber sur ; rencontrer par hasard"
+  ]
+ },
+ "字典": {
+  "pn": "zi4 dian3",
+  "py": "zì diǎn",
+  "fr": [
+   "dictionnaire (de caractères)"
+  ]
+ },
+ "排球": {
+  "pn": "pai2 qiu2",
+  "py": "pái qiú",
+  "fr": [
+   "volley-ball"
+  ]
+ },
+ "干杯": {
+  "pn": "gan1 bei1",
+  "py": "gān bēi",
+  "fr": [
+   "santé ! ; trinquer",
+   "boire cul sec"
+  ]
+ },
+ "过年": {
+  "pn": "guo4 nian2",
+  "py": "guò nián",
+  "fr": [
+   "fêter le Nouvel An (chinois)"
+  ]
+ },
+ "零下": {
+  "pn": "ling2 xia4",
+  "py": "líng xià",
+  "fr": [
+   "au-dessous de zéro"
+  ]
+ },
+ "拿出": {
+  "pn": "na2 chu1",
+  "py": "ná chū",
+  "fr": [
+   "sortir (un objet)",
+   "fournir"
+  ]
+ },
+ "中餐": {
+  "pn": "zhong1 can1",
+  "py": "zhōng cān",
+  "fr": [
+   "cuisine chinoise",
+   "repas chinois"
+  ]
+ },
+ "晴天": {
+  "pn": "qing2 tian1",
+  "py": "qíng tiān",
+  "fr": [
+   "beau temps ; journée ensoleillée"
+  ]
+ },
+ "普通话": {
+  "pn": "pu3 tong1 hua4",
+  "py": "pǔ tōng huà",
+  "fr": [
+   "mandarin (chinois standard)"
+  ]
+ },
+ "全年": {
+  "pn": "quan2 nian2",
+  "py": "quán nián",
+  "fr": [
+   "toute l'année"
+  ]
+ },
+ "爬山": {
+  "pn": "pa2 shan1",
+  "py": "pá shān",
+  "fr": [
+   "faire de la randonnée en montagne",
+   "escalader une montagne"
+  ]
+ },
+ "那会儿": {
+  "pn": "na4 hui4 r5",
+  "py": "nà huì r",
+  "fr": [
+   "à ce moment-là ; à l'époque"
+  ]
+ },
+ "黑板": {
+  "pn": "hei1 ban3",
+  "py": "hēi bǎn",
+  "fr": [
+   "tableau (noir)"
+  ]
+ },
+ "外卖": {
+  "pn": "wai4 mai4",
+  "py": "wài mài",
+  "fr": [
+   "plat à emporter ; livraison de repas"
+  ]
+ },
+ "方便面": {
+  "pn": "fang1 bian4 mian4",
+  "py": "fāng biàn miàn",
+  "fr": [
+   "nouilles instantanées"
+  ]
+ },
+ "球鞋": {
+  "pn": "qiu2 xie2",
+  "py": "qiú xié",
+  "fr": [
+   "baskets ; chaussures de sport"
+  ]
+ },
+ "流利": {
+  "pn": "liu2 li4",
+  "py": "liú lì",
+  "fr": [
+   "couramment ; avec aisance"
+  ]
+ },
+ "交朋友": {
+  "pn": "jiao1 peng2 you5",
+  "py": "jiāo péng you",
+  "fr": [
+   "se faire des amis"
+  ]
+ },
+ "一路顺风": {
+  "pn": "yi1 lu4 shun4 feng1",
+  "py": "yī lù shùn fēng",
+  "fr": [
+   "bon voyage !"
+  ]
+ },
+ "晚报": {
+  "pn": "wan3 bao4",
+  "py": "wǎn bào",
+  "fr": [
+   "journal du soir"
+  ]
+ },
+ "难听": {
+  "pn": "nan2 ting1",
+  "py": "nán tīng",
+  "fr": [
+   "désagréable à entendre",
+   "grossier"
+  ]
+ },
+ "药水": {
+  "pn": "yao4 shui3",
+  "py": "yào shuǐ",
+  "fr": [
+   "médicament liquide ; sirop"
+  ]
+ },
+ "中医": {
+  "pn": "Zhong1 yi1",
+  "py": "Zhōng yī",
+  "fr": [
+   "médecine chinoise",
+   "médecin de médecine chinoise"
+  ]
+ },
+ "坏处": {
+  "pn": "huai4 chu5",
+  "py": "huài chu",
+  "fr": [
+   "inconvénient ; désavantage"
+  ]
+ },
+ "前年": {
+  "pn": "qian2 nian2",
+  "py": "qián nián",
+  "fr": [
+   "il y a deux ans"
+  ]
+ },
+ "词典": {
+  "pn": "ci2 dian3",
+  "py": "cí diǎn",
+  "fr": [
+   "dictionnaire"
+  ]
+ },
+ "千克": {
+  "pn": "qian1 ke4",
+  "py": "qiān kè",
+  "fr": [
+   "kilogramme"
+  ]
+ },
+ "问路": {
+  "pn": "wen4 lu4",
+  "py": "wèn lù",
+  "fr": [
+   "demander son chemin"
+  ]
+ },
+ "叫作": {
+  "pn": "jiao4 zuo4",
+  "py": "jiào zuò",
+  "fr": [
+   "s'appeler ; être appelé"
+  ]
+ },
+ "凉快": {
+  "pn": "liang2 kuai5",
+  "py": "liáng kuai",
+  "fr": [
+   "frais (agréable)"
+  ]
+ },
+ "午睡": {
+  "pn": "wu3 shui4",
+  "py": "wǔ shuì",
+  "fr": [
+   "sieste",
+   "faire la sieste"
+  ]
+ },
+ "药片": {
+  "pn": "yao4 pian4",
+  "py": "yào piàn",
+  "fr": [
+   "comprimé ; cachet"
+  ]
+ },
+ "音节": {
+  "pn": "yin1 jie2",
+  "py": "yīn jié",
+  "fr": [
+   "syllabe"
+  ]
+ },
+ "中级": {
+  "pn": "zhong1 ji2",
+  "py": "zhōng jí",
+  "fr": [
+   "niveau intermédiaire ; moyen"
+  ]
+ },
+ "一点点": {
+  "pn": "yi1 dian3 dian3",
+  "py": "yī diǎn diǎn",
+  "fr": [
+   "un tout petit peu"
+  ]
+ },
+ "春节": {
+  "pn": "Chun1 jie2",
+  "py": "Chūn jié",
+  "fr": [
+   "Fête du Printemps (Nouvel An chinois)"
+  ]
+ },
+ "留学生": {
+  "pn": "liu2 xue2 sheng1",
+  "py": "liú xué shēng",
+  "fr": [
+   "étudiant étranger"
+  ]
+ },
+ "阴天": {
+  "pn": "yin1 tian1",
+  "py": "yīn tiān",
+  "fr": [
+   "temps couvert"
+  ]
+ },
+ "西医": {
+  "pn": "xi1 yi1",
+  "py": "xī yī",
+  "fr": [
+   "médecine occidentale",
+   "médecin (occidental)"
+  ]
+ },
+ "听讲": {
+  "pn": "ting1 jiang3",
+  "py": "tīng jiǎng",
+  "fr": [
+   "écouter un cours ; suivre une conférence"
+  ]
+ },
+ "考生": {
+  "pn": "kao3 sheng1",
+  "py": "kǎo shēng",
+  "fr": [
+   "candidat (à un examen)"
+  ]
+ },
+ "读音": {
+  "pn": "du2 yin1",
+  "py": "dú yīn",
+  "fr": [
+   "prononciation"
+  ]
+ },
+ "中小学": {
+  "pn": "zhong1 xiao3 xue2",
+  "py": "zhōng xiǎo xué",
+  "fr": [
+   "écoles primaires et secondaires"
+  ]
+ },
+ "西餐": {
+  "pn": "xi1 can1",
+  "py": "xī cān",
+  "fr": [
+   "cuisine occidentale"
+  ]
+ },
+ "一路平安": {
+  "pn": "yi1 lu4 ping2 an1",
+  "py": "yī lù píng ān",
+  "fr": [
+   "bon voyage ! ; fais bonne route"
+  ]
+ },
+ "不一会儿": {
+  "pn": "bu4 yi1 hui4 r5",
+  "py": "bù yī huì r",
+  "fr": [
+   "peu après ; bientôt"
+  ]
+ },
+ "干活儿": {
+  "pn": "gan4 huo2 r5",
+  "py": "gàn huó r",
+  "fr": [
+   "travailler (manuellement)"
+  ]
+ },
+ "不太": {
+  "pn": "bu4 tai4",
+  "py": "bù tài",
+  "fr": [
+   "pas très ; pas trop"
+  ]
+ },
+ "生词": {
+  "pn": "sheng1 ci2",
+  "py": "shēng cí",
+  "fr": [
+   "mot nouveau ; vocabulaire"
+  ]
+ },
+ "画儿": {
+  "pn": "hua4 r5",
+  "py": "huà r",
+  "fr": [
+   "dessin ; tableau ; image"
+  ]
+ },
+ "短信": {
+  "pn": "duan3 xin4",
+  "py": "duǎn xìn",
+  "fr": [
+   "SMS ; texto"
+  ]
+ },
+ "公交车": {
+  "pn": "gong1 jiao1 che1",
+  "py": "gōng jiāo chē",
+  "fr": [
+   "bus"
+  ]
+ },
+ "见过": {
+  "pn": "jian4 guo5",
+  "py": "jiàn guo",
+  "fr": [
+   "avoir déjà vu ; avoir rencontré"
+  ]
+ },
+ "快点儿": {
+  "pn": "kuai4 dian3 r5",
+  "py": "kuài diǎn r",
+  "fr": [
+   "vite ! ; dépêche-toi !"
+  ]
+ },
+ "那时候": {
+  "pn": "na4 shi2 hou5",
+  "py": "nà shí hou",
+  "fr": [
+   "à ce moment-là ; à l'époque"
+  ]
+ },
+ "挺好": {
+  "pn": "ting3 hao3",
+  "py": "tǐng hǎo",
+  "fr": [
+   "très bien ; pas mal du tout"
+  ]
+ },
+ "下周": {
+  "pn": "xia4 zhou1",
+  "py": "xià zhōu",
+  "fr": [
+   "la semaine prochaine"
+  ]
+ },
+ "笑话儿": {
+  "pn": "xiao4 hua5 r5",
+  "py": "xiào hua r",
+  "fr": [
+   "blague ; histoire drôle"
+  ]
+ },
+ "银行卡": {
+  "pn": "yin2 hang2 ka3",
+  "py": "yín háng kǎ",
+  "fr": [
+   "carte bancaire"
+  ]
+ },
+ "有空儿": {
+  "pn": "you3 kong4 r5",
+  "py": "yǒu kòng r",
+  "fr": [
+   "être libre ; avoir du temps"
+  ]
+ },
+ "有一点儿": {
+  "pn": "you3 yi1 dian3 r5",
+  "py": "yǒu yī diǎn r",
+  "fr": [
+   "un peu (souvent négatif)"
+  ]
+ },
+ "开始": {
+  "pn": "kai1 shi3",
+  "py": "kāi shǐ",
+  "fr": [
+   "commencer",
+   "début"
+  ]
+ },
+ "希望": {
+  "pn": "xi1 wang4",
+  "py": "xī wàng",
+  "fr": [
+   "espérer",
+   "espoir"
+  ]
+ },
+ "第一": {
+  "pn": "di4 yi1",
+  "py": "dì yī",
+  "fr": [
+   "premier",
+   "d'abord"
+  ]
+ },
+ "张": {
+  "pn": "zhang1",
+  "py": "zhāng",
+  "fr": [
+   "(classificateur des objets plats)",
+   "ouvrir ; étendre"
+  ]
+ },
+ "每": {
+  "pn": "mei3",
+  "py": "měi",
+  "fr": [
+   "chaque",
+   "tous les"
+  ]
+ },
+ "玩": {
+  "pn": "wan2",
+  "py": "wán",
+  "fr": [
+   "jouer ; s'amuser"
+  ]
+ },
+ "妻子": {
+  "pn": "qi1 zi5",
+  "py": "qī zi",
+  "fr": [
+   "épouse ; femme"
+  ]
+ },
+ "丈夫": {
+  "pn": "zhang4 fu5",
+  "py": "zhàng fu",
+  "fr": [
+   "mari"
+  ]
+ },
+ "咖啡": {
+  "pn": "ka1 fei1",
+  "py": "kā fēi",
+  "fr": [
+   "café"
+  ]
+ },
+ "踢": {
+  "pn": "ti1",
+  "py": "tī",
+  "fr": [
+   "donner un coup de pied",
+   "jouer (au football)"
+  ]
+ },
+ "游泳": {
+  "pn": "you2 yong3",
+  "py": "yóu yǒng",
+  "fr": [
+   "nager",
+   "natation"
+  ]
+ },
+ "跳舞": {
+  "pn": "tiao4 wu3",
+  "py": "tiào wǔ",
+  "fr": [
+   "danser"
+  ]
+ },
+ "服务员": {
+  "pn": "fu2 wu4 yuan2",
+  "py": "fú wù yuán",
+  "fr": [
+   "serveur ; serveuse",
+   "employé"
+  ]
+ },
+ "跑步": {
+  "pn": "pao3 bu4",
+  "py": "pǎo bù",
+  "fr": [
+   "courir ; faire du jogging"
+  ]
+ },
+ "西瓜": {
+  "pn": "xi1 gua1",
+  "py": "xī guā",
+  "fr": [
+   "pastèque"
+  ]
+ },
+ "羊肉": {
+  "pn": "yang2 rou4",
+  "py": "yáng ròu",
+  "fr": [
+   "viande de mouton ; agneau"
+  ]
+ },
+ "打篮球": {
+  "pn": "da3 lan2 qiu2",
+  "py": "dǎ lán qiú",
+  "fr": [
+   "jouer au basket"
+  ]
+ },
+ "把": {
+  "pn": "ba3",
+  "py": "bǎ",
+  "fr": [
+   "(introduit l'objet devant le verbe)",
+   "(classif. : objets à poignée)",
+   "tenir ; saisir"
+  ]
+ },
+ "被": {
+  "pn": "bei4",
+  "py": "bèi",
+  "fr": [
+   "(marque du passif) par",
+   "couverture ; couette"
+  ]
+ },
+ "就是": {
+  "pn": "jiu4 shi4",
+  "py": "jiù shì",
+  "fr": [
+   "c'est justement ; exactement",
+   "seulement",
+   "même si (就是…也…)"
+  ]
+ },
+ "时": {
+  "pn": "shi2",
+  "py": "shí",
+  "fr": [
+   "moment ; quand (…时)",
+   "heure",
+   "époque"
+  ]
+ },
+ "需要": {
+  "pn": "xu1 yao4",
+  "py": "xū yào",
+  "fr": [
+   "avoir besoin de ; nécessiter",
+   "besoin"
+  ]
+ },
+ "并": {
+  "pn": "bing4",
+  "py": "bìng",
+  "fr": [
+   "et ; de plus",
+   "(并不…) pas du tout"
+  ]
+ },
+ "所": {
+  "pn": "suo3",
+  "py": "suǒ",
+  "fr": [
+   "(classificateur : écoles, maisons)",
+   "lieu ; institut",
+   "(所 + verbe) ce que"
+  ]
+ },
+ "死": {
+  "pn": "si3",
+  "py": "sǐ",
+  "fr": [
+   "mourir",
+   "mort",
+   "à mort ; extrêmement"
+  ]
+ },
+ "种": {
+  "pn": "zhong3",
+  "py": "zhǒng",
+  "fr": [
+   "sorte ; espèce ; genre",
+   "(zhòng) planter ; cultiver"
+  ]
+ },
+ "发生": {
+  "pn": "fa1 sheng1",
+  "py": "fā shēng",
+  "fr": [
+   "se produire ; arriver"
+  ]
+ },
+ "为了": {
+  "pn": "wei4 le5",
+  "py": "wèi le",
+  "fr": [
+   "pour ; afin de"
+  ]
+ },
+ "只是": {
+  "pn": "zhi3 shi4",
+  "py": "zhǐ shì",
+  "fr": [
+   "seulement ; simplement",
+   "mais"
+  ]
+ },
+ "世界": {
+  "pn": "shi4 jie4",
+  "py": "shì jiè",
+  "fr": [
+   "monde"
+  ]
+ },
+ "情况": {
+  "pn": "qing2 kuang4",
+  "py": "qíng kuàng",
+  "fr": [
+   "situation ; circonstances"
+  ]
+ },
+ "比赛": {
+  "pn": "bi3 sai4",
+  "py": "bǐ sài",
+  "fr": [
+   "match ; compétition",
+   "concourir"
+  ]
+ },
+ "继续": {
+  "pn": "ji4 xu4",
+  "py": "jì xù",
+  "fr": [
+   "continuer ; poursuivre"
+  ]
+ },
+ "心": {
+  "pn": "xin1",
+  "py": "xīn",
+  "fr": [
+   "cœur",
+   "esprit ; pensée"
+  ]
+ },
+ "已": {
+  "pn": "yi3",
+  "py": "yǐ",
+  "fr": [
+   "déjà",
+   "cesser"
+  ]
+ },
+ "关系": {
+  "pn": "guan1 xi5",
+  "py": "guān xi",
+  "fr": [
+   "relation ; rapport",
+   "concerner",
+   "(没关系) pas grave"
+  ]
+ },
+ "内": {
+  "pn": "nei4",
+  "py": "nèi",
+  "fr": [
+   "intérieur ; dans",
+   "en moins de (délai)"
+  ]
+ },
+ "总": {
+  "pn": "zong3",
+  "py": "zǒng",
+  "fr": [
+   "toujours",
+   "total ; général",
+   "chef ; directeur"
+  ]
+ },
+ "美": {
+  "pn": "mei3",
+  "py": "měi",
+  "fr": [
+   "beau ; joli",
+   "États-Unis ; américain"
+  ]
+ },
+ "一切": {
+  "pn": "yi1 qie4",
+  "py": "yī qiè",
+  "fr": [
+   "tout ; toutes choses"
+  ]
+ },
+ "由": {
+  "pn": "you2",
+  "py": "yóu",
+  "fr": [
+   "par (agent)",
+   "de ; à partir de",
+   "à cause de"
+  ]
+ },
+ "任何": {
+  "pn": "ren4 he2",
+  "py": "rèn hé",
+  "fr": [
+   "n'importe quel ; aucun (négatif)"
+  ]
+ },
+ "决定": {
+  "pn": "jue2 ding4",
+  "py": "jué dìng",
+  "fr": [
+   "décider",
+   "décision"
+  ]
+ },
+ "只有": {
+  "pn": "zhi3 you3",
+  "py": "zhǐ yǒu",
+  "fr": [
+   "seulement ; il n'y a que",
+   "(只有…才) ne… que si"
+  ]
+ },
+ "如何": {
+  "pn": "ru2 he2",
+  "py": "rú hé",
+  "fr": [
+   "comment",
+   "quoi"
+  ]
+ },
+ "受": {
+  "pn": "shou4",
+  "py": "shòu",
+  "fr": [
+   "recevoir",
+   "subir ; souffrir",
+   "supporter"
+  ]
+ },
+ "使": {
+  "pn": "shi3",
+  "py": "shǐ",
+  "fr": [
+   "faire (que) ; rendre",
+   "utiliser"
+  ]
+ },
+ "其实": {
+  "pn": "qi2 shi2",
+  "py": "qí shí",
+  "fr": [
+   "en fait ; en réalité"
+  ]
+ },
+ "连": {
+  "pn": "lian2",
+  "py": "lián",
+  "fr": [
+   "même (连…都)",
+   "relier ; joindre",
+   "de suite"
+  ]
+ },
+ "当然": {
+  "pn": "dang1 ran2",
+  "py": "dāng rán",
+  "fr": [
+   "bien sûr ; évidemment"
+  ]
+ },
+ "部": {
+  "pn": "bu4",
+  "py": "bù",
+  "fr": [
+   "ministère",
+   "partie ; section",
+   "(classificateur : films, livres)"
+  ]
+ },
+ "消息": {
+  "pn": "xiao1 xi5",
+  "py": "xiāo xi",
+  "fr": [
+   "nouvelle ; information"
+  ]
+ },
+ "表现": {
+  "pn": "biao3 xian4",
+  "py": "biǎo xiàn",
+  "fr": [
+   "se montrer ; se comporter",
+   "performance ; comportement"
+  ]
+ },
+ "解决": {
+  "pn": "jie3 jue2",
+  "py": "jiě jué",
+  "fr": [
+   "résoudre ; régler"
+  ]
+ },
+ "成功": {
+  "pn": "cheng2 gong1",
+  "py": "chéng gōng",
+  "fr": [
+   "réussir",
+   "succès"
+  ]
+ },
+ "结束": {
+  "pn": "jie2 shu4",
+  "py": "jié shù",
+  "fr": [
+   "finir ; terminer",
+   "fin"
+  ]
+ },
+ "者": {
+  "pn": "zhe3",
+  "py": "zhě",
+  "fr": [
+   "(suffixe : celui qui…, -eur)"
+  ]
+ },
+ "转": {
+  "pn": "zhuan3",
+  "py": "zhuǎn",
+  "fr": [
+   "tourner ; changer de direction",
+   "transférer",
+   "(zhuàn) tourner ; faire un tour"
+  ]
+ },
+ "调查": {
+  "pn": "diao4 cha2",
+  "py": "diào chá",
+  "fr": [
+   "enquêter",
+   "enquête"
+  ]
+ },
+ "方式": {
+  "pn": "fang1 shi4",
+  "py": "fāng shì",
+  "fr": [
+   "manière ; façon",
+   "mode"
+  ]
+ },
+ "美元": {
+  "pn": "Mei3 yuan2",
+  "py": "Měi yuán",
+  "fr": [
+   "dollar américain"
+  ]
+ },
+ "处理": {
+  "pn": "chu3 li3",
+  "py": "chǔ lǐ",
+  "fr": [
+   "traiter ; régler",
+   "s'occuper de"
+  ]
+ },
+ "强": {
+  "pn": "qiang2",
+  "py": "qiáng",
+  "fr": [
+   "fort ; puissant",
+   "meilleur"
+  ]
+ },
+ "能力": {
+  "pn": "neng2 li4",
+  "py": "néng lì",
+  "fr": [
+   "capacité ; aptitude"
+  ]
+ },
+ "保护": {
+  "pn": "bao3 hu4",
+  "py": "bǎo hù",
+  "fr": [
+   "protéger",
+   "protection"
+  ]
+ },
+ "管": {
+  "pn": "guan3",
+  "py": "guǎn",
+  "fr": [
+   "s'occuper de ; gérer",
+   "contrôler",
+   "tube ; tuyau"
+  ]
+ },
+ "支持": {
+  "pn": "zhi1 chi2",
+  "py": "zhī chí",
+  "fr": [
+   "soutenir ; appuyer",
+   "soutien"
+  ]
+ },
+ "注意": {
+  "pn": "zhu4 yi4",
+  "py": "zhù yì",
+  "fr": [
+   "faire attention",
+   "attention"
+  ]
+ },
+ "活": {
+  "pn": "huo2",
+  "py": "huó",
+  "fr": [
+   "vivre ; vivant",
+   "travail (活儿)"
+  ]
+ },
+ "拍": {
+  "pn": "pai1",
+  "py": "pāi",
+  "fr": [
+   "taper ; frapper",
+   "prendre (photo) ; tourner (film)",
+   "raquette"
+  ]
+ },
+ "整个": {
+  "pn": "zheng3 ge4",
+  "py": "zhěng gè",
+  "fr": [
+   "tout entier ; tout le"
+  ]
+ },
+ "极了": {
+  "pn": "ji2 le5",
+  "py": "jí le",
+  "fr": [
+   "extrêmement (après adjectif)"
+  ]
+ },
+ "保证": {
+  "pn": "bao3 zheng4",
+  "py": "bǎo zhèng",
+  "fr": [
+   "garantir ; assurer",
+   "garantie"
+  ]
+ },
+ "根本": {
+  "pn": "gen1 ben3",
+  "py": "gēn běn",
+  "fr": [
+   "(négatif) pas du tout",
+   "fondamental",
+   "fond ; base"
+  ]
+ },
+ "城市": {
+  "pn": "cheng2 shi4",
+  "py": "chéng shì",
+  "fr": [
+   "ville"
+  ]
+ },
+ "目前": {
+  "pn": "mu4 qian2",
+  "py": "mù qián",
+  "fr": [
+   "actuellement ; pour l'instant"
+  ]
+ },
+ "游戏": {
+  "pn": "you2 xi4",
+  "py": "yóu xì",
+  "fr": [
+   "jeu",
+   "jouer"
+  ]
+ },
+ "马": {
+  "pn": "ma3",
+  "py": "mǎ",
+  "fr": [
+   "cheval"
+  ]
+ },
+ "比较": {
+  "pn": "bi3 jiao4",
+  "py": "bǐ jiào",
+  "fr": [
+   "assez ; plutôt",
+   "comparer"
+  ]
+ },
+ "存在": {
+  "pn": "cun2 zai4",
+  "py": "cún zài",
+  "fr": [
+   "exister",
+   "existence"
+  ]
+ },
+ "终于": {
+  "pn": "zhong1 yu2",
+  "py": "zhōng yú",
+  "fr": [
+   "enfin ; finalement"
+  ]
+ },
+ "现场": {
+  "pn": "xian4 chang3",
+  "py": "xiàn chǎng",
+  "fr": [
+   "sur place ; sur les lieux",
+   "en direct"
+  ]
+ },
+ "下来": {
+  "pn": "xia4 lai5",
+  "py": "xià lai",
+  "fr": [
+   "descendre (vers ici)",
+   "(après verbe) achèvement, fixation"
+  ]
+ },
+ "个人": {
+  "pn": "ge4 ren2",
+  "py": "gè rén",
+  "fr": [
+   "individu",
+   "personnel ; individuel"
+  ]
+ },
+ "除了": {
+  "pn": "chu2 le5",
+  "py": "chú le",
+  "fr": [
+   "sauf ; à part",
+   "en plus de"
+  ]
+ },
+ "区": {
+  "pn": "qu1",
+  "py": "qū",
+  "fr": [
+   "quartier ; arrondissement",
+   "zone ; région"
+  ]
+ },
+ "总是": {
+  "pn": "zong3 shi4",
+  "py": "zǒng shì",
+  "fr": [
+   "toujours"
+  ]
+ },
+ "指": {
+  "pn": "zhi3",
+  "py": "zhǐ",
+  "fr": [
+   "montrer du doigt ; indiquer",
+   "désigner",
+   "doigt"
+  ]
+ },
+ "精神": {
+  "pn": "jing1 shen2",
+  "py": "jīng shén",
+  "fr": [
+   "esprit",
+   "(jīng shen) énergie ; plein d'entrain"
+  ]
+ },
+ "双": {
+  "pn": "shuang1",
+  "py": "shuāng",
+  "fr": [
+   "(classificateur : paire)",
+   "double ; deux"
+  ]
+ },
+ "保持": {
+  "pn": "bao3 chi2",
+  "py": "bǎo chí",
+  "fr": [
+   "garder ; maintenir"
+  ]
+ },
+ "代表": {
+  "pn": "dai4 biao3",
+  "py": "dài biǎo",
+  "fr": [
+   "représenter",
+   "représentant ; délégué"
+  ]
+ },
+ "突然": {
+  "pn": "tu1 ran2",
+  "py": "tū rán",
+  "fr": [
+   "soudain ; tout à coup"
+  ]
+ },
+ "里面": {
+  "pn": "li3 mian4",
+  "py": "lǐ miàn",
+  "fr": [
+   "dedans ; à l'intérieur"
+  ]
+ },
+ "确定": {
+  "pn": "que4 ding4",
+  "py": "què dìng",
+  "fr": [
+   "déterminer ; confirmer",
+   "certain ; sûr"
+  ]
+ },
+ "目标": {
+  "pn": "mu4 biao1",
+  "py": "mù biāo",
+  "fr": [
+   "objectif ; but",
+   "cible"
+  ]
+ },
+ "任务": {
+  "pn": "ren4 wu5",
+  "py": "rèn wu",
+  "fr": [
+   "tâche ; mission"
+  ]
+ },
+ "容易": {
+  "pn": "rong2 yi4",
+  "py": "róng yì",
+  "fr": [
+   "facile",
+   "avoir tendance à"
+  ]
+ },
+ "联系": {
+  "pn": "lian2 xi4",
+  "py": "lián xì",
+  "fr": [
+   "contacter",
+   "contact ; lien"
+  ]
+ },
+ "合作": {
+  "pn": "he2 zuo4",
+  "py": "hé zuò",
+  "fr": [
+   "coopérer ; collaborer",
+   "coopération"
+  ]
+ },
+ "因此": {
+  "pn": "yin1 ci3",
+  "py": "yīn cǐ",
+  "fr": [
+   "donc ; par conséquent"
+  ]
+ },
+ "人员": {
+  "pn": "ren2 yuan2",
+  "py": "rén yuán",
+  "fr": [
+   "personnel ; employés"
+  ]
+ },
+ "按": {
+  "pn": "an4",
+  "py": "àn",
+  "fr": [
+   "appuyer ; presser",
+   "selon ; d'après"
+  ]
+ },
+ "线": {
+  "pn": "xian4",
+  "py": "xiàn",
+  "fr": [
+   "fil",
+   "ligne"
+  ]
+ },
+ "报告": {
+  "pn": "bao4 gao4",
+  "py": "bào gào",
+  "fr": [
+   "rapport",
+   "rendre compte ; signaler"
+  ]
+ },
+ "台": {
+  "pn": "tai2",
+  "py": "tái",
+  "fr": [
+   "(classificateur : machines, appareils)",
+   "estrade ; scène",
+   "Taïwan"
+  ]
+ },
+ "生命": {
+  "pn": "sheng1 ming4",
+  "py": "shēng mìng",
+  "fr": [
+   "vie"
+  ]
+ },
+ "明显": {
+  "pn": "ming2 xian3",
+  "py": "míng xiǎn",
+  "fr": [
+   "évident ; net"
+  ]
+ },
+ "伤": {
+  "pn": "shang1",
+  "py": "shāng",
+  "fr": [
+   "blesser",
+   "blessure"
+  ]
+ },
+ "曾经": {
+  "pn": "ceng2 jing1",
+  "py": "céng jīng",
+  "fr": [
+   "déjà (dans le passé) ; autrefois"
+  ]
+ },
+ "另外": {
+  "pn": "ling4 wai4",
+  "py": "lìng wài",
+  "fr": [
+   "en outre ; par ailleurs",
+   "autre"
+  ]
+ },
+ "简单": {
+  "pn": "jian3 dan1",
+  "py": "jiǎn dān",
+  "fr": [
+   "simple ; facile"
+  ]
+ },
+ "血": {
+  "pn": "xue4",
+  "py": "xuè",
+  "fr": [
+   "sang"
+  ]
+ },
+ "到底": {
+  "pn": "dao4 di3",
+  "py": "dào dǐ",
+  "fr": [
+   "finalement",
+   "(question) au juste ; donc"
+  ]
+ },
+ "绝对": {
+  "pn": "jue2 dui4",
+  "py": "jué duì",
+  "fr": [
+   "absolument",
+   "absolu"
+  ]
+ },
+ "坚持": {
+  "pn": "jian1 chi2",
+  "py": "jiān chí",
+  "fr": [
+   "persévérer ; tenir bon",
+   "insister"
+  ]
+ },
+ "派": {
+  "pn": "pai4",
+  "py": "pài",
+  "fr": [
+   "envoyer ; dépêcher",
+   "faction ; école"
+  ]
+ },
+ "好好": {
+  "pn": "hao3 hao3",
+  "py": "hǎo hǎo",
+  "fr": [
+   "bien ; comme il faut",
+   "sérieusement"
+  ]
+ },
+ "技术": {
+  "pn": "ji4 shu4",
+  "py": "jì shù",
+  "fr": [
+   "technique ; technologie"
+  ]
+ },
+ "设计": {
+  "pn": "she4 ji4",
+  "py": "shè jì",
+  "fr": [
+   "concevoir",
+   "conception ; design"
+  ]
+ },
+ "利用": {
+  "pn": "li4 yong4",
+  "py": "lì yòng",
+  "fr": [
+   "utiliser ; profiter de"
+  ]
+ },
+ "性": {
+  "pn": "xing4",
+  "py": "xìng",
+  "fr": [
+   "caractère ; nature",
+   "sexe ; sexuel",
+   "(suffixe : -ité)"
+  ]
+ },
+ "建议": {
+  "pn": "jian4 yi4",
+  "py": "jiàn yì",
+  "fr": [
+   "proposer ; conseiller",
+   "suggestion"
+  ]
+ },
+ "各位": {
+  "pn": "ge4 wei4",
+  "py": "gè wèi",
+  "fr": [
+   "tout le monde ; mesdames et messieurs"
+  ]
+ },
+ "约": {
+  "pn": "yue1",
+  "py": "yuē",
+  "fr": [
+   "environ",
+   "donner rendez-vous ; inviter"
+  ]
+ },
+ "抓": {
+  "pn": "zhua1",
+  "py": "zhuā",
+  "fr": [
+   "attraper ; saisir",
+   "arrêter (un suspect)"
+  ]
+ },
+ "光": {
+  "pn": "guang1",
+  "py": "guāng",
+  "fr": [
+   "lumière",
+   "seulement",
+   "épuisé (完光)"
+  ]
+ },
+ "意义": {
+  "pn": "yi4 yi4",
+  "py": "yì yì",
+  "fr": [
+   "sens ; signification",
+   "portée"
+  ]
+ },
+ "父亲": {
+  "pn": "fu4 qin1",
+  "py": "fù qīn",
+  "fr": [
+   "père"
+  ]
+ },
+ "并且": {
+  "pn": "bing4 qie3",
+  "py": "bìng qiě",
+  "fr": [
+   "et ; de plus"
+  ]
+ },
+ "金": {
+  "pn": "jin1",
+  "py": "jīn",
+  "fr": [
+   "or",
+   "métal",
+   "argent (monnaie)"
+  ]
+ },
+ "社会": {
+  "pn": "she4 hui4",
+  "py": "shè huì",
+  "fr": [
+   "société"
+  ]
+ },
+ "下去": {
+  "pn": "xia4 qu4",
+  "py": "xià qù",
+  "fr": [
+   "descendre",
+   "(après verbe) continuer"
+  ]
+ },
+ "证明": {
+  "pn": "zheng4 ming2",
+  "py": "zhèng míng",
+  "fr": [
+   "prouver",
+   "preuve ; attestation"
+  ]
+ },
+ "记者": {
+  "pn": "ji4 zhe3",
+  "py": "jì zhě",
+  "fr": [
+   "journaliste"
+  ]
+ },
+ "确实": {
+  "pn": "que4 shi2",
+  "py": "què shí",
+  "fr": [
+   "en effet ; vraiment",
+   "sûr ; fiable"
+  ]
+ },
+ "力": {
+  "pn": "li4",
+  "py": "lì",
+  "fr": [
+   "force",
+   "capacité"
+  ]
+ },
+ "发展": {
+  "pn": "fa1 zhan3",
+  "py": "fā zhǎn",
+  "fr": [
+   "développer ; se développer",
+   "développement"
+  ]
+ },
+ "谈": {
+  "pn": "tan2",
+  "py": "tán",
+  "fr": [
+   "parler ; discuter",
+   "négocier"
+  ]
+ },
+ "至少": {
+  "pn": "zhi4 shao3",
+  "py": "zhì shǎo",
+  "fr": [
+   "au moins"
+  ]
+ },
+ "负责": {
+  "pn": "fu4 ze2",
+  "py": "fù zé",
+  "fr": [
+   "être responsable de ; être chargé de",
+   "consciencieux"
+  ]
+ },
+ "首先": {
+  "pn": "shou3 xian1",
+  "py": "shǒu xiān",
+  "fr": [
+   "d'abord ; en premier lieu"
+  ]
+ },
+ "交易": {
+  "pn": "jiao1 yi4",
+  "py": "jiāo yì",
+  "fr": [
+   "transaction ; commerce",
+   "faire du commerce"
+  ]
+ },
+ "理解": {
+  "pn": "li3 jie3",
+  "py": "lǐ jiě",
+  "fr": [
+   "comprendre",
+   "compréhension"
+  ]
+ },
+ "报道": {
+  "pn": "bao4 dao4",
+  "py": "bào dào",
+  "fr": [
+   "reportage ; article",
+   "rapporter (une nouvelle)"
+  ]
+ },
+ "父母": {
+  "pn": "fu4 mu3",
+  "py": "fù mǔ",
+  "fr": [
+   "parents (père et mère)"
+  ]
+ },
+ "城": {
+  "pn": "cheng2",
+  "py": "chéng",
+  "fr": [
+   "ville",
+   "muraille"
+  ]
+ },
+ "安排": {
+  "pn": "an1 pai2",
+  "py": "ān pái",
+  "fr": [
+   "organiser ; arranger",
+   "programme ; dispositions"
+  ]
+ },
+ "力量": {
+  "pn": "li4 liang5",
+  "py": "lì liang",
+  "fr": [
+   "force ; puissance"
+  ]
+ },
+ "敢": {
+  "pn": "gan3",
+  "py": "gǎn",
+  "fr": [
+   "oser"
+  ]
+ },
+ "造成": {
+  "pn": "zao4 cheng2",
+  "py": "zào chéng",
+  "fr": [
+   "causer ; provoquer"
+  ]
+ },
+ "某": {
+  "pn": "mou3",
+  "py": "mǒu",
+  "fr": [
+   "un certain ; tel"
+  ]
+ },
+ "随": {
+  "pn": "sui2",
+  "py": "suí",
+  "fr": [
+   "suivre",
+   "selon ; au gré de"
+  ]
+ },
+ "支": {
+  "pn": "zhi1",
+  "py": "zhī",
+  "fr": [
+   "(classif. : stylos, chansons)",
+   "soutenir",
+   "branche"
+  ]
+ },
+ "人生": {
+  "pn": "ren2 sheng1",
+  "py": "rén shēng",
+  "fr": [
+   "la vie (humaine)"
+  ]
+ },
+ "会议": {
+  "pn": "hui4 yi4",
+  "py": "huì yì",
+  "fr": [
+   "réunion ; conférence"
+  ]
+ },
+ "幸福": {
+  "pn": "xing4 fu2",
+  "py": "xìng fú",
+  "fr": [
+   "bonheur",
+   "heureux"
+  ]
+ },
+ "自然": {
+  "pn": "zi4 ran2",
+  "py": "zì rán",
+  "fr": [
+   "nature",
+   "naturel",
+   "naturellement"
+  ]
+ },
+ "责任": {
+  "pn": "ze2 ren4",
+  "py": "zé rèn",
+  "fr": [
+   "responsabilité"
+  ]
+ },
+ "失去": {
+  "pn": "shi1 qu4",
+  "py": "shī qù",
+  "fr": [
+   "perdre"
+  ]
+ },
+ "赢": {
+  "pn": "ying2",
+  "py": "yíng",
+  "fr": [
+   "gagner ; vaincre"
+  ]
+ },
+ "报": {
+  "pn": "bao4",
+  "py": "bào",
+  "fr": [
+   "journal",
+   "annoncer ; signaler",
+   "rendre (la pareille)"
+  ]
+ },
+ "人民": {
+  "pn": "ren2 min2",
+  "py": "rén mín",
+  "fr": [
+   "peuple"
+  ]
+ },
+ "步": {
+  "pn": "bu4",
+  "py": "bù",
+  "fr": [
+   "pas",
+   "étape"
+  ]
+ },
+ "面对": {
+  "pn": "mian4 dui4",
+  "py": "miàn duì",
+  "fr": [
+   "faire face à ; affronter"
+  ]
+ },
+ "事件": {
+  "pn": "shi4 jian4",
+  "py": "shì jiàn",
+  "fr": [
+   "événement ; incident"
+  ]
+ },
+ "压力": {
+  "pn": "ya1 li4",
+  "py": "yā lì",
+  "fr": [
+   "pression ; stress"
+  ]
+ },
+ "结婚": {
+  "pn": "jie2 hun1",
+  "py": "jié hūn",
+  "fr": [
+   "se marier"
+  ]
+ },
+ "由于": {
+  "pn": "you2 yu2",
+  "py": "yóu yú",
+  "fr": [
+   "en raison de ; à cause de"
+  ]
+ },
+ "母亲": {
+  "pn": "mu3 qin1",
+  "py": "mǔ qīn",
+  "fr": [
+   "mère"
+  ]
+ },
+ "同意": {
+  "pn": "tong2 yi4",
+  "py": "tóng yì",
+  "fr": [
+   "être d'accord ; accepter"
+  ]
+ },
+ "训练": {
+  "pn": "xun4 lian4",
+  "py": "xùn liàn",
+  "fr": [
+   "entraîner ; former",
+   "entraînement"
+  ]
+ },
+ "部门": {
+  "pn": "bu4 men2",
+  "py": "bù mén",
+  "fr": [
+   "service ; département"
+  ]
+ },
+ "过程": {
+  "pn": "guo4 cheng2",
+  "py": "guò chéng",
+  "fr": [
+   "processus ; déroulement"
+  ]
+ },
+ "深": {
+  "pn": "shen1",
+  "py": "shēn",
+  "fr": [
+   "profond",
+   "foncé (couleur)"
+  ]
+ },
+ "各": {
+  "pn": "ge4",
+  "py": "gè",
+  "fr": [
+   "chaque ; chacun"
+  ]
+ },
+ "选手": {
+  "pn": "xuan3 shou3",
+  "py": "xuǎn shǒu",
+  "fr": [
+   "concurrent ; joueur ; athlète"
+  ]
+ },
+ "仍然": {
+  "pn": "reng2 ran2",
+  "py": "réng rán",
+  "fr": [
+   "toujours ; encore"
+  ]
+ },
+ "显示": {
+  "pn": "xian3 shi4",
+  "py": "xiǎn shì",
+  "fr": [
+   "montrer ; afficher"
+  ]
+ },
+ "属于": {
+  "pn": "shu3 yu2",
+  "py": "shǔ yú",
+  "fr": [
+   "appartenir à ; faire partie de"
+  ]
+ },
+ "值得": {
+  "pn": "zhi2 de5",
+  "py": "zhí de",
+  "fr": [
+   "valoir la peine ; mériter"
+  ]
+ },
+ "人类": {
+  "pn": "ren2 lei4",
+  "py": "rén lèi",
+  "fr": [
+   "humanité ; être humain"
+  ]
+ },
+ "亲": {
+  "pn": "qin1",
+  "py": "qīn",
+  "fr": [
+   "parent ; proche",
+   "embrasser",
+   "cher (adresse)"
+  ]
+ },
+ "经历": {
+  "pn": "jing1 li4",
+  "py": "jīng lì",
+  "fr": [
+   "expérience (vécue)",
+   "vivre ; traverser"
+  ]
+ },
+ "仍": {
+  "pn": "reng2",
+  "py": "réng",
+  "fr": [
+   "toujours ; encore"
+  ]
+ },
+ "紧张": {
+  "pn": "jin3 zhang1",
+  "py": "jǐn zhāng",
+  "fr": [
+   "nerveux ; stressé",
+   "tendu"
+  ]
+ },
+ "仅": {
+  "pn": "jin3",
+  "py": "jǐn",
+  "fr": [
+   "seulement ; ne… que"
+  ]
+ },
+ "挂": {
+  "pn": "gua4",
+  "py": "guà",
+  "fr": [
+   "accrocher ; suspendre",
+   "raccrocher (téléphone)"
+  ]
+ },
+ "事实": {
+  "pn": "shi4 shi2",
+  "py": "shì shí",
+  "fr": [
+   "fait ; réalité"
+  ]
+ },
+ "本来": {
+  "pn": "ben3 lai2",
+  "py": "běn lái",
+  "fr": [
+   "au départ ; à l'origine",
+   "évidemment"
+  ]
+ },
+ "基本": {
+  "pn": "ji1 ben3",
+  "py": "jī běn",
+  "fr": [
+   "de base ; fondamental",
+   "essentiellement"
+  ]
+ },
+ "类": {
+  "pn": "lei4",
+  "py": "lèi",
+  "fr": [
+   "catégorie ; type ; genre"
+  ]
+ },
+ "专家": {
+  "pn": "zhuan1 jia1",
+  "py": "zhuān jiā",
+  "fr": [
+   "expert ; spécialiste"
+  ]
+ },
+ "跳": {
+  "pn": "tiao4",
+  "py": "tiào",
+  "fr": [
+   "sauter",
+   "battre (cœur)"
+  ]
+ },
+ "久": {
+  "pn": "jiu3",
+  "py": "jiǔ",
+  "fr": [
+   "longtemps"
+  ]
+ },
+ "以来": {
+  "pn": "yi3 lai2",
+  "py": "yǐ lái",
+  "fr": [
+   "depuis"
+  ]
+ },
+ "反应": {
+  "pn": "fan3 ying4",
+  "py": "fǎn yìng",
+  "fr": [
+   "réaction",
+   "réagir"
+  ]
+ },
+ "地区": {
+  "pn": "di4 qu1",
+  "py": "dì qū",
+  "fr": [
+   "région ; zone"
+  ]
+ },
+ "关注": {
+  "pn": "guan1 zhu4",
+  "py": "guān zhù",
+  "fr": [
+   "suivre de près ; s'intéresser à",
+   "suivre (réseaux sociaux)"
+  ]
+ },
+ "表演": {
+  "pn": "biao3 yan3",
+  "py": "biǎo yǎn",
+  "fr": [
+   "spectacle",
+   "jouer ; se produire"
+  ]
+ },
+ "警察": {
+  "pn": "jing3 cha2",
+  "py": "jǐng chá",
+  "fr": [
+   "policier",
+   "police"
+  ]
+ },
+ "价值": {
+  "pn": "jia4 zhi2",
+  "py": "jià zhí",
+  "fr": [
+   "valeur"
+  ]
+ },
+ "相当": {
+  "pn": "xiang1 dang1",
+  "py": "xiāng dāng",
+  "fr": [
+   "assez ; plutôt",
+   "équivaloir à"
+  ]
+ },
+ "困难": {
+  "pn": "kun4 nan5",
+  "py": "kùn nan",
+  "fr": [
+   "difficulté",
+   "difficile"
+  ]
+ },
+ "专业": {
+  "pn": "zhuan1 ye4",
+  "py": "zhuān yè",
+  "fr": [
+   "spécialité (études)",
+   "professionnel"
+  ]
+ },
+ "难道": {
+  "pn": "nan2 dao4",
+  "py": "nán dào",
+  "fr": [
+   "est-ce que… vraiment ? (rhétorique)"
+  ]
+ },
+ "牛": {
+  "pn": "niu2",
+  "py": "niú",
+  "fr": [
+   "bœuf ; vache",
+   "génial (argot)"
+  ]
+ },
+ "规定": {
+  "pn": "gui1 ding4",
+  "py": "guī dìng",
+  "fr": [
+   "règle ; règlement",
+   "stipuler ; fixer"
+  ]
+ },
+ "产生": {
+  "pn": "chan3 sheng1",
+  "py": "chǎn shēng",
+  "fr": [
+   "produire ; engendrer",
+   "apparaître"
+  ]
+ },
+ "对方": {
+  "pn": "dui4 fang1",
+  "py": "duì fāng",
+  "fr": [
+   "l'autre partie ; l'interlocuteur"
+  ]
+ },
+ "状态": {
+  "pn": "zhuang4 tai4",
+  "py": "zhuàng tài",
+  "fr": [
+   "état",
+   "forme (physique)"
+  ]
+ },
+ "群": {
+  "pn": "qun2",
+  "py": "qún",
+  "fr": [
+   "groupe ; foule",
+   "(classificateur : troupeau, bande)"
+  ]
+ },
+ "照": {
+  "pn": "zhao4",
+  "py": "zhào",
+  "fr": [
+   "éclairer",
+   "selon ; d'après",
+   "photo"
+  ]
+ },
+ "环境": {
+  "pn": "huan2 jing4",
+  "py": "huán jìng",
+  "fr": [
+   "environnement ; milieu"
+  ]
+ },
+ "火": {
+  "pn": "huo3",
+  "py": "huǒ",
+  "fr": [
+   "feu",
+   "populaire ; en vogue"
+  ]
+ },
+ "建立": {
+  "pn": "jian4 li4",
+  "py": "jiàn lì",
+  "fr": [
+   "établir ; fonder"
+  ]
+ },
+ "更加": {
+  "pn": "geng4 jia1",
+  "py": "gèng jiā",
+  "fr": [
+   "encore plus ; davantage"
+  ]
+ },
+ "老板": {
+  "pn": "lao3 ban3",
+  "py": "lǎo bǎn",
+  "fr": [
+   "patron"
+  ]
+ },
+ "市场": {
+  "pn": "shi4 chang3",
+  "py": "shì chǎng",
+  "fr": [
+   "marché"
+  ]
+ },
+ "必要": {
+  "pn": "bi4 yao4",
+  "py": "bì yào",
+  "fr": [
+   "nécessaire",
+   "nécessité"
+  ]
+ },
+ "祝": {
+  "pn": "zhu4",
+  "py": "zhù",
+  "fr": [
+   "souhaiter"
+  ]
+ },
+ "危险": {
+  "pn": "wei1 xian3",
+  "py": "wēi xiǎn",
+  "fr": [
+   "dangereux",
+   "danger"
+  ]
+ },
+ "管理": {
+  "pn": "guan3 li3",
+  "py": "guǎn lǐ",
+  "fr": [
+   "gérer ; administrer",
+   "gestion"
+  ]
+ },
+ "乱": {
+  "pn": "luan4",
+  "py": "luàn",
+  "fr": [
+   "en désordre",
+   "n'importe comment"
+  ]
+ },
+ "适合": {
+  "pn": "shi4 he2",
+  "py": "shì hé",
+  "fr": [
+   "convenir à ; être adapté à"
+  ]
+ },
+ "正式": {
+  "pn": "zheng4 shi4",
+  "py": "zhèng shì",
+  "fr": [
+   "officiel ; formel"
+  ]
+ },
+ "救": {
+  "pn": "jiu4",
+  "py": "jiù",
+  "fr": [
+   "sauver ; secourir",
+   "au secours !"
+  ]
+ },
+ "从来": {
+  "pn": "cong2 lai2",
+  "py": "cóng lái",
+  "fr": [
+   "toujours",
+   "(从来不/没) jamais"
+  ]
+ },
+ "图": {
+  "pn": "tu2",
+  "py": "tú",
+  "fr": [
+   "image ; dessin",
+   "plan ; carte"
+  ]
+ },
+ "实际上": {
+  "pn": "shi2 ji4 shang4",
+  "py": "shí jì shàng",
+  "fr": [
+   "en fait ; en réalité"
+  ]
+ },
+ "达到": {
+  "pn": "da2 dao4",
+  "py": "dá dào",
+  "fr": [
+   "atteindre ; parvenir à"
+  ]
+ },
+ "现实": {
+  "pn": "xian4 shi2",
+  "py": "xiàn shí",
+  "fr": [
+   "réalité",
+   "réaliste"
+  ]
+ },
+ "不断": {
+  "pn": "bu4 duan4",
+  "py": "bù duàn",
+  "fr": [
+   "sans cesse ; constamment"
+  ]
+ },
+ "媒体": {
+  "pn": "mei2 ti3",
+  "py": "méi tǐ",
+  "fr": [
+   "médias"
+  ]
+ },
+ "内容": {
+  "pn": "nei4 rong2",
+  "py": "nèi róng",
+  "fr": [
+   "contenu"
+  ]
+ },
+ "上面": {
+  "pn": "shang4 mian4",
+  "py": "shàng miàn",
+  "fr": [
+   "dessus ; au-dessus",
+   "ci-dessus"
+  ]
+ },
+ "痛": {
+  "pn": "tong4",
+  "py": "tòng",
+  "fr": [
+   "douleur ; avoir mal",
+   "chagrin"
+  ]
+ },
+ "感情": {
+  "pn": "gan3 qing2",
+  "py": "gǎn qíng",
+  "fr": [
+   "sentiments ; émotion",
+   "affection"
+  ]
+ },
+ "观众": {
+  "pn": "guan1 zhong4",
+  "py": "guān zhòng",
+  "fr": [
+   "public ; spectateurs"
+  ]
+ },
+ "变化": {
+  "pn": "bian4 hua4",
+  "py": "biàn huà",
+  "fr": [
+   "changement",
+   "changer"
+  ]
+ },
+ "美丽": {
+  "pn": "mei3 li4",
+  "py": "měi lì",
+  "fr": [
+   "beau ; belle"
+  ]
+ },
+ "追": {
+  "pn": "zhui1",
+  "py": "zhuī",
+  "fr": [
+   "poursuivre ; courir après",
+   "draguer (fam.)"
+  ]
+ },
+ "经验": {
+  "pn": "jing1 yan4",
+  "py": "jīng yàn",
+  "fr": [
+   "expérience (acquise)"
+  ]
+ },
+ "集中": {
+  "pn": "ji2 zhong1",
+  "py": "jí zhōng",
+  "fr": [
+   "concentrer ; se concentrer",
+   "rassembler"
+  ]
+ },
+ "破": {
+  "pn": "po4",
+  "py": "pò",
+  "fr": [
+   "cassé ; abîmé",
+   "casser ; briser"
+  ]
+ },
+ "理由": {
+  "pn": "li3 you2",
+  "py": "lǐ yóu",
+  "fr": [
+   "raison ; motif"
+  ]
+ },
+ "刀": {
+  "pn": "dao1",
+  "py": "dāo",
+  "fr": [
+   "couteau"
+  ]
+ },
+ "感受": {
+  "pn": "gan3 shou4",
+  "py": "gǎn shòu",
+  "fr": [
+   "ressentir",
+   "ressenti ; impression"
+  ]
+ },
+ "完美": {
+  "pn": "wan2 mei3",
+  "py": "wán měi",
+  "fr": [
+   "parfait"
+  ]
+ },
+ "直到": {
+  "pn": "zhi2 dao4",
+  "py": "zhí dào",
+  "fr": [
+   "jusqu'à (ce que)"
+  ]
+ },
+ "传": {
+  "pn": "chuan2",
+  "py": "chuán",
+  "fr": [
+   "transmettre ; passer",
+   "se répandre"
+  ]
+ },
+ "真实": {
+  "pn": "zhen1 shi2",
+  "py": "zhēn shí",
+  "fr": [
+   "vrai ; réel ; authentique"
+  ]
+ },
+ "错误": {
+  "pn": "cuo4 wu4",
+  "py": "cuò wù",
+  "fr": [
+   "erreur ; faute",
+   "erroné"
+  ]
+ },
+ "记录": {
+  "pn": "ji4 lu4",
+  "py": "jì lù",
+  "fr": [
+   "enregistrer ; noter",
+   "procès-verbal",
+   "record"
+  ]
+ },
+ "整": {
+  "pn": "zheng3",
+  "py": "zhěng",
+  "fr": [
+   "entier ; tout",
+   "pile (heure)",
+   "ranger"
+  ]
+ },
+ "标准": {
+  "pn": "biao1 zhun3",
+  "py": "biāo zhǔn",
+  "fr": [
+   "norme ; critère",
+   "standard"
+  ]
+ },
+ "职业": {
+  "pn": "zhi2 ye4",
+  "py": "zhí yè",
+  "fr": [
+   "profession ; métier",
+   "professionnel"
+  ]
+ },
+ "精彩": {
+  "pn": "jing1 cai3",
+  "py": "jīng cǎi",
+  "fr": [
+   "formidable ; passionnant"
+  ]
+ },
+ "朝": {
+  "pn": "chao2",
+  "py": "cháo",
+  "fr": [
+   "vers ; en direction de",
+   "dynastie",
+   "(zhāo) matin"
+  ]
+ },
+ "值": {
+  "pn": "zhi2",
+  "py": "zhí",
+  "fr": [
+   "valoir",
+   "valeur"
+  ]
+ },
+ "范围": {
+  "pn": "fan4 wei2",
+  "py": "fàn wéi",
+  "fr": [
+   "portée ; étendue",
+   "cadre ; domaine"
+  ]
+ },
+ "事业": {
+  "pn": "shi4 ye4",
+  "py": "shì yè",
+  "fr": [
+   "carrière",
+   "entreprise ; œuvre"
+  ]
+ },
+ "痛苦": {
+  "pn": "tong4 ku3",
+  "py": "tòng kǔ",
+  "fr": [
+   "souffrance ; douleur",
+   "douloureux"
+  ]
+ },
+ "速度": {
+  "pn": "su4 du4",
+  "py": "sù dù",
+  "fr": [
+   "vitesse"
+  ]
+ },
+ "文件": {
+  "pn": "wen2 jian4",
+  "py": "wén jiàn",
+  "fr": [
+   "document",
+   "fichier"
+  ]
+ },
+ "空": {
+  "pn": "kong1",
+  "py": "kōng",
+  "fr": [
+   "vide",
+   "ciel ; air",
+   "(kòng) temps libre"
+  ]
+ },
+ "显然": {
+  "pn": "xian3 ran2",
+  "py": "xiǎn rán",
+  "fr": [
+   "évidemment ; manifestement"
+  ]
+ },
+ "左右": {
+  "pn": "zuo3 you4",
+  "py": "zuǒ yòu",
+  "fr": [
+   "environ ; à peu près",
+   "gauche et droite",
+   "influencer"
+  ]
+ },
+ "外面": {
+  "pn": "wai4 mian4",
+  "py": "wài miàn",
+  "fr": [
+   "dehors ; à l'extérieur"
+  ]
+ },
+ "效果": {
+  "pn": "xiao4 guo3",
+  "py": "xiào guǒ",
+  "fr": [
+   "effet ; résultat"
+  ]
+ },
+ "状况": {
+  "pn": "zhuang4 kuang4",
+  "py": "zhuàng kuàng",
+  "fr": [
+   "situation ; état"
+  ]
+ },
+ "架": {
+  "pn": "jia4",
+  "py": "jià",
+  "fr": [
+   "(classificateur : avions, pianos)",
+   "étagère ; support",
+   "se disputer (吵架)"
+  ]
+ },
+ "经济": {
+  "pn": "jing1 ji4",
+  "py": "jīng jì",
+  "fr": [
+   "économie",
+   "économique"
+  ]
+ },
+ "按照": {
+  "pn": "an4 zhao4",
+  "py": "àn zhào",
+  "fr": [
+   "selon ; conformément à"
+  ]
+ },
+ "有效": {
+  "pn": "you3 xiao4",
+  "py": "yǒu xiào",
+  "fr": [
+   "efficace",
+   "valide ; valable"
+  ]
+ },
+ "反对": {
+  "pn": "fan3 dui4",
+  "py": "fǎn duì",
+  "fr": [
+   "s'opposer à ; être contre"
+  ]
+ },
+ "作品": {
+  "pn": "zuo4 pin3",
+  "py": "zuò pǐn",
+  "fr": [
+   "œuvre"
+  ]
+ },
+ "室": {
+  "pn": "shi4",
+  "py": "shì",
+  "fr": [
+   "pièce ; salle"
+  ]
+ },
+ "时代": {
+  "pn": "shi2 dai4",
+  "py": "shí dài",
+  "fr": [
+   "époque ; ère"
+  ]
+ },
+ "伟大": {
+  "pn": "wei3 da4",
+  "py": "wěi dà",
+  "fr": [
+   "grand ; grandiose"
+  ]
+ },
+ "哈哈": {
+  "pn": "ha1 ha1",
+  "py": "hā hā",
+  "fr": [
+   "ha ha ! (rire)"
+  ]
+ },
+ "准": {
+  "pn": "zhun3",
+  "py": "zhǔn",
+  "fr": [
+   "exact ; précis",
+   "sûrement",
+   "autoriser"
+  ]
+ },
+ "输": {
+  "pn": "shu1",
+  "py": "shū",
+  "fr": [
+   "perdre (match, jeu)",
+   "transporter",
+   "saisir (输入)"
+  ]
+ },
+ "充满": {
+  "pn": "chong1 man3",
+  "py": "chōng mǎn",
+  "fr": [
+   "plein de ; rempli de"
+  ]
+ },
+ "皮": {
+  "pn": "pi2",
+  "py": "pí",
+  "fr": [
+   "peau",
+   "cuir",
+   "espiègle (调皮)"
+  ]
+ },
+ "要是": {
+  "pn": "yao4 shi5",
+  "py": "yào shi",
+  "fr": [
+   "si (familier)"
+  ]
+ },
+ "系": {
+  "pn": "xi4",
+  "py": "xì",
+  "fr": [
+   "département (université)",
+   "système",
+   "relier"
+  ]
+ },
+ "增加": {
+  "pn": "zeng1 jia1",
+  "py": "zēng jiā",
+  "fr": [
+   "augmenter ; ajouter"
+  ]
+ },
+ "直": {
+  "pn": "zhi2",
+  "py": "zhí",
+  "fr": [
+   "droit",
+   "directement",
+   "sans cesse"
+  ]
+ },
+ "成员": {
+  "pn": "cheng2 yuan2",
+  "py": "chéng yuán",
+  "fr": [
+   "membre"
+  ]
+ },
+ "保险": {
+  "pn": "bao3 xian3",
+  "py": "bǎo xiǎn",
+  "fr": [
+   "assurance",
+   "sûr"
+  ]
+ },
+ "年代": {
+  "pn": "nian2 dai4",
+  "py": "nián dài",
+  "fr": [
+   "décennie (les années 80…)",
+   "époque"
+  ]
+ },
+ "领导": {
+  "pn": "ling3 dao3",
+  "py": "lǐng dǎo",
+  "fr": [
+   "dirigeant ; chef",
+   "diriger"
+  ]
+ },
+ "胜利": {
+  "pn": "sheng4 li4",
+  "py": "shèng lì",
+  "fr": [
+   "victoire",
+   "remporter"
+  ]
+ },
+ "受伤": {
+  "pn": "shou4 shang1",
+  "py": "shòu shāng",
+  "fr": [
+   "être blessé ; se blesser"
+  ]
+ },
+ "程度": {
+  "pn": "cheng2 du4",
+  "py": "chéng dù",
+  "fr": [
+   "degré ; niveau"
+  ]
+ },
+ "代": {
+  "pn": "dai4",
+  "py": "dài",
+  "fr": [
+   "à la place de ; remplacer",
+   "génération",
+   "époque"
+  ]
+ },
+ "下面": {
+  "pn": "xia4 mian4",
+  "py": "xià miàn",
+  "fr": [
+   "dessous ; en bas",
+   "ci-dessous ; ensuite"
+  ]
+ },
+ "理论": {
+  "pn": "li3 lun4",
+  "py": "lǐ lùn",
+  "fr": [
+   "théorie"
+  ]
+ },
+ "不仅": {
+  "pn": "bu4 jin3",
+  "py": "bù jǐn",
+  "fr": [
+   "non seulement"
+  ]
+ },
+ "宣布": {
+  "pn": "xuan1 bu4",
+  "py": "xuān bù",
+  "fr": [
+   "annoncer ; proclamer"
+  ]
+ },
+ "期": {
+  "pn": "qi1",
+  "py": "qī",
+  "fr": [
+   "période ; phase",
+   "numéro (revue)",
+   "attendre"
+  ]
+ },
+ "姑娘": {
+  "pn": "gu1 niang5",
+  "py": "gū niang",
+  "fr": [
+   "jeune fille"
+  ]
+ },
+ "创造": {
+  "pn": "chuang4 zao4",
+  "py": "chuàng zào",
+  "fr": [
+   "créer",
+   "création"
+  ]
+ },
+ "调": {
+  "pn": "diao4",
+  "py": "diào",
+  "fr": [
+   "muter ; transférer",
+   "ton ; air",
+   "(tiáo) régler ; ajuster"
+  ]
+ },
+ "艺术": {
+  "pn": "yi4 shu4",
+  "py": "yì shù",
+  "fr": [
+   "art"
+  ]
+ },
+ "麻烦": {
+  "pn": "ma2 fan5",
+  "py": "má fan",
+  "fr": [
+   "ennui ; problème",
+   "déranger",
+   "pénible ; compliqué"
+  ]
+ },
+ "事故": {
+  "pn": "shi4 gu4",
+  "py": "shì gù",
+  "fr": [
+   "accident"
+  ]
+ },
+ "美好": {
+  "pn": "mei3 hao3",
+  "py": "měi hǎo",
+  "fr": [
+   "beau ; merveilleux"
+  ]
+ },
+ "抓住": {
+  "pn": "zhua1 zhu4",
+  "py": "zhuā zhù",
+  "fr": [
+   "saisir ; attraper"
+  ]
+ },
+ "武器": {
+  "pn": "wu3 qi4",
+  "py": "wǔ qì",
+  "fr": [
+   "arme"
+  ]
+ },
+ "各种": {
+  "pn": "ge4 zhong3",
+  "py": "gè zhǒng",
+  "fr": [
+   "toutes sortes de"
+  ]
+ },
+ "思想": {
+  "pn": "si1 xiang3",
+  "py": "sī xiǎng",
+  "fr": [
+   "pensée ; idée",
+   "idéologie"
+  ]
+ },
+ "破坏": {
+  "pn": "po4 huai4",
+  "py": "pò huài",
+  "fr": [
+   "détruire ; endommager",
+   "violer (règle)"
+  ]
+ },
+ "消失": {
+  "pn": "xiao1 shi1",
+  "py": "xiāo shī",
+  "fr": [
+   "disparaître"
+  ]
+ },
+ "害怕": {
+  "pn": "hai4 pa4",
+  "py": "hài pà",
+  "fr": [
+   "avoir peur"
+  ]
+ },
+ "龙": {
+  "pn": "long2",
+  "py": "lóng",
+  "fr": [
+   "dragon"
+  ]
+ },
+ "满足": {
+  "pn": "man3 zu2",
+  "py": "mǎn zú",
+  "fr": [
+   "satisfaire",
+   "satisfait"
+  ]
+ },
+ "配": {
+  "pn": "pei4",
+  "py": "pèi",
+  "fr": [
+   "assortir ; aller avec",
+   "équiper ; fournir",
+   "mériter (配得上)"
+  ]
+ },
+ "等待": {
+  "pn": "deng3 dai4",
+  "py": "děng dài",
+  "fr": [
+   "attendre"
+  ]
+ },
+ "演出": {
+  "pn": "yan3 chu1",
+  "py": "yǎn chū",
+  "fr": [
+   "représentation ; spectacle",
+   "jouer ; se produire"
+  ]
+ },
+ "乐": {
+  "pn": "le4",
+  "py": "lè",
+  "fr": [
+   "joyeux ; content",
+   "rire",
+   "(yuè) musique"
+  ]
+ },
+ "事实上": {
+  "pn": "shi4 shi2 shang4",
+  "py": "shì shí shàng",
+  "fr": [
+   "en fait ; en réalité"
+  ]
+ },
+ "超级": {
+  "pn": "chao1 ji2",
+  "py": "chāo jí",
+  "fr": [
+   "super ; hyper"
+  ]
+ },
+ "猪": {
+  "pn": "zhu1",
+  "py": "zhū",
+  "fr": [
+   "cochon ; porc"
+  ]
+ },
+ "设备": {
+  "pn": "she4 bei4",
+  "py": "shè bèi",
+  "fr": [
+   "équipement ; appareil"
+  ]
+ },
+ "保": {
+  "pn": "bao3",
+  "py": "bǎo",
+  "fr": [
+   "protéger ; garder",
+   "garantir"
+  ]
+ },
+ "团": {
+  "pn": "tuan2",
+  "py": "tuán",
+  "fr": [
+   "groupe ; troupe",
+   "boule"
+  ]
+ },
+ "世纪": {
+  "pn": "shi4 ji4",
+  "py": "shì jì",
+  "fr": [
+   "siècle"
+  ]
+ },
+ "制造": {
+  "pn": "zhi4 zao4",
+  "py": "zhì zào",
+  "fr": [
+   "fabriquer ; produire",
+   "créer (problème)"
+  ]
+ },
+ "紧": {
+  "pn": "jin3",
+  "py": "jǐn",
+  "fr": [
+   "serré ; tendu",
+   "urgent ; pressant"
+  ]
+ },
+ "对手": {
+  "pn": "dui4 shou3",
+  "py": "duì shǒu",
+  "fr": [
+   "adversaire ; rival"
+  ]
+ },
+ "证": {
+  "pn": "zheng4",
+  "py": "zhèng",
+  "fr": [
+   "certificat ; carte (papiers)",
+   "prouver"
+  ]
+ },
+ "不得不": {
+  "pn": "bu4 de2 bu4",
+  "py": "bù dé bù",
+  "fr": [
+   "être obligé de ; ne pas pouvoir ne pas"
+  ]
+ },
+ "当地": {
+  "pn": "dang1 di4",
+  "py": "dāng dì",
+  "fr": [
+   "local ; sur place"
+  ]
+ },
+ "大概": {
+  "pn": "da4 gai4",
+  "py": "dà gài",
+  "fr": [
+   "probablement",
+   "environ",
+   "grosso modo"
+  ]
+ },
+ "演": {
+  "pn": "yan3",
+  "py": "yǎn",
+  "fr": [
+   "jouer (un rôle)",
+   "représenter"
+  ]
+ },
+ "顿": {
+  "pn": "dun4",
+  "py": "dùn",
+  "fr": [
+   "(classificateur : repas, coups)",
+   "s'arrêter ; pause"
+  ]
+ },
+ "共同": {
+  "pn": "gong4 tong2",
+  "py": "gòng tóng",
+  "fr": [
+   "commun",
+   "ensemble"
+  ]
+ },
+ "杂志": {
+  "pn": "za2 zhi4",
+  "py": "zá zhì",
+  "fr": [
+   "magazine ; revue"
+  ]
+ },
+ "停止": {
+  "pn": "ting2 zhi3",
+  "py": "tíng zhǐ",
+  "fr": [
+   "arrêter ; cesser"
+  ]
+ },
+ "文化": {
+  "pn": "wen2 hua4",
+  "py": "wén huà",
+  "fr": [
+   "culture",
+   "culturel"
+  ]
+ },
+ "具体": {
+  "pn": "ju4 ti3",
+  "py": "jù tǐ",
+  "fr": [
+   "concret ; précis"
+  ]
+ },
+ "合": {
+  "pn": "he2",
+  "py": "hé",
+  "fr": [
+   "fermer",
+   "unir ; s'associer",
+   "convenir (合适)"
+  ]
+ },
+ "演员": {
+  "pn": "yan3 yuan2",
+  "py": "yǎn yuán",
+  "fr": [
+   "acteur ; actrice"
+  ]
+ },
+ "周围": {
+  "pn": "zhou1 wei2",
+  "py": "zhōu wéi",
+  "fr": [
+   "autour ; alentours"
+  ]
+ },
+ "奇怪": {
+  "pn": "qi2 guai4",
+  "py": "qí guài",
+  "fr": [
+   "bizarre ; étrange",
+   "s'étonner"
+  ]
+ },
+ "复杂": {
+  "pn": "fu4 za2",
+  "py": "fù zá",
+  "fr": [
+   "compliqué ; complexe"
+  ]
+ },
+ "表达": {
+  "pn": "biao3 da2",
+  "py": "biǎo dá",
+  "fr": [
+   "exprimer"
+  ]
+ },
+ "胜": {
+  "pn": "sheng4",
+  "py": "shèng",
+  "fr": [
+   "vaincre ; gagner",
+   "victoire"
+  ]
+ },
+ "慢慢": {
+  "pn": "man4 man4",
+  "py": "màn màn",
+  "fr": [
+   "lentement ; peu à peu"
+  ]
+ },
+ "压": {
+  "pn": "ya1",
+  "py": "yā",
+  "fr": [
+   "appuyer ; presser",
+   "opprimer ; réprimer"
+  ]
+ },
+ "确保": {
+  "pn": "que4 bao3",
+  "py": "què bǎo",
+  "fr": [
+   "assurer ; garantir"
+  ]
+ },
+ "建": {
+  "pn": "jian4",
+  "py": "jiàn",
+  "fr": [
+   "construire",
+   "fonder"
+  ]
+ },
+ "队员": {
+  "pn": "dui4 yuan2",
+  "py": "duì yuán",
+  "fr": [
+   "membre d'une équipe ; équipier"
+  ]
+ },
+ "足够": {
+  "pn": "zu2 gou4",
+  "py": "zú gòu",
+  "fr": [
+   "suffisant ; assez"
+  ]
+ },
+ "布": {
+  "pn": "bu4",
+  "py": "bù",
+  "fr": [
+   "tissu ; toile",
+   "annoncer ; disposer"
+  ]
+ },
+ "采取": {
+  "pn": "cai3 qu3",
+  "py": "cǎi qǔ",
+  "fr": [
+   "prendre (mesures) ; adopter"
+  ]
+ },
+ "意外": {
+  "pn": "yi4 wai4",
+  "py": "yì wài",
+  "fr": [
+   "inattendu",
+   "accident ; imprévu"
+  ]
+ },
+ "风险": {
+  "pn": "feng1 xian3",
+  "py": "fēng xiǎn",
+  "fr": [
+   "risque"
+  ]
+ },
+ "时刻": {
+  "pn": "shi2 ke4",
+  "py": "shí kè",
+  "fr": [
+   "moment",
+   "à tout moment"
+  ]
+ },
+ "断": {
+  "pn": "duan4",
+  "py": "duàn",
+  "fr": [
+   "casser ; couper",
+   "interrompre"
+  ]
+ },
+ "观察": {
+  "pn": "guan1 cha2",
+  "py": "guān chá",
+  "fr": [
+   "observer",
+   "observation"
+  ]
+ },
+ "千万": {
+  "pn": "qian1 wan4",
+  "py": "qiān wàn",
+  "fr": [
+   "surtout ; absolument (ne pas)",
+   "dix millions"
+  ]
+ },
+ "钟": {
+  "pn": "zhong1",
+  "py": "zhōng",
+  "fr": [
+   "horloge ; pendule",
+   "heure (… 点钟)",
+   "cloche"
+  ]
+ },
+ "接近": {
+  "pn": "jie1 jin4",
+  "py": "jiē jìn",
+  "fr": [
+   "s'approcher de ; proche de"
+  ]
+ },
+ "重大": {
+  "pn": "zhong4 da4",
+  "py": "zhòng dà",
+  "fr": [
+   "important ; majeur"
+  ]
+ },
+ "表明": {
+  "pn": "biao3 ming2",
+  "py": "biǎo míng",
+  "fr": [
+   "montrer ; indiquer clairement"
+  ]
+ },
+ "持续": {
+  "pn": "chi2 xu4",
+  "py": "chí xù",
+  "fr": [
+   "continuer ; durer"
+  ]
+ },
+ "具有": {
+  "pn": "ju4 you3",
+  "py": "jù yǒu",
+  "fr": [
+   "avoir ; posséder"
+  ]
+ },
+ "和平": {
+  "pn": "he2 ping2",
+  "py": "hé píng",
+  "fr": [
+   "paix",
+   "pacifique"
+  ]
+ },
+ "板": {
+  "pn": "ban3",
+  "py": "bǎn",
+  "fr": [
+   "planche ; plaque",
+   "tableau"
+  ]
+ },
+ "发表": {
+  "pn": "fa1 biao3",
+  "py": "fā biǎo",
+  "fr": [
+   "publier",
+   "exprimer (opinion)"
+  ]
+ },
+ "修": {
+  "pn": "xiu1",
+  "py": "xiū",
+  "fr": [
+   "réparer",
+   "construire"
+  ]
+ },
+ "相关": {
+  "pn": "xiang1 guan1",
+  "py": "xiāng guān",
+  "fr": [
+   "lié ; en rapport"
+  ]
+ },
+ "价格": {
+  "pn": "jia4 ge2",
+  "py": "jià gé",
+  "fr": [
+   "prix"
+  ]
+ },
+ "旧": {
+  "pn": "jiu4",
+  "py": "jiù",
+  "fr": [
+   "vieux ; usé",
+   "ancien"
+  ]
+ },
+ "简直": {
+  "pn": "jian3 zhi2",
+  "py": "jiǎn zhí",
+  "fr": [
+   "carrément ; tout simplement"
+  ]
+ },
+ "退": {
+  "pn": "tui4",
+  "py": "tuì",
+  "fr": [
+   "reculer",
+   "rendre ; rembourser",
+   "se retirer"
+  ]
+ },
+ "强大": {
+  "pn": "qiang2 da4",
+  "py": "qiáng dà",
+  "fr": [
+   "puissant ; fort"
+  ]
+ },
+ "证据": {
+  "pn": "zheng4 ju4",
+  "py": "zhèng jù",
+  "fr": [
+   "preuve"
+  ]
+ },
+ "交流": {
+  "pn": "jiao1 liu2",
+  "py": "jiāo liú",
+  "fr": [
+   "échanger ; communiquer",
+   "échange"
+  ]
+ },
+ "幸运": {
+  "pn": "xing4 yun4",
+  "py": "xìng yùn",
+  "fr": [
+   "chanceux",
+   "chance"
+  ]
+ },
+ "制作": {
+  "pn": "zhi4 zuo4",
+  "py": "zhì zuò",
+  "fr": [
+   "fabriquer ; réaliser"
+  ]
+ },
+ "教练": {
+  "pn": "jiao4 lian4",
+  "py": "jiào liàn",
+  "fr": [
+   "entraîneur ; coach",
+   "moniteur"
+  ]
+ },
+ "付": {
+  "pn": "fu4",
+  "py": "fù",
+  "fr": [
+   "payer"
+  ]
+ },
+ "公开": {
+  "pn": "gong1 kai1",
+  "py": "gōng kāi",
+  "fr": [
+   "public ; ouvert",
+   "rendre public"
+  ]
+ },
+ "资金": {
+  "pn": "zi1 jin1",
+  "py": "zī jīn",
+  "fr": [
+   "fonds ; capital"
+  ]
+ },
+ "员工": {
+  "pn": "yuan2 gong1",
+  "py": "yuán gōng",
+  "fr": [
+   "employé ; personnel"
+  ]
+ },
+ "全球": {
+  "pn": "quan2 qiu2",
+  "py": "quán qiú",
+  "fr": [
+   "monde entier",
+   "mondial"
+  ]
+ },
+ "升": {
+  "pn": "sheng1",
+  "py": "shēng",
+  "fr": [
+   "monter ; s'élever",
+   "litre"
+  ]
+ },
+ "经营": {
+  "pn": "jing1 ying2",
+  "py": "jīng yíng",
+  "fr": [
+   "gérer ; exploiter (une affaire)"
+  ]
+ },
+ "困": {
+  "pn": "kun4",
+  "py": "kùn",
+  "fr": [
+   "avoir sommeil ; fatigué",
+   "piéger ; encercler"
+  ]
+ },
+ "初": {
+  "pn": "chu1",
+  "py": "chū",
+  "fr": [
+   "début",
+   "premier ; élémentaire"
+  ]
+ },
+ "员": {
+  "pn": "yuan2",
+  "py": "yuán",
+  "fr": [
+   "(suffixe : employé, membre)"
+  ]
+ },
+ "立刻": {
+  "pn": "li4 ke4",
+  "py": "lì kè",
+  "fr": [
+   "immédiatement ; aussitôt"
+  ]
+ },
+ "实验": {
+  "pn": "shi2 yan4",
+  "py": "shí yàn",
+  "fr": [
+   "expérience (scientifique)",
+   "expérimenter"
+  ]
+ },
+ "取消": {
+  "pn": "qu3 xiao1",
+  "py": "qǔ xiāo",
+  "fr": [
+   "annuler ; supprimer"
+  ]
+ },
+ "通常": {
+  "pn": "tong1 chang2",
+  "py": "tōng cháng",
+  "fr": [
+   "d'habitude ; en général",
+   "habituel"
+  ]
+ },
+ "对象": {
+  "pn": "dui4 xiang4",
+  "py": "duì xiàng",
+  "fr": [
+   "cible ; objet",
+   "petit(e) ami(e)"
+  ]
+ },
+ "浪费": {
+  "pn": "lang4 fei4",
+  "py": "làng fèi",
+  "fr": [
+   "gaspiller",
+   "gaspillage"
+  ]
+ },
+ "合理": {
+  "pn": "he2 li3",
+  "py": "hé lǐ",
+  "fr": [
+   "raisonnable ; rationnel"
+  ]
+ },
+ "任": {
+  "pn": "ren4",
+  "py": "rèn",
+  "fr": [
+   "occuper (un poste) ; nommer",
+   "laisser faire"
+  ]
+ },
+ "香": {
+  "pn": "xiang1",
+  "py": "xiāng",
+  "fr": [
+   "parfumé ; qui sent bon",
+   "savoureux"
+  ]
+ },
+ "成熟": {
+  "pn": "cheng2 shu2",
+  "py": "chéng shú",
+  "fr": [
+   "mûr ; mature",
+   "mûrir"
+  ]
+ },
+ "文章": {
+  "pn": "wen2 zhang1",
+  "py": "wén zhāng",
+  "fr": [
+   "article ; texte"
+  ]
+ },
+ "信任": {
+  "pn": "xin4 ren4",
+  "py": "xìn rèn",
+  "fr": [
+   "faire confiance",
+   "confiance"
+  ]
+ },
+ "反正": {
+  "pn": "fan3 zheng4",
+  "py": "fǎn zhèng",
+  "fr": [
+   "de toute façon ; en tout cas"
+  ]
+ },
+ "内心": {
+  "pn": "nei4 xin1",
+  "py": "nèi xīn",
+  "fr": [
+   "cœur ; for intérieur"
+  ]
+ },
+ "发出": {
+  "pn": "fa1 chu1",
+  "py": "fā chū",
+  "fr": [
+   "émettre (son, lumière)",
+   "envoyer"
+  ]
+ },
+ "赶紧": {
+  "pn": "gan3 jin3",
+  "py": "gǎn jǐn",
+  "fr": [
+   "vite ; sans tarder"
+  ]
+ },
+ "进一步": {
+  "pn": "jin4 yi1 bu4",
+  "py": "jìn yī bù",
+  "fr": [
+   "davantage ; plus avant"
+  ]
+ },
+ "费": {
+  "pn": "fei4",
+  "py": "fèi",
+  "fr": [
+   "frais ; dépense",
+   "coûter ; dépenser"
+  ]
+ },
+ "防": {
+  "pn": "fang2",
+  "py": "fáng",
+  "fr": [
+   "se protéger de ; prévenir"
+  ]
+ },
+ "舞台": {
+  "pn": "wu3 tai2",
+  "py": "wǔ tái",
+  "fr": [
+   "scène (de théâtre)"
+  ]
+ },
+ "化": {
+  "pn": "hua4",
+  "py": "huà",
+  "fr": [
+   "transformer ; changer",
+   "fondre",
+   "(suffixe : -isation)"
+  ]
+ },
+ "不必": {
+  "pn": "bu4 bi4",
+  "py": "bù bì",
+  "fr": [
+   "pas besoin de ; inutile de"
+  ]
+ },
+ "现金": {
+  "pn": "xian4 jin1",
+  "py": "xiàn jīn",
+  "fr": [
+   "argent liquide ; espèces"
+  ]
+ },
+ "调整": {
+  "pn": "tiao2 zheng3",
+  "py": "tiáo zhěng",
+  "fr": [
+   "ajuster ; régler",
+   "ajustement"
+  ]
+ },
+ "糖": {
+  "pn": "tang2",
+  "py": "táng",
+  "fr": [
+   "sucre",
+   "bonbon"
+  ]
+ },
+ "阳光": {
+  "pn": "yang2 guang1",
+  "py": "yáng guāng",
+  "fr": [
+   "soleil ; lumière du soleil",
+   "rayonnant (personnalité)"
+  ]
+ },
+ "领": {
+  "pn": "ling3",
+  "py": "lǐng",
+  "fr": [
+   "mener ; guider",
+   "recevoir ; percevoir",
+   "col"
+  ]
+ },
+ "紧急": {
+  "pn": "jin3 ji2",
+  "py": "jǐn jí",
+  "fr": [
+   "urgent",
+   "urgence"
+  ]
+ },
+ "宣传": {
+  "pn": "xuan1 chuan2",
+  "py": "xuān chuán",
+  "fr": [
+   "promouvoir ; faire connaître",
+   "propagande"
+  ]
+ },
+ "优势": {
+  "pn": "you1 shi4",
+  "py": "yōu shì",
+  "fr": [
+   "avantage ; supériorité"
+  ]
+ },
+ "互相": {
+  "pn": "hu4 xiang1",
+  "py": "hù xiāng",
+  "fr": [
+   "mutuellement ; l'un l'autre"
+  ]
+ },
+ "科技": {
+  "pn": "ke1 ji4",
+  "py": "kē jì",
+  "fr": [
+   "science et technologie"
+  ]
+ },
+ "导演": {
+  "pn": "dao3 yan3",
+  "py": "dǎo yǎn",
+  "fr": [
+   "réalisateur ; metteur en scène",
+   "réaliser"
+  ]
+ },
+ "印象": {
+  "pn": "yin4 xiang4",
+  "py": "yìn xiàng",
+  "fr": [
+   "impression"
+  ]
+ },
+ "烟": {
+  "pn": "yan1",
+  "py": "yān",
+  "fr": [
+   "fumée",
+   "cigarette ; tabac"
+  ]
+ },
+ "生意": {
+  "pn": "sheng1 yi5",
+  "py": "shēng yi",
+  "fr": [
+   "affaires ; commerce"
+  ]
+ },
+ "赶": {
+  "pn": "gan3",
+  "py": "gǎn",
+  "fr": [
+   "se dépêcher",
+   "attraper (train)",
+   "chasser"
+  ]
+ },
+ "存": {
+  "pn": "cun2",
+  "py": "cún",
+  "fr": [
+   "conserver ; garder",
+   "déposer (argent)"
+  ]
+ },
+ "评价": {
+  "pn": "ping2 jia4",
+  "py": "píng jià",
+  "fr": [
+   "évaluer ; juger",
+   "évaluation"
+  ]
+ },
+ "桥": {
+  "pn": "qiao2",
+  "py": "qiáo",
+  "fr": [
+   "pont"
+  ]
+ },
+ "迷": {
+  "pn": "mi2",
+  "py": "mí",
+  "fr": [
+   "fan ; passionné",
+   "se perdre (迷路)",
+   "fasciner"
+  ]
+ },
+ "形象": {
+  "pn": "xing2 xiang4",
+  "py": "xíng xiàng",
+  "fr": [
+   "image",
+   "vivant ; expressif"
+  ]
+ },
+ "上去": {
+  "pn": "shang4 qu4",
+  "py": "shàng qù",
+  "fr": [
+   "monter (là-haut)",
+   "(après verbe) vers le haut"
+  ]
+ },
+ "仅仅": {
+  "pn": "jin3 jin3",
+  "py": "jǐn jǐn",
+  "fr": [
+   "seulement ; uniquement"
+  ]
+ }
+}
