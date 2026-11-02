@@ -5,6 +5,7 @@ import { call } from '../api';
 import { AudioButton, ErrorBox, Loading, ProgressBar, speak, useKeys } from '../components/common';
 import { StrokeAnimator, type StrokeAnimatorHandle } from '../components/StrokeAnimator';
 import { CharNotes } from '../components/WordPopup';
+import { CharCard } from '../components/CharCard';
 import { useNav } from '../App';
 import type { CharInfo, Grade } from '../../shared/types';
 
@@ -194,6 +195,8 @@ function CharDrill({ items, onDone }: { items: CharItem[]; onDone: () => void })
       '2': () => phase === 'compare' && grade(2),
       '3': () => phase === 'compare' && grade(3),
       '4': () => phase === 'compare' && grade(4),
+      // réécouter le mot (la fiche du caractère a aussi son propre bouton 🔊 en phase « observe »)
+      r: () => item && speak(item.words[0]?.w ?? item.char.c),
     },
     [phase, idx],
   );
@@ -219,15 +222,23 @@ function CharDrill({ items, onDone }: { items: CharItem[]; onDone: () => void })
                 <button className="btn btn-sm" onClick={() => anim.current?.nextStroke()}>Trait suivant <span className="kbd">Espace</span></button>
               </div>
             </div>
-            <div className="col" style={{ flex: 1 }}>
-              <CharNotes c={c} />
-              <div className="small muted">{c.n} traits</div>
-              {item.words.length > 0 && (
-                <div className="small">
-                  Dans : {item.words.map((w) => <span key={w.w} className="hanzi" style={{ marginRight: 10, fontSize: 18 }}>{w.w}</span>)}
-                </div>
+            <div className="col" style={{ flex: 1, minWidth: 0 }}>
+              {phase === 'observe' ? (
+                // fiche illustrée (dessin derrière le caractère, origine, composants) à côté de l'animation
+                <CharCard char={c.c} compact showVideo={false} />
+              ) : (
+                <>
+                  <CharNotes c={c} />
+                  <div className="small muted">{c.n} traits</div>
+                  {item.words.length > 0 && (
+                    <div className="small">
+                      Dans : {item.words.map((w) => <span key={w.w} className="hanzi" style={{ marginRight: 10, fontSize: 18 }}>{w.w}</span>)}
+                    </div>
+                  )}
+                </>
               )}
-              <div className="row"><AudioButton text={hintWord?.w ?? c.c} size="sm" /></div>
+              {/* en phase « observe », la CharCard porte déjà le bouton audio : pas de doublon orphelin */}
+              {phase !== 'observe' && <div className="row"><AudioButton text={hintWord?.w ?? c.c} size="sm" /></div>}
               <div style={{ height: 10 }} />
               {phase === 'observe' && (
                 <div className="col">

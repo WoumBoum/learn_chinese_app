@@ -4,7 +4,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { convert, pinyin } from 'pinyin-pro';
 import { call } from '../api';
-import { ErrorBox, Loading, playFile, toast, useKeys } from '../components/common';
+import { ErrorBox, Loading, playFile, toast, useKeys, type SpokenAudio } from '../components/common';
 import { PitchCompare } from '../components/PitchCompare';
 import { useNav } from '../App';
 
@@ -13,6 +13,7 @@ type TabId = 'tons' | 'pinyin' | 'ecoute' | 'shadow';
 interface DrillWord {
   w: string;
   py: string;
+  pn?: string;
   tones: number[];
   heard: number[];
   fr: string;
@@ -33,10 +34,20 @@ interface ShadowItem {
 
 // ---------- audio ----------
 let playing = Promise.resolve();
-/** Prononce `text` (voix locale) ; `slow` = débit ralenti (synthèse lente, pas d'accélération artificielle). */
-async function say(text: string, slow = false): Promise<void> {
-  const r = await call<{ path: string } | null>('tts:speak', text, slow ? { slow: true } : undefined);
-  if (r) await playFile(r.path);
+const SLOW_RATE = 0.75;
+interface SayOpts {
+  slow?: boolean;
+  /** pinyin numérique (lecture voulue ; syllabe native) */
+  pn?: string;
+  /** caractère seul : enregistrement de la syllabe isolée */
+  syllable?: boolean;
+}
+/** Prononce `text` (voix native si disponible, sinon synthèse locale). Lent = lecture ralentie (hauteur conservée) :
+ *  la synthèse ralentie dégrade l'intelligibilité (docs/tts-bench.md). */
+async function say(text: string, o: boolean | SayOpts = false): Promise<void> {
+  const { slow = false, ...rest } = typeof o === 'boolean' ? { slow: o } : o;
+  const r = await call<SpokenAudio | null>('tts:speak', text, rest.pn || rest.syllable ? rest : undefined).catch(() => null);
+  if (r) await playFile(r.path, slow ? SLOW_RATE : 1);
 }
 /** Joue une suite de syllabes avec une courte pause. */
 function sayAll(items: string[], gapMs = 350): Promise<void> {
@@ -875,14 +886,14 @@ function SingleToneDrill({ onAnswer }: { onAnswer: (ok: boolean) => void }) {
   const it = d.items?.[d.i];
   useEffect(() => {
     setPicked(null);
-    if (it) say(it.w);
+    if (it) say(it.w, syl(it));
   }, [it]);
   const pick = (t: number) => {
     if (!it || picked != null) return;
     setPicked(t);
     onAnswer(it.heard[0] === t);
   };
-  useKeys({ '1': () => pick(1), '2': () => pick(2), '3': () => pick(3), '4': () => pick(4), r: () => it && say(it.w), Enter: () => picked != null && d.next(), Space: () => picked != null && d.next() }, [it, picked]);
+  useKeys({ '1': () => pick(1), '2': () => pick(2), '3': () => pick(3), '4': () => pick(4), r: () => it && say(it.w, syl(it)), Enter: () => picked != null && d.next(), Space: () => picked != null && d.next() }, [it, picked]);
   if (d.error) return <ErrorBox error={d.error} />;
   if (!d.items) return <Loading text="Préparation des syllabes…" />;
   if (!d.items.length) return <div className="empty">Aucune syllabe disponible.</div>;
@@ -893,8 +904,8 @@ function SingleToneDrill({ onAnswer }: { onAnswer: (ok: boolean) => void }) {
         Syllabe {d.i + 1}/{d.items.length} — quel ton entends-tu ?
       </div>
       <div className="row">
-        <button className="btn btn-lg" onClick={() => say(it.w)}>🔊 Réécouter <span className="kbd">R</span></button>
-        <button className="btn" onClick={() => say(it.w, true)}>🐢 Lent</button>
+        <button className="btn btn-lg" onClick={() => say(it.w, syl(it))}>🔊 Réécouter <span className="kbd">R</span></button>
+        <button className="btn" onClick={() => say(it.w, { ...syl(it), slow: true })}>🐢 Lent</button>
       </div>
       <ToneButtons choices={[1, 2, 3, 4]} picked={picked} answer={[it.heard[0]]} onPick={pick} keys />
       {picked != null && (
@@ -907,6 +918,8 @@ function SingleToneDrill({ onAnswer }: { onAnswer: (ok: boolean) => void }) {
             <span className="pinyin">{it.py}</span>
             <span className="muted">{it.fr}</span>
           </div>
+          <div className="small dim">À toi : répète la syllabe et compare ta courbe à celle de la voix native.</div>
+          <PitchCompare key={it.w} text={it.w} pn={it.pn} syllable compact />
           <button className="btn btn-primary" onClick={d.next}>
             Suivant <span className="kbd">Entrée</span>
           </button>
@@ -915,6 +928,8 @@ function SingleToneDrill({ onAnswer }: { onAnswer: (ok: boolean) => void }) {
     </div>
   );
 }
+/** Référence d'un exercice d'une syllabe : l'enregistrement natif de la syllabe (pinyin du programme). */
+const syl = (it: DrillWord): SayOpts => (it.pn ? { pn: it.pn, syllable: true } : {});
 
 const COMBOS_2 = [1, 2, 3, 4, 5];
 function TonePairDrill({ onAnswer }: { onAnswer: (ok: boolean) => void }) {
@@ -977,6 +992,7 @@ function TonePairDrill({ onAnswer }: { onAnswer: (ok: boolean) => void }) {
                   Sandhi : on écrit <strong>{it.py}</strong> mais on prononce <strong>{setTones(it.py, it.heard)}</strong> (3e + 3e → 2e + 3e). Les deux réponses sont acceptées.
                 </div>
               )}
+              <PitchCompare key={it.w} text={it.w} compact />
               <button className="btn btn-primary" onClick={d.next}>
                 Suivant <span className="kbd">Entrée</span>
               </button>

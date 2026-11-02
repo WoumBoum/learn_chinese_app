@@ -9,6 +9,7 @@ import { analyseCoverage } from '../../core/coverage';
 import { isHan, normZh, segment } from '../../core/nlp';
 import { DAY_MS } from '../../core/time';
 import type { PreteachWord, Settings, Token } from '../../shared/types';
+import { validateAiPick } from '../../core/wordVideos';
 
 // ---------------------------------------------------------------- LLM client abstraction
 export interface LlmMessage {
@@ -264,6 +265,18 @@ export interface ConfusionReport {
   pairs: { a: string; b: string; explanation: string }[];
   drills: { type: 'cloze'; zh: string; options: string[]; answer: string; fr: string }[];
   failed: { w: string; count: number; faces: string[] }[];
+}
+
+export interface WordVideoCandidate {
+  id: string;
+  title: string;
+  channel?: string;
+  duration?: number;
+}
+export interface WordVideoPick {
+  id: string;
+  startSec: number | null;
+  reason: string;
 }
 
 export interface AiDeps {
@@ -937,5 +950,30 @@ export class AiService {
       },
     });
     return { ...r, failed };
+  }
+
+  // ================================================================ choix de la vidéo YouTube d'un mot / caractère
+  /** Choisit parmi des candidats (titres de vidéos) celle qui convient le mieux ; id validé parmi les candidats. */
+  async pickWordVideo(target: string, slot: 'usage' | 'etymology', candidates: WordVideoCandidate[]): Promise<WordVideoPick> {
+    this.llm();
+    const cands = candidates.filter((c) => c && c.id).slice(0, 10);
+    need(cands.length > 0, 'aucun candidat');
+    const what =
+      slot === 'etymology'
+        ? `le caractère ${target} : la vidéo doit EXPLIQUER SON ORIGINE (forme ancienne, pictogramme, composants, évolution), pas seulement l'ordre des traits`
+        : `le mot ${target} : la vidéo doit PRÉSENTER CE MOT et l'UTILISER EN CONTEXTE (phrases d'exemple, prononciation, sens)`;
+    const system = [
+      "Tu choisis une vidéo YouTube pour un apprenant francophone débutant en chinois, d'après les titres, chaînes et durées des candidats (tu ne peux pas voir les vidéos).",
+      `Cible : ${what}.`,
+      "Critères, dans l'ordre : 1) la vidéo porte sur cette cible précise (pas sur un autre mot qui la contient, pas une liste de nombreux caractères) ; 2) elle correspond à l'objectif ci-dessus ; 3) elle convient à un débutant francophone (explications en français ou en anglais simple, durée courte de 1 à 7 min, pas d'examen ni de podcast).",
+      "Un titre en caractères traditionnels peut tout à fait concerner la cible simplifiée (覺 = 觉).",
+      "startSec : le moment (en secondes) où commence la partie utile, UNIQUEMENT si le titre ou la durée le justifient clairement (ex. compilation) ; sinon null.",
+      'reason : une phrase en français.',
+      'Schéma : {"id":"<id exact d\'un candidat>","startSec":<entier>|null,"reason":"…"}',
+    ].join('\n');
+    const user = cands
+      .map((c, i) => `${i + 1}. id=${c.id} · chaîne : ${c.channel || '?'} · durée : ${c.duration ? `${Math.round(c.duration)} s` : '?'} · titre : ${c.title}`)
+      .join('\n');
+    return this.askJson({ task: 'pickWordVideo', system, user, maxTokens: 1500, validate: (x) => validateAiPick(x, cands) });
   }
 }

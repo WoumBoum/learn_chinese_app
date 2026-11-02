@@ -1,0 +1,4856 @@
+[
+ {
+  "char": "的",
+  "pinyin": [
+   "de"
+  ],
+  "fr": [
+   "(particule de possession / de détermination)",
+   "de (… de qqn)"
+  ],
+  "en_def": "aim, goal; of; possessive particle; -self suffix",
+  "decomposition": "⿰白勺",
+  "radical": "白",
+  "etymology": null,
+  "strokes": 8,
+  "words": [
+   {
+    "w": "的",
+    "fr": [
+     "(particule de possession / de détermination)",
+     "de (… de qqn)"
+    ]
+   },
+   {
+    "w": "别的",
+    "fr": [
+     "autre"
+    ]
+   },
+   {
+    "w": "真的",
+    "fr": [
+     "vraiment",
+     "vrai"
+    ]
+   },
+   {
+    "w": "有的",
+    "fr": [
+     "certains ; quelques-uns"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "了",
+  "pinyin": [
+   "le",
+   "liǎo"
+  ],
+  "fr": [
+   "(particule : action accomplie / changement)",
+   "(liǎo) finir ; comprendre"
+  ],
+  "en_def": "clear; to finish; particle of completed action",
+  "decomposition": "⿱乛亅",
+  "radical": "亅",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "A child swaddled in blanklets; compare 子"
+  },
+  "strokes": 2,
+  "words": [
+   {
+    "w": "了",
+    "fr": [
+     "(particule : action accomplie / changement)",
+     "(liǎo) finir ; comprendre"
+    ]
+   },
+   {
+    "w": "为了",
+    "fr": [
+     "pour ; afin de"
+    ]
+   },
+   {
+    "w": "极了",
+    "fr": [
+     "extrêmement (après adjectif)"
+    ]
+   },
+   {
+    "w": "除了",
+    "fr": [
+     "sauf ; à part",
+     "en plus de"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "我",
+  "pinyin": [
+   "wǒ"
+  ],
+  "fr": [
+   "je",
+   "moi"
+  ],
+  "en_def": "I, me, my; our, us",
+  "decomposition": "⿰扌戈",
+  "radical": "戈",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A hand 扌 holding a weapon 戈"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "我",
+    "fr": [
+     "je",
+     "moi"
+    ]
+   },
+   {
+    "w": "我们",
+    "fr": [
+     "nous"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "是",
+  "pinyin": [
+   "shì"
+  ],
+  "fr": [
+   "être",
+   "oui ; c'est exact"
+  ],
+  "en_def": "to be; indeed, right, yes; okay",
+  "decomposition": "⿱日疋",
+  "radical": "日",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "To speak 日 directly 疋"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "是",
+    "fr": [
+     "être",
+     "oui ; c'est exact"
+    ]
+   },
+   {
+    "w": "还是",
+    "fr": [
+     "ou (bien) (question)",
+     "toujours ; encore"
+    ]
+   },
+   {
+    "w": "是不是",
+    "fr": [
+     "est-ce que… ? ; n'est-ce pas ?"
+    ]
+   },
+   {
+    "w": "但是",
+    "fr": [
+     "mais ; cependant"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "你",
+  "pinyin": [
+   "nǐ"
+  ],
+  "fr": [
+   "tu",
+   "toi"
+  ],
+  "en_def": "you, second person pronoun",
+  "decomposition": "⿰亻尔",
+  "radical": "亻",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Pronoun 尔 for a person 亻"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "你",
+    "fr": [
+     "tu",
+     "toi"
+    ]
+   },
+   {
+    "w": "你们",
+    "fr": [
+     "vous (pluriel)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "在",
+  "pinyin": [
+   "zài"
+  ],
+  "fr": [
+   "être à (un lieu) ; se trouver",
+   "à ; dans",
+   "être en train de"
+  ],
+  "en_def": "at, in, on; to exist; used to indicate the present progressive tense",
+  "decomposition": "⿸才土",
+  "radical": "土",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "才",
+   "semantic": "土",
+   "hint": "earth"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "在",
+    "fr": [
+     "être à (un lieu) ; se trouver",
+     "à ; dans"
+    ]
+   },
+   {
+    "w": "现在",
+    "fr": [
+     "maintenant",
+     "actuellement"
+    ]
+   },
+   {
+    "w": "正在",
+    "fr": [
+     "en train de"
+    ]
+   },
+   {
+    "w": "在家",
+    "fr": [
+     "être à la maison"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "不",
+  "pinyin": [
+   "bù"
+  ],
+  "fr": [
+   "ne… pas ; non"
+  ],
+  "en_def": "no, not, un-; negative prefix",
+  "decomposition": "⿱一？",
+  "radical": "一",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A bird flying toward the sky 一"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "不",
+    "fr": [
+     "ne… pas ; non"
+    ]
+   },
+   {
+    "w": "不用",
+    "fr": [
+     "pas la peine de ; inutile"
+    ]
+   },
+   {
+    "w": "对不起",
+    "fr": [
+     "pardon ; désolé",
+     "excusez-moi"
+    ]
+   },
+   {
+    "w": "不对",
+    "fr": [
+     "faux ; incorrect",
+     "anormal"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "有",
+  "pinyin": [
+   "yǒu"
+  ],
+  "fr": [
+   "avoir",
+   "il y a"
+  ],
+  "en_def": "to have, to own, to possess; to exist",
+  "decomposition": "⿸？月",
+  "radical": "月",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "月"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "有",
+    "fr": [
+     "avoir",
+     "il y a"
+    ]
+   },
+   {
+    "w": "没有",
+    "fr": [
+     "ne pas avoir ; il n'y a pas",
+     "ne pas (passé : ne… pas encore)"
+    ]
+   },
+   {
+    "w": "还有",
+    "fr": [
+     "en plus ; et aussi",
+     "il reste encore"
+    ]
+   },
+   {
+    "w": "有些",
+    "fr": [
+     "certains ; quelques",
+     "un peu"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "他",
+  "pinyin": [
+   "tā"
+  ],
+  "fr": [
+   "il",
+   "lui"
+  ],
+  "en_def": "other, another; he, she, it",
+  "decomposition": "⿰亻也",
+  "radical": "亻",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "An additional, \"also\" 也  person 亻"
+  },
+  "strokes": 5,
+  "words": [
+   {
+    "w": "他",
+    "fr": [
+     "il",
+     "lui"
+    ]
+   },
+   {
+    "w": "他们",
+    "fr": [
+     "ils ; eux"
+    ]
+   },
+   {
+    "w": "其他",
+    "fr": [
+     "autre ; les autres",
+     "le reste"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "这",
+  "pinyin": [
+   "zhè"
+  ],
+  "fr": [
+   "ce ; cet ; cette",
+   "ceci"
+  ],
+  "en_def": "this, these; such; here",
+  "decomposition": "⿺辶文",
+  "radical": "辶",
+  "etymology": null,
+  "strokes": 7,
+  "words": [
+   {
+    "w": "这",
+    "fr": [
+     "ce ; cet ; cette",
+     "ceci"
+    ]
+   },
+   {
+    "w": "这些",
+    "fr": [
+     "ces ; ceux-ci"
+    ]
+   },
+   {
+    "w": "这里",
+    "fr": [
+     "ici"
+    ]
+   },
+   {
+    "w": "这儿",
+    "fr": [
+     "ici"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "就",
+  "pinyin": [
+   "jiù"
+  ],
+  "fr": [
+   "alors ; dans ce cas",
+   "tout de suite ; déjà",
+   "justement ; seulement"
+  ],
+  "en_def": "just, simply; to go to; to approach, near",
+  "decomposition": "⿰京尤",
+  "radical": "尢",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "京",
+   "semantic": "尤",
+   "hint": "specialty"
+  },
+  "strokes": 12,
+  "words": [
+   {
+    "w": "就",
+    "fr": [
+     "alors ; dans ce cas",
+     "tout de suite ; déjà"
+    ]
+   },
+   {
+    "w": "就要",
+    "fr": [
+     "être sur le point de"
+    ]
+   },
+   {
+    "w": "早就",
+    "fr": [
+     "depuis longtemps déjà"
+    ]
+   },
+   {
+    "w": "就是",
+    "fr": [
+     "c'est justement ; exactement",
+     "seulement"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "个",
+  "pinyin": [
+   "gè"
+  ],
+  "fr": [
+   "(classificateur général)",
+   "individuel"
+  ],
+  "en_def": "this, that; single; measure word for individuals",
+  "decomposition": "⿱人丨",
+  "radical": "丨",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A tally 丨 of people 人"
+  },
+  "strokes": 3,
+  "words": [
+   {
+    "w": "个",
+    "fr": [
+     "(classificateur général)",
+     "individuel"
+    ]
+   },
+   {
+    "w": "个子",
+    "fr": [
+     "taille (d'une personne)"
+    ]
+   },
+   {
+    "w": "整个",
+    "fr": [
+     "tout entier ; tout le"
+    ]
+   },
+   {
+    "w": "个人",
+    "fr": [
+     "individu",
+     "personnel ; individuel"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "和",
+  "pinyin": [
+   "hé"
+  ],
+  "fr": [
+   "et ; avec"
+  ],
+  "en_def": "harmony, peace; calm, peaceful",
+  "decomposition": "⿰禾口",
+  "radical": "口",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "禾",
+   "semantic": "口",
+   "hint": "mouth"
+  },
+  "strokes": 8,
+  "words": [
+   {
+    "w": "和",
+    "fr": [
+     "et ; avec"
+    ]
+   },
+   {
+    "w": "和平",
+    "fr": [
+     "paix",
+     "pacifique"
+    ]
+   },
+   {
+    "w": "暖和",
+    "fr": [
+     "doux",
+     "tiède"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "人",
+  "pinyin": [
+   "rén"
+  ],
+  "fr": [
+   "personne ; homme",
+   "gens"
+  ],
+  "en_def": "man, person; people",
+  "decomposition": "？",
+  "radical": "人",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "The legs of a human being"
+  },
+  "strokes": 2,
+  "words": [
+   {
+    "w": "人",
+    "fr": [
+     "personne ; homme",
+     "gens"
+    ]
+   },
+   {
+    "w": "女人",
+    "fr": [
+     "femme"
+    ]
+   },
+   {
+    "w": "别人",
+    "fr": [
+     "les autres ; autrui"
+    ]
+   },
+   {
+    "w": "男人",
+    "fr": [
+     "homme"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "说",
+  "pinyin": [
+   "shuō"
+  ],
+  "fr": [
+   "dire ; parler",
+   "expliquer"
+  ],
+  "en_def": "to speak, to say; to scold, to upbraid",
+  "decomposition": "⿰讠兑",
+  "radical": "讠",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "兑",
+   "semantic": "讠",
+   "hint": "speech"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "说",
+    "fr": [
+     "dire ; parler",
+     "expliquer"
+    ]
+   },
+   {
+    "w": "说话",
+    "fr": [
+     "parler"
+    ]
+   },
+   {
+    "w": "说明",
+    "fr": [
+     "expliquer ; montrer",
+     "explication ; notice"
+    ]
+   },
+   {
+    "w": "听说",
+    "fr": [
+     "entendre dire (que)",
+     "il paraît que"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "们",
+  "pinyin": [
+   "men"
+  ],
+  "fr": [
+   "(suffixe du pluriel)"
+  ],
+  "en_def": "plural marker for pronouns and some nouns",
+  "decomposition": "⿰亻门",
+  "radical": "亻",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "门",
+   "semantic": "亻",
+   "hint": "people"
+  },
+  "strokes": 5,
+  "words": [
+   {
+    "w": "我们",
+    "fr": [
+     "nous"
+    ]
+   },
+   {
+    "w": "他们",
+    "fr": [
+     "ils ; eux"
+    ]
+   },
+   {
+    "w": "你们",
+    "fr": [
+     "vous (pluriel)"
+    ]
+   },
+   {
+    "w": "们",
+    "fr": [
+     "(suffixe du pluriel)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "要",
+  "pinyin": [
+   "yào"
+  ],
+  "fr": [
+   "vouloir",
+   "devoir ; falloir",
+   "aller (faire), être sur le point de"
+  ],
+  "en_def": "essential, necessary; to ask for; to coerce; to demand",
+  "decomposition": "⿱覀女",
+  "radical": "覀",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A woman 女 with hands on her waist 覀"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "要",
+    "fr": [
+     "vouloir",
+     "devoir ; falloir"
+    ]
+   },
+   {
+    "w": "重要",
+    "fr": [
+     "important"
+    ]
+   },
+   {
+    "w": "不要",
+    "fr": [
+     "ne… pas (impératif)",
+     "ne pas vouloir"
+    ]
+   },
+   {
+    "w": "要求",
+    "fr": [
+     "exiger ; demander",
+     "exigence"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "好",
+  "pinyin": [
+   "hǎo"
+  ],
+  "fr": [
+   "bon ; bien",
+   "d'accord !",
+   "(hào) aimer ; avoir le goût de"
+  ],
+  "en_def": "good, excellent, fine; proper, suitable; well",
+  "decomposition": "⿰女子",
+  "radical": "女",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A woman 女 with a son 子"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "好",
+    "fr": [
+     "bon ; bien",
+     "d'accord !"
+    ]
+   },
+   {
+    "w": "最好",
+    "fr": [
+     "le meilleur",
+     "il vaut mieux"
+    ]
+   },
+   {
+    "w": "好看",
+    "fr": [
+     "beau ; joli",
+     "intéressant (film, livre)"
+    ]
+   },
+   {
+    "w": "好吃",
+    "fr": [
+     "bon ; délicieux"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "一",
+  "pinyin": [
+   "yī"
+  ],
+  "fr": [
+   "un ; 1"
+  ],
+  "en_def": "one; a, an; alone",
+  "decomposition": "？",
+  "radical": "一",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Represents heaven (天), earth (旦), or the number 1"
+  },
+  "strokes": 1,
+  "words": [
+   {
+    "w": "一",
+    "fr": [
+     "un ; 1"
+    ]
+   },
+   {
+    "w": "一起",
+    "fr": [
+     "ensemble",
+     "avec"
+    ]
+   },
+   {
+    "w": "一些",
+    "fr": [
+     "quelques ; un peu de"
+    ]
+   },
+   {
+    "w": "一样",
+    "fr": [
+     "pareil ; identique",
+     "comme"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "会",
+  "pinyin": [
+   "huì"
+  ],
+  "fr": [
+   "savoir (faire) ; pouvoir",
+   "(futur probable) : il va…",
+   "réunion ; assemblée"
+  ],
+  "en_def": "to assemble, to meet; meeting; association, group",
+  "decomposition": "⿱人云",
+  "radical": "人",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "People 人 speaking 云"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "会",
+    "fr": [
+     "savoir (faire) ; pouvoir",
+     "(futur probable) : il va…"
+    ]
+   },
+   {
+    "w": "一会儿",
+    "fr": [
+     "un moment ; un instant",
+     "tout à l'heure"
+    ]
+   },
+   {
+    "w": "开会",
+    "fr": [
+     "tenir une réunion ; être en réunion"
+    ]
+   },
+   {
+    "w": "机会",
+    "fr": [
+     "occasion ; chance"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "也",
+  "pinyin": [
+   "yě"
+  ],
+  "fr": [
+   "aussi ; également"
+  ],
+  "en_def": "also, too",
+  "decomposition": "⿻？乚",
+  "radical": "乚",
+  "etymology": null,
+  "strokes": 3,
+  "words": [
+   {
+    "w": "也",
+    "fr": [
+     "aussi ; également"
+    ]
+   },
+   {
+    "w": "也许",
+    "fr": [
+     "peut-être"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "都",
+  "pinyin": [
+   "dōu"
+  ],
+  "fr": [
+   "tous ; tout",
+   "même ; déjà"
+  ],
+  "en_def": "all, each, entirely, whole; metropolis; capital",
+  "decomposition": "⿰者阝",
+  "radical": "阝",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "者",
+   "semantic": "阝",
+   "hint": "city"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "都",
+    "fr": [
+     "tous ; tout",
+     "même ; déjà"
+    ]
+   },
+   {
+    "w": "首都",
+    "fr": [
+     "capitale"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "对",
+  "pinyin": [
+   "duì"
+  ],
+  "fr": [
+   "correct ; juste",
+   "envers ; à l'égard de",
+   "face à"
+  ],
+  "en_def": "correct, right; facing, opposed",
+  "decomposition": "⿰又寸",
+  "radical": "寸",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A pair 又 of hands 寸"
+  },
+  "strokes": 5,
+  "words": [
+   {
+    "w": "对",
+    "fr": [
+     "correct ; juste",
+     "envers ; à l'égard de"
+    ]
+   },
+   {
+    "w": "对不起",
+    "fr": [
+     "pardon ; désolé",
+     "excusez-moi"
+    ]
+   },
+   {
+    "w": "不对",
+    "fr": [
+     "faux ; incorrect",
+     "anormal"
+    ]
+   },
+   {
+    "w": "对话",
+    "fr": [
+     "dialogue ; conversation",
+     "dialoguer"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "到",
+  "pinyin": [
+   "dào"
+  ],
+  "fr": [
+   "arriver ; atteindre",
+   "jusqu'à ; à"
+  ],
+  "en_def": "to go to, to arrive",
+  "decomposition": "⿰至刂",
+  "radical": "刂",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "刂",
+   "semantic": "至",
+   "hint": "arrive"
+  },
+  "strokes": 8,
+  "words": [
+   {
+    "w": "到",
+    "fr": [
+     "arriver ; atteindre",
+     "jusqu'à ; à"
+    ]
+   },
+   {
+    "w": "看到",
+    "fr": [
+     "voir ; apercevoir"
+    ]
+   },
+   {
+    "w": "找到",
+    "fr": [
+     "trouver"
+    ]
+   },
+   {
+    "w": "得到",
+    "fr": [
+     "obtenir ; recevoir"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "上",
+  "pinyin": [
+   "shàng"
+  ],
+  "fr": [
+   "monter ; sur ; dessus",
+   "précédent ; dernier",
+   "aller à (école, travail)"
+  ],
+  "en_def": "above, on top, superior; to go up; to attend; previous",
+  "decomposition": "⿱⺊一",
+  "radical": "一",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "One stroke on top of another; compare 下 (below)"
+  },
+  "strokes": 3,
+  "words": [
+   {
+    "w": "上",
+    "fr": [
+     "monter ; sur ; dessus",
+     "précédent ; dernier"
+    ]
+   },
+   {
+    "w": "身上",
+    "fr": [
+     "sur soi",
+     "sur le corps"
+    ]
+   },
+   {
+    "w": "晚上",
+    "fr": [
+     "soir",
+     "le soir"
+    ]
+   },
+   {
+    "w": "马上",
+    "fr": [
+     "tout de suite ; immédiatement"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "来",
+  "pinyin": [
+   "lái"
+  ],
+  "fr": [
+   "venir ; arriver",
+   "(verbe substitut : faire, prendre)"
+  ],
+  "en_def": "to arrive, to come, to return; in the future, later on",
+  "decomposition": "⿻未丷",
+  "radical": "木",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A wheat plant that has not yet borne fruit; compare 來"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "来",
+    "fr": [
+     "venir ; arriver",
+     "(verbe substitut : faire, prendre)"
+    ]
+   },
+   {
+    "w": "起来",
+    "fr": [
+     "se lever",
+     "(après verbe) commencer à ; avoir l'air"
+    ]
+   },
+   {
+    "w": "出来",
+    "fr": [
+     "sortir ; apparaître",
+     "(après verbe) sortir ; aboutir"
+    ]
+   },
+   {
+    "w": "回来",
+    "fr": [
+     "revenir ; rentrer"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "很",
+  "pinyin": [
+   "hěn"
+  ],
+  "fr": [
+   "très",
+   "(adverbe de degré)"
+  ],
+  "en_def": "very, quite, much",
+  "decomposition": "⿰彳艮",
+  "radical": "彳",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "艮",
+   "semantic": "彳",
+   "hint": "step"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "很",
+    "fr": [
+     "très",
+     "(adverbe de degré)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "还",
+  "pinyin": [
+   "hái"
+  ],
+  "fr": [
+   "encore ; toujours",
+   "en plus",
+   "(huán) rendre ; rembourser"
+  ],
+  "en_def": "also, besides; still, yet; to return",
+  "decomposition": "⿺辶不",
+  "radical": "辶",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Not 不 moving 辶"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "还",
+    "fr": [
+     "encore ; toujours",
+     "en plus"
+    ]
+   },
+   {
+    "w": "还有",
+    "fr": [
+     "en plus ; et aussi",
+     "il reste encore"
+    ]
+   },
+   {
+    "w": "还是",
+    "fr": [
+     "ou (bien) (question)",
+     "toujours ; encore"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "去",
+  "pinyin": [
+   "qù"
+  ],
+  "fr": [
+   "aller",
+   "partir ; quitter"
+  ],
+  "en_def": "to go away, to leave, to depart",
+  "decomposition": "⿱土厶",
+  "radical": "厶",
+  "etymology": null,
+  "strokes": 5,
+  "words": [
+   {
+    "w": "去",
+    "fr": [
+     "aller",
+     "partir ; quitter"
+    ]
+   },
+   {
+    "w": "出去",
+    "fr": [
+     "sortir"
+    ]
+   },
+   {
+    "w": "去年",
+    "fr": [
+     "l'année dernière"
+    ]
+   },
+   {
+    "w": "回去",
+    "fr": [
+     "rentrer ; retourner"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "她",
+  "pinyin": [
+   "tā"
+  ],
+  "fr": [
+   "elle"
+  ],
+  "en_def": "she, her",
+  "decomposition": "⿰女也",
+  "radical": "女",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A woman 女 beside you 也"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "她",
+    "fr": [
+     "elle"
+    ]
+   },
+   {
+    "w": "她们",
+    "fr": [
+     "elles"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "着",
+  "pinyin": [
+   "zhe"
+  ],
+  "fr": [
+   "(particule : action en cours / état)",
+   "(zháo) toucher ; atteindre"
+  ],
+  "en_def": "to make a move, to take action",
+  "decomposition": "⿸羊目",
+  "radical": "目",
+  "etymology": null,
+  "strokes": 11,
+  "words": [
+   {
+    "w": "着",
+    "fr": [
+     "(particule : action en cours / état)",
+     "(zháo) toucher ; atteindre"
+    ]
+   },
+   {
+    "w": "接着",
+    "fr": [
+     "ensuite ; puis",
+     "continuer"
+    ]
+   },
+   {
+    "w": "着急",
+    "fr": [
+     "s'inquiéter",
+     "s'impatienter"
+    ]
+   },
+   {
+    "w": "睡着",
+    "fr": [
+     "endormissement",
+     "(s') endormir"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "想",
+  "pinyin": [
+   "xiǎng"
+  ],
+  "fr": [
+   "penser ; réfléchir",
+   "vouloir ; avoir envie de",
+   "(se) manquer (qqn)"
+  ],
+  "en_def": "to believe, to wish for; to consider, to plan, to think",
+  "decomposition": "⿱相心",
+  "radical": "心",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "相",
+   "semantic": "心",
+   "hint": "mind"
+  },
+  "strokes": 13,
+  "words": [
+   {
+    "w": "想",
+    "fr": [
+     "penser ; réfléchir",
+     "vouloir ; avoir envie de"
+    ]
+   },
+   {
+    "w": "想到",
+    "fr": [
+     "penser à",
+     "s'attendre à"
+    ]
+   },
+   {
+    "w": "想法",
+    "fr": [
+     "idée ; opinion"
+    ]
+   },
+   {
+    "w": "想起",
+    "fr": [
+     "se rappeler ; se souvenir de"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "给",
+  "pinyin": [
+   "gěi"
+  ],
+  "fr": [
+   "donner",
+   "pour ; à"
+  ],
+  "en_def": "to give, to lend; for, by",
+  "decomposition": "⿰纟合",
+  "radical": "纟",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "合",
+   "semantic": "纟",
+   "hint": "thread"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "给",
+    "fr": [
+     "donner",
+     "pour ; à"
+    ]
+   },
+   {
+    "w": "交给",
+    "fr": [
+     "remettre à ; confier à"
+    ]
+   },
+   {
+    "w": "送给",
+    "fr": [
+     "offrir à"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "没",
+  "pinyin": [
+   "méi"
+  ],
+  "fr": [
+   "ne pas (avoir) ; ne… pas",
+   "(mò) sombrer ; disparaître"
+  ],
+  "en_def": "not, none, gone; to bury; to sink, to drown",
+  "decomposition": "⿰氵殳",
+  "radical": "氵",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "殳",
+   "semantic": "氵",
+   "hint": "water"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "没有",
+    "fr": [
+     "ne pas avoir ; il n'y a pas",
+     "ne pas (passé : ne… pas encore)"
+    ]
+   },
+   {
+    "w": "没",
+    "fr": [
+     "ne pas (avoir) ; ne… pas",
+     "(mò) sombrer ; disparaître"
+    ]
+   },
+   {
+    "w": "没什么",
+    "fr": [
+     "ce n'est rien ; pas de problème",
+     "rien de spécial"
+    ]
+   },
+   {
+    "w": "没关系",
+    "fr": [
+     "ce n'est pas grave ; de rien"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "能",
+  "pinyin": [
+   "néng"
+  ],
+  "fr": [
+   "pouvoir ; être capable de",
+   "capacité ; énergie"
+  ],
+  "en_def": "can, may; capable, full of energy",
+  "decomposition": "⿰⿱厶⺼⿱匕匕",
+  "radical": "⺼",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "A bear's head 厶, body ⺼, and claws 匕"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "能",
+    "fr": [
+     "pouvoir ; être capable de",
+     "capacité ; énergie"
+    ]
+   },
+   {
+    "w": "可能",
+    "fr": [
+     "peut-être",
+     "possible"
+    ]
+   },
+   {
+    "w": "能够",
+    "fr": [
+     "pouvoir ; être capable de"
+    ]
+   },
+   {
+    "w": "只能",
+    "fr": [
+     "ne pouvoir que ; être obligé de"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "那",
+  "pinyin": [
+   "nà"
+  ],
+  "fr": [
+   "ce… là ; cela",
+   "alors ; dans ce cas"
+  ],
+  "en_def": "that, that one, those",
+  "decomposition": "⿰⿹？？阝",
+  "radical": "阝",
+  "etymology": null,
+  "strokes": 6,
+  "words": [
+   {
+    "w": "那",
+    "fr": [
+     "ce… là ; cela",
+     "alors ; dans ce cas"
+    ]
+   },
+   {
+    "w": "那些",
+    "fr": [
+     "ces ; ceux-là"
+    ]
+   },
+   {
+    "w": "那里",
+    "fr": [
+     "là-bas ; là"
+    ]
+   },
+   {
+    "w": "那边",
+    "fr": [
+     "là-bas ; de ce côté-là"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "看",
+  "pinyin": [
+   "kàn"
+  ],
+  "fr": [
+   "regarder ; voir",
+   "lire",
+   "trouver ; estimer"
+  ],
+  "en_def": "to look, to see; to examine, to scrutinize",
+  "decomposition": "⿱手目",
+  "radical": "目",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Shielding one's eyes 目 with a hand 手 to look to the distance"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "看",
+    "fr": [
+     "regarder ; voir",
+     "lire"
+    ]
+   },
+   {
+    "w": "看到",
+    "fr": [
+     "voir ; apercevoir"
+    ]
+   },
+   {
+    "w": "看见",
+    "fr": [
+     "voir ; apercevoir"
+    ]
+   },
+   {
+    "w": "好看",
+    "fr": [
+     "beau ; joli",
+     "intéressant (film, livre)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "做",
+  "pinyin": [
+   "zuò"
+  ],
+  "fr": [
+   "faire",
+   "fabriquer ; préparer"
+  ],
+  "en_def": "to work, to make; to act",
+  "decomposition": "⿰亻故",
+  "radical": "亻",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Someone 亻 who causes things to happen 故; 故 also provides the pronuncation"
+  },
+  "strokes": 11,
+  "words": [
+   {
+    "w": "做",
+    "fr": [
+     "faire",
+     "fabriquer ; préparer"
+    ]
+   },
+   {
+    "w": "做到",
+    "fr": [
+     "réussir à faire ; accomplir"
+    ]
+   },
+   {
+    "w": "做法",
+    "fr": [
+     "façon de faire ; méthode"
+    ]
+   },
+   {
+    "w": "做饭",
+    "fr": [
+     "faire la cuisine"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "什",
+  "pinyin": [
+   "shén"
+  ],
+  "fr": [
+   "que",
+   "quoi",
+   "tout"
+  ],
+  "en_def": "what? mixed, miscellaneous",
+  "decomposition": "⿰亻十",
+  "radical": "亻",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A file of ten 十 people 亻"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "什么",
+    "fr": [
+     "quoi ; que ; quel",
+     "quelque chose"
+    ]
+   },
+   {
+    "w": "没什么",
+    "fr": [
+     "ce n'est rien ; pas de problème",
+     "rien de spécial"
+    ]
+   },
+   {
+    "w": "干什么",
+    "fr": [
+     "que faire ? ; qu'est-ce que tu fais ?"
+    ]
+   },
+   {
+    "w": "为什么",
+    "fr": [
+     "pourquoi"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "么",
+  "pinyin": [
+   "me"
+  ],
+  "fr": [
+   "(suffixe de certaines formes indéfinies)",
+   "ainsi",
+   "comme ça"
+  ],
+  "en_def": "interrogative particle",
+  "decomposition": "⿱丿厶",
+  "radical": "丿",
+  "etymology": null,
+  "strokes": 3,
+  "words": [
+   {
+    "w": "什么",
+    "fr": [
+     "quoi ; que ; quel",
+     "quelque chose"
+    ]
+   },
+   {
+    "w": "怎么",
+    "fr": [
+     "comment",
+     "pourquoi"
+    ]
+   },
+   {
+    "w": "没什么",
+    "fr": [
+     "ce n'est rien ; pas de problème",
+     "rien de spécial"
+    ]
+   },
+   {
+    "w": "干什么",
+    "fr": [
+     "que faire ? ; qu'est-ce que tu fais ?"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "吧",
+  "pinyin": [
+   "bā"
+  ],
+  "fr": [
+   "(particule de suggestion / supposition)",
+   "(bā) bar"
+  ],
+  "en_def": "emphatic final particle",
+  "decomposition": "⿰口巴",
+  "radical": "口",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "巴",
+   "semantic": "口",
+   "hint": "mouth"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "吧",
+    "fr": [
+     "(particule de suggestion / supposition)",
+     "(bā) bar"
+    ]
+   },
+   {
+    "w": "酒吧",
+    "fr": [
+     "bar"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "点",
+  "pinyin": [
+   "diǎn"
+  ],
+  "fr": [
+   "point",
+   "heure (… heures)",
+   "un peu ; commander (un plat)"
+  ],
+  "en_def": "dot, point, speck",
+  "decomposition": "⿱占灬",
+  "radical": "灬",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "占",
+   "semantic": "灬",
+   "hint": "fire"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "点",
+    "fr": [
+     "point",
+     "heure (… heures)"
+    ]
+   },
+   {
+    "w": "地点",
+    "fr": [
+     "lieu ; endroit"
+    ]
+   },
+   {
+    "w": "一点儿",
+    "fr": [
+     "un peu"
+    ]
+   },
+   {
+    "w": "重点",
+    "fr": [
+     "point essentiel ; priorité",
+     "clé ; principal"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "过",
+  "pinyin": [
+   "guò"
+  ],
+  "fr": [
+   "passer ; traverser",
+   "(particule : expérience passée)",
+   "fêter ; vivre"
+  ],
+  "en_def": "pass; to go across, to pass through",
+  "decomposition": "⿺辶寸",
+  "radical": "辶",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "咼",
+   "semantic": "辶",
+   "hint": "walk"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "过",
+    "fr": [
+     "passer ; traverser",
+     "(particule : expérience passée)"
+    ]
+   },
+   {
+    "w": "不过",
+    "fr": [
+     "mais ; cependant",
+     "seulement"
+    ]
+   },
+   {
+    "w": "通过",
+    "fr": [
+     "par ; au moyen de",
+     "passer ; traverser"
+    ]
+   },
+   {
+    "w": "过去",
+    "fr": [
+     "passé ; autrefois",
+     "(guò qu) passer ; aller (là-bas)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "大",
+  "pinyin": [
+   "dà"
+  ],
+  "fr": [
+   "grand",
+   "âgé ; aîné"
+  ],
+  "en_def": "big, great, vast, high, deep",
+  "decomposition": "⿻一人",
+  "radical": "大",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A man 人 with outstretched arms"
+  },
+  "strokes": 3,
+  "words": [
+   {
+    "w": "大",
+    "fr": [
+     "grand",
+     "âgé ; aîné"
+    ]
+   },
+   {
+    "w": "大学",
+    "fr": [
+     "université"
+    ]
+   },
+   {
+    "w": "大学生",
+    "fr": [
+     "étudiant (à l'université)"
+    ]
+   },
+   {
+    "w": "不大",
+    "fr": [
+     "pas très",
+     "pas souvent"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "从",
+  "pinyin": [
+   "cóng"
+  ],
+  "fr": [
+   "depuis ; à partir de",
+   "par ; via"
+  ],
+  "en_def": "from, by, since, whence, through",
+  "decomposition": "⿰人人",
+  "radical": "人",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "One person 人 following another"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "从",
+    "fr": [
+     "depuis ; à partir de",
+     "par ; via"
+    ]
+   },
+   {
+    "w": "从小",
+    "fr": [
+     "depuis l'enfance"
+    ]
+   },
+   {
+    "w": "从来",
+    "fr": [
+     "toujours",
+     "(从来不/没) jamais"
+    ]
+   },
+   {
+    "w": "自从",
+    "fr": [
+     "depuis",
+     "à partir de"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "下",
+  "pinyin": [
+   "xià"
+  ],
+  "fr": [
+   "descendre ; sous ; dessous",
+   "prochain ; suivant",
+   "(classificateur des coups, des fois)"
+  ],
+  "en_def": "below, underneath; inferior; to bring down; next",
+  "decomposition": "⿱一卜",
+  "radical": "一",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "One stroke under another; compare 上 (above)"
+  },
+  "strokes": 3,
+  "words": [
+   {
+    "w": "下",
+    "fr": [
+     "descendre ; sous ; dessous",
+     "prochain ; suivant"
+    ]
+   },
+   {
+    "w": "下午",
+    "fr": [
+     "après-midi"
+    ]
+   },
+   {
+    "w": "下次",
+    "fr": [
+     "la prochaine fois"
+    ]
+   },
+   {
+    "w": "下班",
+    "fr": [
+     "finir le travail ; sortir du bureau"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "中",
+  "pinyin": [
+   "zhōng"
+  ],
+  "fr": [
+   "milieu ; centre",
+   "dans ; parmi",
+   "Chine"
+  ],
+  "en_def": "central; center, middle; amidst; to hit (target), to attain; China; Chinese",
+  "decomposition": "⿻口丨",
+  "radical": "丨",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A line 丨 through the center of a box 口"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "中",
+    "fr": [
+     "milieu ; centre",
+     "dans ; parmi"
+    ]
+   },
+   {
+    "w": "中国",
+    "fr": [
+     "Chine"
+    ]
+   },
+   {
+    "w": "中间",
+    "fr": [
+     "milieu ; au milieu",
+     "entre ; parmi"
+    ]
+   },
+   {
+    "w": "中午",
+    "fr": [
+     "midi"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "里",
+  "pinyin": [
+   "lǐ"
+  ],
+  "fr": [
+   "dans ; à l'intérieur",
+   "li (≈ 500 m)"
+  ],
+  "en_def": "unit of distance equal to 0.5km; village; lane",
+  "decomposition": "⿱田土",
+  "radical": "里",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Unit of measure for farm 田 land 土"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "里",
+    "fr": [
+     "dans ; à l'intérieur",
+     "li (≈ 500 m)"
+    ]
+   },
+   {
+    "w": "这里",
+    "fr": [
+     "ici"
+    ]
+   },
+   {
+    "w": "哪里",
+    "fr": [
+     "où",
+     "pas du tout ! (modestie)"
+    ]
+   },
+   {
+    "w": "那里",
+    "fr": [
+     "là-bas ; là"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "真",
+  "pinyin": [
+   "zhēn"
+  ],
+  "fr": [
+   "vraiment",
+   "vrai ; réel"
+  ],
+  "en_def": "real, actual, true, genuine",
+  "decomposition": "⿱直几",
+  "radical": "目",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A straight 直 (that is, level) table 几"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "真",
+    "fr": [
+     "vraiment",
+     "vrai ; réel"
+    ]
+   },
+   {
+    "w": "真的",
+    "fr": [
+     "vraiment",
+     "vrai"
+    ]
+   },
+   {
+    "w": "认真",
+    "fr": [
+     "sérieux ; consciencieux"
+    ]
+   },
+   {
+    "w": "真正",
+    "fr": [
+     "vrai ; véritable",
+     "vraiment"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "现",
+  "pinyin": [
+   "xiàn"
+  ],
+  "fr": [
+   "apparaitre",
+   "présent",
+   "actuel"
+  ],
+  "en_def": "to appear, to manifest; current, now",
+  "decomposition": "⿰王见",
+  "radical": "王",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "To see 见 jade 王; 见 also provides the pronunciation"
+  },
+  "strokes": 8,
+  "words": [
+   {
+    "w": "现在",
+    "fr": [
+     "maintenant",
+     "actuellement"
+    ]
+   },
+   {
+    "w": "发现",
+    "fr": [
+     "découvrir ; s'apercevoir",
+     "découverte"
+    ]
+   },
+   {
+    "w": "出现",
+    "fr": [
+     "apparaître ; surgir"
+    ]
+   },
+   {
+    "w": "实现",
+    "fr": [
+     "réaliser ; concrétiser"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "年",
+  "pinyin": [
+   "nián"
+  ],
+  "fr": [
+   "année ; an"
+  ],
+  "en_def": "year; anniversary; a person's age",
+  "decomposition": "⿻干？",
+  "radical": "干",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A man 干 carrying grain, representing the annual harvest"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "年",
+    "fr": [
+     "année ; an"
+    ]
+   },
+   {
+    "w": "今年",
+    "fr": [
+     "cette année"
+    ]
+   },
+   {
+    "w": "去年",
+    "fr": [
+     "l'année dernière"
+    ]
+   },
+   {
+    "w": "明年",
+    "fr": [
+     "l'année prochaine"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "用",
+  "pinyin": [
+   "yòng"
+  ],
+  "fr": [
+   "utiliser ; se servir de",
+   "avec (un outil)"
+  ],
+  "en_def": "to use, to employ, to apply; use",
+  "decomposition": "⿵冂？",
+  "radical": "用",
+  "etymology": null,
+  "strokes": 5,
+  "words": [
+   {
+    "w": "用",
+    "fr": [
+     "utiliser ; se servir de",
+     "avec (un outil)"
+    ]
+   },
+   {
+    "w": "不用",
+    "fr": [
+     "pas la peine de ; inutile"
+    ]
+   },
+   {
+    "w": "有用",
+    "fr": [
+     "utile"
+    ]
+   },
+   {
+    "w": "使用",
+    "fr": [
+     "utiliser ; employer"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "多",
+  "pinyin": [
+   "duō"
+  ],
+  "fr": [
+   "beaucoup ; nombreux",
+   "plus de ; de trop",
+   "combien (多大…)"
+  ],
+  "en_def": "much, many, multi-; more than, over",
+  "decomposition": "⿱夕夕",
+  "radical": "夕",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Two nights 夕, suggesting many"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "多",
+    "fr": [
+     "beaucoup ; nombreux",
+     "plus de ; de trop"
+    ]
+   },
+   {
+    "w": "多少",
+    "fr": [
+     "combien",
+     "nombre ; quantité"
+    ]
+   },
+   {
+    "w": "许多",
+    "fr": [
+     "beaucoup de ; de nombreux"
+    ]
+   },
+   {
+    "w": "好多",
+    "fr": [
+     "beaucoup de ; plein de"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "两",
+  "pinyin": [
+   "liǎng"
+  ],
+  "fr": [
+   "deux (devant un classificateur)",
+   "liang (50 g)"
+  ],
+  "en_def": "two, both, pair, couple; ounce",
+  "decomposition": "⿱一⿻冂从",
+  "radical": "一",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Two people 从 together in a cart"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "两",
+    "fr": [
+     "deux (devant un classificateur)",
+     "liang (50 g)"
+    ]
+   },
+   {
+    "w": "两边",
+    "fr": [
+     "de part et d'autre",
+     "les deux côtés"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "等",
+  "pinyin": [
+   "děng"
+  ],
+  "fr": [
+   "attendre",
+   "etc.",
+   "classe ; rang"
+  ],
+  "en_def": "rank, grade; same, equal; to wait",
+  "decomposition": "⿱⺮寺",
+  "radical": "⺮",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Bamboo strips ⺮ laid before a court 寺"
+  },
+  "strokes": 12,
+  "words": [
+   {
+    "w": "等",
+    "fr": [
+     "attendre",
+     "etc."
+    ]
+   },
+   {
+    "w": "等于",
+    "fr": [
+     "égaler ; être égal à",
+     "revenir à"
+    ]
+   },
+   {
+    "w": "等到",
+    "fr": [
+     "quand ; une fois que",
+     "attendre jusqu'à"
+    ]
+   },
+   {
+    "w": "平等",
+    "fr": [
+     "égalité",
+     "égal"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "吗",
+  "pinyin": [
+   "ma"
+  ],
+  "fr": [
+   "(particule interrogative)"
+  ],
+  "en_def": "final interrogative particle",
+  "decomposition": "⿰口马",
+  "radical": "口",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "马",
+   "semantic": "口",
+   "hint": "mouth"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "吗",
+    "fr": [
+     "(particule interrogative)"
+    ]
+   },
+   {
+    "w": "干吗",
+    "fr": [
+     "pourquoi",
+     "raison pour laquelle"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "天",
+  "pinyin": [
+   "tiān"
+  ],
+  "fr": [
+   "jour ; journée",
+   "ciel",
+   "temps (météo)"
+  ],
+  "en_def": "sky, heaven; god, celestial",
+  "decomposition": "⿱一大",
+  "radical": "大",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "The heavens 一 above a man 大"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "天",
+    "fr": [
+     "jour ; journée",
+     "ciel"
+    ]
+   },
+   {
+    "w": "今天",
+    "fr": [
+     "aujourd'hui"
+    ]
+   },
+   {
+    "w": "明天",
+    "fr": [
+     "demain"
+    ]
+   },
+   {
+    "w": "昨天",
+    "fr": [
+     "hier"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "出",
+  "pinyin": [
+   "chū"
+  ],
+  "fr": [
+   "sortir",
+   "produire ; se produire"
+  ],
+  "en_def": "to go out, to send out; stand; produce",
+  "decomposition": "⿱屮凵",
+  "radical": "凵",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A sprout 屮 growing out of a container 凵"
+  },
+  "strokes": 5,
+  "words": [
+   {
+    "w": "出",
+    "fr": [
+     "sortir",
+     "produire ; se produire"
+    ]
+   },
+   {
+    "w": "出来",
+    "fr": [
+     "sortir ; apparaître",
+     "(après verbe) sortir ; aboutir"
+    ]
+   },
+   {
+    "w": "出去",
+    "fr": [
+     "sortir"
+    ]
+   },
+   {
+    "w": "出租车",
+    "fr": [
+     "taxi"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "太",
+  "pinyin": [
+   "tài"
+  ],
+  "fr": [
+   "trop",
+   "très ; tellement"
+  ],
+  "en_def": "very, too much; big; extreme",
+  "decomposition": "⿵大丶",
+  "radical": "大",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A giant 大 with a normal-sized man 丶 for scale"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "太",
+    "fr": [
+     "trop",
+     "très ; tellement"
+    ]
+   },
+   {
+    "w": "太阳",
+    "fr": [
+     "soleil"
+    ]
+   },
+   {
+    "w": "太太",
+    "fr": [
+     "épouse ; femme",
+     "madame"
+    ]
+   },
+   {
+    "w": "不太",
+    "fr": [
+     "pas très ; pas trop"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "最",
+  "pinyin": [
+   "zuì"
+  ],
+  "fr": [
+   "le plus",
+   "(superlatif)"
+  ],
+  "en_def": "most, extremely, exceedingly; superlative",
+  "decomposition": "⿱日取",
+  "radical": "曰",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "To take place 取 under the sun 日 (that is, everywhere)"
+  },
+  "strokes": 12,
+  "words": [
+   {
+    "w": "最",
+    "fr": [
+     "le plus",
+     "(superlatif)"
+    ]
+   },
+   {
+    "w": "最后",
+    "fr": [
+     "enfin ; finalement",
+     "dernier"
+    ]
+   },
+   {
+    "w": "最好",
+    "fr": [
+     "le meilleur",
+     "il vaut mieux"
+    ]
+   },
+   {
+    "w": "最近",
+    "fr": [
+     "récemment ; ces derniers temps",
+     "le plus proche"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "再",
+  "pinyin": [
+   "zài"
+  ],
+  "fr": [
+   "encore ; de nouveau",
+   "ensuite ; puis"
+  ],
+  "en_def": "again, twice, re-",
+  "decomposition": "⿱一冉",
+  "radical": "冂",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "Two fish 冉 caught on a line 一"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "再",
+    "fr": [
+     "encore ; de nouveau",
+     "ensuite ; puis"
+    ]
+   },
+   {
+    "w": "再见",
+    "fr": [
+     "au revoir"
+    ]
+   },
+   {
+    "w": "一再",
+    "fr": [
+     "à plusieurs reprises",
+     "plus d'une fois"
+    ]
+   },
+   {
+    "w": "再三",
+    "fr": [
+     "maintes fois",
+     "avec insistance"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "呢",
+  "pinyin": [
+   "né",
+   "ne"
+  ],
+  "fr": [
+   "(particule : et toi ? / question)",
+   "(particule : action en cours)"
+  ],
+  "en_def": "wool; interrogative or emphatic final particle",
+  "decomposition": "⿰口尼",
+  "radical": "口",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "尼",
+   "semantic": "口",
+   "hint": "mouth"
+  },
+  "strokes": 8,
+  "words": [
+   {
+    "w": "呢",
+    "fr": [
+     "(particule : et toi ? / question)",
+     "(particule : action en cours)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "次",
+  "pinyin": [
+   "cì"
+  ],
+  "fr": [
+   "fois (classificateur)",
+   "suivant ; second"
+  ],
+  "en_def": "order, sequence; second, next; one after the other",
+  "decomposition": "⿰冫欠",
+  "radical": "欠",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A person 欠 yawning multiple times 冫"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "次",
+    "fr": [
+     "fois (classificateur)",
+     "suivant ; second"
+    ]
+   },
+   {
+    "w": "下次",
+    "fr": [
+     "la prochaine fois"
+    ]
+   },
+   {
+    "w": "上次",
+    "fr": [
+     "la dernière fois"
+    ]
+   },
+   {
+    "w": "其次",
+    "fr": [
+     "ensuite",
+     "deuxièmement"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "小",
+  "pinyin": [
+   "xiǎo"
+  ],
+  "fr": [
+   "petit",
+   "jeune"
+  ],
+  "en_def": "small, tiny, insignificant",
+  "decomposition": "⿻亅八",
+  "radical": "小",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Dividing 八 by a line 亅"
+  },
+  "strokes": 3,
+  "words": [
+   {
+    "w": "小",
+    "fr": [
+     "petit",
+     "jeune"
+    ]
+   },
+   {
+    "w": "小时",
+    "fr": [
+     "heure (durée)"
+    ]
+   },
+   {
+    "w": "小姐",
+    "fr": [
+     "mademoiselle",
+     "demoiselle"
+    ]
+   },
+   {
+    "w": "小学",
+    "fr": [
+     "école primaire"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "知",
+  "pinyin": [
+   "zhī"
+  ],
+  "fr": [
+   "savoir",
+   "connaitre",
+   "connaissances"
+  ],
+  "en_def": "to know, to perceive, to comprehend",
+  "decomposition": "⿰矢口",
+  "radical": "矢",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "矢",
+   "semantic": "口",
+   "hint": "mouth"
+  },
+  "strokes": 8,
+  "words": [
+   {
+    "w": "知道",
+    "fr": [
+     "savoir",
+     "être au courant"
+    ]
+   },
+   {
+    "w": "知识",
+    "fr": [
+     "connaissances ; savoir"
+    ]
+   },
+   {
+    "w": "通知",
+    "fr": [
+     "informer ; aviser",
+     "avis ; notification"
+    ]
+   },
+   {
+    "w": "通知书",
+    "fr": [
+     "lettre de convocation"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "道",
+  "pinyin": [
+   "dào"
+  ],
+  "fr": [
+   "chemin ; voie",
+   "(classificateur : questions, plats)",
+   "dire"
+  ],
+  "en_def": "method, way; path, road",
+  "decomposition": "⿺辶首",
+  "radical": "辶",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "首",
+   "semantic": "辶",
+   "hint": "walk"
+  },
+  "strokes": 12,
+  "words": [
+   {
+    "w": "知道",
+    "fr": [
+     "savoir",
+     "être au courant"
+    ]
+   },
+   {
+    "w": "道",
+    "fr": [
+     "chemin ; voie",
+     "(classificateur : questions, plats)"
+    ]
+   },
+   {
+    "w": "味道",
+    "fr": [
+     "goût ; saveur",
+     "odeur"
+    ]
+   },
+   {
+    "w": "道路",
+    "fr": [
+     "route ; chemin"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "时",
+  "pinyin": [
+   "shí"
+  ],
+  "fr": [
+   "moment ; quand (…时)",
+   "heure",
+   "époque"
+  ],
+  "en_def": "time, season; period, era, age",
+  "decomposition": "⿰日寸",
+  "radical": "日",
+  "etymology": {
+   "type": "pictophonetic",
+   "semantic": "日",
+   "hint": "day"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "时候",
+    "fr": [
+     "moment ; quand (…的时候)",
+     "temps"
+    ]
+   },
+   {
+    "w": "时间",
+    "fr": [
+     "temps",
+     "moment ; durée"
+    ]
+   },
+   {
+    "w": "小时",
+    "fr": [
+     "heure (durée)"
+    ]
+   },
+   {
+    "w": "有时",
+    "fr": [
+     "parfois"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "候",
+  "pinyin": [
+   "hòu"
+  ],
+  "fr": [
+   "attendre",
+   "saison",
+   "climat"
+  ],
+  "en_def": "to wait, to expect; to visit; to greet",
+  "decomposition": "⿰亻矦",
+  "radical": "亻",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "矦",
+   "semantic": "亻",
+   "hint": "person"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "时候",
+    "fr": [
+     "moment ; quand (…的时候)",
+     "temps"
+    ]
+   },
+   {
+    "w": "有时候",
+    "fr": [
+     "parfois"
+    ]
+   },
+   {
+    "w": "小时候",
+    "fr": [
+     "dans son enfance ; quand on était petit"
+    ]
+   },
+   {
+    "w": "这时候",
+    "fr": [
+     "à ce moment-là"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "走",
+  "pinyin": [
+   "zǒu"
+  ],
+  "fr": [
+   "marcher",
+   "partir ; s'en aller"
+  ],
+  "en_def": "to walk, to run, to flee",
+  "decomposition": "⿱土止",
+  "radical": "走",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Someone 土 stepping with their foot 止"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "走",
+    "fr": [
+     "marcher",
+     "partir ; s'en aller"
+    ]
+   },
+   {
+    "w": "走路",
+    "fr": [
+     "marcher ; aller à pied"
+    ]
+   },
+   {
+    "w": "走过",
+    "fr": [
+     "passer (devant, par)"
+    ]
+   },
+   {
+    "w": "走开",
+    "fr": [
+     "s'en aller",
+     "va-t'en !"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "工",
+  "pinyin": [
+   "gōng"
+  ],
+  "fr": [
+   "travail",
+   "travailler",
+   "ouvrier"
+  ],
+  "en_def": "labor, work; laborer, worker",
+  "decomposition": "⿱一丄",
+  "radical": "工",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "A spade or other workman's tool"
+  },
+  "strokes": 3,
+  "words": [
+   {
+    "w": "工作",
+    "fr": [
+     "travail ; emploi",
+     "travailler"
+    ]
+   },
+   {
+    "w": "工人",
+    "fr": [
+     "ouvrier"
+    ]
+   },
+   {
+    "w": "打工",
+    "fr": [
+     "faire un petit boulot ; travailler"
+    ]
+   },
+   {
+    "w": "员工",
+    "fr": [
+     "employé ; personnel"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "作",
+  "pinyin": [
+   "zuò"
+  ],
+  "fr": [
+   "faire",
+   "apparaitre",
+   "rédiger"
+  ],
+  "en_def": "to make; to write, to compose; to act, to perform",
+  "decomposition": "⿰亻乍",
+  "radical": "亻",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A person 亻 making something for the first time 乍; 乍 also provides the pronunciation"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "工作",
+    "fr": [
+     "travail ; emploi",
+     "travailler"
+    ]
+   },
+   {
+    "w": "动作",
+    "fr": [
+     "mouvement ; geste",
+     "action"
+    ]
+   },
+   {
+    "w": "作用",
+    "fr": [
+     "rôle ; effet",
+     "agir sur"
+    ]
+   },
+   {
+    "w": "作业",
+    "fr": [
+     "devoirs (scolaires)",
+     "travail ; opération"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "事",
+  "pinyin": [
+   "shì"
+  ],
+  "fr": [
+   "affaire ; chose",
+   "problème ; incident"
+  ],
+  "en_def": "affair, matter, business; to serve; accident, incident",
+  "decomposition": "⿻⿳一口彐亅",
+  "radical": "亅",
+  "etymology": null,
+  "strokes": 8,
+  "words": [
+   {
+    "w": "事",
+    "fr": [
+     "affaire ; chose",
+     "problème ; incident"
+    ]
+   },
+   {
+    "w": "没事儿",
+    "fr": [
+     "ce n'est rien ; pas de souci",
+     "être libre"
+    ]
+   },
+   {
+    "w": "事情",
+    "fr": [
+     "affaire ; chose",
+     "problème"
+    ]
+   },
+   {
+    "w": "故事",
+    "fr": [
+     "histoire ; récit"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "后",
+  "pinyin": [
+   "hòu"
+  ],
+  "fr": [
+   "après ; derrière",
+   "arrière"
+  ],
+  "en_def": "after; behind, rear; descendants",
+  "decomposition": "⿸？口",
+  "radical": "口",
+  "etymology": null,
+  "strokes": 6,
+  "words": [
+   {
+    "w": "后",
+    "fr": [
+     "après ; derrière",
+     "arrière"
+    ]
+   },
+   {
+    "w": "最后",
+    "fr": [
+     "enfin ; finalement",
+     "dernier"
+    ]
+   },
+   {
+    "w": "后天",
+    "fr": [
+     "après-demain"
+    ]
+   },
+   {
+    "w": "后边",
+    "fr": [
+     "derrière ; à l'arrière"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "家",
+  "pinyin": [
+   "jiā"
+  ],
+  "fr": [
+   "maison ; foyer",
+   "famille",
+   "(classificateur des entreprises)"
+  ],
+  "en_def": "house, home, residence; family",
+  "decomposition": "⿱宀豕",
+  "radical": "宀",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "豕",
+   "semantic": "宀",
+   "hint": "roof"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "家",
+    "fr": [
+     "maison ; foyer",
+     "famille"
+    ]
+   },
+   {
+    "w": "国家",
+    "fr": [
+     "pays ; nation",
+     "État"
+    ]
+   },
+   {
+    "w": "回家",
+    "fr": [
+     "rentrer à la maison"
+    ]
+   },
+   {
+    "w": "家里",
+    "fr": [
+     "à la maison ; chez soi",
+     "famille"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "前",
+  "pinyin": [
+   "qián"
+  ],
+  "fr": [
+   "devant ; avant",
+   "précédent ; ancien"
+  ],
+  "en_def": "in front, forward; former, preceding",
+  "decomposition": "⿱⿱丷一刖",
+  "radical": "刂",
+  "etymology": null,
+  "strokes": 9,
+  "words": [
+   {
+    "w": "前",
+    "fr": [
+     "devant ; avant",
+     "précédent ; ancien"
+    ]
+   },
+   {
+    "w": "前天",
+    "fr": [
+     "avant-hier"
+    ]
+   },
+   {
+    "w": "前边",
+    "fr": [
+     "devant ; à l'avant"
+    ]
+   },
+   {
+    "w": "前面",
+    "fr": [
+     "devant ; en avant",
+     "ci-dessus ; précédent"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "间",
+  "pinyin": [
+   "jiān"
+  ],
+  "fr": [
+   "entre ; parmi",
+   "(classificateur des pièces)"
+  ],
+  "en_def": "between, among; midpoint; space, place, locality",
+  "decomposition": "⿵门日",
+  "radical": "门",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "The sun 日 shining through a doorway 门"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "时间",
+    "fr": [
+     "temps",
+     "moment ; durée"
+    ]
+   },
+   {
+    "w": "间",
+    "fr": [
+     "entre ; parmi",
+     "(classificateur des pièces)"
+    ]
+   },
+   {
+    "w": "房间",
+    "fr": [
+     "chambre ; pièce"
+    ]
+   },
+   {
+    "w": "中间",
+    "fr": [
+     "milieu ; au milieu",
+     "entre ; parmi"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "怎",
+  "pinyin": [
+   "zěn"
+  ],
+  "fr": [
+   "comment",
+   "pourquoi"
+  ],
+  "en_def": "what? why? how?",
+  "decomposition": "⿱乍心",
+  "radical": "心",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "乍",
+   "semantic": "心",
+   "hint": "heart"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "怎么",
+    "fr": [
+     "comment",
+     "pourquoi"
+    ]
+   },
+   {
+    "w": "怎么样",
+    "fr": [
+     "comment (ça va / c'était) ?",
+     "que dirais-tu de… ?"
+    ]
+   },
+   {
+    "w": "怎样",
+    "fr": [
+     "comment ; de quelle façon"
+    ]
+   },
+   {
+    "w": "怎么办",
+    "fr": [
+     "que faire ? ; comment faire ?"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "爱",
+  "pinyin": [
+   "ài"
+  ],
+  "fr": [
+   "aimer",
+   "amour",
+   "avoir tendance à"
+  ],
+  "en_def": "to love, to like, to be fond of; love, affection",
+  "decomposition": "⿱⿱爫冖友",
+  "radical": "爫",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "To bring a friend 友 into one's house 冖"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "爱",
+    "fr": [
+     "aimer",
+     "amour"
+    ]
+   },
+   {
+    "w": "爱好",
+    "fr": [
+     "passe-temps ; loisir",
+     "aimer ; avoir le goût de"
+    ]
+   },
+   {
+    "w": "可爱",
+    "fr": [
+     "mignon ; adorable"
+    ]
+   },
+   {
+    "w": "爱情",
+    "fr": [
+     "amour (sentimental)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "地",
+  "pinyin": [
+   "de"
+  ],
+  "fr": [
+   "(particule adverbiale : -ment)",
+   "(dì) terre ; sol"
+  ],
+  "en_def": "earth, ground, soil; land, region; structural particle used before a verb",
+  "decomposition": "⿰土也",
+  "radical": "土",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "也",
+   "semantic": "土",
+   "hint": "earth"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "地",
+    "fr": [
+     "(particule adverbiale : -ment)",
+     "(dì) terre ; sol"
+    ]
+   },
+   {
+    "w": "地方",
+    "fr": [
+     "endroit ; lieu",
+     "(dì fāng) local ; région"
+    ]
+   },
+   {
+    "w": "地点",
+    "fr": [
+     "lieu ; endroit"
+    ]
+   },
+   {
+    "w": "地上",
+    "fr": [
+     "par terre ; au sol"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "些",
+  "pinyin": [
+   "xiē"
+  ],
+  "fr": [
+   "quelques ; un peu",
+   "(classificateur de pluralité)"
+  ],
+  "en_def": "little, few; rather, somewhat",
+  "decomposition": "⿱此二",
+  "radical": "二",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "此",
+   "semantic": "二",
+   "hint": "two"
+  },
+  "strokes": 8,
+  "words": [
+   {
+    "w": "这些",
+    "fr": [
+     "ces ; ceux-ci"
+    ]
+   },
+   {
+    "w": "一些",
+    "fr": [
+     "quelques ; un peu de"
+    ]
+   },
+   {
+    "w": "那些",
+    "fr": [
+     "ces ; ceux-là"
+    ]
+   },
+   {
+    "w": "有些",
+    "fr": [
+     "certains ; quelques",
+     "un peu"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "跟",
+  "pinyin": [
+   "gēn"
+  ],
+  "fr": [
+   "avec ; et",
+   "suivre",
+   "talon"
+  ],
+  "en_def": "heel; to accompany, to follow; with",
+  "decomposition": "⿰足艮",
+  "radical": "足",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "艮",
+   "semantic": "足",
+   "hint": "foot"
+  },
+  "strokes": 13,
+  "words": [
+   {
+    "w": "跟",
+    "fr": [
+     "avec ; et",
+     "suivre"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "喜",
+  "pinyin": [
+   "xǐ"
+  ],
+  "fr": [
+   "aimer",
+   "adorer",
+   "joyeux"
+  ],
+  "en_def": "to love; to enjoy, to be happy; joyful, glad",
+  "decomposition": "⿱壴口",
+  "radical": "口",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Singing 口 and beating drums 壴"
+  },
+  "strokes": 12,
+  "words": [
+   {
+    "w": "喜欢",
+    "fr": [
+     "aimer ; apprécier"
+    ]
+   },
+   {
+    "w": "喜爱",
+    "fr": [
+     "aimer",
+     "avoir du gout pour"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "欢",
+  "pinyin": [
+   "huān"
+  ],
+  "fr": [
+   "joyeux",
+   "gai",
+   "se réjouir"
+  ],
+  "en_def": "happy, glad, joyful",
+  "decomposition": "⿰又欠",
+  "radical": "欠",
+  "etymology": null,
+  "strokes": 6,
+  "words": [
+   {
+    "w": "喜欢",
+    "fr": [
+     "aimer ; apprécier"
+    ]
+   },
+   {
+    "w": "欢迎",
+    "fr": [
+     "bienvenue",
+     "accueillir"
+    ]
+   },
+   {
+    "w": "欢乐",
+    "fr": [
+     "plaisir",
+     "joie"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "吃",
+  "pinyin": [
+   "chī"
+  ],
+  "fr": [
+   "manger"
+  ],
+  "en_def": "to eat; to drink; to suffer, to endure, to bear",
+  "decomposition": "⿰口乞",
+  "radical": "口",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "乞",
+   "semantic": "口",
+   "hint": "mouth"
+  },
+  "strokes": 6,
+  "words": [
+   {
+    "w": "吃",
+    "fr": [
+     "manger"
+    ]
+   },
+   {
+    "w": "吃饭",
+    "fr": [
+     "manger ; prendre un repas"
+    ]
+   },
+   {
+    "w": "好吃",
+    "fr": [
+     "bon ; délicieux"
+    ]
+   },
+   {
+    "w": "吃惊",
+    "fr": [
+     "s'étonner",
+     "être surpris"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "谁",
+  "pinyin": [
+   "shuí"
+  ],
+  "fr": [
+   "qui"
+  ],
+  "en_def": "who? whom? whose? anyone?",
+  "decomposition": "⿰讠隹",
+  "radical": "讠",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "隹",
+   "semantic": "讠",
+   "hint": "speech"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "谁",
+    "fr": [
+     "qui"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "新",
+  "pinyin": [
+   "xīn"
+  ],
+  "fr": [
+   "nouveau ; neuf",
+   "récemment"
+  ],
+  "en_def": "new, recent, fresh, modern",
+  "decomposition": "⿰亲斤",
+  "radical": "斤",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A freshly chopped 斤 tree 亲"
+  },
+  "strokes": 13,
+  "words": [
+   {
+    "w": "新",
+    "fr": [
+     "nouveau ; neuf",
+     "récemment"
+    ]
+   },
+   {
+    "w": "新年",
+    "fr": [
+     "Nouvel An"
+    ]
+   },
+   {
+    "w": "新闻",
+    "fr": [
+     "informations ; actualités"
+    ]
+   },
+   {
+    "w": "重新",
+    "fr": [
+     "de nouveau ; à nouveau"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "找",
+  "pinyin": [
+   "zhǎo"
+  ],
+  "fr": [
+   "chercher",
+   "rendre la monnaie",
+   "aller voir (qqn)"
+  ],
+  "en_def": "to search for, to look for, to find; change (as in money)",
+  "decomposition": "⿰扌戈",
+  "radical": "扌",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "To go searching with a spear 戈 in hand 扌"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "找",
+    "fr": [
+     "chercher",
+     "rendre la monnaie"
+    ]
+   },
+   {
+    "w": "找到",
+    "fr": [
+     "trouver"
+    ]
+   },
+   {
+    "w": "找出",
+    "fr": [
+     "trouver ; dénicher"
+    ]
+   },
+   {
+    "w": "寻找",
+    "fr": [
+     "chercher",
+     "être à la recherche de"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "打",
+  "pinyin": [
+   "dǎ"
+  ],
+  "fr": [
+   "frapper ; battre",
+   "jouer (à un sport)",
+   "téléphoner (打电话)"
+  ],
+  "en_def": "to attack, to beat, to hit, to strike",
+  "decomposition": "⿰扌丁",
+  "radical": "扌",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "丁",
+   "semantic": "扌",
+   "hint": "hand"
+  },
+  "strokes": 5,
+  "words": [
+   {
+    "w": "打",
+    "fr": [
+     "frapper ; battre",
+     "jouer (à un sport)"
+    ]
+   },
+   {
+    "w": "打开",
+    "fr": [
+     "ouvrir",
+     "allumer"
+    ]
+   },
+   {
+    "w": "打电话",
+    "fr": [
+     "téléphoner"
+    ]
+   },
+   {
+    "w": "打球",
+    "fr": [
+     "jouer au ballon"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "快",
+  "pinyin": [
+   "kuài"
+  ],
+  "fr": [
+   "rapide ; vite",
+   "bientôt ; presque"
+  ],
+  "en_def": "speedy, rapid, quick; soon",
+  "decomposition": "⿰忄夬",
+  "radical": "忄",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A decisive 夬 will 忄; 夬 also provides the pronunciation"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "快",
+    "fr": [
+     "rapide ; vite",
+     "bientôt ; presque"
+    ]
+   },
+   {
+    "w": "快乐",
+    "fr": [
+     "heureux ; joyeux"
+    ]
+   },
+   {
+    "w": "快要",
+    "fr": [
+     "être sur le point de ; bientôt"
+    ]
+   },
+   {
+    "w": "快餐",
+    "fr": [
+     "restauration rapide ; fast-food"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "比",
+  "pinyin": [
+   "bǐ"
+  ],
+  "fr": [
+   "que (comparaison) ; par rapport à",
+   "comparer"
+  ],
+  "en_def": "to compare, liken; comparison; than",
+  "decomposition": "⿰匕匕",
+  "radical": "比",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Two spoons 匕 side-by-side; 匕 also provides the pronunciation"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "比",
+    "fr": [
+     "que (comparaison) ; par rapport à",
+     "comparer"
+    ]
+   },
+   {
+    "w": "比如",
+    "fr": [
+     "par exemple"
+    ]
+   },
+   {
+    "w": "比如说",
+    "fr": [
+     "par exemple"
+    ]
+   },
+   {
+    "w": "比赛",
+    "fr": [
+     "match ; compétition",
+     "concourir"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "今",
+  "pinyin": [
+   "jīn"
+  ],
+  "fr": [
+   "actuel",
+   "présent",
+   "ce"
+  ],
+  "en_def": "modern, current; today, now",
+  "decomposition": "⿱人？",
+  "radical": "人",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A mouth 亼 talking about things"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "今天",
+    "fr": [
+     "aujourd'hui"
+    ]
+   },
+   {
+    "w": "今年",
+    "fr": [
+     "cette année"
+    ]
+   },
+   {
+    "w": "今后",
+    "fr": [
+     "désormais ; à l'avenir"
+    ]
+   },
+   {
+    "w": "至今",
+    "fr": [
+     "jusqu'à présent"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "话",
+  "pinyin": [
+   "huà"
+  ],
+  "fr": [
+   "parole ; propos",
+   "langue ; langage"
+  ],
+  "en_def": "talk, speech; language, dialect",
+  "decomposition": "⿰讠舌",
+  "radical": "讠",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A spoken 讠 tongue 舌; 舌 also provides the pronunciation"
+  },
+  "strokes": 8,
+  "words": [
+   {
+    "w": "话",
+    "fr": [
+     "parole ; propos",
+     "langue ; langage"
+    ]
+   },
+   {
+    "w": "电话",
+    "fr": [
+     "téléphone",
+     "appel téléphonique"
+    ]
+   },
+   {
+    "w": "说话",
+    "fr": [
+     "parler"
+    ]
+   },
+   {
+    "w": "打电话",
+    "fr": [
+     "téléphoner"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "觉",
+  "pinyin": [
+   "jué"
+  ],
+  "fr": [
+   "éprouver",
+   "sentir",
+   "penser"
+  ],
+  "en_def": "conscious; to nap, to sleep; to wake up",
+  "decomposition": "⿳⺍冖见",
+  "radical": "见",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "⺍",
+   "semantic": "见",
+   "hint": "see"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "觉得",
+    "fr": [
+     "trouver que ; penser",
+     "se sentir"
+    ]
+   },
+   {
+    "w": "睡觉",
+    "fr": [
+     "dormir ; se coucher"
+    ]
+   },
+   {
+    "w": "感觉",
+    "fr": [
+     "sentir ; avoir l'impression",
+     "sensation ; impression"
+    ]
+   },
+   {
+    "w": "自觉",
+    "fr": [
+     "conscient",
+     "consciencieux"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "得",
+  "pinyin": [
+   "dé"
+  ],
+  "fr": [
+   "(particule de complément : 说得好)",
+   "(dé) obtenir",
+   "(děi) devoir ; falloir"
+  ],
+  "en_def": "to obtain, to get, to acquire; suitable, proper; ready",
+  "decomposition": "⿰彳⿱旦寸",
+  "radical": "彳",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "A hand 寸 grabbing a shell 旦"
+  },
+  "strokes": 11,
+  "words": [
+   {
+    "w": "觉得",
+    "fr": [
+     "trouver que ; penser",
+     "se sentir"
+    ]
+   },
+   {
+    "w": "得到",
+    "fr": [
+     "obtenir ; recevoir"
+    ]
+   },
+   {
+    "w": "记得",
+    "fr": [
+     "se souvenir de ; se rappeler"
+    ]
+   },
+   {
+    "w": "得",
+    "fr": [
+     "(particule de complément : 说得好)",
+     "(dé) obtenir"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "月",
+  "pinyin": [
+   "yuè"
+  ],
+  "fr": [
+   "mois",
+   "lune"
+  ],
+  "en_def": "moon; month",
+  "decomposition": "⿵冂二",
+  "radical": "月",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "A crescent moon"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "月",
+    "fr": [
+     "mois",
+     "lune"
+    ]
+   },
+   {
+    "w": "月亮",
+    "fr": [
+     "lune"
+    ]
+   },
+   {
+    "w": "月份",
+    "fr": [
+     "mois"
+    ]
+   },
+   {
+    "w": "上个月",
+    "fr": [
+     "le mois dernier"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "起",
+  "pinyin": [
+   "qǐ"
+  ],
+  "fr": [
+   "se lever",
+   "commencer",
+   "(classificateur des incidents)"
+  ],
+  "en_def": "to begin, to initiate; to rise, to stand up",
+  "decomposition": "⿺走己",
+  "radical": "走",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "己",
+   "semantic": "走",
+   "hint": "walk"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "起来",
+    "fr": [
+     "se lever",
+     "(après verbe) commencer à ; avoir l'air"
+    ]
+   },
+   {
+    "w": "一起",
+    "fr": [
+     "ensemble",
+     "avec"
+    ]
+   },
+   {
+    "w": "起",
+    "fr": [
+     "se lever",
+     "commencer"
+    ]
+   },
+   {
+    "w": "对不起",
+    "fr": [
+     "pardon ; désolé",
+     "excusez-moi"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "几",
+  "pinyin": [
+   "jǐ"
+  ],
+  "fr": [
+   "combien (petit nombre)",
+   "quelques"
+  ],
+  "en_def": "small table; how many; a few, some",
+  "decomposition": "⿰丿乙",
+  "radical": "几",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "A small table; compare 丌"
+  },
+  "strokes": 2,
+  "words": [
+   {
+    "w": "几",
+    "fr": [
+     "combien (petit nombre)",
+     "quelques"
+    ]
+   },
+   {
+    "w": "几乎",
+    "fr": [
+     "presque",
+     "environ"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "见",
+  "pinyin": [
+   "jiàn"
+  ],
+  "fr": [
+   "voir",
+   "rencontrer"
+  ],
+  "en_def": "to see, to observe, to meet, to appear",
+  "decomposition": "⿵冂儿",
+  "radical": "见",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Simplified form of 見; a man 儿 with the eye 目 emphasized"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "见",
+    "fr": [
+     "voir",
+     "rencontrer"
+    ]
+   },
+   {
+    "w": "看见",
+    "fr": [
+     "voir ; apercevoir"
+    ]
+   },
+   {
+    "w": "见面",
+    "fr": [
+     "se voir ; se rencontrer"
+    ]
+   },
+   {
+    "w": "再见",
+    "fr": [
+     "au revoir"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "车",
+  "pinyin": [
+   "chē"
+  ],
+  "fr": [
+   "voiture ; véhicule"
+  ],
+  "en_def": "cart, vehicle; to move in a cart",
+  "decomposition": "⿻七十",
+  "radical": "车",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "Simplified form of 車, a cart with two wheels, seen from above"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "车",
+    "fr": [
+     "voiture ; véhicule"
+    ]
+   },
+   {
+    "w": "汽车",
+    "fr": [
+     "voiture ; automobile"
+    ]
+   },
+   {
+    "w": "车上",
+    "fr": [
+     "dans la voiture ; à bord"
+    ]
+   },
+   {
+    "w": "开车",
+    "fr": [
+     "conduire (une voiture)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "手",
+  "pinyin": [
+   "shǒu"
+  ],
+  "fr": [
+   "main"
+  ],
+  "en_def": "hand",
+  "decomposition": "？",
+  "radical": "手",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "A hand with the fingers splayed"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "手",
+    "fr": [
+     "main"
+    ]
+   },
+   {
+    "w": "手机",
+    "fr": [
+     "téléphone portable"
+    ]
+   },
+   {
+    "w": "洗手间",
+    "fr": [
+     "toilettes"
+    ]
+   },
+   {
+    "w": "手表",
+    "fr": [
+     "montre (bracelet)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "听",
+  "pinyin": [
+   "tīng"
+  ],
+  "fr": [
+   "écouter ; entendre",
+   "obéir"
+  ],
+  "en_def": "to hear, to listen; to understand; to obey",
+  "decomposition": "⿰口斤",
+  "radical": "口",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Words 口 reaching an ear 斤"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "听",
+    "fr": [
+     "écouter ; entendre",
+     "obéir"
+    ]
+   },
+   {
+    "w": "听到",
+    "fr": [
+     "entendre"
+    ]
+   },
+   {
+    "w": "听见",
+    "fr": [
+     "entendre"
+    ]
+   },
+   {
+    "w": "好听",
+    "fr": [
+     "agréable à entendre ; joli (son)"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "非",
+  "pinyin": [
+   "fēi"
+  ],
+  "fr": [
+   "ne pas",
+   "faux",
+   "erreur"
+  ],
+  "en_def": "not, negative, non-; to oppose",
+  "decomposition": "⿰？？",
+  "radical": "非",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Two bird's wings opposed; two people back-to-back"
+  },
+  "strokes": 8,
+  "words": [
+   {
+    "w": "非常",
+    "fr": [
+     "très ; extrêmement",
+     "extraordinaire"
+    ]
+   },
+   {
+    "w": "非",
+    "fr": [
+     "ne pas",
+     "faux"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "常",
+  "pinyin": [
+   "cháng"
+  ],
+  "fr": [
+   "souvent",
+   "ordinaire ; habituel"
+  ],
+  "en_def": "common, general, normal; always, frequently, regularly",
+  "decomposition": "⿱尚巾",
+  "radical": "巾",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "尚",
+   "semantic": "巾",
+   "hint": "cloth"
+  },
+  "strokes": 11,
+  "words": [
+   {
+    "w": "非常",
+    "fr": [
+     "très ; extrêmement",
+     "extraordinaire"
+    ]
+   },
+   {
+    "w": "常",
+    "fr": [
+     "souvent",
+     "ordinaire ; habituel"
+    ]
+   },
+   {
+    "w": "常常",
+    "fr": [
+     "souvent"
+    ]
+   },
+   {
+    "w": "正常",
+    "fr": [
+     "normal"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "开",
+  "pinyin": [
+   "kāi"
+  ],
+  "fr": [
+   "ouvrir",
+   "conduire (un véhicule)",
+   "allumer ; démarrer"
+  ],
+  "en_def": "to open; to start, to initiate, to begin",
+  "decomposition": "⿱一廾",
+  "radical": "廾",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "Simplified form of 開; hands 廾 lifting the latch 一 of a door"
+  },
+  "strokes": 4,
+  "words": [
+   {
+    "w": "开",
+    "fr": [
+     "ouvrir",
+     "conduire (un véhicule)"
+    ]
+   },
+   {
+    "w": "打开",
+    "fr": [
+     "ouvrir",
+     "allumer"
+    ]
+   },
+   {
+    "w": "开车",
+    "fr": [
+     "conduire (une voiture)"
+    ]
+   },
+   {
+    "w": "开玩笑",
+    "fr": [
+     "plaisanter ; blaguer"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "叫",
+  "pinyin": [
+   "jiào"
+  ],
+  "fr": [
+   "s'appeler",
+   "appeler ; crier",
+   "faire faire (qqch à qqn)"
+  ],
+  "en_def": "cry, shout; to call, to greet, to hail",
+  "decomposition": "⿰口丩",
+  "radical": "口",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "丩",
+   "semantic": "口",
+   "hint": "mouth"
+  },
+  "strokes": 5,
+  "words": [
+   {
+    "w": "叫",
+    "fr": [
+     "s'appeler",
+     "appeler ; crier"
+    ]
+   },
+   {
+    "w": "叫作",
+    "fr": [
+     "s'appeler ; être appelé"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "孩",
+  "pinyin": [
+   "hái"
+  ],
+  "fr": [
+   "enfant"
+  ],
+  "en_def": "baby, child; children",
+  "decomposition": "⿰子亥",
+  "radical": "子",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "亥",
+   "semantic": "子",
+   "hint": "child"
+  },
+  "strokes": 9,
+  "words": [
+   {
+    "w": "孩子",
+    "fr": [
+     "enfant"
+    ]
+   },
+   {
+    "w": "女孩儿",
+    "fr": [
+     "fille ; fillette"
+    ]
+   },
+   {
+    "w": "小孩儿",
+    "fr": [
+     "enfant ; petit"
+    ]
+   },
+   {
+    "w": "男孩儿",
+    "fr": [
+     "garçon"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "子",
+  "pinyin": [
+   "zi"
+  ],
+  "fr": [
+   "(suffixe nominal)",
+   "(zǐ) fils ; enfant",
+   "graine"
+  ],
+  "en_def": "son, child; seed, egg; fruit; small thing",
+  "decomposition": "⿻了一",
+  "radical": "子",
+  "etymology": {
+   "type": "pictographic",
+   "hint": "A child in a wrap, with outstretched arms but bundled legs"
+  },
+  "strokes": 3,
+  "words": [
+   {
+    "w": "孩子",
+    "fr": [
+     "enfant"
+    ]
+   },
+   {
+    "w": "子",
+    "fr": [
+     "(suffixe nominal)",
+     "(zǐ) fils ; enfant"
+    ]
+   },
+   {
+    "w": "儿子",
+    "fr": [
+     "fils"
+    ]
+   },
+   {
+    "w": "房子",
+    "fr": [
+     "maison ; logement"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "别",
+  "pinyin": [
+   "bié"
+  ],
+  "fr": [
+   "ne… pas (impératif)",
+   "autre",
+   "quitter ; se séparer"
+  ],
+  "en_def": "to separate, to distinguish, to classify; to leave; other; do not, must not",
+  "decomposition": "⿰另刂",
+  "radical": "刂",
+  "etymology": {
+   "type": "ideographic",
+   "hint": "To draw boundaries 刂 between classes 另"
+  },
+  "strokes": 7,
+  "words": [
+   {
+    "w": "别",
+    "fr": [
+     "ne… pas (impératif)",
+     "autre"
+    ]
+   },
+   {
+    "w": "别人",
+    "fr": [
+     "les autres ; autrui"
+    ]
+   },
+   {
+    "w": "别的",
+    "fr": [
+     "autre"
+    ]
+   },
+   {
+    "w": "特别",
+    "fr": [
+     "particulièrement ; spécialement",
+     "spécial"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "请",
+  "pinyin": [
+   "qǐng"
+  ],
+  "fr": [
+   "s'il vous plaît ; veuillez",
+   "inviter",
+   "demander"
+  ],
+  "en_def": "to ask, to request; to invite; please",
+  "decomposition": "⿰讠青",
+  "radical": "讠",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "青",
+   "semantic": "讠",
+   "hint": "speech"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "请",
+    "fr": [
+     "s'il vous plaît ; veuillez",
+     "inviter"
+    ]
+   },
+   {
+    "w": "请问",
+    "fr": [
+     "excusez-moi, … ? (pour demander)"
+    ]
+   },
+   {
+    "w": "请假",
+    "fr": [
+     "demander un congé"
+    ]
+   },
+   {
+    "w": "请进",
+    "fr": [
+     "entrez, je vous prie"
+    ]
+   }
+  ]
+ },
+ {
+  "char": "钱",
+  "pinyin": [
+   "qián"
+  ],
+  "fr": [
+   "argent"
+  ],
+  "en_def": "money, currency, coins",
+  "decomposition": "⿰钅戋",
+  "radical": "钅",
+  "etymology": {
+   "type": "pictophonetic",
+   "phonetic": "戋",
+   "semantic": "钅",
+   "hint": "money"
+  },
+  "strokes": 10,
+  "words": [
+   {
+    "w": "钱",
+    "fr": [
+     "argent"
+    ]
+   },
+   {
+    "w": "钱包",
+    "fr": [
+     "portefeuille ; porte-monnaie"
+    ]
+   },
+   {
+    "w": "价钱",
+    "fr": [
+     "prix",
+     "tarif"
+    ]
+   }
+  ]
+ }
+]

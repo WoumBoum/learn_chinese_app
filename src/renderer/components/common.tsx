@@ -4,37 +4,68 @@ import { call, fileUrl } from '../api';
 
 // ---------- audio ----------
 let currentAudio: HTMLAudioElement | null = null;
+let currentDone: (() => void) | null = null;
 
-/** Speak Chinese text with the local TTS voice (cached). Resolves when playback ends. */
+/** Réponse de `tts:speak` : voix native, Tatoeba, Matcha ou Piper (fichier local en cache). */
+export interface SpokenAudio {
+  path: string;
+  source?: 'native' | 'tatoeba' | 'matcha' | 'piper';
+  rate?: number;
+}
+
+/** Speak Chinese text (native recording when available, else local TTS; cached). Resolves when playback ends.
+ *  `rate` < 1 = slow mode: the audio is slowed at playback (pitch preserved), never re-synthesized slower. */
 export async function speak(text: string, rate = 1): Promise<void> {
-  const r = await call<{ path: string } | null>('tts:speak', text);
+  let r: SpokenAudio | null = null;
+  try {
+    r = await call<SpokenAudio | null>('tts:speak', text);
+  } catch (e) {
+    console.warn('[audio]', e);
+  }
   if (!r) return;
   await playFile(r.path, rate);
 }
 
 export function playFile(path: string, rate = 1, start?: number, end?: number): Promise<void> {
+  stopAudio();
   return new Promise((resolve) => {
-    currentAudio?.pause();
     const a = new Audio(fileUrl(path));
+    let finished = false;
+    const stop = () => {
+      if (finished) return;
+      finished = true;
+      if (currentAudio === a) {
+        currentAudio = null;
+        currentDone = null;
+      }
+      resolve();
+    };
     currentAudio = a;
+    currentDone = stop;
+    a.preservesPitch = true;
     a.playbackRate = rate;
     if (start != null) a.currentTime = start;
-    const stop = () => resolve();
     a.onended = stop;
     a.onerror = stop;
     if (end != null)
       a.ontimeupdate = () => {
         if (a.currentTime >= end) {
           a.pause();
-          resolve();
+          stop();
         }
       };
     a.play().catch(stop);
   });
 }
 
+/** Arrête la lecture en cours (la promesse de playFile/speak correspondante se résout). */
 export function stopAudio() {
-  currentAudio?.pause();
+  const a = currentAudio;
+  const done = currentDone;
+  currentAudio = null;
+  currentDone = null;
+  a?.pause();
+  done?.();
 }
 
 export function AudioButton({ text, rate = 1, label, autoPlay, size = 'md' }: { text: string; rate?: number; label?: string; autoPlay?: boolean; size?: 'sm' | 'md' | 'lg' }) {
@@ -52,7 +83,7 @@ export function AudioButton({ text, rate = 1, label, autoPlay, size = 'md' }: { 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text, autoPlay]);
   return (
-    <button className={`btn ${size === 'sm' ? 'btn-sm' : size === 'lg' ? 'btn-lg' : ''}`} onClick={play} disabled={busy} title="Écouter">
+    <button className={`btn ${size === 'sm' ? 'btn-sm' : size === 'lg' ? 'btn-lg' : ''}`} onClick={play} disabled={busy} title={rate < 1 ? 'Écouter lentement' : 'Écouter'}>
       {busy ? '♪…' : '🔊'} {label}
     </button>
   );
@@ -104,18 +135,51 @@ let openModals = 0;
 export const modalOpen = () => openModals > 0;
 const modalStack: (() => void)[] = [];
 
+const FOCUSABLE = 'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),iframe,summary,[tabindex]:not([tabindex="-1"])';
+
+/**
+ * Fenêtre modale : Échap ferme la plus haute ; le focus entre dans la fenêtre à l'ouverture, Tab / Maj+Tab y restent
+ * (sinon Entrée / Espace activaient les boutons cachés derrière le fond), et revient à l'élément d'origine à la fermeture.
+ */
 export function Modal({ children, onClose }: { children: ReactNode; onClose: () => void }) {
   const closeRef = useRef(onClose);
   closeRef.current = onClose;
+  const boxRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     openModals++;
+    const prev = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     const close = () => closeRef.current();
     modalStack.push(close);
+    const isTop = () => modalStack[modalStack.length - 1] === close;
+    // un enfant qui a déjà pris le focus (champ autoFocus) le garde
+    if (boxRef.current && !boxRef.current.contains(document.activeElement)) boxRef.current.focus({ preventScroll: true });
     const k = (e: KeyboardEvent) => {
-      // only the top-most modal reacts to Escape
-      if (e.key === 'Escape' && modalStack[modalStack.length - 1] === close) {
+      if (!isTop()) return; // seule la fenêtre la plus haute réagit
+      if (e.key === 'Escape') {
         e.stopImmediatePropagation();
         close();
+        return;
+      }
+      const box = boxRef.current;
+      if (e.key !== 'Tab' || !box) return;
+      const f = [...box.querySelectorAll<HTMLElement>(FOCUSABLE)].filter((el) => el.offsetParent !== null || el === document.activeElement);
+      const a = document.activeElement;
+      if (!f.length) {
+        e.preventDefault();
+        box.focus({ preventScroll: true });
+        return;
+      }
+      const first = f[0];
+      const last = f[f.length - 1];
+      if (!box.contains(a)) {
+        e.preventDefault();
+        (e.shiftKey ? last : first).focus();
+      } else if (e.shiftKey && (a === first || a === box)) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && a === last) {
+        e.preventDefault();
+        first.focus();
       }
     };
     window.addEventListener('keydown', k, true);
@@ -124,11 +188,12 @@ export function Modal({ children, onClose }: { children: ReactNode; onClose: () 
       const i = modalStack.indexOf(close);
       if (i >= 0) modalStack.splice(i, 1);
       window.removeEventListener('keydown', k, true);
+      if (prev && prev !== document.body && prev.isConnected) prev.focus({ preventScroll: true });
     };
   }, []);
   return (
     <div className="modal-back" onClick={onClose}>
-      <div className="modal" onClick={(e) => e.stopPropagation()}>
+      <div ref={boxRef} className="modal" role="dialog" aria-modal="true" tabIndex={-1} onClick={(e) => e.stopPropagation()}>
         {children}
       </div>
     </div>

@@ -1,6 +1,9 @@
 // Analyse de hauteur (F0) en TypeScript pur — aucune dépendance DOM/Electron (testable avec vitest).
 //  - pitchTrack : YIN (de Cheveigné & Kawahara 2002) avec interpolation parabolique, hop 10 ms
-//  - post-traitement : correction d'octave, suppression des îlots trop courts, lissage médian
+//  - voisement à hystérésis : trames sûres (apériodicité faible) + extension aux voisines continues
+//  - post-traitement : correction d'octave (globale, continuité, par zone), rognage des bords faibles
+//    (énergie / apériodicité), suppression des îlots parasites (courts, faibles ou discontinus),
+//    comblement des micro-coupures, lissage médian
 //  - toSemitones : demi-tons relatifs à la médiane du locuteur (neutralise voix grave/aiguë)
 //  - contour : concaténation des zones voisées, durée normalisée (rééchantillonnage)
 //  - similarity : DTW contraint sur contours centrés → score 0-100
@@ -16,7 +19,9 @@ export interface PitchOptions {
   fmin?: number; // Hz (défaut 70)
   fmax?: number; // Hz (défaut 500)
   threshold?: number; // seuil YIN sur la différence normalisée cumulée (défaut 0.15)
-  maxAperiodicity?: number; // au-delà, trame non voisée (défaut 0.35)
+  maxAperiodicity?: number; // trame « sûre » (amorce du voisement) si apériodicité ≤ (défaut 0.25)
+  extendAperiodicity?: number; // une trame voisine continue d'une trame voisée est acceptée jusqu'à (défaut 0.35)
+  edgeDb?: number; // bords des zones voisées sous (pic d'énergie voisée + edgeDb) dB rognés (défaut -20)
   silenceDb?: number; // trames sous (max RMS + silenceDb) dB ignorées (défaut -32)
   targetRate?: number; // rééchantillonnage interne (défaut 16000)
 }
@@ -114,7 +119,7 @@ export function pitchTrack(samples: Float32Array, sampleRate: number, opts: Pitc
   const fmin = opts.fmin ?? 70;
   const fmax = opts.fmax ?? 500;
   const thr = opts.threshold ?? 0.15;
-  const maxAp = opts.maxAperiodicity ?? 0.35;
+  const maxAp = opts.maxAperiodicity ?? 0.25;
   const silenceDb = opts.silenceDb ?? -32;
   const sr = Math.min(sampleRate, opts.targetRate ?? 16000);
   const x = resample(samples, sampleRate, sr);
@@ -133,9 +138,12 @@ export function pitchTrack(samples: Float32Array, sampleRate: number, opts: Pitc
     if (rms[i] > maxRms) maxRms = rms[i];
   }
   const gate = Math.max(1e-4, maxRms * Math.pow(10, silenceDb / 20));
+  const extAp = Math.max(maxAp, opts.extendAperiodicity ?? 0.35);
+  const edgeDb = opts.edgeDb ?? -20;
   const buf = new Float32Array(Math.floor(sr / fmin) + 2);
   const frame = new Float32Array(win);
-  const raw: (number | null)[] = new Array(nFrames).fill(null);
+  const cand: (number | null)[] = new Array(nFrames).fill(null); // estimation YIN (toute apériodicité ≤ extAp)
+  const ap = new Float32Array(nFrames).fill(1);
   for (let i = 0; i < nFrames; i++) {
     if (rms[i] < gate) continue;
     const o = i * hopN;
@@ -145,11 +153,158 @@ export function pitchTrack(samples: Float32Array, sampleRate: number, opts: Pitc
     mean /= win;
     for (let j = 0; j < win; j++) frame[j] = x[o + j] - mean;
     const r = yinFrame(frame, sr, fmin, fmax, thr, buf);
-    if (r && r.ap <= maxAp && r.f0 >= fmin && r.f0 <= fmax) raw[i] = r.f0;
+    if (r && r.ap <= extAp && r.f0 >= fmin && r.f0 <= fmax) {
+      cand[i] = r.f0;
+      ap[i] = r.ap;
+    }
   }
-  const cleaned = smoothF0(removeShortIslands(fixJumps(fixOctaves(removeShortIslands(raw, 4))), 3), 5);
+  const raw = hysteresisVoicing(cand, ap, maxAp);
+  let f = fixJumps(fixOctaves(removeShortIslands(raw, 4)));
+  f = trimWeakEdges(f, rms, ap, edgeDb);
+  f = pruneRegions(f, rms, ap);
+  f = bridgeGaps(removeShortIslands(f, 3), 2, 4);
+  const cleaned = smoothF0(f, 5);
   const t0 = winS / 2;
   return cleaned.map((f0, i) => ({ t: t0 + i * hop, f0 }));
+}
+
+const st12 = (a: number, b: number) => 12 * Math.log2(a / b);
+
+/** Voisement à hystérésis : une trame est voisée si son apériodicité ≤ `seedAp`, ou si elle prolonge
+ *  (≤ 1,5 demi-ton d'écart par trame, à l'octave près) une trame voisée adjacente — récupère les
+ *  attaques soufflées et les fins craquées sans accepter des trames incertaines isolées.
+ *  `cand` : F0 candidate (null = rejetée d'office). */
+export function hysteresisVoicing(cand: (number | null)[], ap: ArrayLike<number>, seedAp: number): (number | null)[] {
+  const n = cand.length;
+  const out: (number | null)[] = cand.map((v, i) => (v != null && ap[i] <= seedAp ? v : null));
+  const grow = (i: number, j: number) => {
+    // j voisée, i candidate voisine (éventuellement à l'octave près : on la corrige)
+    const a = out[j];
+    const b = cand[i];
+    if (out[i] != null || a == null || b == null) return;
+    for (const v of [b, b * 2, b / 2])
+      if (Math.abs(st12(v, a)) <= 1.5) {
+        out[i] = v;
+        return;
+      }
+  };
+  for (let i = 1; i < n; i++) grow(i, i - 1);
+  for (let i = n - 2; i >= 0; i--) grow(i, i + 1);
+  return out;
+}
+
+/** Rogne les bords de chaque zone voisée : trames trop faibles (énergie sous le pic des trames voisées
+ *  + `edgeDb` dB : souffle, fin de voix craquée) ou trop apériodiques (> `edgeAp`). */
+export function trimWeakEdges(f: (number | null)[], rms: ArrayLike<number>, ap: ArrayLike<number>, edgeDb = -20, edgeAp = 0.4): (number | null)[] {
+  const out = [...f];
+  let peak = 0;
+  for (let i = 0; i < out.length; i++) if (out[i] != null && rms[i] > peak) peak = rms[i];
+  if (!peak) return out;
+  const floor = peak * Math.pow(10, edgeDb / 20);
+  const weak = (i: number) => rms[i] < floor || ap[i] > edgeAp;
+  for (const [a, b] of voicedSegments(out.map((v) => ({ f0: v })))) {
+    let i = a;
+    while (i < b && weak(i)) out[i++] = null;
+    let j = b - 1;
+    while (j >= i && weak(j)) out[j--] = null;
+  }
+  return out;
+}
+
+/** Zones voisées « parasites » (voix craquée, souffle, erreurs d'octave en bordure). Les zones sont
+ *  délimitées par les trames non voisées et par les sauts > `maxStep` demi-tons entre trames voisines
+ *  (physiologiquement impossibles en 10 ms). En partant de la zone la plus énergique, chaque zone est
+ *  comparée à la dernière zone retenue de son côté. Une zone « faible » (énergie moyenne < pic voisé
+ *  - 18 dB, ou apériodicité moyenne > 0,2) qui se raccorde à une octave près est transposée ; si elle
+ *  saute vers l'aigu (> 3 demi-tons + 0,5 par trame de silence) sans que la zone retenue soit en montée
+ *  (ex. remontée brutale après une chute = harmonique d'une voix craquée), ou de plus de 9 demi-tons
+ *  vers le grave, elle est supprimée. Un îlot
+ *  < 60 ms séparé par un silence est supprimé s'il est isolé (> 120 ms de la zone retenue), ou s'il
+ *  est faible en bordure d'énoncé (sauf s'il prolonge sans saut la zone retenue après ≤ 20 ms de coupure). Une zone franche et périodique proche est conservée même
+ *  discontinue : les voix natives font de vrais sauts de registre (fin montante d'un 2e ton, chute
+ *  d'un 4e ton) que l'apprenant doit voir. */
+export function pruneRegions(f: (number | null)[], rms: ArrayLike<number>, ap: ArrayLike<number>, maxStep = 4): (number | null)[] {
+  const out = [...f];
+  const segs: [number, number][] = [];
+  for (const [a, b] of voicedSegments(out.map((v) => ({ f0: v })))) {
+    let s = a;
+    for (let i = a + 1; i < b; i++)
+      if (Math.abs(st12(out[i]!, out[i - 1]!)) > maxStep) {
+        segs.push([s, i]);
+        s = i;
+      }
+    segs.push([s, b]);
+  }
+  if (segs.length < 2) return out;
+  let peak = 0;
+  const info = segs.map(([a, b]) => {
+    let e = 0;
+    let apS = 0;
+    for (let i = a; i < b; i++) {
+      e += rms[i] * rms[i];
+      apS += ap[i];
+      if (rms[i] > peak) peak = rms[i];
+    }
+    return { a, b, len: b - a, e, rms: Math.sqrt(e / (b - a)), ap: apS / (b - a) };
+  });
+  const weakRms = peak * Math.pow(10, -18 / 20);
+  let main = 0;
+  for (let k = 1; k < info.length; k++) if (info[k].e > info[main].e) main = k;
+  for (const dir of [1, -1] as const) {
+    let ref = main;
+    for (let k = main + dir; k >= 0 && k < info.length; k += dir) {
+      const r = info[k];
+      const R = info[ref];
+      const gap = dir > 0 ? r.a - R.b : R.a - r.b;
+      const weak = r.rms < weakRms || r.ap > 0.2;
+      const short = r.len < 6;
+      // au-delà de cette zone (vers le bord de l'énoncé), plus aucune zone d'au moins 60 ms
+      const outer = !(dir > 0 ? info.slice(k + 1) : info.slice(0, k)).some((q) => q.len >= 6);
+      const near = gap <= 12;
+      // trames les plus proches de part et d'autre de la coupure
+      const here = dir > 0 ? out[r.a]! : out[r.b - 1]!;
+      const there = dir > 0 ? out[R.b - 1]! : out[R.a]!;
+      let jump = st12(here, there);
+      if (near && (weak || short) && Math.abs(Math.abs(jump) - 12) < 2.5) {
+        const m = jump > 0 ? 0.5 : 2;
+        for (let i = r.a; i < r.b; i++) out[i] = out[i]! * m;
+        jump += jump > 0 ? -12 : 12;
+      }
+      // tendance de la zone retenue vers la coupure (demi-tons sur ≤ 5 trames) : un saut dans le même
+      // sens prolonge le geste (chute d'un 4e ton, montée d'un 2e) ; à contre-sens, c'est un artefact
+      const span = Math.min(5, R.len - 1);
+      const trend = span > 0 ? (dir > 0 ? st12(out[R.b - 1]!, out[R.b - 1 - span]!) : st12(out[R.a]!, out[R.a + span]!)) : 0;
+      const follows = jump * trend > 0 && Math.abs(trend) >= 0.5 && Math.abs(jump) <= 9;
+      // YIN se trompe vers l'aigu (période/2, /3 d'une voix craquée) : un saut vers l'aigu non annoncé
+      // par la tendance est suspect ; vers le grave, seul un saut énorme (> 9 demi-tons) l'est.
+      const thr = 3 + 0.5 * gap;
+      const suspicious = jump > 0 ? jump > thr && !follows : -jump > Math.max(9, thr);
+      // îlot court collé à la zone retenue et dans sa continuité : sera raccordé (bridgeGaps), on le garde
+      const bridged = gap <= 2 && Math.abs(jump) <= 4;
+      const drop = (weak && near && suspicious) || (short && gap > 0 && (!near || (outer && weak && !bridged)));
+      if (drop) for (let i = r.a; i < r.b; i++) out[i] = null;
+      else ref = k;
+    }
+  }
+  return out;
+}
+
+/** Comble (interpolation géométrique) les coupures de ≤ `maxGap` trames entre deux trames voisées
+ *  dont l'écart est ≤ `maxSt` demi-tons (même geste vocal, coupé par une trame douteuse). */
+export function bridgeGaps(f: (number | null)[], maxGap = 2, maxSt = 4): (number | null)[] {
+  const out = [...f];
+  let last = -1;
+  for (let i = 0; i < out.length; i++) {
+    if (out[i] == null) continue;
+    const g = i - last - 1;
+    if (last >= 0 && g > 0 && g <= maxGap && Math.abs(st12(out[i]!, out[last]!)) <= maxSt) {
+      const a = Math.log(out[last]!);
+      const b = Math.log(out[i]!);
+      for (let k = 1; k <= g; k++) out[last + k] = Math.exp(a + ((b - a) * k) / (g + 1));
+    }
+    last = i;
+  }
+  return out;
 }
 
 /** Supprime les zones voisées plus courtes que `minLen` trames (bruits, clics). */

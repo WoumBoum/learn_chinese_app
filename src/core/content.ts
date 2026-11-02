@@ -40,7 +40,7 @@ export class Content {
     const ch = read('chars.json');
     this.chars = ch.chars;
     this.comps = ch.comps;
-    this.dict = read('dict.json');
+    this.dict = normalizeDictPinyin(read('dict.json'));
     this.sentences = read('sentences.json');
     this.grammar = [];
     for (const n of [1, 2, 3]) {
@@ -94,6 +94,34 @@ export class Content {
     out.sort((a, b) => a.score - b.score);
     return out.slice(0, limit).map((o) => o.s);
   }
+}
+
+const SURNAME_GLOSS = /\bsurname\b|nom de famille|\(nom\)|^(old )?variant of\b/i;
+
+/**
+ * CC-CEDICT met en tête l'entrée « nom de famille » de nombreux caractères courants (休 Xiu1, 王 Wang2, 李 Li3…),
+ * et build-data ne garde que entries[0] : on afficherait « Xiū ». Pour un caractère Han ISOLÉ qui a au moins un
+ * sens autre que « surname », on affiche la lecture commune en minuscules. Les mots de plusieurs caractères
+ * (北京 Běijīng, 中国 Zhōngguó) et les caractères qui ne sont QUE des noms de famille gardent leur majuscule
+ * (looksProperNoun s'appuie dessus).
+ */
+export function displayCharPinyin(w: string, p: string, glosses: { e?: string[]; f?: string[] } = {}): string {
+  if (!p || !/^[A-Z]/.test(p)) return p;
+  const chars = [...w];
+  if (chars.length !== 1 || !/\p{Script=Han}/u.test(chars[0])) return p;
+  const senses = [...(glosses.e ?? []), ...(glosses.f ?? [])];
+  if (!senses.length || senses.every((g) => SURNAME_GLOSS.test(g))) return p; // nom propre seulement
+  return p.toLowerCase();
+}
+
+/** Applique displayCharPinyin à tout le dictionnaire au chargement (dict.json n'est pas régénéré). */
+export function normalizeDictPinyin(dict: Record<string, DictEntry>): Record<string, DictEntry> {
+  for (const [w, d] of Object.entries(dict)) {
+    if (!d?.p || !/^[A-Z]/.test(d.p)) continue;
+    const p = displayCharPinyin(w, d.p, d);
+    if (p !== d.p) d.p = p;
+  }
+  return dict;
 }
 
 const TONE_MARKS: Record<string, string[]> = {

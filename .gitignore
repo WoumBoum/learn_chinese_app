@@ -5,3 +5,4 @@ data-raw
 resources/bin
 *.log
 content/gloss-review-input.json
+resources/tts

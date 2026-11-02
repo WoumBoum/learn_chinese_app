@@ -4,6 +4,7 @@ import { AudioButton, fmtInterval, playFile, speak, useKeys, ProgressBar, Loadin
 import { useNav } from '../App';
 import type { Grade, StudyCard } from '../../shared/types';
 import { WordPopup } from '../components/WordPopup';
+import { CharCard } from '../components/CharCard';
 
 const GRADES: { g: Grade; label: string; key: string }[] = [
   { g: 1, label: 'Raté', key: '1' },
@@ -28,6 +29,7 @@ export function Review(props: { limit?: number; queue?: 'main' | 'grammar' }) {
   const shownAt = useRef(Date.now());
   const sessionStart = useRef(Date.now());
   const [popup, setPopup] = useState<string | null>(null);
+  const [originOpen, setOriginOpen] = useState(false);
   const busy = useRef(false);
 
   useEffect(() => {
@@ -53,6 +55,7 @@ export function Review(props: { limit?: number; queue?: 'main' | 'grammar' }) {
 
   useEffect(() => {
     setRevealed(false);
+    setOriginOpen(false);
     shownAt.current = Date.now();
     if (card && (card.card.face === 'listen')) playPrompt();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -134,6 +137,8 @@ export function Review(props: { limit?: number; queue?: 'main' | 'grammar' }) {
   const c = card!;
   const face = c.card.kind === 'sentence' ? 'sentence' : c.card.face;
   const isNew = c.card.state === 0;
+  // caractères (Han) de la carte mot / caractère, pour la fiche d'origine après la réponse
+  const originChars = c.word ? [...new Set([...c.word.w].filter((k) => /\p{Script=Han}/u.test(k)))] : c.char ? [c.char.c] : [];
   return (
     <div className="page study">
       <div className="row" style={{ marginBottom: 12 }}>
@@ -182,6 +187,21 @@ export function Review(props: { limit?: number; queue?: 'main' | 'grammar' }) {
                   </button>
                 </div>
               </>
+            )}
+            {/* fiche d'origine : uniquement après la réponse, à la demande */}
+            {originChars.length > 0 && (
+              <div className="col" style={{ width: '100%', gap: 8 }}>
+                <button className="btn btn-sm btn-ghost" style={{ alignSelf: 'center' }} onClick={(e) => (e.currentTarget.blur(), setOriginOpen((o) => !o))} aria-expanded={originOpen}>
+                  {originOpen ? '▾' : '▸'} {originChars.length > 1 ? 'Origine des caractères' : 'Origine du caractère'}
+                </button>
+                {originOpen && (
+                  <div className="col" style={{ width: '100%', textAlign: 'left' }}>
+                    {originChars.map((ch) => (
+                      <CharCard key={ch} char={ch} compact showVideo={false} />
+                    ))}
+                  </div>
+                )}
+              </div>
             )}
             {c.sentence && (
               <>

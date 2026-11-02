@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [ <!ENTITY x "boom"> ]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" onload="alert('svg')" style="background:url(https://evil.example/track.png)">
+  <script type="text/javascript">alert(document.cookie)</script>
+  <style>.k{fill:#c00} .w{fill:#fff} path{fill:url(https://evil.example/x)}</style>
+  <metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/></metadata>
+  <image x="0" y="0" width="300" height="300" xlink:href="https://evil.example/pixel.png"/>
+  <use xlink:href="https://evil.example/sprite.svg#a"/>
+  <foreignObject width="100" height="100"><div xmlns="http://www.w3.org/1999/xhtml" onclick="steal()">hi</div></foreignObject>
+  <text x="10" y="20">漢字</text>
+  <a href="javascript:alert(1)"><path class="k" onclick="alert(2)" d="M10 10 L100 10 L100 100 Z"/></a>
+  <g transform="rotate(90 150 150)"><rect x="20" y="20" width="40" height="10" style="fill:red;filter:url(#f)"/></g>
+  <circle class="w" cx="150" cy="150" r="20"/>
+  <path d="M 200 200 a 30 30 0 1 0 60 0" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" onmouseover="x()"/>
+  <defs><path id="p1" d="M0 0h10v10z"/></defs>
+  <use xlink:href="#p1" x="250" y="250"/>
+</svg>

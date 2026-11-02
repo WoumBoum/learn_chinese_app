@@ -1,0 +1,164 @@
+{
+ "version": 1,
+ "source": "Tatoeba (https://tatoeba.org), export cmn_sentences_with_audio.tsv",
+ "url": "https://tatoeba.org/audio/download/<a>",
+ "note": "Seuls les enregistrements avec licence de réutilisation sont listés ; auteur et licence conservés par phrase.",
+ "stats": {
+  "sentencesWithAudio": 2093,
+  "licensed": 29,
+  "licences": {
+   "CC BY-NC 4.0": 29
+  },
+  "excludedWithoutLicence": {
+   "LeviHighway": 741,
+   "fucongcong": 1323
+  }
+ },
+ "sentences": {
+  "410898": {
+   "a": 988876,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "413061": {
+   "a": 988877,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "415599": {
+   "a": 988880,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "419672": {
+   "a": 988881,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "421347": {
+   "a": 988883,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "426428": {
+   "a": 988885,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "426430": {
+   "a": 988886,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "427960": {
+   "a": 988888,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "427989": {
+   "a": 988889,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "429322": {
+   "a": 988891,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "457644": {
+   "a": 988895,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10266030": {
+   "a": 992915,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10266043": {
+   "a": 992916,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10266087": {
+   "a": 992917,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10448719": {
+   "a": 992922,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10457866": {
+   "a": 992927,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10460408": {
+   "a": 992931,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10460409": {
+   "a": 992932,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10460418": {
+   "a": 992933,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10537109": {
+   "a": 992946,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10537113": {
+   "a": 992947,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10540451": {
+   "a": 992952,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10540452": {
+   "a": 992953,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10552154": {
+   "a": 992956,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10552163": {
+   "a": 992958,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10552168": {
+   "a": 992959,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10552169": {
+   "a": 992960,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10552178": {
+   "a": 992962,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  },
+  "10570094": {
+   "a": 992963,
+   "by": "GlossaMatik",
+   "lic": "CC BY-NC 4.0"
+  }
+ }
+}

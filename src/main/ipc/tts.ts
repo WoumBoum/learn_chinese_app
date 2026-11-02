@@ -1,17 +1,23 @@
-// Canaux tts:* — synthèse vocale (Piper), extraits audio, sélection d'exercices de tons et de shadowing.
+// Canaux tts:* — voix (natif > Tatoeba > Matcha > Piper, cf. services/tts.ts), extraits audio,
+// sélection d'exercices de tons et de shadowing.
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import os from 'node:os';
 import { spawn } from 'node:child_process';
+import { app } from 'electron';
 import type { Ctx } from '../ctx';
 import { handle } from '../ctx';
-import { PiperTts, pruneCache, type SpeakOptions } from '../services/tts';
-import { applySandhi, parseTones, splitSyllable } from '../services/tonefix';
+import { MatchaVoice, PiperTts, SherpaWorker, VoiceChain, describeVoices, nativeStep, pruneCache, tatoebaStep, type SpeakOptions, type SpeakResult } from '../services/tts';
+import { NativeAudio, TatoebaAudio, bareWord } from '../services/nativeAudio';
+import { applySandhi, parseTones, splitSyllable, type Tone } from '../services/tonefix';
 import type { Word } from '../../shared/types';
 
 export interface DrillWord {
   w: string;
   py: string;
+  /** pinyin numérique (minuscules) : référence syllabe native pour les mots d'un caractère */
+  pn: string;
   tones: number[]; // tons du dictionnaire (5 = neutre)
   heard: number[]; // tons réellement prononcés (sandhi)
   fr: string;
@@ -37,19 +43,66 @@ const AUDIO_EXT = /\.(wav|mp3|m4a|mp4|webm|ogg|opus|mkv|aac|flac|mov)$/i;
 
 export function register(ctx: Ctx): void {
   const tts = new PiperTts(ctx.paths.bin, ctx.paths.tts, ctx.paths.user);
-  // entretien du cache audio, en tâche de fond après le démarrage
+  const pinyinOf = (w: string): string | undefined => ctx.content.wordMap.get(w)?.pn ?? ctx.content.dict[w]?.p;
+  const native = new NativeAudio(ctx.paths.audio);
+  const tatoeba = new TatoebaAudio(path.join(ctx.paths.data, 'tatoeba-audio.json'), ctx.paths.tts, () => ctx.content.sentences);
+  const modelDir = path.join(ctx.paths.ttsModels, 'matcha-icefall-zh-baker');
+  const worker = new SherpaWorker({
+    workerPath: path.join(__dirname, 'tts-worker.js'),
+    modelDir,
+    vocoder: path.join(ctx.paths.ttsModels, 'vocos-22khz-univ.onnx'),
+    // 2 fils si la machine a de la marge (synthèse ≈ 2× plus rapide), 1 sinon pour ne pas gêner l'interface
+    numThreads: (os.availableParallelism?.() ?? os.cpus().length) >= 4 ? 2 : 1,
+  });
+  const matcha = new MatchaVoice(worker, modelDir, ctx.paths.tts, pinyinOf);
+  const chain = new VoiceChain([
+    nativeStep(native, pinyinOf),
+    tatoebaStep(tatoeba),
+    { source: 'matcha', speak: (text, o) => matcha.speak(text, o) },
+    { source: 'piper', speak: async (text, o) => (await tts.speak(text, { raw: o.raw }))?.path ?? null },
+  ]);
+  app.on('will-quit', () => worker.dispose());
+  const status = () =>
+    describeVoices({
+      native: native.available() ? native.stats() : null,
+      tatoeba: tatoeba.count(),
+      matcha: { usable: worker.usable(), running: worker.running, problem: worker.problem },
+      piper: tts.status(),
+    });
+  /** Tons réellement prononcés : ceux du programme + sandhi (voix native / Matcha), sinon espeak (Piper).
+   *  Variante érhua enregistrée (味儿 → 味) : syllabes différentes du mot, tons inconnus → null. */
+  const heardTones = async (w: string): Promise<Tone[] | null> => {
+    if (native.isVariant(w)) return null;
+    const pn = ctx.content.wordMap.get(w)?.pn;
+    const t = pn ? parseTones(pn) : null;
+    if (t && t.length === [...w].length && (native.hasWord(w) || worker.usable())) return applySandhi([...w], t);
+    return tts.tones(w);
+  };
+
+  // entretien du cache audio, puis préchargement du modèle Matcha (≈ 3 s) en tâche de fond après le démarrage
   setTimeout(() => {
     try {
       pruneCache(ctx.paths.tts);
     } catch (e) {
       console.warn('[tts] purge du cache :', e);
     }
-  }, 20_000).unref?.();
+    if (worker.usable()) worker.warmUp().catch(() => {});
+  }, 12_000).unref?.();
 
-  handle('tts:speak', (text: string, opts?: SpeakOptions) => tts.speak(text, opts ?? {}));
-  handle('tts:status', () => tts.status());
-  handle('tts:selfTest', () => tts.selfTest());
-  handle('tts:tones', (text: string) => tts.tones(text));
+  handle('tts:speak', (text: string, opts?: SpeakOptions): Promise<SpeakResult | null> => chain.speak(text, opts ?? {}));
+  handle('tts:status', () => status());
+  handle('tts:selfTest', async () => {
+    const r = await chain.speak('你好。', { engine: 'synth' });
+    const s = status();
+    if (!r) return { ...s, ok: false, detail: `Échec de la synthèse — ${s.detail}` };
+    return { ...s, ok: true, detail: `${s.detail} (test : ${r.source === 'matcha' ? 'Matcha' : 'Piper'} ✔)` };
+  });
+  handle('tts:tones', (text: string) => heardTones(bareWord(text)));
+  /** Enregistrement natif d'une syllabe (« ma3 ») ou null (ton neutre, syllabe absente). */
+  handle('tts:syllable', (pn: string) => {
+    const p = native.syllable(pn);
+    return p ? { path: p, source: 'native' as const } : null;
+  });
 
   /** Lit un fichier audio/vidéo local (pour l'analyse de hauteur côté renderer). */
   handle('tts:readAudio', (p: string) => {
@@ -78,13 +131,17 @@ export function register(ctx: Ctx): void {
     return null;
   });
 
+  /** Exercices de tons : pas d'érhua (儿 en « r5 » : une seule syllabe à l'oral, zhèr) ni de mot dont
+   *  l'enregistrement est une variante (味儿 → 味, 好好 → 好好儿) — la réponse attendue ne correspondrait pas au son. */
+  const toneSafe = (w: Word) => !/(^|\s)r5(\s|$)/i.test(w.pn) && !native.isVariant(w.w);
+
   /** Mots de 1 ou 2 syllabes pour l'entraînement aux tons, mots déjà introduits en priorité,
    *  combinaisons de tons équilibrées, et tons vérifiés contre la prononciation réelle (espeak). */
   handle('tts:toneDrill', async (n: number = 20, opts: { syllables?: 1 | 2 } = {}): Promise<DrillWord[]> => {
     const syl = opts.syllables ?? 2;
     const intro = ctx.cur.introducedWords();
     const cands = ctx.content.words.filter((w) => {
-      if ([...w.w].length !== syl || !HAN_ONLY.test(w.w)) return false;
+      if ([...w.w].length !== syl || !HAN_ONLY.test(w.w) || !toneSafe(w)) return false;
       const t = parseTones(w.pn);
       if (!t || t.length !== syl) return false;
       if (syl === 1) return t[0] !== 5 && !/[A-Z]/.test(w.pn); // majuscule = lecture « nom propre » probable
@@ -117,10 +174,10 @@ export function register(ctx: Ctx): void {
         seen.add(w.w);
         const dictTones = parseTones(w.pn)!;
         const expected = applySandhi([...w.w], dictTones);
-        const heard = await tts.tones(w.w);
-        // si espeak est disponible, on exige l'accord dictionnaire ↔ prononciation (élimine les lectures douteuses)
+        const heard = await heardTones(w.w);
+        // repli Piper : on exige l'accord dictionnaire ↔ prononciation espeak (élimine les lectures douteuses)
         if (heard && !sameTones(heard, expected)) continue;
-        out.push({ w: w.w, py: w.py, tones: dictTones, heard: heard ?? expected, fr: w.fr[0] ?? '', introduced: intro.has(w.w) });
+        out.push({ w: w.w, py: w.py, pn: w.pn.toLowerCase(), tones: dictTones, heard: heard ?? expected, fr: w.fr[0] ?? '', introduced: intro.has(w.w) });
       }
       if (!progressed) break;
     }
@@ -130,7 +187,7 @@ export function register(ctx: Ctx): void {
   /** Paires minimales : mots qui ne diffèrent que par le ton, l'initiale ou la finale (pièges des francophones). */
   handle('tts:minimalPairs', async (n: number = 12): Promise<MinimalPair[]> => {
     const intro = ctx.cur.introducedWords();
-    const pool = ctx.content.words.filter((w) => HAN_ONLY.test(w.w) && w.w.length <= 2 && w.rank < 2500 && !/[A-Z]/.test(w.pn) && parseTones(w.pn)?.length === w.w.length);
+    const pool = ctx.content.words.filter((w) => HAN_ONLY.test(w.w) && w.w.length <= 2 && w.rank < 2500 && toneSafe(w) && !/[A-Z]/.test(w.pn) && parseTones(w.pn)?.length === w.w.length);
     const pairs: (MinimalPair & { score: number })[] = [];
     const info = (w: Word) => ({ w: w.w, py: w.py, fr: w.fr[0] ?? '' });
     const score = (a: Word, b: Word) => (intro.has(a.w) ? 0 : 1000) + (intro.has(b.w) ? 0 : 1000) + a.rank + b.rank + Math.random() * 300;
@@ -188,7 +245,7 @@ export function register(ctx: Ctx): void {
       if (out.length >= n) break;
       if (p.kind === 'ton') {
         const ok = await Promise.all([p.a, p.b].map(async (x) => {
-          const heard = await tts.tones(x.w);
+          const heard = await heardTones(x.w);
           const w = ctx.content.wordMap.get(x.w)!;
           return !heard || sameTones(heard, applySandhi([...x.w], parseTones(w.pn)!));
         }));

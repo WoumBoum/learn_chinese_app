@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { call } from '../api';
 import { AudioButton, ErrorBox, Loading, ProgressBar, shuffle, speak, useKeys } from '../components/common';
-import { StrokeAnimator } from '../components/StrokeAnimator';
+import { CharCard, CharChip } from '../components/CharCard';
+import { WordVideo } from '../components/WordVideo';
 import { useNav } from '../App';
 import type { CharInfo, DayPlan, Sentence, Word } from '../../shared/types';
 
@@ -65,6 +66,8 @@ export function Learn(props: { source?: 'curriculum' | 'mission'; missionId?: st
     const batch = await call<BatchItem[]>('study:newBatch', { count: Math.max(1, count), source, missionId: props.missionId });
     start.current = Date.now();
     setItems(batch);
+    // vidéos (mot + caractères) absentes de l'index : recherche en arrière-plan, sans bloquer l'écran
+    if (batch.length) call('video:prefetch', batch.map((x) => x.word.w)).catch(() => undefined);
   };
 
   useEffect(() => {
@@ -240,6 +243,11 @@ export function Learn(props: { source?: 'curriculum' | 'mission'; missionId?: st
 
 function Presentation({ item, onNext }: { item: BatchItem; onNext: () => void }) {
   const w = item.word;
+  // vidéo d'usage : ouverte d'office pour un mot d'un seul caractère, repliée sinon
+  const single = [...w.w].length === 1;
+  const [videoOpen, setVideoOpen] = useState(single);
+  useEffect(() => setVideoOpen(single), [w.w, single]);
+  const firstNew = item.chars.find((c) => c.isNew)?.c;
   return (
     <div className="card" style={{ padding: 28 }}>
       <div className="row" style={{ alignItems: 'flex-start', gap: 28 }}>
@@ -262,26 +270,9 @@ function Presentation({ item, onNext }: { item: BatchItem; onNext: () => void })
               </span>
             )}
           </div>
-          {item.chars.length > 0 && (
-            <div className="col" style={{ marginTop: 6 }}>
-              {item.chars.map((c) => (
-                <div key={c.c} className="row" style={{ alignItems: 'center' }}>
-                  <StrokeAnimator char={c.c} size={92} speed={1.4} />
-                  <div className="col" style={{ gap: 2 }}>
-                    <div>
-                      <span className="hanzi" style={{ fontSize: 22 }}>{c.c}</span> {c.fr.slice(0, 2).join(' ; ') || c.en}
-                      {c.isNew && <span className="tag tag-info" style={{ marginLeft: 8 }}>nouveau caractère</span>}
-                    </div>
-                    <CompLine dec={c.dec} comps={item.comps} self={c.c} />
-                    {c.ety?.hint && <div className="small dim">Origine : {c.ety.hint}</div>}
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
           {item.examples.length > 0 && (
             <div className="col" style={{ marginTop: 10 }}>
-              <div className="card-title" style={{ margin: 0 }}>En contexte</div>
+              <div className="card-title" style={{ margin: 0 }}>Exemples</div>
               {item.examples.map((s) => (
                 <div key={s.id} className="row">
                   <AudioButton text={s.zh} size="sm" />
@@ -293,34 +284,37 @@ function Presentation({ item, onNext }: { item: BatchItem; onNext: () => void })
           )}
         </div>
       </div>
-      <div className="row" style={{ marginTop: 20 }}>
+      {item.chars.length > 0 && (
+        <div className="col" style={{ marginTop: 18, gap: 8 }}>
+          <div className="card-title" style={{ margin: 0 }}>
+            {item.chars.length > 1 ? 'Les caractères' : 'Le caractère'}
+          </div>
+          {/* premier nouveau caractère : fiche dépliée ; nouveaux suivants et déjà vus : puce qui se déplie à la demande
+              (plusieurs fiches complètes empilées repoussaient « Suivant » très loin) */}
+          {item.chars.map((c) =>
+            c.isNew && c.c === firstNew ? (
+              <CharCard key={c.c} char={c.c} />
+            ) : (
+              <CharChip key={c.c} char={c.c} gloss={`${c.fr[0] ?? c.en.split(/[;,]/)[0]} · ${c.isNew ? 'nouveau' : 'déjà vu'}`} compact={false} />
+            ),
+          )}
+        </div>
+      )}
+      <div className="col" style={{ marginTop: 14, gap: 8 }}>
+        <button className="btn btn-sm btn-ghost" style={{ alignSelf: 'flex-start' }} onClick={(e) => (e.currentTarget.blur(), setVideoOpen((v) => !v))} aria-expanded={videoOpen}>
+          {videoOpen ? '▾' : '▸'} Le mot en contexte (vidéo)
+        </button>
+        {/* « ouvert » = vignette seulement, jamais de lecture automatique */}
+        {videoOpen && <WordVideo key={w.w} target={w.w} slot="usage" />}
+      </div>
+      {/* collée en bas de la zone de défilement : consigne et « Suivant » visibles quelle que soit la hauteur de la fiche */}
+      <div className="row present-actions">
         <span className="small dim">Répète le mot 3 fois à voix haute avant de passer au suivant.</span>
         <div className="spacer" />
         <button className="btn btn-primary" onClick={onNext}>
           Suivant <span className="kbd">Entrée</span>
         </button>
       </div>
-    </div>
-  );
-}
-
-function CompLine({ dec, comps, self }: { dec: string; comps: { c: string; fr: string[]; en: string }[]; self: string }) {
-  const parts = [...(dec || '')].filter((k) => !/[⿰-⿻？]/.test(k) && k !== self);
-  if (parts.length < 2) return null;
-  return (
-    <div className="small muted">
-      ={' '}
-      {parts.map((p, i) => {
-        const info = comps.find((c) => c.c === p);
-        const m = info?.fr[0] ?? info?.en?.split(/[;,]/)[0];
-        return (
-          <span key={i}>
-            {i > 0 && ' + '}
-            <span className="hanzi" style={{ fontSize: 17 }}>{p}</span>
-            {m ? ` (${m})` : ''}
-          </span>
-        );
-      })}
     </div>
   );
 }

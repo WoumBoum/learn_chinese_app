@@ -8,7 +8,9 @@ import * as media from './media';
 import * as tts from './tts';
 import * as ai from './ai';
 import * as reading from './reading';
+import * as wordvideo from './wordvideo';
+import * as chars from './chars';
 
 export function registerIpcModules(ctx: Ctx): void {
-  for (const m of [core, study, grammar, tests, media, tts, ai, reading]) m.register(ctx);
+  for (const m of [core, study, grammar, tests, media, tts, ai, reading, wordvideo, chars]) m.register(ctx);
 }
