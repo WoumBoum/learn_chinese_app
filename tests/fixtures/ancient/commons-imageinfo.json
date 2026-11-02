@@ -1,0 +1,66 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      { "fromencoded": false, "from": "File:馬-oracle.svg", "to": "File:馬-oracle.svg" }
+    ],
+    "pages": [
+      {
+        "ns": 6, "title": "File:馬-oracle.svg", "missing": false, "known": true,
+        "imagerepository": "shared",
+        "imageinfo": [{
+          "size": 4521, "width": 300, "height": 300,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/%E9%A6%AC-oracle.svg",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E9%A6%AC-oracle.svg",
+          "extmetadata": {
+            "LicenseShortName": { "value": "Public domain", "source": "commons-desc-page" },
+            "Copyrighted": { "value": "False", "source": "commons-desc-page" },
+            "Artist": { "value": "<a href=\"//commons.wikimedia.org/wiki/User:Example\" title=\"User:Example\">Ancient Chinese characters project</a>", "source": "commons-desc-page" }
+          }
+        }]
+      },
+      {
+        "ns": 6, "title": "File:馬-bronze.svg",
+        "imageinfo": [{
+          "size": 3800, "width": 300, "height": 300,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%E9%A6%AC-bronze.svg",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E9%A6%AC-bronze.svg",
+          "extmetadata": {
+            "LicenseShortName": { "value": "CC0" },
+            "Artist": { "value": "AggregatibacterActinomycetemcomitans" }
+          }
+        }]
+      },
+      {
+        "ns": 6, "title": "File:馬-bigseal.svg",
+        "imageinfo": [{
+          "size": 3000,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/%E9%A6%AC-bigseal.svg",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E9%A6%AC-bigseal.svg",
+          "extmetadata": { "LicenseShortName": { "value": "Public domain" } }
+        }]
+      },
+      {
+        "ns": 6, "title": "File:馬-seal.svg",
+        "imageinfo": [{
+          "size": 5200,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/%E9%A6%AC-seal.svg",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E9%A6%AC-seal.svg",
+          "extmetadata": { "LicenseShortName": { "value": "CC BY-NC-SA 3.0" }, "Artist": { "value": "Someone" } }
+        }]
+      },
+      { "ns": 6, "title": "File:马-oracle.svg", "missing": true, "known": false },
+      { "ns": 6, "title": "File:马-bronze.svg", "missing": true },
+      { "ns": 6, "title": "File:马-bigseal.svg", "missing": true },
+      {
+        "ns": 6, "title": "File:马-seal.svg",
+        "imageinfo": [{
+          "size": 900,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/%E9%A9%AC-seal.svg",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E9%A9%AC-seal.svg",
+          "extmetadata": { "LicenseShortName": { "value": "Public domain" } }
+        }]
+      }
+    ]
+  }
+}

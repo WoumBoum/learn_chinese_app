@@ -63,6 +63,16 @@ if (!app.requestSingleInstanceLock()) {
         cb(['media', 'microphone', 'audioCapture'].includes(permission) || permission === 'clipboard-sanitized-write');
       });
       session.defaultSession.setPermissionCheckHandler(() => true);
+      // Lecteur YouTube intégré : la page file:// n'envoie aucun Referer → erreur 153. On identifie l'app (identifiant
+      // d'application, règles YouTube) sur la seule requête du document /embed/* ; Origin et les autres requêtes intactes.
+      session.defaultSession.webRequest.onBeforeSendHeaders(
+        { urls: ['https://www.youtube-nocookie.com/embed/*', 'https://www.youtube.com/embed/*'] },
+        (d, cb) => {
+          const h = d.requestHeaders;
+          if (d.resourceType === 'subFrame' && !h['Referer'] && !h['referer']) h['Referer'] = 'https://app.operation-mandarin/';
+          cb({ requestHeaders: h });
+        },
+      );
       ctx = await createCtx(() => win);
       registerIpcModules(ctx);
       await createWindow();

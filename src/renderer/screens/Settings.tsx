@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { call } from '../api';
-import { toast, useAsync } from '../components/common';
+import { playFile, toast, useAsync, type SpokenAudio } from '../components/common';
 import { useNav } from '../App';
 import type { Settings } from '../../shared/types';
 
@@ -46,7 +46,6 @@ export function SettingsScreen() {
   const { settings, reloadSettings } = useNav();
   const [s, setS] = useState<Settings>(settings!);
   const [testing, setTesting] = useState(false);
-  const tts = useAsync(() => call<{ ok: boolean; engine: string; detail: string }>('tts:status').catch(() => ({ ok: false, engine: '-', detail: 'module indisponible' })), []);
   const set = (p: Partial<Settings>) => setS((x) => ({ ...x, ...p }));
   const save = async () => {
     await call('core:saveSettings', s);
@@ -144,13 +143,48 @@ export function SettingsScreen() {
           <button className="btn" disabled={!s.apiKey || testing} onClick={testAi}>{testing ? 'Test…' : 'Tester la clé'}</button>
           <span className="small dim">La clé est stockée localement dans ta base. Les résultats sont mis en cache pour limiter le coût.</span>
           <div className="card-title" style={{ marginTop: 12 }}>Voix</div>
-          <span className="small">{tts.data ? (tts.data.ok ? `✔ ${tts.data.engine} — ${tts.data.detail}` : `✖ ${tts.data.detail}`) : '…'}</span>
+          <VoiceStatus />
           <div className="card-title" style={{ marginTop: 12 }}>Programme</div>
           <label className="col">
             <span>Date de début</span>
             <input type="date" value={s.startDate} onChange={(e) => set({ startDate: e.target.value })} />
           </label>
         </div>
+      </div>
+    </div>
+  );
+}
+
+// ---------- voix (enregistrements natifs + Matcha, Piper en secours) ----------
+type VoiceState = { ok: boolean; engine: string; detail: string };
+function VoiceStatus() {
+  const st = useAsync(() => call<VoiceState>('tts:status').catch(() => ({ ok: false, engine: '-', detail: 'module indisponible' })), []);
+  const [tested, setTested] = useState<VoiceState | null>(null);
+  const [busy, setBusy] = useState(false);
+  const v = tested ?? st.data;
+  const test = async () => {
+    setBusy(true);
+    try {
+      const r = await call<VoiceState>('tts:selfTest');
+      setTested(r);
+      const a = await call<SpokenAudio | null>('tts:speak', '你好！我们开始吧。', { engine: 'synth' }).catch(() => null);
+      if (a) await playFile(a.path);
+      const n = await call<SpokenAudio | null>('tts:speak', '你好').catch(() => null);
+      if (n) await playFile(n.path);
+    } catch (e) {
+      setTested({ ok: false, engine: '-', detail: e instanceof Error ? e.message : String(e) });
+    } finally {
+      setBusy(false);
+    }
+  };
+  return (
+    <div className="col" style={{ gap: 6 }}>
+      <span className="small">{v ? (v.ok ? `✔ ${v.engine} — ${v.detail}` : `✖ ${v.detail}`) : '…'}</span>
+      <div className="row">
+        <button className="btn btn-sm" disabled={busy} onClick={test}>
+          {busy ? 'Test…' : 'Tester la voix'}
+        </button>
+        <span className="small dim">Mots : enregistrements natifs en priorité ; phrases et mots manquants : synthèse locale.</span>
       </div>
     </div>
   );

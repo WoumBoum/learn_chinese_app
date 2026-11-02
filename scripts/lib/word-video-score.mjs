@@ -23,7 +23,7 @@ export const W = {
 };
 
 const INTENT = {
-  etymology: /字源|字源|說文|说文|演变|演變|甲骨文|金文|象形|会意|會意|形声|形聲|origin|etymolog|evolution|story of|histoire|origine|pictogra|oracle|漢字的故事|汉字的故事|汉字趣谈|漢字趣談|造字|字的故事|primitive/i,
+  etymology: /字源|字源|說文|说文|演变|演變|甲骨文|金文|象形|会意|會意|形声|形聲|origin|etymolog|\bevolution|story of|histoire|origine|pictogra|oracle|漢字的故事|汉字的故事|汉字趣谈|漢字趣談|造字|字的故事|primitive/i,
   usage: /例句|用法|怎么用|怎麼用|example|sentence|how to (use|say)|word of the day|每日一词|每日一詞|meaning|vocabulary|vocabulaire|signifie|phrases?|exemple|pronounce|dialogue/i,
 };
 /** Other-language learning, exams, long compilations, entertainment → strong penalty. */

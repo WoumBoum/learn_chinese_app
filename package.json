@@ -19,6 +19,7 @@
     "dist": "npm run build && electron-builder --linux AppImage --publish never",
     "fetch-binaries": "bash scripts/fetch-binaries.sh",
     "programme": "node scripts/gen-programme.mjs",
+    "fetch:tts": "bash scripts/fetch-tts.sh",
     "fetch:bin": "bash scripts/fetch-binaries.sh && bash scripts/fetch-piper.sh && bash scripts/fetch-tts.sh && bash scripts/fetch-audio.sh",
     "fetch:data": "bash scripts/fetch-data.sh"
   },

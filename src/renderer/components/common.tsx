@@ -4,37 +4,68 @@ import { call, fileUrl } from '../api';
 
 // ---------- audio ----------
 let currentAudio: HTMLAudioElement | null = null;
+let currentDone: (() => void) | null = null;
 
-/** Speak Chinese text with the local TTS voice (cached). Resolves when playback ends. */
+/** Réponse de `tts:speak` : voix native, Tatoeba, Matcha ou Piper (fichier local en cache). */
+export interface SpokenAudio {
+  path: string;
+  source?: 'native' | 'tatoeba' | 'matcha' | 'piper';
+  rate?: number;
+}
+
+/** Speak Chinese text (native recording when available, else local TTS; cached). Resolves when playback ends.
+ *  `rate` < 1 = slow mode: the audio is slowed at playback (pitch preserved), never re-synthesized slower. */
 export async function speak(text: string, rate = 1): Promise<void> {
-  const r = await call<{ path: string } | null>('tts:speak', text);
+  let r: SpokenAudio | null = null;
+  try {
+    r = await call<SpokenAudio | null>('tts:speak', text);
+  } catch (e) {
+    console.warn('[audio]', e);
+  }
   if (!r) return;
   await playFile(r.path, rate);
 }
 
 export function playFile(path: string, rate = 1, start?: number, end?: number): Promise<void> {
+  stopAudio();
   return new Promise((resolve) => {
-    currentAudio?.pause();
     const a = new Audio(fileUrl(path));
+    let finished = false;
+    const stop = () => {
+      if (finished) return;
+      finished = true;
+      if (currentAudio === a) {
+        currentAudio = null;
+        currentDone = null;
+      }
+      resolve();
+    };
     currentAudio = a;
+    currentDone = stop;
+    a.preservesPitch = true;
     a.playbackRate = rate;
     if (start != null) a.currentTime = start;
-    const stop = () => resolve();
     a.onended = stop;
     a.onerror = stop;
     if (end != null)
       a.ontimeupdate = () => {
         if (a.currentTime >= end) {
           a.pause();
-          resolve();
+          stop();
         }
       };
     a.play().catch(stop);
   });
 }
 
+/** Arrête la lecture en cours (la promesse de playFile/speak correspondante se résout). */
 export function stopAudio() {
-  currentAudio?.pause();
+  const a = currentAudio;
+  const done = currentDone;
+  currentAudio = null;
+  currentDone = null;
+  a?.pause();
+  done?.();
 }
 
 export function AudioButton({ text, rate = 1, label, autoPlay, size = 'md' }: { text: string; rate?: number; label?: string; autoPlay?: boolean; size?: 'sm' | 'md' | 'lg' }) {
@@ -52,7 +83,7 @@ export function AudioButton({ text, rate = 1, label, autoPlay, size = 'md' }: { 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text, autoPlay]);
   return (
-    <button className={`btn ${size === 'sm' ? 'btn-sm' : size === 'lg' ? 'btn-lg' : ''}`} onClick={play} disabled={busy} title="Écouter">
+    <button className={`btn ${size === 'sm' ? 'btn-sm' : size === 'lg' ? 'btn-lg' : ''}`} onClick={play} disabled={busy} title={rate < 1 ? 'Écouter lentement' : 'Écouter'}>
       {busy ? '♪…' : '🔊'} {label}
     </button>
   );

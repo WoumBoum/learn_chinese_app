@@ -179,8 +179,16 @@ export function register(ctx: Ctx): void {
   handle('core:strokes', (c: string) => ctx.content.strokeData(c));
   handle('core:charInfo', (c: string) => ctx.content.chars[c] ?? null);
   handle('core:openExternal', async (url: string) => {
+    // seulement des liens web / mail : jamais file:, javascript:, schémas d'applications…
+    let u: URL;
+    try {
+      u = new URL(String(url));
+    } catch {
+      throw new Error('Lien invalide');
+    }
+    if (!['https:', 'http:', 'mailto:'].includes(u.protocol)) throw new Error('Lien refusé');
     const { shell } = await import('electron');
-    await shell.openExternal(url);
+    await shell.openExternal(u.toString());
     return true;
   });
 }

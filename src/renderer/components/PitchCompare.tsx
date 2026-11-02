@@ -1,8 +1,9 @@
-// Comparaison de courbes mélodiques (F0) : référence (voix de synthèse ou extrait vidéo) vs voix de l'utilisateur.
+// Comparaison de courbes mélodiques (F0) : référence (enregistrement natif, voix de synthèse ou extrait vidéo)
+// vs voix de l'utilisateur. Sans `refPath`, la référence vient de `tts:speak` (voix native du mot / de la syllabe en priorité).
 // Utilisé par l'écran « Tons & oral » (shadowing) et par le lecteur vidéo (mode compact).
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { call, fileUrl } from '../api';
-import { playFile, stopAudio } from './common';
+import { playFile, stopAudio, type SpokenAudio } from './common';
 import { pitchTrack, toSemitones, similarity, contour, describeShape, type PitchPoint } from './pitch';
 
 export interface PitchCompareProps {
@@ -11,6 +12,10 @@ export interface PitchCompareProps {
   refStart?: number;
   refEnd?: number;
   compact?: boolean;
+  /** Pinyin numérique de `text` (lecture voulue d'un polyphone, syllabe native). */
+  pn?: string;
+  /** Caractère seul : référence = enregistrement de la syllabe isolée (exercices de tons). */
+  syllable?: boolean;
   /** Appelé à chaque nouvel essai noté (score 0-100). */
   onScore?: (score: number) => void;
 }
@@ -70,8 +75,9 @@ function micError(e: unknown): string {
 const verdict = (s: number) => (s >= 80 ? ['Excellent', 'var(--ok)'] : s >= 62 ? ['Bien', 'var(--good)'] : s >= 42 ? ['À retravailler', 'var(--warn)'] : ['Recommence', 'var(--bad)']);
 
 export function PitchCompare(props: PitchCompareProps) {
-  const { text, refPath, refStart, refEnd, compact } = props;
+  const { text, refPath, refStart, refEnd, compact, pn, syllable } = props;
   const [ref, setRef] = useState<Analysed | null>(null);
+  const [refSource, setRefSource] = useState<SpokenAudio['source'] | 'video' | null>(null);
   const [refErr, setRefErr] = useState<string | null>(null);
   const [user, setUser] = useState<Analysed | null>(null);
   const [userUrl, setUserUrl] = useState<string | null>(null);
@@ -90,6 +96,7 @@ export function PitchCompare(props: PitchCompareProps) {
   useEffect(() => {
     let alive = true;
     setRef(null);
+    setRefSource(null);
     setRefErr(null);
     setUser(null);
     setScore(null);
@@ -97,14 +104,16 @@ export function PitchCompare(props: PitchCompareProps) {
     (async () => {
       try {
         if (!refPath) {
-          const r = await call<{ path: string } | null>('tts:speak', text);
-          if (!r) throw new Error('Voix de synthèse indisponible (Piper non installé).');
+          const r = await call<SpokenAudio | null>('tts:speak', text, pn || syllable ? { pn, syllable } : undefined);
+          if (!r) throw new Error('aucun enregistrement ni voix de synthèse disponible pour ce texte.');
+          if (alive) setRefSource(r.source ?? null);
           playRef.current = () => playFile(r.path);
           const buf = await loadAudio(r.path);
           if (alive) setRef(analyse(mono(buf), buf.sampleRate));
         } else {
           const s = refStart ?? 0;
           const e = refEnd ?? s + 5;
+          if (alive) setRefSource('video');
           const clip = await call<{ path: string } | null>('tts:clip', refPath, s, e).catch(() => null);
           if (clip) {
             playRef.current = () => playFile(clip.path);
@@ -124,7 +133,7 @@ export function PitchCompare(props: PitchCompareProps) {
       alive = false;
       recRef.current?.stop();
     };
-  }, [text, refPath, refStart, refEnd]);
+  }, [text, refPath, refStart, refEnd, pn, syllable]);
 
   useEffect(() => () => {
     if (userUrl) URL.revokeObjectURL(userUrl);
@@ -318,7 +327,9 @@ export function PitchCompare(props: PitchCompareProps) {
       </div>
       <canvas ref={canvas} style={{ width: '100%', height: compact ? 64 : 170, display: 'block', marginTop: compact ? 0 : 12, background: 'var(--bg-2)', borderRadius: 8 }} />
       <div className="row small" style={{ gap: 14, marginTop: compact ? 0 : 6 }}>
-        <span style={{ color: 'var(--gold)' }}>━ référence</span>
+        <span style={{ color: 'var(--gold)' }} title={refSource === 'native' || refSource === 'tatoeba' ? 'Enregistrement d’un locuteur natif' : refSource === 'video' ? 'Extrait de la vidéo' : 'Voix de synthèse'}>
+          ━ référence{refSource === 'native' || refSource === 'tatoeba' ? ' (voix native)' : refSource === 'matcha' || refSource === 'piper' ? ' (synthèse)' : ''}
+        </span>
         <span style={{ color: 'var(--info)' }}>━ ta voix</span>
         {!ref && !refErr && <span className="dim">analyse de la référence…</span>}
         {busy === 'user' && <span className="dim">analyse de ta voix…</span>}

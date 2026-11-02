@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { call } from '../api';
 import { AudioButton, Loading, Modal, toast, useAsync } from './common';
 import { StrokeAnimator } from './StrokeAnimator';
+import { CharCard } from './CharCard';
+import { WordVideo } from './WordVideo';
 
 interface Lookup {
   w: string;
@@ -21,6 +23,8 @@ const STATUS_LABEL: Record<string, string> = { known: 'Connu', learning: 'En app
 export function WordPopup({ word, onClose, context }: { word: string; onClose: () => void; context?: string }) {
   const { data, loading, reload } = useAsync(() => call<Lookup>('core:lookup', word), [word]);
   const [showChar, setShowChar] = useState<string | null>(null);
+  const [origin, setOrigin] = useState<string | null>(null);
+  const [video, setVideo] = useState(false);
   const learn = async () => {
     await call('study:addWord', word, 'lookup');
     toast(`« ${word} » ajouté à tes révisions`);
@@ -64,9 +68,20 @@ export function WordPopup({ word, onClose, context }: { word: string; onClose: (
           {showChar && (
             <div className="card" style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
               <StrokeAnimator key={showChar} char={showChar} size={140} />
-              <CharNotes c={data.chars.find((x) => x.c === showChar)!} />
+              <div className="col" style={{ gap: 8 }}>
+                <CharNotes c={data.chars.find((x) => x.c === showChar)!} />
+                <button className="btn btn-sm" style={{ alignSelf: 'flex-start' }} onClick={() => setOrigin(showChar)}>
+                  Origine du caractère ▸
+                </button>
+              </div>
             </div>
           )}
+          <div className="col" style={{ gap: 6 }}>
+            <button className="btn btn-sm btn-ghost" style={{ alignSelf: 'flex-start' }} onClick={(e) => (e.currentTarget.blur(), setVideo((v) => !v))} aria-expanded={video}>
+              {video ? '▾' : '▸'} Vidéo : le mot en contexte
+            </button>
+            {video && <WordVideo target={data.w} slot="usage" compact />}
+          </div>
           <div className="row">
             {!data.status && (
               <button className="btn btn-primary" onClick={learn}>
@@ -95,6 +110,11 @@ export function WordPopup({ word, onClose, context }: { word: string; onClose: (
           </div>
         </div>
       )}
+      {origin && (
+        <Modal onClose={() => setOrigin(null)}>
+          <CharCard char={origin} onClose={() => setOrigin(null)} />
+        </Modal>
+      )}
     </Modal>
   );
 }
@@ -111,7 +131,7 @@ export function CharNotes({ c }: { c: { c: string; fr: string[]; en: string; dec
           Composants : <span className="hanzi">{parts.join(' + ')}</span>
         </div>
       )}
-      {c.ety?.hint && <div className="dim">Origine : {c.ety.hint}</div>}
+      {/* l'origine (en français) est sur la fiche caractère (CharCard) : l'indice anglais de Make Me a Hanzi la contredisait parfois */}
     </div>
   );
 }

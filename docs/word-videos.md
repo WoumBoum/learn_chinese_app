@@ -362,7 +362,7 @@ C'est une borne basse : 9 listes sont plafonnées aux 1 000 dernières vidéos (
 Edeo & Legoo…).
 
 
-## 5. Architecture proposée (non implémentée)
+## 5. Architecture (implémentée : `src/core/wordVideos.ts`, `src/main/services/wordvideo.ts`, `src/main/ipc/wordvideo.ts`, `WordVideo.tsx`)
 
 1. **Index de chaînes d'abord, recherche ensuite.** Lister une fois (puis toutes les semaines) les vidéos des
    chaînes du catalogue avec `yt-dlp --flat-playlist` (≈ 1 requête / 30 vidéos) et faire correspondre les titres
@@ -375,8 +375,10 @@ Edeo & Legoo…).
    `CREATE TABLE IF NOT EXISTS word_videos (target TEXT, slot TEXT, video_id TEXT, title TEXT, channel TEXT, channel_id TEXT, duration INTEGER, score REAL, rank INTEGER, fetched_at TEXT, status TEXT, PRIMARY KEY (target, slot, rank))`
    — `status` ∈ `ok | hidden | broken` : l'utilisateur peut écarter une vidéo (« pas pertinente » → `hidden`,
    prendre la suivante) ; une erreur de lecture la marque `broken`. Rafraîchir après 90 jours.
-4. **Canaux IPC** (préfixe `media:`) : `media:wordVideos(w)` → `{etymology: {char, video}[], usage: video | null, pending: boolean}`,
-   `media:hideWordVideo(target, slot, videoId)`.
+4. **Canaux IPC** (préfixe `video:`, implémentés) : `video:forTarget(target, slot)`, `video:next(target, slot)`,
+   `video:hide(target, slot, id, 'irrelevant'|'broken')` → `{video, alternatives, pending, source, error?}` ;
+   `video:prefetch(words[])` → nombre de cibles en file ; `video:resume()` ; évènement `video:updated {target, slot}`.
+   (La proposition initiale `media:wordVideos` / `media:hideWordVideo` n'a pas été retenue.)
 5. **Écran** : sur la présentation d'un nouveau mot (là où le pinyin est déjà autorisé) et dans `WordPopup` :
    onglets « Origine de 朋 / 友 » et « Le mot en contexte », lecteur intégré (§6) + bouton « Ouvrir sur YouTube »
    (`core:openExternal`) toujours visible comme repli. Les vidéos de chaînes taïwanaises montrent souvent des

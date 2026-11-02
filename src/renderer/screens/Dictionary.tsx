@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { call } from '../api';
-import { AudioButton } from '../components/common';
+import { AudioButton, Modal } from '../components/common';
 import { WordPopup } from '../components/WordPopup';
+import { CharCard } from '../components/CharCard';
 
 interface Hit {
   w: string;
@@ -15,6 +16,7 @@ export function Dictionary(props: { q?: string }) {
   const [q, setQ] = useState(props.q ?? '');
   const [hits, setHits] = useState<Hit[]>([]);
   const [open, setOpen] = useState<string | null>(null);
+  const [origin, setOrigin] = useState<string | null>(null);
   useEffect(() => {
     const t = setTimeout(() => {
       if (q.trim()) call<Hit[]>('core:searchDict', q).then(setHits);
@@ -38,12 +40,22 @@ export function Dictionary(props: { q?: string }) {
             <span className="pinyin" style={{ minWidth: 120, fontSize: 15 }}>{h.py}</span>
             <span style={{ flex: 1 }}>{h.fr.slice(0, 3).join(' ; ') || <span className="muted">{h.en.slice(0, 2).join(' ; ')}</span>}</span>
             {h.hsk && h.hsk < 9 && <span className="tag">HSK {h.hsk}</span>}
+            {[...h.w].length === 1 && /\p{Script=Han}/u.test(h.w) && (
+              <button className="btn btn-sm btn-ghost" onClick={(e) => (e.stopPropagation(), setOrigin(h.w))} title="Fiche du caractère : origine, composants, dessin">
+                Origine
+              </button>
+            )}
             <span onClick={(e) => e.stopPropagation()}><AudioButton text={h.w} size="sm" /></span>
           </div>
         ))}
         {q && hits.length === 0 && <div className="empty">Aucun résultat.</div>}
       </div>
       {open && <WordPopup word={open} onClose={() => setOpen(null)} />}
+      {origin && (
+        <Modal onClose={() => setOrigin(null)}>
+          <CharCard char={origin} onClose={() => setOrigin(null)} />
+        </Modal>
+      )}
     </div>
   );
 }

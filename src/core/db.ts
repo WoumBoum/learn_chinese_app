@@ -59,6 +59,12 @@ CREATE TABLE IF NOT EXISTS ai_cache (key TEXT PRIMARY KEY, value TEXT NOT NULL, 
 CREATE TABLE IF NOT EXISTS stories (
   id TEXT PRIMARY KEY, title TEXT NOT NULL, zh TEXT NOT NULL, fr TEXT, theme TEXT, created INTEGER NOT NULL, read INTEGER NOT NULL DEFAULT 0
 );
+CREATE TABLE IF NOT EXISTS word_videos (
+  target TEXT NOT NULL, slot TEXT NOT NULL, video_id TEXT NOT NULL, title TEXT, channel TEXT, duration INTEGER, score REAL,
+  rank INTEGER, source TEXT, start INTEGER, status TEXT, fetched_at INTEGER, off_slot INTEGER NOT NULL DEFAULT 0,
+  status_at INTEGER,
+  PRIMARY KEY (target, slot, video_id)
+);
 `;
 
 let SQL: SqlJsStatic | null = null;
@@ -81,6 +87,16 @@ export class Db {
     if (file && fs.existsSync(file)) this.db = new sql.Database(fs.readFileSync(file));
     else this.db = new sql.Database();
     this.db.exec(SCHEMA);
+    this.addMissingColumns();
+  }
+
+  /** Colonnes ajoutées après la création d'une table (base existante) : ALTER TABLE additif. */
+  private addMissingColumns(): void {
+    const add: [table: string, column: string, decl: string][] = [['word_videos', 'status_at', 'INTEGER']];
+    for (const [table, column, decl] of add) {
+      const cols = this.all<{ name: string }>(`PRAGMA table_info(${table})`).map((c) => c.name);
+      if (cols.length && !cols.includes(column)) this.db.exec(`ALTER TABLE ${table} ADD COLUMN ${column} ${decl}`);
+    }
   }
 
   all<T = Record<string, unknown>>(sql: string, params: Params = []): T[] {
