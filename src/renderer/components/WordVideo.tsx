@@ -32,6 +32,7 @@ interface Result {
   pending: boolean;
   source: 'cache' | 'index' | 'search' | 'ai' | 'none';
   error?: string;
+  retryInMs?: number;
 }
 
 const YT_ORIGINS = ['https://www.youtube-nocookie.com', 'https://www.youtube.com'];
@@ -76,6 +77,10 @@ export function WordVideo({ target, slot, compact }: WordVideoProps) {
   const online = useOnline();
   const frame = useRef<HTMLIFrameElement | null>(null);
   const vid = res?.video?.id;
+  /** Le focus est dans le lecteur (clic sur pause, sous-titres, volume…) : le rendre au document. */
+  const releaseFocus = useCallback(() => {
+    if (frame.current && document.activeElement === frame.current) frame.current.blur();
+  }, []);
   // Chaque requête prend un numéro ; seule la plus récente (pour la cible courante) est affichée.
   const seq = useRef(0);
 
@@ -115,6 +120,14 @@ export function WordVideo({ target, slot, compact }: WordVideoProps) {
     }
     wasOnline.current = online;
   }, [online, load]);
+
+  // Recherches en pause (DNS / YouTube injoignable alors que navigator.onLine reste vrai) : un seul rechargement à la
+  // fin de la pause — c'est lui qui relance la recherche (limiteur global : pas de rafale) ; nouvel échec → nouvelle pause.
+  useEffect(() => {
+    if (!res || res.video || res.pending || !res.retryInMs) return;
+    const t = window.setTimeout(load, res.retryInMs + 1000);
+    return () => window.clearTimeout(t);
+  }, [res, load]);
 
   // Recherche terminée / choix IA : recharger, sauf pendant la lecture (ne pas couper la vidéo).
   const playingRef = useRef(false);
@@ -176,7 +189,13 @@ export function WordVideo({ target, slot, compact }: WordVideoProps) {
         post({ event: 'command', func: 'addEventListener', args: ['onStateChange'] });
       }
       if (d.event === 'onReady') post({ event: 'command', func: 'playVideo', args: [] });
-      if (d.event === 'onStateChange' && Number(d.info) === 1) session.fails = 0; // une vidéo joue : l'environnement va bien
+      if (d.event === 'onStateChange') {
+        const st = Number(d.info);
+        if (st === 1) session.fails = 0; // une vidéo joue : l'environnement va bien
+        // lecture lancée / en pause / finie : rendre le clavier à l'app (raccourcis, Échap des fenêtres) — une
+        // <iframe> d'une autre origine garde les touches pour elle
+        if (st === 0 || st === 1 || st === 2 || st === 5) window.setTimeout(releaseFocus, 0);
+      }
       if (d.event === 'onError') {
         const kind = playerErrorKind(d.info);
         if (kind === 'ignore') return;
@@ -248,7 +267,7 @@ export function WordVideo({ target, slot, compact }: WordVideoProps) {
         )}
       </div>
       <div className="wv-body">
-        <div className="wv-media">
+        <div className="wv-media" onMouseLeave={releaseFocus}>
           {playing ? (
             <iframe
               ref={frame}

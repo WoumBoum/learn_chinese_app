@@ -135,18 +135,51 @@ let openModals = 0;
 export const modalOpen = () => openModals > 0;
 const modalStack: (() => void)[] = [];
 
+const FOCUSABLE = 'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),iframe,summary,[tabindex]:not([tabindex="-1"])';
+
+/**
+ * Fenêtre modale : Échap ferme la plus haute ; le focus entre dans la fenêtre à l'ouverture, Tab / Maj+Tab y restent
+ * (sinon Entrée / Espace activaient les boutons cachés derrière le fond), et revient à l'élément d'origine à la fermeture.
+ */
 export function Modal({ children, onClose }: { children: ReactNode; onClose: () => void }) {
   const closeRef = useRef(onClose);
   closeRef.current = onClose;
+  const boxRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     openModals++;
+    const prev = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     const close = () => closeRef.current();
     modalStack.push(close);
+    const isTop = () => modalStack[modalStack.length - 1] === close;
+    // un enfant qui a déjà pris le focus (champ autoFocus) le garde
+    if (boxRef.current && !boxRef.current.contains(document.activeElement)) boxRef.current.focus({ preventScroll: true });
     const k = (e: KeyboardEvent) => {
-      // only the top-most modal reacts to Escape
-      if (e.key === 'Escape' && modalStack[modalStack.length - 1] === close) {
+      if (!isTop()) return; // seule la fenêtre la plus haute réagit
+      if (e.key === 'Escape') {
         e.stopImmediatePropagation();
         close();
+        return;
+      }
+      const box = boxRef.current;
+      if (e.key !== 'Tab' || !box) return;
+      const f = [...box.querySelectorAll<HTMLElement>(FOCUSABLE)].filter((el) => el.offsetParent !== null || el === document.activeElement);
+      const a = document.activeElement;
+      if (!f.length) {
+        e.preventDefault();
+        box.focus({ preventScroll: true });
+        return;
+      }
+      const first = f[0];
+      const last = f[f.length - 1];
+      if (!box.contains(a)) {
+        e.preventDefault();
+        (e.shiftKey ? last : first).focus();
+      } else if (e.shiftKey && (a === first || a === box)) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && a === last) {
+        e.preventDefault();
+        first.focus();
       }
     };
     window.addEventListener('keydown', k, true);
@@ -155,11 +188,12 @@ export function Modal({ children, onClose }: { children: ReactNode; onClose: () 
       const i = modalStack.indexOf(close);
       if (i >= 0) modalStack.splice(i, 1);
       window.removeEventListener('keydown', k, true);
+      if (prev && prev !== document.body && prev.isConnected) prev.focus({ preventScroll: true });
     };
   }, []);
   return (
     <div className="modal-back" onClick={onClose}>
-      <div className="modal" onClick={(e) => e.stopPropagation()}>
+      <div ref={boxRef} className="modal" role="dialog" aria-modal="true" tabIndex={-1} onClick={(e) => e.stopPropagation()}>
         {children}
       </div>
     </div>

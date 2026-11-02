@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import path from 'node:path';
 import { Db, initSql } from '../src/core/db';
-import { Content, numericToMarks } from '../src/core/content';
+import { Content, displayCharPinyin, numericToMarks } from '../src/core/content';
 import { Srs } from '../src/core/srs';
 import { Curriculum } from '../src/core/curriculum';
 import { planDay, type PlannerInput } from '../src/core/planner';
@@ -36,6 +36,22 @@ describe('content', () => {
     expect(numericToMarks('lu:4')).toBe('lǜ');
     expect(numericToMarks('xie4 xie5')).toBe('xiè xie');
     expect(numericToMarks('gou3')).toBe('gǒu');
+  });
+  it('shows common single characters in lowercase pinyin (CC-CEDICT surname entry first), keeps proper nouns', () => {
+    // helper pur
+    expect(displayCharPinyin('休', 'Xiu1', { e: ['surname Xiu', 'to rest'] })).toBe('xiu1');
+    expect(displayCharPinyin('仉', 'Zhang3', { e: ['surname Zhang'] })).toBe('Zhang3'); // nom de famille seulement
+    expect(displayCharPinyin('北京', 'Bei3 jing1', { e: ['Beijing'] })).toBe('Bei3 jing1');
+    expect(displayCharPinyin('A', 'A', { e: ['(slang) to steal'] })).toBe('A');
+    // données réelles, telles qu'affichées (dictionnaire, fiches, popups)
+    const py = (w: string) => content.gloss(w).py;
+    expect(py('休')).toBe('xiū');
+    expect(py('王')).toBe('wáng');
+    expect(py('张')).toBe('zhāng');
+    expect(py('李')).toBe('lǐ');
+    expect(py('高')).toBe('gāo');
+    expect(py('方')).toBe('fāng');
+    expect(numericToMarks(content.dict['北京'].p)).toBe('Běi jīng');
   });
   it('loads grammar points', () => {
     expect(content.grammar.length).toBeGreaterThan(20);

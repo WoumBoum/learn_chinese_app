@@ -247,6 +247,7 @@ function Presentation({ item, onNext }: { item: BatchItem; onNext: () => void })
   const single = [...w.w].length === 1;
   const [videoOpen, setVideoOpen] = useState(single);
   useEffect(() => setVideoOpen(single), [w.w, single]);
+  const firstNew = item.chars.find((c) => c.isNew)?.c;
   return (
     <div className="card" style={{ padding: 28 }}>
       <div className="row" style={{ alignItems: 'flex-start', gap: 28 }}>
@@ -288,12 +289,13 @@ function Presentation({ item, onNext }: { item: BatchItem; onNext: () => void })
           <div className="card-title" style={{ margin: 0 }}>
             {item.chars.length > 1 ? 'Les caractères' : 'Le caractère'}
           </div>
-          {/* nouveaux caractères : fiche dépliée ; déjà vus : puce qui se déplie à la demande */}
+          {/* premier nouveau caractère : fiche dépliée ; nouveaux suivants et déjà vus : puce qui se déplie à la demande
+              (plusieurs fiches complètes empilées repoussaient « Suivant » très loin) */}
           {item.chars.map((c) =>
-            c.isNew ? (
+            c.isNew && c.c === firstNew ? (
               <CharCard key={c.c} char={c.c} />
             ) : (
-              <CharChip key={c.c} char={c.c} gloss={`${c.fr[0] ?? c.en.split(/[;,]/)[0]} · déjà vu`} compact={false} />
+              <CharChip key={c.c} char={c.c} gloss={`${c.fr[0] ?? c.en.split(/[;,]/)[0]} · ${c.isNew ? 'nouveau' : 'déjà vu'}`} compact={false} />
             ),
           )}
         </div>
@@ -305,7 +307,8 @@ function Presentation({ item, onNext }: { item: BatchItem; onNext: () => void })
         {/* « ouvert » = vignette seulement, jamais de lecture automatique */}
         {videoOpen && <WordVideo key={w.w} target={w.w} slot="usage" />}
       </div>
-      <div className="row" style={{ marginTop: 20 }}>
+      {/* collée en bas de la zone de défilement : consigne et « Suivant » visibles quelle que soit la hauteur de la fiche */}
+      <div className="row present-actions">
         <span className="small dim">Répète le mot 3 fois à voix haute avant de passer au suivant.</span>
         <div className="spacer" />
         <button className="btn btn-primary" onClick={onNext}>

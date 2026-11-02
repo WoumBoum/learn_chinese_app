@@ -16,7 +16,8 @@ export interface CharCardData {
   story?: {
     type: string;
     origin: string;
-    components: { c: string; role: Role; fr: string; py?: string }[];
+    /** card: false → rien à ouvrir (ni fiche, ni sens en français) */
+    components: { c: string; role: Role; fr: string; py?: string; card?: boolean }[];
     mnemonic: string;
     scene: string;
     svg: string;
@@ -124,10 +125,11 @@ function useAncient(c: string): AncientResult | null {
 }
 
 export function CharCard({ char, compact = false, showVideo, onClose }: CharCardProps) {
-  // pile de navigation : clic sur un composant → sa fiche, « retour » → la précédente
-  const [stack, setStack] = useState<string[]>([]);
+  // pile de navigation : clic sur un composant → sa fiche, « retour » → la précédente ; `fr` = libellé français que la
+  // fiche parente donnait au composant (affiché si la fiche du composant n'a pas de sens en français)
+  const [stack, setStack] = useState<{ c: string; fr?: string }[]>([]);
   useEffect(() => setStack([]), [char]);
-  const c = stack.length ? stack[stack.length - 1] : char;
+  const c = stack.length ? stack[stack.length - 1].c : char;
   const [data, setData] = useState<CharCardData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [videoOpen, setVideoOpen] = useState(false);
@@ -146,8 +148,8 @@ export function CharCard({ char, compact = false, showVideo, onClose }: CharCard
   const ancient = useAncient(c);
   const withVideo = showVideo ?? !compact;
 
-  const open = (k: string) => {
-    setStack((s) => [...s, k]);
+  const open = (k: string, fr?: string) => {
+    setStack((s) => [...s, { c: k, fr: fr || undefined }]);
     top.current?.scrollIntoView({ block: 'nearest' });
   };
   const back = () => setStack((s) => s.slice(0, -1));
@@ -170,8 +172,18 @@ export function CharCard({ char, compact = false, showVideo, onClose }: CharCard
   const type = st?.type ? TYPE_LABEL[st.type] ?? { label: st.type, tip: '' } : null;
   const forms = (ancient?.forms ?? []).slice().sort((a, b) => FORM_ORDER.indexOf(a.form) - FORM_ORDER.indexOf(b.form));
   const srcs = [...new Set(forms.map((f) => f.src).filter(Boolean))] as string[];
-  const credit = forms.map((f) => `${FORM_LABEL[f.form].fr} : ${f.author || 'auteur inconnu'} — ${f.license}`).join('\n');
-  const meaning = data.fr.slice(0, compact ? 2 : 3).join(' ; ');
+  // Attribution visible (CC BY / BY-SA) : auteur et licence de chaque fichier, lien vers la page de chacun ; formes de
+  // même auteur et même licence regroupées.
+  const creditGroups: { key: string; author: string; license: string; forms: typeof forms }[] = [];
+  for (const f of forms) {
+    const author = f.author || 'auteur inconnu';
+    const key = `${author}\u0000${f.license}`;
+    const g = creditGroups.find((x) => x.key === key);
+    if (g) g.forms.push(f);
+    else creditGroups.push({ key, author, license: f.license, forms: [f] });
+  }
+  const hint = stack.length ? stack[stack.length - 1].fr : undefined;
+  const meaning = (!data.fr.length || data.fr[0].startsWith('(en)')) && hint ? hint : data.fr.slice(0, compact ? 2 : 3).join(' ; ');
 
   return (
     <div className={cls} ref={top}>
@@ -184,7 +196,7 @@ export function CharCard({ char, compact = false, showVideo, onClose }: CharCard
         <div className="cc-nav">
           {stack.length > 0 && (
             <button className="btn btn-sm btn-ghost" onClick={back} title="Revenir à la fiche précédente">
-              ← <span className="hanzi">{stack.length > 1 ? stack[stack.length - 2] : char}</span>
+              ← <span className="hanzi">{stack.length > 1 ? stack[stack.length - 2].c : char}</span>
             </button>
           )}
           <div className="spacer" />
@@ -261,28 +273,38 @@ export function CharCard({ char, compact = false, showVideo, onClose }: CharCard
               </figure>
             </div>
           </div>
-          <div className="cc-credit" title={credit}>
+          <div className="cc-credit">
             {srcs.length > 0 && (
               <>
                 formes anciennes de <span className="hanzi">{srcs.join('、')}</span> (traditionnel) ·{' '}
               </>
             )}
-            Wikimedia Commons, Ancient Chinese characters project ·{' '}
-            {[...new Set(forms.map((f) => f.license))].join(', ')}
-            {COMMONS_PAGE.test(forms[0]?.url ?? '') && (
-              <>
-                {' · '}
-                <a
-                  href="#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    call('core:openExternal', forms[0].url).catch(() => undefined);
-                  }}
-                >
-                  source
-                </a>
-              </>
-            )}
+            Wikimedia Commons :{' '}
+            {creditGroups.map((g, gi) => (
+              <span key={g.key}>
+                {gi > 0 && ' · '}
+                {g.forms.map((f, i) => (
+                  <span key={f.form}>
+                    {i > 0 && ', '}
+                    {COMMONS_PAGE.test(f.url) ? (
+                      <a
+                        href="#"
+                        title="page du fichier (auteur, licence, sources)"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          call('core:openExternal', f.url).catch(() => undefined);
+                        }}
+                      >
+                        {FORM_LABEL[f.form].fr}
+                      </a>
+                    ) : (
+                      FORM_LABEL[f.form].fr
+                    )}
+                  </span>
+                ))}
+                {' '}— {g.author}, {g.license}
+              </span>
+            ))}
           </div>
         </div>
       ) : ancient.status === 'offline' && !compact ? (
@@ -313,13 +335,14 @@ export function CharCard({ char, compact = false, showVideo, onClose }: CharCard
                   </span>
                 </>
               );
-              // le caractère lui-même décrit comme « forme » (气, 牛, 心…) : rien à ouvrir
-              return k.c === data.c ? (
+              // le caractère lui-même décrit comme « forme » (气, 牛, 心…), ou composant sans fiche ni sens en français
+              // (𠂉, ナ…) : rien à ouvrir
+              return k.c === data.c || k.card === false ? (
                 <span key={k.c + i} className={'cc-comp cc-comp-self cc-role-' + k.role} title={ROLE_TIP[k.role]}>
                   {body}
                 </span>
               ) : (
-                <button key={k.c + i} className={'cc-comp cc-role-' + k.role} onClick={(e) => (e.currentTarget.blur(), open(k.c))} title={`${ROLE_TIP[k.role]} — ouvrir la fiche de ${k.c}`}>
+                <button key={k.c + i} className={'cc-comp cc-role-' + k.role} onClick={(e) => (e.currentTarget.blur(), open(k.c, k.fr))} title={`${ROLE_TIP[k.role]} — ouvrir la fiche de ${k.c}`}>
                   {body}
                 </button>
               );

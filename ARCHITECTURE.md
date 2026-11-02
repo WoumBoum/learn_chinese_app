@@ -85,11 +85,11 @@ Existants (core/study — déjà implémentés) :
   `tts:toneDrill(n, {syllables:1|2})`, `tts:minimalPairs(n)` (sans mots en 儿 ni variantes), `tts:shadowSet(n)` (exercices).
   Modèles : `bash scripts/fetch-tts.sh` (→ `resources/tts/`) ; Piper : `bash scripts/fetch-piper.sh` (→ `resources/bin/piper/`) — à lancer avant `npm run dist`.
 - **video** (vidéo par mot) : `video:forTarget(target, slot)`, `video:next(target, slot)`, `video:hide(target, slot, id, 'irrelevant'|'broken')`
-  → `{video: {id, title, channel, duration, start?, offSlot?, label} | null, alternatives, pending, source: 'cache'|'index'|'search'|'ai'|'none', error?}` ;
+  → `{video: {id, title, channel, duration, start?, offSlot?, label} | null, alternatives, pending, source: 'cache'|'index'|'search'|'ai'|'none', error?, retryInMs?}` (`retryInMs` : recherches en pause réseau → le composant recharge une fois à l'échéance) ;
   `video:prefetch(words[])` → nb de cibles en file (mot = « usage », chaque caractère = « etymology ») ; `video:resume()` → boolean ; évènement `video:updated {target, slot}`.
   Table `word_videos` (cache, `status` ok/hidden/broken, `status_at` : « broken » expire après 30 j). Recherche yt-dlp métadonnées seules, ≤ 1 requête / 5 s, arrêt sur 403/429.
   Les titres peuvent contenir du pinyin : n'afficher `WordVideo` que là où le pinyin est permis. Détails : `docs/word-videos.md`.
-- **chars** (fiche caractère) : `chars:card(c)` → `{c, py[], fr[], story?: {type, origin, components:[{c, role, fr, py?}], mnemonic, scene, svg, source:'curated'|'mmah'}, dec, rad, strokes, words:[{w, py, fr}], inCurriculum}` ;
+- **chars** (fiche caractère) : `chars:card(c)` (sens : FR du programme / du dictionnaire, puis `core/radicals.ts` pour 扌 辶 纟…, `(en) …` en dernier recours ; `card:false` = composant sans fiche ni sens FR, non cliquable) → `{c, py[], fr[], story?: {type, origin, components:[{c, role, fr, py?, card?}], mnemonic, scene, svg, source:'curated'|'mmah'}, dec, rad, strokes, words:[{w, py, fr}], inCurriculum}` ;
   `chars:ancient(c)` → `{forms:[{form, svg, license, author, url, src?}], status:'ok'|'none'|'offline'|'pending'}` (Wikimedia Commons, ≤ 1 requête / 1,5 s, arrêt sur 429,
   SVG assainis, cache `userData/ancient/` v2, « none » revérifié après 30 j). Détails : `docs/ancient-forms.md`.
 - **media** : `media:*` (voir module vidéo) ; tables `videos`, `segments`, `missions`, `mined` (schéma dans core/db.ts)

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { call } from '../api';
 import { playFile, toast, useAsync, type SpokenAudio } from '../components/common';
 import { useNav } from '../App';
@@ -144,6 +144,7 @@ export function SettingsScreen() {
           <span className="small dim">La clé est stockée localement dans ta base. Les résultats sont mis en cache pour limiter le coût.</span>
           <div className="card-title" style={{ marginTop: 12 }}>Voix</div>
           <VoiceStatus />
+          <Credits />
           <div className="card-title" style={{ marginTop: 12 }}>Programme</div>
           <label className="col">
             <span>Date de début</span>
@@ -152,6 +153,56 @@ export function SettingsScreen() {
         </div>
       </div>
     </div>
+  );
+}
+
+// ---------- crédits et licences (attribution exigée par CC BY-SA / CC BY-NC) ----------
+function Ext({ href, children }: { href: string; children: ReactNode }) {
+  return (
+    <a
+      href="#"
+      title={href}
+      onClick={(e) => {
+        e.preventDefault();
+        call('core:openExternal', href).catch(() => undefined);
+      }}
+    >
+      {children}
+    </a>
+  );
+}
+
+function Credits() {
+  return (
+    <details className="credits small">
+      <summary>Crédits et licences</summary>
+      <ul>
+        <li>
+          <b>Voix native — mots</b> : Yue Tan, projet Shtooka (collection « cmn-caen-tan »),{' '}
+          <Ext href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</Ext>. <b>Syllabes</b> : Chen Wang (王琛), CC BY-SA.
+          Sélection d'origine : Hugo Lopez (PLIDAM, INALCO), dépôt <Ext href="https://github.com/hugolpz/audio-cmn">audio-cmn</Ext> ;
+          logiciel d'enregistrement : Nicolas Vion. Modifications par Opération Mandarin (coupe des silences, volume normalisé à
+          −18 LUFS, conversion en Opus), redistribuées sous la même licence.
+        </li>
+        <li>
+          <b>Audio des phrases</b> : enregistrements <Ext href="https://tatoeba.org">Tatoeba</Ext> de GlossaMatik,{' '}
+          <Ext href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</Ext> (usage non commercial), téléchargés à la demande.
+        </li>
+        <li>
+          <b>Synthèse</b> : <Ext href="https://github.com/k2-fsa/sherpa-onnx">sherpa-onnx</Ext> (Apache-2.0), modèle Matcha
+          icefall-zh-baker entraîné sur le corpus Baker (DataBaker, <b>usage non commercial uniquement</b>) ; Piper (MIT) en secours.
+        </li>
+        <li>
+          <b>Formes anciennes</b> : Wikimedia Commons,{' '}
+          <Ext href="https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project">Ancient Chinese characters project</Ext>{' '}
+          — auteur, licence et page de chaque fichier sous la frise.
+        </li>
+        <li>
+          <b>Données</b> : CFDICT et CC-CEDICT (CC BY-SA), complete-hsk-vocabulary (MIT), Make Me a Hanzi (Arphic Public License / LGPL), Hanzi Writer (MIT), phrases
+          Tatoeba (CC BY 2.0 FR). <b>Vidéos</b> : propriété de leurs chaînes YouTube, lues dans le lecteur intégré de YouTube.
+        </li>
+      </ul>
+    </details>
   );
 }
 

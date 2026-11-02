@@ -68,6 +68,9 @@ const rec = new Set(fs.readdirSync(hskDir).filter((f) => f.endsWith('.mp3')).map
 // Enregistrements dont la lecture ≠ celle du programme (contrôle de hauteur, docs/native-audio.md §5) → exclus
 // (l'app retombe sur la synthèse Piper pour ces mots).
 const EXCLUDE = { 喂: 'wèi', 长: 'zhǎng', 转: 'zhuàn', 处: 'chù', 卷: 'juǎn', 量: 'liáng', 挑: 'tiāo', 散: 'sàn', 血: 'xiě' };
+// Mots en 儿 dont la forme sans 儿 est un AUTRE mot (这儿 « ici » ≠ 这 « ce ») : jamais d'enregistrement de repli
+// (la voix de 这 pour 这儿 ferait entendre « zhè » à la question d'écoute « ici ») → synthèse.
+const ERHUA_DISTINCT = new Set(['这儿', '那儿', '哪儿']);
 const fileOf = (w) => 'words/' + [...w].map((c) => c.codePointAt(0).toString(16)).join('-') + '.opus';
 const out = [];
 const done = new Set();
@@ -79,8 +82,8 @@ const add = (key, recWord) => {
 for (const x of words) {
   if (EXCLUDE[x.w]) continue;
   if (rec.has(x.w)) add(x.w, x.w);
-  else {
-    // variante avec / sans 儿 (这儿 ↔ 这, 玩 ↔ 玩儿…) : même mot, prononciation sans/avec érhua
+  else if (!ERHUA_DISTINCT.has(x.w)) {
+    // variante avec / sans 儿 (玩 ↔ 玩儿, 味儿 ↔ 味…) : même mot, prononciation sans/avec érhua
     const alt = x.w.endsWith('儿') ? x.w.slice(0, -1) : x.w + '儿';
     if (rec.has(alt)) add(x.w, alt);
   }
@@ -197,6 +200,10 @@ https://github.com/hugolpz/audio-cmn (commit ${COMMIT.slice(0, 7)}) ; logiciel d
 Modifications apportées par Opération Mandarin : coupe des silences de début et de fin, normalisation
 du volume (-18 LUFS), conversion en Opus mono 32 kb/s, renommage. Ces fichiers modifiés sont
 redistribués sous la même licence CC BY-SA.
+
+Phrases (audio humain Tatoeba, téléchargé à la demande, jamais embarqué) : enregistrements de **GlossaMatik**,
+licence CC BY-NC 4.0 (usage non commercial), https://creativecommons.org/licenses/by-nc/4.0/ —
+https://tatoeba.org ; auteur et licence de chaque phrase dans resources/data/tatoeba-audio.json.
 `,
 );
 console.log(JSON.stringify(index.stats));

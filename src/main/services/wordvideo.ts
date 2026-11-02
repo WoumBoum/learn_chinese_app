@@ -57,6 +57,8 @@ export interface WordVideoResult {
   pending: boolean;
   source: 'cache' | 'index' | 'search' | 'ai' | 'none';
   error?: string;
+  /** Recherches en pause (réseau…) : délai avant la fin de la pause, pour que l'écran affiché se recharge seul. */
+  retryInMs?: number;
 }
 
 export interface WordVideoAi {
@@ -206,7 +208,16 @@ export class WordVideoService {
     if (!cur) {
       const pending = this.ensureSearch(target, slot, true);
       const why = pending ? null : this.limiter.blockedReason();
-      return { video: null, alternatives: 0, pending, source: 'none', ...(why ? { error: stopMessage(why) } : {}) };
+      // simple pause (pas un arrêt de session 403/429) : le renderer réessaie une fois à son expiration
+      const retryInMs = why && !this.limiter.stopped ? this.limiter.waitMs() : 0;
+      return {
+        video: null,
+        alternatives: 0,
+        pending,
+        source: 'none',
+        ...(why ? { error: stopMessage(why) } : {}),
+        ...(retryInMs > 0 && Number.isFinite(retryInMs) ? { retryInMs } : {}),
+      };
     }
     if (askAi) this.maybeAi(target, slot, rows);
     const source: WordVideoResult['source'] = cur.source === 'ai' ? 'ai' : before.some((r) => r.video_id === cur.video_id) ? 'cache' : (cur.source as 'index' | 'search');

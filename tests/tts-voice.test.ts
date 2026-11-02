@@ -57,8 +57,16 @@ describe('matchaTokens : pinyin du programme + sandhi', () => {
     expect(matchaTokens('儿子', 'er2 zi5', lex)).toEqual(['er2', 'zi3', '.']);
     expect(matchaTokens('朋友', 'peng2 you5', lex)).toEqual(['peng2', 'you3', '.']);
   });
+  it('érhua sur 2 caractères (这儿, 哪儿) : jamais les jetons du mot sans 儿 (这 « ce » ≠ 这儿 « ici »)', () => {
+    const l = { ...lex, tokens: new Set([...lex.tokens, 'zhe4', 'na3']) };
+    expect(matchaTokens('这儿', 'zhe4 r5', l)).toBeNull();
+    expect(matchaTokens('哪儿', 'na3 r5', l)).toBeNull();
+    expect(matchaTokens('这儿', 'zhe4 r5', l)).not.toEqual(matchaTokens('这', 'zhe4', l));
+    expect(matchaRequest('这儿', 'zhe4 r5', l)).toEqual({ text: '这儿。' });
+    expect(matchaRequest('这', 'zhe4', l)).toEqual({ text: '这', tokens: ['zhe4', '.'] });
+  });
   it('érhua (r5) : 儿 omis, pas de « ér » détaché', () => {
-    expect(matchaTokens('哪儿', 'na3 r5', lex)).toEqual(['na3', '.']);
+    expect(matchaTokens('快点儿', 'kuai4 dian3 r5', { ...lex, tokens: new Set([...lex.tokens, 'kuai4', 'dian3']) })).toEqual(['kuai4', 'dian3', '.']);
     expect(matchaTokens('一点儿', 'yi1 dian3 r5', { ...lex, tokens: new Set([...lex.tokens, 'dian3']) })).toEqual(['yi4', 'dian3', '.']);
     expect(matchaTokens('儿', 'r5', lex)).toEqual(['er2', '.']); // 儿 seul : lu tel quel
     expect(matchaTokens('儿子', 'er2 zi5', lex)).toEqual(['er2', 'zi3', '.']); // 儿 plein : conservé

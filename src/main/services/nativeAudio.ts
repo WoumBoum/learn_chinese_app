@@ -65,7 +65,7 @@ export class NativeAudio {
   }
 
   /**
-   * L'enregistrement du mot est-il celui d'une variante (avec/sans 儿 : 这儿 → 这, 好好 → 好好儿) ? Son nombre de
+   * L'enregistrement du mot est-il celui d'une variante (avec/sans 儿 : 味儿 → 味, 好好 → 好好儿) ? Son nombre de
    * syllabes / ses tons ne correspondent alors pas au pinyin du programme : à écarter des exercices de tons.
    */
   isVariant(text: string): boolean {

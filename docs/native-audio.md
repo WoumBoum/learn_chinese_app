@@ -8,11 +8,11 @@ Scripts : `scripts/fetch-audio.sh` (téléchargement + conversion, **exécuté**
 
 | | Résultat |
 |---|---|
-| Mots du programme (`words.json`, 3 317) avec voix native | **2 844 = 85,7 %** (2 843 exacts + 10 variantes érhua − 9 exclus pour lecture différente) |
-| … dont rang < 1 700 | **1 482 / 1 700 = 87,2 %** |
+| Mots du programme (`words.json`, 3 317) avec voix native | **2 841 = 85,6 %** (2 843 exacts + 7 variantes érhua − 9 exclus pour lecture différente) |
+| … dont rang < 1 700 | **1 479 / 1 700 = 87,0 %** |
 | Syllabes toniques (tons 1-4) | **1 688 / 1 688 = 100 %** des syllabes de la source ; **744 / 744** de celles du programme |
 | Ton neutre (5) | 0 utilisable (les 19 fichiers `*5` ne sont pas des syllabes isolées, cf. §5.5) |
-| Sortie (`resources/audio/`) | 4 524 fichiers Opus : 2 844 mots (10,0 Mo) + 1 680 syllabes (5,0 Mo) = **15,07 Mo** (21 Mo sur disque, blocs de 4 Ko) |
+| Sortie (`resources/audio/`) | 4 521 fichiers Opus : 2 841 mots (10,0 Mo) + 1 680 syllabes (5,0 Mo) = **15,06 Mo** (21 Mo sur disque, blocs de 4 Ko) |
 | Licence | CC BY-SA (mots : 3.0) → **attribution + partage à l'identique des fichiers audio** (cf. §3) |
 | Qualité | voix de studio, 22 kHz, aucune saturation ; tons des syllabes **conformes à 98,7 %** (kNN) et 20/20 sur l'échantillon ; 9 mots monosyllabiques enregistrés dans une **autre lecture** que celle du programme (exclus) |
 
@@ -70,7 +70,7 @@ la version de CC BY-SA n'est pas précisée pour les syllabes (3.0 pour les mots
 Conséquences pour l'app (licence MIT) : redistribuer les fichiers dans l'AppImage est permis à condition
 (1) de créditer les auteurs avec la licence et un lien, (2) d'indiquer les modifications, (3) de distribuer les fichiers
 audio **modifiés** sous CC BY-SA (cela ne contamine pas le code MIT : agrégat). Texte à reprendre dans le README et
-l'écran « Crédits » (généré aussi dans `resources/audio/CREDITS.md`) :
+le bloc « Crédits et licences » de Réglages › Voix (généré aussi dans `resources/audio/CREDITS.md`) :
 
 > **Enregistrements audio natifs** — Mots : Yue Tan, projet Shtooka (collection « cmn-caen-tan »), licence
 > CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Syllabes : Chen Wang (王琛), licence CC BY-SA.
@@ -82,13 +82,15 @@ l'écran « Crédits » (généré aussi dans `resources/audio/CREDITS.md`) :
 
 | Sous-ensemble | Mots | Exacts | + érhua | Couverture brute | Après exclusions (§5.3) |
 |---|---|---|---|---|---|
-| Tous | 3 317 | 2 843 | 10 | 86,0 % | **2 844 = 85,7 %** |
-| Rang < 1 700 | 1 700 | 1 479 | 7 | 87,4 % | **1 482 = 87,2 %** |
-| Bande 1 / 2 / 3 / 4 | 506 / 750 / 953 / 972 | 433 / 626 / 849 / 815 | 3 / 2 / 1 / 2 | 86,2 / 83,7 / 89,2 / 84,1 % | |
+| Tous | 3 317 | 2 843 | 7 | 85,9 % | **2 841 = 85,6 %** |
+| Rang < 1 700 | 1 700 | 1 479 | 4 | 87,2 % | **1 479 = 87,0 %** |
+| Bande 1 / 2 / 3 / 4 | 506 / 750 / 953 / 972 | 433 / 626 / 849 / 815 | 0 / 2 / 1 / 2 | 85,6 / 83,7 / 89,2 / 84,1 % | |
 | Bandes 5-7 / 9 | 112 / 24 | 107 / 13 | 0 / 2 | 95,5 / 62,5 % | |
 
-Variantes érhua acceptées (même mot, avec/sans 儿) : 这儿→这, 哪儿→哪, 那儿→那, 味儿→味, 名牌儿→名牌, 笑话儿→笑话,
-玩→玩儿, 好好→好好儿, 面条→面条儿, 药水→药水儿 (listées dans `index.json › variants`).
+Variantes érhua acceptées (même mot, avec/sans 儿) : 味儿→味, 名牌儿→名牌, 笑话儿→笑话, 玩→玩儿, 好好→好好儿,
+面条→面条儿, 药水→药水儿 (listées dans `index.json › variants`). **Refusées** : 这儿, 那儿, 哪儿 — sans 儿 c'est un
+autre mot du programme (这 « ce » ≠ 这儿 « ici ») ; l'enregistrement de 这 ferait entendre « zhè » à la question d'écoute
+« ici » → synthèse Matcha/Piper (`ERHUA_DISTINCT` dans `fetch-audio.sh`).
 
 Manquants (464 hors exclusions) : 357 mots de 2 caractères, 88 de 3, 8 de 4, 11 caractères seuls (妈 爸 哥 姐 弟 妹 使 厂
 村 轮 泪 — HSK 2000 n'a que 妈妈, 爸爸…). 356 sont compositionnels (tous leurs caractères sont enregistrés) : 看到, 回家,
@@ -206,7 +208,7 @@ bash scripts/fetch-audio.sh --all    # + les ~5 700 autres mots HSK 2000 (non ex
    −18 LUFS plafonné à −2 dBTP ; Opus mono 24 kHz 32 kb/s VBR (`-application audio`), métadonnées retirées.
 4. `index.json` + `CREDITS.md` ; suppression des fichiers orphelins. Idempotent.
 
-**Résultat de l'exécution** : 2 844 mots + 1 680 syllabes = 4 524 fichiers, **15 066 891 octets** (mots 10,03 Mo,
+**Résultat de l'exécution** : 2 841 mots + 1 680 syllabes = 4 521 fichiers, **15 060 678 octets** (mots 10,03 Mo,
 moyenne 3,5 Ko ; syllabes 5,04 Mo, 3,0 Ko), débit moyen mesuré 34 kb/s. Durées après coupe : mots p5/p50/p95 =
 0,50/0,84/1,09 s, syllabes 0,38/0,70/1,09 s. Loudness : p50 −18,4 LUFS (mots) / −18,1 (syllabes), 80 % / 88 % à ±1 LU de
 −18 (les autres sont plus bas car limités par la crête — pas de compresseur), crête max −1,5 dBTP après décodage.
@@ -221,7 +223,7 @@ Validation des tons après conversion : kNN 98,6 % (contre 98,7 % sur les MP3 so
   "version": 1, "generated": "2026-11-02", "format": "…", "naming": {…}, "sources": {…}, "stats": {…},
   "variants": { "这儿": "这", … },              // mot du programme → mot effectivement prononcé
   "excluded": { "长": "zhǎng (programme : cháng)", … },
-  "words":     { "好": "words/597d.opus", "银行": "words/94f6-884c.opus", … },   // 2 844 entrées
+  "words":     { "好": "words/597d.opus", "银行": "words/94f6-884c.opus", … },   // 2 841 entrées
   "syllables": { "hao3": "syllables/hao3.opus", "nü3": "syllables/nv3.opus", "ju4": "syllables/ju4.opus", … } // 1 680
 }
 ```

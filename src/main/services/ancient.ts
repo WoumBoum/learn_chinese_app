@@ -373,6 +373,14 @@ export interface SanitizeResult {
   stats: { dropped: Record<string, number>; white: number; stroked: number };
 }
 
+/**
+ * Fichier trop complexe pour être rendu sans risque (bombe de <use> imbriqués : N^profondeur chemins à partir de
+ * quelques centaines d'octets). Réponse définitive pour ce fichier (comme une licence refusée), pas un échec réseau.
+ */
+export class SvgTooComplex extends Error {}
+/** Budget de sanitizeSvg (travail synchrone dans le processus principal) : nœuds visités, <use> développés, sortie. */
+export const SVG_BUDGET = { visits: 50_000, uses: 2_000, outChars: 400_000 } as const;
+
 /** Rebuilds the SVG from its geometry only: every shape → <path>, transforms baked in, fill=currentColor. */
 export function sanitizeSvg(svgText: string, { precision = 1 }: { precision?: number } = {}): SanitizeResult {
   const stats = { dropped: {} as Record<string, number>, white: 0, stroked: 0 };
@@ -398,12 +406,17 @@ export function sanitizeSvg(svgText: string, { precision = 1 }: { precision?: nu
     e.children.forEach(index);
   })(svg);
   const bump = (k: string) => (stats.dropped[k] = (stats.dropped[k] || 0) + 1);
+  // Budget : la profondeur des <use> est bornée, mais pas leur produit (10 <use> × 6 niveaux = 10⁶ chemins) ; on
+  // s'arrête AVANT de construire une sortie géante (isSafeAncientSvg ne la refuserait qu'une fois tout calculé).
+  let visits = 0, uses = 0, outChars = 0;
   const walk = (el: El, M: Mat, inh: Style, depth = 0): void => {
+    if (++visits > SVG_BUDGET.visits) throw new SvgTooComplex('trop de nœuds');
     const local = el.name.includes(':') ? el.name.split(':')[1] : el.name;
     if (local === 'use') {
       const href = el.attrs.href || el.attrs['xlink:href'] || '';
       const ref = href.startsWith('#') ? ids.get(href.slice(1)) : null;
       if (!ref || depth > 8) return void bump('use');
+      if (++uses > SVG_BUDGET.uses) throw new SvgTooComplex('trop de <use>');
       const T = mul(el.attrs.transform ? mul(M, parseTransform(el.attrs.transform)) : M, [1, 0, 0, 1, Number(el.attrs.x || 0), Number(el.attrs.y || 0)]);
       const st0 = { ...inh, ...styleOf(el.attrs) };
       if (ref.name === 'symbol') for (const ch of ref.children) walk(ch, T, st0, depth + 1);
@@ -440,7 +453,11 @@ export function sanitizeSvg(svgText: string, { precision = 1 }: { precision?: nu
       if (st['stroke-miterlimit'] && Number.isFinite(ml)) out.miter = ml;
     }
     if (out.white) stats.white++;
-    if (out.d.length > 2) paths.push(out);
+    if (out.d.length > 2) {
+      outChars += out.d.length + 120; // + attributs du <path>
+      if (outChars > SVG_BUDGET.outChars) throw new SvgTooComplex('sortie trop volumineuse');
+      paths.push(out);
+    }
   };
   walk(svg, IDENT, {});
   const vbs = vb.map((v) => Math.round(v * 100) / 100).join(' ');
@@ -831,7 +848,13 @@ export class AncientService {
         if (!res.ok) continue;
         const raw = res.body;
         if (raw.length > MAX_RAW_SVG) continue;
-        const r = sanitizeSvg(raw);
+        let r: SanitizeResult;
+        try {
+          r = sanitizeSvg(raw);
+        } catch (e) {
+          if (e instanceof SvgTooComplex) continue; // fichier refusé (définitif) : la forme est ignorée, le reste mis en cache
+          throw e;
+        }
         if (!r.nPaths || !isSafeAncientSvg(r.svg)) continue;
         const f: AncientForm = { form: s.form, svg: r.svg, license: s.meta.license, author: s.meta.author || 'Ancient Chinese characters project', url: s.meta.page };
         if (s.src !== c) f.src = s.src;

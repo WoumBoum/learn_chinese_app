@@ -694,6 +694,9 @@ describe('WordVideoService', () => {
     const r = svc.forTarget('猫', 'etymology');
     expect(r).toMatchObject({ pending: false });
     expect(r.error).toMatch(/Hors ligne/);
+    // l'écran affiché sait quand réessayer (promesse « nouvel essai automatique » tenue, une fois par pause)
+    expect(r.retryInMs).toBeGreaterThan(0);
+    expect(r.retryInMs).toBeLessThanOrEqual(10 * 60_000);
     online = true;
     expect(svc.resume()).toBe(true);
     expect(svc.forTarget('猫', 'etymology').pending).toBe(true);
@@ -739,6 +742,7 @@ describe('WordVideoService', () => {
     const r = svc.forTarget('猫', 'etymology');
     expect(r.pending).toBe(false);
     expect(r.error).toMatch(/YouTube limite/);
+    expect(r.retryInMs).toBeUndefined(); // arrêt pour la session : aucun nouvel essai
     expect(svc.ensureSearch('熊', 'etymology')).toBe(false);
   });
 

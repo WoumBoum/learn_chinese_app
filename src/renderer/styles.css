@@ -133,6 +133,8 @@ h1, h2, h3 { margin: 0; line-height: 1.25; }
 .study-prompt-label { font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-3); }
 .answer { border-top: 1px dashed var(--line); padding-top: 16px; margin-top: 4px; width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .rating-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 16px; }
+/* barre de notation collée en bas de la zone de défilement (visible même fiche d'origine dépliée) */
+.rating-bar { position: sticky; bottom: 0; z-index: 2; background: var(--bg); padding: 8px 0; }
 .rating-bar .btn { flex-direction: column; gap: 2px; padding: 10px; }
 .rating-bar .ivl { font-size: 11px; color: var(--text-3); }
 .r1 { border-color: var(--again) !important; } .r2 { border-color: var(--hard) !important; } .r3 { border-color: var(--good) !important; } .r4 { border-color: var(--easy) !important; }
@@ -172,7 +174,17 @@ h1, h2, h3 { margin: 0; line-height: 1.25; }
 ruby rt { font-family: var(--font); font-size: 12px; color: var(--gold); }
 .modal-back { position: fixed; inset: 0; background: rgba(0, 0, 0, .55); display: grid; place-items: center; z-index: 50; }
 .modal { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 22px; min-width: 380px; max-width: 640px; max-height: 85vh; overflow-y: auto; }
+.modal:focus { outline: none; }
 .chip-input { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip-input .btn { border-radius: 99px; }
 .toast { position: fixed; bottom: 22px; right: 22px; background: var(--panel-2); border: 1px solid var(--line); padding: 12px 16px; border-radius: 10px; z-index: 60; box-shadow: 0 8px 24px rgba(0,0,0,.4); }
 .btn-primary .kbd { color: rgba(255,255,255,.85); border-color: rgba(255,255,255,.45); }
+
+/* Réglages › Crédits et licences */
+.credits { margin-top: 8px; color: var(--text-2); }
+.credits summary { cursor: pointer; color: var(--text-2); }
+.credits ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 4px; line-height: 1.4; }
+.credits a { color: inherit; }
+
+/* Apprendre › présentation : consigne + « Suivant » collées en bas de la zone de défilement */
+.present-actions { position: sticky; bottom: 0; z-index: 2; margin: 20px -28px -28px; padding: 14px 28px; background: var(--panel); border-top: 1px solid var(--line); border-radius: 0 0 var(--radius) var(--radius); }

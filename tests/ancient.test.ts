@@ -11,6 +11,7 @@ import {
   pathToAbs,
   sanitizeSvg,
   selectForms,
+  SvgTooComplex,
   titleOf,
   type FetchLike,
   type FileMeta,
@@ -67,6 +68,27 @@ describe('sanitizeSvg', () => {
 
   it('rejects documents without <svg>', () => {
     expect(() => sanitizeSvg('<html><body>nope</body></html>')).toThrow();
+  });
+});
+
+/** Bombe de <use> : `levels` niveaux de <g> contenant chacun `fan` × <use> du niveau inférieur → fan^levels chemins. */
+function useBomb(levels: number, fan = 10): string {
+  let s = '<svg viewBox="0 0 300 300"><defs><path id="l0" d="M0 0L1 1"/>';
+  for (let k = 1; k <= levels; k++) s += `<g id="l${k}">${`<use href="#l${k - 1}"/>`.repeat(fan)}</g>`;
+  return s + `</defs><use href="#l${levels}"/></svg>`;
+}
+
+describe('sanitizeSvg : budget (bombe de <use> imbriqués)', () => {
+  it('refuses fan-out quickly instead of building millions of paths', () => {
+    const t0 = Date.now();
+    expect(() => sanitizeSvg(useBomb(6))).toThrow(SvgTooComplex); // 10⁶ chemins pour ~1 Ko
+    expect(() => sanitizeSvg(useBomb(8))).toThrow(SvgTooComplex);
+    expect(Date.now() - t0).toBeLessThan(1000);
+  });
+  it('still accepts modest legitimate <use> reuse', () => {
+    const r = sanitizeSvg(useBomb(2)); // 100 chemins
+    expect(r.nPaths).toBe(100);
+    expect(isSafeAncientSvg(r.svg)).toBe(true);
   });
 });
 
@@ -219,6 +241,16 @@ describe('AncientService', () => {
     const again = await svc.get('马');
     expect(again.forms).toHaveLength(2);
     expect(calls).toHaveLength(3); // served from cache
+  });
+
+  it('a too-complex file is a definitive "none" (cached, not re-fetched), not a network failure', async () => {
+    const { svc, dir, calls } = setup((u) => (u.includes('api.php') ? res(200, commons) : res(200, useBomb(6))));
+    const r = await svc.get('马');
+    expect(r.status).toBe('none');
+    expect(fs.existsSync(path.join(dir, '9a6c.json'))).toBe(true);
+    const n = calls.length;
+    expect((await svc.get('马')).status).toBe('none');
+    expect(calls).toHaveLength(n); // servi depuis le cache
   });
 
   it('spaces API requests by ≥ 1.5 s', async () => {

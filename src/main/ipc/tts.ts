@@ -70,7 +70,7 @@ export function register(ctx: Ctx): void {
       piper: tts.status(),
     });
   /** Tons réellement prononcés : ceux du programme + sandhi (voix native / Matcha), sinon espeak (Piper).
-   *  Variante érhua enregistrée (这儿 → 这) : syllabes différentes du mot, tons inconnus → null. */
+   *  Variante érhua enregistrée (味儿 → 味) : syllabes différentes du mot, tons inconnus → null. */
   const heardTones = async (w: string): Promise<Tone[] | null> => {
     if (native.isVariant(w)) return null;
     const pn = ctx.content.wordMap.get(w)?.pn;
@@ -132,7 +132,7 @@ export function register(ctx: Ctx): void {
   });
 
   /** Exercices de tons : pas d'érhua (儿 en « r5 » : une seule syllabe à l'oral, zhèr) ni de mot dont
-   *  l'enregistrement est une variante (这儿 → 这, 好好 → 好好儿) — la réponse attendue ne correspondrait pas au son. */
+   *  l'enregistrement est une variante (味儿 → 味, 好好 → 好好儿) — la réponse attendue ne correspondrait pas au son. */
   const toneSafe = (w: Word) => !/(^|\s)r5(\s|$)/i.test(w.pn) && !native.isVariant(w.w);
 
   /** Mots de 1 ou 2 syllabes pour l'entraînement aux tons, mots déjà introduits en priorité,

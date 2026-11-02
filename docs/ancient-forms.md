@@ -112,7 +112,7 @@ publiquement (AppImage) :
   recueils *Jiaguwen bian* / *Jinwen bian* ; Commons considère les redessins non protégeables. En UE, l'art. 14
   de la directive 2019/790 exclut la protection des reproductions fidèles d'œuvres du domaine public.
 
-Texte d'attribution proposé (écran « À propos / Crédits ») :
+Texte d'attribution proposé (Réglages › Voix › « Crédits et licences » ; auteur et licence de chaque fichier sous la frise de la fiche) :
 
 > Formes anciennes des caractères (甲骨文, 金文, 大篆, 小篆) : Wikimedia Commons, *Ancient Chinese characters
 > project* — https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project. Fichiers dans le

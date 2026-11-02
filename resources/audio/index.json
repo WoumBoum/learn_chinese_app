@@ -23,24 +23,21 @@
   }
  },
  "stats": {
-  "words": 2844,
+  "words": 2841,
   "syllables": 1680,
-  "curriculumCovered": 2844,
+  "curriculumCovered": 2841,
   "curriculumTotal": 3317,
-  "curriculumRankLt1700Covered": 1482,
+  "curriculumRankLt1700Covered": 1479,
   "curriculumRankLt1700Total": 1700,
-  "bytes": 15066891
+  "bytes": 15060678
  },
  "variants": {
   "名牌儿": "名牌",
   "味儿": "味",
-  "哪儿": "哪",
   "好好": "好好儿",
   "玩": "玩儿",
   "笑话儿": "笑话",
   "药水": "药水儿",
-  "这儿": "这",
-  "那儿": "那",
   "面条": "面条儿"
  },
  "excluded": {
@@ -803,7 +800,6 @@
   "哥哥": "words/54e5-54e5.opus",
   "哪": "words/54ea.opus",
   "哪些": "words/54ea-4e9b.opus",
-  "哪儿": "words/54ea-513f.opus",
   "哪怕": "words/54ea-6015.opus",
   "哪里": "words/54ea-91cc.opus",
   "哭": "words/54ed.opus",
@@ -2629,7 +2625,6 @@
   "这": "words/8fd9.opus",
   "这么": "words/8fd9-4e48.opus",
   "这些": "words/8fd9-4e9b.opus",
-  "这儿": "words/8fd9-513f.opus",
   "这样": "words/8fd9-6837.opus",
   "这边": "words/8fd9-8fb9.opus",
   "这里": "words/8fd9-91cc.opus",
@@ -2690,7 +2685,6 @@
   "那": "words/90a3.opus",
   "那么": "words/90a3-4e48.opus",
   "那些": "words/90a3-4e9b.opus",
-  "那儿": "words/90a3-513f.opus",
   "那时": "words/90a3-65f6.opus",
   "那样": "words/90a3-6837.opus",
   "那边": "words/90a3-8fb9.opus",

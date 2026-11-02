@@ -195,6 +195,8 @@ function CharDrill({ items, onDone }: { items: CharItem[]; onDone: () => void })
       '2': () => phase === 'compare' && grade(2),
       '3': () => phase === 'compare' && grade(3),
       '4': () => phase === 'compare' && grade(4),
+      // réécouter le mot (la fiche du caractère a aussi son propre bouton 🔊 en phase « observe »)
+      r: () => item && speak(item.words[0]?.w ?? item.char.c),
     },
     [phase, idx],
   );
@@ -235,7 +237,8 @@ function CharDrill({ items, onDone }: { items: CharItem[]; onDone: () => void })
                   )}
                 </>
               )}
-              <div className="row"><AudioButton text={hintWord?.w ?? c.c} size="sm" /></div>
+              {/* en phase « observe », la CharCard porte déjà le bouton audio : pas de doublon orphelin */}
+              {phase !== 'observe' && <div className="row"><AudioButton text={hintWord?.w ?? c.c} size="sm" /></div>}
               <div style={{ height: 10 }} />
               {phase === 'observe' && (
                 <div className="col">

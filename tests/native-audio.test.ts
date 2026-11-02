@@ -82,14 +82,16 @@ describe.runIf(fs.existsSync(path.join(REAL, 'index.json')))('NativeAudio (resou
   it('couvre les mots et syllabes attendus', () => {
     expect(n.stats().words).toBeGreaterThan(2500);
     expect(n.stats().syllables).toBeGreaterThan(1600);
-    for (const w of ['好', '银行', '可以', '这儿', '哪儿', '玩']) expect(n.word(w), w).toMatch(/\.opus$/);
+    for (const w of ['好', '银行', '可以', '这', '哪', '玩']) expect(n.word(w), w).toMatch(/\.opus$/);
+    // 这儿 « ici » ≠ 这 « ce » : jamais la voix de 这 (repli synthèse), idem 那儿 / 哪儿
+    for (const w of ['这儿', '那儿', '哪儿']) expect(n.word(w), w).toBeNull();
     expect(n.word('长')).toBeNull(); // exclu (lecture zhǎng enregistrée)
     for (const s of ['ma1', 'ma3', 'nü3', 'lü4', 'ju4', 'chang2']) expect(n.syllable(s), s).toMatch(/\.opus$/);
     expect(n.syllable('ma5')).toBeNull();
   });
   it('variantes érhua repérées (exclues des exercices de tons)', () => {
-    for (const w of ['这儿', '哪儿', '那儿', '味儿', '好好', '玩']) expect(n.isVariant(w), w).toBe(true);
-    for (const w of ['这', '好', '一点儿', '可以']) expect(n.isVariant(w), w).toBe(false);
+    for (const w of ['味儿', '好好', '玩']) expect(n.isVariant(w), w).toBe(true);
+    for (const w of ['这', '好', '一点儿', '可以', '这儿', '那儿', '哪儿']) expect(n.isVariant(w), w).toBe(false);
   });
 });
 

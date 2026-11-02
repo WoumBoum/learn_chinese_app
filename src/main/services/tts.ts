@@ -347,7 +347,7 @@ const HAN_WORD = /^\p{Script=Han}+$/u;
  * Jetons Matcha d'un mot à partir de son pinyin numérique : sandhi appliqué (3-3, 不, 一), ü → v ; syllabe au
  * ton neutre ou jeton inconnu du modèle → lecture du caractère dans le lexique du modèle. null si impossible.
  * Érhua (儿 en « r5 ») : le modèle n'a pas de jeton -r ; on omet 儿 (快点儿 → kuai4 dian3, plus proche de
- * « kuài diǎnr » qu'un « ér » détaché).
+ * « kuài diǎnr » qu'un « ér » détaché), sauf mot de 2 caractères (这儿) : null, sinon il sonnerait comme 这.
  *   matchaTokens('不对', 'bu4 dui4', lex) → ['bu2', 'dui4', '.']
  */
 export function matchaTokens(word: string, pn: string | undefined, lex: MatchaLexicon): string[] | null {
@@ -355,6 +355,9 @@ export function matchaTokens(word: string, pn: string | undefined, lex: MatchaLe
   if (!pn || !all.length || all.length > MAX_TOKEN_SYLLABLES || !HAN_WORD.test(word)) return null;
   const allSyl = pn.trim().toLowerCase().split(/\s+/).filter(Boolean);
   if (allSyl.length !== all.length) return null;
+  // 这儿/那儿/哪儿 : sans 儿 il ne resterait qu'un caractère, soit un autre mot (这 « ce » ≠ 这儿 « ici »)
+  // → texte brut (le lexique du modèle lit le mot entier), jamais les mêmes jetons que 这.
+  if (all.length === 2 && all[1] === '儿' && allSyl[1] === 'r5') return null;
   const keep = all.map((c, i) => !(i > 0 && c === '儿' && allSyl[i] === 'r5'));
   const chars = all.filter((_, i) => keep[i]);
   const syl = allSyl.filter((_, i) => keep[i]);

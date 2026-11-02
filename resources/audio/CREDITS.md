@@ -10,3 +10,7 @@ https://github.com/hugolpz/audio-cmn (commit f759a0f) ; logiciel d'enregistremen
 Modifications apportées par Opération Mandarin : coupe des silences de début et de fin, normalisation
 du volume (-18 LUFS), conversion en Opus mono 32 kb/s, renommage. Ces fichiers modifiés sont
 redistribués sous la même licence CC BY-SA.
+
+Phrases (audio humain Tatoeba, téléchargé à la demande, jamais embarqué) : enregistrements de **GlossaMatik**,
+licence CC BY-NC 4.0 (usage non commercial), https://creativecommons.org/licenses/by-nc/4.0/ —
+https://tatoeba.org ; auteur et licence de chaque phrase dans resources/data/tatoeba-audio.json.

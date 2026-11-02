@@ -6,6 +6,7 @@ import path from 'node:path';
 import { net } from 'electron';
 import { handle, type Ctx } from '../ctx';
 import { numericToMarks } from '../../core/content';
+import { radicalFr } from '../../core/radicals';
 import { AncientService, ancientCandidates, type AncientResult, type FetchLike } from '../services/ancient';
 import type { Word } from '../../shared/types';
 
@@ -17,7 +18,8 @@ export interface CharCardData {
   story?: {
     type: string;
     origin: string;
-    components: { c: string; role: CompRole; fr: string; py?: string }[];
+    /** `card: false` : rien d'utile à ouvrir (ni fiche, ni sens en français) → composant affiché sans lien */
+    components: { c: string; role: CompRole; fr: string; py?: string; card?: boolean }[];
     mnemonic: string;
     scene: string;
     svg: string;
@@ -87,8 +89,19 @@ export function register(ctx: Ctx): void {
     if (comp?.fr?.length) return comp.fr;
     const d = ctx.content.dict[c];
     if (d?.f?.length) return d.f;
+    const rad = radicalFr(c); // 扌, 辶, 纟… : sens français plutôt que le glossaire anglais
+    if (rad) return rad;
     const en = ci?.en || comp?.en || d?.e?.join('; ') || '';
     return en ? [`(en) ${en.split(/[;,]/)[0].trim()}`] : [];
+  };
+
+  /** La fiche du composant apporterait-elle quelque chose (fiche rédigée, analyse MMAH ou au moins un sens en français) ? */
+  const hasCard = (k: string): boolean => {
+    if (loadStories()[k]) return true;
+    const ci = ctx.content.chars[k];
+    if (ci?.ety || ci?.dec) return true;
+    const fr = meaningOf(k);
+    return fr.length > 0 && !fr[0].startsWith('(en)');
   };
 
   const card = (input: string): CharCardData => {
@@ -114,7 +127,7 @@ export function register(ctx: Ctx): void {
       out.story = {
         type: st.t,
         origin: st.o,
-        components: st.k.map(([k, role, fr]) => ({ c: k, role, fr, py: pinyinOf(k)[0] })),
+        components: st.k.map(([k, role, fr]) => ({ c: k, role, fr, py: pinyinOf(k)[0], card: k !== c && hasCard(k) })),
         mnemonic: st.m ?? '',
         scene: st.s ?? '',
         svg: st.a ?? '',
@@ -131,6 +144,7 @@ export function register(ctx: Ctx): void {
           role: ci.ety?.semantic === k ? 'sens' : ci.ety?.phonetic === k ? 'son' : 'forme',
           fr: meaningOf(k)[0] ?? '',
           py: pinyinOf(k)[0],
+          card: hasCard(k),
         })),
         mnemonic: '',
         scene: '',
