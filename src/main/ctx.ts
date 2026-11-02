@@ -20,6 +20,8 @@ export interface Paths {
   tts: string; // synthesized audio cache
   models: string; // whisper models etc.
   recordings: string;
+  ttsModels: string; // sherpa-onnx models (resources/tts)
+  audio: string; // native recordings (resources/audio)
 }
 
 export interface Ctx {
@@ -66,6 +68,8 @@ export function resolvePaths(): Paths {
     tts: path.join(user, 'tts'),
     models: path.join(user, 'models'),
     recordings: path.join(user, 'recordings'),
+    ttsModels: packaged ? path.join(root, 'tts') : path.join(root, 'resources/tts'),
+    audio: packaged ? path.join(root, 'audio') : path.join(root, 'resources/audio'),
   };
   for (const d of [p.media, p.tts, p.models, p.recordings]) fs.mkdirSync(d, { recursive: true });
   return p;

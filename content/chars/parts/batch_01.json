@@ -1,0 +1,2009 @@
+{
+ "本": {
+  "type": "idéogramme",
+  "origin_fr": "本 est un « indicateur » (指事) : on part du pictogramme 木 (arbre) et on ajoute un petit trait en bas du tronc pour désigner l'endroit précis où se trouvent les racines. De « racine », le sens s'est étendu à « origine, fondement », puis à « livre, volume » (classificateur) et à « ce…-ci, le présent ».",
+  "components": [
+   {
+    "c": "木",
+    "role": "forme",
+    "fr": "arbre"
+   },
+   {
+    "c": "一",
+    "role": "forme",
+    "fr": "trait qui marque les racines"
+   }
+  ],
+  "mnemonic_fr": "Un arbre avec un trait tracé juste au pied : la flèche montre « ici, les racines ! ». Tout ce qui est à la base, à l'origine, c'est 本.",
+  "scene_fr": "Un arbre dont les racines sont mises en lumière",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"100\" cy=\"160\" rx=\"62\" ry=\"24\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M22 134H70M130 134H178\"/><g transform=\"translate(100 134) scale(0.95)\" stroke-width=\"4.2\"><path d=\"M-7 0L-5 -48M7 0L5 -48M-5 -40L-16 -52M5 -34L16 -46\"/><path d=\"M0 -48C-40 -44 -46 -86 -22 -98C-18 -126 18 -126 22 -98C46 -86 40 -44 0 -48Z\" fill=\"currentColor\" fill-opacity=\".18\"/></g><path d=\"M93 134Q72 152 44 164M107 134Q128 152 156 164M100 134V182M95 140Q84 162 66 178M105 140Q116 162 134 178\"/><path d=\"M70 150H130\" stroke-width=\"6\"/></svg>"
+ },
+ "回": {
+  "type": "pictogramme",
+  "origin_fr": "Dans les inscriptions anciennes, 回 dessine une spirale, un tourbillon d'eau qui tourne sur lui-même (le Shuowen le glose par « tourner »). La spirale a été redressée en deux carrés emboîtés. De « tourner, revenir sur soi » viennent les sens « revenir, retourner », puis « fois » (classificateur).",
+  "components": [
+   {
+    "c": "囗",
+    "role": "forme",
+    "fr": "enceinte extérieure"
+   },
+   {
+    "c": "口",
+    "role": "forme",
+    "fr": "carré intérieur (ancienne spirale)"
+   }
+  ],
+  "mnemonic_fr": "Un tourbillon qui tourne, tourne et te ramène toujours au centre : deux carrés l'un dans l'autre, comme une maison où l'on revient.",
+  "scene_fr": "Un tourbillon d'eau en spirale avec une flèche de retour",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"96\" r=\"80\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M104 96L105 97L105 99L105 101L104 102L102 104L100 105L97 106L95 105L92 104L89 102L87 99L86 96L85 92L86 88L88 84L91 81L95 78L100 76L105 76L111 78L116 80L120 85L123 90L125 96L125 103L123 109L119 115L114 120L107 124L100 126L92 126L84 123L77 119L71 113L67 105L65 96L65 87L68 78L73 69L81 63L90 58L100 56L111 56L121 60L130 66L138 74L143 84L145 96L145 108L141 120L134 130L124 138L113 144L100 146L87 146L74 141L62 134L53 123L47 110L44 96L45 81L50 67L59 55L70 45L84 38L100 35L116 36L131 42L145 51L156 64L163 79L166 96\"/><path d=\"M166 96L158 82M166 96L176 84\"/><path d=\"M28 176q12 -8 24 0t24 0M124 176q12 -8 24 0t24 0\"/></svg>"
+ },
+ "东": {
+  "type": "emprunt phonétique",
+  "origin_fr": "东 simplifie 東 (forme cursive). Le Shuowen explique 東 comme le soleil 日 qui se lève derrière un arbre 木, mais les formes oraculaires montrent plutôt un sac ficelé aux deux bouts ; le caractère aurait été emprunté pour sa prononciation afin d'écrire « est ». L'image du soleil dans l'arbre reste une lecture traditionnelle, pas l'origine admise.",
+  "components": [
+   {
+    "c": "木",
+    "role": "forme",
+    "fr": "arbre (dans 東)"
+   },
+   {
+    "c": "日",
+    "role": "forme",
+    "fr": "soleil (dans 東)"
+   }
+  ],
+  "mnemonic_fr": "À l'aube, le soleil 日 se lève derrière l'arbre 木 : c'est l'est. Dans la forme simplifiée, il ne reste que la silhouette de l'arbre.",
+  "scene_fr": "Le soleil levant derrière un arbre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"92\" r=\"38\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M146 92L158 92M140 115L150 121M123 132L129 142M100 138L100 150M77 132L71 142M60 115L50 121M54 92L42 92M60 69L50 63M77 52L71 42M100 46L100 34M123 52L129 42M140 69L150 63\"/><path d=\"M14 152H186\"/><path d=\"M100 184V32M100 70L72 46M100 70L128 46M100 112L62 92M100 112L138 92M100 148L76 136M100 148L124 136M100 184L84 190M100 184L116 190\"/></svg>"
+ },
+ "西": {
+  "type": "emprunt phonétique",
+  "origin_fr": "Les formes anciennes de 西 représentent un nid d'oiseau (ou un panier tressé). Le Shuowen l'explique ainsi : quand le soleil se couche à l'ouest, les oiseaux regagnent leur nid. Le caractère a été emprunté pour écrire le mot « ouest », et le sens « nid » est passé à 栖 (se percher).",
+  "components": [
+   {
+    "c": "兀",
+    "role": "forme",
+    "fr": "haut du nid"
+   },
+   {
+    "c": "囗",
+    "role": "forme",
+    "fr": "corbeille du nid"
+   }
+  ],
+  "mnemonic_fr": "Le soleil se couche, l'oiseau rentre dans son nid : c'est vers l'ouest qu'on le regarde disparaître.",
+  "scene_fr": "Un oiseau dans son nid au soleil couchant",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M108 92A30 30 0 0 1 168 92Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M138 54V44M116 62L110 54M160 62L166 54M14 92H186\"/><path d=\"M20 172Q100 150 180 160\"/><path d=\"M44 128Q100 186 156 128Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M54 140L146 140M62 152L138 152M50 128L66 160M150 128L134 160\" stroke-width=\"3\"/><g transform=\"translate(96 120) scale(1.5 1.5)\" stroke-width=\"2.7\"><path d=\"M-24 0C-20 -16 4 -18 14 -8L26 -6L16 0C12 12 -12 14 -24 0Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M-6 -6Q-2 -26 10 -22\"/><circle cx=\"10\" cy=\"-9\" r=\"1.5\" fill=\"currentColor\"/><path d=\"M-24 0L-34 -4M-24 0L-34 4\"/></g></svg>"
+ },
+ "三": {
+  "type": "idéogramme",
+  "origin_fr": "三 est un idéogramme abstrait : trois traits horizontaux superposés comptent « trois », exactement comme 一 (un) et 二 (deux). C'est l'une des plus anciennes manières de noter les nombres, avec des bâtonnets de comptage.",
+  "components": [
+   {
+    "c": "一",
+    "role": "forme",
+    "fr": "un trait = une unité"
+   }
+  ],
+  "mnemonic_fr": "Trois bûches empilées, la plus longue en bas pour que la pile tienne : un, deux, trois !",
+  "scene_fr": "Trois bûches empilées de plus en plus longues",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"62\" y=\"42\" width=\"76\" height=\"26\" rx=\"13\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"125\" cy=\"55\" rx=\"7\" ry=\"10\"/><circle cx=\"125\" cy=\"55\" r=\"2\"/><rect x=\"46\" y=\"88\" width=\"108\" height=\"26\" rx=\"13\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"141\" cy=\"101\" rx=\"7\" ry=\"10\"/><circle cx=\"141\" cy=\"101\" r=\"2\"/><rect x=\"24\" y=\"136\" width=\"152\" height=\"26\" rx=\"13\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"163\" cy=\"149\" rx=\"7\" ry=\"10\"/><circle cx=\"163\" cy=\"149\" r=\"2\"/><path d=\"M30 182H170\"/></svg>"
+ },
+ "样": {
+  "type": "idéo-phonétique",
+  "origin_fr": "样 est la forme simplifiée de 樣 : clé 木 (bois, arbre) pour le sens et 羕 (yàng) pour le son, réduit à 羊 dans la forme simplifiée. Il désignait à l'origine le gland du chêne (fruit aujourd'hui noté 橡) ; par emprunt, il a pris le sens de « forme, modèle, aspect ».",
+  "components": [
+   {
+    "c": "木",
+    "role": "sens",
+    "fr": "arbre, bois"
+   },
+   {
+    "c": "羊",
+    "role": "son",
+    "fr": "mouton (yáng → yàng)"
+   }
+  ],
+  "mnemonic_fr": "Un mouton 羊 prend la pose devant un arbre 木 comme un mannequin : « regarde de quoi j'ai l'air ! » — c'est l'aspect, le modèle.",
+  "scene_fr": "Un mouton qui prend la pose près d'un arbre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(150 180) scale(0.75)\" stroke-width=\"5.3\"><path d=\"M-7 0L-5 -48M7 0L5 -48M-5 -40L-16 -52M5 -34L16 -46\"/><path d=\"M0 -48C-40 -44 -46 -86 -22 -98C-18 -126 18 -126 22 -98C46 -86 40 -44 0 -48Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M-7 0Q-18 4 -28 12M7 0Q18 4 28 12M0 0V12\"/></g><g transform=\"translate(72 126) scale(1.05)\" stroke-width=\"3.8\"><path d=\"M-30 -8C-34 -26 -16 -32 -8 -24C-2 -36 20 -34 22 -22C36 -24 42 -6 32 2C38 16 20 24 12 16C4 26 -18 24 -20 14C-36 16 -38 0 -30 -8Z\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"-40\" cy=\"-12\" rx=\"10\" ry=\"13\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M-48 -22L-56 -26M-34 -24L-28 -30M-16 18V40M-4 20V42M12 18V40M24 12V36\"/><circle cx=\"-43\" cy=\"-14\" r=\"1.5\" fill=\"currentColor\"/></g><path d=\"M150 26l4 -8M168 34l8 -4M132 30l-6 -6\" stroke-width=\"3\"/><path d=\"M14 182H186\"/></svg>"
+ },
+ "买": {
+  "type": "idéogramme composé",
+  "origin_fr": "买 simplifie 買, composé de 网 (filet, devenu 罒) au-dessus de 貝 (coquillage cauri, la monnaie antique) : on « ramasse au filet » des biens ou des cauris, d'où « acheter ». La forme simplifiée vient de l'écriture cursive ; ses composants actuels (乛, 头) n'ont plus de sens propre.",
+  "components": [
+   {
+    "c": "罒",
+    "role": "forme",
+    "fr": "filet (dans 買)"
+   },
+   {
+    "c": "贝",
+    "role": "forme",
+    "fr": "coquillage-monnaie (dans 買)"
+   }
+  ],
+  "mnemonic_fr": "Avec un filet, tu attrapes des coquillages-monnaie : tu fais tes achats ! Sans le chapeau 乛, 买 (acheter) deviendrait 卖 (vendre)… attention.",
+  "scene_fr": "Un filet qui attrape un coquillage cauri",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M24 26L74 86\" stroke-width=\"6\"/><ellipse cx=\"112\" cy=\"96\" rx=\"46\" ry=\"18\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M66 96Q86 170 114 172Q140 170 158 96\"/><path d=\"M78 112L146 152M96 108L152 128M136 104L86 156M152 116L104 166\" stroke-width=\"2.5\"/><ellipse cx=\"114\" cy=\"140\" rx=\"20\" ry=\"13\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M96 140Q114 134 132 140\" stroke-width=\"2.5\"/><path d=\"M101 137v6M107 136v6M113 135v6M119 136v6M125 137v6\" stroke-width=\"2\"/></svg>"
+ },
+ "重": {
+  "type": "idéogramme composé",
+  "origin_fr": "Dans le bronze, 重 montre une personne 人 qui porte un sac lourd 東 (un sac ficelé), posée sur le sol 土 ; le Shuowen y voit 壬 avec 東 comme partie sonore. L'idée est « lourd, pesant », d'où « important ». Lu chóng, il signifie « répéter, de nouveau » (superposer des couches). L'analyse moderne en 千 + 里 est une décomposition de forme, pas l'origine.",
+  "components": [
+   {
+    "c": "千",
+    "role": "forme",
+    "fr": "mille"
+   },
+   {
+    "c": "里",
+    "role": "forme",
+    "fr": "lieue, village"
+   }
+  ],
+  "mnemonic_fr": "Porter un sac énorme sur mille 千 lieues 里 : comme c'est lourd ! Et ce qui pèse lourd est important.",
+  "scene_fr": "Un porteur courbé sous un énorme sac",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M86 56C108 18 164 30 162 78C160 116 122 126 102 112C86 102 78 80 86 56Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M112 34L104 22M112 34L122 24\"/><circle cx=\"60\" cy=\"84\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M68 94Q88 110 92 130M92 130L76 178M92 130L112 178M74 102L96 86M80 112L102 96\"/><path d=\"M42 74q-5 8 0 11q5 -3 0 -11M36 96q-4 6 0 8q4 -2 0 -8\" stroke-width=\"3\"/><path d=\"M24 182H176\"/></svg>"
+ },
+ "问": {
+  "type": "idéo-phonétique",
+  "origin_fr": "问 simplifie 問 : clé 口 (bouche) pour le sens — on questionne avec la bouche — et 門 (mén, porte) pour le son. Le Shuowen le glose « s'informer ». La simplification ne fait que réduire 門 en 门.",
+  "components": [
+   {
+    "c": "门",
+    "role": "son",
+    "fr": "porte (mén → wèn)"
+   },
+   {
+    "c": "口",
+    "role": "sens",
+    "fr": "bouche"
+   }
+  ],
+  "mnemonic_fr": "Une bouche 口 passe la tête par la porte 门 : « Excusez-moi, je peux poser une question ? »",
+  "scene_fr": "Quelqu'un passe la tête par une porte pour demander",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 182V40H96V182\"/><path d=\"M96 40L120 52V172L96 182Z\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"60\" cy=\"104\" r=\"18\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"54\" cy=\"100\" r=\"2\" fill=\"currentColor\"/><circle cx=\"66\" cy=\"100\" r=\"2\" fill=\"currentColor\"/><ellipse cx=\"60\" cy=\"113\" rx=\"5\" ry=\"4\"/><path d=\"M42 182Q44 134 60 126Q76 134 78 182\"/><path d=\"M120 18H176Q186 18 186 28V62Q186 72 176 72H148L134 88L136 72H120Q110 72 110 62V28Q110 18 120 18Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M138 34Q148 24 158 34Q162 44 148 50V55\"/><circle cx=\"148\" cy=\"63\" r=\"2.5\" fill=\"currentColor\"/></svg>"
+ },
+ "告": {
+  "type": "idéogramme composé",
+  "origin_fr": "告 associe 牛 (bœuf) et 口 (bouche), mais l'origine est discutée. Le Shuowen explique qu'on fixait une barre de bois en travers des cornes d'un bœuf qui encorne, pour « avertir » les gens ; d'autres y voient l'annonce faite lors d'un sacrifice de bœuf. Le sens général est « annoncer, informer, avertir ».",
+  "components": [
+   {
+    "c": "牛",
+    "role": "sens",
+    "fr": "bœuf"
+   },
+   {
+    "c": "口",
+    "role": "sens",
+    "fr": "bouche, parole"
+   }
+  ],
+  "mnemonic_fr": "Un bœuf 牛 qui meugle de toute sa bouche 口 : impossible de ne pas être averti ! Avec 诉, 告诉 = raconter, dire à quelqu'un.",
+  "scene_fr": "Une tête de bœuf qui meugle, barre sur les cornes",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M24 44H176\" stroke-width=\"5\"/><path d=\"M74 74Q44 70 40 40M126 74Q156 70 160 40\"/><path d=\"M70 70Q100 60 130 70Q140 120 122 150Q100 166 78 150Q60 120 70 70Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M68 86L46 92L66 102M132 86L154 92L134 102\"/><circle cx=\"86\" cy=\"98\" r=\"3\" fill=\"currentColor\"/><circle cx=\"114\" cy=\"98\" r=\"3\" fill=\"currentColor\"/><ellipse cx=\"100\" cy=\"140\" rx=\"22\" ry=\"14\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"92\" cy=\"140\" r=\"3\"/><circle cx=\"108\" cy=\"140\" r=\"3\"/><path d=\"M148 132q10 10 0 20M160 124q18 18 0 36M40 132q-10 10 0 20\" stroke-width=\"3\"/></svg>"
+ },
+ "诉": {
+  "type": "idéo-phonétique",
+  "origin_fr": "诉 simplifie 訴 : clé 言/讠 (parole) pour le sens et 斥 (chì, réprimander), variante de 㡿, pour le son et en partie le sens. Le mot signifiait « porter plainte, accuser », d'où « raconter, exposer » ; on le retrouve dans 告诉 (dire à quelqu'un).",
+  "components": [
+   {
+    "c": "讠",
+    "role": "sens",
+    "fr": "parole"
+   },
+   {
+    "c": "斥",
+    "role": "son",
+    "fr": "réprimander (chì → sù)"
+   }
+  ],
+  "mnemonic_fr": "Quelqu'un pointe du doigt et déballe tout avec des mots 讠 de reproche 斥 : il raconte, il accuse !",
+  "scene_fr": "Une personne qui pointe du doigt en parlant",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(58 182) scale(1.1)\" stroke-width=\"3.6\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64M0 -64L40 -70M-15 0L0 -34L15 0\"/></g><path d=\"M104 24H176Q186 24 186 34V72Q186 82 176 82H128L114 98L118 82H104Q94 82 94 72V34Q94 24 104 24Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M110 42H170M110 56H160M110 70H140\" stroke-width=\"3\"/><path d=\"M20 182H110\"/></svg>"
+ },
+ "方": {
+  "type": "incertain",
+  "origin_fr": "L'origine de 方 est discutée. Le Shuowen y voit deux bateaux attachés côte à côte (« bateaux jumelés ») ; d'autres lisent dans les formes oraculaires une charrue à manche, ou une personne portant une cangue. Les sens « carré, côté, direction, région » puis « méthode » sont bien attestés dès l'Antiquité.",
+  "components": [
+   {
+    "c": "亠",
+    "role": "forme",
+    "fr": "couvercle, tête"
+   },
+   {
+    "c": "𠃌",
+    "role": "forme",
+    "fr": "crochet"
+   }
+  ],
+  "mnemonic_fr": "Un poteau indicateur avec des flèches dans tous les sens : à chaque carrefour, il faut choisir une direction 方 — et une méthode !",
+  "scene_fr": "Un poteau indicateur avec flèches dans plusieurs directions",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 184V40\"/><circle cx=\"100\" cy=\"34\" r=\"5\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M100 46H160L174 58L160 70H100Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 84H42L28 96L42 108H100Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 122H148L160 133L148 144H100Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M40 184H160M60 184q-4 -10 -10 -14M140 184q4 -10 10 -14\"/></svg>"
+ },
+ "老": {
+  "type": "pictogramme",
+  "origin_fr": "老 dessine un vieillard aux longs cheveux, courbé, appuyé sur une canne. La partie haute 耂 représente la tête chevelue et le corps ; le bas (devenu 匕) est la canne ou les jambes fléchies. Le sens « vieux, âgé » a donné le préfixe familier de respect (老师, 老王) et l'adverbe « toujours ».",
+  "components": [
+   {
+    "c": "耂",
+    "role": "forme",
+    "fr": "vieillard aux longs cheveux"
+   },
+   {
+    "c": "匕",
+    "role": "forme",
+    "fr": "canne / jambes courbées"
+   }
+  ],
+  "mnemonic_fr": "Un grand-père aux longs cheveux, tout courbé sur sa canne : il est 老, vieux — et on le respecte.",
+  "scene_fr": "Un vieillard courbé aux longs cheveux, avec une canne",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"84\" cy=\"58\" r=\"14\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M74 50Q58 62 54 96M80 45Q60 52 62 84\"/><path d=\"M94 70Q100 88 90 100\" stroke-width=\"3\"/><path d=\"M90 74Q112 92 114 128M114 128L102 180M114 128L130 180M98 92L72 110\"/><path d=\"M68 104L56 182M68 104Q72 90 60 92\"/><path d=\"M30 182H170\"/></svg>"
+ },
+ "岁": {
+  "type": "forme altérée",
+  "origin_fr": "岁 est une forme populaire de 歲. Dans les formes anciennes, 歲 montre une hache-arme 戉 avec des pas 步 ; il désignait la planète Jupiter (岁星), qui fait le tour du ciel en environ douze ans, d'où « année » puis « an (d'âge) ». La forme simplifiée 山 + 夕 (montagne + soir) est une recomposition sans lien avec l'origine.",
+  "components": [
+   {
+    "c": "山",
+    "role": "forme",
+    "fr": "montagne"
+   },
+   {
+    "c": "夕",
+    "role": "forme",
+    "fr": "soir, lune"
+   }
+  ],
+  "mnemonic_fr": "Les lunes 夕 passent et repassent au-dessus de la montagne 山 : les années s'enchaînent, et tu prends un an de plus.",
+  "scene_fr": "Un croissant de lune au-dessus des montagnes",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 182L70 82L98 120L130 70L186 182Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M58 104L70 82L82 104M118 92L130 70L142 92\" stroke-width=\"3\"/><path d=\"M100 16A22 22 0 1 0 100 60A14 22 0 1 1 100 16Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M40 40l0 8M36 44h8M162 30l0 8M158 34h8\" stroke-width=\"3\"/></svg>"
+ },
+ "行": {
+  "type": "pictogramme",
+  "origin_fr": "行 représente un carrefour vu du dessus : deux routes qui se croisent. Le sens premier est « route », d'où « marcher, aller », puis « ça va, d'accord ». Lu háng, il signifie « rangée » et, par extension, « métier, maison de commerce » (银行, banque). Le découpage en 彳 + 亍 (petits pas) est une analyse de forme plus tardive.",
+  "components": [
+   {
+    "c": "彳",
+    "role": "forme",
+    "fr": "moitié gauche du carrefour (pas)"
+   },
+   {
+    "c": "亍",
+    "role": "forme",
+    "fr": "moitié droite du carrefour"
+   }
+  ],
+  "mnemonic_fr": "Vu d'avion, un carrefour : quatre routes qui se croisent et des pas qui y marchent. Ça va ? 行 ! On y va.",
+  "scene_fr": "Un carrefour vu du dessus avec des empreintes de pas",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 14H76V76H14ZM124 14H186V76H124ZM14 124H76V186H14ZM124 124H186V186H124Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 18V56M100 144V182M18 100H56M144 100H182\" stroke-dasharray=\"8 10\"/><ellipse cx=\"90\" cy=\"170\" rx=\"5\" ry=\"8\" fill=\"currentColor\" fill-opacity=\".3\"/><ellipse cx=\"110\" cy=\"150\" rx=\"5\" ry=\"8\" fill=\"currentColor\" fill-opacity=\".3\"/><ellipse cx=\"90\" cy=\"130\" rx=\"5\" ry=\"8\" fill=\"currentColor\" fill-opacity=\".3\"/><ellipse cx=\"110\" cy=\"110\" rx=\"5\" ry=\"8\" fill=\"currentColor\" fill-opacity=\".3\"/><ellipse cx=\"90\" cy=\"90\" rx=\"5\" ry=\"8\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "号": {
+  "type": "idéo-phonétique",
+  "origin_fr": "号 associe 口 (bouche) pour le sens et 丂 (kǎo), un souffle qui peine à sortir, pour le son et en partie le sens. Le Shuowen le glose « cri de douleur » : c'est d'abord une clameur, un cri. La forme traditionnelle 號 y ajoute 虎 (le tigre qui rugit). D'« appel, signal » viennent « trompe », « nom, numéro » et « date ».",
+  "components": [
+   {
+    "c": "口",
+    "role": "sens",
+    "fr": "bouche"
+   },
+   {
+    "c": "丂",
+    "role": "son",
+    "fr": "souffle contrarié (kǎo → háo)"
+   }
+  ],
+  "mnemonic_fr": "Une bouche 口 souffle fort dans une trompe 丂 pour appeler les numéros : « Numéro 号 trois ! »",
+  "scene_fr": "Quelqu'un souffle dans une longue trompe",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"48\" cy=\"96\" r=\"16\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M62 92L128 66Q146 98 128 132L62 104Z\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"132\" cy=\"99\" rx=\"10\" ry=\"33\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M154 72q12 27 0 54M168 60q22 39 0 78\" stroke-width=\"3\"/><path d=\"M46 112V164M46 126L70 104M46 164L32 184M46 164L60 184\"/></svg>"
+ },
+ "放": {
+  "type": "idéo-phonétique",
+  "origin_fr": "放 combine 攵 (main tenant un bâton, qui marque l'action) pour le sens et 方 (fāng) pour le son. Le Shuowen le glose « chasser, bannir » : renvoyer quelqu'un au loin. De là « lâcher, libérer », puis « mettre, poser » et « avoir congé » (放假).",
+  "components": [
+   {
+    "c": "方",
+    "role": "son",
+    "fr": "direction (fāng → fàng)"
+   },
+   {
+    "c": "攵",
+    "role": "sens",
+    "fr": "main qui agit avec un bâton"
+   }
+  ],
+  "mnemonic_fr": "D'une main 攵, tu lâches ton cerf-volant qui file dans toutes les directions 方 : tu le laisses partir !",
+  "scene_fr": "Un enfant qui laisse s'envoler un cerf-volant",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M136 16L168 56L136 100L104 56Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M136 16V100M104 56H168\" stroke-width=\"3\"/><path d=\"M136 100q-12 12 0 24q12 12 0 24\" stroke-width=\"3\"/><path d=\"M130 112l12 -4M130 136l12 -4\" stroke-width=\"3\"/><path d=\"M136 58Q90 110 48 128\" stroke-width=\"2.5\"/><g transform=\"translate(40 184) scale(0.75)\" stroke-width=\"5.3\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L10 -76M-15 0L0 -34L15 0\"/></g><path d=\"M14 184H120\"/></svg>"
+ },
+ "朋": {
+  "type": "pictogramme",
+  "origin_fr": "Dans les inscriptions oraculaires, 朋 dessine deux rangées de coquillages cauris enfilés, une unité de monnaie (« un 朋 de cauris »). Par extension, « paire, ce qui va ensemble », puis « compagnon, ami ». Les deux 月 actuels ne sont pas des lunes : c'est l'évolution graphique des colliers de coquillages.",
+  "components": [
+   {
+    "c": "月",
+    "role": "forme",
+    "fr": "collier de coquillages (pas la lune)"
+   },
+   {
+    "c": "月",
+    "role": "forme",
+    "fr": "second collier"
+   }
+  ],
+  "mnemonic_fr": "Deux colliers de coquillages pendus côte à côte, identiques et inséparables : comme deux amis.",
+  "scene_fr": "Deux colliers de coquillages pendus côte à côte",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M28 28H172\" stroke-width=\"5\"/><path d=\"M70 28V176M130 28V176\" stroke-width=\"3\"/><ellipse cx=\"70\" cy=\"54\" rx=\"17\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M59 54H81\" stroke-width=\"2.5\"/><ellipse cx=\"70\" cy=\"88\" rx=\"17\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M59 88H81\" stroke-width=\"2.5\"/><ellipse cx=\"70\" cy=\"122\" rx=\"17\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M59 122H81\" stroke-width=\"2.5\"/><ellipse cx=\"70\" cy=\"156\" rx=\"17\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M59 156H81\" stroke-width=\"2.5\"/><ellipse cx=\"130\" cy=\"54\" rx=\"17\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M119 54H141\" stroke-width=\"2.5\"/><ellipse cx=\"130\" cy=\"88\" rx=\"17\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M119 88H141\" stroke-width=\"2.5\"/><ellipse cx=\"130\" cy=\"122\" rx=\"17\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M119 122H141\" stroke-width=\"2.5\"/><ellipse cx=\"130\" cy=\"156\" rx=\"17\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M119 156H141\" stroke-width=\"2.5\"/><circle cx=\"70\" cy=\"180\" r=\"3\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"130\" cy=\"180\" r=\"3\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "友": {
+  "type": "idéogramme composé",
+  "origin_fr": "友 montre, dans les formes anciennes, deux mains droites 又 orientées dans le même sens : deux personnes qui s'entraident. Le Shuowen le glose « ceux qui partagent la même volonté ». La main du haut s'est déformée en ナ ; 又 donne aussi une indication de prononciation.",
+  "components": [
+   {
+    "c": "𠂇",
+    "role": "forme",
+    "fr": "main (déformée)"
+   },
+   {
+    "c": "又",
+    "role": "forme",
+    "fr": "main droite"
+   }
+  ],
+  "mnemonic_fr": "Deux mains qui se serrent et travaillent ensemble : c'est ça, un ami 友.",
+  "scene_fr": "Deux mains qui se serrent, un cœur au-dessus",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 112L56 96L64 120L22 136Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M186 112L144 96L136 120L178 136Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M60 98Q80 84 100 90Q122 84 140 98Q144 120 122 124Q100 130 78 124Q56 120 60 98Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M86 96Q92 112 88 122M100 94Q106 110 102 126M114 96Q120 110 116 122\" stroke-width=\"3\"/><path d=\"M100 70C78 54 84 32 100 44C116 32 122 54 100 70Z\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "住": {
+  "type": "idéo-phonétique",
+  "origin_fr": "住 est un caractère relativement tardif : clé 亻 (personne) pour le sens et 主 (zhǔ) pour le son. 主 représentait à l'origine une lampe à huile avec sa flamme. L'idée : une personne qui s'arrête et demeure quelque part, d'où « habiter, loger » et, après un verbe, « fermement, à l'arrêt ».",
+  "components": [
+   {
+    "c": "亻",
+    "role": "sens",
+    "fr": "personne"
+   },
+   {
+    "c": "主",
+    "role": "son",
+    "fr": "lampe, maître (zhǔ → zhù)"
+   }
+  ],
+  "mnemonic_fr": "Une personne 亻 rentre chez elle et allume sa lampe 主 : c'est là qu'elle habite.",
+  "scene_fr": "Une personne chez elle à côté d'une lampe à huile",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 82L100 22L180 82\"/><path d=\"M36 70V182H164V70\" fill=\"currentColor\" fill-opacity=\".18\"/><g transform=\"translate(80 180) scale(0.8)\" stroke-width=\"5.0\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L22 -50M-15 0L0 -34L15 0\"/></g><path d=\"M136 182V132M122 182H150\"/><path d=\"M120 132Q136 146 152 132Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M136 128Q126 114 136 98Q146 114 136 128Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M120 104l-8 -6M152 104l8 -6M136 88v-8\" stroke-width=\"3\"/></svg>"
+ },
+ "拿": {
+  "type": "idéogramme composé",
+  "origin_fr": "拿 est une forme populaire de 拏 (main 手, avec 奴 nú pour le son). On l'analyse parfois comme idéo-phonétique avec 合 pour le son, mais 合 (hé) est éloigné de ná : on y lit plutôt une recomposition parlante, 合 (fermer, joindre) au-dessus de 手 (main) — la main qui se referme sur un objet, d'où « prendre, tenir ».",
+  "components": [
+   {
+    "c": "合",
+    "role": "sens",
+    "fr": "se fermer, réunir"
+   },
+   {
+    "c": "手",
+    "role": "sens",
+    "fr": "main"
+   }
+  ],
+  "mnemonic_fr": "Une main 手 se referme 合 sur une pomme : hop, tu la prends !",
+  "scene_fr": "Une main qui se referme sur une pomme",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"140\" r=\"36\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 104Q102 94 108 88\"/><path d=\"M104 98Q118 84 130 94Q118 106 104 98Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M80 14L76 40M124 14L128 40M72 30H132\"  stroke-width=\"3\"/><path d=\"M64 40Q60 72 66 84H138Q146 70 140 40Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M67 84V112A7 7 0 0 0 81 112V84\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M84 84V118A7 7 0 0 0 98 118V84\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M101 84V118A7 7 0 0 0 115 118V84\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M118 84V112A7 7 0 0 0 132 112V84\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M140 52Q162 62 160 84Q158 98 148 104\"/><path d=\"M40 104Q34 124 44 142M160 116Q168 132 158 150\"  stroke-width=\"3\"/></svg>"
+ },
+ "高": {
+  "type": "pictogramme",
+  "origin_fr": "高 représente un bâtiment élevé à étages : un toit pointu 亠 en haut, un étage avec sa fenêtre 口, puis la base avec son entrée (冋). Le Shuowen le décrit comme une tour de guet. Du dessin de la tour vient le sens « haut, grand (de taille), élevé ».",
+  "components": [
+   {
+    "c": "亠",
+    "role": "forme",
+    "fr": "toit pointu"
+   },
+   {
+    "c": "口",
+    "role": "forme",
+    "fr": "fenêtre de l'étage"
+   },
+   {
+    "c": "冋",
+    "role": "forme",
+    "fr": "base et porte de la tour"
+   }
+  ],
+  "mnemonic_fr": "Une tour à étages avec son toit pointu, sa fenêtre et sa grande porte : qu'elle est haute !",
+  "scene_fr": "Une tour à étages avec toit pointu et porte",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 50V18M92 28H108\"/><path d=\"M48 72L76 50H124L152 72Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M60 72V102H140V72\"/><path d=\"M88 78H112V94H88Z\"/><path d=\"M26 122L50 102H150L174 122Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M40 122V182H160V122\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M86 182V152Q100 138 114 152V182\"/><path d=\"M20 182H180\"/></svg>"
+ },
+ "正": {
+  "type": "idéogramme composé",
+  "origin_fr": "Dans les formes anciennes, 正 montre un pied 止 qui se dirige vers une enceinte (un carré, devenu le trait 一) : marcher droit sur une ville, mener une expédition — sens conservé dans 征. De « aller droit au but » viennent « droit, correct », puis l'adverbe « justement, en train de ».",
+  "components": [
+   {
+    "c": "一",
+    "role": "forme",
+    "fr": "but, enceinte (ancien carré)"
+   },
+   {
+    "c": "止",
+    "role": "forme",
+    "fr": "pied"
+   }
+  ],
+  "mnemonic_fr": "Le pied 止 avance tout droit vers le but 一, sans dévier : c'est droit, c'est correct — et on est justement en train d'y aller.",
+  "scene_fr": "Des empreintes de pas marchant droit vers une forteresse",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M46 80V30H58V40H70V30H82V40H94V30H106V40H118V30H130V40H142V30H154V80Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M88 80V62Q100 50 112 62V80\"/><path d=\"M100 86V184\" stroke-width=\"2.5\" stroke-dasharray=\"6 9\"/><g transform=\"translate(86 170) rotate(0) scale(1.15)\" stroke-width=\"2.6\"><ellipse cx=\"0\" cy=\"0\" rx=\"7\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"-5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"0\" cy=\"-17\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/></g><g transform=\"translate(114 140) rotate(0) scale(1.05)\" stroke-width=\"2.9\"><ellipse cx=\"0\" cy=\"0\" rx=\"7\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"-5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"0\" cy=\"-17\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/></g><g transform=\"translate(86 110) rotate(0) scale(0.95)\" stroke-width=\"3.2\"><ellipse cx=\"0\" cy=\"0\" rx=\"7\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"-5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"0\" cy=\"-17\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/></g></svg>"
+ },
+ "先": {
+  "type": "idéogramme composé",
+  "origin_fr": "Dans les formes anciennes, 先 montre un pied 止 posé au-dessus d'une personne 儿 : celui dont le pied est devant, qui part en premier. Le haut s'est déformé en ⺧ (ressemblant à 土). Sens : « d'abord, avant, auparavant ».",
+  "components": [
+   {
+    "c": "⺧",
+    "role": "forme",
+    "fr": "pied (止 déformé)"
+   },
+   {
+    "c": "儿",
+    "role": "forme",
+    "fr": "personne, jambes"
+   }
+  ],
+  "mnemonic_fr": "Un pied 止 posé au-dessus d'une personne 儿 : celui-là a déjà fait le premier pas, il passe d'abord !",
+  "scene_fr": "Un coureur en tête, un autre derrière",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"124\" cy=\"58\" r=\"13\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M120 72L106 118M114 86L138 98L150 86M114 86L92 94L80 82M106 118L130 138L126 172M106 118L86 146L64 150\"/><g transform=\"translate(36 182) scale(0.6)\" stroke-width=\"6.7\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L22 -50M-15 0L0 -34L15 0\"/></g><g transform=\"translate(166 96) rotate(20) scale(0.9)\" stroke-width=\"3.3\"><ellipse cx=\"0\" cy=\"0\" rx=\"7\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"-5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"0\" cy=\"-17\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/></g><g transform=\"translate(176 64) rotate(20) scale(0.8)\" stroke-width=\"3.8\"><ellipse cx=\"0\" cy=\"0\" rx=\"7\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"-5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"0\" cy=\"-17\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/></g><path d=\"M14 182H186\"/></svg>"
+ },
+ "准": {
+  "type": "idéo-phonétique",
+  "origin_fr": "准 était une forme vulgaire de 準 : clé 氵 (eau) et 隼 (sǔn, faucon) comme partie sonore. 準 désignait le niveau d'eau, l'instrument qui donne l'horizontale exacte, d'où « exact, précis, norme » puis « autoriser ». Dans 准, l'eau 氵 est réduite à 冫 et 隼 à 隹 (oiseau).",
+  "components": [
+   {
+    "c": "冫",
+    "role": "sens",
+    "fr": "eau (niveau d'eau)"
+   },
+   {
+    "c": "隹",
+    "role": "son",
+    "fr": "oiseau (de 隼 sǔn → zhǔn)"
+   }
+  ],
+  "mnemonic_fr": "Un oiseau 隹 se pose sur un niveau à bulle plein d'eau 冫 : la bulle est pile au milieu — c'est exact !",
+  "scene_fr": "Un oiseau perché sur un niveau à bulle",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M36 52Q44 64 36 67Q28 64 36 52Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M48 82Q54 92 48 94Q42 92 48 82Z\" fill=\"currentColor\" fill-opacity=\".3\"/><rect x=\"18\" y=\"120\" width=\"164\" height=\"32\" rx=\"8\" fill=\"currentColor\" fill-opacity=\".18\"/><rect x=\"74\" y=\"127\" width=\"52\" height=\"18\" rx=\"9\"/><ellipse cx=\"100\" cy=\"136\" rx=\"9\" ry=\"5\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M90 124V148M110 124V148\" stroke-width=\"2.5\"/><g transform=\"translate(110 102) scale(1.6 1.6)\" stroke-width=\"2.5\"><path d=\"M-24 0C-20 -16 4 -18 14 -8L26 -6L16 0C12 12 -12 14 -24 0Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M-6 -6Q-2 -26 10 -22\"/><circle cx=\"10\" cy=\"-9\" r=\"1.5\" fill=\"currentColor\"/><path d=\"M-24 0L-34 -4M-24 0L-34 4\"/></g></svg>"
+ },
+ "备": {
+  "type": "forme altérée",
+  "origin_fr": "备 simplifie 備. Dans les inscriptions anciennes, la partie droite de 備 dessine un carquois rempli de flèches (le caractère 箙) : avoir ses flèches prêtes, c'est être « équipé, préparé ». 亻 a été ajouté plus tard. La forme simplifiée 夂 + 田 ne garde qu'une déformation du carquois ; ces composants n'ont pas de lien avec le sens.",
+  "components": [
+   {
+    "c": "夂",
+    "role": "forme",
+    "fr": "pied qui avance (forme)"
+   },
+   {
+    "c": "田",
+    "role": "forme",
+    "fr": "champ (ancien carquois déformé)"
+   }
+  ],
+  "mnemonic_fr": "Avant de partir 夂 aux champs 田, on prépare son carquois plein de flèches : tout est prêt !",
+  "scene_fr": "Un carquois rempli de flèches prêtes",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M70 72L130 72L122 180L78 180Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M74 100H126M80 152H120\"/><path d=\"M70 82Q40 112 62 152\"/><path d=\"M86 72L74 24M100 72V18M114 72L128 26\"/><path d=\"M74 34L66 18M74 34L82 18M100 28L92 12M100 28L108 12M128 36L122 20M128 36L138 22\" stroke-width=\"3\"/></svg>"
+ },
+ "水": {
+  "type": "pictogramme",
+  "origin_fr": "水 dessine un cours d'eau : un courant central sinueux et des gouttes ou remous de part et d'autre. Les formes oraculaires montrent clairement ce filet d'eau qui serpente. En composition à gauche, il devient la clé 氵.",
+  "components": [
+   {
+    "c": "亅",
+    "role": "forme",
+    "fr": "courant principal"
+   },
+   {
+    "c": "氵",
+    "role": "forme",
+    "fr": "forme réduite en clé"
+   }
+  ],
+  "mnemonic_fr": "Un ruisseau qui serpente au milieu, avec des éclaboussures qui partent à gauche et à droite : c'est de l'eau.",
+  "scene_fr": "Un ruisseau sinueux avec des remous et des gouttes",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 14Q84 50 100 86Q116 122 100 158Q92 172 100 186\" stroke-width=\"7\"/><path d=\"M28 70Q58 70 72 100Q58 130 34 152\"/><path d=\"M172 58Q138 78 130 100Q146 130 174 160\"/><path d=\"M54 26Q62 38 54 41Q46 38 54 26Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M150 20Q158 32 150 35Q142 32 150 20Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M40 102Q46 112 40 114Q34 112 40 102Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M164 120Q170 130 164 132Q158 130 164 120Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M24 184q12 -8 24 0M152 184q12 -8 24 0\" stroke-width=\"3\"/></svg>"
+ },
+ "进": {
+  "type": "idéo-phonétique",
+  "origin_fr": "La forme traditionnelle 進 associe 辶 (marcher) et 隹 (oiseau). Le Shuowen y voit une partie sonore abrégée ; l'explication traditionnelle la plus répandue dit que l'oiseau ne sait qu'avancer, jamais reculer — d'où « avancer, entrer ». La forme simplifiée 进 remplace 隹 par 井 (jǐng), qui sert d'indicateur sonore (jǐng → jìn).",
+  "components": [
+   {
+    "c": "辶",
+    "role": "sens",
+    "fr": "marcher, avancer"
+   },
+   {
+    "c": "井",
+    "role": "son",
+    "fr": "puits (jǐng → jìn)"
+   }
+  ],
+  "mnemonic_fr": "Un oiseau ne recule jamais : il marche 辶 droit devant, saute par-dessus le puits 井 et entre !",
+  "scene_fr": "Un oiseau qui marche en avant, flèche vers l'avant",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 166H186\"/><path d=\"M30 166H60M90 166H120M150 166H180\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><g transform=\"translate(86 126) scale(2 2)\" stroke-width=\"2.0\"><path d=\"M-24 0C-20 -16 4 -18 14 -8L26 -6L16 0C12 12 -12 14 -24 0Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M-6 -6Q-2 -26 10 -22\"/><circle cx=\"10\" cy=\"-9\" r=\"1.5\" fill=\"currentColor\"/><path d=\"M-24 0L-34 -4M-24 0L-34 4\"/></g><path d=\"M84 146L80 164M100 146L104 164\"/><path d=\"M126 56H178M162 40L178 56L162 72\" stroke-width=\"6\"/></svg>"
+ },
+ "写": {
+  "type": "idéo-phonétique",
+  "origin_fr": "写 simplifie 寫 : clé 宀 (toit) et 舄 (xì, sorte de chaussure / pie) pour le son. Le sens premier est « déplacer, transférer » des objets sous un toit ; il a glissé vers « copier », puis « écrire ». La forme simplifiée, issue de la cursive, n'a plus que 冖 et 与.",
+  "components": [
+   {
+    "c": "冖",
+    "role": "forme",
+    "fr": "couvercle (de 宀, toit)"
+   },
+   {
+    "c": "与",
+    "role": "forme",
+    "fr": "donner (forme cursive de 舄)"
+   }
+  ],
+  "mnemonic_fr": "Sous le toit 冖, une main tient le pinceau et donne 与 ses mots au papier : elle écrit.",
+  "scene_fr": "Une main qui écrit au pinceau sur une feuille",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M28 104L168 92L174 172L34 182Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M52 140Q70 126 88 142Q98 150 106 140\" stroke-width=\"6\"/><path d=\"M60 160H96\" stroke-width=\"4\"/><path d=\"M156 18L110 116\" stroke-width=\"7\"/><path d=\"M110 116Q100 132 104 140Q116 132 116 118Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M120 56Q142 44 160 60Q164 80 144 86Q124 90 118 74Z\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "国": {
+  "type": "idéogramme composé",
+  "origin_fr": "国 simplifie 國 : l'enceinte 囗 (frontière) entoure 或, lui-même formé d'une arme 戈 qui garde un territoire 口. Le pays, c'est un territoire défendu à l'intérieur de ses frontières. La forme simplifiée 国 met 玉 (jade, trésor) dans l'enceinte — une forme populaire ancienne.",
+  "components": [
+   {
+    "c": "囗",
+    "role": "sens",
+    "fr": "enceinte, frontière"
+   },
+   {
+    "c": "玉",
+    "role": "forme",
+    "fr": "jade, trésor"
+   }
+  ],
+  "mnemonic_fr": "Un trésor de jade 玉 bien gardé à l'intérieur des remparts 囗 : voilà un pays.",
+  "scene_fr": "Des remparts crénelés protégeant un joyau",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M24 44V30H31V44H38V30H45V44H52V30H59V44H66V30H73V44H80V30H87V44H94V30H101V44H108V30H115V44H122V30H129V44H136V30H143V44H150V30H157V44H164V30H171V44H178V176H24Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M86 176V156Q100 144 114 156V176\"/><path d=\"M100 62L130 92L100 136L70 92Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M70 92H130M86 76L100 136M114 76L100 136\" stroke-width=\"3\"/><path d=\"M146 62l0 10M141 67h10M50 118l0 10M45 123h10\" stroke-width=\"3\"/></svg>"
+ },
+ "您": {
+  "type": "idéogramme composé",
+  "origin_fr": "您 est un caractère récent (attesté surtout depuis les Jin et les Yuan) : 你 (tu) au-dessus de 心 (cœur), le « tu » prononcé avec égard. Sa prononciation viendrait d'une contraction orale (peut-être de 你们 ou 你老) ; l'histoire exacte reste discutée.",
+  "components": [
+   {
+    "c": "你",
+    "role": "son",
+    "fr": "tu, toi (nǐ → nín)"
+   },
+   {
+    "c": "心",
+    "role": "sens",
+    "fr": "cœur, sentiment"
+   }
+  ],
+  "mnemonic_fr": "Tu 你 dis « vous » avec tout ton cœur 心 : c'est la politesse.",
+  "scene_fr": "Une personne s'incline poliment devant une autre, un cœur",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(58 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L22 -50M-15 0L0 -34L15 0\"/></g><circle cx=\"132\" cy=\"94\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M138 106Q154 116 154 136M154 136L144 182M154 136L164 182M142 112L124 130\"/><path d=\"M100 66C78 50 84 28 100 40C116 28 122 50 100 66Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M24 182H180\"/></svg>"
+ },
+ "电": {
+  "type": "idéogramme composé",
+  "origin_fr": "电 simplifie 電 : clé 雨 (pluie, orage) au-dessus de 申, qui dessine à l'origine l'éclair zigzaguant (申 donne aussi le son). L'éclair dans l'orage a donné « foudre », puis « électricité ». La forme simplifiée garde seulement l'éclair.",
+  "components": [
+   {
+    "c": "曰",
+    "role": "forme",
+    "fr": "nuage / partie de l'éclair 申"
+   },
+   {
+    "c": "乚",
+    "role": "forme",
+    "fr": "queue de l'éclair"
+   }
+  ],
+  "mnemonic_fr": "Un nuage d'orage d'où jaillit un éclair qui descend en zigzag : c'est l'électricité !",
+  "scene_fr": "Un éclair qui jaillit d'un nuage d'orage",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(100 64) scale(1.5)\" stroke-width=\"2.7\"><path d=\"M-40 10C-56 10 -56 -12 -40 -12C-40 -32 -12 -34 -6 -20C2 -38 34 -34 32 -12C50 -14 52 10 36 10Z\" fill=\"currentColor\" fill-opacity=\".18\"/></g><path d=\"M104 78L80 124H104L86 180L138 108H112L126 78Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M40 100l-6 12M58 108l-6 12M152 104l-6 12M168 96l-6 12\" stroke-width=\"3\"/></svg>"
+ },
+ "女": {
+  "type": "pictogramme",
+  "origin_fr": "女 dessine une femme agenouillée, vue de profil, les bras croisés devant elle — posture traditionnelle de la Chine ancienne. Les traits se sont redressés, mais on reconnaît encore les jambes repliées et les bras croisés.",
+  "components": [],
+  "mnemonic_fr": "Une femme agenouillée, bras croisés, de profil : regarde les jambes repliées et les bras qui se croisent au milieu.",
+  "scene_fr": "Une femme agenouillée de profil, bras croisés",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(-22 -32) scale(1.25)\" stroke-width=\"3.2\"><circle cx=\"98\" cy=\"48\" r=\"14\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"112\" cy=\"40\" r=\"7\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M98 64Q86 100 106 124L64 136L132 146Q134 124 114 64Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 72L82 98L118 102M104 76L124 96L96 108\"/><path d=\"M30 150H170\"/></g></svg>"
+ },
+ "送": {
+  "type": "idéogramme composé",
+  "origin_fr": "送 associe 辶 (marcher) à une partie haute qui, dans les formes anciennes (𠔽), représente deux mains tenant un objet offert ; ce n'est pas le 关 de « fermer ». L'idée : accompagner quelqu'un en portant un présent, d'où « raccompagner, offrir, livrer ».",
+  "components": [
+   {
+    "c": "辶",
+    "role": "sens",
+    "fr": "marcher, accompagner"
+   },
+   {
+    "c": "关",
+    "role": "forme",
+    "fr": "deux mains qui tendent un objet"
+   }
+  ],
+  "mnemonic_fr": "Deux mains tendent un cadeau, puis on raccompagne 辶 l'invité sur le chemin : offrir et accompagner, c'est 送.",
+  "scene_fr": "Deux mains offrant un paquet cadeau",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M62 74H138V130H62Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M56 60H144V76H56Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M100 60V130\"/><path d=\"M100 60Q80 36 76 54Q84 62 100 60Q120 36 124 54Q116 62 100 60\"/><path d=\"M14 152Q48 142 62 130L70 116M186 152Q152 142 138 130L130 116\"/><path d=\"M30 182Q100 170 176 182\" stroke-dasharray=\"6 10\" stroke-width=\"3\"/></svg>"
+ },
+ "分": {
+  "type": "idéogramme composé",
+  "origin_fr": "分 associe 八, qui figure deux parts qui s'écartent, et 刀 (couteau) : trancher pour séparer. Sens premier « diviser, partager », d'où « part, fraction », puis « minute », « point » et « centime ».",
+  "components": [
+   {
+    "c": "八",
+    "role": "sens",
+    "fr": "séparer, s'écarter"
+   },
+   {
+    "c": "刀",
+    "role": "sens",
+    "fr": "couteau"
+   }
+  ],
+  "mnemonic_fr": "Un couteau 刀 tranche la galette et les deux moitiés s'écartent 八 : on partage !",
+  "scene_fr": "Un couteau qui coupe une galette en deux",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M90 76A50 50 0 0 0 90 176Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M110 76A50 50 0 0 1 110 176Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M94 44H108V104L94 120Z\" fill=\"currentColor\" fill-opacity=\".45\"/><rect x=\"95\" y=\"14\" width=\"12\" height=\"30\" rx=\"4\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M30 126h-12M182 126h-12M34 104l-10 -6M166 104l10 -6\" stroke-width=\"3\"/></svg>"
+ },
+ "笑": {
+  "type": "idéogramme composé",
+  "origin_fr": "L'origine de 笑 est discutée. Le caractère associe ⺮ (bambou) et 夭 (personne qui penche la tête, souple). Une explication ancienne compare le bambou qui ploie au vent à quelqu'un qui se plie de rire ; d'autres y voient une altération graphique d'une forme plus ancienne. Le sens « rire, sourire » est stable.",
+  "components": [
+   {
+    "c": "⺮",
+    "role": "forme",
+    "fr": "bambou (yeux plissés)"
+   },
+   {
+    "c": "夭",
+    "role": "forme",
+    "fr": "personne qui penche la tête"
+   }
+  ],
+  "mnemonic_fr": "Les deux feuilles de bambou ⺮ sont des yeux plissés de rire, et en dessous 夭 une personne qui se tord de rire.",
+  "scene_fr": "Un visage hilare sous des feuilles de bambou",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"116\" r=\"60\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M66 104Q78 90 90 104M110 104Q122 90 134 104\"/><path d=\"M68 126Q100 170 132 126Z\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"60\" cy=\"126\" r=\"7\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"140\" cy=\"126\" r=\"7\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M50 44Q58 20 84 16Q74 38 50 44Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M90 46Q90 26 70 26\" stroke-width=\"3\"/><path d=\"M116 44Q124 20 150 16Q140 38 116 44Z\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "帮": {
+  "type": "idéo-phonétique",
+  "origin_fr": "帮 simplifie 幫 (et 幇) : clé 巾/帛 (tissu) pour le sens et 封/邦 (bāng) pour le son. Le sens premier est « le bord, la tige d'une chaussure » (鞋帮), la partie en tissu qui soutient le pied ; d'où « soutenir, aider », puis « bande, groupe ».",
+  "components": [
+   {
+    "c": "邦",
+    "role": "son",
+    "fr": "pays (bāng)"
+   },
+   {
+    "c": "巾",
+    "role": "sens",
+    "fr": "tissu, étoffe"
+   }
+  ],
+  "mnemonic_fr": "Pour hisser le grand tissu 巾 du pays 邦, il faut être deux : on s'aide !",
+  "scene_fr": "Deux personnes tenant ensemble une grande étoffe",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M70 70Q100 60 130 70V112Q100 102 70 112Z\" fill=\"currentColor\" fill-opacity=\".18\"/><g transform=\"translate(44 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L26 -110M-15 0L0 -34L15 0\"/></g><g transform=\"translate(156 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M22 -50L0 -64L-26 -110M-15 0L0 -34L15 0\"/></g><path d=\"M16 182H184\"/></svg>"
+ },
+ "日": {
+  "type": "pictogramme",
+  "origin_fr": "日 est un pictogramme du soleil : un cercle avec un point (ou un trait) au centre. Le cercle est devenu rectangulaire avec l'écriture au pinceau. Du soleil viennent les sens « jour » et « date du mois ».",
+  "components": [],
+  "mnemonic_fr": "Un soleil rond et souriant, carré à force d'être tracé au pinceau : le jour se lève.",
+  "scene_fr": "Un grand soleil rayonnant et souriant",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"100\" r=\"46\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M156 100L174 100M148 128L164 137M128 148L137 164M100 156L100 174M72 148L63 164M52 128L36 137M44 100L26 100M52 72L36 63M72 52L63 36M100 44L100 26M128 52L137 36M148 72L164 63\"/><circle cx=\"84\" cy=\"94\" r=\"4\" fill=\"currentColor\"/><circle cx=\"116\" cy=\"94\" r=\"4\" fill=\"currentColor\"/><path d=\"M80 114Q100 132 120 114\"/></svg>"
+ },
+ "站": {
+  "type": "idéo-phonétique",
+  "origin_fr": "站 associe la clé 立 (personne debout) pour le sens et 占 (zhàn) pour le son : « se tenir debout ». Le sens « station, relais » vient de l'époque mongole (Yuan), où il servait à transcrire le mot mongol jam, « relais de poste ».",
+  "components": [
+   {
+    "c": "立",
+    "role": "sens",
+    "fr": "se tenir debout"
+   },
+   {
+    "c": "占",
+    "role": "son",
+    "fr": "occuper (zhàn)"
+   }
+  ],
+  "mnemonic_fr": "Debout 立, tu occupes 占 ta place à l'arrêt de bus et tu attends : c'est la station.",
+  "scene_fr": "Une personne debout à un arrêt de bus",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(76 182) scale(1.1)\" stroke-width=\"3.6\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-14 -40L0 -64L14 -40M-15 0L0 -34L15 0\"/></g><path d=\"M150 184V60\"/><circle cx=\"150\" cy=\"44\" r=\"20\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M139 36H161V52H139ZM139 45H161\" stroke-width=\"3\"/><path d=\"M24 182H180\"/></svg>"
+ },
+ "路": {
+  "type": "idéo-phonétique",
+  "origin_fr": "路 associe la clé 足 (pied) pour le sens et 各 (gè) pour le son — en chinois ancien, 各 se lisait avec une initiale proche de « l », comme dans 洛 luò. 各 lui-même montre un pied qui arrive. Sens : « route, chemin », puis « ligne (de bus) ».",
+  "components": [
+   {
+    "c": "足",
+    "role": "sens",
+    "fr": "pied"
+   },
+   {
+    "c": "各",
+    "role": "son",
+    "fr": "chacun (ancien *k-r → lù)"
+   }
+  ],
+  "mnemonic_fr": "Chacun 各 met un pied 足 devant l'autre : à force de marcher, on trace une route.",
+  "scene_fr": "Une route sinueuse avec des empreintes jusqu'à l'horizon",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 60Q60 32 100 46Q140 32 186 60\"/><path d=\"M30 184C40 130 130 120 94 44H106C140 110 170 140 170 184Z\" fill=\"currentColor\" fill-opacity=\".18\"/><g transform=\"translate(96 170) rotate(0) scale(1)\" stroke-width=\"3.0\"><ellipse cx=\"0\" cy=\"0\" rx=\"7\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"-5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"0\" cy=\"-17\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/></g><g transform=\"translate(110 136) rotate(-10) scale(0.8)\" stroke-width=\"3.8\"><ellipse cx=\"0\" cy=\"0\" rx=\"7\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"-5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"0\" cy=\"-17\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/></g><g transform=\"translate(104 104) rotate(-20) scale(0.6)\" stroke-width=\"5.0\"><ellipse cx=\"0\" cy=\"0\" rx=\"7\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"-5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"0\" cy=\"-17\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/></g><g transform=\"translate(104 78) rotate(-10) scale(0.45)\" stroke-width=\"6.7\"><ellipse cx=\"0\" cy=\"0\" rx=\"7\" ry=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"-5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"0\" cy=\"-17\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"5\" cy=\"-15\" r=\"2.5\" fill=\"currentColor\" fill-opacity=\".3\"/></g></svg>"
+ },
+ "男": {
+  "type": "idéogramme composé",
+  "origin_fr": "男 associe 田 (champ) et 力, qui représente à l'origine une charrue ou un araire (et non la « force » abstraite). L'homme, dans la Chine agricole ancienne, c'est celui qui laboure les champs. Sens : « homme, masculin, fils ».",
+  "components": [
+   {
+    "c": "田",
+    "role": "sens",
+    "fr": "champ"
+   },
+   {
+    "c": "力",
+    "role": "sens",
+    "fr": "charrue, force"
+   }
+  ],
+  "mnemonic_fr": "Celui qui met sa force 力 à labourer le champ 田 : c'est l'homme 男.",
+  "scene_fr": "Un homme qui pousse une charrue près d'un champ",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 20H110V110H20Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M65 20V110M20 65H110\" stroke-width=\"3\"/><g transform=\"translate(156 182) scale(0.85)\" stroke-width=\"4.7\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64M0 -64L-34 -48M-15 0L0 -34L15 0\"/></g><path d=\"M128 140L96 178H70\" stroke-width=\"5\"/><path d=\"M70 178L86 168\" stroke-width=\"5\"/><path d=\"M40 182H186\"/></svg>"
+ },
+ "门": {
+  "type": "pictogramme",
+  "origin_fr": "门 simplifie 門, qui dessine une porte à deux battants, chacun avec son montant. La forme simplifiée vient de l'écriture cursive. Sens : « porte, entrée », puis « école, discipline » et classificateur des matières.",
+  "components": [],
+  "mnemonic_fr": "Une grande porte à deux battants : le point en haut, c'est la poignée qui reste de l'ancienne double porte 門.",
+  "scene_fr": "Une grande porte à deux battants entrouverte",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 30L100 12L180 30\"/><path d=\"M30 184V30H170V184\" stroke-width=\"5\"/><path d=\"M36 38L74 48V174L36 184Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M164 38L126 48V174L164 184Z\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"66\" cy=\"112\" r=\"4\" fill=\"currentColor\"/><circle cx=\"134\" cy=\"112\" r=\"4\" fill=\"currentColor\"/></svg>"
+ },
+ "喝": {
+  "type": "idéo-phonétique",
+  "origin_fr": "喝 associe la clé 口 (bouche) pour le sens et 曷 (hé) pour le son. Il désignait d'abord le cri, la voix rauque (sens conservé dans 吆喝 yāohe, crier) ; le sens « boire » s'est imposé ensuite, notamment en langue parlée du Nord.",
+  "components": [
+   {
+    "c": "口",
+    "role": "sens",
+    "fr": "bouche"
+   },
+   {
+    "c": "曷",
+    "role": "son",
+    "fr": "pourquoi (hé → hē)"
+   }
+  ],
+  "mnemonic_fr": "La bouche 口 aspire par la paille et demande « encore ? » (曷 = pourquoi pas ?) : on boit !",
+  "scene_fr": "Un verre avec une paille et des bulles",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M58 60L72 182H128L142 60Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M63 96H137\"/><path d=\"M112 164L128 40L152 22\" stroke-width=\"5\"/><circle cx=\"88\" cy=\"124\" r=\"5\"/><circle cx=\"98\" cy=\"146\" r=\"4\"/><circle cx=\"84\" cy=\"160\" r=\"3\"/><path d=\"M80 106l10 10M92 104l-8 10\" stroke-width=\"3\"/></svg>"
+ },
+ "穿": {
+  "type": "idéogramme composé",
+  "origin_fr": "穿 associe 穴 (trou, grotte) et 牙 (dents) : percer un trou avec les dents, comme un rongeur. Le Shuowen le glose « traverser ». De « percer, traverser » vient « enfiler », puis « porter (un vêtement) ».",
+  "components": [
+   {
+    "c": "穴",
+    "role": "sens",
+    "fr": "trou, grotte"
+   },
+   {
+    "c": "牙",
+    "role": "sens",
+    "fr": "dent"
+   }
+  ],
+  "mnemonic_fr": "Une souris ronge avec ses dents 牙 jusqu'à percer un trou 穴 dans le mur : elle le traverse !",
+  "scene_fr": "Une souris aux grandes dents dans un trou du mur",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 14H186V182H14Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M14 52H186M14 92H60M140 92H186M60 14V52M120 14V52M40 52V92M160 52V92\" stroke-width=\"3\"/><path d=\"M60 182V126Q100 76 140 126V182Z\" fill=\"currentColor\" fill-opacity=\".45\"/><circle cx=\"80\" cy=\"116\" r=\"10\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"120\" cy=\"116\" r=\"10\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"100\" cy=\"140\" r=\"24\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"91\" cy=\"134\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"109\" cy=\"134\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M94 154V166H106V154ZM100 154V166\" stroke-width=\"3\"/><path d=\"M84 148H64M84 152L66 160M116 148H136M116 152L134 160\" stroke-width=\"2\"/></svg>"
+ },
+ "学": {
+  "type": "idéo-phonétique",
+  "origin_fr": "学 simplifie 學 : en haut, deux mains 𦥑 manipulant 爻 (bâtonnets de comptage, nœuds — qui donne aussi le son), au-dessus d'un toit 冖 sous lequel se trouve un enfant 子. Un enfant qu'on instruit dans une maison d'étude. La simplification remplace les mains et 爻 par ⺍.",
+  "components": [
+   {
+    "c": "⺍",
+    "role": "forme",
+    "fr": "(abrège mains + 爻, idée de savoir)"
+   },
+   {
+    "c": "冖",
+    "role": "forme",
+    "fr": "toit"
+   },
+   {
+    "c": "子",
+    "role": "sens",
+    "fr": "enfant"
+   }
+  ],
+  "mnemonic_fr": "Sous le toit 冖 de l'école, un enfant 子 étudie, et au-dessus brillent trois petites étincelles d'idées ⺍.",
+  "scene_fr": "Un enfant qui lit un livre sous un toit",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M84 12l4 8M100 8v10M116 12l-4 8\" stroke-width=\"3\"/><path d=\"M24 70L100 26L176 70\"/><path d=\"M40 62V184M160 62V184\"/><circle cx=\"100\" cy=\"98\" r=\"16\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M100 114V134M78 134L100 126L122 134\"/><path d=\"M70 136L100 144L130 136V172L100 180L70 172Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 144V180\"/></svg>"
+ },
+ "校": {
+  "type": "idéo-phonétique",
+  "origin_fr": "校 associe la clé 木 (bois) pour le sens et 交 (jiāo, croiser) pour le son. Il désignait des pièces de bois croisées (entraves, palissade, enclos), puis un lieu clos d'exercice ou d'enseignement : « école ». Lu jiào, il signifie « vérifier, collationner ».",
+  "components": [
+   {
+    "c": "木",
+    "role": "sens",
+    "fr": "bois, arbre"
+   },
+   {
+    "c": "交",
+    "role": "son",
+    "fr": "croiser (jiāo → xiào)"
+   }
+  ],
+  "mnemonic_fr": "À l'école, les élèves se croisent 交 sous l'arbre 木 de la cour.",
+  "scene_fr": "Une école avec drapeau à côté d'un arbre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(40 182) scale(0.62)\" stroke-width=\"6.5\"><path d=\"M-7 0L-5 -48M7 0L5 -48M-5 -40L-16 -52M5 -34L16 -46\"/><path d=\"M0 -48C-40 -44 -46 -86 -22 -98C-18 -126 18 -126 22 -98C46 -86 40 -44 0 -48Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M-7 0Q-18 4 -28 12M7 0Q18 4 28 12M0 0V12\"/></g><path d=\"M58 94L122 56L186 94\"/><path d=\"M70 88V182H174V88\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M122 56V20\"/><path d=\"M122 20H148L142 28L148 36H122\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"122\" cy=\"80\" r=\"7\"/><path d=\"M84 104H104V124H84ZM140 104H160V124H140Z\"/><path d=\"M110 182V148H134V182\"/></svg>"
+ },
+ "花": {
+  "type": "idéo-phonétique",
+  "origin_fr": "花 est une forme apparue vers les Dynasties du Nord et du Sud : clé 艹 (plante) pour le sens et 化 (huà, transformer) pour le son. Elle a remplacé l'ancien 華, pictogramme d'une plante en fleurs. On y lit parfois aussi l'idée de la plante qui se « transforme » en fleur. Le sens « dépenser » est plus tardif et son lien avec la fleur n'est pas établi.",
+  "components": [
+   {
+    "c": "艹",
+    "role": "sens",
+    "fr": "herbe, plante"
+   },
+   {
+    "c": "化",
+    "role": "son",
+    "fr": "transformer (huà → huā)"
+   }
+  ],
+  "mnemonic_fr": "La petite plante 艹 se transforme 化 et s'épanouit : c'est une fleur !",
+  "scene_fr": "Une fleur épanouie avec deux feuilles",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"100\" cy=\"46\" rx=\"13\" ry=\"22\" transform=\"rotate(0 100 72)\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"100\" cy=\"46\" rx=\"13\" ry=\"22\" transform=\"rotate(60 100 72)\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"100\" cy=\"46\" rx=\"13\" ry=\"22\" transform=\"rotate(120 100 72)\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"100\" cy=\"46\" rx=\"13\" ry=\"22\" transform=\"rotate(180 100 72)\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"100\" cy=\"46\" rx=\"13\" ry=\"22\" transform=\"rotate(240 100 72)\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"100\" cy=\"46\" rx=\"13\" ry=\"22\" transform=\"rotate(300 100 72)\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"100\" cy=\"72\" r=\"13\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M100 98Q94 140 100 184\"/><path d=\"M98 150Q70 142 60 120Q86 122 98 150Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 136Q128 128 138 106Q112 108 100 136Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M40 184q6 -14 2 -24M160 184q-6 -14 -2 -24\" stroke-width=\"3\"/></svg>"
+ },
+ "坐": {
+  "type": "idéogramme composé",
+  "origin_fr": "坐 montre deux personnes 人人 assises sur le sol 土, face à face. Une forme ancienne s'écrivait 㘴 (deux personnes au-dessus de 土). Sens : « s'asseoir », puis « prendre (un moyen de transport) », où l'on est assis.",
+  "components": [
+   {
+    "c": "人",
+    "role": "forme",
+    "fr": "personne"
+   },
+   {
+    "c": "人",
+    "role": "forme",
+    "fr": "seconde personne"
+   },
+   {
+    "c": "土",
+    "role": "sens",
+    "fr": "sol, terre"
+   }
+  ],
+  "mnemonic_fr": "Deux personnes 从 assises par terre 土, de part et d'autre d'une petite butte : elles s'assoient pour bavarder.",
+  "scene_fr": "Deux personnes assises en tailleur par terre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 168H186\"/><circle cx=\"56\" cy=\"78\" r=\"14\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M56 92V136M56 102Q38 118 30 140M56 102Q74 118 82 140\"/><path d=\"M18 152Q56 126 94 152Q56 170 18 152Z\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"144\" cy=\"78\" r=\"14\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M144 92V136M144 102Q126 118 118 140M144 102Q162 118 170 140\"/><path d=\"M106 152Q144 126 182 152Q144 170 106 152Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M88 166Q100 140 112 166Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M84 52Q100 40 116 52M90 38Q100 30 110 38\"  stroke-width=\"3\"/></svg>"
+ },
+ "早": {
+  "type": "idéogramme composé",
+  "origin_fr": "早 associe 日 (soleil) au-dessus d'un élément qui, selon le Shuowen, est 甲 (« le soleil au-dessus du casque / de la tête ») ; d'autres y voient une pousse ou un repère à l'horizon, et l'analyse reste discutée. L'idée : le soleil vient juste d'apparaître — « tôt, matin ».",
+  "components": [
+   {
+    "c": "日",
+    "role": "sens",
+    "fr": "soleil"
+   },
+   {
+    "c": "十",
+    "role": "forme",
+    "fr": "pousse / horizon"
+   }
+  ],
+  "mnemonic_fr": "Le soleil 日 se lève à peine au-dessus de la petite pousse 十 : il est tôt, bonjour !",
+  "scene_fr": "Le soleil levant au-dessus d'une jeune pousse",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"72\" r=\"30\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M138 72L150 72M131 94L140 101M112 108L115 120M88 108L85 120M69 94L60 101M62 72L50 72M69 50L60 43M88 36L85 24M112 36L115 24M131 50L140 43\"/><path d=\"M14 132H186\"/><path d=\"M100 184V136M100 160Q78 152 72 136M100 152Q122 144 128 128\"/></svg>"
+ },
+ "身": {
+  "type": "pictogramme",
+  "origin_fr": "身 dessine, dans les formes anciennes, une personne vue de profil avec un ventre arrondi — souvent interprété comme une femme enceinte (有身, « être enceinte »). Le sens s'est élargi à « corps », puis « soi-même ».",
+  "components": [],
+  "mnemonic_fr": "Une femme de profil avec un ventre bien rond qui porte la vie : c'est tout le corps 身 qui est en jeu.",
+  "scene_fr": "Une femme enceinte de profil, main sur le ventre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"94\" cy=\"40\" r=\"14\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"80\" cy=\"34\" r=\"7\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M92 56Q132 86 132 128Q130 150 100 154L98 182H78L82 150Q72 120 86 70Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M90 72Q98 102 116 116\"/><circle cx=\"110\" cy=\"128\" r=\"11\" stroke-dasharray=\"3 5\" stroke-width=\"3\"/><path d=\"M40 184H160\"/></svg>"
+ },
+ "干": {
+  "type": "pictogramme",
+  "origin_fr": "干 dessine à l'origine une arme fourchue, une sorte de fourche ou de bouclier-pique (sens conservé dans 干戈, « armes, guerre »). Le caractère simplifié 干 sert aussi pour 幹 (tronc ; faire, travailler) et 乾 (sec), deux caractères distincts à l'origine — d'où ses sens variés.",
+  "components": [
+   {
+    "c": "一",
+    "role": "forme",
+    "fr": "garde transversale"
+   },
+   {
+    "c": "十",
+    "role": "forme",
+    "fr": "manche et fourche"
+   }
+  ],
+  "mnemonic_fr": "Un bâton fourchu bien solide : avec lui, on fait le travail (干活) — et on le laisse sécher au soleil (干 = sec).",
+  "scene_fr": "Une fourche-arme en bois avec sa garde",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 184V72M100 72L70 22M100 72L130 22\" stroke-width=\"7\"/><path d=\"M66 104H134\" stroke-width=\"6\"/><path d=\"M94 98l12 12M106 98l-12 12\" stroke-width=\"3\"/><path d=\"M60 184H140\"/></svg>"
+ },
+ "认": {
+  "type": "idéo-phonétique",
+  "origin_fr": "认 simplifie 認 : clé 言 (parole) pour le sens et 忍 (rěn, endurer) pour le son. La forme simplifiée remplace 忍 par 人 (rén), plus simple et proche phonétiquement. Sens : « reconnaître, identifier », puis « admettre ».",
+  "components": [
+   {
+    "c": "讠",
+    "role": "sens",
+    "fr": "parole"
+   },
+   {
+    "c": "人",
+    "role": "son",
+    "fr": "personne (rén → rèn)"
+   }
+  ],
+  "mnemonic_fr": "Tu vois une personne 人 et tu t'exclames 讠 : « Je te reconnais ! »",
+  "scene_fr": "Quelqu'un qui reconnaît un ami et s'exclame",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(52 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64M0 -64L34 -80M-15 0L0 -34L15 0\"/></g><g transform=\"translate(150 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L22 -50M-15 0L0 -34L15 0\"/></g><path d=\"M30 22H110Q120 22 120 32V62Q120 72 110 72H70L56 86L58 72H30Q20 72 20 62V32Q20 22 30 22Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M70 34V52\" stroke-width=\"5\"/><circle cx=\"70\" cy=\"62\" r=\"3\" fill=\"currentColor\"/><path d=\"M20 182H180\"/></svg>"
+ },
+ "识": {
+  "type": "idéo-phonétique",
+  "origin_fr": "识 simplifie 識 : clé 言 (parole) pour le sens et 戠 (zhí) pour le son. Il signifiait « connaître, savoir » et « marquer, retenir » (sens repris par 志). La forme simplifiée utilise 只 (zhī) comme partie sonore.",
+  "components": [
+   {
+    "c": "讠",
+    "role": "sens",
+    "fr": "parole"
+   },
+   {
+    "c": "只",
+    "role": "son",
+    "fr": "seulement (zhī → shí)"
+   }
+  ],
+  "mnemonic_fr": "Il suffit 只 de quelques paroles 讠 pour s'apercevoir que tu le connais : l'ampoule s'allume !",
+  "scene_fr": "Une tête qui parle avec une ampoule allumée",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M56 182V150Q38 140 42 100Q46 56 90 52Q128 52 132 92L144 112L132 116Q134 140 114 142V182\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"104\" cy=\"92\" r=\"3\" fill=\"currentColor\"/><path d=\"M146 128h22M146 140h14\" stroke-width=\"3\"/><circle cx=\"156\" cy=\"44\" r=\"18\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M148 64H164M150 72H162\"/><path d=\"M156 12V6M128 30l-6 -4M184 30l6 -4\" stroke-width=\"3\"/></svg>"
+ },
+ "睡": {
+  "type": "idéo-phonétique",
+  "origin_fr": "睡 associe la clé 目 (œil) et 垂 (chuí, pendre, tomber), qui donne le son et aussi le sens : les paupières qui tombent. Le Shuowen le définit comme « dormir assis, somnoler » ; il a ensuite pris le sens général de « dormir ».",
+  "components": [
+   {
+    "c": "目",
+    "role": "sens",
+    "fr": "œil"
+   },
+   {
+    "c": "垂",
+    "role": "son",
+    "fr": "pendre, tomber (chuí → shuì)"
+   }
+  ],
+  "mnemonic_fr": "L'œil 目 se ferme, les paupières tombent 垂… et zzz, on dort.",
+  "scene_fr": "Une personne endormie dans son lit, des Z au-dessus",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 152H180M20 116V176M180 134V176\"/><ellipse cx=\"44\" cy=\"124\" rx=\"16\" ry=\"8\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"52\" cy=\"110\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M48 110h8\" stroke-width=\"2.5\"/><path d=\"M62 132Q104 102 178 130V152H62Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M104 44H124L104 64H124M136 22H150L136 36H150\"/></svg>"
+ },
+ "明": {
+  "type": "idéogramme composé",
+  "origin_fr": "Dans les formes oraculaires, 明 associe la lune 月 à 囧, une fenêtre : le clair de lune qui entre par la fenêtre. La fenêtre a ensuite été assimilée à 日 (soleil), d'où la lecture courante « soleil + lune ». Sens : « clair, brillant », puis « comprendre », et « le lendemain » (明天).",
+  "components": [
+   {
+    "c": "日",
+    "role": "forme",
+    "fr": "soleil (ancienne fenêtre 囧)"
+   },
+   {
+    "c": "月",
+    "role": "sens",
+    "fr": "lune"
+   }
+  ],
+  "mnemonic_fr": "Le soleil 日 et la lune 月 ensemble : quelle lumière ! Tout devient clair.",
+  "scene_fr": "Le soleil et la lune côte à côte",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"62\" cy=\"100\" r=\"26\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M95 100L104 100M85 123L92 130M62 133L62 142M39 123L32 130M29 100L20 100M39 77L32 70M62 67L62 58M85 77L92 70\"/><path d=\"M142 60A40 40 0 1 0 142 140A25 40 0 1 1 142 60Z\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "四": {
+  "type": "emprunt phonétique",
+  "origin_fr": "Le chiffre quatre s'écrivait d'abord 亖 (quatre traits). La forme 四 représentait sans doute une bouche avec le souffle qui en sort (sens repris par 呬, « souffler ») ; elle a été empruntée pour sa prononciation et a remplacé 亖. L'analyse « un enfant 儿 dans une pièce 囗 » n'est qu'un moyen de mémoire.",
+  "components": [
+   {
+    "c": "囗",
+    "role": "forme",
+    "fr": "cadre, bouche"
+   },
+   {
+    "c": "儿",
+    "role": "forme",
+    "fr": "souffle / jambes"
+   }
+  ],
+  "mnemonic_fr": "Une fenêtre à quatre carreaux, dont les rideaux noués forment 儿 : compte les carreaux, il y en a quatre !",
+  "scene_fr": "Une fenêtre à quatre carreaux avec rideaux noués",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M30 30H170V170H30Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 30V170M30 100H170\" stroke-width=\"3\"/><path d=\"M34 34Q76 70 62 100Q54 140 34 166M166 34Q124 70 138 100Q146 140 166 166\" stroke-width=\"5\"/><path d=\"M22 176H178\"/></svg>"
+ },
+ "块": {
+  "type": "idéo-phonétique",
+  "origin_fr": "块 simplifie 塊 : clé 土 (terre) pour le sens et 鬼 (guǐ) pour le son. Le sens premier est « motte de terre », d'où « morceau, bloc » et le classificateur des morceaux ; « yuan » (familier) vient des pièces et lingots. La forme simplifiée remplace 鬼 par 夬 (guài), autre phonétique.",
+  "components": [
+   {
+    "c": "土",
+    "role": "sens",
+    "fr": "terre"
+   },
+   {
+    "c": "夬",
+    "role": "son",
+    "fr": "(guài → kuài)"
+   }
+  ],
+  "mnemonic_fr": "Une motte de terre 土 tranchée en morceaux : un bloc, deux blocs… et un yuan pour la pelle !",
+  "scene_fr": "Un tas de mottes et de morceaux de pierre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M28 176L42 140L80 132L96 150L92 176Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M90 176L100 122L140 112L160 140L150 176Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M58 132L72 96L108 92L118 116L98 124Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M152 176L164 152L182 160L178 176Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M16 178H186\"/><path d=\"M150 36L120 96\" stroke-width=\"5\"/><path d=\"M112 90L132 102L122 116L104 106Z\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "外": {
+  "type": "idéogramme composé",
+  "origin_fr": "外 associe 夕 (soir, lune) et 卜 (divination par les craquelures d'une carapace). Selon le Shuowen, la divination se faisait le matin ; la pratiquer le soir était « hors de la règle » — d'où « extérieur, dehors, étranger ». Cette explication est traditionnelle mais discutée.",
+  "components": [
+   {
+    "c": "夕",
+    "role": "sens",
+    "fr": "soir"
+   },
+   {
+    "c": "卜",
+    "role": "sens",
+    "fr": "divination"
+   }
+  ],
+  "mnemonic_fr": "Le soir 夕, le devin 卜 sort de la maison pour lire les présages sous la lune : il est dehors.",
+  "scene_fr": "Une personne dehors la nuit, sous la lune, près de sa maison",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 92L50 62L86 92V182H14Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M38 182V136H62V182\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M152 20A22 22 0 1 0 152 64A14 22 0 1 1 152 20Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M110 30v8M106 34h8M180 92v8M176 96h8\" stroke-width=\"3\"/><g transform=\"translate(132 182) scale(0.9)\" stroke-width=\"4.4\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L22 -76M-15 0L0 -34L15 0\"/></g><path d=\"M154 108L162 96L170 108Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M14 182H186\"/></svg>"
+ },
+ "晚": {
+  "type": "idéo-phonétique",
+  "origin_fr": "晚 associe la clé 日 (soleil) pour le sens et 免 (miǎn) pour le son. Il désigne le moment où le soleil se couche : « soir », puis « tard, en retard ».",
+  "components": [
+   {
+    "c": "日",
+    "role": "sens",
+    "fr": "soleil"
+   },
+   {
+    "c": "免",
+    "role": "son",
+    "fr": "éviter (miǎn → wǎn)"
+   }
+  ],
+  "mnemonic_fr": "Le soleil 日 se couche et le lapin (免 ressemble à 兔) se dépêche de rentrer : il est tard !",
+  "scene_fr": "Un lapin qui rentre au soleil couchant",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 112H186\"/><path d=\"M108 112A38 38 0 0 1 184 112Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M146 60V48M118 76l-8 -8M174 76l8 -8\" stroke-width=\"3\"/><g transform=\"translate(60 40) scale(0.6 0.6)\" stroke-width=\"6.7\"><path d=\"M-24 0C-20 -16 4 -18 14 -8L26 -6L16 0C12 12 -12 14 -24 0Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M-6 -6Q-2 -26 10 -22\"/><circle cx=\"10\" cy=\"-9\" r=\"1.5\" fill=\"currentColor\"/><path d=\"M-24 0L-34 -4M-24 0L-34 4\"/></g><g transform=\"translate(86 56) scale(0.5 0.5)\" stroke-width=\"8.0\"><path d=\"M-24 0C-20 -16 4 -18 14 -8L26 -6L16 0C12 12 -12 14 -24 0Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M-6 -6Q-2 -26 10 -22\"/><circle cx=\"10\" cy=\"-9\" r=\"1.5\" fill=\"currentColor\"/><path d=\"M-24 0L-34 -4M-24 0L-34 4\"/></g><ellipse cx=\"98\" cy=\"160\" rx=\"32\" ry=\"19\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"66\" cy=\"146\" r=\"15\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"62\" cy=\"143\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M62 132Q50 96 58 92Q68 98 70 132M74 134Q82 98 92 100Q94 116 80 138\"/><circle cx=\"130\" cy=\"154\" r=\"6\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M80 178l-4 4M112 178l4 4\"/><path d=\"M30 182H170\"/></svg>"
+ },
+ "妈": {
+  "type": "idéo-phonétique",
+  "origin_fr": "妈 est un caractère tardif : clé 女 (femme) pour le sens et 马 (mǎ, cheval) pour le son seulement. Il note le mot familier « maman », d'origine enfantine (ma-ma), comme dans de nombreuses langues.",
+  "components": [
+   {
+    "c": "女",
+    "role": "sens",
+    "fr": "femme"
+   },
+   {
+    "c": "马",
+    "role": "son",
+    "fr": "cheval (mǎ → mā)"
+   }
+  ],
+  "mnemonic_fr": "Maman 女 au galop sur son cheval 马 : rien ne l'arrête !",
+  "scene_fr": "Une maman à cheval au galop",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(8 40) scale(0.9)\" stroke-width=\"4.4\"><path d=\"M62 96C62 78 90 74 110 76C130 76 146 80 148 96C148 112 130 118 104 118C82 118 62 114 62 96Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M58 42C46 34 30 40 20 58C18 64 24 68 30 64L46 56C50 66 56 80 66 90M58 42C66 52 76 66 90 78\" fill=\"currentColor\" fill-opacity=\".1\"/><path d=\"M52 40L54 27L61 39\"/><circle cx=\"38\" cy=\"48\" r=\"2\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M60 40Q74 42 72 54Q84 56 82 66Q94 68 94 78\"  stroke-width=\"3\"/><path d=\"M74 114L54 138L40 146M86 117L80 146L66 156M132 112L150 136L168 142M122 116L126 148L140 158\"/><path d=\"M146 88C166 82 178 96 182 118M146 94C162 98 168 110 166 126\"  stroke-width=\"3\"/></g><path d=\"M14 178H186\"/><path d=\"M98 64L86 96L112 96Z\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"96\" cy=\"52\" r=\"11\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"106\" cy=\"42\" r=\"5\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M97 72L74 82M74 82Q54 76 36 96\"  stroke-width=\"3\"/><path d=\"M102 96L96 114L104 120\"/></svg>"
+ },
+ "球": {
+  "type": "idéo-phonétique",
+  "origin_fr": "球 associe la clé 王/玉 (jade) pour le sens et 求 (qiú) pour le son. Le Shuowen le définit comme une sorte de jade (une pierre sonore). Le sens « balle » vient de 毬, la balle de cuir rembourrée des jeux anciens, que 球 a remplacé ; d'où « balle, ballon » et « globe, sphère ».",
+  "components": [
+   {
+    "c": "王",
+    "role": "sens",
+    "fr": "jade (玉)"
+   },
+   {
+    "c": "求",
+    "role": "son",
+    "fr": "demander (qiú)"
+   }
+  ],
+  "mnemonic_fr": "Une bille de jade 王 qu'on réclame 求 à grands cris : « La balle ! Passe-moi la balle ! »",
+  "scene_fr": "Un ballon de foot qui roule, lignes de vitesse",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"110\" cy=\"100\" r=\"52\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M110 82L127 94L121 115L99 115L93 94Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M110 82L110 48M127 94L159 84M121 115L141 142M99 115L79 142M93 94L61 84\" stroke-width=\"3\"/><path d=\"M20 70H44M14 100H44M20 130H44\"/><ellipse cx=\"110\" cy=\"172\" rx=\"40\" ry=\"6\" fill=\"currentColor\" fill-opacity=\".18\"/></svg>"
+ },
+ "谢": {
+  "type": "idéo-phonétique",
+  "origin_fr": "谢 simplifie 謝 : clé 言 (parole) pour le sens et 射 (shè, tirer à l'arc) pour le son. Le sens premier est « prendre congé, décliner » (sens resté dans 谢绝, refuser poliment), puis « remercier », « s'excuser » et « se faner » (花谢).",
+  "components": [
+   {
+    "c": "讠",
+    "role": "sens",
+    "fr": "parole"
+   },
+   {
+    "c": "射",
+    "role": "son",
+    "fr": "tirer à l'arc (shè → xiè)"
+   }
+  ],
+  "mnemonic_fr": "Tes paroles 讠 décochent 射 un merci comme une flèche, droit au cœur.",
+  "scene_fr": "Une bulle de parole avec un cœur percé d'une flèche",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M34 24H166Q182 24 182 40V118Q182 134 166 134H96L70 162L74 134H34Q18 134 18 118V40Q18 24 34 24Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 116C66 92 72 54 100 70C128 54 134 92 100 116Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M40 112L162 46M162 46l-14 0M162 46l-4 13M40 112l6 -12M40 112l12 4\" stroke-width=\"3.5\"/></svg>"
+ },
+ "少": {
+  "type": "idéogramme",
+  "origin_fr": "少 a la même origine que 小 (petit) : dans les formes oraculaires, quelques petits points, des grains épars. 少 s'en est distingué par un point supplémentaire, puis un trait 丿. Sens : « peu, en petite quantité », et lu shào « jeune ».",
+  "components": [
+   {
+    "c": "小",
+    "role": "sens",
+    "fr": "petit"
+   },
+   {
+    "c": "丿",
+    "role": "forme",
+    "fr": "grain qui s'en va"
+   }
+  ],
+  "mnemonic_fr": "Un tout petit 小 tas de grains… et encore un qui glisse 丿 : il en reste peu !",
+  "scene_fr": "Un bol presque vide, un dernier grain qui tombe",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M24 92Q100 196 176 92Z\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"100\" cy=\"92\" rx=\"76\" ry=\"12\"/><ellipse cx=\"86\" cy=\"140\" rx=\"5\" ry=\"3\" fill=\"currentColor\" fill-opacity=\".45\"/><ellipse cx=\"102\" cy=\"144\" rx=\"5\" ry=\"3\" fill=\"currentColor\" fill-opacity=\".45\"/><ellipse cx=\"114\" cy=\"136\" rx=\"5\" ry=\"3\" fill=\"currentColor\" fill-opacity=\".45\"/><ellipse cx=\"170\" cy=\"128\" rx=\"5\" ry=\"3\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M160 150L140 176M176 150L170 170\" stroke-width=\"3\"/><ellipse cx=\"150\" cy=\"184\" rx=\"4\" ry=\"3\" fill=\"currentColor\" fill-opacity=\".45\"/></svg>"
+ },
+ "第": {
+  "type": "idéo-phonétique",
+  "origin_fr": "第 associe ⺮ (bambou) et 弟 (dì), qui donne le son et une partie du sens : 弟 dessine une corde enroulée en spires régulières autour d'un bâton, l'idée d'« ordre, rang ». Les lamelles de bambou mises en ordre ont donné « ordre, rang », d'où le préfixe des ordinaux (第一, premier).",
+  "components": [
+   {
+    "c": "⺮",
+    "role": "sens",
+    "fr": "bambou (lamelles)"
+   },
+   {
+    "c": "弟",
+    "role": "son",
+    "fr": "petit frère, ordre (dì)"
+   }
+  ],
+  "mnemonic_fr": "Sous les feuilles de bambou ⺮, les petits frères 弟 montent sur le podium dans l'ordre : premier, deuxième, troisième !",
+  "scene_fr": "Un podium à trois marches sous des feuilles de bambou",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M76 90H124V176H76Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M28 120H76V176H28Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M124 140H172V176H124Z\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"100\" cy=\"110\" r=\"5\" fill=\"currentColor\"/><circle cx=\"46\" cy=\"138\" r=\"4\" fill=\"currentColor\"/><circle cx=\"58\" cy=\"138\" r=\"4\" fill=\"currentColor\"/><circle cx=\"136\" cy=\"156\" r=\"4\" fill=\"currentColor\"/><circle cx=\"148\" cy=\"156\" r=\"4\" fill=\"currentColor\"/><circle cx=\"160\" cy=\"156\" r=\"4\" fill=\"currentColor\"/><path d=\"M60 66Q66 44 90 40Q80 60 60 66Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M110 66Q116 44 140 40Q130 60 110 66Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M16 178H184\"/></svg>"
+ },
+ "二": {
+  "type": "idéogramme",
+  "origin_fr": "二 est un idéogramme abstrait : deux traits horizontaux pour « deux », comme 一 pour un et 三 pour trois. Le trait du bas est plus long, ce qui équilibre visuellement le caractère.",
+  "components": [
+   {
+    "c": "一",
+    "role": "forme",
+    "fr": "un trait = une unité"
+   }
+  ],
+  "mnemonic_fr": "Deux baguettes posées sur un bol : une paire, c'est deux.",
+  "scene_fr": "Deux baguettes posées sur un bol",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M40 104Q100 196 160 104Z\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"100\" cy=\"104\" rx=\"60\" ry=\"10\"/><path d=\"M60 182H140\"/><path d=\"M44 58L172 40\" stroke-width=\"7\"/><path d=\"M24 82L176 72\" stroke-width=\"7\"/><path d=\"M80 104q-6 -10 0 -14M120 104q6 -10 0 -14\" stroke-width=\"2.5\"/></svg>"
+ },
+ "错": {
+  "type": "idéo-phonétique",
+  "origin_fr": "错 simplifie 錯 : clé 金/钅 (métal) pour le sens et 昔 (xī) pour le son. Le sens premier est « incruster de l'or ou de l'argent » (错金), d'où « entrecroiser, mêler », puis « mal placé, erroné, faute ». 不错 (pas mal) en est un emploi courant.",
+  "components": [
+   {
+    "c": "钅",
+    "role": "sens",
+    "fr": "métal"
+   },
+   {
+    "c": "昔",
+    "role": "son",
+    "fr": "autrefois (xī → cuò)"
+   }
+  ],
+  "mnemonic_fr": "Une vieille 昔 clé de métal 钅 qui ne rentre pas dans la serrure : erreur, ce n'est pas la bonne !",
+  "scene_fr": "Une vieille clé qui ne rentre pas dans un cadenas",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M108 70V50Q108 22 136 22Q164 22 164 50V70\" stroke-width=\"6\"/><rect x=\"96\" y=\"70\" width=\"80\" height=\"80\" rx=\"10\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"136\" cy=\"102\" r=\"8\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M136 108V128\" stroke-width=\"6\"/><circle cx=\"42\" cy=\"138\" r=\"16\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M58 138H96M76 138V150M88 138V148\" stroke-width=\"5\"/><path d=\"M40 40L76 76M76 40L40 76\" stroke-width=\"8\"/></svg>"
+ },
+ "难": {
+  "type": "emprunt phonétique",
+  "origin_fr": "难 simplifie 難, composé de 隹 (oiseau) et de 堇 (jǐn) comme partie sonore : c'était à l'origine le nom d'un oiseau. Il a été emprunté pour écrire le mot « difficile ». La forme simplifiée remplace 堇 par 又, simple signe de substitution.",
+  "components": [
+   {
+    "c": "又",
+    "role": "forme",
+    "fr": "main (signe de substitution)"
+   },
+   {
+    "c": "隹",
+    "role": "forme",
+    "fr": "oiseau"
+   }
+  ],
+  "mnemonic_fr": "Une main 又 qui essaie d'attraper un oiseau 隹… il s'envole à chaque fois : que c'est difficile !",
+  "scene_fr": "Une main tendue vers un oiseau qui s'échappe",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"140\" cy=\"70\" rx=\"26\" ry=\"13\" fill=\"currentColor\" fill-opacity=\".3\" transform=\"rotate(-20 140 70)\"/><circle cx=\"166\" cy=\"54\" r=\"10\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M175 50L188 48L177 58\"/><circle cx=\"168\" cy=\"52\" r=\"2\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M134 64Q116 22 142 14Q146 42 152 60\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M118 82L98 96L104 80L94 72L116 74\"/><path d=\"M112 104l-14 6M122 108l-12 10\"  stroke-width=\"3\"/><path d=\"M14 176L46 146M30 190L60 160\"/><circle cx=\"60\" cy=\"142\" r=\"17\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M56 126L52 98M66 126L72 100M74 132L94 114M77 143L100 140M46 136L32 118\"/><path d=\"M100 120Q110 110 116 118Q106 128 100 120Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M120 140Q130 130 136 138Q126 148 120 140Z\" fill=\"currentColor\" fill-opacity=\".18\"/></svg>"
+ },
+ "影": {
+  "type": "idéo-phonétique",
+  "origin_fr": "影 associe 景 (jǐng, lumière du soleil), qui donne le son, et 彡, trois traits qui figurent des rayons, des reflets. Le Shuowen n'avait que 景 pour « lumière » et « ombre » ; 彡 a été ajouté plus tard pour distinguer « ombre, reflet, image », d'où 电影 (film).",
+  "components": [
+   {
+    "c": "景",
+    "role": "son",
+    "fr": "paysage, lumière (jǐng → yǐng)"
+   },
+   {
+    "c": "彡",
+    "role": "sens",
+    "fr": "rayons, reflets"
+   }
+  ],
+  "mnemonic_fr": "Le soleil éclaire le paysage 景, ses rayons 彡 frappent une personne… et derrière elle s'étire son ombre.",
+  "scene_fr": "Une personne au soleil et sa longue ombre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"38\" cy=\"40\" r=\"16\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M59 40L65 40M53 55L57 59M38 61L38 67M23 55L19 59M17 40L11 40M23 25L19 21M38 19L38 13M53 25L57 21\"/><path d=\"M62 58L80 76M54 66L68 84M70 50L88 66\" stroke-width=\"3\"/><g transform=\"translate(86 172) scale(0.95)\" stroke-width=\"4.2\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L22 -50M-15 0L0 -34L15 0\"/></g><path d=\"M76 174L98 172L182 182Q186 188 176 188L150 186Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M14 174H72\"/></svg>"
+ },
+ "哪": {
+  "type": "idéo-phonétique",
+  "origin_fr": "哪 est une forme moderne : 那 (nà, « ce…-là ») qui donne le son, avec la clé 口 (bouche) ajoutée pour marquer la valeur interrogative de la parole : « lequel ? où ? » (哪儿).",
+  "components": [
+   {
+    "c": "口",
+    "role": "sens",
+    "fr": "bouche (question)"
+   },
+   {
+    "c": "那",
+    "role": "son",
+    "fr": "celui-là (nà → nǎ)"
+   }
+  ],
+  "mnemonic_fr": "La bouche 口 demande en montrant du doigt : « Celui-là 那 ? Lequel ? Où ça ? »",
+  "scene_fr": "Un visage qui cherche du regard, main en visière",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"86\" cy=\"112\" r=\"40\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"74\" cy=\"108\" r=\"4\" fill=\"currentColor\"/><circle cx=\"100\" cy=\"108\" r=\"4\" fill=\"currentColor\"/><ellipse cx=\"88\" cy=\"132\" rx=\"6\" ry=\"5\"/><path d=\"M44 88H124Q134 88 132 78\"/><path d=\"M138 28Q152 14 166 28Q172 42 152 50V58\"/><circle cx=\"152\" cy=\"68\" r=\"3\" fill=\"currentColor\"/><path d=\"M30 176H70M30 176l10 -8M30 176l10 8M106 176H146M146 176l-10 -8M146 176l-10 8\" stroke-width=\"3\"/></svg>"
+ },
+ "跑": {
+  "type": "idéo-phonétique",
+  "origin_fr": "跑 associe la clé 足 (pied) pour le sens et 包 (bāo) pour le son. Il signifiait d'abord, lu páo, « gratter le sol avec les pattes » (comme un animal) ; le sens « courir, s'enfuir » s'est imposé plus tard.",
+  "components": [
+   {
+    "c": "足",
+    "role": "sens",
+    "fr": "pied"
+   },
+   {
+    "c": "包",
+    "role": "son",
+    "fr": "envelopper (bāo → pǎo)"
+   }
+  ],
+  "mnemonic_fr": "Les pieds 足 filent si vite qu'ils sont comme emballés 包 dans un nuage de poussière : on court !",
+  "scene_fr": "Un coureur lancé avec des lignes de vitesse",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"122\" cy=\"48\" r=\"13\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M118 62L104 110M114 76L138 90L150 76M114 76L90 82L78 70M104 110L132 128L128 164M104 110L84 140L60 142\"/><path d=\"M44 66H16M50 92H22M44 118H20\" stroke-width=\"3\"/><circle cx=\"54\" cy=\"160\" r=\"8\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"40\" cy=\"166\" r=\"6\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M30 170H180\"/></svg>"
+ },
+ "昨": {
+  "type": "idéo-phonétique",
+  "origin_fr": "昨 associe la clé 日 (jour, soleil) pour le sens et 乍 (zhà) pour le son. Il désigne le jour précédent : « hier » (昨天).",
+  "components": [
+   {
+    "c": "日",
+    "role": "sens",
+    "fr": "jour"
+   },
+   {
+    "c": "乍",
+    "role": "son",
+    "fr": "soudain (zhà → zuó)"
+   }
+  ],
+  "mnemonic_fr": "Le jour 日 d'hier s'est envolé soudain 乍, comme une page de calendrier arrachée.",
+  "scene_fr": "Un calendrier dont une page s'envole",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M30 52H140V180H30Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M30 76H140\" stroke-width=\"3\"/><path d=\"M54 40V62M116 40V62\"/><circle cx=\"84\" cy=\"120\" r=\"18\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M84 92V86M110 120h6M58 120h-6M84 148v6\" stroke-width=\"3\"/><path d=\"M146 18L186 30L176 74L136 62Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M150 82q14 10 8 24\" stroke-width=\"3\" stroke-dasharray=\"4 6\"/></svg>"
+ },
+ "书": {
+  "type": "idéo-phonétique",
+  "origin_fr": "书 simplifie 書 : en haut 聿, une main tenant un pinceau (sens), et en bas 者 (zhě), réduit à 曰, pour le son. Le sens premier est « écrire », puis « écrits, livre ». La forme simplifiée vient de la cursive.",
+  "components": [
+   {
+    "c": "聿",
+    "role": "forme",
+    "fr": "main tenant un pinceau (dans 書)"
+   }
+  ],
+  "mnemonic_fr": "Un pinceau qui trace des traits sur des pages ouvertes : voilà un livre.",
+  "scene_fr": "Un livre ouvert avec un pinceau",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 62Q70 42 22 52V162Q70 152 100 172Q130 152 178 162V52Q130 42 100 62Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 62V172\"/><path d=\"M36 76H86M36 96H86M36 116H80M114 76H164M114 96H164M114 116H154\" stroke-width=\"2.5\"/><path d=\"M150 12L118 60\" stroke-width=\"6\"/><path d=\"M118 60L112 72L122 66Z\" fill=\"currentColor\" fill-opacity=\".45\"/></svg>"
+ },
+ "五": {
+  "type": "idéogramme",
+  "origin_fr": "Le chiffre cinq s'écrivait d'abord avec cinq traits, puis par une croix ✕ entre deux traits horizontaux. Le Shuowen y voit le yin et le yang qui se croisent entre le ciel et la terre ; plus probablement, c'est un simple signe de comptage. L'origine exacte reste discutée.",
+  "components": [
+   {
+    "c": "二",
+    "role": "forme",
+    "fr": "deux traits : ciel et terre"
+   },
+   {
+    "c": "乂",
+    "role": "forme",
+    "fr": "croix (ancien ✕)"
+   }
+  ],
+  "mnemonic_fr": "Une main grande ouverte : cinq doigts, cinq !",
+  "scene_fr": "Une main grande ouverte, cinq doigts écartés",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M72 184V140Q64 124 46 104Q38 94 46 88Q56 84 70 100L78 110V46Q78 34 88 34Q98 34 98 46V100V30Q98 18 108 18Q118 18 118 30V100V38Q118 26 128 26Q138 26 138 38V104V60Q138 48 148 48Q158 48 158 60V134Q158 164 140 184Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M98 100V112M118 100V112M138 104V114\" stroke-width=\"3\"/></svg>"
+ },
+ "生": {
+  "type": "pictogramme",
+  "origin_fr": "生 dessine une jeune pousse qui sort de terre : en bas le sol (un trait), au-dessus la tige avec ses feuilles. Du sens premier « pousser, naître » viennent « vie, vivant », « cru » (pas encore cuit, encore « vivant ») et « élève » (学生).",
+  "components": [
+   {
+    "c": "土",
+    "role": "forme",
+    "fr": "sol"
+   },
+   {
+    "c": "屮",
+    "role": "forme",
+    "fr": "pousse"
+   }
+  ],
+  "mnemonic_fr": "Une petite pousse qui sort de terre et déploie ses feuilles : la vie naît !",
+  "scene_fr": "Une pousse qui sort de terre avec ses feuilles",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 160Q100 150 180 160V182H20Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 160V58\"/><path d=\"M100 124Q70 124 58 96Q90 94 100 124Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M100 98Q130 98 142 70Q110 68 100 98Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M100 58Q90 42 100 28Q110 42 100 58Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M100 160L92 172M100 160L108 174\" stroke-width=\"3\"/></svg>"
+ },
+ "动": {
+  "type": "idéo-phonétique",
+  "origin_fr": "动 simplifie 動 : clé 力 (force) pour le sens et 重 (zhòng) pour le son. Le sens est « mettre en mouvement, bouger ». Dans la forme simplifiée, 重 a été remplacé par 云 (nuage), issu de la cursive : 云 n'a ici aucun rôle de sens.",
+  "components": [
+   {
+    "c": "云",
+    "role": "forme",
+    "fr": "nuage (remplace 重)"
+   },
+   {
+    "c": "力",
+    "role": "sens",
+    "fr": "force"
+   }
+  ],
+  "mnemonic_fr": "Avec toute sa force 力, un costaud pousse un nuage 云 : et il bouge !",
+  "scene_fr": "Un costaud qui pousse un nuage",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(132 92) scale(1.2)\" stroke-width=\"3.3\"><path d=\"M-40 10C-56 10 -56 -12 -40 -12C-40 -32 -12 -34 -6 -20C2 -38 34 -34 32 -12C50 -14 52 10 36 10Z\" fill=\"currentColor\" fill-opacity=\".18\"/></g><g transform=\"translate(42 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L38 -94M0 -60L38 -82M-15 0L0 -34L15 0\"/></g><path d=\"M168 132h14M160 144h20\" stroke-width=\"3\"/><path d=\"M14 182H120\"/></svg>"
+ },
+ "医": {
+  "type": "idéogramme composé",
+  "origin_fr": "医 était à l'origine un caractère distinct : 匸 (coffre, étui) contenant 矢 (flèche), un étui à flèches selon le Shuowen. Le mot « médecin » s'écrivait 醫 : 殹 (yì), qui donne le son, et 酉, la jarre d'alcool employé comme remède. La simplification a repris la partie 医 pour remplacer 醫.",
+  "components": [
+   {
+    "c": "匸",
+    "role": "forme",
+    "fr": "coffre, étui"
+   },
+   {
+    "c": "矢",
+    "role": "forme",
+    "fr": "flèche"
+   }
+  ],
+  "mnemonic_fr": "Le médecin retire la flèche 矢 de la blessure et la range dans sa boîte 匸 : te voilà soigné !",
+  "scene_fr": "Une trousse médicale ouverte contenant une flèche",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 18V46M86 32H114\" stroke-width=\"7\"/><path d=\"M170 60H30V176H170\" stroke-width=\"6\"/><path d=\"M30 60H170V176H30Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M50 118H150M150 118L136 106M150 118L136 130M50 118L40 106M50 118L40 130\" stroke-width=\"5\"/></svg>"
+ },
+ "院": {
+  "type": "idéo-phonétique",
+  "origin_fr": "院 associe la clé 阝 (à gauche : butte, mur de terre) pour le sens et 完 (wán) pour le son. Il désigne un enclos entouré de murs, une cour, puis un établissement : 医院 (hôpital), 学院 (institut).",
+  "components": [
+   {
+    "c": "阝",
+    "role": "sens",
+    "fr": "butte, mur, enceinte"
+   },
+   {
+    "c": "完",
+    "role": "son",
+    "fr": "achevé (wán → yuàn)"
+   }
+  ],
+  "mnemonic_fr": "Derrière le mur 阝, une maison complète 完 avec sa cour : c'est un établissement, comme l'hôpital.",
+  "scene_fr": "Une maison dans une cour fermée par un mur",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(34 130) scale(0.45)\" stroke-width=\"8.9\"><path d=\"M-7 0L-5 -48M7 0L5 -48M-5 -40L-16 -52M5 -34L16 -46\"/><path d=\"M0 -48C-40 -44 -46 -86 -22 -98C-18 -126 18 -126 22 -98C46 -86 40 -44 0 -48Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M-7 0Q-18 4 -28 12M7 0Q18 4 28 12M0 0V12\"/></g><path d=\"M50 78L100 40L150 78\"/><path d=\"M62 72V128H138V72\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M90 128V104H110V128\"/><path d=\"M14 182V132H78V182ZM122 182V132H186V182Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M78 132Q100 112 122 132\"/><path d=\"M78 182H122\"/></svg>"
+ },
+ "远": {
+  "type": "idéo-phonétique",
+  "origin_fr": "远 simplifie 遠 : clé 辶 (marcher) pour le sens et 袁 (yuán) pour le son. La forme simplifiée remplace 袁 par 元 (yuán), même prononciation. Sens : « loin, éloigné ».",
+  "components": [
+   {
+    "c": "辶",
+    "role": "sens",
+    "fr": "marcher"
+   },
+   {
+    "c": "元",
+    "role": "son",
+    "fr": "premier (yuán → yuǎn)"
+   }
+  ],
+  "mnemonic_fr": "Il faut marcher 辶 longtemps, depuis le tout premier 元 pas, pour arriver là-bas : c'est loin !",
+  "scene_fr": "Une longue route vers des montagnes lointaines",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M44 76L72 46L90 62L112 36L156 76\"/><circle cx=\"150\" cy=\"34\" r=\"9\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M163 34L168 34M159 43L163 47M150 47L150 52M141 43L137 47M137 34L132 34M141 25L137 21M150 21L150 16M159 25L163 21\"/><path d=\"M20 184Q90 120 98 76H102Q110 120 180 184Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 176V160M100 140V130M100 114V106M100 94V88\" stroke-width=\"3\"/><g transform=\"translate(122 150) scale(0.32)\" stroke-width=\"12.5\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L22 -50M-15 0L0 -34L15 0\"/></g><path d=\"M14 76H186\"/></svg>"
+ },
+ "口": {
+  "type": "pictogramme",
+  "origin_fr": "口 dessine une bouche ouverte. Le tracé arrondi est devenu carré au pinceau. Sens : « bouche », puis « ouverture, entrée » (入口, 出口) et classificateur des membres d'une famille (les bouches à nourrir).",
+  "components": [],
+  "mnemonic_fr": "Une grande bouche ouverte, carrée à force d'être dessinée au pinceau : « Aaah ! »",
+  "scene_fr": "Une bouche grande ouverte avec la langue",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M24 100Q60 46 100 62Q140 46 176 100Q140 162 100 160Q60 162 24 100Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M44 100Q100 78 156 100Q100 142 44 100Z\" fill=\"currentColor\" fill-opacity=\".45\"/><ellipse cx=\"100\" cy=\"116\" rx=\"22\" ry=\"8\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M60 93H140\" stroke-width=\"3\"/></svg>"
+ },
+ "儿": {
+  "type": "pictogramme",
+  "origin_fr": "儿 simplifie 兒, qui dessine un petit enfant : une grosse tête à la fontanelle encore ouverte (臼) au-dessus de deux jambes (儿). La simplification ne garde que les jambes. Sens : « enfant, fils », et suffixe diminutif (le -r final du pékinois).",
+  "components": [],
+  "mnemonic_fr": "Il ne reste que deux petites jambes qui trottinent : c'est un petit enfant 儿.",
+  "scene_fr": "Un petit enfant à grosse tête qui trottine",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"66\" r=\"34\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"88\" cy=\"62\" r=\"4\" fill=\"currentColor\"/><circle cx=\"112\" cy=\"62\" r=\"4\" fill=\"currentColor\"/><path d=\"M88 78Q100 88 112 78M96 32Q100 22 108 28\"/><path d=\"M100 100V132M100 112L80 124M100 112L120 124\"/><path d=\"M100 132Q88 160 62 180M100 132Q110 160 142 176\" stroke-width=\"6\"/></svg>"
+ },
+ "白": {
+  "type": "incertain",
+  "origin_fr": "L'origine de 白 est débattue : on y a vu un grain de riz décortiqué, un gland, une flamme de bougie, l'ongle du pouce, ou encore le soleil avec un rayon. Aucune hypothèse ne fait l'unanimité. Le sens « blanc » a donné « clair, évident » puis « en vain, gratuitement ».",
+  "components": [
+   {
+    "c": "日",
+    "role": "forme",
+    "fr": "soleil / forme centrale"
+   },
+   {
+    "c": "丿",
+    "role": "forme",
+    "fr": "rayon, flamme"
+   }
+  ],
+  "mnemonic_fr": "Une flamme 丿 au-dessus d'une bougie 日 : sa lumière rend tout blanc et clair.",
+  "scene_fr": "Une bougie allumée qui rayonne",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"70\" r=\"42\" stroke-dasharray=\"4 10\" stroke-width=\"3\"/><path d=\"M80 104H120V176H80Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 98Q82 74 100 40Q118 74 100 98Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M100 104V96M64 176H136\"/><path d=\"M40 70H28M172 70H160M54 30l-8 -8M146 30l8 -8\" stroke-width=\"3\"/></svg>"
+ },
+ "杯": {
+  "type": "idéo-phonétique",
+  "origin_fr": "杯 associe la clé 木 (bois) pour le sens et 不 (bù) pour le son : une coupe à l'origine en bois (variante ancienne 桮). Sens : « tasse, verre », et classificateur (一杯水, un verre d'eau).",
+  "components": [
+   {
+    "c": "木",
+    "role": "sens",
+    "fr": "bois"
+   },
+   {
+    "c": "不",
+    "role": "son",
+    "fr": "ne…pas (bù → bēi)"
+   }
+  ],
+  "mnemonic_fr": "Une tasse en bois 木 bien chaude : non 不, on ne la renverse pas !",
+  "scene_fr": "Une tasse en bois fumante sur sa soucoupe",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M48 70H140L132 168Q130 178 120 178H68Q58 178 56 168Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M138 92Q172 92 168 122Q166 146 134 146\"/><path d=\"M80 56q-8 -12 0 -24q8 -12 0 -24M110 56q-8 -12 0 -24q8 -12 0 -24\" stroke-width=\"3\"/><path d=\"M68 110q22 -10 46 0M66 136q26 -10 52 0\" stroke-width=\"2.5\"/><path d=\"M28 184H162\"/></svg>"
+ },
+ "记": {
+  "type": "idéo-phonétique",
+  "origin_fr": "记 simplifie 記 : clé 言 (parole) pour le sens et 己 (jǐ, soi-même) pour le son. Sens : « noter, consigner par écrit », d'où « se souvenir, retenir » (记得).",
+  "components": [
+   {
+    "c": "讠",
+    "role": "sens",
+    "fr": "parole"
+   },
+   {
+    "c": "己",
+    "role": "son",
+    "fr": "soi-même (jǐ → jì)"
+   }
+  ],
+  "mnemonic_fr": "Les paroles 讠 que tu veux garder pour toi-même 己, tu les notes dans ton carnet.",
+  "scene_fr": "Un carnet à spirale et un stylo",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M40 26H140V182H40Z\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"40\" cy=\"46\" r=\"6\"/><circle cx=\"40\" cy=\"74\" r=\"6\"/><circle cx=\"40\" cy=\"102\" r=\"6\"/><circle cx=\"40\" cy=\"130\" r=\"6\"/><circle cx=\"40\" cy=\"158\" r=\"6\"/><path d=\"M62 60H124M62 86H124M62 112H110M62 138H120\" stroke-width=\"3\"/><path d=\"M180 40L136 140\" stroke-width=\"8\"/><path d=\"M136 140L130 156L142 146Z\" fill=\"currentColor\" fill-opacity=\".45\"/></svg>"
+ },
+ "歌": {
+  "type": "idéo-phonétique",
+  "origin_fr": "歌 associe 欠 (personne qui ouvre grand la bouche, souffle) pour le sens et 哥 (gē) pour le son. 哥 lui-même (可 redoublé) notait d'abord le mot « chanter » avant de prendre le sens « grand frère ». Sens : « chanson, chanter ».",
+  "components": [
+   {
+    "c": "哥",
+    "role": "son",
+    "fr": "grand frère (gē)"
+   },
+   {
+    "c": "欠",
+    "role": "sens",
+    "fr": "bouche ouverte, souffle"
+   }
+  ],
+  "mnemonic_fr": "Le grand frère 哥 ouvre grand la bouche 欠 et chante à tue-tête.",
+  "scene_fr": "Une personne qui chante, notes de musique",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"64\" cy=\"82\" r=\"24\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M84 84L102 76L100 98Z\" fill=\"currentColor\" fill-opacity=\".45\"/><circle cx=\"58\" cy=\"76\" r=\"3\" fill=\"currentColor\"/><path d=\"M64 106V150M64 120L90 132M64 150L50 182M64 150L78 182\"/><ellipse cx=\"126\" cy=\"82\" rx=\"8\" ry=\"6\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M133 82V48Q144 54 146 64\"/><ellipse cx=\"150\" cy=\"138\" rx=\"8\" ry=\"6\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M157 138V104Q168 110 170 120\"/><path d=\"M150 60l10 -8M114 128l8 6\" stroke-width=\"3\"/></svg>"
+ },
+ "半": {
+  "type": "idéogramme composé",
+  "origin_fr": "半 associe 八 (séparer, en haut sous forme de 丷) et 牛 (bœuf). Le Shuowen explique : le bœuf est un gros animal qu'on peut partager en deux. Sens : « moitié, demi », et « et demie » pour l'heure.",
+  "components": [
+   {
+    "c": "丷",
+    "role": "sens",
+    "fr": "séparer (八)"
+   },
+   {
+    "c": "牛",
+    "role": "forme",
+    "fr": "bœuf"
+   }
+  ],
+  "mnemonic_fr": "Le boucher trace une ligne au milieu du bœuf 牛 et sépare 丷 les deux moitiés : chacun sa moitié !",
+  "scene_fr": "Un bœuf partagé en deux par une ligne pointillée",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M40 80Q40 64 60 64H150Q166 64 166 82V120Q166 130 154 130H52Q40 130 40 118Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M40 76L18 72L14 100L28 110L42 104M22 72L16 58M32 70L36 58\"/><path d=\"M56 130V168M76 130V168M136 130V168M154 130V168M166 80Q182 100 176 120\"/><path d=\"M100 44V186\" stroke-dasharray=\"8 8\" stroke-width=\"3\"/><path d=\"M84 26L92 38M116 26L108 38\"/></svg>"
+ },
+ "体": {
+  "type": "idéogramme composé",
+  "origin_fr": "体 était à l'origine un caractère rare (bèn, « grossier ») ; il a été adopté comme forme populaire de 體 (clé 骨, os, et 豊 lǐ pour le son), « corps ». Lu comme forme courte de 體, il s'interprète naturellement comme 亻 (personne) + 本 (racine, base) : la base de la personne, son corps.",
+  "components": [
+   {
+    "c": "亻",
+    "role": "sens",
+    "fr": "personne"
+   },
+   {
+    "c": "本",
+    "role": "forme",
+    "fr": "racine, base"
+   }
+  ],
+  "mnemonic_fr": "Une personne 亻 qui s'étire près d'un arbre aux racines 本 solides : son corps est sa base.",
+  "scene_fr": "Une personne qui s'étire près d'un arbre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(58 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -112L0 -66L22 -112M-15 0L0 -34L15 0\"/></g><g transform=\"translate(144 170) scale(0.78)\" stroke-width=\"5.1\"><path d=\"M-7 0L-5 -48M7 0L5 -48M-5 -40L-16 -52M5 -34L16 -46\"/><path d=\"M0 -48C-40 -44 -46 -86 -22 -98C-18 -126 18 -126 22 -98C46 -86 40 -44 0 -48Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M-7 0Q-18 4 -28 12M7 0Q18 4 28 12M0 0V12\"/></g><path d=\"M20 182H186\"/></svg>"
+ },
+ "元": {
+  "type": "pictogramme",
+  "origin_fr": "元 dessine une personne (儿, les jambes) dont la tête est mise en valeur par des traits en haut (二). Le sens premier est « tête », d'où « premier, originel, principal », puis l'unité monétaire « yuan ».",
+  "components": [
+   {
+    "c": "二",
+    "role": "forme",
+    "fr": "tête soulignée"
+   },
+   {
+    "c": "儿",
+    "role": "forme",
+    "fr": "personne, jambes"
+   }
+  ],
+  "mnemonic_fr": "Un personnage à la tête énorme : c'est le chef, le premier — et c'est lui qui a les yuans !",
+  "scene_fr": "Un personnage à grosse tête, deux traits au-dessus",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M76 16H124M64 28H136\" stroke-width=\"5\"/><circle cx=\"100\" cy=\"74\" r=\"36\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"88\" cy=\"70\" r=\"4\" fill=\"currentColor\"/><circle cx=\"112\" cy=\"70\" r=\"4\" fill=\"currentColor\"/><path d=\"M88 88Q100 96 112 88\"/><path d=\"M88 110Q78 150 48 182M112 110Q118 150 152 178\" stroke-width=\"6\"/></svg>"
+ },
+ "包": {
+  "type": "idéogramme composé",
+  "origin_fr": "包 dessine un fœtus 巳 enveloppé dans le ventre de sa mère 勹 ; le Shuowen le glose « enceinte, envelopper ». 勹 (envelopper) donne aussi le son. Sens : « envelopper, emballer », puis « sac, paquet ».",
+  "components": [
+   {
+    "c": "勹",
+    "role": "sens",
+    "fr": "envelopper"
+   },
+   {
+    "c": "巳",
+    "role": "forme",
+    "fr": "fœtus, bébé"
+   }
+  ],
+  "mnemonic_fr": "Un bébé 巳 tout recroquevillé, bien emballé dans une enveloppe 勹 : un joli paquet !",
+  "scene_fr": "Un bébé recroquevillé dans une enveloppe protectrice",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M58 36Q160 18 170 100Q172 172 100 178Q36 178 36 116\" stroke-width=\"7\"/><circle cx=\"96\" cy=\"90\" r=\"18\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M110 102Q142 120 130 146Q112 162 86 148Q74 136 86 118\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"90\" cy=\"86\" r=\"2.5\" fill=\"currentColor\"/></svg>"
+ },
+ "楼": {
+  "type": "idéo-phonétique",
+  "origin_fr": "楼 simplifie 樓 : clé 木 (bois) pour le sens et 婁 (lóu) pour le son. Il désignait un bâtiment à étages en bois, une tour ; aujourd'hui « immeuble » et « étage ».",
+  "components": [
+   {
+    "c": "木",
+    "role": "sens",
+    "fr": "bois"
+   },
+   {
+    "c": "娄",
+    "role": "son",
+    "fr": "(lóu)"
+   }
+  ],
+  "mnemonic_fr": "Des étages de bois 木 empilés les uns sur les autres : un immeuble à plusieurs étages.",
+  "scene_fr": "Un immeuble à étages avec ses fenêtres",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M44 34L104 14L164 34\"/><path d=\"M56 32H152V182H56Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M56 62H152M56 92H152M56 122H152M56 152H152\" stroke-width=\"3\"/><rect x=\"70\" y=\"40\" width=\"16\" height=\"14\"/><rect x=\"70\" y=\"70\" width=\"16\" height=\"14\"/><rect x=\"70\" y=\"100\" width=\"16\" height=\"14\"/><rect x=\"70\" y=\"130\" width=\"16\" height=\"14\"/><rect x=\"122\" y=\"40\" width=\"16\" height=\"14\"/><rect x=\"122\" y=\"70\" width=\"16\" height=\"14\"/><rect x=\"122\" y=\"100\" width=\"16\" height=\"14\"/><rect x=\"122\" y=\"130\" width=\"16\" height=\"14\"/><path d=\"M96 182V160H112V182\"/><g transform=\"translate(30 182) scale(0.38)\" stroke-width=\"10.5\"><path d=\"M-7 0L-5 -48M7 0L5 -48M-5 -40L-16 -52M5 -34L16 -46\"/><path d=\"M0 -48C-40 -44 -46 -86 -22 -98C-18 -126 18 -126 22 -98C46 -86 40 -44 0 -48Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M-7 0Q-18 4 -28 12M7 0Q18 4 28 12M0 0V12\"/></g></svg>"
+ },
+ "视": {
+  "type": "idéo-phonétique",
+  "origin_fr": "视 simplifie 視 : clé 見/见 (voir) pour le sens et 示 (shì) pour le son, réduit à 礻 à gauche. Sens : « regarder, observer », d'où « vue, vision » et 电视 (télévision).",
+  "components": [
+   {
+    "c": "礻",
+    "role": "son",
+    "fr": "montrer (示 shì)"
+   },
+   {
+    "c": "见",
+    "role": "sens",
+    "fr": "voir"
+   }
+  ],
+  "mnemonic_fr": "On te montre 礻 des images et tu les vois 见 : c'est la télé !",
+  "scene_fr": "Une télévision avec un grand œil à l'écran",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M82 22L100 60L124 16\"/><rect x=\"28\" y=\"60\" width=\"144\" height=\"100\" rx=\"14\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M60 110Q100 76 140 110Q100 144 60 110Z\"/><circle cx=\"100\" cy=\"110\" r=\"14\" fill=\"currentColor\" fill-opacity=\".45\"/><circle cx=\"100\" cy=\"110\" r=\"4\" fill=\"currentColor\"/><path d=\"M60 160L50 180M140 160L150 180\"/></svg>"
+ },
+ "飞": {
+  "type": "pictogramme",
+  "origin_fr": "飞 simplifie 飛, qui dessine un oiseau en plein vol, les ailes déployées (on voit les plumes et le cou). La simplification ne garde qu'une aile et des plumes. Sens : « voler (dans les airs) ».",
+  "components": [],
+  "mnemonic_fr": "Une aile qui bat et deux plumes qui s'envolent : l'oiseau vole !",
+  "scene_fr": "Un oiseau en plein vol, ailes déployées",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M90 104Q60 40 22 50Q48 84 86 114Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M110 104Q140 30 180 40Q150 78 114 114Z\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"100\" cy=\"112\" rx=\"28\" ry=\"14\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"130\" cy=\"106\" r=\"10\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M140 104L152 108L140 112\"/><path d=\"M72 116L54 128L66 110\"/><path d=\"M60 160q20 -8 40 0M110 172q20 -8 40 0\" stroke-width=\"3\"/></svg>"
+ },
+ "介": {
+  "type": "idéogramme",
+  "origin_fr": "介 montre, dans les formes oraculaires, une personne 人 avec de petits traits de part et d'autre : les plaques d'une armure (sens conservé dans 介胄, « armure »). L'interprétation reste discutée. Du sens « carapace, ce qui est entre la personne et l'extérieur » vient « entre, intermédiaire », puis « présenter » (介绍).",
+  "components": [
+   {
+    "c": "人",
+    "role": "forme",
+    "fr": "personne"
+   },
+   {
+    "c": "丿",
+    "role": "forme",
+    "fr": "plaques d'armure (gauche et droite)"
+   }
+  ],
+  "mnemonic_fr": "Une personne 人 debout entre deux plaques d'armure : elle se tient entre deux camps et fait les présentations.",
+  "scene_fr": "Une personne en armure, plaques de chaque côté",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"46\" r=\"16\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M84 40Q100 16 116 40\"/><path d=\"M78 70H122L128 140H72Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M80 92H120M78 116H122\" stroke-width=\"2.5\"/><path d=\"M90 140V182M110 140V182\"/><path d=\"M60 74q-12 12 0 24q-12 12 0 24q-12 12 0 24M140 74q12 12 0 24q12 12 0 24q12 12 0 24\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "绍": {
+  "type": "idéo-phonétique",
+  "origin_fr": "绍 simplifie 紹 : clé 糸/纟 (fil de soie) pour le sens et 召 (zhào, appeler) pour le son. Le Shuowen le glose « continuer, prolonger » (comme on rattache un fil). Il apparaît surtout dans 介绍 (présenter) : relier deux personnes.",
+  "components": [
+   {
+    "c": "纟",
+    "role": "sens",
+    "fr": "fil"
+   },
+   {
+    "c": "召",
+    "role": "son",
+    "fr": "appeler (zhào → shào)"
+   }
+  ],
+  "mnemonic_fr": "On appelle 召 le fil 纟 suivant et on noue les deux bouts : on fait le lien entre deux personnes.",
+  "scene_fr": "Deux fils noués ensemble par un nœud",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 178H186\"/><g transform=\"translate(38 178) scale(0.85)\" stroke-width=\"4.7\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M0 -64L-18 -46M0 -64L24 -58M-15 0L0 -34L15 0\"/></g><g transform=\"translate(162 178) scale(0.85)\" stroke-width=\"4.7\"><g transform=\"scale(-1 1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M0 -64L-18 -46M0 -64L24 -58M-15 0L0 -34L15 0\"/></g></g><path d=\"M58 129C72 138 82 124 94 114M142 129C128 138 118 124 106 114\"  stroke-width=\"3\"/><path d=\"M100 110C82 80 64 94 72 106C78 116 92 112 100 110ZM100 110C118 80 136 94 128 106C122 116 108 112 100 110Z\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"100\" cy=\"110\" r=\"6\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M98 116Q92 132 86 142M102 116Q108 132 114 142\"  stroke-width=\"3\"/><path d=\"M100 70C92 58 78 66 86 76L100 88L114 76C122 66 108 58 100 70Z\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "午": {
+  "type": "emprunt phonétique",
+  "origin_fr": "午 dessine à l'origine un pilon (sens repris par 杵, « pilon »). Il a été emprunté pour noter le 7e des douze Rameaux terrestres, qui correspond à la période 11 h–13 h, d'où « midi » (中午, 下午).",
+  "components": [
+   {
+    "c": "丿",
+    "role": "forme",
+    "fr": "tête du pilon"
+   },
+   {
+    "c": "干",
+    "role": "forme",
+    "fr": "manche du pilon"
+   }
+  ],
+  "mnemonic_fr": "À midi, le soleil est tout en haut et on pile le riz avec le pilon pour le repas.",
+  "scene_fr": "Un pilon dans un mortier sous le soleil de midi",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"34\" r=\"13\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M118 34L124 34M113 47L117 51M100 52L100 58M87 47L83 51M82 34L76 34M87 21L83 17M100 16L100 10M113 21L117 17\"/><path d=\"M40 122Q100 196 160 122Z\" fill=\"currentColor\" fill-opacity=\".18\"/><ellipse cx=\"100\" cy=\"122\" rx=\"60\" ry=\"10\"/><path d=\"M70 134L124 60Q132 52 140 60Q144 68 136 74L84 140Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M60 182H140\"/></svg>"
+ },
+ "习": {
+  "type": "idéogramme composé",
+  "origin_fr": "习 simplifie 習 : 羽 (ailes, plumes) au-dessus de 白 (à l'origine 日, le soleil). Le Shuowen le glose « voler à répétition » : l'oisillon qui bat des ailes encore et encore pour apprendre à voler. D'où « s'exercer, pratiquer, étudier ». La forme simplifiée ne garde qu'une aile.",
+  "components": [
+   {
+    "c": "羽",
+    "role": "sens",
+    "fr": "aile (une seule dans 习)"
+   },
+   {
+    "c": "冫",
+    "role": "forme",
+    "fr": "plumes / mouvement"
+   }
+  ],
+  "mnemonic_fr": "Un oisillon bat d'une aile 习, encore et encore, au-dessus de son nid : il s'exerce à voler !",
+  "scene_fr": "Un oisillon qui bat des ailes au-dessus de son nid",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M46 160Q100 200 154 160Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M46 160H154\"/><path d=\"M96 98Q80 40 36 42Q56 72 90 106Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M86 66L72 76M74 54L60 62\" stroke-width=\"2.5\"/><g transform=\"translate(110 112) scale(1.4 1.4)\" stroke-width=\"2.9\"><path d=\"M-24 0C-20 -16 4 -18 14 -8L26 -6L16 0C12 12 -12 14 -24 0Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M-6 -6Q-2 -26 10 -22\"/><circle cx=\"10\" cy=\"-9\" r=\"1.5\" fill=\"currentColor\"/><path d=\"M-24 0L-34 -4M-24 0L-34 4\"/></g><path d=\"M40 110q-10 10 0 20M164 82q10 10 0 20\" stroke-width=\"3\"/></svg>"
+ },
+ "师": {
+  "type": "idéogramme composé",
+  "origin_fr": "师 simplifie 師 : 𠂤 (tertre, campement militaire) et 帀 (faire le tour, encercler). Le sens premier est « armée, troupe » (sens resté dans 师, division militaire) ; il s'est étendu au chef, puis au « maître, enseignant ». La partie gauche simplifiée ressemble à 刂 mais n'est pas un couteau.",
+  "components": [
+   {
+    "c": "刂",
+    "role": "forme",
+    "fr": "(abrège 𠂤, campement)"
+   },
+   {
+    "c": "帀",
+    "role": "sens",
+    "fr": "encercler, faire le tour"
+   }
+  ],
+  "mnemonic_fr": "Le maître fait le tour 帀 de la classe avec sa baguette et montre le tableau : c'est le professeur !",
+  "scene_fr": "Un professeur qui montre le tableau avec une baguette",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"76\" y=\"26\" width=\"110\" height=\"88\" rx=\"4\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M90 52H160M90 72H174M90 92H136\" stroke-width=\"3\"/><g transform=\"translate(44 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L36 -98M-15 0L0 -34L15 0\"/></g><path d=\"M80 84L104 64\" stroke-width=\"3\"/><path d=\"M14 182H120\"/></svg>"
+ },
+ "六": {
+  "type": "emprunt phonétique",
+  "origin_fr": "Dans les formes anciennes, 六 dessine une petite hutte, un abri au toit pointu (rapproché de 庐, « cabane »). Le caractère a été emprunté pour sa prononciation afin d'écrire le nombre six. Cette lecture « hutte » est la plus répandue mais reste discutée.",
+  "components": [
+   {
+    "c": "亠",
+    "role": "forme",
+    "fr": "toit"
+   },
+   {
+    "c": "八",
+    "role": "forme",
+    "fr": "murs, pieds de la hutte"
+   }
+  ],
+  "mnemonic_fr": "Une petite hutte au toit pointu 亠 posée sur ses deux pieds 八 : six personnes y dorment serrées.",
+  "scene_fr": "Une petite hutte au toit de chaume pointu",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 18V30\"/><path d=\"M22 94L100 30L178 94Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M60 64L44 94M80 48L70 94M120 48L130 94M140 64L156 94\" stroke-width=\"2.5\"/><path d=\"M58 94L44 182M142 94L156 182\"/><path d=\"M86 182V138H114V182\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M20 182H180\"/></svg>"
+ },
+ "唱": {
+  "type": "idéo-phonétique",
+  "origin_fr": "唱 associe la clé 口 (bouche) pour le sens et 昌 (chāng, éclatant) pour le son. Sens premier : « entonner, lancer le chant (que d'autres reprennent) », d'où « chanter ».",
+  "components": [
+   {
+    "c": "口",
+    "role": "sens",
+    "fr": "bouche"
+   },
+   {
+    "c": "昌",
+    "role": "son",
+    "fr": "éclatant, prospère (chāng)"
+   }
+  ],
+  "mnemonic_fr": "La bouche 口 chante d'une voix éclatante 昌 dans le micro, sous deux projecteurs (日日).",
+  "scene_fr": "Un micro sur pied avec des notes de musique",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"100\" cy=\"58\" rx=\"22\" ry=\"28\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M80 50H120M80 64H120M100 30V86\" stroke-width=\"2.5\"/><path d=\"M90 88L96 140H104L110 88Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M100 140V178M74 182H126\"/><ellipse cx=\"36\" cy=\"90\" rx=\"8\" ry=\"6\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M43 90V56Q54 62 56 72\"/><ellipse cx=\"150\" cy=\"74\" rx=\"8\" ry=\"6\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M157 74V40Q168 46 170 56\"/><path d=\"M150 118q10 10 0 20M162 110q16 18 0 36M50 118q-10 10 0 20\" stroke-width=\"3\"/></svg>"
+ },
+ "病": {
+  "type": "idéo-phonétique",
+  "origin_fr": "病 associe la clé 疒 (un lit sur lequel est couché un malade) pour le sens et 丙 (bǐng) pour le son. Le Shuowen distingue 疾 (mal léger) et 病 (maladie grave). Sens : « maladie, tomber malade ».",
+  "components": [
+   {
+    "c": "疒",
+    "role": "sens",
+    "fr": "lit de malade"
+   },
+   {
+    "c": "丙",
+    "role": "son",
+    "fr": "troisième (bǐng → bìng)"
+   }
+  ],
+  "mnemonic_fr": "Sous le toit penché 疒, quelqu'un est couché dans son lit avec un thermomètre : il est malade.",
+  "scene_fr": "Un malade au lit avec un thermomètre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 142H186M14 112V174M186 128V174\"/><ellipse cx=\"40\" cy=\"118\" rx=\"16\" ry=\"8\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"46\" cy=\"106\" r=\"13\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M56 110L82 96\" stroke-width=\"3\"/><circle cx=\"84\" cy=\"95\" r=\"3.5\" fill=\"currentColor\"/><path d=\"M58 126Q110 100 182 124V142H58Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M40 76q8 -8 0 -16q-8 -8 0 -16M58 70q8 -8 0 -16\" stroke-width=\"3\"/></svg>"
+ },
+ "名": {
+  "type": "idéogramme composé",
+  "origin_fr": "名 associe 夕 (soir) et 口 (bouche). Selon le Shuowen, le soir, dans l'obscurité, on ne se voit plus : il faut donc dire son nom pour se faire reconnaître. Sens : « nom », puis « célèbre » et classificateur des personnes.",
+  "components": [
+   {
+    "c": "夕",
+    "role": "sens",
+    "fr": "soir"
+   },
+   {
+    "c": "口",
+    "role": "sens",
+    "fr": "bouche"
+   }
+  ],
+  "mnemonic_fr": "Le soir 夕 il fait noir, alors on crie 口 son nom pour se faire reconnaître : « C'est moi, Paul ! »",
+  "scene_fr": "Quelqu'un qui crie son nom sous la lune",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M56 22A24 24 0 1 0 56 70A15 24 0 1 1 56 22Z\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M120 26v8M116 30h8M170 52v8M166 56h8\" stroke-width=\"3\"/><g transform=\"translate(104 182) scale(1.05)\" stroke-width=\"3.8\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L-8 -86M22 -50L8 -86M-15 0L0 -34L15 0\"/></g><path d=\"M126 90q8 6 0 12M138 82q14 14 0 28M150 74q20 22 0 44\" stroke-width=\"3\"/><path d=\"M40 182H170\"/></svg>"
+ },
+ "字": {
+  "type": "idéo-phonétique",
+  "origin_fr": "字 associe 宀 (toit, maison) et 子 (enfant), qui donne aussi le son. Le sens premier est « mettre au monde, élever des enfants » sous son toit. Par analogie, les caractères composés, qui « naissent » des caractères simples (文) et se multiplient, ont été appelés 字 : « caractère écrit, mot ».",
+  "components": [
+   {
+    "c": "宀",
+    "role": "sens",
+    "fr": "toit, maison"
+   },
+   {
+    "c": "子",
+    "role": "son",
+    "fr": "enfant (zǐ → zì)"
+   }
+  ],
+  "mnemonic_fr": "Sous le toit 宀, l'enfant 子 apprend à tracer ses premiers caractères au pinceau.",
+  "scene_fr": "Un enfant qui trace des caractères sous un toit",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 22V10\"/><path d=\"M22 70L100 22L178 70\"/><path d=\"M38 62V184M162 62V184\"/><circle cx=\"74\" cy=\"110\" r=\"15\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M74 125V160M74 160L64 184M74 160L84 184M74 136L106 122\"/><rect x=\"104\" y=\"92\" width=\"46\" height=\"62\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M116 106H138M127 100V146M116 124Q128 132 138 120\" stroke-width=\"3\"/></svg>"
+ },
+ "马": {
+  "type": "pictogramme",
+  "origin_fr": "马 simplifie 馬, pictogramme d'un cheval dressé : la tête, la crinière flottante (les traits horizontaux), les pattes (les quatre points de 灬) et la queue. La simplification vient de la cursive. Sens : « cheval » ; on le retrouve comme partie sonore dans 妈, 吗, 骂.",
+  "components": [],
+  "mnemonic_fr": "Un cheval au galop, crinière au vent : la forme 马 garde la tête, le dos et la queue qui fouette l'air.",
+  "scene_fr": "Un cheval au galop, crinière au vent",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M62 96C62 78 90 74 110 76C130 76 146 80 148 96C148 112 130 118 104 118C82 118 62 114 62 96Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M58 42C46 34 30 40 20 58C18 64 24 68 30 64L46 56C50 66 56 80 66 90M58 42C66 52 76 66 90 78\" fill=\"currentColor\" fill-opacity=\".1\"/><path d=\"M52 40L54 27L61 39\"/><circle cx=\"38\" cy=\"48\" r=\"2\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M60 40Q74 42 72 54Q84 56 82 66Q94 68 94 78\"  stroke-width=\"3\"/><path d=\"M74 114L54 138L40 146M86 117L80 146L66 156M132 112L150 136L168 142M122 116L126 148L140 158\"/><path d=\"M146 88C166 82 178 96 182 118M146 94C162 98 168 110 166 126\"  stroke-width=\"3\"/><path d=\"M14 172H186\"/><path d=\"M180 60h-14M186 74h-12M30 162h-12\"  stroke-width=\"3\"/></svg>"
+ },
+ "机": {
+  "type": "idéo-phonétique",
+  "origin_fr": "机 servait à l'origine à écrire le nom d'un arbre et la petite table (几). Il a été choisi comme forme simplifiée de 機 : clé 木 (bois) et 幾 (jī) pour le son, qui désignait le mécanisme de détente d'une arbalète, d'où « mécanisme, machine », « occasion » et 飞机 (avion).",
+  "components": [
+   {
+    "c": "木",
+    "role": "sens",
+    "fr": "bois"
+   },
+   {
+    "c": "几",
+    "role": "son",
+    "fr": "petite table (jī)"
+   }
+  ],
+  "mnemonic_fr": "Une machine en bois 木 posée sur une petite table 几, pleine d'engrenages qui tournent.",
+  "scene_fr": "Deux engrenages qui s'emboîtent",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M120 112L130 113L130 123L120 124L118 130L116 136L123 143L118 151L108 146L104 150L98 154L100 164L91 167L86 158L80 158L74 158L69 167L60 164L62 154L56 150L52 146L42 151L37 143L44 136L42 130L40 124L30 123L30 113L40 112L42 106L44 100L37 93L42 85L52 90L56 86L62 82L60 72L69 69L74 78L80 78L86 78L91 69L100 72L98 82L104 86L108 90L118 85L123 93L116 100L118 106Z\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"80\" cy=\"118\" r=\"14.0\"/><path d=\"M170 65L178 68L176 76L167 74L164 79L160 82L164 91L157 95L151 87L146 88L141 88L138 96L130 94L132 85L127 82L124 78L115 82L111 75L119 69L118 64L118 59L110 56L112 48L121 50L124 45L128 42L124 33L131 29L137 37L142 36L147 36L150 28L158 30L156 39L161 42L164 46L173 42L177 49L169 55L170 60Z\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"144\" cy=\"62\" r=\"9.1\"/><path d=\"M20 182H140\"/></svg>"
+ },
+ "忙": {
+  "type": "idéo-phonétique",
+  "origin_fr": "忙 associe la clé 忄 (cœur, état d'esprit) pour le sens et 亡 (wáng) pour le son. Sens : « occupé, affairé ». L'interprétation populaire « le cœur qui meurt (亡) » est un moyen mnémotechnique : 亡 ne fait ici que donner la prononciation.",
+  "components": [
+   {
+    "c": "忄",
+    "role": "sens",
+    "fr": "cœur"
+   },
+   {
+    "c": "亡",
+    "role": "son",
+    "fr": "perdre, mourir (wáng → máng)"
+   }
+  ],
+  "mnemonic_fr": "Tellement occupé que le cœur 忄 s'y perd 亡 : on court partout, l'horloge tourne !",
+  "scene_fr": "Une personne débordée qui court, papiers et horloge",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"150\" cy=\"46\" r=\"26\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M150 46V30M150 46L162 54\"/><circle cx=\"88\" cy=\"62\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M84 76L74 118M80 88L104 96L116 84M80 88L56 98L44 88M74 118L98 136L94 168M74 118L54 146L32 148\"/><path d=\"M120 104L140 98L144 118L124 124ZM130 130L150 132L146 152L126 148Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M68 40q-4 8 0 10q4 -2 0 -10\" stroke-width=\"3\"/><path d=\"M24 176H176\"/></svg>"
+ },
+ "十": {
+  "type": "idéogramme",
+  "origin_fr": "Dans les inscriptions oraculaires, dix s'écrivait par un simple trait vertical ; le bronze y ajoute un point (un nœud sur une corde de comptage), devenu ensuite le trait horizontal. 十 note le compte complet des dix doigts, d'où aussi l'idée de « complet » (十分, tout à fait).",
+  "components": [
+   {
+    "c": "一",
+    "role": "forme",
+    "fr": "trait horizontal (ancien nœud)"
+   },
+   {
+    "c": "丨",
+    "role": "forme",
+    "fr": "trait vertical"
+   }
+  ],
+  "mnemonic_fr": "Deux bâtons croisés et noués au milieu : le compte est complet, c'est dix !",
+  "scene_fr": "Deux bâtons croisés noués au centre",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 16V184\" stroke-width=\"8\"/><path d=\"M16 100H184\" stroke-width=\"8\"/><circle cx=\"100\" cy=\"100\" r=\"13\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M90 92L76 74M110 108L126 130\" stroke-width=\"3\"/><circle cx=\"30\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"45\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"60\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"75\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"90\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"110\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"125\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"140\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"155\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"170\" cy=\"170\" r=\"3\" fill=\"currentColor\"/></svg>"
+ },
+ "汽": {
+  "type": "idéo-phonétique",
+  "origin_fr": "汽 associe la clé 氵 (eau) pour le sens et 气 (qì, souffle, vapeur) pour le son et une partie du sens. Le Shuowen le glose « l'eau qui s'épuise » ; il a pris le sens moderne de « vapeur », d'où 汽车 (voiture, « véhicule à vapeur »).",
+  "components": [
+   {
+    "c": "氵",
+    "role": "sens",
+    "fr": "eau"
+   },
+   {
+    "c": "气",
+    "role": "son",
+    "fr": "air, gaz (qì)"
+   }
+  ],
+  "mnemonic_fr": "L'eau 氵 chauffe et se transforme en gaz 气 : la bouilloire crache de la vapeur !",
+  "scene_fr": "Une bouilloire qui siffle et crache de la vapeur",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M46 172Q36 112 78 98H122Q164 112 154 172Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M78 98Q100 84 122 98\"/><circle cx=\"100\" cy=\"84\" r=\"5\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M64 100Q100 46 136 100\"/><path d=\"M152 138L174 108L180 114L158 154\"/><path d=\"M176 98Q164 82 176 66Q186 50 172 34\" stroke-width=\"3\"/><path d=\"M30 182H170\"/></svg>"
+ },
+ "爸": {
+  "type": "idéo-phonétique",
+  "origin_fr": "爸 est un caractère tardif : clé 父 (père) pour le sens et 巴 (bā) pour le son. 父 dessinait à l'origine une main tenant une hache de pierre ou un bâton, signe d'autorité. 爸 note le mot familier « papa ».",
+  "components": [
+   {
+    "c": "父",
+    "role": "sens",
+    "fr": "père"
+   },
+   {
+    "c": "巴",
+    "role": "son",
+    "fr": "(bā → bà)"
+   }
+  ],
+  "mnemonic_fr": "Le père 父 avec sa grosse moustache, qui fait « ba-ba ! » 巴 : c'est papa.",
+  "scene_fr": "Le visage souriant de papa avec une grosse moustache",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"84\" r=\"46\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M60 64Q70 30 100 34Q130 30 140 64\"/><circle cx=\"82\" cy=\"80\" r=\"9\"/><circle cx=\"118\" cy=\"80\" r=\"9\"/><path d=\"M91 80H109\"/><path d=\"M74 106Q88 96 100 106Q112 96 126 106Q112 116 100 110Q88 116 74 106Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M88 118Q100 126 112 118\"/><path d=\"M40 186Q50 150 80 144M160 186Q150 150 120 144\"/><path d=\"M100 152L92 164L100 182L108 164Z\" fill=\"currentColor\" fill-opacity=\".3\"/></svg>"
+ },
+ "兴": {
+  "type": "idéogramme composé",
+  "origin_fr": "兴 simplifie 興 : quatre mains (舁) qui soulèvent ensemble un objet (同, souvent interprété comme une civière ou un plateau). L'idée est « soulever, se lever », d'où « prospérer, commencer » et, lu xìng, « enthousiasme, intérêt » (高兴, content).",
+  "components": [
+   {
+    "c": "⺍",
+    "role": "forme",
+    "fr": "mains du haut (abrégées)"
+   },
+   {
+    "c": "一",
+    "role": "forme",
+    "fr": "l'objet soulevé"
+   },
+   {
+    "c": "八",
+    "role": "forme",
+    "fr": "mains du bas / jambes"
+   }
+  ],
+  "mnemonic_fr": "Deux amis soulèvent ensemble un plateau de fruits au-dessus de leurs têtes : quelle joie, tout le monde est content !",
+  "scene_fr": "Deux personnes soulèvent un plateau, joyeuses",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(52 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M-22 -50L0 -64L20 -108M-15 0L0 -34L15 0\"/></g><g transform=\"translate(148 182) scale(1)\"><circle cx=\"0\" cy=\"-86\" r=\"12\" fill=\"currentColor\" fill-opacity=\".3\"/><path d=\"M0 -74V-34M22 -50L0 -64L-20 -108M-15 0L0 -34L15 0\"/></g><path d=\"M60 74H140L132 60H68Z\" fill=\"currentColor\" fill-opacity=\".3\"/><circle cx=\"84\" cy=\"50\" r=\"9\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"102\" cy=\"46\" r=\"9\" fill=\"currentColor\" fill-opacity=\".18\"/><circle cx=\"120\" cy=\"50\" r=\"9\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M100 14v12M94 20h12M40 30v10M35 35h10M160 30v10M155 35h10\" stroke-width=\"3\"/><path d=\"M20 182H180\"/></svg>"
+ },
+ "热": {
+  "type": "idéo-phonétique",
+  "origin_fr": "热 simplifie 熱 : clé 灬 (feu) pour le sens et 埶 (yì), qui donne le son ; 埶 représente une personne qui plante un arbre. La forme simplifiée remplace 埶 par 执. Sens : « chaud, chaleur, chauffer », et au figuré « ardent, populaire » (热闹, 热情).",
+  "components": [
+   {
+    "c": "执",
+    "role": "son",
+    "fr": "tenir (abrège 埶)"
+   },
+   {
+    "c": "灬",
+    "role": "sens",
+    "fr": "feu"
+   }
+  ],
+  "mnemonic_fr": "On tient 执 la marmite au-dessus des quatre flammes 灬 : ça chauffe, c'est chaud !",
+  "scene_fr": "Une marmite fumante sur quatre flammes",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M40 72H160V110Q160 130 140 130H60Q40 130 40 110Z\" fill=\"currentColor\" fill-opacity=\".18\"/><path d=\"M28 76H40M160 76H172\"/><path d=\"M76 58q-8 -12 0 -24q8 -12 0 -24M100 58q-8 -12 0 -24q8 -12 0 -24M124 58q-8 -12 0 -24q8 -12 0 -24\" stroke-width=\"3\"/><path d=\"M62 180Q51 162 62 142Q73 162 62 180Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M88 180Q77 162 88 142Q99 162 88 180Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M114 180Q103 162 114 142Q125 162 114 180Z\" fill=\"currentColor\" fill-opacity=\".45\"/><path d=\"M140 180Q129 162 140 142Q151 162 140 180Z\" fill=\"currentColor\" fill-opacity=\".45\"/></svg>"
+ },
+ "试": {
+  "type": "idéo-phonétique",
+  "origin_fr": "试 simplifie 試 : clé 言 (parole) pour le sens et 式 (shì, modèle, règle) pour le son et une partie du sens. Sens premier : « employer, mettre à l'épreuve » ; d'où « essayer » et « examen » (考试).",
+  "components": [
+   {
+    "c": "讠",
+    "role": "sens",
+    "fr": "parole"
+   },
+   {
+    "c": "式",
+    "role": "son",
+    "fr": "modèle, règle (shì)"
+   }
+  ],
+  "mnemonic_fr": "On te pose des questions 讠 pour vérifier que tu suis le modèle 式 : c'est l'examen, essaie !",
+  "scene_fr": "Une copie d'examen avec cases cochées et crayon",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M34 18H144V182H34Z\" fill=\"currentColor\" fill-opacity=\".18\"/><rect x=\"48\" y=\"38\" width=\"16\" height=\"16\" rx=\"2\"/><rect x=\"48\" y=\"78\" width=\"16\" height=\"16\" rx=\"2\"/><rect x=\"48\" y=\"118\" width=\"16\" height=\"16\" rx=\"2\"/><path d=\"M50 46l5 6l10 -14M50 86l5 6l10 -14\" stroke-width=\"3\"/><path d=\"M76 46H128M76 86H128M76 126H120\" stroke-width=\"3\"/><path d=\"M180 60L136 160\" stroke-width=\"9\"/><path d=\"M136 160L132 176L144 166Z\" fill=\"currentColor\" fill-opacity=\".45\"/></svg>"
+ }
+}

@@ -9,7 +9,7 @@
   "main": "dist/main/main.js",
   "type": "commonjs",
   "scripts": {
-    "build:data": "node scripts/build-data.mjs",
+    "build:data": "node scripts/build-data.mjs && node scripts/build-chars.mjs && node scripts/build-word-videos.mjs",
     "build:main": "node scripts/build-main.mjs",
     "build:renderer": "vite build",
     "build": "npm run build:main && npm run build:renderer",
@@ -19,7 +19,7 @@
     "dist": "npm run build && electron-builder --linux AppImage --publish never",
     "fetch-binaries": "bash scripts/fetch-binaries.sh",
     "programme": "node scripts/gen-programme.mjs",
-    "fetch:bin": "bash scripts/fetch-binaries.sh && bash scripts/fetch-piper.sh",
+    "fetch:bin": "bash scripts/fetch-binaries.sh && bash scripts/fetch-piper.sh && bash scripts/fetch-tts.sh && bash scripts/fetch-audio.sh",
     "fetch:data": "bash scripts/fetch-data.sh"
   },
   "build": {
@@ -43,10 +43,19 @@
         "to": "bin"
       },
       {
+        "from": "resources/tts",
+        "to": "tts"
+      },
+      {
+        "from": "resources/audio",
+        "to": "audio"
+      },
+      {
         "from": "content",
         "to": "content",
         "filter": [
-          "**/*.json"
+          "**/*.json",
+          "!chars/**"
         ]
       },
       {
@@ -55,7 +64,8 @@
       }
     ],
     "asarUnpack": [
-      "**/*.wasm"
+      "**/*.wasm",
+      "**/node_modules/sherpa-onnx-linux-x64/**"
     ],
     "linux": {
       "target": [
@@ -70,6 +80,7 @@
   },
   "dependencies": {
     "jieba-wasm": "^2.4.0",
+    "sherpa-onnx-node": "^2.0.1",
     "sql.js": "^1.15.2"
   },
   "devDependencies": {
